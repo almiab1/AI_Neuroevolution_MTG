@@ -1,0 +1,10 @@
+name=Thrill of the Hunt
+image=https://magiccards.info/scans/en/ts/229.jpg
+value=2.671
+rarity=C
+type=Instant
+cost={G}
+effect=Target creature gets +1/+2 until end of turn.
+ability=Flashback {W}
+timing=pumpFlash
+oracle=Target creature gets +1/+2 until end of turn.\nFlashback {W}

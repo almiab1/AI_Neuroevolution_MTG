@@ -1,0 +1,10 @@
+name=Nature's Ruin
+image=https://magiccards.info/scans/en/po/26.jpg
+value=4.000
+rarity=U
+type=Sorcery
+cost={2}{B}
+ability=Cast SN with AI only if an opponent controls a green creature.
+effect=Destroy all green creatures.
+timing=main
+oracle=Destroy all green creatures.

@@ -1,0 +1,11 @@
+name=Krark-Clan Ogre
+image=https://magiccards.info/scans/en/5dn/71.jpg
+value=1.948
+rarity=C
+type=Creature
+subtype=Ogre
+cost={3}{R}{R}
+pt=3/3
+ability={R}, Sacrifice an artifact: Target creature can't block this turn.
+timing=main
+oracle={R}, Sacrifice an artifact: Target creature can't block this turn.

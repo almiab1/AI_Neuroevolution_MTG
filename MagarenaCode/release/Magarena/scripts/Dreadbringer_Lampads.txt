@@ -1,0 +1,12 @@
+name=Dreadbringer Lampads
+image=https://magiccards.info/scans/en/jou/67.jpg
+image_updated=2016-02-29
+value=3.119
+rarity=C
+type=Enchantment,Creature
+subtype=Nymph
+cost={4}{B}
+pt=4/2
+ability=Whenever SN or another enchantment enters the battlefield under your control, target creature gains intimidate until end of turn.
+timing=fmain
+oracle=Constellation — Whenever Dreadbringer Lampads or another enchantment enters the battlefield under your control, target creature gains intimidate until end of turn.

@@ -1,0 +1,12 @@
+name=Grounded
+image=https://magiccards.info/scans/en/avr/181.jpg
+value=1.028
+rarity=C
+type=Enchantment
+subtype=Aura
+cost={1}{G}
+ability=Enchant creature
+timing=aura
+enchant=lose flying,neg creature
+oracle=Enchant creature\nEnchanted creature loses flying.
+requires_groovy_code

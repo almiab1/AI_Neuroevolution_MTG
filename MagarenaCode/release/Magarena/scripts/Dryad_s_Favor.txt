@@ -1,0 +1,12 @@
+name=Dryad's Favor
+image=https://magiccards.info/scans/en/m11/169.jpg
+value=1.240
+rarity=C
+type=Enchantment
+subtype=Aura
+cost={G}
+ability=Enchant creature;\
+        Enchanted creature has forestwalk.
+timing=aura
+enchant=unblockable,pos creature
+oracle=Enchant creature\nEnchanted creature has forestwalk.

@@ -1,0 +1,10 @@
+name=Mind's Eye
+image=https://magiccards.info/scans/en/mi/205.jpg
+image_updated=2016-12-23
+value=4.109
+rarity=R
+type=Artifact
+cost={5}
+ability=Whenever an opponent draws a card, you may pay {1}. If you do, draw a card.
+timing=artifact
+oracle=Whenever an opponent draws a card, you may pay {1}. If you do, draw a card.

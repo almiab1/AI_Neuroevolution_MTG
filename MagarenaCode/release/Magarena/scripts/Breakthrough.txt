@@ -1,0 +1,9 @@
+name=Breakthrough
+image=https://magiccards.info/scans/en/cns/92.jpg
+value=4.500
+rarity=U
+type=Sorcery
+cost={X}{U}
+timing=draw
+requires_groovy_code
+oracle=Draw four cards, then choose X cards in your hand and discard the rest.

@@ -1,0 +1,9 @@
+name=Neck Snap
+image=https://magiccards.info/scans/en/lw/32.jpg
+value=2.267
+rarity=C
+type=Instant
+cost={3}{W}
+effect=Destroy target attacking or blocking creature.
+timing=removal
+oracle=Destroy target attacking or blocking creature.

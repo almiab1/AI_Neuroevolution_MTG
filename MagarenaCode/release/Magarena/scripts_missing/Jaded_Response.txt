@@ -1,0 +1,10 @@
+name=Jaded Response
+image=https://magiccards.info/scans/en/ap/26.jpg
+value=2.766
+rarity=C
+type=Instant
+cost={1}{U}
+effect=Counter target spell if it shares a color with a creature you control.
+timing=counter
+oracle=Counter target spell if it shares a color with a creature you control.
+status=needs groovy

@@ -1,0 +1,9 @@
+name=Bull Rush
+image=https://magiccards.info/scans/en/wwk/73.jpg
+value=0.998
+rarity=C
+type=Instant
+cost={R}
+effect=Target creature gets +2/+0 until end of turn.
+timing=pump
+oracle=Target creature gets +2/+0 until end of turn.

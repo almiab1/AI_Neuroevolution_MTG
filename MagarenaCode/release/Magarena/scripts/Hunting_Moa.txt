@@ -1,0 +1,13 @@
+name=Hunting Moa
+image=https://magiccards.info/scans/en/ud/109.jpg
+image_updated=2016-12-13
+value=4.018
+rarity=U
+type=Creature
+subtype=Bird,Beast
+cost={2}{G}
+pt=3/2
+ability=Echo {2}{G};\
+        When SN enters the battlefield or dies, put a +1/+1 counter on target creature.
+timing=main
+oracle=Echo {2}{G}\nWhen Hunting Moa enters the battlefield or dies, put a +1/+1 counter on target creature.

@@ -1,0 +1,12 @@
+name=Pilgrim's Eye
+image=https://magiccards.info/scans/en/ema/229.jpg
+value=3.111
+rarity=C
+type=Artifact,Creature
+subtype=Thopter
+cost={3}
+pt=1/1
+ability=Flying;\
+        When SN enters the battlefield, you may search your library for a basic land card, reveal it, put it into your hand, then shuffle your library.
+timing=main
+oracle=Flying\nWhen Pilgrim's Eye enters the battlefield, you may search your library for a basic land card, reveal it, put it into your hand, then shuffle your library.

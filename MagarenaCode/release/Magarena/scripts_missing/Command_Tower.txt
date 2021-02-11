@@ -1,0 +1,10 @@
+name=Command Tower
+image=https://magiccards.info/scans/en/c16/286.jpg
+image_updated=2017-08-17
+value=3.596
+rarity=C
+type=Land
+ability={T}: Add one mana of any color in your commander's color identity.
+timing=land
+oracle={T}: Add one mana of any color in your commander's color identity.
+status=not supported: commander

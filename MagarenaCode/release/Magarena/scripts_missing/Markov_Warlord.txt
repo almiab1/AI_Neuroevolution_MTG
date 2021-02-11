@@ -1,0 +1,13 @@
+name=Markov Warlord
+image=https://magiccards.info/scans/en/dka/97.jpg
+value=2.769
+rarity=U
+type=Creature
+subtype=Vampire,Warrior
+cost={5}{R}
+pt=4/4
+ability=Haste;\
+        When SN enters the battlefield, up to two target creatures can't block this turn.
+timing=fmain
+oracle=Haste\nWhen Markov Warlord enters the battlefield, up to two target creatures can't block this turn.
+status=not supported: multiple-targets

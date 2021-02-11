@@ -1,0 +1,9 @@
+name=Reflecting Pool
+image=https://magiccards.info/scans/en/cns/210.jpg
+value=4.438
+rarity=R
+type=Land
+ability={T}: Add one mana of any type that a land you control could produce.
+timing=land
+oracle={T}: Add one mana of any type that a land you control could produce.
+status=not supported: could produce

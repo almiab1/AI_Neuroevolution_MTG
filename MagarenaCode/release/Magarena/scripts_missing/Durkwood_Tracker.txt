@@ -1,0 +1,12 @@
+name=Durkwood Tracker
+image=https://magiccards.info/scans/en/ts/194.jpg
+value=2.500
+rarity=U
+type=Creature
+subtype=Giant
+cost={4}{G}
+pt=4/3
+ability={1}{G}, {T}: If SN is on the battlefield, it deals damage equal to its power to target attacking creature. That creature deals damage equal to its power to SN.
+timing=main
+oracle={1}{G}, {T}: If Durkwood Tracker is on the battlefield, it deals damage equal to its power to target attacking creature. That creature deals damage equal to its power to Durkwood Tracker.
+status=needs groovy

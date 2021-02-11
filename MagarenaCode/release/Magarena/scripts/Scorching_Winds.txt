@@ -1,0 +1,10 @@
+name=Scorching Winds
+image=https://magiccards.info/scans/en/po/155.jpg
+value=3.139
+rarity=U
+type=Instant
+cost={R}
+ability=Cast this spell only during the declare attackers step and only if you've been attacked this step.
+effect=SN deals 1 damage to each attacking creature.
+timing=removal
+oracle=Cast this spell only during the declare attackers step and only if you've been attacked this step.\nScorching Winds deals 1 damage to each attacking creature.

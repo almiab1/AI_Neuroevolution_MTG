@@ -1,0 +1,9 @@
+name=Bedlam
+image=https://magiccards.info/scans/en/7e/174.jpg
+value=4.137
+rarity=R
+type=Enchantment
+cost={2}{R}{R}
+ability=Creatures can't block.
+timing=enchantment
+oracle=Creatures can't block.

@@ -1,0 +1,11 @@
+name=Crucible of Fire
+image=https://magiccards.info/scans/en/ima/122.jpg
+image_updated=2017-04-12
+value=2.700
+rarity=R
+type=Enchantment
+cost={3}{R}
+ability=Dragon creatures you control get +3/+3.
+static=player
+timing=enchantment
+oracle=Dragon creatures you control get +3/+3.

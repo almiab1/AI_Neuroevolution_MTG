@@ -1,0 +1,14 @@
+name=Sheoldred, Whispering One
+image=https://magiccards.info/scans/en/ima/108.jpg
+image_updated=2017-04-12
+value=3.917
+rarity=M
+type=Legendary,Creature
+subtype=Praetor
+cost={5}{B}{B}
+pt=6/6
+ability=Swampwalk;\
+        At the beginning of your upkeep, return target creature card from your graveyard to the battlefield.;\
+        At the beginning of each opponent's upkeep, that player sacrifices a creature.
+timing=main
+oracle=Swampwalk\nAt the beginning of your upkeep, return target creature card from your graveyard to the battlefield.\nAt the beginning of each opponent's upkeep, that player sacrifices a creature.

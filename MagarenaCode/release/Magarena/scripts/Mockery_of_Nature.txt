@@ -1,0 +1,13 @@
+name=Mockery of Nature
+image=https://magiccards.info/scans/en/emn/10.jpg
+image_updated=2016-09-05
+value=2.500
+rarity=U
+type=Creature
+subtype=Eldrazi,Beast
+cost={9}
+pt=6/5
+ability=Emerge {7}{G};\
+        When you cast SN, you may destroy target artifact or enchantment.
+timing=main
+oracle=Emerge {7}{G}\nWhen you cast Mockery of Nature, you may destroy target artifact or enchantment.

@@ -1,0 +1,10 @@
+name=7/7 green Elemental creature token with trample
+token=Elemental
+image=https://img.scryfall.com/cards/border_crop/en/tevg/1.jpg?1530590969
+value=5
+type=Creature
+subtype=Elemental
+color=g
+ability=Trample
+pt=7/7
+oracle=Trample

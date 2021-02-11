@@ -1,0 +1,13 @@
+name=Call
+image=https://magiccards.info/scans/en/dgm/123b.jpg
+value=3.889
+rarity=R
+type=Sorcery
+cost={4}{W}{U}
+ability=Fuse
+effect=Create four 1/1 white Bird creature tokens with flying.
+split=Beck
+timing=token
+second_half
+oracle=Create four 1/1 white Bird creature tokens with flying.\nFuse
+status=not supported: split-card

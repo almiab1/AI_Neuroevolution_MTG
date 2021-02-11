@@ -1,0 +1,13 @@
+name=Grixis Slavedriver
+image=https://magiccards.info/scans/en/mm3/74.jpg
+image_updated=2017-08-08
+value=3.032
+rarity=C
+type=Creature
+subtype=Zombie,Giant
+cost={5}{B}
+pt=4/4
+ability=When SN leaves the battlefield, create a 2/2 black Zombie creature token.;\
+        Unearth {3}{B}
+timing=main
+oracle=When Grixis Slavedriver leaves the battlefield, create a 2/2 black Zombie creature token.\nUnearth {3}{B}

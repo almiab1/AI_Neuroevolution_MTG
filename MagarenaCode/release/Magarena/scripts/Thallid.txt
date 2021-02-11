@@ -1,0 +1,12 @@
+name=Thallid
+image=https://magiccards.info/scans/en/mma/167.jpg
+value=4.014
+rarity=C
+type=Creature
+subtype=Fungus
+cost={G}
+pt=1/1
+ability=At the beginning of your upkeep, put a spore counter on SN.;\
+        Remove three spore counters from SN: Create a 1/1 green Saproling creature token.
+timing=main
+oracle=At the beginning of your upkeep, put a spore counter on Thallid.\nRemove three spore counters from Thallid: Create a 1/1 green Saproling creature token.

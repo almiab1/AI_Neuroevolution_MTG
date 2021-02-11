@@ -1,0 +1,11 @@
+name=Woodborn Behemoth
+image=https://magiccards.info/scans/en/m14/203.jpg
+value=3.629
+rarity=U
+type=Creature
+subtype=Elemental
+cost={3}{G}{G}
+pt=4/4
+ability=As long as you control eight or more lands, SN gets +4/+4 and has trample.
+timing=main
+oracle=As long as you control eight or more lands, Woodborn Behemoth gets +4/+4 and has trample.

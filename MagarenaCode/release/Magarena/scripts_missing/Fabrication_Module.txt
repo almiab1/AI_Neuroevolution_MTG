@@ -1,0 +1,12 @@
+name=Fabrication Module
+image=https://magiccards.info/scans/en/kld/211.jpg
+image_updated=2016-10-05
+value=2.500
+rarity=U
+type=Artifact
+cost={3}
+ability=Whenever you get one or more {E}, put a +1/+1 counter on target creature you control.;\
+        {4}, {T}: You get {E}.
+timing=artifact
+oracle=Whenever you get one or more {E}, put a +1/+1 counter on target creature you control.\n{4}, {T}: You get {E}.
+status=not supported: when-get-e

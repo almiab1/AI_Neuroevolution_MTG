@@ -1,0 +1,11 @@
+name=Bog Wreckage
+image=https://magiccards.info/scans/en/od/314.jpg
+value=2.229
+rarity=C
+type=Land
+mana=w1u1b3r1g1
+ability=SN enters the battlefield tapped.;\
+        {T}: Add {B}.;\
+        {T}, Sacrifice SN: Add one mana of any color.
+timing=tapland
+oracle=Bog Wreckage enters the battlefield tapped.\n{T}: Add {B}.\n{T}, Sacrifice Bog Wreckage: Add one mana of any color.

@@ -1,0 +1,11 @@
+name=Simic Signet
+image=https://magiccards.info/scans/en/mm3/227.jpg
+image_updated=2017-08-08
+value=3.636
+rarity=U
+type=Artifact
+cost={2}
+ability={1}, {T}: Add {G}{U}.
+timing=artifact
+oracle={1}, {T}: Add {G}{U}.
+status=not supported: add-multiple-mana

@@ -1,0 +1,12 @@
+name=Razorfoot Griffin
+image=https://magiccards.info/scans/en/m15/27.jpg
+value=2.250
+rarity=C
+type=Creature
+subtype=Griffin
+cost={3}{W}
+pt=2/2
+ability=Flying;\
+        First strike
+timing=main
+oracle=Flying\nFirst strike

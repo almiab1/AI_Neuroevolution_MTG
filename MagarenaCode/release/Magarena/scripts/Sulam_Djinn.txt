@@ -1,0 +1,12 @@
+name=Sulam Djinn
+image=https://magiccards.info/scans/en/in/212.jpg
+value=1.909
+rarity=U
+type=Creature
+subtype=Djinn
+cost={5}{G}
+pt=6/6
+ability=Trample
+timing=main
+requires_groovy_code
+oracle=Trample\nSulam Djinn gets -2/-2 as long as green is the most common color among all permanents or is tied for most common.

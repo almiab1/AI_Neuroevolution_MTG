@@ -1,0 +1,11 @@
+name=Demystify
+image=https://magiccards.info/scans/en/xln/8.jpg
+image_updated=2017-10-30
+value=2.969
+removal=1
+rarity=C
+type=Instant
+cost={W}
+effect=Destroy target enchantment.
+timing=removal
+oracle=Destroy target enchantment.

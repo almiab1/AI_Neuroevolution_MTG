@@ -1,0 +1,10 @@
+name=Hurricane
+image=https://magiccards.info/scans/en/10e/270.jpg
+value=3.947
+removal=2
+rarity=R
+type=Sorcery
+cost={X}{G}
+effect=SN deals X damage to each creature with flying and each player.
+timing=removal
+oracle=Hurricane deals X damage to each creature with flying and each player.

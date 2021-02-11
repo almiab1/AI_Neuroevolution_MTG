@@ -1,0 +1,10 @@
+name=Fork
+image=https://magiccards.info/scans/en/rv/152.jpg
+value=4.520
+rarity=R
+type=Instant
+cost={R}{R}
+effect=Copy target instant or sorcery spell, except that the copy is red. You may choose new targets for the copy.
+timing=removal
+oracle=Copy target instant or sorcery spell, except that the copy is red. You may choose new targets for the copy.
+status=not supported: spell-modification

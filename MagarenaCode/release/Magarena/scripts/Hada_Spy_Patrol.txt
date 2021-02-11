@@ -1,0 +1,12 @@
+name=Hada Spy Patrol
+image=https://magiccards.info/scans/en/roe/71.jpg
+value=3.318
+rarity=U
+type=Creature
+subtype=Human,Rogue
+cost={1}{U}
+pt=1/1
+ability=level up {2}{U} 3
+timing=main
+requires_groovy_code
+oracle=Level up {2}{U}\nLEVEL 1-2\n2/2\nHada Spy Patrol can't be blocked.\nLEVEL 3+\n3/3\nShroud\nHada Spy Patrol can't be blocked.

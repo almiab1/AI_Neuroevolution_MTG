@@ -1,0 +1,12 @@
+name=Warden of Evos Isle
+image=https://magiccards.info/scans/en/ema/76.jpg
+value=3.658
+rarity=C
+type=Creature
+subtype=Bird,Wizard
+cost={2}{U}
+pt=2/2
+ability=Flying
+timing=main
+requires_groovy_code
+oracle=Flying\nCreature spells with flying you cast cost {1} less to cast.

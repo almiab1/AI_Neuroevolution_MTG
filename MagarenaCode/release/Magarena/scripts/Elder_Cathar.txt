@@ -1,0 +1,11 @@
+name=Elder Cathar
+image=https://magiccards.info/scans/en/isd/12.jpg
+value=3.424
+rarity=C
+type=Creature
+subtype=Human,Soldier
+cost={2}{W}
+pt=2/2
+timing=main
+requires_groovy_code
+oracle=When Elder Cathar dies, put a +1/+1 counter on target creature you control. If that creature is a Human, put two +1/+1 counters on it instead.

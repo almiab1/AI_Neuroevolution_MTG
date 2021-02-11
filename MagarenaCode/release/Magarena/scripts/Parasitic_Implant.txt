@@ -1,0 +1,12 @@
+name=Parasitic Implant
+image=https://magiccards.info/scans/en/nph/67.jpg
+value=3.043
+rarity=C
+type=Enchantment
+subtype=Aura
+cost={3}{B}
+ability=Enchant creature
+timing=aura
+enchant=sacrifice,neg creature
+oracle=Enchant creature\nAt the beginning of your upkeep, enchanted creature's controller sacrifices it and you create a 1/1 colorless Myr artifact creature token.
+requires_groovy_code

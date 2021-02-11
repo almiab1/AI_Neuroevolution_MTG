@@ -1,0 +1,11 @@
+name=Teeka's Dragon
+image=https://magiccards.info/scans/en/mr/285.jpg
+value=3.934
+rarity=R
+type=Artifact,Creature
+subtype=Dragon
+cost={9}
+pt=5/5
+ability=Flying; trample; rampage 4
+timing=main
+oracle=Flying; trample; rampage 4

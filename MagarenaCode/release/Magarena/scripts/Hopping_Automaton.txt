@@ -1,0 +1,11 @@
+name=Hopping Automaton
+image=https://magiccards.info/scans/en/us/297.jpg
+value=2.306
+rarity=U
+type=Artifact,Creature
+subtype=Construct
+cost={3}
+pt=2/2
+ability={0}: SN gets -1/-1 and gains flying until end of turn.
+timing=main
+oracle={0}: Hopping Automaton gets -1/-1 and gains flying until end of turn.

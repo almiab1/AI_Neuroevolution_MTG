@@ -1,0 +1,12 @@
+name=Development
+image=https://magiccards.info/scans/en/di/155b.jpg
+value=4.337
+rarity=R
+type=Instant
+cost={3}{U}{R}
+split=Research
+timing=token
+second_half
+effect=Create a 3/1 red Elemental creature token unless any opponent has you draw a card. Repeat this process two more times.
+oracle=Create a 3/1 red Elemental creature token unless any opponent has you draw a card. Repeat this process two more times.
+status=not supported: split-card

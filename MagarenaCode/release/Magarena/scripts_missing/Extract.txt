@@ -1,0 +1,10 @@
+name=Extract
+image=https://magiccards.info/scans/en/od/85.jpg
+value=4.326
+rarity=R
+type=Sorcery
+cost={U}
+effect=Search target player's library for a card and exile it. Then that player shuffles his or her library.
+timing=main
+oracle=Search target player's library for a card and exile it. Then that player shuffles his or her library.
+status=needs groovy

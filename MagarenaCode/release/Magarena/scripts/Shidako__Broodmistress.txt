@@ -1,0 +1,13 @@
+name=Shidako, Broodmistress
+image=https://magiccards.info/scans/en/chk/233b.jpg
+value=3.235
+rarity=U
+type=Legendary,Creature
+subtype=Snake,Shaman
+cost={2}{G}
+pt=3/3
+ability={G}, Sacrifice a creature: Target creature gets +3/+3 until end of turn.
+flip=Orochi Eggwatcher
+timing=main
+hidden
+oracle={G}, Sacrifice a creature: Target creature gets +3/+3 until end of turn.

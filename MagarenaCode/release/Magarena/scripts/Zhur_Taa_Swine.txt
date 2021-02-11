@@ -1,0 +1,11 @@
+name=Zhur-Taa Swine
+image=https://magiccards.info/scans/en/gtc/210.jpg
+value=3.167
+rarity=C
+type=Creature
+subtype=Boar
+cost={3}{R}{G}
+pt=5/4
+ability={1}{R}{G}, Discard SN: Target attacking creature gets +5/+4 until end of turn.
+timing=main
+oracle=Bloodrush — {1}{R}{G}, Discard Zhur-Taa Swine: Target attacking creature gets +5/+4 until end of turn.

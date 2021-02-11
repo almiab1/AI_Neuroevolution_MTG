@@ -1,0 +1,11 @@
+name=Ward Sliver
+image=https://magiccards.info/scans/en/le/25.jpg
+value=3.984
+rarity=U
+type=Creature
+subtype=Sliver
+cost={4}{W}
+pt=2/2
+timing=main
+requires_groovy_code
+oracle=As Ward Sliver enters the battlefield, choose a color.\nAll Slivers have protection from the chosen color.

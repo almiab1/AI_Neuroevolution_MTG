@@ -1,0 +1,10 @@
+name=Sigil Blessing
+image=https://magiccards.info/scans/en/mm2/187.jpg
+image_updated=2015-11-05
+value=2.894
+rarity=U
+type=Instant
+cost={G}{W}
+timing=pump
+requires_groovy_code
+oracle=Until end of turn, target creature you control gets +3/+3 and other creatures you control get +1/+1.

@@ -1,0 +1,13 @@
+name=Quietus Spike
+image=https://magiccards.info/scans/en/c17/220.jpg
+image_updated=2017-10-03
+value=3.059
+rarity=R
+type=Artifact
+subtype=Equipment
+cost={3}
+ability=Equipped creature has deathtouch.;\
+        Equip {3}
+timing=equipment
+requires_groovy_code
+oracle=Equipped creature has deathtouch.\nWhenever equipped creature deals combat damage to a player, that player loses half his or her life, rounded up.\nEquip {3}

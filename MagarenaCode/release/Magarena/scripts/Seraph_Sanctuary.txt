@@ -1,0 +1,10 @@
+name=Seraph Sanctuary
+image=https://magiccards.info/scans/en/avr/228.jpg
+value=2.920
+rarity=C
+type=Land
+ability=When SN enters the battlefield, you gain 1 life.;\
+        Whenever an Angel enters the battlefield under your control, you gain 1 life.;\
+        {T}: Add {C}.
+timing=fmain
+oracle=When Seraph Sanctuary enters the battlefield, you gain 1 life.\nWhenever an Angel enters the battlefield under your control, you gain 1 life.\n{T}: Add {C}.

@@ -1,0 +1,12 @@
+name=Abzan Guide
+image=https://magiccards.info/scans/en/ktk/162.jpg
+value=3.000
+rarity=C
+type=Creature
+subtype=Human,Warrior
+cost={3}{W}{B}{G}
+pt=4/4
+ability=Lifelink;\
+        Morph {2}{W}{B}{G}
+timing=main
+oracle=Lifelink\nMorph {2}{W}{B}{G}

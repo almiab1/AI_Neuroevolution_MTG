@@ -1,0 +1,10 @@
+name=Tenacity
+image=https://magiccards.info/scans/en/soi/42.jpg
+value=2.500
+rarity=U
+type=Instant
+cost={3}{W}
+ability=Cast SN with AI only if you control a creature.
+effect=Creatures you control get +1/+1 and gain lifelink until end of turn.~Untap creatures you control.
+timing=pump
+oracle=Creatures you control get +1/+1 and gain lifelink until end of turn. Untap those creatures.

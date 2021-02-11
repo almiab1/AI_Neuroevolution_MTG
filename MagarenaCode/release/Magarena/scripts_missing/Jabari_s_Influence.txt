@@ -1,0 +1,11 @@
+name=Jabari's Influence
+image=https://magiccards.info/scans/en/mr/228.jpg
+value=3.364
+rarity=R
+type=Instant
+cost={3}{W}{W}
+ability=Cast this spell only after combat.
+effect=Gain control of target nonartifact, nonblack creature that attacked you this turn and put a -1/-0 counter on it.
+timing=removal
+oracle=Cast this spell only after combat.\nGain control of target nonartifact, nonblack creature that attacked you this turn and put a -1/-0 counter on it.
+status=not supported: no-info

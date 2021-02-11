@@ -1,0 +1,12 @@
+name=Fireslinger
+image=https://magiccards.info/scans/en/tp/173.jpg
+image_updated=2016-12-02
+value=3.457
+rarity=C
+type=Creature
+subtype=Human,Wizard
+cost={1}{R}
+pt=1/1
+ability={T}: SN deals 1 damage to target creature or player and 1 damage to you.
+timing=main
+oracle={T}: Fireslinger deals 1 damage to target creature or player and 1 damage to you.

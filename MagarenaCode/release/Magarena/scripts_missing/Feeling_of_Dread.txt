@@ -1,0 +1,11 @@
+name=Feeling of Dread
+image=https://magiccards.info/scans/en/isd/14.jpg
+value=3.703
+rarity=C
+type=Instant
+cost={1}{W}
+ability=Flashback {1}{U}
+effect=Tap up to two target creatures.
+timing=removal
+oracle=Tap up to two target creatures.\nFlashback {1}{U}
+status=not supported: multiple-targets

@@ -1,0 +1,9 @@
+name=Steelshaper's Gift
+image=https://magiccards.info/scans/en/5dn/19.jpg
+value=4.176
+rarity=U
+type=Sorcery
+cost={W}
+effect=Search your library for an Equipment card, reveal that card, and put it into your hand. Then shuffle your library.
+timing=main
+oracle=Search your library for an Equipment card, reveal that card, and put it into your hand. Then shuffle your library.

@@ -1,0 +1,13 @@
+/build/
+/buildtest/
+/test/lib
+/.project
+/nbproject/
+/manifest.mf
+release/duels/
+release/Magarena/decks/firemind/
+release/Magarena/decks/*.dec
+release/Magarena/reports
+doc/doxygen/
+doc/doxygen*.tmp
+/bin/

@@ -1,0 +1,12 @@
+name=Spawnwrithe
+image=https://magiccards.info/scans/en/cmd/171.jpg
+value=3.667
+rarity=R
+type=Creature
+subtype=Elemental
+cost={2}{G}
+pt=2/2
+ability=Trample;\
+        Whenever SN deals combat damage to a player, create a token that's a copy of SN.
+timing=main
+oracle=Trample\nWhenever Spawnwrithe deals combat damage to a player, create a token that's a copy of Spawnwrithe.

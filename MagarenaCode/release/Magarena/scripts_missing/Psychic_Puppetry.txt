@@ -1,0 +1,12 @@
+name=Psychic Puppetry
+image=https://magiccards.info/scans/en/chk/80.jpg
+value=3.527
+rarity=C
+type=Instant
+subtype=Arcane
+cost={1}{U}
+ability=Splice onto Arcane {U}
+effect=You may tap or untap target permanent.
+timing=removal
+oracle=You may tap or untap target permanent.\nSplice onto Arcane {U}
+status=not supported: splice-onto-arcane

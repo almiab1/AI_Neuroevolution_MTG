@@ -1,0 +1,11 @@
+name=Viashino Weaponsmith
+image=https://magiccards.info/scans/en/us/226.jpg
+value=2.750
+rarity=C
+type=Creature
+subtype=Viashino
+cost={3}{R}
+pt=2/2
+ability=Whenever SN becomes blocked by a creature, SN gets +2/+2 until end of turn.
+timing=main
+oracle=Whenever Viashino Weaponsmith becomes blocked by a creature, Viashino Weaponsmith gets +2/+2 until end of turn.

@@ -1,0 +1,12 @@
+name=Hideous Laughter
+image=https://magiccards.info/scans/en/chk/115.jpg
+value=3.616
+rarity=U
+type=Instant
+subtype=Arcane
+cost={2}{B}{B}
+ability=Splice onto Arcane {3}{B}{B}
+effect=All creatures get -2/-2 until end of turn.
+timing=removal
+oracle=All creatures get -2/-2 until end of turn.\nSplice onto Arcane {3}{B}{B}
+status=not supported: splice-onto-arcane

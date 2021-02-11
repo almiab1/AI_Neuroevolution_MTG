@@ -1,0 +1,11 @@
+name=Rank and File
+image=https://magiccards.info/scans/en/ul/65.jpg
+value=2.904
+rarity=U
+type=Creature
+subtype=Zombie
+cost={2}{B}{B}
+pt=3/3
+ability=When SN enters the battlefield, green creatures get -1/-1 until end of turn.
+timing=main
+oracle=When Rank and File enters the battlefield, green creatures get -1/-1 until end of turn.

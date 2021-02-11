@@ -1,0 +1,11 @@
+name=Jilt
+image=https://magiccards.info/scans/en/ap/27.jpg
+value=4.112
+rarity=C
+type=Instant
+cost={1}{U}
+ability=Kicker {1}{R}
+effect=Return target creature to its owner's hand. If SN was kicked, SN deals 2 damage to another target creature.
+timing=removal
+oracle=Kicker {1}{R}\nReturn target creature to its owner's hand. If Jilt was kicked, it deals 2 damage to another target creature.
+status=not supported: multiple-targets

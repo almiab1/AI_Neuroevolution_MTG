@@ -1,0 +1,11 @@
+name=Gravelgill Axeshark
+image=https://magiccards.info/scans/en/shm/164.jpg
+value=2.579
+rarity=C
+type=Creature
+subtype=Merfolk,Soldier
+cost={4}{U/B}
+pt=3/3
+ability=Persist
+timing=main
+oracle=Persist

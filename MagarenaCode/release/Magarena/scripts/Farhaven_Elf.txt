@@ -1,0 +1,11 @@
+name=Farhaven Elf
+image=https://magiccards.info/scans/en/c14/196.jpg
+value=3.346
+rarity=C
+type=Creature
+subtype=Elf,Druid
+cost={2}{G}
+pt=1/1
+ability=When SN enters the battlefield, you may search your library for a basic land card and put it onto the battlefield tapped. If you do, shuffle your library.
+timing=main
+oracle=When Farhaven Elf enters the battlefield, you may search your library for a basic land card and put it onto the battlefield tapped. If you do, shuffle your library.

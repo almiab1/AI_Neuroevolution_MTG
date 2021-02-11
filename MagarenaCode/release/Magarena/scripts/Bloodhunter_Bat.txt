@@ -1,0 +1,13 @@
+name=Bloodhunter Bat
+image=https://magiccards.info/scans/en/a25/80.jpg
+image_updated=2018-04-27
+value=2.840
+rarity=C
+type=Creature
+subtype=Bat
+cost={3}{B}
+pt=2/2
+ability=Flying;\
+        When SN enters the battlefield, target player loses 2 life and you gain 2 life.
+timing=main
+oracle=Flying\nWhen Bloodhunter Bat enters the battlefield, target player loses 2 life and you gain 2 life.

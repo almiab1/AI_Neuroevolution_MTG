@@ -1,0 +1,12 @@
+name=Wildheart Invoker
+image=https://magiccards.info/scans/en/a25/194.jpg
+image_updated=2018-04-27
+value=3.551
+rarity=C
+type=Creature
+subtype=Elf,Shaman
+cost={2}{G}{G}
+pt=4/3
+ability={8}: Target creature gets +5/+5 and gains trample until end of turn.
+timing=main
+oracle={8}: Target creature gets +5/+5 and gains trample until end of turn.

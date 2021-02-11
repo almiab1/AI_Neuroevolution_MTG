@@ -1,0 +1,14 @@
+name=Binding Grasp
+image=https://magiccards.info/scans/en/cstd/8.jpg
+value=3.779
+rarity=U
+type=Enchantment
+subtype=Aura
+cost={3}{U}
+ability=Enchant creature;\
+        At the beginning of your upkeep, sacrifice SN unless you pay {1}{U}.;\
+        You control enchanted creature.;\
+        Enchanted creature gets +0/+1.
+timing=aura
+enchant=gain control,neg creature
+oracle=Enchant creature\nAt the beginning of your upkeep, sacrifice Binding Grasp unless you pay {1}{U}.\nYou control enchanted creature.\nEnchanted creature gets +0/+1.

@@ -1,0 +1,12 @@
+name=Harbor Guardian
+image=https://magiccards.info/scans/en/mr/326.jpg
+value=1.596
+rarity=U
+type=Creature
+subtype=Gargoyle
+cost={2}{W}{U}
+pt=3/4
+ability=Reach
+timing=main
+requires_groovy_code
+oracle=Reach\nWhenever Harbor Guardian attacks, defending player may draw a card.

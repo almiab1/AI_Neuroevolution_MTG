@@ -1,0 +1,10 @@
+name=Staff of the Wild Magus
+image=https://magiccards.info/scans/en/m15/236.jpg
+value=0.929
+rarity=U
+type=Artifact
+cost={3}
+ability=Whenever a Forest enters the battlefield under your control, you gain 1 life.;\
+        Whenever you cast a green spell, you gain 1 life.
+timing=artifact
+oracle=Whenever you cast a green spell or a Forest enters the battlefield under your control, you gain 1 life.

@@ -1,0 +1,11 @@
+name=Snuff Out
+image=https://magiccards.info/scans/en/mm/162.jpg
+image_updated=2017-01-08
+value=4.483
+rarity=C
+type=Instant
+cost={3}{B}
+ability=If you control a Swamp, you may pay 4 life rather than pay this spell's mana cost.
+effect=Destroy target nonblack creature. It can't be regenerated.
+timing=removal
+oracle=If you control a Swamp, you may pay 4 life rather than pay this spell's mana cost.\nDestroy target nonblack creature. It can't be regenerated.

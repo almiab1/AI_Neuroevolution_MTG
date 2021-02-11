@@ -1,0 +1,11 @@
+name=Dream Stalker
+image=https://magiccards.info/scans/en/ts/58.jpg
+value=3.778
+rarity=C
+type=Creature
+subtype=Illusion
+cost={1}{U}
+pt=1/5
+ability=When SN enters the battlefield, return a permanent you control to its owner's hand.
+timing=main
+oracle=When Dream Stalker enters the battlefield, return a permanent you control to its owner's hand.

@@ -1,0 +1,11 @@
+name=Engineered Plague
+image=https://magiccards.info/scans/en/7e/133.jpg
+value=4.350
+rarity=U
+type=Enchantment
+cost={2}{B}
+ability=As SN enters the battlefield, choose a creature type.;\
+        All creatures of the chosen type get -1/-1.
+timing=enchantment
+oracle=As Engineered Plague enters the battlefield, choose a creature type.\nAll creatures of the chosen type get -1/-1.
+status=not supported: choose-creature-type

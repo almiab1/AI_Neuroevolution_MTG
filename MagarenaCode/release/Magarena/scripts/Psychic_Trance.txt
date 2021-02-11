@@ -1,0 +1,9 @@
+name=Psychic Trance
+image=https://magiccards.info/scans/en/on/102.jpg
+value=2.820
+rarity=R
+type=Instant
+cost={2}{U}{U}
+effect=Until end of turn, Wizards you control gain "{T}: Counter target spell."
+timing=counter
+oracle=Until end of turn, Wizards you control gain "{T}: Counter target spell."

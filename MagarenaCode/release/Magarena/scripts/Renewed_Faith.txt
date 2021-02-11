@@ -1,0 +1,12 @@
+name=Renewed Faith
+image=https://magiccards.info/scans/en/a25/31.jpg
+image_updated=2018-04-27
+value=2.000
+rarity=C
+type=Instant
+cost={2}{W}
+ability=Cycling {1}{W};\
+        When you cycle SN, you may gain 2 life.
+effect=You gain 6 life.
+timing=removal
+oracle=You gain 6 life.\nCycling {1}{W}\nWhen you cycle Renewed Faith, you may gain 2 life.

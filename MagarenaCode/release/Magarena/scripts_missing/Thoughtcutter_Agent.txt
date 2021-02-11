@@ -1,0 +1,12 @@
+name=Thoughtcutter Agent
+image=https://magiccards.info/scans/en/ala/201.jpg
+value=2.010
+rarity=U
+type=Artifact,Creature
+subtype=Human,Rogue
+cost={U}{B}
+pt=1/1
+ability={U}{B}, {T}: Target player loses 1 life and reveals his or her hand.
+timing=main
+oracle={U}{B}, {T}: Target player loses 1 life and reveals his or her hand.
+status=not supported: reveal-hand

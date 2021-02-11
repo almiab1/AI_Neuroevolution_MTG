@@ -1,0 +1,10 @@
+name=Rowen
+image=https://magiccards.info/scans/en/7e/266.jpg
+value=3.948
+rarity=R
+type=Enchantment
+cost={2}{G}{G}
+ability=Reveal the first card you draw each turn. Whenever you reveal a basic land card this way, draw a card.
+timing=enchantment
+oracle=Reveal the first card you draw each turn. Whenever you reveal a basic land card this way, draw a card.
+status=needs groovy

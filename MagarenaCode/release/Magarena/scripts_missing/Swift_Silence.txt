@@ -1,0 +1,10 @@
+name=Swift Silence
+image=https://magiccards.info/scans/en/di/132.jpg
+value=3.263
+rarity=R
+type=Instant
+cost={2}{W}{U}{U}
+effect=Counter all other spells. Draw a card for each spell countered this way.
+timing=counter
+oracle=Counter all other spells. Draw a card for each spell countered this way.
+status=needs groovy

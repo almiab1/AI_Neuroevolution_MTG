@@ -1,0 +1,11 @@
+name=Fallowsage
+image=https://magiccards.info/scans/en/lw/63.jpg
+value=3.636
+rarity=U
+type=Creature
+subtype=Merfolk,Wizard
+cost={3}{U}
+pt=2/2
+ability=Whenever SN becomes tapped, you may draw a card.
+timing=main
+oracle=Whenever Fallowsage becomes tapped, you may draw a card.

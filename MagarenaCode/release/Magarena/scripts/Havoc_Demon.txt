@@ -1,0 +1,12 @@
+name=Havoc Demon
+image=https://magiccards.info/scans/en/ema/90.jpg
+value=3.895
+rarity=U
+type=Creature
+subtype=Demon
+cost={5}{B}{B}
+pt=5/5
+ability=Flying;\
+        When SN dies, all creatures get -5/-5 until end of turn.
+timing=main
+oracle=Flying\nWhen Havoc Demon dies, all creatures get -5/-5 until end of turn.

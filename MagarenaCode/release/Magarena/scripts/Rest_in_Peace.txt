@@ -1,0 +1,11 @@
+name=Rest in Peace
+image=https://magiccards.info/scans/en/a25/32.jpg
+image_updated=2018-04-27
+value=4.118
+rarity=R
+type=Enchantment
+cost={1}{W}
+ability=When SN enters the battlefield, exile all cards from all graveyards.
+timing=enchantment
+requires_groovy_code
+oracle=When Rest in Peace enters the battlefield, exile all cards from all graveyards.\nIf a card or token would be put into a graveyard from anywhere, exile it instead.

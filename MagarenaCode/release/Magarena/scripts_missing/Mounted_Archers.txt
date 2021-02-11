@@ -1,0 +1,13 @@
+name=Mounted Archers
+image=https://magiccards.info/scans/en/tp/242.jpg
+value=2.500
+rarity=C
+type=Creature
+subtype=Human,Soldier,Archer
+cost={3}{W}
+pt=2/3
+ability=Reach;\
+        {W}: SN can block an additional creature this turn.
+timing=main
+oracle=Reach\n{W}: Mounted Archers can block an additional creature this turn.
+status=not supported: block-multiple

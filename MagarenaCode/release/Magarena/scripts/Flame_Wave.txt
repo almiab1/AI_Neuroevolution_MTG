@@ -1,0 +1,9 @@
+name=Flame Wave
+image=https://magiccards.info/scans/en/9e/182.jpg
+value=4.070
+rarity=U
+type=Sorcery
+cost={3}{R}{R}{R}{R}
+timing=main
+requires_groovy_code
+oracle=Flame Wave deals 4 damage to target player and each creature he or she controls.

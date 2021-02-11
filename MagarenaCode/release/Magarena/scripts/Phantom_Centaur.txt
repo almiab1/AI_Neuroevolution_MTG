@@ -1,0 +1,13 @@
+name=Phantom Centaur
+image=https://magiccards.info/scans/en/ju/127.jpg
+value=4.226
+rarity=U
+type=Creature
+subtype=Centaur,Spirit
+cost={2}{G}{G}
+pt=2/0
+ability=Protection from black;\
+        SN enters the battlefield with three +1/+1 counters on it.
+timing=main
+requires_groovy_code=Phantom Nomad
+oracle=Protection from black\nPhantom Centaur enters the battlefield with three +1/+1 counters on it.\nIf damage would be dealt to Phantom Centaur, prevent that damage. Remove a +1/+1 counter from Phantom Centaur.

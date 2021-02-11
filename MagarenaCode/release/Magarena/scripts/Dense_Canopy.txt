@@ -1,0 +1,9 @@
+name=Dense Canopy
+image=https://magiccards.info/scans/en/sok/125.jpg
+value=3.317
+rarity=U
+type=Enchantment
+cost={1}{G}
+ability=Creatures with flying can block only creatures with flying.
+timing=enchantment
+oracle=Creatures with flying can block only creatures with flying.

@@ -1,0 +1,12 @@
+name=Perimeter Captain
+image=https://magiccards.info/scans/en/wwk/16.jpg
+value=3.863
+rarity=U
+type=Creature
+subtype=Human,Soldier
+cost={W}
+pt=0/4
+ability=Defender;\
+        Whenever a creature you control with defender blocks, you may gain 2 life.
+timing=smain
+oracle=Defender\nWhenever a creature you control with defender blocks, you may gain 2 life.

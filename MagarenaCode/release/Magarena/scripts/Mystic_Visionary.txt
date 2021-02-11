@@ -1,0 +1,11 @@
+name=Mystic Visionary
+image=https://magiccards.info/scans/en/od/35.jpg
+value=1.643
+rarity=C
+type=Creature
+subtype=Human,Nomad,Mystic
+cost={1}{W}
+pt=2/1
+ability=SN has flying as long as seven or more cards are in your graveyard.
+timing=main
+oracle=Threshold — Mystic Visionary has flying as long as seven or more cards are in your graveyard.

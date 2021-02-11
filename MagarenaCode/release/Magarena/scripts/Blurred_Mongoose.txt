@@ -1,0 +1,12 @@
+name=Blurred Mongoose
+image=https://magiccards.info/scans/en/in/183.jpg
+value=4.094
+rarity=R
+type=Creature
+subtype=Mongoose
+cost={1}{G}
+pt=2/1
+ability=This spell can't be countered.;\
+        Shroud
+timing=main
+oracle=This spell can't be countered.\nShroud

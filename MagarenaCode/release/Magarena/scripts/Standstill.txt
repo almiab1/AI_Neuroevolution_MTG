@@ -1,0 +1,9 @@
+name=Standstill
+image=https://magiccards.info/scans/en/od/102.jpg
+value=4.582
+rarity=U
+type=Enchantment
+cost={1}{U}
+timing=enchantment
+requires_groovy_code
+oracle=When a player casts a spell, sacrifice Standstill. If you do, each of that player's opponents draws three cards.

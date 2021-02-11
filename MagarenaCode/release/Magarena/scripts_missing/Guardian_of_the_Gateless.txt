@@ -1,0 +1,15 @@
+name=Guardian of the Gateless
+image=https://magiccards.info/scans/en/cn2/89.jpg
+image_updated=2017-08-29
+value=3.551
+rarity=U
+type=Creature
+subtype=Angel
+cost={4}{W}
+pt=3/3
+ability=Flying;\
+        SN can block any number of creatures.;\
+        Whenever SN blocks, it gets +1/+1 until end of turn for each creature it's blocking.
+timing=main
+oracle=Flying\nGuardian of the Gateless can block any number of creatures.\nWhenever Guardian of the Gateless blocks, it gets +1/+1 until end of turn for each creature it's blocking.
+status=not supported: block-multiple

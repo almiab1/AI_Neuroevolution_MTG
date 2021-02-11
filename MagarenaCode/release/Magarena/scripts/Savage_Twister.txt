@@ -1,0 +1,10 @@
+name=Savage Twister
+image=https://magiccards.info/scans/en/mm2/185.jpg
+value=4.200
+removal=3
+rarity=U
+type=Sorcery
+cost={X}{R}{G}
+effect=SN deals X damage to each creature.
+timing=removal
+oracle=Savage Twister deals X damage to each creature.

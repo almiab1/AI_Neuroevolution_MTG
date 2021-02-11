@@ -1,0 +1,12 @@
+name=Phantom Nomad
+image=https://magiccards.info/scans/en/ju/17.jpg
+value=3.513
+rarity=C
+type=Creature
+subtype=Spirit,Nomad
+cost={1}{W}
+pt=0/0
+ability=SN enters the battlefield with two +1/+1 counters on it.
+timing=main
+requires_groovy_code
+oracle=Phantom Nomad enters the battlefield with two +1/+1 counters on it.\nIf damage would be dealt to Phantom Nomad, prevent that damage. Remove a +1/+1 counter from Phantom Nomad.

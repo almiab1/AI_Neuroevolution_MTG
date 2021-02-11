@@ -1,0 +1,11 @@
+name=Gruul War Chant
+image=https://magiccards.info/scans/en/mm3/170.jpg
+image_updated=2017-08-08
+value=3.775
+rarity=U
+type=Enchantment
+cost={2}{R}{G}
+ability=Attacking creatures you control get +1/+0 and have menace.
+timing=enchantment
+oracle=Attacking creatures you control get +1/+0 and have menace.
+status=not supported: blocking-restriction

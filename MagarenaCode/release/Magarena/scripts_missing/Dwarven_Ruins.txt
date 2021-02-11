@@ -1,0 +1,11 @@
+name=Dwarven Ruins
+image=https://magiccards.info/scans/en/6e/323.jpg
+value=3.312
+rarity=U
+type=Land
+ability=SN enters the battlefield tapped.;\
+        {T}: Add {R}.;\
+        {T}, Sacrifice SN: Add {R}{R}.
+timing=land
+oracle=Dwarven Ruins enters the battlefield tapped.\n{T}: Add {R}.\n{T}, Sacrifice Dwarven Ruins: Add {R}{R}.
+status=not supported: add-multiple-mana

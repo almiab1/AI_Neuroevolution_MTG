@@ -1,0 +1,11 @@
+name=Decimate
+image=https://magiccards.info/scans/en/c16/193.jpg
+image_updated=2017-08-17
+value=4.357
+rarity=R
+type=Sorcery
+cost={2}{R}{G}
+effect=Destroy target artifact, target creature, target enchantment, and target land.
+timing=main
+oracle=Destroy target artifact, target creature, target enchantment, and target land.
+status=not supported: multiple-targets

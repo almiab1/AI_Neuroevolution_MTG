@@ -1,0 +1,12 @@
+name=Armorcraft Judge
+image=https://magiccards.info/scans/en/kld/144.jpg
+image_updated=2016-10-05
+value=2.500
+rarity=U
+type=Creature
+subtype=Elf,Artificer
+cost={3}{G}
+pt=3/3
+ability=When SN enters the battlefield, draw a card for each creature you control with a +1/+1 counter on it.
+timing=main
+oracle=When Armorcraft Judge enters the battlefield, draw a card for each creature you control with a +1/+1 counter on it.

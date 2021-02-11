@@ -1,0 +1,11 @@
+name=Stream Hopper
+image=https://magiccards.info/scans/en/eve/113.jpg
+value=2.708
+rarity=C
+type=Creature
+subtype=Goblin
+cost={U/R}
+pt=1/1
+ability={U/R}: SN gains flying until end of turn.
+timing=main
+oracle={U/R}: Stream Hopper gains flying until end of turn.

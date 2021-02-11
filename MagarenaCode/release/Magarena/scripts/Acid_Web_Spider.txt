@@ -1,0 +1,12 @@
+name=Acid Web Spider
+image=https://magiccards.info/scans/en/som/108.jpg
+value=2.881
+rarity=U
+type=Creature
+subtype=Spider
+cost={3}{G}{G}
+pt=3/5
+ability=Reach;\
+        When SN enters the battlefield, you may destroy target Equipment.
+timing=main
+oracle=Reach\nWhen Acid Web Spider enters the battlefield, you may destroy target Equipment.

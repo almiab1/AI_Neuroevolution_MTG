@@ -1,0 +1,9 @@
+name=Wheel of Fortune
+image=https://magiccards.info/scans/en/rv/184.jpg
+value=4.500
+rarity=R
+type=Sorcery
+cost={2}{R}
+effect=Each player discards his or her hand.~Each player draws seven cards.
+timing=draw
+oracle=Each player discards his or her hand, then draws seven cards.

@@ -1,0 +1,12 @@
+name=Lhurgoyf
+image=https://magiccards.info/scans/en/cmd/165.jpg
+value=4.329
+rarity=R
+type=Creature
+subtype=Lhurgoyf
+cost={2}{G}{G}
+pt=*/1+*
+ability=SN's power is equal to the number of creature cards in all graveyards.;\
+        SN's toughness is equal to 1 plus the number of creature cards in all graveyards.
+timing=smain
+oracle=Lhurgoyf's power is equal to the number of creature cards in all graveyards and its toughness is equal to that number plus 1.

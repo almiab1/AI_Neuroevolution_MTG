@@ -1,0 +1,11 @@
+name=Mystic Zealot
+image=https://magiccards.info/scans/en/od/36.jpg
+value=3.380
+rarity=C
+type=Creature
+subtype=Human,Nomad,Mystic
+cost={3}{W}
+pt=2/4
+ability=As long as seven or more cards are in your graveyard, SN gets +1/+1 and has flying.
+timing=main
+oracle=Threshold — As long as seven or more cards are in your graveyard, Mystic Zealot gets +1/+1 and has flying.

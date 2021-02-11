@@ -1,0 +1,12 @@
+name=Fire Dragon
+image=https://magiccards.info/scans/en/po/130.jpg
+value=3.538
+rarity=R
+type=Creature
+subtype=Dragon
+cost={6}{R}{R}{R}
+pt=6/6
+ability=Flying;\
+        When SN enters the battlefield, SN deals damage to target creature equal to the number of Mountains you control.
+timing=main
+oracle=Flying\nWhen Fire Dragon enters the battlefield, it deals damage to target creature equal to the number of Mountains you control.

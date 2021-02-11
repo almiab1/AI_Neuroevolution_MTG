@@ -1,0 +1,11 @@
+name=Scarwood Treefolk
+image=https://magiccards.info/scans/en/ts/214.jpg
+value=1.463
+rarity=C
+type=Creature
+subtype=Treefolk
+cost={3}{G}
+pt=3/5
+ability=SN enters the battlefield tapped.
+timing=main
+oracle=Scarwood Treefolk enters the battlefield tapped.

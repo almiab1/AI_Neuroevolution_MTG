@@ -1,0 +1,10 @@
+name=Dense Foliage
+image=https://magiccards.info/scans/en/6e/221.jpg
+value=4.216
+rarity=R
+type=Enchantment
+cost={2}{G}
+ability=Creatures can't be the targets of spells.
+timing=enchantment
+oracle=Creatures can't be the targets of spells.
+status=not supported: cant-be-target

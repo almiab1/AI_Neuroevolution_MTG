@@ -1,0 +1,12 @@
+name=Goblin Sledder
+image=https://magiccards.info/scans/en/on/209.jpg
+image_updated=2016-12-04
+value=3.948
+rarity=C
+type=Creature
+subtype=Goblin
+cost={R}
+pt=1/1
+ability=Sacrifice a Goblin: Target creature gets +1/+1 until end of turn.
+timing=main
+oracle=Sacrifice a Goblin: Target creature gets +1/+1 until end of turn.

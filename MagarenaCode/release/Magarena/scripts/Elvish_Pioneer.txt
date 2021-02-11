@@ -1,0 +1,11 @@
+name=Elvish Pioneer
+image=https://magiccards.info/scans/en/8e/243.jpg
+value=3.804
+rarity=C
+type=Creature
+subtype=Elf,Druid
+cost={G}
+pt=1/1
+ability=When SN enters the battlefield, you may put a basic land card from your hand onto the battlefield tapped.
+timing=main
+oracle=When Elvish Pioneer enters the battlefield, you may put a basic land card from your hand onto the battlefield tapped.

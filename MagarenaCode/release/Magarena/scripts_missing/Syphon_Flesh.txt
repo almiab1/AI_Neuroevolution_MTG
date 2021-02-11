@@ -1,0 +1,10 @@
+name=Syphon Flesh
+image=https://magiccards.info/scans/en/cmd/103.jpg
+value=3.474
+rarity=U
+type=Sorcery
+cost={4}{B}
+effect=Each other player sacrifices a creature. You create a 2/2 black Zombie creature token for each creature sacrificed this way.
+timing=main
+oracle=Each other player sacrifices a creature. You create a 2/2 black Zombie creature token for each creature sacrificed this way.
+status=needs groovy

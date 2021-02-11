@@ -1,0 +1,11 @@
+name=Rampart Crawler
+image=https://magiccards.info/scans/en/mm/156.jpg
+value=2.192
+rarity=C
+type=Creature
+subtype=Lizard,Mercenary
+cost={B}
+pt=1/1
+ability=SN can't be blocked by Walls.
+timing=main
+oracle=Rampart Crawler can't be blocked by Walls.

@@ -1,0 +1,12 @@
+name=Fledgling Dragon
+image=https://magiccards.info/scans/en/ju/90.jpg
+value=4.057
+rarity=R
+type=Creature
+subtype=Dragon
+cost={2}{R}{R}
+pt=2/2
+ability=Flying;\
+        As long as seven or more cards are in your graveyard, SN gets +3/+3 and has "{R}: SN gets +1/+0 until end of turn."
+timing=main
+oracle=Flying\nThreshold — As long as seven or more cards are in your graveyard, Fledgling Dragon gets +3/+3 and has "{R}: Fledgling Dragon gets +1/+0 until end of turn."

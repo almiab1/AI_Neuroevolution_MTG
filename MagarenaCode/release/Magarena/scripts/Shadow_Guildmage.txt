@@ -1,0 +1,12 @@
+name=Shadow Guildmage
+image=https://magiccards.info/scans/en/tsts/46.jpg
+value=4.195
+rarity=C
+type=Creature
+subtype=Human,Wizard
+cost={B}
+pt=1/1
+ability={U}, {T}: Put target creature you control on top of its owner's library.;\
+        {R}, {T}: SN deals 1 damage to target creature or player and 1 damage to you.
+timing=main
+oracle={U}, {T}: Put target creature you control on top of its owner's library.\n{R}, {T}: Shadow Guildmage deals 1 damage to target creature or player and 1 damage to you.

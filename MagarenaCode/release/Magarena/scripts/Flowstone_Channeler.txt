@@ -1,0 +1,11 @@
+name=Flowstone Channeler
+image=https://magiccards.info/scans/en/ts/155.jpg
+value=2.304
+rarity=C
+type=Creature
+subtype=Human,Spellshaper
+cost={2}{R}
+pt=2/2
+ability={1}{R}, {T}, Discard a card: Target creature gets +1/-1 and gains haste until end of turn.
+timing=main
+oracle={1}{R}, {T}, Discard a card: Target creature gets +1/-1 and gains haste until end of turn.

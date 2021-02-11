@@ -1,0 +1,11 @@
+name=Sedge Scorpion
+image=https://magiccards.info/scans/en/ths/177.jpg
+value=3.550
+rarity=C
+type=Creature
+subtype=Scorpion
+cost={G}
+pt=1/1
+ability=Deathtouch
+timing=main
+oracle=Deathtouch

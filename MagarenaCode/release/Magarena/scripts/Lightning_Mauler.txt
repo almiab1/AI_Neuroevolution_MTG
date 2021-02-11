@@ -1,0 +1,12 @@
+name=Lightning Mauler
+image=https://magiccards.info/scans/en/avr/144.jpg
+value=3.861
+rarity=U
+type=Creature
+subtype=Human,Berserker
+cost={1}{R}
+pt=2/1
+ability=Soulbond;\
+        As long as SN is paired with another creature, both creatures have haste.
+timing=main
+oracle=Soulbond\nAs long as Lightning Mauler is paired with another creature, both creatures have haste.

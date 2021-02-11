@@ -1,0 +1,12 @@
+name=Sunastian Falconer
+image=https://magiccards.info/scans/en/lg/301.jpg
+value=2.613
+rarity=U
+type=Legendary,Creature
+subtype=Human,Shaman
+cost={3}{R}{G}
+pt=4/4
+ability={T}: Add {C}{C}.
+timing=main
+oracle={T}: Add {C}{C}.
+status=not supported: add-multiple-mana

@@ -1,0 +1,9 @@
+name=Sizzle
+image=https://magiccards.info/scans/en/8e/224.jpg
+value=3.174
+rarity=C
+type=Sorcery
+cost={2}{R}
+effect=SN deals 3 damage to each opponent.
+timing=main
+oracle=Sizzle deals 3 damage to each opponent.

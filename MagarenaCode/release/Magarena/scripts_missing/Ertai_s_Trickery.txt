@@ -1,0 +1,10 @@
+name=Ertai's Trickery
+image=https://magiccards.info/scans/en/ps/24.jpg
+value=1.725
+rarity=U
+type=Instant
+cost={U}
+effect=Counter target spell if it was kicked.
+timing=counter
+oracle=Counter target spell if it was kicked.
+status=needs groovy

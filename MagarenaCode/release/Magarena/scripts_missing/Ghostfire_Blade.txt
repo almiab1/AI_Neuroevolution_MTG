@@ -1,0 +1,13 @@
+name=Ghostfire Blade
+image=https://magiccards.info/scans/en/ktk/220.jpg
+value=2.500
+rarity=R
+type=Artifact
+subtype=Equipment
+cost={1}
+ability=Equipped creature gets +2/+2.;\
+        Equip {3};\
+        SN's equip ability costs {2} less to activate if it targets a colorless creature.
+timing=equipment
+oracle=Equipped creature gets +2/+2.\nEquip {3}\nGhostfire Blade's equip ability costs {2} less to activate if it targets a colorless creature.
+status=not supported: complex-cost-modification

@@ -1,0 +1,14 @@
+name=Thirst
+image=https://magiccards.info/scans/en/mr/99.jpg
+value=3.045
+rarity=C
+type=Enchantment
+subtype=Aura
+cost={2}{U}
+ability=Enchant creature;\
+        When SN enters the battlefield, tap enchanted creature.;\
+        Enchanted creature doesn't untap during its controller's untap step.;\
+        At the beginning of your upkeep, sacrifice SN unless you pay {U}.
+timing=aura
+enchant=can't attack or block,neg creature
+oracle=Enchant creature\nWhen Thirst enters the battlefield, tap enchanted creature.\nEnchanted creature doesn't untap during its controller's untap step.\nAt the beginning of your upkeep, sacrifice Thirst unless you pay {U}.

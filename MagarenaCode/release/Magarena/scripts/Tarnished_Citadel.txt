@@ -1,0 +1,10 @@
+name=Tarnished Citadel
+image=https://magiccards.info/scans/en/od/329.jpg
+value=2.317
+rarity=R
+type=Land
+mana=w1u1b1r1g1
+ability={T}: Add {C}.;\
+        {T}: Add one mana of any color. SN deals 3 damage to you.
+timing=land
+oracle={T}: Add {C}.\n{T}: Add one mana of any color. Tarnished Citadel deals 3 damage to you.

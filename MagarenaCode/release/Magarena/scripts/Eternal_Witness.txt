@@ -1,0 +1,12 @@
+name=Eternal Witness
+image=https://magiccards.info/scans/en/mma/144.jpg
+image_updated=2016-02-29
+value=4.534
+rarity=U
+type=Creature
+subtype=Human,Shaman
+cost={1}{G}{G}
+pt=2/1
+ability=When SN enters the battlefield, you may return target card from your graveyard to your hand.
+timing=main
+oracle=When Eternal Witness enters the battlefield, you may return target card from your graveyard to your hand.

@@ -1,0 +1,12 @@
+name=Knight of Meadowgrain
+image=https://magiccards.info/scans/en/lw/28.jpg
+value=3.944
+rarity=U
+type=Creature
+subtype=Kithkin,Knight
+cost={W}{W}
+pt=2/2
+ability=First strike;\
+        Lifelink
+timing=main
+oracle=First strike\nLifelink

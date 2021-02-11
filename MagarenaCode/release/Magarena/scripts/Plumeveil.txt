@@ -1,0 +1,12 @@
+name=Plumeveil
+image=https://magiccards.info/scans/en/mma/194.jpg
+value=3.750
+rarity=U
+type=Creature
+subtype=Elemental
+cost={W/U}{W/U}{W/U}
+pt=4/4
+ability=Flash;\
+        Defender, flying
+timing=flash
+oracle=Flash\nDefender, flying

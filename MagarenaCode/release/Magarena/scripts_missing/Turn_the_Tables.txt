@@ -1,0 +1,10 @@
+name=Turn the Tables
+image=https://magiccards.info/scans/en/ds/18.jpg
+value=3.364
+rarity=R
+type=Instant
+cost={3}{W}{W}
+effect=All combat damage that would be dealt to you this turn is dealt to target attacking creature instead.
+timing=removal
+oracle=All combat damage that would be dealt to you this turn is dealt to target attacking creature instead.
+status=needs groovy

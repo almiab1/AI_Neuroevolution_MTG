@@ -1,0 +1,13 @@
+name=Vivid Marsh
+image=https://magiccards.info/scans/en/mma/228.jpg
+image_updated=2016-02-29
+value=3.364
+rarity=U
+type=Land
+mana=b3g1r1u1w1
+ability=SN enters the battlefield tapped.;\
+        SN enters the battlefield with two charge counters on it.;\
+        {T}: Add {B}.;\
+        {T}, Remove a charge counter from SN: Add one mana of any color.
+timing=tapland
+oracle=Vivid Marsh enters the battlefield tapped with two charge counters on it.\n{T}: Add {B}.\n{T}, Remove a charge counter from Vivid Marsh: Add one mana of any color.

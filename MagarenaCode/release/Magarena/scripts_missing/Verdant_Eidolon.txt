@@ -1,0 +1,13 @@
+name=Verdant Eidolon
+image=https://magiccards.info/scans/en/di/100.jpg
+value=3.341
+rarity=C
+type=Creature
+subtype=Spirit
+cost={3}{G}
+pt=2/2
+ability={G}, Sacrifice SN: Add three mana of any one color.;\
+        Whenever you cast a multicolored spell, you may return SN from your graveyard to your hand.
+timing=main
+oracle={G}, Sacrifice Verdant Eidolon: Add three mana of any one color.\nWhenever you cast a multicolored spell, you may return Verdant Eidolon from your graveyard to your hand.
+status=not supported: add-multiple-mana

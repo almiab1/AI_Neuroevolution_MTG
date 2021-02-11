@@ -1,0 +1,12 @@
+name=Vodalian Mystic
+image=https://magiccards.info/scans/en/ap/33.jpg
+value=2.100
+rarity=U
+type=Creature
+subtype=Merfolk,Wizard
+cost={1}{U}
+pt=1/1
+ability={T}: Target instant or sorcery spell becomes the color of your choice.
+timing=main
+oracle={T}: Target instant or sorcery spell becomes the color of your choice.
+status=not supported: spell-modification

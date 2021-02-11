@@ -1,0 +1,9 @@
+name=Rethink
+image=https://magiccards.info/scans/en/pr/42.jpg
+value=3.734
+rarity=C
+type=Instant
+cost={2}{U}
+timing=counter
+requires_groovy_code
+oracle=Counter target spell unless its controller pays {X}, where X is its converted mana cost.

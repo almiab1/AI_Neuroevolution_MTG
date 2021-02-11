@@ -1,0 +1,10 @@
+name=Monomania
+image=https://magiccards.info/scans/en/m12/102.jpg
+value=2.782
+rarity=R
+type=Sorcery
+cost={3}{B}{B}
+effect=Target player chooses a card in his or her hand and discards the rest.
+timing=main
+oracle=Target player chooses a card in his or her hand and discards the rest.
+status=needs groovy

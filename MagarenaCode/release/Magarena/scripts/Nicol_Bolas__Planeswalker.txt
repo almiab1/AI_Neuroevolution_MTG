@@ -1,0 +1,13 @@
+name=Nicol Bolas, Planeswalker
+image=https://magiccards.info/scans/en/m13/199.jpg
+value=4.132
+rarity=M
+type=Legendary,Planeswalker
+subtype=Bolas
+cost={4}{U}{B}{B}{R}
+loyalty=5
+ability=+3: Destroy target noncreature permanent.;\
+        −2: Gain control of target creature.
+timing=main
+oracle=+3: Destroy target noncreature permanent.\n−2: Gain control of target creature.\n−9: Nicol Bolas, Planeswalker deals 7 damage to target player. That player discards seven cards, then sacrifices seven permanents.
+requires_groovy_code

@@ -1,0 +1,11 @@
+name=Lone Wolf
+image=https://magiccards.info/scans/en/8e/262.jpg
+value=3.850
+rarity=C
+type=Creature
+subtype=Wolf
+cost={2}{G}
+pt=2/2
+timing=main
+requires_groovy_code=Rhox
+oracle=You may have Lone Wolf assign its combat damage as though it weren't blocked.

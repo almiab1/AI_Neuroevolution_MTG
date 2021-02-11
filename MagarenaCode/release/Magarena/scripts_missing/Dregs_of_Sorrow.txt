@@ -1,0 +1,10 @@
+name=Dregs of Sorrow
+image=https://magiccards.info/scans/en/c14/143.jpg
+value=2.500
+rarity=R
+type=Sorcery
+cost={X}{4}{B}
+effect=Destroy X target nonblack creatures. Draw X cards.
+timing=main
+oracle=Destroy X target nonblack creatures. Draw X cards.
+status=not supported: multiple-targets

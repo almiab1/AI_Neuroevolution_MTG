@@ -1,0 +1,10 @@
+name=Beast Within
+image=https://magiccards.info/scans/en/c16/141.jpg
+image_updated=2017-08-17
+value=4.561
+rarity=U
+type=Instant
+cost={2}{G}
+effect=Destroy target permanent.~Its controller creates a 3/3 green Beast creature token.
+timing=removal
+oracle=Destroy target permanent. Its controller creates a 3/3 green Beast creature token.

@@ -1,0 +1,12 @@
+name=Goblin Taskmaster
+image=https://magiccards.info/scans/en/on/210.jpg
+value=3.033
+rarity=C
+type=Creature
+subtype=Goblin
+cost={R}
+pt=1/1
+ability={1}{R}: Target Goblin creature gets +1/+0 until end of turn.;\
+        Morph {R}
+timing=main
+oracle={1}{R}: Target Goblin creature gets +1/+0 until end of turn.\nMorph {R}

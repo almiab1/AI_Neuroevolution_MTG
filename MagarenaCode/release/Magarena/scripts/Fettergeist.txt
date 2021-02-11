@@ -1,0 +1,12 @@
+name=Fettergeist
+image=https://magiccards.info/scans/en/avr/52.jpg
+value=3.264
+rarity=U
+type=Creature
+subtype=Spirit
+cost={2}{U}
+pt=3/4
+ability=Flying
+timing=main
+requires_groovy_code
+oracle=Flying\nAt the beginning of your upkeep, sacrifice Fettergeist unless you pay {1} for each other creature you control.

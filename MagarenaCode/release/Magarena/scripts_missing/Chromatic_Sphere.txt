@@ -1,0 +1,10 @@
+name=Chromatic Sphere
+image=https://magiccards.info/scans/en/mi/151.jpg
+value=3.070
+rarity=C
+type=Artifact
+cost={1}
+ability={1}, {T}, Sacrifice SN: Add one mana of any color.~Draw a card.
+timing=artifact
+oracle={1}, {T}, Sacrifice Chromatic Sphere: Add one mana of any color. Draw a card.
+status=not supported: mana-ability-with-choice

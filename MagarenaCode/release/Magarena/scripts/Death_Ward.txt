@@ -1,0 +1,9 @@
+name=Death Ward
+image=https://magiccards.info/scans/en/5e/301.jpg
+value=3.106
+rarity=C
+type=Instant
+cost={W}
+effect=Regenerate target creature.
+timing=pump
+oracle=Regenerate target creature.

@@ -1,0 +1,10 @@
+name=Backslide
+image=https://magiccards.info/scans/en/on/70.jpg
+value=2.742
+rarity=C
+type=Instant
+cost={1}{U}
+ability=Cycling {U}
+effect=Turn target creature with a morph ability face down.
+timing=removal
+oracle=Turn target creature with a morph ability face down.\nCycling {U}

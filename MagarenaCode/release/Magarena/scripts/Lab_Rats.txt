@@ -1,0 +1,10 @@
+name=Lab Rats
+image=https://magiccards.info/scans/en/sh/11.jpg
+value=3.130
+rarity=C
+type=Sorcery
+cost={B}
+ability=Buyback {4}
+effect=Create a 1/1 black Rat creature token.
+timing=token
+oracle=Buyback {4}\nCreate a 1/1 black Rat creature token.

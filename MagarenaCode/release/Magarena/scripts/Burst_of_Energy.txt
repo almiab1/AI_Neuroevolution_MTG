@@ -1,0 +1,9 @@
+name=Burst of Energy
+image=https://magiccards.info/scans/en/ul/3.jpg
+value=2.151
+rarity=C
+type=Instant
+cost={W}
+effect=Untap target permanent.
+timing=removal
+oracle=Untap target permanent.

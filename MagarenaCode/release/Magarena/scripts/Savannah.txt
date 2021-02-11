@@ -1,0 +1,9 @@
+name=Savannah
+image=https://magiccards.info/scans/en/rv/297.jpg
+value=4.500
+rarity=R
+type=Land
+subtype=Forest,Plains
+mana=w4g4
+timing=land
+oracle=NONE

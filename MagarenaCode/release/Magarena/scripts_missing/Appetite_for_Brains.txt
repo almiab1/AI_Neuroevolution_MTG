@@ -1,0 +1,10 @@
+name=Appetite for Brains
+image=https://magiccards.info/scans/en/avr/84.jpg
+value=3.250
+rarity=U
+type=Sorcery
+cost={B}
+effect=Target opponent reveals his or her hand. You choose a card from it with converted mana cost 4 or greater and exile that card.
+timing=main
+oracle=Target opponent reveals his or her hand. You choose a card from it with converted mana cost 4 or greater and exile that card.
+status=not supported: reveal-hand

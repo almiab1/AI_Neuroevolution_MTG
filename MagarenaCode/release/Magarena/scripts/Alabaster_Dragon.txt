@@ -1,0 +1,12 @@
+name=Alabaster Dragon
+image=https://magiccards.info/scans/en/wl/118.jpg
+value=3.269
+rarity=R
+type=Creature
+subtype=Dragon
+cost={4}{W}{W}
+pt=4/4
+ability=Flying;\
+        When SN dies, shuffle SN into its owner's library.
+timing=main
+oracle=Flying\nWhen Alabaster Dragon dies, shuffle it into its owner's library.

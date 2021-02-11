@@ -1,0 +1,11 @@
+name=Moorish Cavalry
+image=https://magiccards.info/scans/en/tsts/11.jpg
+value=3.244
+rarity=C
+type=Creature
+subtype=Human,Knight
+cost={2}{W}{W}
+pt=3/3
+ability=Trample
+timing=main
+oracle=Trample

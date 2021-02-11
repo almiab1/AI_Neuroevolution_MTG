@@ -1,0 +1,11 @@
+name=Warped Researcher
+image=https://magiccards.info/scans/en/le/56.jpg
+value=2.500
+rarity=U
+type=Creature
+subtype=Human,Wizard,Mutant
+cost={4}{U}
+pt=3/4
+ability=Whenever a player cycles a card, SN gains flying and shroud until end of turn.
+timing=main
+oracle=Whenever a player cycles a card, Warped Researcher gains flying and shroud until end of turn.

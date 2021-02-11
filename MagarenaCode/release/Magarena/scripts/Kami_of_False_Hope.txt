@@ -1,0 +1,11 @@
+name=Kami of False Hope
+image=https://magiccards.info/scans/en/bok/10.jpg
+value=3.934
+rarity=C
+type=Creature
+subtype=Spirit
+cost={W}
+pt=1/1
+ability=Sacrifice SN: Prevent all combat damage that would be dealt this turn.
+timing=main
+oracle=Sacrifice Kami of False Hope: Prevent all combat damage that would be dealt this turn.

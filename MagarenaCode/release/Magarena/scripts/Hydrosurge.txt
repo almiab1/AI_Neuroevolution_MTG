@@ -1,0 +1,9 @@
+name=Hydrosurge
+image=https://magiccards.info/scans/en/m15/58.jpg
+value=1.500
+rarity=C
+type=Instant
+cost={U}
+effect=Target creature gets -5/-0 until end of turn.
+timing=removal
+oracle=Target creature gets -5/-0 until end of turn.

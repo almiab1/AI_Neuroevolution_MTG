@@ -1,0 +1,12 @@
+name=Sprouting Phytohydra
+image=https://magiccards.info/scans/en/di/95.jpg
+value=4.000
+rarity=R
+type=Creature
+subtype=Plant,Hydra
+cost={4}{G}
+pt=0/2
+ability=Defender;\
+        Whenever SN is dealt damage, you may create a token that's a copy of SN.
+timing=smain
+oracle=Defender\nWhenever Sprouting Phytohydra is dealt damage, you may create a token that's a copy of Sprouting Phytohydra.

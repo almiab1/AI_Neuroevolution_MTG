@@ -1,0 +1,11 @@
+name=Krenko's Enforcer
+image=https://magiccards.info/scans/en/m15/152.jpg
+value=3.250
+rarity=C
+type=Creature
+subtype=Goblin,Warrior
+cost={1}{R}{R}
+pt=2/2
+ability=Intimidate
+timing=main
+oracle=Intimidate

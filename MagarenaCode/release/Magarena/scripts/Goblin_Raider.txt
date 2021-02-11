@@ -1,0 +1,12 @@
+name=Goblin Raider
+image=https://magiccards.info/scans/en/9eb/8.jpg
+image_updated=2015-05-17
+value=2.071
+rarity=C
+type=Creature
+subtype=Goblin,Warrior
+cost={1}{R}
+pt=2/2
+ability=SN can't block.
+timing=main
+oracle=Goblin Raider can't block.

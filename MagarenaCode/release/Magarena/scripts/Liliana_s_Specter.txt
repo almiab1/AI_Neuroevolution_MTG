@@ -1,0 +1,12 @@
+name=Liliana's Specter
+image=https://magiccards.info/scans/en/cns/116.jpg
+value=4.125
+rarity=C
+type=Creature
+subtype=Specter
+cost={1}{B}{B}
+pt=2/1
+ability=Flying;\
+        When SN enters the battlefield, each opponent discards a card.
+timing=main
+oracle=Flying\nWhen Liliana's Specter enters the battlefield, each opponent discards a card.

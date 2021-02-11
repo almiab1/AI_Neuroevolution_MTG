@@ -1,0 +1,13 @@
+name=Battleground Geist
+image=https://magiccards.info/scans/en/isd/45.jpg
+value=2.877
+rarity=U
+type=Creature
+subtype=Spirit
+cost={4}{U}
+pt=3/3
+ability=Flying;\
+        Other Spirit creatures you control get +1/+0.
+static=player
+timing=main
+oracle=Flying\nOther Spirit creatures you control get +1/+0.

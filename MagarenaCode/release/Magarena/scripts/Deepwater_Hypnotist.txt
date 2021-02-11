@@ -1,0 +1,11 @@
+name=Deepwater Hypnotist
+image=https://magiccards.info/scans/en/bng/35.jpg
+value=3.500
+rarity=C
+type=Creature
+subtype=Merfolk,Wizard
+cost={1}{U}
+pt=2/1
+ability=Whenever SN becomes untapped, target creature an opponent controls gets -3/-0 until end of turn.
+timing=main
+oracle=Inspired — Whenever Deepwater Hypnotist becomes untapped, target creature an opponent controls gets -3/-0 until end of turn.

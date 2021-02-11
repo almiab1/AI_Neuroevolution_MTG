@@ -1,0 +1,11 @@
+name=Keldon Arsonist
+image=https://magiccards.info/scans/en/pr/92.jpg
+value=2.181
+rarity=U
+type=Creature
+subtype=Human,Soldier
+cost={2}{R}
+pt=1/1
+ability={1}, Sacrifice two lands: Destroy target land.
+timing=main
+oracle={1}, Sacrifice two lands: Destroy target land.

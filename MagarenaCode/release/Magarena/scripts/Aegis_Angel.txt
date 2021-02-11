@@ -1,0 +1,13 @@
+name=Aegis Angel
+image=https://magiccards.info/scans/en/ori/273.jpg
+image_updated=2010-09-10
+value=3.438
+rarity=R
+type=Creature
+subtype=Angel
+cost={4}{W}{W}
+pt=5/5
+ability=Flying
+timing=main
+requires_groovy_code
+oracle=Flying\nWhen Aegis Angel enters the battlefield, another target permanent gains indestructible for as long as you control Aegis Angel.

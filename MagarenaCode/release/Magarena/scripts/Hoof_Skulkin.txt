@@ -1,0 +1,11 @@
+name=Hoof Skulkin
+image=https://magiccards.info/scans/en/eve/169.jpg
+value=1.755
+rarity=C
+type=Artifact,Creature
+subtype=Scarecrow
+cost={3}
+pt=2/2
+ability={3}: Target green creature gets +1/+1 until end of turn.
+timing=main
+oracle={3}: Target green creature gets +1/+1 until end of turn.

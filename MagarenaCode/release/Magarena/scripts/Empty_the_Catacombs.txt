@@ -1,0 +1,9 @@
+name=Empty the Catacombs
+image=https://magiccards.info/scans/en/rav/86.jpg
+value=2.879
+rarity=R
+type=Sorcery
+cost={3}{B}
+timing=main
+requires_groovy_code
+oracle=Each player returns all creature cards from his or her graveyard to his or her hand.

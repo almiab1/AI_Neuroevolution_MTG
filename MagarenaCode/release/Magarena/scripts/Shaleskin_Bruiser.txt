@@ -1,0 +1,12 @@
+name=Shaleskin Bruiser
+image=https://magiccards.info/scans/en/on/226.jpg
+value=3.088
+rarity=U
+type=Creature
+subtype=Beast
+cost={6}{R}
+pt=4/4
+ability=Trample;\
+        Whenever SN attacks, SN gets +3/+0 until end of turn for each other attacking Beast.
+timing=main
+oracle=Trample\nWhenever Shaleskin Bruiser attacks, it gets +3/+0 until end of turn for each other attacking Beast.

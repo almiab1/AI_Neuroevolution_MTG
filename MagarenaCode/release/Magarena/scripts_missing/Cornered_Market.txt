@@ -1,0 +1,11 @@
+name=Cornered Market
+image=https://magiccards.info/scans/en/mm/14.jpg
+value=4.150
+rarity=R
+type=Enchantment
+cost={2}{W}
+ability=Players can't cast spells with the same name as a nontoken permanent.;\
+        Players can't play nonbasic lands with the same name as a nontoken permanent.
+timing=enchantment
+oracle=Players can't cast spells with the same name as a nontoken permanent.\nPlayers can't play nonbasic lands with the same name as a nontoken permanent.
+status=not supported: players-cant

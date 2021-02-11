@@ -1,0 +1,11 @@
+name=Beguiler of Wills
+image=https://magiccards.info/scans/en/dka/28.jpg
+value=3.580
+rarity=M
+type=Creature
+subtype=Human,Wizard
+cost={3}{U}{U}
+pt=1/1
+timing=main
+requires_groovy_code
+oracle={T}: Gain control of target creature with power less than or equal to the number of creatures you control.

@@ -1,0 +1,9 @@
+name=Trailblazer
+image=https://magiccards.info/scans/en/ia/160.jpg
+value=1.857
+rarity=R
+type=Instant
+cost={2}{G}{G}
+effect=Target creature can't be blocked this turn.
+timing=attack
+oracle=Target creature can't be blocked this turn.

@@ -1,0 +1,12 @@
+name=Cosi's Ravager
+image=https://magiccards.info/scans/en/wwk/77.jpg
+image_updated=2016-11-28
+value=2.385
+rarity=C
+type=Creature
+subtype=Elemental
+cost={3}{R}
+pt=2/2
+ability=Whenever a land enters the battlefield under your control, you may have SN deal 1 damage to target player.
+timing=main
+oracle=Landfall — Whenever a land enters the battlefield under your control, you may have Cosi's Ravager deal 1 damage to target player.

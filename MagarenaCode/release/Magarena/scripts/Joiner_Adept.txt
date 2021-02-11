@@ -1,0 +1,12 @@
+name=Joiner Adept
+image=https://magiccards.info/scans/en/10e/271.jpg
+value=4.331
+rarity=R
+type=Creature
+subtype=Elf,Druid
+cost={1}{G}
+pt=2/1
+ability=Lands you control have "{T}: Add one mana of any color."
+static=player
+timing=main
+oracle=Lands you control have "{T}: Add one mana of any color."

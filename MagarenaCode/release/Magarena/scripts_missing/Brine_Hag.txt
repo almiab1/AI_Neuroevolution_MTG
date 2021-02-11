@@ -1,0 +1,12 @@
+name=Brine Hag
+image=https://magiccards.info/scans/en/lg/49.jpg
+value=3.434
+rarity=U
+type=Creature
+subtype=Hag
+cost={2}{U}{U}
+pt=2/2
+ability=When SN dies, change the base power and toughness of all creatures that dealt damage to it this turn to 0/2.
+timing=main
+oracle=When Brine Hag dies, change the base power and toughness of all creatures that dealt damage to it this turn to 0/2.
+status=not supported: no-info

@@ -1,0 +1,11 @@
+name=Hunt the Weak
+image=https://magiccards.info/scans/en/rix/133.jpg
+image_updated=2018-03-12
+value=2.500
+rarity=C
+type=Sorcery
+cost={3}{G}
+effect=Put a +1/+1 counter on target creature you control. Then that creature fights target creature you don't control.
+timing=main
+oracle=Put a +1/+1 counter on target creature you control. Then that creature fights target creature you don't control.
+status=not supported: multiple-targets

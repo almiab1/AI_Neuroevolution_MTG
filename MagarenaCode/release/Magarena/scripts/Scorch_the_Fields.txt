@@ -1,0 +1,10 @@
+name=Scorch the Fields
+image=https://magiccards.info/scans/en/dka/103.jpg
+value=1.090
+removal=3
+rarity=C
+type=Sorcery
+cost={4}{R}
+effect=Destroy target land.~SN deals 1 damage to each Human creature.
+timing=removal
+oracle=Destroy target land. Scorch the Fields deals 1 damage to each Human creature.

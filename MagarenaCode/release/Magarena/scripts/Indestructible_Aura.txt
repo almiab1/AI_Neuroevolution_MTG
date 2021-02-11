@@ -1,0 +1,10 @@
+name=Indestructible Aura
+image=https://magiccards.info/scans/en/lg/190.jpg
+image_updated=2016-12-13
+value=3.092
+rarity=C
+type=Instant
+cost={W}
+effect=Prevent all damage that would be dealt to target creature this turn.
+timing=pump
+oracle=Prevent all damage that would be dealt to target creature this turn.

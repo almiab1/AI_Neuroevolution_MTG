@@ -1,0 +1,9 @@
+name=Ancient Runes
+image=https://magiccards.info/scans/en/tp/161.jpg
+value=3.500
+rarity=U
+type=Enchantment
+cost={2}{R}
+timing=enchantment
+oracle=At the beginning of each player's upkeep, Ancient Runes deals damage to that player equal to the number of artifacts he or she controls.
+requires_groovy_code

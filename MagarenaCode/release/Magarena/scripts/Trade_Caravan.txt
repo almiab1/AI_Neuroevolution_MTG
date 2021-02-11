@@ -1,0 +1,12 @@
+name=Trade Caravan
+image=https://magiccards.info/scans/en/hl/124.jpg
+value=2.590
+rarity=C
+type=Creature
+subtype=Human,Nomad
+cost={W}
+pt=1/1
+ability=At the beginning of your upkeep, put a currency counter on SN.;\
+        Remove two currency counters from SN: Untap target basic land. Activate this ability only during an opponent's upkeep.
+timing=main
+oracle=At the beginning of your upkeep, put a currency counter on Trade Caravan.\nRemove two currency counters from Trade Caravan: Untap target basic land. Activate this ability only during an opponent's upkeep.

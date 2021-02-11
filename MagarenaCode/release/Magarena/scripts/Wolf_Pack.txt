@@ -1,0 +1,11 @@
+name=Wolf Pack
+image=https://magiccards.info/scans/en/p3k/158.jpg
+value=3.909
+rarity=R
+type=Creature
+subtype=Wolf
+cost={6}{G}{G}
+pt=7/6
+timing=main
+requires_groovy_code=Rhox
+oracle=You may have Wolf Pack assign its combat damage as though it weren't blocked.

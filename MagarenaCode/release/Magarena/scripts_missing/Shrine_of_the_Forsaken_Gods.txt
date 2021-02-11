@@ -1,0 +1,11 @@
+name=Shrine of the Forsaken Gods
+image=https://magiccards.info/scans/en/bfz/245.jpg
+image_updated=2015-11-08
+value=2.500
+rarity=R
+type=Land
+ability={T}: Add {C}.;\
+        {T}: Add {C}{C}. Spend this mana only to cast colorless spells. Activate this ability only if you control seven or more lands.
+timing=land
+oracle={T}: Add {C}.\n{T}: Add {C}{C}. Spend this mana only to cast colorless spells. Activate this ability only if you control seven or more lands.
+status=not supported: add-multiple-mana

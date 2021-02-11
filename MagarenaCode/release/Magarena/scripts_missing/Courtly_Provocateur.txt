@@ -1,0 +1,13 @@
+name=Courtly Provocateur
+image=https://magiccards.info/scans/en/m13/46.jpg
+value=3.272
+rarity=U
+type=Creature
+subtype=Human,Wizard
+cost={2}{U}
+pt=1/1
+ability={T}: Target creature attacks this turn if able.;\
+        {T}: Target creature blocks this turn if able.
+timing=main
+oracle={T}: Target creature attacks this turn if able.\n{T}: Target creature blocks this turn if able.
+status=not supported: blocking-restriction

@@ -1,0 +1,12 @@
+name=Darigaaz's Attendant
+image=https://magiccards.info/scans/en/in/301.jpg
+value=2.862
+rarity=U
+type=Artifact,Creature
+subtype=Golem
+cost={5}
+pt=3/3
+ability={1}, Sacrifice SN: Add {B}{R}{G}.
+timing=main
+oracle={1}, Sacrifice Darigaaz's Attendant: Add {B}{R}{G}.
+status=not supported: add-multiple-mana

@@ -1,0 +1,11 @@
+name=Carnivorous Plant
+image=https://magiccards.info/scans/en/4e/119.jpg
+value=2.903
+rarity=C
+type=Creature
+subtype=Plant,Wall
+cost={3}{G}
+pt=4/5
+ability=Defender
+timing=smain
+oracle=Defender

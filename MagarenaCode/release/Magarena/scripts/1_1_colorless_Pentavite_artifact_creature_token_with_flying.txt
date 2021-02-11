@@ -1,0 +1,11 @@
+name=1/1 colorless Pentavite artifact creature token with flying
+token=Pentavite
+image=https://magiccards.info/extras/token/commander-2014/pentavite.jpg
+image_updated=2015-11-12
+type=Artifact,Creature
+subtype=Pentavite
+color=
+value=1
+pt=1/1
+ability=Flying
+oracle=Flying

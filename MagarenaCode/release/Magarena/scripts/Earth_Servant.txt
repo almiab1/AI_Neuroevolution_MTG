@@ -1,0 +1,12 @@
+name=Earth Servant
+image=https://magiccards.info/scans/en/m11/134.jpg
+image_updated=2016-12-02
+value=2.562
+rarity=U
+type=Creature
+subtype=Elemental
+cost={5}{R}
+pt=4/4
+ability=SN gets +0/+1 for each Mountain you control.
+timing=main
+oracle=Earth Servant gets +0/+1 for each Mountain you control.

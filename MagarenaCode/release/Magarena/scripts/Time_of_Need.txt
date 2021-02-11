@@ -1,0 +1,9 @@
+name=Time of Need
+image=https://magiccards.info/scans/en/chk/247.jpg
+value=3.971
+rarity=U
+type=Sorcery
+cost={1}{G}
+effect=Search your library for a legendary creature card, reveal it, and put it into your hand. Then shuffle your library.
+timing=main
+oracle=Search your library for a legendary creature card, reveal it, and put it into your hand. Then shuffle your library.

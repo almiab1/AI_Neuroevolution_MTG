@@ -1,0 +1,11 @@
+name=Elite Javelineer
+image=https://magiccards.info/scans/en/8e/19.jpg
+value=3.000
+rarity=U
+type=Creature
+subtype=Human,Soldier
+cost={2}{W}
+pt=2/2
+ability=Whenever SN blocks, SN deals 1 damage to target attacking creature.
+timing=main
+oracle=Whenever Elite Javelineer blocks, it deals 1 damage to target attacking creature.

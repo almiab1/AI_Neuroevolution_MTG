@@ -1,0 +1,13 @@
+name=Summoning Trap
+image=https://magiccards.info/scans/en/mm3/139.jpg
+image_updated=2017-08-08
+value=3.975
+rarity=R
+type=Instant
+subtype=Trap
+cost={4}{G}{G}
+ability=If a creature spell you cast this turn was countered by a spell or ability an opponent controlled, you may pay {0} rather than pay this spell's mana cost.
+effect=Look at the top seven cards of your library. You may put a creature card from among them onto the battlefield. Put the rest on the bottom of your library in any order.
+timing=removal
+oracle=If a creature spell you cast this turn was countered by a spell or ability an opponent controlled, you may pay {0} rather than pay this spell's mana cost.\nLook at the top seven cards of your library. You may put a creature card from among them onto the battlefield. Put the rest on the bottom of your library in any order.
+status=not supported: no-info

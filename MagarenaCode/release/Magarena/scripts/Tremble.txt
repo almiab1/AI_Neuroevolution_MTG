@@ -1,0 +1,9 @@
+name=Tremble
+image=https://magiccards.info/scans/en/od/225.jpg
+value=2.688
+rarity=C
+type=Sorcery
+cost={1}{R}
+effect=Each player sacrifices a land.
+timing=main
+oracle=Each player sacrifices a land.

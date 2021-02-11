@@ -1,0 +1,9 @@
+name=Primal Bellow
+image=https://magiccards.info/scans/en/zen/176.jpg
+value=3.929
+rarity=U
+type=Instant
+cost={G}
+effect=Target creature gets +1/+1 until end of turn for each Forest you control.
+timing=pump
+oracle=Target creature gets +1/+1 until end of turn for each Forest you control.

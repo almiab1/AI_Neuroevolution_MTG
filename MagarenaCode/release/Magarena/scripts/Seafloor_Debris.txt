@@ -1,0 +1,11 @@
+name=Seafloor Debris
+image=https://magiccards.info/scans/en/od/325.jpg
+value=2.381
+rarity=C
+type=Land
+mana=w1u3b1r1g1
+ability=SN enters the battlefield tapped.;\
+        {T}: Add {U}.;\
+        {T}, Sacrifice SN: Add one mana of any color.
+timing=tapland
+oracle=Seafloor Debris enters the battlefield tapped.\n{T}: Add {U}.\n{T}, Sacrifice Seafloor Debris: Add one mana of any color.

@@ -1,0 +1,11 @@
+name=Akrasan Squire
+image=https://magiccards.info/scans/en/ala/1.jpg
+value=3.646
+rarity=C
+type=Creature
+subtype=Human,Soldier
+cost={W}
+pt=1/1
+timing=fmain
+ability=Exalted
+oracle=Exalted

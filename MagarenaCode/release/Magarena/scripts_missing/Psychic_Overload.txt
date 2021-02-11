@@ -1,0 +1,15 @@
+name=Psychic Overload
+image=https://magiccards.info/scans/en/ds/28.jpg
+value=3.500
+rarity=U
+type=Enchantment
+subtype=Aura
+cost={3}{U}
+ability=Enchant permanent;\
+        When SN enters the battlefield, tap enchanted permanent.;\
+        Enchanted permanent doesn't untap during its controller's untap step.;\
+        Enchanted permanent has "Discard two artifact cards: Untap this permanent."
+timing=aura
+enchant=default,permanent
+oracle=Enchant permanent\nWhen Psychic Overload enters the battlefield, tap enchanted permanent.\nEnchanted permanent doesn't untap during its controller's untap step.\nEnchanted permanent has "Discard two artifact cards: Untap this permanent."
+status=needs groovy

@@ -1,0 +1,11 @@
+name=Rabid Wolverines
+image=https://magiccards.info/scans/en/ex/119.jpg
+value=3.244
+rarity=C
+type=Creature
+subtype=Wolverine
+cost={3}{G}{G}
+pt=4/4
+ability=Whenever SN becomes blocked by a creature, SN gets +1/+1 until end of turn.
+timing=main
+oracle=Whenever Rabid Wolverines becomes blocked by a creature, Rabid Wolverines gets +1/+1 until end of turn.

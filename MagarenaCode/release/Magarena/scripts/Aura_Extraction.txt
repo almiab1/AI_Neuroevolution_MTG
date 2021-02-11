@@ -1,0 +1,10 @@
+name=Aura Extraction
+image=https://magiccards.info/scans/en/on/5.jpg
+value=2.389
+rarity=U
+type=Instant
+cost={1}{W}
+ability=Cycling {2}
+effect=Put target enchantment on top of its owner's library.
+timing=removal
+oracle=Put target enchantment on top of its owner's library.\nCycling {2}

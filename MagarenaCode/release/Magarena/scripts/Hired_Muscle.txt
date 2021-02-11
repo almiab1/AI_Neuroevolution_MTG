@@ -1,0 +1,13 @@
+name=Hired Muscle
+image=https://magiccards.info/scans/en/bok/69a.jpg
+value=2.600
+rarity=U
+type=Creature
+subtype=Human,Warrior
+cost={1}{B}{B}
+pt=2/2
+ability=Whenever you cast a Spirit or Arcane spell, you may put a ki counter on SN.;\
+        At the beginning of the end step, if there are two or more ki counters on SN, you may flip SN.
+timing=main
+flip=Scarmaker
+oracle=Whenever you cast a Spirit or Arcane spell, you may put a ki counter on Hired Muscle.\nAt the beginning of the end step, if there are two or more ki counters on Hired Muscle, you may flip it.

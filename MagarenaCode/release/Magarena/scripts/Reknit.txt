@@ -1,0 +1,9 @@
+name=Reknit
+image=https://magiccards.info/scans/en/shm/236.jpg
+value=3.167
+rarity=U
+type=Instant
+cost={1}{G/W}
+effect=Regenerate target permanent.
+timing=pump
+oracle=Regenerate target permanent.

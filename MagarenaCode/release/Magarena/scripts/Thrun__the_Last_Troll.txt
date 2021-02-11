@@ -1,0 +1,13 @@
+name=Thrun, the Last Troll
+image=https://magiccards.info/scans/en/mbs/92.jpg
+value=4.174
+rarity=M
+type=Legendary,Creature
+subtype=Troll,Shaman
+cost={2}{G}{G}
+pt=4/4
+ability=This spell can't be countered.;\
+        Hexproof;\
+        {1}{G}: Regenerate SN.
+timing=main
+oracle=This spell can't be countered.\nHexproof\n{1}{G}: Regenerate Thrun.

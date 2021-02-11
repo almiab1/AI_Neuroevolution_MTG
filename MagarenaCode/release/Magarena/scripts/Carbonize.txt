@@ -1,0 +1,9 @@
+name=Carbonize
+image=https://magiccards.info/scans/en/ema/122.jpg
+value=3.686
+rarity=C
+type=Instant
+cost={2}{R}
+effect=SN deals 3 damage to target creature or player. That creature can't be regenerated this turn. If the creature would die this turn, exile it instead.
+timing=removal
+oracle=Carbonize deals 3 damage to target creature or player. That creature can't be regenerated this turn. If the creature would die this turn, exile it instead.

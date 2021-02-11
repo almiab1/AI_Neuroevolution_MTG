@@ -1,0 +1,12 @@
+name=Mortivore
+image=https://magiccards.info/scans/en/cmd/89.jpg
+value=4.183
+rarity=R
+type=Creature
+subtype=Lhurgoyf
+cost={2}{B}{B}
+pt=*/*
+ability=SN's power and toughness are each equal to the number of creature cards in all graveyards.;\
+        {B}: Regenerate SN.
+timing=main
+oracle=Mortivore's power and toughness are each equal to the number of creature cards in all graveyards.\n{B}: Regenerate Mortivore.

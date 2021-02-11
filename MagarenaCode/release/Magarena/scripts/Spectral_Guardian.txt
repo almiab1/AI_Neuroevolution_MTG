@@ -1,0 +1,11 @@
+name=Spectral Guardian
+image=https://magiccards.info/scans/en/mr/245.jpg
+value=3.842
+rarity=R
+type=Creature
+subtype=Spirit
+cost={2}{W}{W}
+pt=2/3
+ability=As long as SN is untapped, noncreature artifacts have shroud.
+timing=main
+oracle=As long as Spectral Guardian is untapped, noncreature artifacts have shroud.

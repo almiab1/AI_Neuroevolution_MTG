@@ -1,0 +1,9 @@
+name=Teferi's Response
+image=https://magiccards.info/scans/en/in/78.jpg
+value=4.154
+rarity=R
+type=Instant
+cost={1}{U}
+effect=Counter target spell or ability an opponent controls that targets a land you control. If a permanent's ability is countered this way, destroy that permanent.~Draw two cards.
+timing=counter
+oracle=Counter target spell or ability an opponent controls that targets a land you control. If a permanent's ability is countered this way, destroy that permanent.\nDraw two cards.

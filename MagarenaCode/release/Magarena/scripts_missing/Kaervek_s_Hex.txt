@@ -1,0 +1,10 @@
+name=Kaervek's Hex
+image=https://magiccards.info/scans/en/mr/28.jpg
+value=2.233
+rarity=U
+type=Sorcery
+cost={3}{B}
+effect=SN deals 1 damage to each nonblack creature and an additional 1 damage to each green creature.
+timing=main
+oracle=Kaervek's Hex deals 1 damage to each nonblack creature and an additional 1 damage to each green creature.
+status=needs groovy

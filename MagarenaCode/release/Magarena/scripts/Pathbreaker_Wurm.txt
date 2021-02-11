@@ -1,0 +1,12 @@
+name=Pathbreaker Wurm
+image=https://magiccards.info/scans/en/avr/188.jpg
+value=3.210
+rarity=C
+type=Creature
+subtype=Wurm
+cost={4}{G}{G}
+pt=6/4
+ability=Soulbond;\
+        As long as SN is paired with another creature, both creatures have trample.
+timing=main
+oracle=Soulbond\nAs long as Pathbreaker Wurm is paired with another creature, both creatures have trample.

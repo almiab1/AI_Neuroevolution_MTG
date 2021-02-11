@@ -1,0 +1,12 @@
+name=Squirrel Nest
+image=https://magiccards.info/scans/en/cns/180.jpg
+value=4.350
+rarity=U
+type=Enchantment
+subtype=Aura
+cost={1}{G}{G}
+ability=Enchant land;\
+        Enchanted land has "{T}: Create a 1/1 green Squirrel creature token."
+timing=aura
+enchant=pump,pos land
+oracle=Enchant land\nEnchanted land has "{T}: Create a 1/1 green Squirrel creature token."

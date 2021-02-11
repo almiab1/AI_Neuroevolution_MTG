@@ -1,0 +1,9 @@
+name=Dry Spell
+image=https://magiccards.info/scans/en/6e/124.jpg
+value=3.135
+rarity=C
+type=Sorcery
+cost={1}{B}
+effect=SN deals 1 damage to each creature and each player.
+timing=main
+oracle=Dry Spell deals 1 damage to each creature and each player.

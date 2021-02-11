@@ -1,0 +1,12 @@
+name=Minotaur Skullcleaver
+image=https://magiccards.info/scans/en/ths/130.jpg
+value=3.500
+rarity=C
+type=Creature
+subtype=Minotaur,Berserker
+cost={2}{R}
+pt=2/2
+ability=Haste;\
+        When SN enters the battlefield, SN gets +2/+0 until end of turn.
+timing=fmain
+oracle=Haste\nWhen Minotaur Skullcleaver enters the battlefield, it gets +2/+0 until end of turn.

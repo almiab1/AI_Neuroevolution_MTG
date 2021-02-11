@@ -1,0 +1,12 @@
+name=Goblin Grappler
+image=https://magiccards.info/scans/en/le/100.jpg
+value=3.625
+rarity=C
+type=Creature
+subtype=Goblin
+cost={R}
+pt=1/1
+ability=Provoke
+timing=main
+oracle=Provoke
+status=not supported: blocking-restriction

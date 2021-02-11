@@ -1,0 +1,15 @@
+name=Ghoulflesh
+image=https://magiccards.info/scans/en/avr/103.jpg
+value=1.484
+removal=1
+rarity=C
+type=Enchantment
+subtype=Aura
+cost={B}
+given_color=b
+given_subtype=Zombie
+ability=Enchant creature;\
+        Enchanted creature gets -1/-1.
+timing=aura
+enchant=weaken -1/-1,neg creature
+oracle=Enchant creature\nEnchanted creature gets -1/-1 and is a black Zombie in addition to its other colors and types.

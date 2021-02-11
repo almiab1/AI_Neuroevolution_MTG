@@ -1,0 +1,11 @@
+name=Llanowar Dead
+image=https://magiccards.info/scans/en/ap/109.jpg
+value=3.789
+rarity=C
+type=Creature
+subtype=Zombie,Elf
+cost={B}{G}
+pt=2/2
+ability={T}: Add {B}.
+timing=main
+oracle={T}: Add {B}.

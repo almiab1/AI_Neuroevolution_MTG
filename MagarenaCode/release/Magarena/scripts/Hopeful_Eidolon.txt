@@ -1,0 +1,13 @@
+name=Hopeful Eidolon
+image=https://magiccards.info/scans/en/ths/19.jpg
+value=3.612
+rarity=C
+type=Enchantment,Creature
+subtype=Spirit
+cost={W}
+pt=1/1
+ability=Bestow {3}{W};\
+        Lifelink;\
+        Enchanted creature gets +1/+1 and has lifelink.
+timing=main
+oracle=Bestow {3}{W}\nLifelink\nEnchanted creature gets +1/+1 and has lifelink.

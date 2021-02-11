@@ -1,0 +1,12 @@
+name=Surveilling Sprite
+image=https://magiccards.info/scans/en/rav/67.jpg
+value=3.152
+rarity=C
+type=Creature
+subtype=Faerie,Rogue
+cost={1}{U}
+pt=1/1
+ability=Flying;\
+        When SN dies, you may draw a card.
+timing=main
+oracle=Flying\nWhen Surveilling Sprite dies, you may draw a card.

@@ -1,0 +1,11 @@
+name=Elvish Skysweeper
+image=https://magiccards.info/scans/en/c14/192.jpg
+value=3.150
+rarity=C
+type=Creature
+subtype=Elf,Warrior
+cost={G}
+pt=1/1
+ability={4}{G}, Sacrifice a creature: Destroy target creature with flying.
+timing=main
+oracle={4}{G}, Sacrifice a creature: Destroy target creature with flying.

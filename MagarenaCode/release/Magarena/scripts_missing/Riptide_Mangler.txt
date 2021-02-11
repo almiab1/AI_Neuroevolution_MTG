@@ -1,0 +1,12 @@
+name=Riptide Mangler
+image=https://magiccards.info/scans/en/le/51.jpg
+value=3.981
+rarity=R
+type=Creature
+subtype=Beast
+cost={1}{U}
+pt=0/3
+ability={1}{U}: Change SN's base power to target creature's power.
+timing=main
+oracle={1}{U}: Change Riptide Mangler's base power to target creature's power.
+status=needs groovy

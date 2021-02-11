@@ -1,0 +1,11 @@
+name=Nevinyrral's Disk
+image=https://magiccards.info/scans/en/c16/265.jpg
+image_updated=2017-08-17
+value=4.500
+rarity=R
+type=Artifact
+cost={4}
+ability=SN enters the battlefield tapped.;\
+        {1}, {T}: Destroy all artifacts, creatures, and enchantments.
+timing=artifact
+oracle=Nevinyrral's Disk enters the battlefield tapped.\n{1}, {T}: Destroy all artifacts, creatures, and enchantments.

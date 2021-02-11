@@ -1,0 +1,15 @@
+name=Liliana of the Veil
+image=https://magiccards.info/scans/en/mm3/76.jpg
+image_updated=2017-08-08
+value=4.287
+rarity=M
+type=Legendary,Planeswalker
+subtype=Liliana
+cost={1}{B}{B}
+loyalty=3
+ability=+1: Each player discards a card.;\
+        −2: Target player sacrifices a creature.;\
+        −6: Separate all permanents target player controls into two piles. That player sacrifices all permanents in the pile of his or her choice.
+timing=main
+oracle=+1: Each player discards a card.\n−2: Target player sacrifices a creature.\n−6: Separate all permanents target player controls into two piles. That player sacrifices all permanents in the pile of his or her choice.
+status=not supported: piles

@@ -1,0 +1,12 @@
+name=Bloom Tender
+image=https://magiccards.info/scans/en/eve/66.jpg
+value=4.411
+rarity=R
+type=Creature
+subtype=Elf,Druid
+cost={1}{G}
+pt=1/1
+ability={T}: For each color among permanents you control, add one mana of that color.
+timing=main
+oracle={T}: For each color among permanents you control, add one mana of that color.
+status=not supported: add-multiple-mana

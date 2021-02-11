@@ -1,0 +1,13 @@
+name=Cathedral Membrane
+image=https://magiccards.info/scans/en/nph/5.jpg
+value=3.505
+rarity=U
+type=Artifact,Creature
+subtype=Wall
+cost={1}{W/P}
+pt=0/3
+ability=Defender;\
+        When SN dies during combat, it deals 6 damage to each creature it blocked this combat.
+timing=smain
+oracle=Defender\nWhen Cathedral Membrane dies during combat, it deals 6 damage to each creature it blocked this combat.
+status=needs groovy

@@ -1,0 +1,12 @@
+name=Tarfire
+image=https://magiccards.info/scans/en/lw/194.jpg
+image_updated=2017-01-10
+value=4.250
+rarity=C
+type=Tribal,Instant
+subtype=Goblin
+cost={R}
+effect=SN deals 2 damage to target creature or player.
+removal=2
+timing=removal
+oracle=Tarfire deals 2 damage to target creature or player.

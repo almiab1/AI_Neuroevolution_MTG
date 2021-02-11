@@ -1,0 +1,13 @@
+name=Hanweir Watchkeep
+image=https://magiccards.info/scans/en/isd/145a.jpg
+value=3.431
+rarity=U
+type=Creature
+subtype=Human,Warrior,Werewolf
+cost={2}{R}
+pt=1/5
+ability=Defender;\
+        At the beginning of each upkeep, if no spells were cast last turn, transform SN.
+transform=Bane of Hanweir
+timing=smain
+oracle=Defender\nAt the beginning of each upkeep, if no spells were cast last turn, transform Hanweir Watchkeep.

@@ -1,0 +1,11 @@
+name=Logic Knot
+image=https://magiccards.info/scans/en/mma/51.jpg
+value=3.794
+rarity=C
+type=Instant
+cost={X}{U}{U}
+ability=Delve
+effect=Counter target spell unless its controller pays {X}.
+timing=counter
+oracle=Delve\nCounter target spell unless its controller pays {X}.
+status=not supported: delve

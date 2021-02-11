@@ -1,0 +1,13 @@
+name=Mosquito Guard
+image=https://magiccards.info/scans/en/mt/18.jpg
+image_updated=2016-12-23
+value=3.103
+rarity=C
+type=Creature
+subtype=Kithkin,Soldier
+cost={W}
+pt=1/1
+ability=First strike;\
+        Reinforce 1—{1}{W}
+timing=main
+oracle=First strike\nReinforce 1—{1}{W}

@@ -1,0 +1,9 @@
+name=Tablet of Epityr
+image=https://magiccards.info/scans/en/aq/32.jpg
+value=1.724
+rarity=C
+type=Artifact
+cost={1}
+ability=Whenever an artifact you control is put into a graveyard from the battlefield, you may pay {1}. If you do, you gain 1 life.
+timing=artifact
+oracle=Whenever an artifact you control is put into a graveyard from the battlefield, you may pay {1}. If you do, you gain 1 life.

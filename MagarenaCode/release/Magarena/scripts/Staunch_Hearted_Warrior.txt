@@ -1,0 +1,11 @@
+name=Staunch-Hearted Warrior
+image=https://magiccards.info/scans/en/ths/179.jpg
+value=3.288
+rarity=C
+type=Creature
+subtype=Human,Warrior
+cost={3}{G}
+pt=2/2
+ability=Whenever you cast a spell that targets SN, put two +1/+1 counters on SN.
+timing=main
+oracle=Heroic — Whenever you cast a spell that targets Staunch-Hearted Warrior, put two +1/+1 counters on Staunch-Hearted Warrior.

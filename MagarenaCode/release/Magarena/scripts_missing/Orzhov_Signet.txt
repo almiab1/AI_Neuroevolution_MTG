@@ -1,0 +1,11 @@
+name=Orzhov Signet
+image=https://magiccards.info/scans/en/mm3/224.jpg
+image_updated=2017-08-08
+value=3.522
+rarity=U
+type=Artifact
+cost={2}
+ability={1}, {T}: Add {W}{B}.
+timing=artifact
+oracle={1}, {T}: Add {W}{B}.
+status=not supported: add-multiple-mana

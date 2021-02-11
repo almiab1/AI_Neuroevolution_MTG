@@ -1,0 +1,10 @@
+name=Surgical Extraction
+image=https://magiccards.info/scans/en/mm2/99.jpg
+value=2.500
+rarity=R
+type=Instant
+cost={B/P}
+effect=Choose target card in a graveyard other than a basic land card. Search its owner's graveyard, hand, and library for any number of cards with the same name as that card and exile them. Then that player shuffles his or her library.
+timing=removal
+oracle=Choose target card in a graveyard other than a basic land card. Search its owner's graveyard, hand, and library for any number of cards with the same name as that card and exile them. Then that player shuffles his or her library.
+status=not supported: any-number-of

@@ -1,0 +1,14 @@
+name=Sedraxis Specter
+image=https://magiccards.info/scans/en/mm3/181.jpg
+image_updated=2017-08-08
+value=4.117
+rarity=U
+type=Creature
+subtype=Specter
+cost={U}{B}{R}
+pt=3/2
+ability=Flying;\
+        Whenever SN deals combat damage to a player, that player discards a card.;\
+        Unearth {1}{B}
+timing=main
+oracle=Flying\nWhenever Sedraxis Specter deals combat damage to a player, that player discards a card.\nUnearth {1}{B}

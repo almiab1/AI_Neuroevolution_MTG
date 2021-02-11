@@ -1,0 +1,11 @@
+name=Order of the Sacred Torch
+image=https://magiccards.info/scans/en/6e/32.jpg
+value=3.741
+rarity=R
+type=Creature
+subtype=Human,Knight
+cost={1}{W}{W}
+pt=2/2
+ability={T}, Pay 1 life: Counter target black spell.
+timing=main
+oracle={T}, Pay 1 life: Counter target black spell.

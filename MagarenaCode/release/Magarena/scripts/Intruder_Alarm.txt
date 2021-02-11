@@ -1,0 +1,10 @@
+name=Intruder Alarm
+image=https://magiccards.info/scans/en/8e/86.jpg
+value=4.378
+rarity=R
+type=Enchantment
+cost={2}{U}
+ability=Creatures don't untap during their controllers' untap steps.;\
+        Whenever a creature enters the battlefield, untap all creatures.
+timing=enchantment
+oracle=Creatures don't untap during their controllers' untap steps.\nWhenever a creature enters the battlefield, untap all creatures.

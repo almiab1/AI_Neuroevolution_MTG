@@ -1,0 +1,11 @@
+name=Marhault Elsdragon
+image=https://magiccards.info/scans/en/lg/284.jpg
+value=2.455
+rarity=U
+type=Legendary,Creature
+subtype=Elf,Warrior
+cost={3}{R}{R}{G}
+pt=4/6
+ability=Rampage 1
+timing=main
+oracle=Rampage 1

@@ -1,0 +1,9 @@
+name=Joint Assault
+image=https://magiccards.info/scans/en/avr/183.jpg
+value=2.951
+rarity=C
+type=Instant
+cost={G}
+timing=pump
+requires_groovy_code
+oracle=Target creature gets +2/+2 until end of turn. If it's paired with a creature, that creature also gets +2/+2 until end of turn.

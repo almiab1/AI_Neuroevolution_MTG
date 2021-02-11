@@ -1,0 +1,9 @@
+name=Hissing Miasma
+image=https://magiccards.info/scans/en/gp/51.jpg
+value=3.930
+rarity=U
+type=Enchantment
+cost={1}{B}{B}
+ability=Whenever a creature attacks you, RN's controller loses 1 life.
+timing=enchantment
+oracle=Whenever a creature attacks you, its controller loses 1 life.

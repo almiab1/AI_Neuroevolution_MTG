@@ -1,0 +1,11 @@
+name=Meditation Puzzle
+image=https://magiccards.info/scans/en/m15/19.jpg
+value=1.143
+rarity=C
+type=Instant
+cost={3}{W}{W}
+ability=Convoke
+effect=You gain 8 life.
+timing=removal
+oracle=Convoke\nYou gain 8 life.
+status=not supported: convoke

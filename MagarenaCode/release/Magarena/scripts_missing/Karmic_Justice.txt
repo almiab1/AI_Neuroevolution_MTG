@@ -1,0 +1,11 @@
+name=Karmic Justice
+image=https://magiccards.info/scans/en/od/26.jpg
+image_updated=2016-02-29
+value=3.962
+rarity=R
+type=Enchantment
+cost={2}{W}
+ability=Whenever a spell or ability an opponent controls destroys a noncreature permanent you control, you may destroy target permanent that opponent controls.
+timing=enchantment
+oracle=Whenever a spell or ability an opponent controls destroys a noncreature permanent you control, you may destroy target permanent that opponent controls.
+status=not supported: no-info

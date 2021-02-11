@@ -1,0 +1,12 @@
+name=Steam Vines
+image=https://magiccards.info/scans/en/od/223.jpg
+value=2.068
+rarity=U
+type=Enchantment
+subtype=Aura
+cost={1}{R}{R}
+ability=Enchant land
+timing=aura
+enchant=destroy,neg land
+oracle=Enchant land\nWhen enchanted land becomes tapped, destroy it and Steam Vines deals 1 damage to that land's controller. That player attaches Steam Vines to a land of his or her choice.
+requires_groovy_code

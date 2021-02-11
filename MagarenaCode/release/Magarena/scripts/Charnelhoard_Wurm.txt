@@ -1,0 +1,12 @@
+name=Charnelhoard Wurm
+image=https://magiccards.info/scans/en/cfx/100.jpg
+value=3.594
+rarity=R
+type=Creature
+subtype=Wurm
+cost={4}{B}{R}{G}
+pt=6/6
+ability=Trample;\
+        Whenever SN deals damage to an opponent, you may return target card from your graveyard to your hand.
+timing=main
+oracle=Trample\nWhenever Charnelhoard Wurm deals damage to an opponent, you may return target card from your graveyard to your hand.

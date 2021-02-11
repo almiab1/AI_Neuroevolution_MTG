@@ -1,0 +1,13 @@
+name=Fogwalker
+image=https://magiccards.info/scans/en/emn/60.jpg
+image_updated=2016-09-05
+value=2.500
+rarity=C
+type=Creature
+subtype=Spirit
+cost={1}{U}
+pt=1/3
+ability=Skulk;\
+        When SN enters the battlefield, target creature an opponent controls doesn't untap during its controller's next untap step.
+timing=main
+oracle=Skulk\nWhen Fogwalker enters the battlefield, target creature an opponent controls doesn't untap during its controller's next untap step.

@@ -1,0 +1,11 @@
+name=Angel of Light
+image=https://magiccards.info/scans/en/st/1.jpg
+value=2.362
+rarity=U
+type=Creature
+subtype=Angel
+cost={4}{W}
+pt=3/3
+ability=Flying, vigilance
+timing=main
+oracle=Flying, vigilance

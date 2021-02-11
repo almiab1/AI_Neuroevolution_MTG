@@ -1,0 +1,12 @@
+name=Shattered Angel
+image=https://magiccards.info/scans/en/cmd/31.jpg
+value=2.911
+rarity=U
+type=Creature
+subtype=Angel
+cost={3}{W}{W}
+pt=3/3
+ability=Flying;\
+        Whenever a land enters the battlefield under an opponent's control, you may gain 3 life.
+timing=main
+oracle=Flying\nWhenever a land enters the battlefield under an opponent's control, you may gain 3 life.

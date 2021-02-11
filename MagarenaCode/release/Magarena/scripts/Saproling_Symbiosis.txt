@@ -1,0 +1,10 @@
+name=Saproling Symbiosis
+image=https://magiccards.info/scans/en/in/209.jpg
+value=4.139
+rarity=R
+type=Sorcery
+cost={3}{G}
+effect=Create a 1/1 green Saproling creature token for each creature you control.
+timing=token
+requires_groovy_code
+oracle=You may cast Saproling Symbiosis as though it had flash if you pay {2} more to cast it.\nCreate a 1/1 green Saproling creature token for each creature you control.

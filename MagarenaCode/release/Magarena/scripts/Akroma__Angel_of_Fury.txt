@@ -1,0 +1,15 @@
+name=Akroma, Angel of Fury
+image=https://magiccards.info/scans/en/a25/119.jpg
+image_updated=2018-04-26
+value=4.348
+rarity=M
+type=Legendary,Creature
+subtype=Angel
+cost={5}{R}{R}{R}
+pt=6/6
+ability=This spell can't be countered.;\
+        Flying; trample; protection from white; protection from blue;\
+        {R}: SN gets +1/+0 until end of turn.;\
+        Morph {3}{R}{R}{R}
+timing=main
+oracle=This spell can't be countered.\nFlying, trample, protection from white and from blue\n{R}: Akroma, Angel of Fury gets +1/+0 until end of turn.\nMorph {3}{R}{R}{R}

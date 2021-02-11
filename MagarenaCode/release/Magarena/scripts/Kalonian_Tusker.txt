@@ -1,0 +1,10 @@
+name=Kalonian Tusker
+image=https://magiccards.info/scans/en/m14/182.jpg
+value=3.709
+rarity=U
+type=Creature
+subtype=Beast
+cost={G}{G}
+pt=3/3
+timing=main
+oracle=NONE

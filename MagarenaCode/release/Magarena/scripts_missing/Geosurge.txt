@@ -1,0 +1,10 @@
+name=Geosurge
+image=https://magiccards.info/scans/en/nph/85.jpg
+value=3.708
+rarity=U
+type=Sorcery
+cost={R}{R}{R}{R}
+effect=Add {R}{R}{R}{R}{R}{R}{R}. Spend this mana only to cast artifact or creature spells.
+timing=main
+oracle=Add {R}{R}{R}{R}{R}{R}{R}. Spend this mana only to cast artifact or creature spells.
+status=not supported: add-multiple-mana

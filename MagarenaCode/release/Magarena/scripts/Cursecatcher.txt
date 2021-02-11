@@ -1,0 +1,12 @@
+name=Cursecatcher
+image=https://magiccards.info/scans/en/a25/53.jpg
+image_updated=2018-04-27
+value=4.364
+rarity=U
+type=Creature
+subtype=Merfolk,Wizard
+cost={U}
+pt=1/1
+ability=Sacrifice SN: Counter target instant or sorcery spell unless its controller pays {1}.
+timing=main
+oracle=Sacrifice Cursecatcher: Counter target instant or sorcery spell unless its controller pays {1}.

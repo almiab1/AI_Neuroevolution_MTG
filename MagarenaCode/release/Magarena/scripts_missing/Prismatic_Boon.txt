@@ -1,0 +1,10 @@
+name=Prismatic Boon
+image=https://magiccards.info/scans/en/mr/334.jpg
+value=3.065
+rarity=U
+type=Instant
+cost={X}{W}{U}
+effect=Choose a color. X target creatures gain protection from the chosen color until end of turn.
+timing=removal
+oracle=Choose a color. X target creatures gain protection from the chosen color until end of turn.
+status=not supported: multiple-targets

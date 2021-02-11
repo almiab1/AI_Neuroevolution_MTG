@@ -1,0 +1,12 @@
+name=Benalish Hero
+image=https://magiccards.info/scans/en/5e/286.jpg
+value=2.926
+rarity=C
+type=Creature
+subtype=Human,Soldier
+cost={W}
+pt=1/1
+ability=Banding
+timing=main
+oracle=Banding
+status=not supported: banding

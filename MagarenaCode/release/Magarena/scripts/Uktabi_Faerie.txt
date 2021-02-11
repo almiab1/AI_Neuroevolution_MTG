@@ -1,0 +1,12 @@
+name=Uktabi Faerie
+image=https://magiccards.info/scans/en/mr/145.jpg
+value=2.439
+rarity=C
+type=Creature
+subtype=Faerie
+cost={1}{G}
+pt=1/1
+ability=Flying;\
+        {3}{G}, Sacrifice SN: Destroy target artifact.
+timing=main
+oracle=Flying\n{3}{G}, Sacrifice Uktabi Faerie: Destroy target artifact.

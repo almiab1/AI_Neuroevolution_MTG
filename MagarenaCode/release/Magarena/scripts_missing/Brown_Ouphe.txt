@@ -1,0 +1,12 @@
+name=Brown Ouphe
+image=https://magiccards.info/scans/en/mi/115.jpg
+value=3.610
+rarity=U
+type=Creature
+subtype=Ouphe
+cost={G}
+pt=1/1
+ability={1}{G}, {T}: Counter target activated ability from an artifact source.
+timing=main
+oracle={1}{G}, {T}: Counter target activated ability from an artifact source.
+status=needs groovy

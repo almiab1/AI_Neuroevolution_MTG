@@ -1,0 +1,11 @@
+name=Lay Waste
+image=https://magiccards.info/scans/en/on/216.jpg
+value=2.783
+removal=2
+rarity=C
+type=Sorcery
+cost={3}{R}
+ability=Cycling {2}
+effect=Destroy target land.
+timing=removal
+oracle=Destroy target land.\nCycling {2}

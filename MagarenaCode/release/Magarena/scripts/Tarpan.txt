@@ -1,0 +1,11 @@
+name=Tarpan
+image=https://magiccards.info/scans/en/5e/192.jpg
+value=2.457
+rarity=C
+type=Creature
+subtype=Horse
+cost={G}
+pt=1/1
+ability=When SN dies, you gain 1 life.
+timing=main
+oracle=When Tarpan dies, you gain 1 life.

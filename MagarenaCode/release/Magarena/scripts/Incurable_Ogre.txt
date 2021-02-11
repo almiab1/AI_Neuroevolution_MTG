@@ -1,0 +1,10 @@
+name=Incurable Ogre
+image=https://magiccards.info/scans/en/ala/105.jpg
+value=2.056
+rarity=C
+type=Creature
+subtype=Ogre,Mutant
+cost={3}{R}
+pt=5/1
+timing=main
+oracle=NONE

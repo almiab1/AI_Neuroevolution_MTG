@@ -1,0 +1,11 @@
+name=Selhoff Occultist
+image=https://magiccards.info/scans/en/isd/73.jpg
+value=2.875
+rarity=C
+type=Creature
+subtype=Human,Rogue
+cost={2}{U}
+pt=2/3
+ability=Whenever SN or another creature dies, target player puts the top card of his or her library into his or her graveyard.
+timing=main
+oracle=Whenever Selhoff Occultist or another creature dies, target player puts the top card of his or her library into his or her graveyard.

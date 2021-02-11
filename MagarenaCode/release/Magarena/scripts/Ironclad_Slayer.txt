@@ -1,0 +1,12 @@
+name=Ironclad Slayer
+image=https://magiccards.info/scans/en/emn/31.jpg
+image_updated=2016-09-05
+value=2.500
+rarity=C
+type=Creature
+subtype=Human,Warrior
+cost={2}{W}
+pt=3/2
+ability=When SN enters the battlefield, you may return target Aura or Equipment card from your graveyard to your hand.
+timing=main
+oracle=When Ironclad Slayer enters the battlefield, you may return target Aura or Equipment card from your graveyard to your hand.

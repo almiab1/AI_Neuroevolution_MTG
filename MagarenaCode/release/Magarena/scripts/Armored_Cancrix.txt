@@ -1,0 +1,10 @@
+name=Armored Cancrix
+image=https://magiccards.info/scans/en/m11/44.jpg
+value=1.287
+rarity=C
+type=Creature
+subtype=Crab
+cost={4}{U}
+pt=2/5
+timing=main
+oracle=NONE

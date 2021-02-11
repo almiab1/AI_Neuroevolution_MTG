@@ -1,0 +1,12 @@
+name=Bonded Fetch
+image=https://magiccards.info/scans/en/fut/50.jpg
+value=3.315
+rarity=U
+type=Creature
+subtype=Homunculus
+cost={2}{U}
+pt=0/2
+ability=Defender, haste;\
+        {T}: Draw a card, then discard a card.
+timing=fmain
+oracle=Defender, haste\n{T}: Draw a card, then discard a card.

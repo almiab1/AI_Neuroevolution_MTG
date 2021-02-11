@@ -1,0 +1,11 @@
+name=Segovian Leviathan
+image=https://magiccards.info/scans/en/6e/97.jpg
+value=2.344
+rarity=U
+type=Creature
+subtype=Leviathan
+cost={4}{U}
+pt=3/3
+ability=Islandwalk
+timing=main
+oracle=Islandwalk

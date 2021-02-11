@@ -1,0 +1,13 @@
+name=Unstable Mutation
+image=https://magiccards.info/scans/en/tsts/33.jpg
+value=4.217
+rarity=C
+type=Enchantment
+subtype=Aura
+cost={U}
+ability=Enchant creature;\
+        Enchanted creature gets +3/+3.
+timing=aura
+enchant=pump,creature
+oracle=Enchant creature\nEnchanted creature gets +3/+3.\nAt the beginning of the upkeep of enchanted creature's controller, put a -1/-1 counter on that creature.
+requires_groovy_code

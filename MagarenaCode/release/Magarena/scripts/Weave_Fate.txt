@@ -1,0 +1,10 @@
+name=Weave Fate
+image=https://magiccards.info/scans/en/ori/279.jpg
+image_updated=2010-09-10
+value=2.500
+rarity=C
+type=Instant
+cost={3}{U}
+effect=Draw two cards.
+timing=draw
+oracle=Draw two cards.

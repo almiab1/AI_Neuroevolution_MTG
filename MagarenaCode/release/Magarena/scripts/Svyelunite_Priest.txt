@@ -1,0 +1,11 @@
+name=Svyelunite Priest
+image=https://magiccards.info/scans/en/fe/53.jpg
+value=1.729
+rarity=U
+type=Creature
+subtype=Merfolk,Cleric
+cost={1}{U}
+pt=1/1
+ability={U}{U}, {T}: Target creature gains shroud until end of turn. Activate this ability only during your upkeep.
+timing=main
+oracle={U}{U}, {T}: Target creature gains shroud until end of turn. Activate this ability only during your upkeep.

@@ -1,0 +1,12 @@
+name=Custody Battle
+image=https://magiccards.info/scans/en/on/197.jpg
+value=3.661
+rarity=U
+type=Enchantment
+subtype=Aura
+cost={1}{R}
+ability=Enchant creature
+timing=aura
+enchant=pump,neg creature
+oracle=Enchant creature\nEnchanted creature has "At the beginning of your upkeep, target opponent gains control of this creature unless you sacrifice a land."
+requires_groovy_code

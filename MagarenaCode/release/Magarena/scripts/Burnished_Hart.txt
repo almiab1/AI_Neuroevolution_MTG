@@ -1,0 +1,12 @@
+name=Burnished Hart
+image=https://magiccards.info/scans/en/c14/232.jpg
+image_updated=2016-02-29
+value=3.523
+rarity=U
+type=Artifact,Creature
+subtype=Elk
+cost={3}
+pt=2/2
+ability={3}, Sacrifice SN: Search your library for up to two basic land cards, put them onto the battlefield tapped, then shuffle your library.
+timing=main
+oracle={3}, Sacrifice Burnished Hart: Search your library for up to two basic land cards, put them onto the battlefield tapped, then shuffle your library.

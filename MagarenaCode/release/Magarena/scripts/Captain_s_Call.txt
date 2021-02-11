@@ -1,0 +1,9 @@
+name=Captain's Call
+image=https://magiccards.info/scans/en/m13/9.jpg
+value=3.041
+rarity=C
+type=Sorcery
+cost={3}{W}
+effect=Create three 1/1 white Soldier creature tokens.
+timing=token
+oracle=Create three 1/1 white Soldier creature tokens.

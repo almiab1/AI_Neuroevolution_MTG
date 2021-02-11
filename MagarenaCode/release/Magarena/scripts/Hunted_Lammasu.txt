@@ -1,0 +1,12 @@
+name=Hunted Lammasu
+image=https://magiccards.info/scans/en/rav/22.jpg
+value=3.424
+rarity=R
+type=Creature
+subtype=Lammasu
+cost={2}{W}{W}
+pt=5/5
+ability=Flying;\
+        When SN enters the battlefield, target opponent creates a 4/4 black Horror creature token.
+timing=main
+oracle=Flying\nWhen Hunted Lammasu enters the battlefield, target opponent creates a 4/4 black Horror creature token.

@@ -1,0 +1,9 @@
+name=Gate to Phyrexia
+image=https://magiccards.info/scans/en/aq/46.jpg
+value=3.905
+rarity=U
+type=Enchantment
+cost={B}{B}
+ability=Sacrifice a creature: Destroy target artifact. Activate this ability only during your upkeep and only once each turn.
+timing=enchantment
+oracle=Sacrifice a creature: Destroy target artifact. Activate this ability only during your upkeep and only once each turn.

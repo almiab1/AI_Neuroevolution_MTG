@@ -1,0 +1,12 @@
+name=Reflex Sliver
+image=https://magiccards.info/scans/en/pc/138.jpg
+value=3.062
+rarity=C
+type=Creature
+subtype=Sliver
+cost={3}{G}
+pt=2/2
+ability=All Sliver creatures have haste.
+static=all
+timing=fmain
+oracle=All Sliver creatures have haste.

@@ -1,0 +1,12 @@
+name=Boggart Ram-Gang
+image=https://magiccards.info/scans/en/shm/203.jpg
+value=3.573
+rarity=U
+type=Creature
+subtype=Goblin,Warrior
+cost={R/G}{R/G}{R/G}
+pt=3/3
+ability=Haste;\
+        Wither
+timing=fmain
+oracle=Haste\nWither

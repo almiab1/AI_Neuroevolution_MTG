@@ -1,0 +1,10 @@
+name=Snapback
+image=https://magiccards.info/scans/en/ts/78.jpg
+value=3.924
+rarity=C
+type=Instant
+cost={1}{U}
+ability=You may exile a blue card from your hand rather than pay this spell's mana cost.
+effect=Return target creature to its owner's hand.
+timing=removal
+oracle=You may exile a blue card from your hand rather than pay this spell's mana cost.\nReturn target creature to its owner's hand.

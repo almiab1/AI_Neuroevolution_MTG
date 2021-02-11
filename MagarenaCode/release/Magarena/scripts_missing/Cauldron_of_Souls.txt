@@ -1,0 +1,11 @@
+name=Cauldron of Souls
+image=https://magiccards.info/scans/en/c16/246.jpg
+image_updated=2017-08-17
+value=3.799
+rarity=R
+type=Artifact
+cost={5}
+ability={T}: Choose any number of target creatures. Each of those creatures gains persist until end of turn.
+timing=artifact
+oracle={T}: Choose any number of target creatures. Each of those creatures gains persist until end of turn.
+status=not supported: multiple-targets

@@ -1,0 +1,12 @@
+name=Mawcor
+image=https://magiccards.info/scans/en/7e/87.jpg
+value=2.896
+rarity=R
+type=Creature
+subtype=Beast
+cost={3}{U}{U}
+pt=3/3
+ability=Flying;\
+        {T}: SN deals 1 damage to target creature or player.
+timing=main
+oracle=Flying\n{T}: Mawcor deals 1 damage to target creature or player.

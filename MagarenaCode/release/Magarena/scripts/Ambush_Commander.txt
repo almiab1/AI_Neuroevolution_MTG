@@ -1,0 +1,13 @@
+name=Ambush Commander
+image=https://magiccards.info/scans/en/sc/111.jpg
+image_updated=2016-11-20
+value=4.316
+rarity=R
+type=Creature
+subtype=Elf
+cost={3}{G}{G}
+pt=2/2
+ability={1}{G}, Sacrifice an Elf: Target creature gets +3/+3 until end of turn.
+timing=main
+requires_groovy_code
+oracle=Forests you control are 1/1 green Elf creatures that are still lands.\n{1}{G}, Sacrifice an Elf: Target creature gets +3/+3 until end of turn.

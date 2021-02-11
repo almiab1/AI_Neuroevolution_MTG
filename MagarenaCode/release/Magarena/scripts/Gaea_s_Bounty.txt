@@ -1,0 +1,9 @@
+name=Gaea's Bounty
+image=https://magiccards.info/scans/en/us/254.jpg
+value=3.030
+rarity=C
+type=Sorcery
+cost={2}{G}
+effect=Search your library for up to two Forest cards, reveal those cards, and put them into your hand. Then shuffle your library.
+timing=main
+oracle=Search your library for up to two Forest cards, reveal those cards, and put them into your hand. Then shuffle your library.

@@ -1,0 +1,11 @@
+name=Molten Rain
+image=https://magiccards.info/scans/en/mm3/103.jpg
+image_updated=2017-08-08
+value=4.295
+removal=3
+rarity=U
+type=Sorcery
+cost={1}{R}{R}
+timing=removal
+requires_groovy_code
+oracle=Destroy target land. If that land was nonbasic, Molten Rain deals 2 damage to the land's controller.

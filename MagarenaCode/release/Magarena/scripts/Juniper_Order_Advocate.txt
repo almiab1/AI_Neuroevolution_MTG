@@ -1,0 +1,11 @@
+name=Juniper Order Advocate
+image=https://magiccards.info/scans/en/ai/132.jpg
+value=3.712
+rarity=U
+type=Creature
+subtype=Human,Knight
+cost={2}{W}
+pt=1/2
+ability=As long as SN is untapped, green creatures you control get +1/+1.
+timing=main
+oracle=As long as Juniper Order Advocate is untapped, green creatures you control get +1/+1.

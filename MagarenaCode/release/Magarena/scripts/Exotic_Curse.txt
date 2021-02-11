@@ -1,0 +1,13 @@
+name=Exotic Curse
+image=https://magiccards.info/scans/en/in/105.jpg
+image_updated=2016-12-02
+value=3.022
+rarity=C
+type=Enchantment
+subtype=Aura
+cost={2}{B}
+ability=Enchant creature;\
+        Enchanted creature gets -1/-1 for each basic land type among lands you control.
+timing=aura
+enchant=weaken,neg creature
+oracle=Enchant creature\nDomain — Enchanted creature gets -1/-1 for each basic land type among lands you control.

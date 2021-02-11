@@ -1,0 +1,11 @@
+name=Ezuri's Predation
+image=https://magiccards.info/scans/en/c15/36.jpg
+image_updated=2016-02-29
+value=2.500
+rarity=R
+type=Sorcery
+cost={5}{G}{G}{G}
+effect=For each creature your opponents control, create a 4/4 green Beast creature token. Each of those Beasts fights a different one of those creatures.
+timing=main
+oracle=For each creature your opponents control, create a 4/4 green Beast creature token. Each of those Beasts fights a different one of those creatures.
+status=needs groovy

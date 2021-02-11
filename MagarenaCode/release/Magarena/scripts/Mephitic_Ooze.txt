@@ -1,0 +1,12 @@
+name=Mephitic Ooze
+image=https://magiccards.info/scans/en/ds/47.jpg
+value=3.733
+rarity=R
+type=Creature
+subtype=Ooze
+cost={4}{B}
+pt=0/5
+ability=SN gets +1/+0 for each artifact you control.;\
+        Whenever SN deals combat damage to a creature, destroy that creature. It can't be regenerated.
+timing=main
+oracle=Mephitic Ooze gets +1/+0 for each artifact you control.\nWhenever Mephitic Ooze deals combat damage to a creature, destroy that creature. The creature can't be regenerated.

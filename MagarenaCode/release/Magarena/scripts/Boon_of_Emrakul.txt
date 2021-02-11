@@ -1,0 +1,13 @@
+name=Boon of Emrakul
+image=https://magiccards.info/scans/en/emn/81.jpg
+image_updated=2016-09-05
+value=2.500
+rarity=C
+type=Enchantment
+subtype=Aura
+cost={2}{B}
+ability=Enchant creature;\
+        Enchanted creature gets +3/-3.
+timing=aura
+enchant=default,creature
+oracle=Enchant creature\nEnchanted creature gets +3/-3.

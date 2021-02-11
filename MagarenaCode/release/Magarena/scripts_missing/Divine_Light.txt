@@ -1,0 +1,10 @@
+name=Divine Light
+image=https://magiccards.info/scans/en/ap/8.jpg
+value=2.744
+rarity=C
+type=Sorcery
+cost={W}
+effect=Prevent all damage that would be dealt this turn to creatures you control.
+timing=main
+oracle=Prevent all damage that would be dealt this turn to creatures you control.
+status=needs groovy

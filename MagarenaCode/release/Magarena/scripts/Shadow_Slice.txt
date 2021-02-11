@@ -1,0 +1,9 @@
+name=Shadow Slice
+image=https://magiccards.info/scans/en/gtc/77.jpg
+value=2.472
+rarity=C
+type=Sorcery
+cost={4}{B}
+effect=Target opponent loses 3 life.~Cipher.
+timing=main
+oracle=Target opponent loses 3 life.\nCipher

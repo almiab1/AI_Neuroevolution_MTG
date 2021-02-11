@@ -1,0 +1,10 @@
+name=Vault of Whispers
+image=https://magiccards.info/scans/en/mi/286.jpg
+image_updated=2017-01-11
+value=4.360
+rarity=C
+type=Artifact,Land
+mana=b4
+ability={T}: Add {B}.
+timing=land
+oracle={T}: Add {B}.

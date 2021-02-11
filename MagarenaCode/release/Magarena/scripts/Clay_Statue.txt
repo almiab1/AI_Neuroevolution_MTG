@@ -1,0 +1,11 @@
+name=Clay Statue
+image=https://magiccards.info/scans/en/5e/355.jpg
+value=3.341
+rarity=C
+type=Artifact,Creature
+subtype=Golem
+cost={4}
+pt=3/1
+ability={2}: Regenerate SN.
+timing=main
+oracle={2}: Regenerate Clay Statue.

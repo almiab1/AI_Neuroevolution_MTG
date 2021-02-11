@@ -1,0 +1,12 @@
+name=Stromgald Spy
+image=https://magiccards.info/scans/en/ai/29.jpg
+value=3.269
+rarity=U
+type=Creature
+subtype=Human,Rogue
+cost={3}{B}
+pt=2/4
+ability=Whenever SN attacks and isn't blocked, you may have defending player play with his or her hand revealed for as long as SN remains on the battlefield. If you do, SN assigns no combat damage this turn.
+timing=main
+oracle=Whenever Stromgald Spy attacks and isn't blocked, you may have defending player play with his or her hand revealed for as long as Stromgald Spy remains on the battlefield. If you do, Stromgald Spy assigns no combat damage this turn.
+status=not supported: play-revealed

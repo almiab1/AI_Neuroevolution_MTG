@@ -1,0 +1,11 @@
+name=Nim Lasher
+image=https://magiccards.info/scans/en/mi/71.jpg
+value=2.662
+rarity=C
+type=Creature
+subtype=Zombie
+cost={2}{B}
+pt=1/1
+ability=SN gets +1/+0 for each artifact you control.
+timing=main
+oracle=Nim Lasher gets +1/+0 for each artifact you control.

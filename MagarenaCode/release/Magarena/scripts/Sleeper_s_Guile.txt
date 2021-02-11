@@ -1,0 +1,13 @@
+name=Sleeper's Guile
+image=https://magiccards.info/scans/en/ul/67.jpg
+value=3.600
+rarity=C
+type=Enchantment
+subtype=Aura
+cost={2}{B}
+ability=Enchant creature;\
+        Enchanted creature has fear.;\
+        When SN is put into a graveyard from the battlefield, return SN from the graveyard to its owner's hand.
+timing=aura
+enchant=unblockable,pos creature
+oracle=Enchant creature\nEnchanted creature has fear.\nWhen Sleeper's Guile is put into a graveyard from the battlefield, return Sleeper's Guile to its owner's hand.

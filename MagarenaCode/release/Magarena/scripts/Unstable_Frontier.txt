@@ -1,0 +1,9 @@
+name=Unstable Frontier
+image=https://magiccards.info/scans/en/cfx/145.jpg
+value=2.789
+rarity=U
+type=Land
+ability={T}: Add {C}.;\
+        {T}: Target land you control becomes the basic land type of your choice until end of turn.
+timing=land
+oracle={T}: Add {C}.\n{T}: Target land you control becomes the basic land type of your choice until end of turn.

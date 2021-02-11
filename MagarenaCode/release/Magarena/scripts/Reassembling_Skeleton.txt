@@ -1,0 +1,12 @@
+name=Reassembling Skeleton
+image=https://magiccards.info/scans/en/m19/116.jpg
+image_updated=2018-08-07
+value=3.576
+rarity=U
+type=Creature
+subtype=Skeleton,Warrior
+cost={1}{B}
+pt=1/1
+ability={1}{B}: Return SN from your graveyard to the battlefield tapped.
+timing=main
+oracle={1}{B}: Return Reassembling Skeleton from your graveyard to the battlefield tapped.

@@ -1,0 +1,12 @@
+name=Hoofprints of the Stag
+image=https://magiccards.info/scans/en/c16/67.jpg
+image_updated=2017-08-17
+value=4.088
+rarity=R
+type=Tribal,Enchantment
+subtype=Elemental
+cost={1}{W}
+ability=Whenever you draw a card, you may put a hoofprint counter on SN.;\
+        {2}{W}, Remove four hoofprint counters from SN: Create a 4/4 white Elemental creature token with flying. Activate this ability only during your turn.
+timing=enchantment
+oracle=Whenever you draw a card, you may put a hoofprint counter on Hoofprints of the Stag.\n{2}{W}, Remove four hoofprint counters from Hoofprints of the Stag: Create a 4/4 white Elemental creature token with flying. Activate this ability only during your turn.

@@ -1,0 +1,12 @@
+name=Spectral Procession
+image=https://magiccards.info/scans/en/mm2/33.jpg
+value=3.611
+rarity=U
+type=Sorcery
+cost={2/W}{2/W}{2/W}
+ability=alt cost {2}{W}{W} named Pay 2WW;\
+        alt cost {4}{W} named Pay 4W;\
+        alt cost {6} named Pay 6
+effect=Create three 1/1 white Spirit creature tokens with flying.
+timing=main
+oracle=Create three 1/1 white Spirit creature tokens with flying.

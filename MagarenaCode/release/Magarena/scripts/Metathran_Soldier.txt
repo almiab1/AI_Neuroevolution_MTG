@@ -1,0 +1,11 @@
+name=Metathran Soldier
+image=https://magiccards.info/scans/en/ud/39.jpg
+value=3.647
+rarity=C
+type=Creature
+subtype=Metathran,Soldier
+cost={1}{U}
+pt=1/1
+ability=SN can't be blocked.
+timing=main
+oracle=Metathran Soldier can't be blocked.

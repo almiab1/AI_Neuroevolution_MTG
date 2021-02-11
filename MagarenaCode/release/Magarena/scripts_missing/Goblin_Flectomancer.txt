@@ -1,0 +1,12 @@
+name=Goblin Flectomancer
+image=https://magiccards.info/scans/en/gp/116.jpg
+value=3.837
+rarity=U
+type=Creature
+subtype=Goblin,Wizard
+cost={U}{R}{R}
+pt=2/2
+ability=Sacrifice SN: You may change the targets of target instant or sorcery spell.
+timing=main
+oracle=Sacrifice Goblin Flectomancer: You may change the targets of target instant or sorcery spell.
+status=not supported: change-target

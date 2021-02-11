@@ -1,0 +1,13 @@
+name=Charging Troll
+image=https://magiccards.info/scans/en/in/239.jpg
+image_updated=2016-11-28
+value=4.156
+rarity=U
+type=Creature
+subtype=Troll
+cost={2}{G}{W}
+pt=3/3
+ability=Vigilance;\
+        {G}: Regenerate SN.
+timing=main
+oracle=Vigilance\n{G}: Regenerate Charging Troll.

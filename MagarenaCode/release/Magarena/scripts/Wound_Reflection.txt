@@ -1,0 +1,9 @@
+name=Wound Reflection
+image=https://magiccards.info/scans/en/shm/81.jpg
+value=3.764
+rarity=R
+type=Enchantment
+cost={5}{B}
+timing=enchantment
+oracle=At the beginning of each end step, each opponent loses life equal to the life he or she lost this turn.
+requires_groovy_code

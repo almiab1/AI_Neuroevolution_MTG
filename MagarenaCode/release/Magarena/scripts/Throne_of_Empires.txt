@@ -1,0 +1,9 @@
+name=Throne of Empires
+image=https://magiccards.info/scans/en/m12/221.jpg
+value=3.735
+rarity=R
+type=Artifact
+cost={4}
+timing=artifact
+oracle={1}, {T}: Create a 1/1 white Soldier creature token. Create five of those tokens instead if you control artifacts named Crown of Empires and Scepter of Empires.
+requires_groovy_code

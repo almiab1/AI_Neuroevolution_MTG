@@ -1,0 +1,14 @@
+name=Ball Lightning
+image=https://magiccards.info/scans/en/a25/121.jpg
+image_updated=2018-04-27
+value=4.140
+rarity=R
+type=Creature
+subtype=Elemental
+cost={R}{R}{R}
+pt=6/1
+ability=Trample;\
+        Haste;\
+        At the beginning of the end step, sacrifice SN.
+timing=fmain
+oracle=Trample\nHaste\nAt the beginning of the end step, sacrifice Ball Lightning.

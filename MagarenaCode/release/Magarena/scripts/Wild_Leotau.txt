@@ -1,0 +1,11 @@
+name=Wild Leotau
+image=https://magiccards.info/scans/en/cfx/97.jpg
+value=2.484
+rarity=C
+type=Creature
+subtype=Cat
+cost={2}{G}{G}
+pt=5/4
+ability=At the beginning of your upkeep, sacrifice SN unless you pay {G}.
+timing=main
+oracle=At the beginning of your upkeep, sacrifice Wild Leotau unless you pay {G}.

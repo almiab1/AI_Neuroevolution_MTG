@@ -1,0 +1,12 @@
+name=Open the Vaults
+image=https://magiccards.info/scans/en/c16/72.jpg
+image_updated=2017-08-17
+value=4.190
+rarity=R
+type=Sorcery
+cost={4}{W}{W}
+effect=Return all artifact and enchantment cards from all graveyards to the battlefield under their owners' control.
+timing=main
+oracle=Return all artifact and enchantment cards from all graveyards to the battlefield under their owners' control.
+status=needs groovy
+#Issues with multiple players returning Auras from graveyards

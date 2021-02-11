@@ -1,0 +1,11 @@
+name=Kird Ape
+image=https://magiccards.info/scans/en/ema/137.jpg
+value=4.484
+rarity=C
+type=Creature
+subtype=Ape
+cost={R}
+pt=1/1
+ability=SN gets +1/+2 as long as you control a Forest.
+timing=main
+oracle=Kird Ape gets +1/+2 as long as you control a Forest.
