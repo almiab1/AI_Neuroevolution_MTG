@@ -1,0 +1,12 @@
+/MagarenaCode/build/
+/MagarenaCode/buildtest/
+/MagarenaCode/test/lib
+/MagarenaCode/.project
+/MagarenaCode/nbproject/
+/MagarenaCode/manifest.mf
+/MagarenaCode/release/duels/
+MagarenaCode/release/Magarena/decks/firemind/
+MagarenaCode/release/Magarena/decks/*.dec
+MagarenaCode/release/Magarena/reports
+MagarenaCode/doc/doxygen/
+MagarenaCode/doc/doxygen*.tmp
