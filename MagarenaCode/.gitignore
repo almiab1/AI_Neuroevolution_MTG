@@ -11,3 +11,4 @@ release/Magarena/reports
 doc/doxygen/
 doc/doxygen*.tmp
 /bin/
+/nbbuild.xml
