@@ -1,9 +1,0 @@
-name=Recurring Insight
-image=https://magiccards.info/scans/en/roe/82.jpg
-value=3.107
-rarity=R
-type=Sorcery
-cost={4}{U}{U}
-timing=main
-requires_groovy_code
-oracle=Draw cards equal to the number of cards in target opponent's hand.\nRebound

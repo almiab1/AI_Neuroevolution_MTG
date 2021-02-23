@@ -1,9 +1,0 @@
-name=1/1 colorless Sliver creature token
-token=Sliver
-image=https://magiccards.info/extras/token/magic-2014/sliver.jpg
-image_updated=2015-11-12
-value=1
-type=Creature
-subtype=Sliver
-color=
-pt=1/1

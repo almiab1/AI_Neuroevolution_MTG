@@ -1,9 +1,0 @@
-name=Compost
-image=https://magiccards.info/scans/en/7e/235.jpg
-value=4.144
-rarity=U
-type=Enchantment
-cost={1}{G}
-timing=enchantment
-oracle=Whenever a black card is put into an opponent's graveyard from anywhere, you may draw a card.
-requires_groovy_code

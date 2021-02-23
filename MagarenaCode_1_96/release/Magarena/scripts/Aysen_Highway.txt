@@ -1,9 +1,0 @@
-name=Aysen Highway
-image=https://magiccards.info/scans/en/hl/107.jpg
-value=1.197
-rarity=R
-type=Enchantment
-cost={3}{W}{W}{W}
-ability=White creatures have plainswalk.
-timing=enchantment
-oracle=White creatures have plainswalk.

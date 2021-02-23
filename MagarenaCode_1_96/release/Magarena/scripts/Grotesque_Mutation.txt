@@ -1,9 +1,0 @@
-name=Grotesque Mutation
-image=https://magiccards.info/scans/en/soi/115.jpg
-value=2.500
-rarity=C
-type=Instant
-cost={1}{B}
-effect=Target creature gets +3/+1 and gains lifelink until end of turn.
-timing=pump
-oracle=Target creature gets +3/+1 and gains lifelink until end of turn.

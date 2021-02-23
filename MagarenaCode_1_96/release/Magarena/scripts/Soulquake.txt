@@ -1,9 +1,0 @@
-name=Soulquake
-image=https://magiccards.info/scans/en/arb/30.jpg
-value=2.293
-rarity=R
-type=Sorcery
-cost={3}{U}{U}{B}{B}
-timing=main
-requires_groovy_code
-oracle=Return all creatures on the battlefield and all creature cards in graveyards to their owners' hands.

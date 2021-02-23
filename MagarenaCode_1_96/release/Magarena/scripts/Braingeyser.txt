@@ -1,9 +1,0 @@
-name=Braingeyser
-image=https://magiccards.info/scans/en/rv/50.jpg
-value=4.328
-rarity=R
-type=Sorcery
-cost={X}{U}{U}
-effect=Target player draws X cards.
-timing=main
-oracle=Target player draws X cards.

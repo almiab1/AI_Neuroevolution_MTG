@@ -1,9 +1,0 @@
-name=Snare the Skies
-image=https://magiccards.info/scans/en/avr/193.jpg
-value=1.757
-rarity=C
-type=Instant
-cost={G}
-effect=Target creature gets +1/+1 and gains reach until end of turn.
-timing=pump
-oracle=Target creature gets +1/+1 and gains reach until end of turn.

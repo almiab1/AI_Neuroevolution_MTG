@@ -1,9 +1,0 @@
-name=Repel
-image=https://magiccards.info/scans/en/od/98.jpg
-value=2.000
-rarity=C
-type=Instant
-cost={3}{U}
-effect=Put target creature on top of its owner's library.
-timing=removal
-oracle=Put target creature on top of its owner's library.

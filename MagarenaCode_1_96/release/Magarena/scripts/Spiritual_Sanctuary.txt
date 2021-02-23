@@ -1,9 +1,0 @@
-name=Spiritual Sanctuary
-image=https://magiccards.info/scans/en/lg/207.jpg
-value=1.196
-rarity=R
-type=Enchantment
-cost={2}{W}{W}
-timing=enchantment
-oracle=At the beginning of each player's upkeep, if that player controls a Plains, he or she gains 1 life.
-requires_groovy_code

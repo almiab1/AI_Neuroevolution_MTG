@@ -1,9 +1,0 @@
-name=Supplant Form
-image=https://magiccards.info/scans/en/frf/54.jpg
-value=2.500
-rarity=R
-type=Instant
-cost={4}{U}{U}
-effect=Return target creature to its owner's hand.~You create a token that's a copy of *that creature*.
-timing=token
-oracle=Return target creature to its owner's hand. You create a token that's a copy of that creature.

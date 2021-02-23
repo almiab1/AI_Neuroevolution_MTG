@@ -1,8 +1,0 @@
-name=0/1 red Kobold creature token named Kobolds of Kher Keep
-token=Kobolds of Kher Keep
-image=http://cdn.staticneo.com/w/mtg/c/ca/Kobolds_of_Kher_Keep.jpg
-value=1
-type=Creature
-subtype=Kobold
-color=r
-pt=0/1

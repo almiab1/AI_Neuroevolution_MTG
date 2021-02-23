@@ -1,9 +1,0 @@
-name=To Arms!
-image=https://magiccards.info/scans/en/gp/20.jpg
-value=4.106
-rarity=U
-type=Instant
-cost={1}{W}
-effect=Untap all creatures you control.~Draw a card.
-timing=tapping
-oracle=Untap all creatures you control.\nDraw a card.

@@ -1,9 +1,0 @@
-name=Battlewise Valor
-image=https://magiccards.info/scans/en/ths/1.jpg
-value=3.071
-rarity=C
-type=Instant
-cost={1}{W}
-effect=Target creature gets +2/+2 until end of turn.~Scry 1.
-timing=pump
-oracle=Target creature gets +2/+2 until end of turn. Scry 1.

@@ -1,9 +1,0 @@
-name=Gerrard's Verdict
-image=https://magiccards.info/scans/en/ap/102.jpg
-value=4.399
-rarity=U
-type=Sorcery
-cost={W}{B}
-effect=Target player discards two cards. You gain 3 life for each land card discarded this way.
-timing=main
-oracle=Target player discards two cards. You gain 3 life for each land card discarded this way.

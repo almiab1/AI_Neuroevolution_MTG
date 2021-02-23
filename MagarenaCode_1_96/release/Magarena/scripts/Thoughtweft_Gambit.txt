@@ -1,9 +1,0 @@
-name=Thoughtweft Gambit
-image=https://magiccards.info/scans/en/shm/154.jpg
-value=2.888
-rarity=U
-type=Instant
-cost={4}{W/U}{W/U}
-effect=Tap all creatures your opponents control.~Untap all creatures you control.
-timing=tapping
-oracle=Tap all creatures your opponents control and untap all creatures you control.

@@ -1,9 +1,0 @@
-name=Flow of Ideas
-image=https://magiccards.info/scans/en/shm/38.jpg
-value=2.912
-rarity=U
-type=Sorcery
-cost={5}{U}
-effect=Draw a card for each Island you control.
-timing=main
-oracle=Draw a card for each Island you control.

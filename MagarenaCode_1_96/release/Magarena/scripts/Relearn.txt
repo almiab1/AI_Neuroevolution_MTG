@@ -1,9 +1,0 @@
-name=Relearn
-image=https://magiccards.info/scans/en/st/48.jpg
-value=3.404
-rarity=U
-type=Sorcery
-cost={1}{U}{U}
-effect=Return target instant or sorcery card from your graveyard to your hand.
-timing=main
-oracle=Return target instant or sorcery card from your graveyard to your hand.

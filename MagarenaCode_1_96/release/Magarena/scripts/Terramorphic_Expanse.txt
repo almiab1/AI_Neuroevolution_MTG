@@ -1,9 +1,0 @@
-name=Terramorphic Expanse
-image=https://magiccards.info/scans/en/c16/332.jpg
-image_updated=2017-08-17
-value=3.773
-rarity=C
-type=Land
-ability={T}, Sacrifice SN: Search your library for a basic land card and put it onto the battlefield tapped. Then shuffle your library.
-timing=land
-oracle={T}, Sacrifice Terramorphic Expanse: Search your library for a basic land card and put it onto the battlefield tapped. Then shuffle your library.

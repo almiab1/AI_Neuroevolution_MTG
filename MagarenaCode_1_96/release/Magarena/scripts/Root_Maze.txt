@@ -1,9 +1,0 @@
-name=Root Maze
-image=https://magiccards.info/scans/en/10e/292.jpg
-value=4.107
-rarity=R
-type=Enchantment
-cost={G}
-ability=Artifacts and lands enter the battlefield tapped.
-timing=enchantment
-oracle=Artifacts and lands enter the battlefield tapped.

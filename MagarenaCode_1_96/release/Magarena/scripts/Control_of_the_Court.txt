@@ -1,9 +1,0 @@
-name=Control of the Court
-image=https://magiccards.info/scans/en/p3k/105.jpg
-value=3.000
-rarity=U
-type=Sorcery
-cost={1}{R}
-effect=Draw four cards, then discard three cards at random.
-timing=main
-oracle=Draw four cards, then discard three cards at random.

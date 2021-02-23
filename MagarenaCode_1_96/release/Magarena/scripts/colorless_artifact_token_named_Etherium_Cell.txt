@@ -1,8 +1,0 @@
-name=colorless artifact token named Etherium Cell
-image=https://img.scryfall.com/cards/border_crop/en/taer/3.jpg?1523997567
-token=Etherium Cell
-type=Artifact
-color=
-value=1
-ability={T}, Sacrifice SN: Add one mana of any color.
-oracle={T}, Sacrifice this artifact: Add one mana of any color.

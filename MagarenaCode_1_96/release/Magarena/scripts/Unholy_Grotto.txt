@@ -1,9 +1,0 @@
-name=Unholy Grotto
-image=https://magiccards.info/scans/en/on/327.jpg
-value=4.222
-rarity=R
-type=Land
-ability={T}: Add {C}.;\
-        {B}, {T}: Put target Zombie card from your graveyard on top of your library.
-timing=land
-oracle={T}: Add {C}.\n{B}, {T}: Put target Zombie card from your graveyard on top of your library.

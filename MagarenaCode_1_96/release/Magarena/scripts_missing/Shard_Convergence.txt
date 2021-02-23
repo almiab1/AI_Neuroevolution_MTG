@@ -1,9 +1,0 @@
-name=Shard Convergence
-image=https://magiccards.info/scans/en/cfx/91.jpg
-value=3.074
-rarity=U
-type=Sorcery
-cost={3}{G}
-effect=Search your library for a Plains card, an Island card, a Swamp card, and a Mountain card. Reveal those cards and put them into your hand. Then shuffle your library.
-timing=main
-oracle=Search your library for a Plains card, an Island card, a Swamp card, and a Mountain card. Reveal those cards and put them into your hand. Then shuffle your library.

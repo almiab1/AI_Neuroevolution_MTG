@@ -1,9 +1,0 @@
-name=Howl from Beyond
-image=https://magiccards.info/scans/en/7e/142.jpg
-value=3.333
-rarity=C
-type=Instant
-cost={X}{B}
-effect=Target creature gets +X/+0 until end of turn.
-timing=pump
-oracle=Target creature gets +X/+0 until end of turn.

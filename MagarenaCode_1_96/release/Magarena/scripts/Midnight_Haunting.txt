@@ -1,9 +1,0 @@
-name=Midnight Haunting
-image=https://magiccards.info/scans/en/c14/80.jpg
-value=3.831
-rarity=U
-type=Instant
-cost={2}{W}
-effect=Create two 1/1 white Spirit creature tokens with flying.
-timing=token
-oracle=Create two 1/1 white Spirit creature tokens with flying.

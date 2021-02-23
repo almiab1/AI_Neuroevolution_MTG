@@ -1,9 +1,0 @@
-name=Thieves' Auction
-image=https://magiccards.info/scans/en/8e/227.jpg
-value=4.378
-rarity=R
-type=Sorcery
-cost={4}{R}{R}{R}
-effect=Exile all nontoken permanents. Starting with you, each player chooses one of the exiled cards and puts it onto the battlefield tapped under his or her control. Repeat this process until all cards exiled this way have been chosen.
-timing=main
-oracle=Exile all nontoken permanents. Starting with you, each player chooses one of the exiled cards and puts it onto the battlefield tapped under his or her control. Repeat this process until all cards exiled this way have been chosen.

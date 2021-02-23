@@ -1,9 +1,0 @@
-name=Perilous Research
-image=https://magiccards.info/scans/en/mma/58.jpg
-value=3.935
-rarity=C
-type=Instant
-cost={1}{U}
-effect=Draw two cards,~then sacrifice a permanent.
-timing=draw
-oracle=Draw two cards, then sacrifice a permanent.

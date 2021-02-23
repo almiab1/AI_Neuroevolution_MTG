@@ -1,9 +1,0 @@
-name=Off Balance
-image=https://magiccards.info/scans/en/ne/15.jpg
-value=1.611
-rarity=C
-type=Instant
-cost={W}
-effect=Target creature can't attack or block this turn.
-timing=tapping
-oracle=Target creature can't attack or block this turn.

@@ -1,9 +1,0 @@
-name=Crumble
-image=https://magiccards.info/scans/en/5e/149.jpg
-value=3.457
-rarity=U
-type=Instant
-cost={G}
-timing=removal
-requires_groovy_code
-oracle=Destroy target artifact. It can't be regenerated. That artifact's controller gains life equal to its converted mana cost.

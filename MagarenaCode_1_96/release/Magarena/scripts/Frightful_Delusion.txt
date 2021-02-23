@@ -1,9 +1,0 @@
-name=Frightful Delusion
-image=https://magiccards.info/scans/en/isd/57.jpg
-value=3.097
-rarity=C
-type=Instant
-cost={2}{U}
-timing=counter
-requires_groovy_code
-oracle=Counter target spell unless its controller pays {1}. That player discards a card.

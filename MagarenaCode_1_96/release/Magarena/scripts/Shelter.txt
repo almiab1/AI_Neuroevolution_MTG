@@ -1,9 +1,0 @@
-name=Shelter
-image=https://magiccards.info/scans/en/ema/29.jpg
-value=4.000
-rarity=C
-type=Instant
-cost={1}{W}
-effect=Target creature you control gains protection from the color of your choice until end of turn.~Draw a card.
-timing=pump
-oracle=Target creature you control gains protection from the color of your choice until end of turn.\nDraw a card.

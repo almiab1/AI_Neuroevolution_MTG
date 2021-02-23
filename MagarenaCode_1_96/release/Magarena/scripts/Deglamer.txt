@@ -1,9 +1,0 @@
-name=Deglamer
-image=https://magiccards.info/scans/en/mt/118.jpg
-value=4.357
-rarity=C
-type=Instant
-cost={1}{G}
-timing=removal
-requires_groovy_code
-oracle=Choose target artifact or enchantment. Its owner shuffles it into his or her library.

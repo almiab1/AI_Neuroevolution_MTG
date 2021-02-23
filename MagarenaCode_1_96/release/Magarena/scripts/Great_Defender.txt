@@ -1,9 +1,0 @@
-name=Great Defender
-image=https://magiccards.info/scans/en/lg/185.jpg
-value=2.057
-rarity=U
-type=Instant
-cost={W}
-timing=pumpFlash
-requires_groovy_code
-oracle=Target creature gets +0/+X until end of turn, where X is its converted mana cost.

@@ -1,9 +1,0 @@
-name=Vigilante Justice
-image=https://magiccards.info/scans/en/avr/165.jpg
-value=2.974
-rarity=U
-type=Enchantment
-cost={3}{R}
-ability=Whenever a Human enters the battlefield under your control, SN deals 1 damage to target creature or player.
-timing=enchantment
-oracle=Whenever a Human enters the battlefield under your control, Vigilante Justice deals 1 damage to target creature or player.

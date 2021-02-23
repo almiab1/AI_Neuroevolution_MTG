@@ -1,9 +1,0 @@
-name=Peregrination
-image=https://magiccards.info/scans/en/bng/132.jpg
-value=3.139
-rarity=U
-type=Sorcery
-cost={3}{G}
-effect=Search your library for up to two basic land cards, reveal those cards, and put one onto the battlefield tapped and the other into your hand. Shuffle your library, then scry 1.
-timing=main
-oracle=Search your library for up to two basic land cards, reveal those cards, and put one onto the battlefield tapped and the other into your hand. Shuffle your library, then scry 1.

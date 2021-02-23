@@ -1,9 +1,0 @@
-name=Tidings
-image=https://magiccards.info/scans/en/10e/116.jpg
-value=4.177
-rarity=U
-type=Sorcery
-cost={3}{U}{U}
-effect=Draw four cards.
-timing=draw
-oracle=Draw four cards.

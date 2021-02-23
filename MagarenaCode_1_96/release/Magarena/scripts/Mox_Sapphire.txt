@@ -1,9 +1,0 @@
-name=Mox Sapphire
-image=https://magiccards.info/scans/en/un/266.jpg
-value=5.000
-rarity=R
-type=Artifact
-cost={0}
-ability={T}: Add {U}.
-timing=artifact
-oracle={T}: Add {U}.

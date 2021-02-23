@@ -1,9 +1,0 @@
-name=Exile
-image=https://magiccards.info/scans/en/6e/21.jpg
-value=3.500
-rarity=R
-type=Instant
-cost={2}{W}
-timing=removal
-requires_groovy_code
-oracle=Exile target nonwhite attacking creature. You gain life equal to its toughness.

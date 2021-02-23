@@ -1,9 +1,0 @@
-name=Formless Nurturing
-image=https://magiccards.info/scans/en/frf/129.jpg
-value=2.500
-rarity=C
-type=Sorcery
-cost={3}{G}
-effect=Manifest the top card of your library, then put a +1/+1 counter on it.
-timing=main
-oracle=Manifest the top card of your library, then put a +1/+1 counter on it.

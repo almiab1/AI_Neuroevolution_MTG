@@ -1,9 +1,0 @@
-name=Recoil
-image=https://magiccards.info/scans/en/in/264.jpg
-value=4.283
-rarity=C
-type=Instant
-cost={1}{U}{B}
-timing=removal
-requires_groovy_code
-oracle=Return target permanent to its owner's hand. Then that player discards a card.

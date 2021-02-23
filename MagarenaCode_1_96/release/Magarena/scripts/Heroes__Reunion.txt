@@ -1,9 +1,0 @@
-name=Heroes' Reunion
-image=https://magiccards.info/scans/en/rtr/168.jpg
-value=3.715
-rarity=U
-type=Instant
-cost={G}{W}
-effect=Target player gains 7 life.
-timing=draw
-oracle=Target player gains 7 life.

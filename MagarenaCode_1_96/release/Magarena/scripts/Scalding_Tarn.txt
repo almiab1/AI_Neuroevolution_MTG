@@ -1,9 +1,0 @@
-name=Scalding Tarn
-image=https://magiccards.info/scans/en/mm3/244.jpg
-image_updated=2017-08-08
-value=4.481
-rarity=R
-type=Land
-ability={T}, Pay 1 life, Sacrifice SN: Search your library for an Island or Mountain card and put it onto the battlefield. Then shuffle your library.
-timing=land
-oracle={T}, Pay 1 life, Sacrifice Scalding Tarn: Search your library for an Island or Mountain card and put it onto the battlefield. Then shuffle your library.

@@ -1,9 +1,0 @@
-name=Plea for Guidance
-image=https://magiccards.info/scans/en/bng/24.jpg
-value=3.397
-rarity=R
-type=Sorcery
-cost={5}{W}
-effect=Search your library for up to two enchantment cards, reveal them, and put them into your hand. Then shuffle your library.
-timing=main
-oracle=Search your library for up to two enchantment cards, reveal them, and put them into your hand. Then shuffle your library.

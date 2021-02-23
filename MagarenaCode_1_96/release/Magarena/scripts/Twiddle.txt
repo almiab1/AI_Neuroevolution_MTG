@@ -1,9 +1,0 @@
-name=Twiddle
-image=https://magiccards.info/scans/en/8e/111.jpg
-value=3.675
-rarity=C
-type=Instant
-cost={U}
-effect=You may tap or untap target artifact, creature, or land.
-timing=tapping
-oracle=You may tap or untap target artifact, creature, or land.

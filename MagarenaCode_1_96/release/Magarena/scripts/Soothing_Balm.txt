@@ -1,9 +1,0 @@
-name=Soothing Balm
-image=https://magiccards.info/scans/en/mm/48.jpg
-value=2.472
-rarity=C
-type=Instant
-cost={1}{W}
-effect=Target player gains 5 life.
-timing=main
-oracle=Target player gains 5 life.

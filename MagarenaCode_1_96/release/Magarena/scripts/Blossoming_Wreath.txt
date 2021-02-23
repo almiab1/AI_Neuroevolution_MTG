@@ -1,9 +1,0 @@
-name=Blossoming Wreath
-image=https://magiccards.info/scans/en/wl/62.jpg
-value=3.041
-rarity=C
-type=Instant
-cost={G}
-effect=You gain life equal to the number of creature cards in your graveyard.
-timing=pump
-oracle=You gain life equal to the number of creature cards in your graveyard.

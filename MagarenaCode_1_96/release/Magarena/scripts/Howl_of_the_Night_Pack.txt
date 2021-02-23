@@ -1,9 +1,0 @@
-name=Howl of the Night Pack
-image=https://magiccards.info/scans/en/m10/187.jpg
-value=3.070
-rarity=U
-type=Sorcery
-cost={6}{G}
-effect=Create a 2/2 green Wolf creature token for each Forest you control.
-timing=main
-oracle=Create a 2/2 green Wolf creature token for each Forest you control.

@@ -1,9 +1,0 @@
-name=Mishra's Groundbreaker
-image=https://magiccards.info/scans/en/ai/165.jpg
-value=2.258
-rarity=U
-type=Artifact
-cost={4}
-ability={T}, Sacrifice SN: Target land becomes a 3/3 artifact creature that's still a land.
-timing=artifact
-oracle={T}, Sacrifice Mishra's Groundbreaker: Target land becomes a 3/3 artifact creature that's still a land.

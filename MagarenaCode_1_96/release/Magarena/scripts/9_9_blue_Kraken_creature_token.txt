@@ -1,9 +1,0 @@
-name=9/9 blue Kraken creature token
-token=Kraken
-image=https://img.scryfall.com/cards/border_crop/en/ta25/6.jpg?1529174788
-value=6
-type=Creature
-subtype=Kraken
-color=u
-pt=9/9
-oracle=NONE

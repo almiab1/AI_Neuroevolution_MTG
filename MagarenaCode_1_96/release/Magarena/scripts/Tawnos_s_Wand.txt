@@ -1,9 +1,0 @@
-name=Tawnos's Wand
-image=https://magiccards.info/scans/en/4e/366.jpg
-value=2.920
-rarity=U
-type=Artifact
-cost={4}
-ability={2}, {T}: Target creature with power 2 or less can't be blocked this turn.
-timing=artifact
-oracle={2}, {T}: Target creature with power 2 or less can't be blocked this turn.

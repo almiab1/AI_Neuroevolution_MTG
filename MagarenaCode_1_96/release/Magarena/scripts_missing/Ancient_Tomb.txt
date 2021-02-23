@@ -1,9 +1,0 @@
-name=Ancient Tomb
-image=https://magiccards.info/scans/en/tp/305.jpg
-value=4.333
-rarity=R
-type=Land
-ability={T}: Add {C}{C}. SN deals 2 damage to you.
-timing=land
-oracle={T}: Add {C}{C}. Ancient Tomb deals 2 damage to you.
-status=not supported: add-multiple-mana

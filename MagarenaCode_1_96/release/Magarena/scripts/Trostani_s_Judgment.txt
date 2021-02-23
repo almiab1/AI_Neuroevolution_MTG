@@ -1,9 +1,0 @@
-name=Trostani's Judgment
-image=https://magiccards.info/scans/en/rtr/28.jpg
-value=2.545
-rarity=C
-type=Instant
-cost={5}{W}
-effect=Exile target creature.~Populate.
-timing=removal
-oracle=Exile target creature, then populate.

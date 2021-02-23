@@ -1,9 +1,0 @@
-name=Mind Twist
-image=https://magiccards.info/scans/en/4e/31.jpg
-value=4.615
-rarity=R
-type=Sorcery
-cost={X}{B}
-effect=Target player discards X cards at random.
-timing=main
-oracle=Target player discards X cards at random.

@@ -1,9 +1,0 @@
-name=Aerial Maneuver
-image=https://magiccards.info/scans/en/gtc/1.jpg
-value=2.598
-rarity=C
-type=Instant
-cost={1}{W}
-effect=Target creature gets +1/+1 and gains flying and first strike until end of turn.
-timing=pump
-oracle=Target creature gets +1/+1 and gains flying and first strike until end of turn.

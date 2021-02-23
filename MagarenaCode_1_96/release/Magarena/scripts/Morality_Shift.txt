@@ -1,9 +1,0 @@
-name=Morality Shift
-image=https://magiccards.info/scans/en/ju/70.jpg
-value=3.814
-rarity=R
-type=Sorcery
-cost={5}{B}{B}
-timing=main
-requires_groovy_code
-oracle=Exchange your graveyard and library. Then shuffle your library.

@@ -1,9 +1,0 @@
-name=Hubris
-image=https://magiccards.info/scans/en/jou/41.jpg
-value=3.173
-rarity=C
-type=Instant
-cost={1}{U}
-timing=removal
-requires_groovy_code
-oracle=Return target creature and all Auras attached to it to their owners' hands.

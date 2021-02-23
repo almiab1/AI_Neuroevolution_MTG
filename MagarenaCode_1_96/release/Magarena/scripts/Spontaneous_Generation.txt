@@ -1,9 +1,0 @@
-name=Spontaneous Generation
-image=https://magiccards.info/scans/en/mm/274.jpg
-value=3.875
-rarity=R
-type=Sorcery
-cost={3}{G}
-effect=Create a 1/1 green Saproling creature token for each card in your hand.
-timing=main
-oracle=Create a 1/1 green Saproling creature token for each card in your hand.

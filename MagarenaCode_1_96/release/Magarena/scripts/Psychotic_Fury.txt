@@ -1,9 +1,0 @@
-name=Psychotic Fury
-image=https://magiccards.info/scans/en/di/68.jpg
-value=4.017
-rarity=C
-type=Instant
-cost={1}{R}
-effect=Target multicolored creature gains double strike until end of turn.~Draw a card.
-timing=block
-oracle=Target multicolored creature gains double strike until end of turn.\nDraw a card.

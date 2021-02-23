@@ -1,9 +1,0 @@
-name=Kor Haven
-image=https://magiccards.info/scans/en/ne/141.jpg
-value=4.089
-rarity=R
-type=Legendary,Land
-ability={T}: Add {C}.;\
-        {1}{W}, {T}: Prevent all combat damage that would be dealt by target attacking creature this turn.
-timing=land
-oracle={T}: Add {C}.\n{1}{W}, {T}: Prevent all combat damage that would be dealt by target attacking creature this turn.

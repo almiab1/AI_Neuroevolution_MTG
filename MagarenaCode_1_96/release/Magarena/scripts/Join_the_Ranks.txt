@@ -1,9 +1,0 @@
-name=Join the Ranks
-image=https://magiccards.info/scans/en/wwk/9.jpg
-value=3.544
-rarity=C
-type=Instant
-cost={3}{W}
-effect=Create two 1/1 white Soldier Ally creature tokens.
-timing=token
-oracle=Create two 1/1 white Soldier Ally creature tokens.

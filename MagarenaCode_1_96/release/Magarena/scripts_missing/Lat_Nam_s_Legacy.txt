@@ -1,9 +1,0 @@
-name=Lat-Nam's Legacy
-image=https://magiccards.info/scans/en/cstd/13.jpg
-value=4.035
-rarity=C
-type=Instant
-cost={1}{U}
-effect=Shuffle a card from your hand into your library. If you do, draw two cards at the beginning of the next turn's upkeep.
-timing=removal
-oracle=Shuffle a card from your hand into your library. If you do, draw two cards at the beginning of the next turn's upkeep.

@@ -1,9 +1,0 @@
-name=Soul's Grace
-image=https://magiccards.info/scans/en/ala/28.jpg
-value=2.468
-rarity=C
-type=Instant
-cost={1}{W}
-timing=pump
-requires_groovy_code
-oracle=You gain life equal to target creature's power.

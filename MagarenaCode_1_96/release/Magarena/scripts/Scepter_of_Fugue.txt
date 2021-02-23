@@ -1,9 +1,0 @@
-name=Scepter of Fugue
-image=https://magiccards.info/scans/en/cfx/53.jpg
-value=3.401
-rarity=R
-type=Artifact
-cost={B}{B}
-ability={1}{B}, {T}: Target player discards a card. Activate this ability only during your turn.
-timing=artifact
-oracle={1}{B}, {T}: Target player discards a card. Activate this ability only during your turn.

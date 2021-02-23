@@ -1,9 +1,0 @@
-name=Fall of the Gavel
-image=https://magiccards.info/scans/en/rtr/161.jpg
-value=1.618
-rarity=U
-type=Instant
-cost={3}{W}{U}
-effect=Counter target spell.~You gain 5 life.
-timing=counter
-oracle=Counter target spell. You gain 5 life.

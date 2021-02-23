@@ -1,9 +1,0 @@
-name=Primal Order
-image=https://magiccards.info/scans/en/5e/180.jpg
-value=3.866
-rarity=R
-type=Enchantment
-cost={2}{G}{G}
-timing=enchantment
-requires_groovy_code
-oracle=At the beginning of each player's upkeep, Primal Order deals damage to that player equal to the number of nonbasic lands he or she controls.

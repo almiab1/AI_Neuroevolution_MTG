@@ -1,9 +1,0 @@
-name=Nether Void
-image=https://magiccards.info/scans/en/lg/27.jpg
-value=4.642
-rarity=R
-type=World,Enchantment
-cost={3}{B}
-timing=enchantment
-requires_groovy_code
-oracle=Whenever a player casts a spell, counter it unless that player pays {3}.

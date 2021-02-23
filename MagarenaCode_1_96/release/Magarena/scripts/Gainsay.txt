@@ -1,9 +1,0 @@
-name=Gainsay
-image=https://magiccards.info/scans/en/ps/26.jpg
-value=2.925
-rarity=U
-type=Instant
-cost={1}{U}
-effect=Counter target blue spell.
-timing=counter
-oracle=Counter target blue spell.

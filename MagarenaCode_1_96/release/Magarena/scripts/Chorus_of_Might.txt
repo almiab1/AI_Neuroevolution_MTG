@@ -1,9 +1,0 @@
-name=Chorus of Might
-image=https://magiccards.info/scans/en/rtr/119.jpg
-value=2.167
-rarity=C
-type=Instant
-cost={3}{G}
-timing=pump
-requires_groovy_code
-oracle=Until end of turn, target creature gets +1/+1 for each creature you control and gains trample.

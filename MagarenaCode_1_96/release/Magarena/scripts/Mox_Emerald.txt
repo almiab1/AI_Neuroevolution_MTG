@@ -1,9 +1,0 @@
-name=Mox Emerald
-image=https://magiccards.info/scans/en/un/262.jpg
-value=4.875
-rarity=R
-type=Artifact
-cost={0}
-ability={T}: Add {G}.
-timing=artifact
-oracle={T}: Add {G}.

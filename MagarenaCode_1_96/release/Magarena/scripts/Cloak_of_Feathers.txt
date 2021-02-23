@@ -1,9 +1,0 @@
-name=Cloak of Feathers
-image=https://magiccards.info/scans/en/po/45.jpg
-value=3.550
-rarity=C
-type=Sorcery
-cost={U}
-effect=Target creature gains flying until end of turn.~Draw a card.
-timing=main
-oracle=Target creature gains flying until end of turn.\nDraw a card.

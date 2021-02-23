@@ -1,9 +1,0 @@
-name=2/2 green Wolf creature token
-token=Wolf
-image=https://magiccards.info/extras/token/modern-masters-2015/wolf.jpg
-image_updated=2015-11-12
-value=2
-type=Creature
-subtype=Wolf
-color=g
-pt=2/2

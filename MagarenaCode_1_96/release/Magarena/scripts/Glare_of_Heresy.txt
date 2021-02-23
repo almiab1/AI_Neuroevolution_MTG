@@ -1,9 +1,0 @@
-name=Glare of Heresy
-image=https://magiccards.info/scans/en/ths/15.jpg
-value=3.238
-rarity=U
-type=Sorcery
-cost={1}{W}
-effect=Exile target white permanent.
-timing=main
-oracle=Exile target white permanent.

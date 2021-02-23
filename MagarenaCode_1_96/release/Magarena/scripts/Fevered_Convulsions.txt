@@ -1,9 +1,0 @@
-name=Fevered Convulsions
-image=https://magiccards.info/scans/en/tp/30.jpg
-value=3.103
-rarity=R
-type=Enchantment
-cost={B}{B}
-ability={2}{B}{B}: Put a -1/-1 counter on target creature.
-timing=enchantment
-oracle={2}{B}{B}: Put a -1/-1 counter on target creature.

@@ -1,9 +1,0 @@
-name=Noble Steeds
-image=https://magiccards.info/scans/en/ai/140.jpg
-value=1.661
-rarity=C
-type=Enchantment
-cost={2}{W}
-ability={1}{W}: Target creature gains first strike until end of turn.
-timing=enchantment
-oracle={1}{W}: Target creature gains first strike until end of turn.

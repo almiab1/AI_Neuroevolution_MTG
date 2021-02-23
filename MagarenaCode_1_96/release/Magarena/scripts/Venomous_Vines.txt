@@ -1,9 +1,0 @@
-name=Venomous Vines
-image=https://magiccards.info/scans/en/ju/136.jpg
-value=1.929
-rarity=C
-type=Sorcery
-cost={2}{G}{G}
-effect=Destroy target permanent that is enchanted.
-timing=main
-oracle=Destroy target enchanted permanent.

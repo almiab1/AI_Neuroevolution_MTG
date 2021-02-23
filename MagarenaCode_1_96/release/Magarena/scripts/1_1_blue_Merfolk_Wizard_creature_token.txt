@@ -1,8 +1,0 @@
-name=1/1 blue Merfolk Wizard creature token
-token=Merfolk Wizard
-image=https://magiccards.info/extras/token/lorwyn/merfolk-wizard.jpg
-value=1
-type=Creature
-subtype=Merfolk,Wizard
-color=u
-pt=1/1

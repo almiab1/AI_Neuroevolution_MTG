@@ -1,9 +1,0 @@
-name=Shadowfeed
-image=https://magiccards.info/scans/en/ala/86.jpg
-value=2.864
-rarity=C
-type=Instant
-cost={B}
-effect=Exile target card from a graveyard.~You gain 3 life.
-timing=removal
-oracle=Exile target card from a graveyard. You gain 3 life.

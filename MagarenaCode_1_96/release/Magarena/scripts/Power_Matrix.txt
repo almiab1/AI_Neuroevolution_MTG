@@ -1,9 +1,0 @@
-name=Power Matrix
-image=https://magiccards.info/scans/en/mm/309.jpg
-value=4.214
-rarity=R
-type=Artifact
-cost={4}
-ability={T}: Target creature gets +1/+1 and gains flying, first strike, and trample until end of turn.
-timing=artifact
-oracle={T}: Target creature gets +1/+1 and gains flying, first strike, and trample until end of turn.

@@ -1,9 +1,0 @@
-name=Whirlpool Whelm
-image=https://magiccards.info/scans/en/cmd/69.jpg
-value=2.210
-rarity=C
-type=Instant
-cost={1}{U}
-effect=Clash with an opponent, then return target creature to its owner's hand. If you win, you may put that creature on top of its owner's library instead.
-timing=removal
-oracle=Clash with an opponent, then return target creature to its owner's hand. If you win, you may put that creature on top of its owner's library instead.

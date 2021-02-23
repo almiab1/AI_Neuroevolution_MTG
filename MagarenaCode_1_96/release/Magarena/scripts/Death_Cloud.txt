@@ -1,9 +1,0 @@
-name=Death Cloud
-image=https://magiccards.info/scans/en/mma/76.jpg
-value=3.882
-rarity=R
-type=Sorcery
-cost={X}{B}{B}{B}
-timing=main
-requires_groovy_code
-oracle=Each player loses X life, discards X cards, sacrifices X creatures, then sacrifices X lands.

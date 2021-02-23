@@ -1,9 +1,0 @@
-name=Badlands
-image=https://magiccards.info/scans/en/rv/282.jpg
-value=4.500
-rarity=R
-type=Land
-subtype=Swamp,Mountain
-mana=b4r4
-timing=land
-oracle=NONE

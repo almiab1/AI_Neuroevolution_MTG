@@ -1,9 +1,0 @@
-name=Destructive Revelry
-image=https://magiccards.info/scans/en/ths/192.jpg
-value=3.531
-rarity=U
-type=Instant
-cost={R}{G}
-effect=Destroy target artifact or enchantment.~SN deals 2 damage to that permanent's controller.
-timing=removal
-oracle=Destroy target artifact or enchantment. Destructive Revelry deals 2 damage to that permanent's controller.

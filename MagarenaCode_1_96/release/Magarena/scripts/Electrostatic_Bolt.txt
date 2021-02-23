@@ -1,9 +1,0 @@
-name=Electrostatic Bolt
-image=https://magiccards.info/scans/en/mi/89.jpg
-value=3.655
-rarity=C
-type=Instant
-cost={R}
-timing=removal
-requires_groovy_code
-oracle=Electrostatic Bolt deals 2 damage to target creature. If it's an artifact creature, Electrostatic Bolt deals 4 damage to it instead.

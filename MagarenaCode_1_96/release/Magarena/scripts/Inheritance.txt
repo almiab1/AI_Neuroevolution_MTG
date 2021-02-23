@@ -1,9 +1,0 @@
-name=Inheritance
-image=https://magiccards.info/scans/en/ai/130.jpg
-value=3.662
-rarity=U
-type=Enchantment
-cost={W}
-ability=Whenever a creature dies, you may pay {3}. If you do, draw a card.
-timing=enchantment
-oracle=Whenever a creature dies, you may pay {3}. If you do, draw a card.

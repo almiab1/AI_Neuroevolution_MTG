@@ -1,9 +1,0 @@
-name=Revel of the Fallen God
-image=https://magiccards.info/scans/en/jou/155.jpg
-value=3.045
-rarity=R
-type=Sorcery
-cost={3}{R}{R}{G}{G}
-effect=Create four 2/2 red and green Satyr creature tokens with haste.
-timing=main
-oracle=Create four 2/2 red and green Satyr creature tokens with haste.

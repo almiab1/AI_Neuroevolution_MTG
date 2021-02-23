@@ -1,9 +1,0 @@
-name=Skyshaper
-image=https://magiccards.info/scans/en/ex/137.jpg
-value=3.053
-rarity=U
-type=Artifact
-cost={2}
-ability=Sacrifice SN: Creatures you control gain flying until end of turn.
-timing=artifact
-oracle=Sacrifice Skyshaper: Creatures you control gain flying until end of turn.

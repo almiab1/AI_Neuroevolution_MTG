@@ -1,9 +1,0 @@
-name=Test of Endurance
-image=https://magiccards.info/scans/en/ju/29.jpg
-value=4.061
-rarity=R
-type=Enchantment
-cost={2}{W}{W}
-ability=At the beginning of your upkeep, if you have 50 or more life, you win the game.
-timing=enchantment
-oracle=At the beginning of your upkeep, if you have 50 or more life, you win the game.

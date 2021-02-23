@@ -1,9 +1,0 @@
-name=Twincast
-image=https://magiccards.info/scans/en/m10/78.jpg
-value=4.210
-rarity=R
-type=Instant
-cost={U}{U}
-effect=Copy target instant or sorcery spell. You may choose new targets for the copy.
-timing=spell
-oracle=Copy target instant or sorcery spell. You may choose new targets for the copy.

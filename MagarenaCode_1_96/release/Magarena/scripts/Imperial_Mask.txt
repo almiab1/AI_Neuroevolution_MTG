@@ -1,9 +1,0 @@
-name=Imperial Mask
-image=https://magiccards.info/scans/en/fut/23.jpg
-value=4.031
-rarity=R
-type=Enchantment
-cost={4}{W}
-timing=enchantment
-requires_groovy_code=Spirit of the Hearth
-oracle=When Imperial Mask enters the battlefield, if it's not a token, each of your teammates creates a token that's a copy of Imperial Mask.\nYou have hexproof.

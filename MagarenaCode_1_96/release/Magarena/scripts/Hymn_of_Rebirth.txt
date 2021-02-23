@@ -1,9 +1,0 @@
-name=Hymn of Rebirth
-image=https://magiccards.info/scans/en/ia/373.jpg
-value=4.263
-rarity=U
-type=Sorcery
-cost={3}{G}{W}
-effect=Put target creature card from a graveyard onto the battlefield under your control.
-timing=main
-oracle=Put target creature card from a graveyard onto the battlefield under your control.

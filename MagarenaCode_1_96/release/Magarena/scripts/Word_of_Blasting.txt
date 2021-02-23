@@ -1,9 +1,0 @@
-name=Word of Blasting
-image=https://magiccards.info/scans/en/mm/228.jpg
-value=2.231
-rarity=U
-type=Instant
-cost={1}{R}
-timing=removal
-requires_groovy_code
-oracle=Destroy target Wall. It can't be regenerated. Word of Blasting deals damage equal to that Wall's converted mana cost to the Wall's controller.

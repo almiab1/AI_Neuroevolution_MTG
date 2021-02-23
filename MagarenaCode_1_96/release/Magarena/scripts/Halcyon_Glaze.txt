@@ -1,9 +1,0 @@
-name=Halcyon Glaze
-image=https://magiccards.info/scans/en/rav/54.jpg
-value=3.488
-rarity=U
-type=Enchantment
-cost={1}{U}{U}
-ability=Whenever you cast a creature spell, SN becomes a 4/4 Illusion creature with flying in addition to its other types until end of turn.
-timing=enchantment
-oracle=Whenever you cast a creature spell, Halcyon Glaze becomes a 4/4 Illusion creature with flying in addition to its other types until end of turn.

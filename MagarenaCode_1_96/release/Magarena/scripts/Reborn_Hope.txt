@@ -1,9 +1,0 @@
-name=Reborn Hope
-image=https://magiccards.info/scans/en/arb/76.jpg
-value=3.183
-rarity=U
-type=Sorcery
-cost={G}{W}
-effect=Return target multicolored card from your graveyard to your hand.
-timing=main
-oracle=Return target multicolored card from your graveyard to your hand.

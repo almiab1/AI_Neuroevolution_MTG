@@ -1,9 +1,0 @@
-name=Leave No Trace
-image=https://magiccards.info/scans/en/rav/23.jpg
-value=3.364
-rarity=C
-type=Instant
-cost={1}{W}
-timing=removal
-requires_groovy_code
-oracle=Radiance — Destroy target enchantment and each other enchantment that shares a color with it.

@@ -1,9 +1,0 @@
-name=Witch's Mist
-image=https://magiccards.info/scans/en/fut/92.jpg
-value=3.076
-rarity=U
-type=Enchantment
-cost={2}{B}
-ability={2}{B}, {T}: Destroy target creature that was dealt damage this turn.
-timing=enchantment
-oracle={2}{B}, {T}: Destroy target creature that was dealt damage this turn.

@@ -1,8 +1,0 @@
-name=2/2 colorless Spawn artifact creature token
-image=http://cdn.staticneo.com/w/mtg/d/d3/Spawn.jpg
-token=Spawn
-type=Artifact,Creature
-subtype=Spawn
-color=
-value=2
-pt=2/2

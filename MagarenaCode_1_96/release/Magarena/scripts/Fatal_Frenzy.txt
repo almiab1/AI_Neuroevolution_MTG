@@ -1,9 +1,0 @@
-name=Fatal Frenzy
-image=https://magiccards.info/scans/en/pc/98.jpg
-value=3.707
-rarity=R
-type=Instant
-cost={2}{R}
-timing=pump
-requires_groovy_code
-oracle=Until end of turn, target creature you control gains trample and gets +X/+0, where X is its power. Sacrifice it at the beginning of the next end step.

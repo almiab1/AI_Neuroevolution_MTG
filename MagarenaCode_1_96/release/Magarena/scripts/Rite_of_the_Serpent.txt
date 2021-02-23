@@ -1,9 +1,0 @@
-name=Rite of the Serpent
-image=https://magiccards.info/scans/en/ktk/86.jpg
-value=2.250
-rarity=C
-type=Sorcery
-cost={4}{B}{B}
-timing=main
-requires_groovy_code
-oracle=Destroy target creature. If that creature had a +1/+1 counter on it, create a 1/1 green Snake creature token.

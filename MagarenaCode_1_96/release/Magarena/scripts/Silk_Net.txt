@@ -1,9 +1,0 @@
-name=Silk Net
-image=https://magiccards.info/scans/en/ul/112.jpg
-value=2.188
-rarity=C
-type=Instant
-cost={G}
-effect=Target creature gets +1/+1 and gains reach until end of turn.
-timing=pump
-oracle=Target creature gets +1/+1 and gains reach until end of turn.

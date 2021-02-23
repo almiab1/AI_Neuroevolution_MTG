@@ -1,9 +1,0 @@
-name=Dispatch
-image=https://magiccards.info/scans/en/mm2/15.jpg
-value=3.812
-rarity=U
-type=Instant
-cost={W}
-effect=Tap target creature.~If you control three or more artifacts, exile *that creature*.
-timing=tapping
-oracle=Tap target creature.\nMetalcraft — If you control three or more artifacts, exile that creature.

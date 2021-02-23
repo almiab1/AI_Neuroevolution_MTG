@@ -1,9 +1,0 @@
-name=Call to Mind
-image=https://magiccards.info/scans/en/c14/101.jpg
-value=3.681
-rarity=U
-type=Sorcery
-cost={2}{U}
-effect=Return target instant or sorcery card from your graveyard to your hand.
-timing=main
-oracle=Return target instant or sorcery card from your graveyard to your hand.

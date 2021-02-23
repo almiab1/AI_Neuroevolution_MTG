@@ -1,9 +1,0 @@
-name=Might of Oaks
-image=https://magiccards.info/scans/en/m10/192.jpg
-value=3.958
-rarity=R
-type=Instant
-cost={3}{G}
-effect=Target creature gets +7/+7 until end of turn.
-timing=pump
-oracle=Target creature gets +7/+7 until end of turn.

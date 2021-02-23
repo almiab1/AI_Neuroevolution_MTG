@@ -1,9 +1,0 @@
-name=Cremate
-image=https://magiccards.info/scans/en/rtr/59.jpg
-value=3.782
-rarity=C
-type=Instant
-cost={B}
-effect=Exile target card from a graveyard.~Draw a card.
-timing=removal
-oracle=Exile target card from a graveyard.\nDraw a card.

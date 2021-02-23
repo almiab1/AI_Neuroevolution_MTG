@@ -1,9 +1,0 @@
-name=Archangel's Light
-image=https://magiccards.info/scans/en/dka/1.jpg
-value=1.224
-rarity=M
-type=Sorcery
-cost={7}{W}
-timing=draw
-requires_groovy_code
-oracle=You gain 2 life for each card in your graveyard, then shuffle your graveyard into your library.

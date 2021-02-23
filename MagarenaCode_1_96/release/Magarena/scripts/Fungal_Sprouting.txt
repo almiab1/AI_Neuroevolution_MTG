@@ -1,9 +1,0 @@
-name=Fungal Sprouting
-image=https://magiccards.info/scans/en/m13/173.jpg
-value=3.977
-rarity=U
-type=Sorcery
-cost={3}{G}
-effect=Create X 1/1 green Saproling creature tokens, where X is the greatest power among creatures you control.
-timing=main
-oracle=Create X 1/1 green Saproling creature tokens, where X is the greatest power among creatures you control.

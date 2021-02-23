@@ -1,9 +1,0 @@
-name=Perilous Vault
-image=https://magiccards.info/scans/en/m15/224.jpg
-value=3.286
-rarity=M
-type=Artifact
-cost={4}
-ability={5}, {T}, Exile SN: Exile all nonland permanents.
-timing=artifact
-oracle={5}, {T}, Exile Perilous Vault: Exile all nonland permanents.

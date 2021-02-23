@@ -1,9 +1,0 @@
-name=Hisoka's Defiance
-image=https://magiccards.info/scans/en/chk/67.jpg
-value=1.064
-rarity=C
-type=Instant
-cost={1}{U}
-effect=Counter target Spirit or Arcane spell.
-timing=counter
-oracle=Counter target Spirit or Arcane spell.

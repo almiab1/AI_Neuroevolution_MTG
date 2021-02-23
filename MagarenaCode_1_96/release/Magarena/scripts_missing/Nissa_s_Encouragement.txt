@@ -1,9 +1,0 @@
-name=Nissa's Encouragement
-image=https://magiccards.info/scans/en/hou/203.jpg
-value=2.500
-rarity=R
-type=Sorcery
-cost={4}{G}
-effect=Search your library and graveyard for a card named Forest, a card named Brambleweft Behemoth, and a card named Nissa, Genesis Mage. Reveal those cards, put them into your hand, then shuffle your library.
-timing=main
-oracle=Search your library and graveyard for a card named Forest, a card named Brambleweft Behemoth, and a card named Nissa, Genesis Mage. Reveal those cards, put them into your hand, then shuffle your library.

@@ -1,9 +1,0 @@
-name=colorless Clue artifact token
-image=https://img.scryfall.com/cards/border_crop/en/tc18/19.jpg?1535501538
-token=Clue
-type=Artifact
-subtype=Clue
-color=
-value=1
-ability={2}, Sacrifice SN: Draw a card.
-oracle={2}, Sacrifice this artifact: Draw a card.

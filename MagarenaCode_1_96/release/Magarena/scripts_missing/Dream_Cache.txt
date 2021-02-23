@@ -1,9 +1,0 @@
-name=Dream Cache
-image=https://magiccards.info/scans/en/6e/66.jpg
-value=3.514
-rarity=C
-type=Sorcery
-cost={2}{U}
-effect=Draw three cards, then put two cards from your hand both on top of your library or both on the bottom of your library.
-timing=main
-oracle=Draw three cards, then put two cards from your hand both on top of your library or both on the bottom of your library.

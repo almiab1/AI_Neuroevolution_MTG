@@ -1,9 +1,0 @@
-name=Jandor's Saddlebags
-image=https://magiccards.info/scans/en/7e/304.jpg
-value=1.950
-rarity=R
-type=Artifact
-cost={2}
-ability={3}, {T}: Untap target creature.
-timing=artifact
-oracle={3}, {T}: Untap target creature.

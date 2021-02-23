@@ -1,8 +1,0 @@
-name=3/3 green Ooze creature token
-token=Ooze
-image=https://magiccards.info/extras/token/shadows-over-innistrad/ooze.jpg
-value=3
-type=Creature
-subtype=Ooze
-color=g
-pt=3/3

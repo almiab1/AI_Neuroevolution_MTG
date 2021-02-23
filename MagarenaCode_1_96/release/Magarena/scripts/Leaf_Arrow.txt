@@ -1,9 +1,0 @@
-name=Leaf Arrow
-image=https://magiccards.info/scans/en/roe/194.jpg
-value=3.282
-rarity=C
-type=Instant
-cost={G}
-effect=SN deals 3 damage to target creature with flying.
-timing=removal
-oracle=Leaf Arrow deals 3 damage to target creature with flying.

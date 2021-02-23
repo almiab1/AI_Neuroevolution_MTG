@@ -1,9 +1,0 @@
-name=Psychic Barrier
-image=https://magiccards.info/scans/en/nph/43.jpg
-value=3.476
-rarity=C
-type=Instant
-cost={U}{U}
-effect=Counter target creature spell.~Its controller loses 1 life.
-timing=counter
-oracle=Counter target creature spell. Its controller loses 1 life.

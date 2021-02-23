@@ -1,9 +1,0 @@
-name=Summoner's Bane
-image=https://magiccards.info/scans/en/zen/71.jpg
-value=3.650
-rarity=U
-type=Instant
-cost={2}{U}{U}
-effect=Counter target creature spell.~Create a 2/2 blue Illusion creature token.
-timing=counter
-oracle=Counter target creature spell. Create a 2/2 blue Illusion creature token.

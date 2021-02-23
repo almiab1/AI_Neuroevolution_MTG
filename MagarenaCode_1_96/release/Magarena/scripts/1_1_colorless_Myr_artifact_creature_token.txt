@@ -1,9 +1,0 @@
-name=1/1 colorless Myr artifact creature token
-token=Myr
-image=https://magiccards.info/extras/token/modern-masters-2015/myr.jpg
-image_updated=2015-11-12
-value=1
-type=Artifact,Creature
-subtype=Myr
-color=
-pt=1/1

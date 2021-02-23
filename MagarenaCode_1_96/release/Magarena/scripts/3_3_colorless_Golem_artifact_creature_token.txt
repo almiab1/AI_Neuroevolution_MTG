@@ -1,9 +1,0 @@
-name=3/3 colorless Golem artifact creature token
-token=Golem
-image=https://magiccards.info/extras/token/modern-masters-2015/golem.jpg
-image_updated=2015-11-12
-value=3
-type=Artifact,Creature
-subtype=Golem
-color=
-pt=3/3

@@ -1,9 +1,0 @@
-name=Overwhelming Intellect
-image=https://magiccards.info/scans/en/sok/51.jpg
-value=3.333
-rarity=U
-type=Instant
-cost={4}{U}{U}
-timing=counter
-requires_groovy_code
-oracle=Counter target creature spell. Draw cards equal to that spell's converted mana cost.

@@ -1,9 +1,0 @@
-name=Thassa's Rebuff
-image=https://magiccards.info/scans/en/bng/54.jpg
-value=3.667
-rarity=U
-type=Instant
-cost={1}{U}
-timing=counter
-requires_groovy_code
-oracle=Counter target spell unless its controller pays {X}, where X is your devotion to blue.

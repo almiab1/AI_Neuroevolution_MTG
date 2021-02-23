@@ -1,9 +1,0 @@
-name=Scepter of Insight
-image=https://magiccards.info/scans/en/cfx/33.jpg
-value=2.542
-rarity=R
-type=Artifact
-cost={1}{U}{U}
-ability={3}{U}, {T}: Draw a card.
-timing=artifact
-oracle={3}{U}, {T}: Draw a card.

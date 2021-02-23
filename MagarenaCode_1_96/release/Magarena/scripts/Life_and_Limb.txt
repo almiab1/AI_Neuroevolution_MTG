@@ -1,9 +1,0 @@
-name=Life and Limb
-image=https://magiccards.info/scans/en/pc/133.jpg
-value=4.127
-rarity=R
-type=Enchantment
-cost={3}{G}
-timing=enchantment
-oracle=All Forests and all Saprolings are 1/1 green Saproling creatures and Forest lands in addition to their other types.
-requires_groovy_code

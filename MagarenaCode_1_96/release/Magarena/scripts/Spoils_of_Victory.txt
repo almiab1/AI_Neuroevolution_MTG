@@ -1,9 +1,0 @@
-name=Spoils of Victory
-image=https://magiccards.info/scans/en/p3k/147.jpg
-value=2.967
-rarity=U
-type=Sorcery
-cost={2}{G}
-effect=Search your library for a Plains, Island, Swamp, Mountain or Forest card and put that card onto the battlefield. Then shuffle your library.
-timing=main
-oracle=Search your library for a Plains, Island, Swamp, Mountain, or Forest card and put that card onto the battlefield. Then shuffle your library.

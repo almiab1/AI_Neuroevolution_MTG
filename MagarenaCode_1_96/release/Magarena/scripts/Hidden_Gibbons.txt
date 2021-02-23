@@ -1,9 +1,0 @@
-name=Hidden Gibbons
-image=https://magiccards.info/scans/en/ul/104.jpg
-value=4.398
-rarity=R
-type=Enchantment
-cost={G}
-ability=When an opponent casts an instant spell, if SN is an enchantment, SN becomes a 4/4 Ape creature.
-timing=enchantment
-oracle=When an opponent casts an instant spell, if Hidden Gibbons is an enchantment, Hidden Gibbons becomes a 4/4 Ape creature.

@@ -1,9 +1,0 @@
-name=Quicksilver Amulet
-image=https://magiccards.info/scans/en/m12/214.jpg
-value=4.295
-rarity=R
-type=Artifact
-cost={4}
-ability={4}, {T}: You may put a creature card from your hand onto the battlefield.
-timing=artifact
-oracle={4}, {T}: You may put a creature card from your hand onto the battlefield.

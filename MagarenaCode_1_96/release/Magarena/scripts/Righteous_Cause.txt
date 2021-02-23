@@ -1,9 +1,0 @@
-name=Righteous Cause
-image=https://magiccards.info/scans/en/cmd/29.jpg
-value=3.431
-rarity=U
-type=Enchantment
-cost={3}{W}{W}
-ability=Whenever a creature attacks, you gain 1 life.
-timing=enchantment
-oracle=Whenever a creature attacks, you gain 1 life.

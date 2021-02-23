@@ -1,9 +1,0 @@
-name=Hero's Demise
-image=https://magiccards.info/scans/en/bok/68.jpg
-value=2.587
-rarity=R
-type=Instant
-cost={1}{B}
-effect=Destroy target legendary creature.
-timing=removal
-oracle=Destroy target legendary creature.

@@ -1,9 +1,0 @@
-name=Vision Skeins
-image=https://magiccards.info/scans/en/cmd/67.jpg
-value=3.278
-rarity=C
-type=Instant
-cost={1}{U}
-effect=Each player draws two cards.
-timing=draw
-oracle=Each player draws two cards.

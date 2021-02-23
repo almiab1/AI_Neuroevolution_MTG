@@ -1,9 +1,0 @@
-name=Stampede
-image=https://magiccards.info/scans/en/5e/189.jpg
-value=3.239
-rarity=R
-type=Instant
-cost={1}{G}{G}
-effect=Attacking creatures get +1/+0 and gain trample until end of turn.
-timing=pump
-oracle=Attacking creatures get +1/+0 and gain trample until end of turn.

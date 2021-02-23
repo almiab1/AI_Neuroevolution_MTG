@@ -1,9 +1,0 @@
-name=Tormod's Crypt
-image=https://magiccards.info/scans/en/c14/278.jpg
-value=3.850
-rarity=U
-type=Artifact
-cost={0}
-ability={T}, Sacrifice SN: Exile all cards from target player's graveyard.
-timing=artifact
-oracle={T}, Sacrifice Tormod's Crypt: Exile all cards from target player's graveyard.

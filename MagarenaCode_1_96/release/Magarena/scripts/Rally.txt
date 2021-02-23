@@ -1,9 +1,0 @@
-name=Rally
-image=https://magiccards.info/scans/en/ia/272.jpg
-value=2.047
-rarity=C
-type=Instant
-cost={W}{W}
-effect=Blocking creatures get +1/+1 until end of turn.
-timing=block
-oracle=Blocking creatures get +1/+1 until end of turn.

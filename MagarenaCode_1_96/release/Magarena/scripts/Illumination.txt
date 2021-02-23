@@ -1,9 +1,0 @@
-name=Illumination
-image=https://magiccards.info/scans/en/mr/225.jpg
-value=2.444
-rarity=U
-type=Instant
-cost={W}{W}
-timing=counter
-requires_groovy_code
-oracle=Counter target artifact or enchantment spell. Its controller gains life equal to its converted mana cost.

@@ -1,9 +1,0 @@
-name=Flamebreak
-image=https://magiccards.info/scans/en/ds/61.jpg
-value=4.260
-rarity=R
-type=Sorcery
-cost={R}{R}{R}
-timing=main
-requires_groovy_code
-oracle=Flamebreak deals 3 damage to each creature without flying and each player. Creatures dealt damage this way can't be regenerated this turn.

@@ -1,9 +1,0 @@
-name=Fractured Powerstone
-image=https://magiccards.info/scans/en/pc2/111.jpg
-value=3.333
-rarity=C
-type=Artifact
-cost={2}
-ability={T}: Add {C}.
-timing=artifact
-oracle={T}: Add {C}.\n{T}: Roll the planar die. Activate this ability only any time you could cast a sorcery.

@@ -1,8 +1,0 @@
-name=1/1 green Hippo creature token
-token=Hippo
-image=http://cdn.staticneo.com/w/mtg/8/82/Hippo.jpg
-value=1
-type=Creature
-subtype=Hippo
-color=g
-pt=1/1

@@ -1,8 +1,0 @@
-name=2/2 colorless Assembly-Worker artifact creature token
-token=Assembly-Worker
-image=http://cdn.staticneo.com/w/mtg/d/dd/Assembly-Worker.jpg
-value=1
-type=Artifact,Creature
-subtype=Assembly-Worker
-color=
-pt=2/2

@@ -1,9 +1,0 @@
-name=Nature's Lore
-image=https://magiccards.info/scans/en/st/136.jpg
-value=4.000
-rarity=C
-type=Sorcery
-cost={1}{G}
-effect=Search your library for a Forest card and put that card onto the battlefield. Then shuffle your library.
-timing=main
-oracle=Search your library for a Forest card and put that card onto the battlefield. Then shuffle your library.

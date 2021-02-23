@@ -1,9 +1,0 @@
-name=Insurrection
-image=https://magiccards.info/scans/en/cmd/126.jpg
-value=4.183
-rarity=R
-type=Sorcery
-cost={5}{R}{R}{R}
-timing=main
-requires_groovy_code
-oracle=Untap all creatures and gain control of them until end of turn. They gain haste until end of turn.

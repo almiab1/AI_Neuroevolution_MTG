@@ -1,9 +1,0 @@
-name=Sprout
-image=https://magiccards.info/scans/en/ts/221.jpg
-value=2.713
-rarity=C
-type=Instant
-cost={G}
-effect=Create a 1/1 green Saproling creature token.
-timing=removal
-oracle=Create a 1/1 green Saproling creature token.

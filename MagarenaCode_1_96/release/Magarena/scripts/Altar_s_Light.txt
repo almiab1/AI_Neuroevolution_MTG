@@ -1,9 +1,0 @@
-name=Altar's Light
-image=https://magiccards.info/scans/en/mi/1.jpg
-value=2.351
-rarity=U
-type=Instant
-cost={2}{W}{W}
-effect=Exile target artifact or enchantment.
-timing=removal
-oracle=Exile target artifact or enchantment.

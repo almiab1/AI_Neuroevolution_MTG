@@ -1,9 +1,0 @@
-name=Offering to Asha
-image=https://magiccards.info/scans/en/arb/9.jpg
-value=2.986
-rarity=C
-type=Instant
-cost={2}{W}{U}
-effect=Counter target spell unless its controller pays {4}.~You gain 4 life.
-timing=counter
-oracle=Counter target spell unless its controller pays {4}. You gain 4 life.

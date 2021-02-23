@@ -1,9 +1,0 @@
-name=3/3 green Boar creature token
-token=Boar
-image=https://magiccards.info/extras/token/planechase-anthology/boar.jpg
-image_updated=2017-09-04
-value=3
-type=Creature
-subtype=Boar
-color=g
-pt=3/3
