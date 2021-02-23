@@ -1,0 +1,10 @@
+name=Killing Wave
+image=https://magiccards.info/scans/en/avr/111.jpg
+value=3.492
+rarity=R
+type=Sorcery
+cost={X}{B}
+effect=For each creature, its controller sacrifices it unless he or she pays X life.
+timing=main
+oracle=For each creature, its controller sacrifices it unless he or she pays X life.
+status=needs groovy

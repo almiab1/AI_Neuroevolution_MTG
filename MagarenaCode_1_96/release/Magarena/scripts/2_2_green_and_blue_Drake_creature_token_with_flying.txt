@@ -1,0 +1,10 @@
+name=2/2 green and blue Drake creature token with flying
+token=Drake
+image=http://cdn.staticneo.com/w/mtg/6/62/Drake.jpg
+value=2
+pt=2/2
+color=GB
+type=Creature
+ability=Flying
+subtype=Drake
+oracle=Flying

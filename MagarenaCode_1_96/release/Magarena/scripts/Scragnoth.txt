@@ -1,0 +1,12 @@
+name=Scragnoth
+image=https://magiccards.info/scans/en/tsts/83.jpg
+value=3.769
+rarity=U
+type=Creature
+subtype=Beast
+cost={4}{G}
+pt=3/4
+ability=This spell can't be countered.;\
+        Protection from blue
+timing=main
+oracle=This spell can't be countered.\nProtection from blue

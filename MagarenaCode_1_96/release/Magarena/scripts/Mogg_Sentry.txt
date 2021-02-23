@@ -1,0 +1,11 @@
+name=Mogg Sentry
+image=https://magiccards.info/scans/en/9e/204.jpg
+value=4.138
+rarity=R
+type=Creature
+subtype=Goblin,Warrior
+cost={R}
+pt=1/1
+ability=Whenever an opponent casts a spell, SN gets +2/+2 until end of turn.
+timing=main
+oracle=Whenever an opponent casts a spell, Mogg Sentry gets +2/+2 until end of turn.

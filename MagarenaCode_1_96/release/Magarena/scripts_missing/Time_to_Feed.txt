@@ -1,0 +1,11 @@
+name=Time to Feed
+image=https://magiccards.info/scans/en/ths/181.jpg
+image_updated=2017-01-11
+value=2.500
+rarity=C
+type=Sorcery
+cost={2}{G}
+effect=Choose target creature an opponent controls. When that creature dies this turn, you gain 3 life. Target creature you control fights that creature.
+timing=main
+oracle=Choose target creature an opponent controls. When that creature dies this turn, you gain 3 life. Target creature you control fights that creature.
+status=not supported: multiple-targets

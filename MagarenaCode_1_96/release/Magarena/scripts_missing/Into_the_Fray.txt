@@ -1,0 +1,12 @@
+name=Into the Fray
+image=https://magiccards.info/scans/en/sok/106.jpg
+value=2.081
+rarity=C
+type=Instant
+subtype=Arcane
+cost={R}
+ability=Splice onto Arcane {R}
+effect=Target creature attacks this turn if able.
+timing=removal
+oracle=Target creature attacks this turn if able.\nSplice onto Arcane {R}
+status=not supported: splice-onto-arcane

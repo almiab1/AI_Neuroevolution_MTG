@@ -1,0 +1,12 @@
+name=Blade of the Bloodchief
+image=https://magiccards.info/scans/en/c17/204.jpg
+image_updated=2017-10-03
+value=4.035
+rarity=R
+type=Artifact
+subtype=Equipment
+cost={1}
+ability=Equip {1}
+timing=equipment
+requires_groovy_code
+oracle=Whenever a creature dies, put a +1/+1 counter on equipped creature. If equipped creature is a Vampire, put two +1/+1 counters on it instead.\nEquip {1}

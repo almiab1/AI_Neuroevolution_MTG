@@ -1,0 +1,9 @@
+name=Vitalizing Cascade
+image=https://magiccards.info/scans/en/mr/346.jpg
+value=3.395
+rarity=U
+type=Instant
+cost={X}{G}{W}
+timing=pump
+requires_groovy_code
+oracle=You gain X plus 3 life.

@@ -1,0 +1,9 @@
+name=Orcish Oriflamme
+image=https://magiccards.info/scans/en/ema/140.jpg
+value=2.488
+rarity=C
+type=Enchantment
+cost={3}{R}
+ability=Attacking creatures you control get +1/+0.
+timing=enchantment
+oracle=Attacking creatures you control get +1/+0.

@@ -1,0 +1,11 @@
+name=Cephalid Sage
+image=https://magiccards.info/scans/en/ema/41.jpg
+value=2.500
+rarity=C
+type=Creature
+subtype=Cephalid
+cost={3}{U}
+pt=2/3
+ability=As long as seven or more cards are in your graveyard, SN has "When SN enters the battlefield, draw three cards, then discard two cards."
+timing=main
+oracle=Threshold — As long as seven or more cards are in your graveyard, Cephalid Sage has "When Cephalid Sage enters the battlefield, draw three cards, then discard two cards."

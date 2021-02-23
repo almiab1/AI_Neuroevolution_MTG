@@ -1,0 +1,12 @@
+name=Mondronen Shaman
+image=https://magiccards.info/scans/en/dka/98a.jpg
+value=3.403
+rarity=R
+type=Creature
+subtype=Human,Werewolf,Shaman
+cost={3}{R}
+pt=3/2
+ability=At the beginning of each upkeep, if no spells were cast last turn, transform SN.
+transform=Tovolar's Magehunter
+timing=main
+oracle=At the beginning of each upkeep, if no spells were cast last turn, transform Mondronen Shaman.

@@ -1,0 +1,10 @@
+name=Freyalise's Winds
+image=https://magiccards.info/scans/en/ia/129.jpg
+value=3.759
+rarity=R
+type=Enchantment
+cost={2}{G}{G}
+ability=Whenever a permanent becomes tapped, put a wind counter on it.;\
+        If a permanent with a wind counter on it would untap during its controller's untap step, remove all wind counters from it instead.
+timing=enchantment
+oracle=Whenever a permanent becomes tapped, put a wind counter on it.\nIf a permanent with a wind counter on it would untap during its controller's untap step, remove all wind counters from it instead.

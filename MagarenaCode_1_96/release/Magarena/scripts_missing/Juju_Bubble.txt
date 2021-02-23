@@ -1,0 +1,11 @@
+name=Juju Bubble
+image=https://magiccards.info/scans/en/vi/147.jpg
+value=0.914
+rarity=U
+type=Artifact
+cost={1}
+ability=Cumulative upkeep {1};\
+        When you play a card, sacrifice SN.;\
+        {2}: You gain 1 life.
+timing=artifact
+oracle=Cumulative upkeep {1}\nWhen you play a card, sacrifice Juju Bubble.\n{2}: You gain 1 life.

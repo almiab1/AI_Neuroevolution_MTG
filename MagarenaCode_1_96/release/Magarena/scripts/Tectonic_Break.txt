@@ -1,0 +1,9 @@
+name=Tectonic Break
+image=https://magiccards.info/scans/en/mm/216.jpg
+value=3.852
+rarity=R
+type=Sorcery
+cost={X}{R}{R}
+timing=main
+requires_groovy_code
+oracle=Each player sacrifices X lands.

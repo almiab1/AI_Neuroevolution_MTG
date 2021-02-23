@@ -1,0 +1,11 @@
+name=Phyrexian Gargantua
+image=https://magiccards.info/scans/en/ema/101.jpg
+value=4.024
+rarity=U
+type=Creature
+subtype=Horror
+cost={4}{B}{B}
+pt=4/4
+ability=When SN enters the battlefield, you draw two cards and you lose 2 life.
+timing=main
+oracle=When Phyrexian Gargantua enters the battlefield, you draw two cards and you lose 2 life.

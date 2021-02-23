@@ -1,0 +1,12 @@
+name=Ulvenwald Mystics
+image=https://magiccards.info/scans/en/isd/208a.jpg
+value=3.111
+rarity=U
+type=Creature
+subtype=Human,Shaman,Werewolf
+cost={2}{G}{G}
+pt=3/3
+ability=At the beginning of each upkeep, if no spells were cast last turn, transform SN.
+transform=Ulvenwald Primordials
+timing=main
+oracle=At the beginning of each upkeep, if no spells were cast last turn, transform Ulvenwald Mystics.

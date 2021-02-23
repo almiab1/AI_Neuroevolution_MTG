@@ -1,0 +1,11 @@
+name=Abandoned Outpost
+image=https://magiccards.info/scans/en/od/312.jpg
+value=2.240
+rarity=C
+type=Land
+mana=w3u1b1r1g1
+ability=SN enters the battlefield tapped.;\
+        {T}: Add {W}.;\
+        {T}, Sacrifice SN: Add one mana of any color.
+timing=tapland
+oracle=Abandoned Outpost enters the battlefield tapped.\n{T}: Add {W}.\n{T}, Sacrifice Abandoned Outpost: Add one mana of any color.

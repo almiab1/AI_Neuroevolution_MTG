@@ -1,0 +1,13 @@
+name=Copper-Leaf Angel
+image=https://magiccards.info/scans/en/pr/137.jpg
+value=2.310
+rarity=R
+type=Artifact,Creature
+subtype=Angel
+cost={5}
+pt=2/2
+ability=Flying;\
+        {T}, Sacrifice X lands: Put X +1/+1 counters on SN.
+timing=main
+oracle=Flying\n{T}, Sacrifice X lands: Put X +1/+1 counters on Copper-Leaf Angel.
+status=not supported: non-mana-x-cost

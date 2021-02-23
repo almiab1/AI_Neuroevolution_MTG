@@ -1,0 +1,11 @@
+name=Koskun Keep
+image=https://magiccards.info/scans/en/hl/139.jpg
+value=1.333
+rarity=U
+type=Land
+ability={T}: Add {C}.;\
+        {1}, {T}: Add {R}.;\
+        {2}, {T}: Add {B} or {G}.
+timing=land
+oracle={T}: Add {C}.\n{1}, {T}: Add {R}.\n{2}, {T}: Add {B} or {G}.
+status=not supported: mana-ability-with-choice

@@ -1,0 +1,12 @@
+name=Satyr Piper
+image=https://magiccards.info/scans/en/ths/175.jpg
+value=2.857
+rarity=U
+type=Creature
+subtype=Satyr,Rogue
+cost={2}{G}
+pt=2/1
+ability={3}{G}: Target creature must be blocked this turn if able.
+timing=main
+oracle={3}{G}: Target creature must be blocked this turn if able.
+status=not supported: blocking-restriction

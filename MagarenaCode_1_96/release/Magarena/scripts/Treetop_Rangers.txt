@@ -1,0 +1,11 @@
+name=Treetop Rangers
+image=https://magiccards.info/scans/en/us/279.jpg
+value=3.580
+rarity=C
+type=Creature
+subtype=Elf
+cost={2}{G}
+pt=2/2
+ability=SN can't be blocked except by creatures with flying.
+timing=main
+oracle=Treetop Rangers can't be blocked except by creatures with flying.

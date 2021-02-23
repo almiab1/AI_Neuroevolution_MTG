@@ -1,0 +1,11 @@
+name=Relentless Assault
+image=https://magiccards.info/scans/en/10e/225.jpg
+image_updated=2017-01-06
+value=4.221
+rarity=R
+type=Sorcery
+cost={2}{R}{R}
+effect=Untap all creatures that attacked this turn. After this main phase, there is an additional combat phase followed by an additional main phase.
+timing=main
+oracle=Untap all creatures that attacked this turn. After this main phase, there is an additional combat phase followed by an additional main phase.
+status=not supported: additional-combat

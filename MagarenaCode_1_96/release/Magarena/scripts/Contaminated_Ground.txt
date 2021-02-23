@@ -1,0 +1,13 @@
+name=Contaminated Ground
+image=https://magiccards.info/scans/en/gtc/59.jpg
+value=3.156
+rarity=C
+type=Enchantment
+subtype=Aura
+cost={1}{B}
+ability=Enchant land;\
+        Whenever enchanted land becomes tapped, RN's controller loses 2 life.
+timing=aura
+enchant=tap,neg land
+oracle=Enchant land\nEnchanted land is a Swamp.\nWhenever enchanted land becomes tapped, its controller loses 2 life.
+requires_groovy_code=Evil Presence

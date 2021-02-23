@@ -1,0 +1,11 @@
+name=Flowstone Shambler
+image=https://magiccards.info/scans/en/9e/185.jpg
+value=2.281
+rarity=C
+type=Creature
+subtype=Beast
+cost={2}{R}
+pt=2/2
+ability={R}: SN gets +1/-1 until end of turn.
+timing=main
+oracle={R}: Flowstone Shambler gets +1/-1 until end of turn.

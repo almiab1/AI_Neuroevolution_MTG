@@ -1,0 +1,13 @@
+name=Crested Craghorn
+image=https://magiccards.info/scans/en/le/91.jpg
+value=3.161
+rarity=C
+type=Creature
+subtype=Goat,Beast
+cost={4}{R}
+pt=4/1
+ability=Haste;\
+        Provoke
+timing=fmain
+oracle=Haste\nProvoke
+status=not supported: blocking-restriction

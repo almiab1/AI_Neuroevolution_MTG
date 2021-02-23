@@ -1,0 +1,12 @@
+name=Urza's Incubator
+image=https://magiccards.info/scans/en/ud/142.jpg
+image_updated=2016-02-29
+value=4.290
+rarity=R
+type=Artifact
+cost={3}
+ability=As SN enters the battlefield, choose a creature type.;\
+        Creature spells of the chosen type cost {2} less to cast.
+timing=artifact
+oracle=As Urza's Incubator enters the battlefield, choose a creature type.\nCreature spells of the chosen type cost {2} less to cast.
+status=not supported: choose-creature-type

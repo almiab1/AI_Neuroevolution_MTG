@@ -1,0 +1,12 @@
+name=Longshot Squad
+image=https://magiccards.info/scans/en/ktk/140.jpg
+value=3.250
+rarity=C
+type=Creature
+subtype=Hound,Archer
+cost={3}{G}
+pt=3/3
+ability=Outlast {1}{G};\
+        Each creature you control with a +1/+1 counter on it has reach.
+timing=main
+oracle=Outlast {1}{G}\nEach creature you control with a +1/+1 counter on it has reach.

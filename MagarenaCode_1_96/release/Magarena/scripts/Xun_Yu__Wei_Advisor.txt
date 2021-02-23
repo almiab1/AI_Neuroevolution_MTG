@@ -1,0 +1,11 @@
+name=Xun Yu, Wei Advisor
+image=https://magiccards.info/scans/en/p3k/93.jpg
+value=2.208
+rarity=R
+type=Legendary,Creature
+subtype=Human,Advisor
+cost={1}{B}{B}
+pt=1/1
+ability={T}: Target creature you control gets +2/+0 until end of turn. Activate this ability only during your turn, before attackers are declared.
+timing=main
+oracle={T}: Target creature you control gets +2/+0 until end of turn. Activate this ability only during your turn, before attackers are declared.

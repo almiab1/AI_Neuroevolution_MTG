@@ -1,0 +1,12 @@
+name=Mirror-Sigil Sergeant
+image=https://magiccards.info/scans/en/cfx/12.jpg
+value=3.979
+rarity=M
+type=Creature
+subtype=Rhino,Soldier
+cost={5}{W}
+pt=4/4
+ability=Trample;\
+        At the beginning of your upkeep, if you control a blue permanent, you may create a token that's a copy of SN.
+timing=main
+oracle=Trample\nAt the beginning of your upkeep, if you control a blue permanent, you may create a token that's a copy of Mirror-Sigil Sergeant.

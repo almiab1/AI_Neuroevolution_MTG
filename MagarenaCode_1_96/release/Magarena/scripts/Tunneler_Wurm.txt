@@ -1,0 +1,11 @@
+name=Tunneler Wurm
+image=https://magiccards.info/scans/en/ju/135.jpg
+value=2.162
+rarity=U
+type=Creature
+subtype=Wurm
+cost={6}{G}{G}
+pt=6/6
+ability=Discard a card: Regenerate SN.
+timing=main
+oracle=Discard a card: Regenerate Tunneler Wurm.

@@ -1,0 +1,12 @@
+name=Duskmantle Prowler
+image=https://magiccards.info/scans/en/m13/91.jpg
+value=3.100
+rarity=U
+type=Creature
+subtype=Vampire,Rogue
+cost={3}{B}
+pt=2/2
+ability=Haste;\
+        Exalted
+timing=fmain
+oracle=Haste\nExalted

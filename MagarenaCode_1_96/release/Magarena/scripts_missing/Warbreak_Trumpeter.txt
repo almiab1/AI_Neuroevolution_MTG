@@ -1,0 +1,13 @@
+name=Warbreak Trumpeter
+image=https://magiccards.info/scans/en/le/116.jpg
+value=3.061
+rarity=U
+type=Creature
+subtype=Goblin
+cost={R}
+pt=1/1
+ability=Morph {X}{X}{R};\
+        When SN is turned face up, create X 1/1 red Goblin creature tokens.
+timing=main
+oracle=Morph {X}{X}{R}\nWhen Warbreak Trumpeter is turned face up, create X 1/1 red Goblin creature tokens.
+status=not supported: no-info

@@ -1,0 +1,9 @@
+name=Mnemonic Nexus
+image=https://magiccards.info/scans/en/rav/59.jpg
+value=2.405
+rarity=U
+type=Instant
+cost={3}{U}
+timing=removal
+requires_groovy_code
+oracle=Each player shuffles his or her graveyard into his or her library.

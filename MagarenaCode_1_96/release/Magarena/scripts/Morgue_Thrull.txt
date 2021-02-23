@@ -1,0 +1,11 @@
+name=Morgue Thrull
+image=https://magiccards.info/scans/en/sh/15.jpg
+value=2.234
+rarity=C
+type=Creature
+subtype=Thrull
+cost={2}{B}
+pt=2/2
+ability=Sacrifice SN: Put the top three cards of your library into your graveyard.
+timing=main
+oracle=Sacrifice Morgue Thrull: Put the top three cards of your library into your graveyard.

@@ -1,0 +1,11 @@
+name=Alabaster Kirin
+image=https://magiccards.info/scans/en/ktk/4.jpg
+value=3.000
+rarity=C
+type=Creature
+subtype=Kirin
+cost={3}{W}
+pt=2/3
+ability=Flying, vigilance
+timing=main
+oracle=Flying, vigilance

@@ -1,0 +1,11 @@
+name=Revenge of the Hunted
+image=https://magiccards.info/scans/en/avr/191.jpg
+value=3.825
+rarity=R
+type=Sorcery
+cost={4}{G}{G}
+ability=Miracle {G}
+effect=Until end of turn, target creature gets +6/+6 and gains trample, and all creatures able to block it this turn do so.
+timing=main
+oracle=Until end of turn, target creature gets +6/+6 and gains trample, and all creatures able to block it this turn do so.\nMiracle {G}
+status=not supported: blocking-restriction

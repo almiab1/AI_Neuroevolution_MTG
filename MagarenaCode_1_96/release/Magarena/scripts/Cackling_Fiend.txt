@@ -1,0 +1,12 @@
+name=Cackling Fiend
+image=https://magiccards.info/scans/en/us/121.jpg
+image_updated=2016-11-28
+value=2.538
+rarity=C
+type=Creature
+subtype=Zombie
+cost={2}{B}{B}
+pt=2/1
+ability=When SN enters the battlefield, each opponent discards a card.
+timing=main
+oracle=When Cackling Fiend enters the battlefield, each opponent discards a card.

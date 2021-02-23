@@ -1,0 +1,15 @@
+name=Archangel of Strife
+image=https://magiccards.info/scans/en/cmd/7.jpg
+value=3.775
+rarity=R
+type=Creature
+subtype=Angel
+cost={5}{W}{W}
+pt=6/6
+ability=Flying;\
+        As SN enters the battlefield, each player chooses war or peace.;\
+        Creatures controlled by players who chose war get +3/+0.;\
+        Creatures controlled by players who chose peace get +0/+3.
+timing=main
+oracle=Flying\nAs Archangel of Strife enters the battlefield, each player chooses war or peace.\nCreatures controlled by players who chose war get +3/+0.\nCreatures controlled by players who chose peace get +0/+3.
+status=needs groovy

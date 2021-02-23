@@ -1,0 +1,14 @@
+name=It That Rides as One
+image=https://magiccards.info/scans/en/emn/33b.jpg
+image_updated=2016-09-05
+value=2.500
+rarity=U
+type=Creature
+subtype=Eldrazi,Horror
+color=
+pt=4/4
+ability=First strike, trample, lifelink
+transform=Lone Rider
+timing=main
+hidden
+oracle=First strike, trample, lifelink

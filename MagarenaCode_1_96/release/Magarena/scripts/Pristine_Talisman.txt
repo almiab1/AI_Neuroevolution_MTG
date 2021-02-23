@@ -1,0 +1,10 @@
+name=Pristine Talisman
+image=https://magiccards.info/scans/en/ima/225.jpg
+image_updated=2017-04-12
+value=3.053
+rarity=U
+type=Artifact
+cost={3}
+timing=artifact
+requires_groovy_code
+oracle={T}: Add {C}. You gain 1 life.

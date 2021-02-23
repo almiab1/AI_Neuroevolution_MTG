@@ -1,0 +1,11 @@
+name=Riot Ringleader
+image=https://magiccards.info/scans/en/avr/152.jpg
+value=2.562
+rarity=C
+type=Creature
+subtype=Human,Warrior
+cost={2}{R}
+pt=2/2
+ability=Whenever SN attacks, Human creatures you control get +1/+0 until end of turn.
+timing=main
+oracle=Whenever Riot Ringleader attacks, Human creatures you control get +1/+0 until end of turn.

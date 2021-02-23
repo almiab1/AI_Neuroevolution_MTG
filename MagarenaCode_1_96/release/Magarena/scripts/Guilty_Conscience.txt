@@ -1,0 +1,12 @@
+name=Guilty Conscience
+image=https://magiccards.info/scans/en/sc/17.jpg
+value=4.053
+rarity=C
+type=Enchantment
+subtype=Aura
+cost={W}
+ability=Enchant creature
+timing=aura
+enchant=can't attack,neg creature
+oracle=Enchant creature\nWhenever enchanted creature deals damage, Guilty Conscience deals that much damage to that creature.
+requires_groovy_code

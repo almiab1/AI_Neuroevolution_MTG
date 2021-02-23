@@ -1,0 +1,12 @@
+name=Bloodrage Vampire
+image=https://magiccards.info/scans/en/m12/83.jpg
+image_updated=2016-11-20
+value=2.778
+rarity=C
+type=Creature
+subtype=Vampire
+cost={2}{B}
+pt=3/1
+ability=Bloodthirst 1
+timing=main
+oracle=Bloodthirst 1

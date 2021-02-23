@@ -1,0 +1,10 @@
+name=Remove
+image=https://magiccards.info/scans/en/po2/43.jpg
+value=2.375
+rarity=U
+type=Instant
+cost={U}
+ability=Cast this spell only during the declare attackers step and only if you've been attacked this step.
+effect=Return target attacking creature to its owner's hand.
+timing=removal
+oracle=Cast this spell only during the declare attackers step and only if you've been attacked this step.\nReturn target attacking creature to its owner's hand.

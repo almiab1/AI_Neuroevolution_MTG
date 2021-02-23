@@ -1,0 +1,12 @@
+name=Vexing Beetle
+image=https://magiccards.info/scans/en/le/143.jpg
+value=2.929
+rarity=R
+type=Creature
+subtype=Insect
+cost={4}{G}
+pt=3/3
+ability=This spell can't be countered.;\
+        SN gets +3/+3 as long as no opponent controls a creature.
+timing=main
+oracle=This spell can't be countered.\nVexing Beetle gets +3/+3 as long as no opponent controls a creature.

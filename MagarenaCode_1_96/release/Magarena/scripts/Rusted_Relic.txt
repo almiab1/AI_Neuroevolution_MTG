@@ -1,0 +1,10 @@
+name=Rusted Relic
+image=https://magiccards.info/scans/en/mm2/227.jpg
+image_updated=2015-11-05
+value=3.243
+rarity=C
+type=Artifact
+cost={4}
+timing=artifact
+requires_groovy_code
+oracle=Metalcraft — Rusted Relic is a 5/5 Golem artifact creature as long as you control three or more artifacts.

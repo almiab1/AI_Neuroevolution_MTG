@@ -1,0 +1,9 @@
+name=Seaside Haven
+image=https://magiccards.info/scans/en/on/323.jpg
+value=3.405
+rarity=U
+type=Land
+ability={T}: Add {C}.;\
+        {W}{U}, {T}, Sacrifice a Bird: Draw a card.
+timing=land
+oracle={T}: Add {C}.\n{W}{U}, {T}, Sacrifice a Bird: Draw a card.

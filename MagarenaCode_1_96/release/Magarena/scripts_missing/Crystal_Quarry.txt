@@ -1,0 +1,10 @@
+name=Crystal Quarry
+image=https://magiccards.info/scans/en/od/318.jpg
+value=4.074
+rarity=R
+type=Land
+ability={T}: Add {C}.;\
+        {5}, {T}: Add {W}{U}{B}{R}{G}.
+timing=land
+oracle={T}: Add {C}.\n{5}, {T}: Add {W}{U}{B}{R}{G}.
+status=not supported: add-multiple-mana

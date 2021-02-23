@@ -1,0 +1,12 @@
+name=Lupine Prototype
+image=https://magiccards.info/scans/en/emn/197.jpg
+image_updated=2016-09-05
+value=2.500
+rarity=R
+type=Artifact,Creature
+subtype=Wolf,Construct
+cost={2}
+pt=5/5
+ability=SN can't attack or block unless a player has no cards in hand.
+timing=main
+oracle=Lupine Prototype can't attack or block unless a player has no cards in hand.

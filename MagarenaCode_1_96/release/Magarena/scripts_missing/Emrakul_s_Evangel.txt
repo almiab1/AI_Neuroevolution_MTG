@@ -1,0 +1,13 @@
+name=Emrakul's Evangel
+image=https://magiccards.info/scans/en/emn/156.jpg
+image_updated=2016-09-05
+value=2.500
+rarity=R
+type=Creature
+subtype=Human,Horror
+cost={2}{G}
+pt=3/2
+ability={T}, Sacrifice SN and any number of other non-Eldrazi creatures: Create a 3/2 colorless Eldrazi Horror creature token for each creature sacrificed this way.
+timing=main
+oracle={T}, Sacrifice Emrakul's Evangel and any number of other non-Eldrazi creatures: Create a 3/2 colorless Eldrazi Horror creature token for each creature sacrificed this way.
+status=not supported: any-number-of

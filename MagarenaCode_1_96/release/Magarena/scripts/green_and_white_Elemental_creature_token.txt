@@ -1,0 +1,10 @@
+name=green and white Elemental creature token
+token=Elemental
+image=https://img.scryfall.com/cards/border_crop/en/tmm3/16.jpg?1517813031
+value=3
+type=Creature
+subtype=Elemental
+color=gw
+pt=*/*
+ability=SN's power and toughness are each equal to the number of creatures you control.
+oracle=This creature's power and toughness are each equal to the number of creatures you control.

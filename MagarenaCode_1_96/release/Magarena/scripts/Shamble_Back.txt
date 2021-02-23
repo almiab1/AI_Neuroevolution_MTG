@@ -1,0 +1,9 @@
+name=Shamble Back
+image=https://magiccards.info/scans/en/soi/134.jpg
+value=2.500
+rarity=C
+type=Sorcery
+cost={B}
+effect=Exile target creature card from a graveyard.~Create a 2/2 black Zombie creature token.~You gain 2 life.
+timing=main
+oracle=Exile target creature card from a graveyard. Create a 2/2 black Zombie creature token. You gain 2 life.

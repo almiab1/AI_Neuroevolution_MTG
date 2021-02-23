@@ -1,0 +1,12 @@
+name=Flesh
+image=https://magiccards.info/scans/en/dgm/128a.jpg
+value=3.977
+rarity=R
+type=Sorcery
+cost={3}{B}{G}
+split=Blood
+ability=Fuse
+effect=Exile target creature card from a graveyard. Put X +1/+1 counters on target creature, where X is the power of the card you exiled.
+timing=main
+oracle=Exile target creature card from a graveyard. Put X +1/+1 counters on target creature, where X is the power of the card you exiled.\nFuse
+status=not supported: split-card

@@ -1,0 +1,14 @@
+name=Ghostly Wings
+image=https://magiccards.info/scans/en/soi/66.jpg
+image_updated=2010-09-10
+value=3.058
+rarity=C
+type=Enchantment
+subtype=Aura
+cost={1}{U}
+ability=Enchant creature;\
+        Enchanted creature gets +1/+1 and has flying.;\
+        Discard a card: Return enchanted creature to its owner's hand.
+timing=aura
+enchant=pump,creature
+oracle=Enchant creature\nEnchanted creature gets +1/+1 and has flying.\nDiscard a card: Return enchanted creature to its owner's hand.

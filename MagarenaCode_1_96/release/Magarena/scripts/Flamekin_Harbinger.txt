@@ -1,0 +1,12 @@
+name=Flamekin Harbinger
+image=https://magiccards.info/scans/en/lw/167.jpg
+image_updated=2016-12-13
+value=4.190
+rarity=U
+type=Creature
+subtype=Elemental,Shaman
+cost={R}
+pt=1/1
+ability=When SN enters the battlefield, you may search your library for an Elemental card, reveal it, then shuffle your library and put that card on top of it.
+timing=main
+oracle=When Flamekin Harbinger enters the battlefield, you may search your library for an Elemental card, reveal it, then shuffle your library and put that card on top of it.

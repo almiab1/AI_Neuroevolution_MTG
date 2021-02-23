@@ -1,0 +1,12 @@
+name=Defang
+image=https://magiccards.info/scans/en/avr/15.jpg
+value=2.103
+rarity=C
+type=Enchantment
+subtype=Aura
+cost={1}{W}
+ability=Enchant creature
+timing=aura
+enchant=can't attack,neg creature
+oracle=Enchant creature\nPrevent all damage that would be dealt by enchanted creature.
+requires_groovy_code

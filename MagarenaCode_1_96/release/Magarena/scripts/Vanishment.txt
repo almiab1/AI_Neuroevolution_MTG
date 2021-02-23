@@ -1,0 +1,11 @@
+name=Vanishment
+image=https://magiccards.info/scans/en/avr/82.jpg
+value=3.021
+removal=3
+rarity=U
+type=Instant
+cost={4}{U}
+ability=Miracle {U}
+effect=Put target nonland permanent on top of its owner's library.
+timing=removal
+oracle=Put target nonland permanent on top of its owner's library.\nMiracle {U}

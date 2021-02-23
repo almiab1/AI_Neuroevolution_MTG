@@ -1,0 +1,11 @@
+name=Pheres-Band Tromper
+image=https://magiccards.info/scans/en/bng/134.jpg
+value=3.788
+rarity=C
+type=Creature
+subtype=Centaur,Warrior
+cost={3}{G}
+pt=3/3
+ability=Whenever SN becomes untapped, put a +1/+1 counter on SN.
+timing=main
+oracle=Inspired — Whenever Pheres-Band Tromper becomes untapped, put a +1/+1 counter on it.

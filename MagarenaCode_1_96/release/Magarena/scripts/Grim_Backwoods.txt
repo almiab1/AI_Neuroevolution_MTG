@@ -1,0 +1,10 @@
+name=Grim Backwoods
+image=https://magiccards.info/scans/en/dka/156.jpg
+image_updated=2016-02-29
+value=3.607
+rarity=R
+type=Land
+ability={T}: Add {C}.;\
+        {2}{B}{G}, {T}, Sacrifice a creature: Draw a card.
+timing=land
+oracle={T}: Add {C}.\n{2}{B}{G}, {T}, Sacrifice a creature: Draw a card.

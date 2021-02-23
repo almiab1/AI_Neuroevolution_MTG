@@ -1,0 +1,9 @@
+name=Nix
+image=https://magiccards.info/scans/en/fut/55.jpg
+value=3.177
+rarity=R
+type=Instant
+cost={U}
+effect=Counter target spell if no mana was spent to cast it.
+timing=counter
+oracle=Counter target spell if no mana was spent to cast it.

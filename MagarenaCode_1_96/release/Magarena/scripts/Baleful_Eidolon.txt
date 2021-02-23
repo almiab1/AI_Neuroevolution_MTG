@@ -1,0 +1,13 @@
+name=Baleful Eidolon
+image=https://magiccards.info/scans/en/ths/78.jpg
+value=3.047
+rarity=C
+type=Enchantment,Creature
+subtype=Spirit
+cost={1}{B}
+pt=1/1
+ability=Bestow {4}{B};\
+        Deathtouch;\
+        Enchanted creature gets +1/+1 and has deathtouch.
+timing=main
+oracle=Bestow {4}{B}\nDeathtouch\nEnchanted creature gets +1/+1 and has deathtouch.

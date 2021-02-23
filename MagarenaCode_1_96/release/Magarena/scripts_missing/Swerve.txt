@@ -1,0 +1,10 @@
+name=Swerve
+image=https://magiccards.info/scans/en/ala/200.jpg
+value=4.067
+rarity=U
+type=Instant
+cost={U}{R}
+effect=Change the target of target spell with a single target.
+timing=removal
+oracle=Change the target of target spell with a single target.
+status=not supported: change-target

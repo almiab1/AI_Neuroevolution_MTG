@@ -1,0 +1,10 @@
+name=Impact Resonance
+image=https://magiccards.info/scans/en/c14/36.jpg
+value=2.500
+rarity=R
+type=Instant
+cost={1}{R}
+effect=SN deals X damage divided as you choose among any number of target creatures, where X is the greatest amount of damage dealt by a source to a permanent or player this turn.
+timing=removal
+oracle=Impact Resonance deals X damage divided as you choose among any number of target creatures, where X is the greatest amount of damage dealt by a source to a permanent or player this turn.
+status=not supported: multiple-targets

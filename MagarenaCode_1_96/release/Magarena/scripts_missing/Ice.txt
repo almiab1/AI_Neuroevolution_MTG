@@ -1,0 +1,12 @@
+name=Ice
+image=https://magiccards.info/scans/en/cmd/198b.jpg
+value=4.597
+rarity=U
+type=Instant
+cost={1}{U}
+effect=Tap target permanent.~Draw a card.
+split=Fire
+timing=tapping
+second_half
+oracle=Tap target permanent.\nDraw a card.
+status=not supported: split-card

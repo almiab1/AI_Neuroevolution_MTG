@@ -1,0 +1,13 @@
+name=Root-Kin Ally
+image=https://magiccards.info/scans/en/mm2/158.jpg
+value=2.500
+rarity=U
+type=Creature
+subtype=Elemental,Warrior
+cost={4}{G}{G}
+pt=3/3
+ability=Convoke;\
+        Tap two untapped creatures you control: SN gets +2/+2 until end of turn.
+timing=main
+oracle=Convoke\nTap two untapped creatures you control: Root-Kin Ally gets +2/+2 until end of turn.
+status=not supported: convoke

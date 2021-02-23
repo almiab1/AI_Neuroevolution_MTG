@@ -1,0 +1,12 @@
+name=Lorescale Coatl
+image=https://magiccards.info/scans/en/a25/207.jpg
+image_updated=2018-04-27
+value=4.450
+rarity=U
+type=Creature
+subtype=Snake
+cost={1}{G}{U}
+pt=2/2
+ability=Whenever you draw a card, you may put a +1/+1 counter on SN.
+timing=main
+oracle=Whenever you draw a card, you may put a +1/+1 counter on Lorescale Coatl.

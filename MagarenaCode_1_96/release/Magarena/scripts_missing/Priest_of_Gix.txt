@@ -1,0 +1,13 @@
+name=Priest of Gix
+image=https://magiccards.info/scans/en/us/150.jpg
+image_updated=2017-01-03
+value=4.430
+rarity=U
+type=Creature
+subtype=Human,Cleric,Minion
+cost={2}{B}
+pt=2/1
+ability=When SN enters the battlefield, add {B}{B}{B}.
+timing=main
+oracle=When Priest of Gix enters the battlefield, add {B}{B}{B}.
+status=not supported: non-activated-mana-ability

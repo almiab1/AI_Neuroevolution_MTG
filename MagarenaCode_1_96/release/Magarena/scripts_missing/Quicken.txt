@@ -1,0 +1,10 @@
+name=Quicken
+image=https://magiccards.info/scans/en/gp/31.jpg
+value=4.148
+rarity=R
+type=Instant
+cost={U}
+effect=The next sorcery card you cast this turn can be cast as though it had flash.~Draw a card.
+timing=removal
+oracle=The next sorcery card you cast this turn can be cast as though it had flash.\nDraw a card.
+status=not supported: card-modification

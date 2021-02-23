@@ -1,0 +1,9 @@
+name=Unwinding Clock
+image=https://magiccards.info/scans/en/nph/164.jpg
+value=3.734
+rarity=R
+type=Artifact
+cost={4}
+timing=artifact
+oracle=Untap all artifacts you control during each other player's untap step.
+requires_groovy_code

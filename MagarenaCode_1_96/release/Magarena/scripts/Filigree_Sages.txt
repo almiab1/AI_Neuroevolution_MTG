@@ -1,0 +1,11 @@
+name=Filigree Sages
+image=https://magiccards.info/scans/en/ala/44.jpg
+value=2.991
+rarity=U
+type=Artifact,Creature
+subtype=Vedalken,Wizard
+cost={3}{U}
+pt=2/3
+ability={2}{U}: Untap target artifact.
+timing=main
+oracle={2}{U}: Untap target artifact.

@@ -1,0 +1,11 @@
+name=Errant Doomsayers
+image=https://magiccards.info/scans/en/ts/15.jpg
+value=2.023
+rarity=C
+type=Creature
+subtype=Human,Rebel
+cost={1}{W}
+pt=1/1
+ability={T}: Tap target creature with toughness 2 or less.
+timing=main
+oracle={T}: Tap target creature with toughness 2 or less.

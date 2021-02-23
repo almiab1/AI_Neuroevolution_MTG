@@ -1,0 +1,9 @@
+name=Golem's Heart
+image=https://magiccards.info/scans/en/som/161.jpg
+value=2.673
+rarity=U
+type=Artifact
+cost={2}
+ability=Whenever a player casts an artifact spell, you may gain 1 life.
+timing=artifact
+oracle=Whenever a player casts an artifact spell, you may gain 1 life.

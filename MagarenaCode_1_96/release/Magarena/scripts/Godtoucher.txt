@@ -1,0 +1,11 @@
+name=Godtoucher
+image=https://magiccards.info/scans/en/ala/133.jpg
+value=2.402
+rarity=C
+type=Creature
+subtype=Elf,Cleric
+cost={3}{G}
+pt=2/2
+ability={1}{W}, {T}: Prevent all damage that would be dealt to target creature with power 5 or greater this turn.
+timing=main
+oracle={1}{W}, {T}: Prevent all damage that would be dealt to target creature with power 5 or greater this turn.

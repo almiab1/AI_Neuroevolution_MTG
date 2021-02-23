@@ -1,0 +1,13 @@
+name=Vine Kami
+image=https://magiccards.info/scans/en/chk/249.jpg
+value=2.160
+rarity=C
+type=Creature
+subtype=Spirit
+cost={6}{G}
+pt=4/4
+ability=Menace;\
+        Soulshift 6
+timing=main
+oracle=Menace\nSoulshift 6
+status=not supported: blocking-restriction

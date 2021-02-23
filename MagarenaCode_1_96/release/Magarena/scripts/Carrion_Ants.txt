@@ -1,0 +1,11 @@
+name=Carrion Ants
+image=https://magiccards.info/scans/en/5e/12.jpg
+value=3.152
+rarity=U
+type=Creature
+subtype=Insect
+cost={2}{B}{B}
+pt=0/1
+ability={1}: SN gets +1/+1 until end of turn.
+timing=main
+oracle={1}: Carrion Ants gets +1/+1 until end of turn.

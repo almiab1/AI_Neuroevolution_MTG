@@ -1,0 +1,12 @@
+name=Mischievous Poltergeist
+image=https://magiccards.info/scans/en/6e/144.jpg
+value=2.907
+rarity=U
+type=Creature
+subtype=Spirit
+cost={2}{B}
+pt=1/1
+ability=Flying;\
+        Pay 1 life: Regenerate SN.
+timing=main
+oracle=Flying\nPay 1 life: Regenerate Mischievous Poltergeist.

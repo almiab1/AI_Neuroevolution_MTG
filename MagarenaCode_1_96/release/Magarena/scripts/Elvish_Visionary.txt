@@ -1,0 +1,12 @@
+name=Elvish Visionary
+image=https://magiccards.info/scans/en/ori/175.jpg
+image_updated=2016-02-29
+value=2.500
+rarity=C
+type=Creature
+subtype=Elf,Shaman
+cost={1}{G}
+pt=1/1
+ability=When SN enters the battlefield, draw a card.
+timing=main
+oracle=When Elvish Visionary enters the battlefield, draw a card.

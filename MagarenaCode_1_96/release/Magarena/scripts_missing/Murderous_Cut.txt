@@ -1,0 +1,11 @@
+name=Murderous Cut
+image=https://magiccards.info/scans/en/ktk/81.jpg
+value=3.900
+rarity=U
+type=Instant
+cost={4}{B}
+ability=Delve
+effect=Destroy target creature.
+timing=removal
+oracle=Delve\nDestroy target creature.
+status=not supported: delve

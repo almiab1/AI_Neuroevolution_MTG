@@ -1,0 +1,13 @@
+name=Mad Prophet
+image=https://magiccards.info/scans/en/soi/171.jpg
+image_updated=2010-09-10
+value=3.094
+rarity=U
+type=Creature
+subtype=Human,Shaman
+cost={3}{R}
+pt=2/2
+ability=Haste;\
+        {T}, Discard a card: Draw a card.
+timing=fmain
+oracle=Haste\n{T}, Discard a card: Draw a card.

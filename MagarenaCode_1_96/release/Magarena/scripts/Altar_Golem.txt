@@ -1,0 +1,14 @@
+name=Altar Golem
+image=https://magiccards.info/scans/en/eve/166.jpg
+value=2.694
+rarity=R
+type=Artifact,Creature
+subtype=Golem
+cost={7}
+pt=*/*
+ability=Trample;\
+        SN's power and toughness are each equal to the number of creatures on the battlefield.;\
+        SN doesn't untap during your untap step.;\
+        Tap five untapped creatures you control: Untap SN.
+timing=main
+oracle=Trample\nAltar Golem's power and toughness are each equal to the number of creatures on the battlefield.\nAltar Golem doesn't untap during your untap step.\nTap five untapped creatures you control: Untap Altar Golem.

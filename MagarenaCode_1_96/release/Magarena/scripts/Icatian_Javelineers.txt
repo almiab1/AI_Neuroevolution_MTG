@@ -1,0 +1,13 @@
+name=Icatian Javelineers
+image=https://magiccards.info/scans/en/tsts/10.jpg
+image_updated=2016-12-13
+value=4.326
+rarity=C
+type=Creature
+subtype=Human,Soldier
+cost={W}
+pt=1/1
+ability=SN enters the battlefield with a javelin counter on it.;\
+        {T}, Remove a javelin counter from SN: SN deals 1 damage to target creature or player.
+timing=main
+oracle=Icatian Javelineers enters the battlefield with a javelin counter on it.\n{T}, Remove a javelin counter from Icatian Javelineers: Icatian Javelineers deals 1 damage to target creature or player.

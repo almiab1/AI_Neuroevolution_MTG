@@ -1,0 +1,10 @@
+name=Horn of Ramos
+image=https://magiccards.info/scans/en/mm/299.jpg
+value=3.393
+rarity=R
+type=Artifact
+cost={3}
+ability={T}: Add {G}.;\
+        Sacrifice SN: Add {G}.
+timing=artifact
+oracle={T}: Add {G}.\nSacrifice Horn of Ramos: Add {G}.

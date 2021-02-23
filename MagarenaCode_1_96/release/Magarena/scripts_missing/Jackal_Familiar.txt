@@ -1,0 +1,12 @@
+name=Jackal Familiar
+image=https://magiccards.info/scans/en/m10/143.jpg
+value=3.512
+rarity=C
+type=Creature
+subtype=Jackal
+cost={R}
+pt=2/2
+ability=SN can't attack or block alone.
+timing=main
+oracle=Jackal Familiar can't attack or block alone.
+status=not supported: blocking-restriction

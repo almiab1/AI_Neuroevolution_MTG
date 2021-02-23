@@ -1,0 +1,10 @@
+name=Divine Verdict
+image=https://magiccards.info/scans/en/rix/5.jpg
+image_updated=2018-03-12
+value=2.400
+rarity=C
+type=Instant
+cost={3}{W}
+effect=Destroy target attacking or blocking creature.
+timing=removal
+oracle=Destroy target attacking or blocking creature.

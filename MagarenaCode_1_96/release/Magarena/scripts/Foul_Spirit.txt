@@ -1,0 +1,12 @@
+name=Foul Spirit
+image=https://magiccards.info/scans/en/po2/13.jpg
+value=2.225
+rarity=U
+type=Creature
+subtype=Spirit
+cost={2}{B}
+pt=3/2
+ability=Flying;\
+        When SN enters the battlefield, sacrifice a land.
+timing=main
+oracle=Flying\nWhen Foul Spirit enters the battlefield, sacrifice a land.

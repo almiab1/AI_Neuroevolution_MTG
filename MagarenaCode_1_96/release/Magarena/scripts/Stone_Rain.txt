@@ -1,0 +1,10 @@
+name=Stone Rain
+image=https://magiccards.info/scans/en/9e/221.jpg
+value=4.060
+removal=3
+rarity=C
+type=Sorcery
+cost={2}{R}
+effect=Destroy target land.
+timing=removal
+oracle=Destroy target land.

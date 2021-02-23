@@ -1,0 +1,13 @@
+name=Terminus
+image=https://magiccards.info/scans/en/mm3/26.jpg
+image_updated=2017-08-08
+value=4.055
+removal=2
+rarity=R
+type=Sorcery
+cost={4}{W}{W}
+ability=Cast SN with AI only if an opponent controls a creature.;\
+        Miracle {W}
+timing=removal
+oracle=Put all creatures on the bottom of their owners' libraries.\nMiracle {W}
+requires_groovy_code

@@ -1,0 +1,13 @@
+name=Mystic Snake
+image=https://magiccards.info/scans/en/a25/208.jpg
+image_updated=2018-04-27
+value=4.375
+rarity=R
+type=Creature
+subtype=Snake
+cost={1}{G}{U}{U}
+pt=2/2
+ability=Flash;\
+        When SN enters the battlefield, counter target spell.
+timing=counterflash
+oracle=Flash\nWhen Mystic Snake enters the battlefield, counter target spell.

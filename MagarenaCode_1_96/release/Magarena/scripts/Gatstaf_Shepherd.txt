@@ -1,0 +1,12 @@
+name=Gatstaf Shepherd
+image=https://magiccards.info/scans/en/isd/182a.jpg
+value=3.545
+rarity=U
+type=Creature
+subtype=Human,Werewolf
+cost={1}{G}
+pt=2/2
+ability=At the beginning of each upkeep, if no spells were cast last turn, transform SN.
+transform=Gatstaf Howler
+timing=main
+oracle=At the beginning of each upkeep, if no spells were cast last turn, transform Gatstaf Shepherd.

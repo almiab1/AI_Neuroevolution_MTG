@@ -1,0 +1,12 @@
+name=Orochi Eggwatcher
+image=https://magiccards.info/scans/en/chk/233a.jpg
+value=3.235
+rarity=U
+type=Creature
+subtype=Snake,Shaman
+cost={2}{G}
+pt=1/1
+ability={2}{G}, {T}: Create a 1/1 green Snake creature token.~If you control ten or more creatures, flip SN.
+flip=Shidako, Broodmistress
+timing=main
+oracle={2}{G}, {T}: Create a 1/1 green Snake creature token. If you control ten or more creatures, flip Orochi Eggwatcher.

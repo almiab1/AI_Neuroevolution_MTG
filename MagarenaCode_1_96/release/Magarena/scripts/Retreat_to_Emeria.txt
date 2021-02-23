@@ -1,0 +1,12 @@
+name=Retreat to Emeria
+image=https://magiccards.info/scans/en/bfz/44.jpg
+image_updated=2015-11-08
+value=2.500
+rarity=U
+type=Enchantment
+cost={3}{W}
+ability=Whenever a land enters the battlefield under your control, choose one — \
+        (1) Create a 1/1 white Kor Ally creature token. \
+        (2) Creatures you control get +1/+1 until end of turn.
+timing=enchantment
+oracle=Landfall — Whenever a land enters the battlefield under your control, choose one —\n• Create a 1/1 white Kor Ally creature token.\n• Creatures you control get +1/+1 until end of turn.

@@ -1,0 +1,10 @@
+name=Ashnod's Altar
+image=https://magiccards.info/scans/en/ema/218.jpg
+value=4.430
+rarity=U
+type=Artifact
+cost={3}
+ability=Sacrifice a creature: Add {C}{C}.
+timing=artifact
+oracle=Sacrifice a creature: Add {C}{C}.
+status=not supported: add-multiple-mana

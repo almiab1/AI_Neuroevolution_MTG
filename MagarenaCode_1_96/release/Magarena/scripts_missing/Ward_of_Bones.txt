@@ -1,0 +1,10 @@
+name=Ward of Bones
+image=https://magiccards.info/scans/en/eve/174.jpg
+value=3.575
+rarity=R
+type=Artifact
+cost={6}
+ability=Each opponent who controls more creatures than you can't play creature cards. The same is true for artifacts, enchantments, and lands.
+timing=artifact
+oracle=Each opponent who controls more creatures than you can't play creature cards. The same is true for artifacts, enchantments, and lands.
+status=not supported: players-cant

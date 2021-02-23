@@ -1,0 +1,9 @@
+name=Library of Alexandria
+image=https://magiccards.info/scans/en/an/90.jpg
+value=4.500
+rarity=U
+type=Land
+ability={T}: Add {C}.;\
+        {T}: Draw a card. Activate this ability only if you have exactly seven cards in hand.
+timing=land
+oracle={T}: Add {C}.\n{T}: Draw a card. Activate this ability only if you have exactly seven cards in hand.

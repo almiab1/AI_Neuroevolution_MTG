@@ -1,0 +1,11 @@
+name=Tainted Wood
+image=https://magiccards.info/scans/en/tr/143.jpg
+image_updated=2016-02-29
+value=3.950
+rarity=U
+type=Land
+mana=b3g3
+ability={T}: Add {C}.;\
+        {T}: Add {B} or {G}. Activate this ability only if you control a Swamp.
+timing=land
+oracle={T}: Add {C}.\n{T}: Add {B} or {G}. Activate this ability only if you control a Swamp.

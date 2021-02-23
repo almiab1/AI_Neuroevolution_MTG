@@ -1,0 +1,12 @@
+name=Mausoleum Guard
+image=https://magiccards.info/scans/en/isd/20.jpg
+image_updated=2016-12-23
+value=3.333
+rarity=U
+type=Creature
+subtype=Human,Scout
+cost={3}{W}
+pt=2/2
+ability=When SN dies, create two 1/1 white Spirit creature tokens with flying.
+timing=main
+oracle=When Mausoleum Guard dies, create two 1/1 white Spirit creature tokens with flying.

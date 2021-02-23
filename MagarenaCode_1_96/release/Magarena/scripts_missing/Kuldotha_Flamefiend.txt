@@ -1,0 +1,12 @@
+name=Kuldotha Flamefiend
+image=https://magiccards.info/scans/en/mbs/69.jpg
+value=2.992
+rarity=U
+type=Creature
+subtype=Elemental
+cost={4}{R}{R}
+pt=4/4
+ability=When SN enters the battlefield, you may sacrifice an artifact. If you do, SN deals 4 damage divided as you choose among any number of target creatures and/or players.
+timing=main
+oracle=When Kuldotha Flamefiend enters the battlefield, you may sacrifice an artifact. If you do, Kuldotha Flamefiend deals 4 damage divided as you choose among any number of target creatures and/or players.
+status=not supported: multiple-targets

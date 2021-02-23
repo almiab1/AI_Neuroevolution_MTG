@@ -1,0 +1,12 @@
+name=Withered Wretch
+image=https://magiccards.info/scans/en/le/86.jpg
+image_updated=2017-01-11
+value=4.342
+rarity=U
+type=Creature
+subtype=Zombie,Cleric
+cost={B}{B}
+pt=2/2
+ability={1}: Exile target card from a graveyard.
+timing=main
+oracle={1}: Exile target card from a graveyard.

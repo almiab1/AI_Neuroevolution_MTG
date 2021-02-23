@@ -1,0 +1,9 @@
+name=Revoke Existence
+image=https://magiccards.info/scans/en/som/18.jpg
+value=4.354
+rarity=C
+type=Sorcery
+cost={1}{W}
+effect=Exile target artifact or enchantment.
+timing=removal
+oracle=Exile target artifact or enchantment.

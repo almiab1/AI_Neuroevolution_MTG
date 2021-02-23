@@ -1,0 +1,13 @@
+name=Gallows Warden
+image=https://magiccards.info/scans/en/isd/16.jpg
+value=2.852
+rarity=U
+type=Creature
+subtype=Spirit
+cost={4}{W}
+pt=3/3
+ability=Flying;\
+        Other Spirit creatures you control get +0/+1.
+static=player
+timing=main
+oracle=Flying\nOther Spirit creatures you control get +0/+1.

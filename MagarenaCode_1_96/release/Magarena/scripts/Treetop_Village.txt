@@ -1,0 +1,12 @@
+name=Treetop Village
+image=https://magiccards.info/scans/en/10e/361.jpg
+value=4.179
+rarity=U
+type=Land
+mana=g3
+ability=SN enters the battlefield tapped.;\
+        {T}: Add {G}.;\
+        {1}{G}: SN becomes a 3/3 green Ape creature with trample until end of turn. It's still a land.
+mana_or_combat
+timing=land
+oracle=Treetop Village enters the battlefield tapped.\n{T}: Add {G}.\n{1}{G}: Treetop Village becomes a 3/3 green Ape creature with trample until end of turn. It's still a land.

@@ -1,0 +1,11 @@
+name=Phyrexian Monitor
+image=https://magiccards.info/scans/en/ud/64.jpg
+value=2.929
+rarity=C
+type=Creature
+subtype=Skeleton
+cost={3}{B}
+pt=2/2
+ability={B}: Regenerate SN.
+timing=main
+oracle={B}: Regenerate Phyrexian Monitor.

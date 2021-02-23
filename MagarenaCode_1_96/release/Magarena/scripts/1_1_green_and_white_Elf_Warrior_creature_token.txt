@@ -1,0 +1,9 @@
+name=1/1 green and white Elf Warrior creature token
+token=Elf Warrior
+image=https://img.scryfall.com/cards/border_crop/en/tshm/12.jpg?1517813031
+value=2
+type=Creature
+subtype=Elf,Warrior
+color=gw
+pt=1/1
+oracle=NONE

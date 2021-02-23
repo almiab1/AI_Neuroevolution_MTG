@@ -1,0 +1,8 @@
+name=6/6 green Wurm creature token
+token=Wurm
+image=https://img.scryfall.com/cards/border_crop/en/tdds/7.jpg?1517813031
+value=4
+type=Creature
+subtype=Wurm
+color=g
+pt=6/6

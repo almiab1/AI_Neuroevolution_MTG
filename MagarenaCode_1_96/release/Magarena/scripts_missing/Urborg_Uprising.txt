@@ -1,0 +1,10 @@
+name=Urborg Uprising
+image=https://magiccards.info/scans/en/ema/111.jpg
+value=2.500
+rarity=C
+type=Sorcery
+cost={4}{B}
+effect=Return up to two target creature cards from your graveyard to your hand.~Draw a card.
+timing=main
+oracle=Return up to two target creature cards from your graveyard to your hand.\nDraw a card.
+status=not supported: multiple-targets

@@ -1,0 +1,12 @@
+name=Winged Sliver
+image=https://magiccards.info/scans/en/tp/106.jpg
+value=4.410
+rarity=C
+type=Creature
+subtype=Sliver
+cost={1}{U}
+pt=1/1
+ability=All Sliver creatures have flying.
+static=all
+timing=main
+oracle=All Sliver creatures have flying.

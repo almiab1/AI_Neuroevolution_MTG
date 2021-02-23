@@ -1,0 +1,12 @@
+name=Algae Gharial
+image=https://magiccards.info/scans/en/mm2/137.jpg
+value=3.019
+rarity=U
+type=Creature
+subtype=Crocodile
+cost={3}{G}
+pt=1/1
+ability=Shroud;\
+        Whenever another creature dies, you may put a +1/+1 counter on SN.
+timing=main
+oracle=Shroud\nWhenever another creature dies, you may put a +1/+1 counter on Algae Gharial.

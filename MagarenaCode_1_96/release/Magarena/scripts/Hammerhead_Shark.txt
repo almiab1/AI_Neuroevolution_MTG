@@ -1,0 +1,11 @@
+name=Hammerhead Shark
+image=https://magiccards.info/scans/en/sh/32.jpg
+value=3.245
+rarity=C
+type=Creature
+subtype=Fish
+cost={1}{U}
+pt=2/3
+ability=SN can't attack unless defending player controls an Island.
+timing=main
+oracle=Hammerhead Shark can't attack unless defending player controls an Island.

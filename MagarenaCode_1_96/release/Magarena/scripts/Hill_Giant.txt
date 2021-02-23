@@ -1,0 +1,11 @@
+name=Hill Giant
+image=https://magiccards.info/scans/en/10e/212.jpg
+image_updated=2016-12-10
+value=1.988
+rarity=C
+type=Creature
+subtype=Giant
+cost={3}{R}
+pt=3/3
+timing=main
+oracle=NONE

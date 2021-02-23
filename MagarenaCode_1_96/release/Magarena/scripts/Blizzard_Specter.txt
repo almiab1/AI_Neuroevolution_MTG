@@ -1,0 +1,13 @@
+name=Blizzard Specter
+image=https://magiccards.info/scans/en/ima/194.jpg
+image_updated=2017-04-12
+value=4.172
+rarity=U
+type=Snow,Creature
+subtype=Specter
+cost={2}{U}{B}
+pt=2/3
+ability=Flying
+timing=main
+requires_groovy_code
+oracle=Flying\nWhenever Blizzard Specter deals combat damage to a player, choose one —\n• That player returns a permanent he or she controls to its owner's hand.\n• That player discards a card.

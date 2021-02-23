@@ -1,0 +1,12 @@
+name=Runeflare Trap
+image=https://magiccards.info/scans/en/zen/146.jpg
+value=3.417
+rarity=U
+type=Instant
+subtype=Trap
+cost={4}{R}{R}
+ability=If an opponent drew three or more cards this turn, you may pay {R} rather than pay this spell's mana cost.
+effect=SN deals damage to target player equal to the number of cards in that player's hand.
+timing=removal
+oracle=If an opponent drew three or more cards this turn, you may pay {R} rather than pay this spell's mana cost.\nRuneflare Trap deals damage to target player equal to the number of cards in that player's hand.
+status=not supported: no-info

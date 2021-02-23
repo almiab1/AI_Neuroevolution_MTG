@@ -1,0 +1,11 @@
+name=Skyshroud Troopers
+image=https://magiccards.info/scans/en/sh/65.jpg
+value=2.338
+rarity=C
+type=Creature
+subtype=Elf,Druid,Warrior
+cost={3}{G}
+pt=3/3
+ability={T}: Add {G}.
+timing=main
+oracle={T}: Add {G}.

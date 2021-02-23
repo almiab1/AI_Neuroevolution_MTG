@@ -1,0 +1,11 @@
+name=Scab-Clan Charger
+image=https://magiccards.info/scans/en/gtc/131.jpg
+value=2.737
+rarity=C
+type=Creature
+subtype=Centaur,Warrior
+cost={3}{G}
+pt=2/4
+ability={1}{G}, Discard SN: Target attacking creature gets +2/+4 until end of turn.
+timing=main
+oracle=Bloodrush — {1}{G}, Discard Scab-Clan Charger: Target attacking creature gets +2/+4 until end of turn.

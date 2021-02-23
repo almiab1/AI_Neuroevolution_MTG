@@ -1,0 +1,10 @@
+name=Eyeblight's Ending
+image=https://magiccards.info/scans/en/ema/88.jpg
+value=4.031
+rarity=C
+type=Tribal,Instant
+subtype=Elf
+cost={2}{B}
+effect=Destroy target non-Elf creature.
+timing=removal
+oracle=Destroy target non-Elf creature.

@@ -1,0 +1,12 @@
+name=Pikemen
+image=https://magiccards.info/scans/en/5e/328.jpg
+value=2.972
+rarity=C
+type=Creature
+subtype=Human,Soldier
+cost={1}{W}
+pt=1/1
+ability=First strike; banding
+timing=main
+oracle=First strike, banding
+status=not supported: banding

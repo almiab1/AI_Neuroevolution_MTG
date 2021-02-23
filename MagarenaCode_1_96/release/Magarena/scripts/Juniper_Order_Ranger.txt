@@ -1,0 +1,12 @@
+name=Juniper Order Ranger
+image=https://magiccards.info/scans/en/c16/207.jpg
+image_updated=2017-08-17
+value=4.057
+rarity=U
+type=Creature
+subtype=Human,Knight
+cost={3}{G}{W}
+pt=2/4
+ability=Whenever another creature enters the battlefield under your control, put a +1/+1 counter on that creature.~Put a +1/+1 counter on SN.
+timing=fmain
+oracle=Whenever another creature enters the battlefield under your control, put a +1/+1 counter on that creature and a +1/+1 counter on Juniper Order Ranger.

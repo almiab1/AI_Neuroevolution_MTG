@@ -1,0 +1,10 @@
+name=1/1 white and black Cleric creature token
+token=Cleric
+image=https://magiccards.info/extras/token/gatecrash/cleric.jpg
+value=3
+type=Creature
+subtype=Cleric
+color=wb
+pt=1/1
+requires_groovy_code
+oracle={3}{W}{B}{B}, {T}, Sacrifice this creature: Return a card named Deathpact Angel from your graveyard to the battlefield.

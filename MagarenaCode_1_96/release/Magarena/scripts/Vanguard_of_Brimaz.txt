@@ -1,0 +1,12 @@
+name=Vanguard of Brimaz
+image=https://magiccards.info/scans/en/bng/29.jpg
+value=3.764
+rarity=U
+type=Creature
+subtype=Cat,Soldier
+cost={W}{W}
+pt=2/2
+ability=Vigilance;\
+        Whenever you cast a spell that targets SN, create a 1/1 white Cat Soldier creature token with vigilance.
+timing=main
+oracle=Vigilance\nHeroic — Whenever you cast a spell that targets Vanguard of Brimaz, create a 1/1 white Cat Soldier creature token with vigilance.

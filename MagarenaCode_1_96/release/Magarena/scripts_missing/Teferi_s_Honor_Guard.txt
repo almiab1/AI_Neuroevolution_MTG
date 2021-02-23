@@ -1,0 +1,13 @@
+name=Teferi's Honor Guard
+image=https://magiccards.info/scans/en/vi/122.jpg
+value=3.406
+rarity=U
+type=Creature
+subtype=Human,Knight
+cost={2}{W}
+pt=2/2
+ability=Flanking;\
+        {U}{U}: SN phases out.
+timing=main
+oracle=Flanking\n{U}{U}: Teferi's Honor Guard phases out.
+status=not supported: phasing

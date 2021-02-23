@@ -1,0 +1,12 @@
+name=Clinging Anemones
+image=https://magiccards.info/scans/en/gtc/31.jpg
+value=2.233
+rarity=C
+type=Creature
+subtype=Jellyfish
+cost={3}{U}
+pt=1/4
+ability=Defender;\
+        Evolve
+timing=smain
+oracle=Defender\nEvolve

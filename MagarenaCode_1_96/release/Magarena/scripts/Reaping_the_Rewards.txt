@@ -1,0 +1,10 @@
+name=Reaping the Rewards
+image=https://magiccards.info/scans/en/ex/16.jpg
+value=2.143
+rarity=C
+type=Instant
+cost={W}
+ability=Buyback—Sacrifice a land.
+effect=You gain 2 life.
+timing=removal
+oracle=Buyback—Sacrifice a land.\nYou gain 2 life.

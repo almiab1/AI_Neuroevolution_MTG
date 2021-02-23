@@ -1,0 +1,7 @@
+name=green Elemental creature token
+token=Elemental
+image=https://img.scryfall.com/cards/border_crop/en/tc18/16.jpg?1535501482
+value=1
+type=Creature
+subtype=Elemental
+color=g

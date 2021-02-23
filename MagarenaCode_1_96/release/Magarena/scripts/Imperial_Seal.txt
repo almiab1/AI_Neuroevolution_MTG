@@ -1,0 +1,9 @@
+name=Imperial Seal
+image=https://magiccards.info/scans/en/p3k/78.jpg
+value=4.646
+rarity=R
+type=Sorcery
+cost={B}
+effect=Search your library for a card, then shuffle your library and put that card on top of it.~You lose 2 life.
+timing=main
+oracle=Search your library for a card, then shuffle your library and put that card on top of it. You lose 2 life.

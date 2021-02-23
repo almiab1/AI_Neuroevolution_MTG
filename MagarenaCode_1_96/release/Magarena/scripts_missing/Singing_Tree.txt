@@ -1,0 +1,12 @@
+name=Singing Tree
+image=https://magiccards.info/scans/en/an/39.jpg
+value=4.036
+rarity=R
+type=Creature
+subtype=Plant
+cost={3}{G}
+pt=0/3
+ability={T}: Target attacking creature has base power 0 until end of turn.
+timing=main
+oracle={T}: Target attacking creature has base power 0 until end of turn.
+status=needs groovy

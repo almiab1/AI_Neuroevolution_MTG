@@ -1,0 +1,11 @@
+name=Terra Ravager
+image=https://magiccards.info/scans/en/c13/126.jpg
+value=3.312
+rarity=U
+type=Creature
+subtype=Elemental,Beast
+cost={2}{R}{R}
+pt=0/4
+ability=Whenever SN attacks, SN gets +X/+0 until end of turn, where X is the number of lands defending player controls.
+timing=main
+oracle=Whenever Terra Ravager attacks, it gets +X/+0 until end of turn, where X is the number of lands defending player controls.

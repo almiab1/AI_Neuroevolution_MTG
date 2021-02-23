@@ -1,0 +1,10 @@
+name=Gild
+image=https://magiccards.info/scans/en/c15/127.jpg
+image_updated=2016-02-29
+value=3.836
+rarity=R
+type=Sorcery
+cost={3}{B}
+effect=Exile target creature.~Create a colorless artifact token named Gold.
+timing=main
+oracle=Exile target creature. Create a colorless artifact token named Gold. It has "Sacrifice this artifact: Add one mana of any color."

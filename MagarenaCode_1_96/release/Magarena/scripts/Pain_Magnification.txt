@@ -1,0 +1,9 @@
+name=Pain Magnification
+image=https://magiccards.info/scans/en/di/121.jpg
+value=3.529
+rarity=U
+type=Enchantment
+cost={1}{B}{R}
+timing=enchantment
+oracle=Whenever an opponent is dealt 3 or more damage by a single source, that player discards a card.
+requires_groovy_code

@@ -1,0 +1,13 @@
+name=Avizoa
+image=https://magiccards.info/scans/en/wl/35.jpg
+value=2.011
+rarity=R
+type=Creature
+subtype=Jellyfish
+cost={3}{U}
+pt=2/2
+ability=Flying;\
+        {0}: SN gets +2/+2 until end of turn. You skip your next untap step. Activate this ability only once each turn.
+timing=main
+oracle=Flying\n{0}: Avizoa gets +2/+2 until end of turn. You skip your next untap step. Activate this ability only once each turn.
+status=not supported: skip-action

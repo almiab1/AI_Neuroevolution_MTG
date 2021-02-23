@@ -1,0 +1,10 @@
+name=Statecraft
+image=https://magiccards.info/scans/en/mm/106.jpg
+value=3.710
+rarity=R
+type=Enchantment
+cost={3}{U}
+ability=Prevent all combat damage that would be dealt to and dealt by creatures you control.
+timing=enchantment
+oracle=Prevent all combat damage that would be dealt to and dealt by creatures you control.
+status=needs groovy

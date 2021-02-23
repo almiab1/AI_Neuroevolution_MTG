@@ -1,0 +1,10 @@
+name=Part Water
+image=https://magiccards.info/scans/en/lg/66.jpg
+value=1.606
+rarity=U
+type=Sorcery
+cost={X}{X}{U}
+effect=X target creatures gain islandwalk until end of turn.
+timing=main
+oracle=X target creatures gain islandwalk until end of turn.
+status=not supported: multiple-targets

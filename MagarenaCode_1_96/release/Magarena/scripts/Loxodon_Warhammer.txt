@@ -1,0 +1,12 @@
+name=Loxodon Warhammer
+image=https://magiccards.info/scans/en/c16/261.jpg
+image_updated=2017-08-17
+value=4.203
+rarity=U
+type=Artifact
+subtype=Equipment
+cost={3}
+ability=Equipped creature gets +3/+0 and has trample and lifelink.;\
+        Equip {3}
+timing=equipment
+oracle=Equipped creature gets +3/+0 and has trample and lifelink.\nEquip {3}

@@ -1,0 +1,11 @@
+name=Spotted Griffin
+image=https://magiccards.info/scans/en/po/190.jpg
+value=2.600
+rarity=C
+type=Creature
+subtype=Griffin
+cost={3}{W}
+pt=2/3
+ability=Flying
+timing=main
+oracle=Flying

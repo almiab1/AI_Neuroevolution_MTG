@@ -1,0 +1,12 @@
+name=Thunderous Wrath
+image=https://magiccards.info/scans/en/mm3/113.jpg
+image_updated=2017-08-08
+value=3.899
+rarity=C
+type=Instant
+cost={4}{R}{R}
+ability=Miracle {R}
+effect=SN deals 5 damage to target creature or player.
+removal=5
+timing=removal
+oracle=Thunderous Wrath deals 5 damage to target creature or player.\nMiracle {R}

@@ -1,0 +1,11 @@
+name=Fetid Horror
+image=https://magiccards.info/scans/en/mr/21.jpg
+value=3.058
+rarity=C
+type=Creature
+subtype=Shade,Horror
+cost={3}{B}
+pt=1/2
+ability={B}: SN gets +1/+1 until end of turn.
+timing=main
+oracle={B}: Fetid Horror gets +1/+1 until end of turn.

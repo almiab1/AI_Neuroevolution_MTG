@@ -1,0 +1,11 @@
+name=Deathcoil Wurm
+image=https://magiccards.info/scans/en/po2/65.jpg
+value=3.208
+rarity=R
+type=Creature
+subtype=Wurm
+cost={6}{G}{G}
+pt=7/6
+timing=main
+requires_groovy_code=Rhox
+oracle=You may have Deathcoil Wurm assign its combat damage as though it weren't blocked.

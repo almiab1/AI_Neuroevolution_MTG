@@ -1,0 +1,13 @@
+name=Akki Lavarunner
+image=https://magiccards.info/scans/en/chk/153a.jpg
+value=2.963
+rarity=R
+type=Creature
+subtype=Goblin,Warrior
+cost={3}{R}
+pt=1/1
+ability=Haste;\
+        Whenever SN deals damage to an opponent, flip SN.
+flip=Tok-Tok, Volcano Born
+timing=main
+oracle=Haste\nWhenever Akki Lavarunner deals damage to an opponent, flip it.

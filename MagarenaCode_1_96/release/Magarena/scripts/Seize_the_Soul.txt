@@ -1,0 +1,11 @@
+name=Seize the Soul
+image=https://magiccards.info/scans/en/gp/61.jpg
+value=3.661
+rarity=R
+type=Instant
+cost={2}{B}{B}
+ability=Haunt;\
+        When the creature SN haunts dies, destroy target nonwhite, nonblack creature.~Create a 1/1 white Spirit creature token with flying.
+effect=Destroy target nonwhite, nonblack creature.~Create a 1/1 white Spirit creature token with flying.
+timing=removal
+oracle=Destroy target nonwhite, nonblack creature. Create a 1/1 white Spirit creature token with flying.\nHaunt\nWhen the creature Seize the Soul haunts dies, destroy target nonwhite, nonblack creature. Create a 1/1 white Spirit creature token with flying.

@@ -1,0 +1,12 @@
+name=Dauthi Cutthroat
+image=https://magiccards.info/scans/en/ex/57.jpg
+value=3.371
+rarity=U
+type=Creature
+subtype=Dauthi,Minion
+cost={1}{B}
+pt=1/1
+ability=Shadow;\
+        {1}{B}, {T}: Destroy target creature with shadow.
+timing=main
+oracle=Shadow\n{1}{B}, {T}: Destroy target creature with shadow.

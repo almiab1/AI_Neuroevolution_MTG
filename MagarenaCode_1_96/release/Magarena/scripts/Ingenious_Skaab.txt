@@ -1,0 +1,13 @@
+name=Ingenious Skaab
+image=https://magiccards.info/scans/en/emn/66.jpg
+image_updated=2016-09-05
+value=2.500
+rarity=C
+type=Creature
+subtype=Zombie,Horror
+cost={2}{U}
+pt=2/3
+ability=Prowess;\
+        {U}: SN gets +1/-1 until end of turn.
+timing=main
+oracle=Prowess\n{U}: Ingenious Skaab gets +1/-1 until end of turn.

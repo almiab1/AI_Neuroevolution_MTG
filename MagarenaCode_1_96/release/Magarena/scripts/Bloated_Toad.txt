@@ -1,0 +1,12 @@
+name=Bloated Toad
+image=https://magiccards.info/scans/en/ul/97.jpg
+value=3.111
+rarity=U
+type=Creature
+subtype=Frog
+cost={2}{G}
+pt=2/2
+ability=Protection from blue;\
+        Cycling {2}
+timing=main
+oracle=Protection from blue\nCycling {2}

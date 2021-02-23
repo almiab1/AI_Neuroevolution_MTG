@@ -1,0 +1,11 @@
+name=Ethereal Champion
+image=https://magiccards.info/scans/en/6e/20.jpg
+value=2.095
+rarity=R
+type=Creature
+subtype=Avatar
+cost={2}{W}{W}{W}
+pt=3/4
+ability=Pay 1 life: Prevent the next 1 damage that would be dealt to SN this turn.
+timing=main
+oracle=Pay 1 life: Prevent the next 1 damage that would be dealt to Ethereal Champion this turn.

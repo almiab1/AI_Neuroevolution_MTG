@@ -1,0 +1,10 @@
+name=Subversion
+image=https://magiccards.info/scans/en/ul/68.jpg
+image_updated=2016-01-09
+value=4.045
+rarity=R
+type=Enchantment
+cost={3}{B}{B}
+ability=At the beginning of your upkeep, each opponent loses 1 life. You gain life equal to the life lost this way.
+timing=enchantment
+oracle=At the beginning of your upkeep, each opponent loses 1 life. You gain life equal to the life lost this way.

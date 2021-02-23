@@ -1,0 +1,15 @@
+name=Plaxmanta
+image=https://magiccards.info/scans/en/di/29.jpg
+image_updated=2016-02-29
+value=4.108
+rarity=U
+type=Creature
+subtype=Beast
+cost={1}{U}
+pt=2/2
+ability=Flash;\
+        When SN enters the battlefield, creatures you control gain shroud until end of turn.;\
+        When SN enters the battlefield, sacrifice it unless {G} was spent to cast it.
+timing=flash
+oracle=Flash\nWhen Plaxmanta enters the battlefield, creatures you control gain shroud until end of turn.\nWhen Plaxmanta enters the battlefield, sacrifice it unless {G} was spent to cast it.
+status=not supported: mana-spent

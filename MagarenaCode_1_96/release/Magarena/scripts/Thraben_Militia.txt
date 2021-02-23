@@ -1,0 +1,13 @@
+name=Thraben Militia
+image=https://magiccards.info/scans/en/isd/38b.jpg
+value=3.269
+rarity=C
+type=Creature
+subtype=Human,Soldier
+color=w
+pt=5/4
+ability=Trample
+transform=Thraben Sentry
+timing=main
+hidden
+oracle=Trample

@@ -1,0 +1,11 @@
+name=Essence of the Wild
+image=https://magiccards.info/scans/en/isd/178.jpg
+value=3.807
+rarity=M
+type=Creature
+subtype=Avatar
+cost={3}{G}{G}{G}
+pt=6/6
+ability=Creatures you control enter the battlefield as a copy of SN.
+timing=main
+oracle=Creatures you control enter the battlefield as a copy of Essence of the Wild.

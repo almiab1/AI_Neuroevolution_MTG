@@ -1,0 +1,9 @@
+name=Bloodcurdling Scream
+image=https://magiccards.info/scans/en/po2/3.jpg
+value=3.079
+rarity=U
+type=Sorcery
+cost={X}{B}
+effect=Target creature gets +X/+0 until end of turn.
+timing=main
+oracle=Target creature gets +X/+0 until end of turn.

@@ -1,0 +1,13 @@
+name=Falkenrath Noble
+image=https://magiccards.info/scans/en/mm3/70.jpg
+image_updated=2017-08-08
+value=3.818
+rarity=C
+type=Creature
+subtype=Vampire
+cost={3}{B}
+pt=2/2
+ability=Flying;\
+        Whenever SN or another creature dies, target player loses 1 life and you gain 1 life.
+timing=fmain
+oracle=Flying\nWhenever Falkenrath Noble or another creature dies, target player loses 1 life and you gain 1 life.

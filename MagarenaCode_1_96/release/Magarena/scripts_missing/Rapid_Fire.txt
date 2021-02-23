@@ -1,0 +1,11 @@
+name=Rapid Fire
+image=https://magiccards.info/scans/en/lg/201.jpg
+value=2.297
+rarity=R
+type=Instant
+cost={3}{W}
+ability=Cast this spell only before blockers are declared.
+effect=Target creature gains first strike until end of turn. If it doesn't have rampage, that creature gains rampage 2 until end of turn.
+timing=removal
+oracle=Cast this spell only before blockers are declared.\nTarget creature gains first strike until end of turn. If it doesn't have rampage, that creature gains rampage 2 until end of turn.
+status=needs groovy

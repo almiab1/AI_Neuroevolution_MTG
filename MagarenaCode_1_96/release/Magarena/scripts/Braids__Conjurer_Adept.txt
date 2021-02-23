@@ -1,0 +1,11 @@
+name=Braids, Conjurer Adept
+image=https://magiccards.info/scans/en/pc/36.jpg
+value=4.093
+rarity=R
+type=Legendary,Creature
+subtype=Human,Wizard
+cost={2}{U}{U}
+pt=2/2
+timing=main
+requires_groovy_code
+oracle=At the beginning of each player's upkeep, that player may put an artifact, creature, or land card from his or her hand onto the battlefield.

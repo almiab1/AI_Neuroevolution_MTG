@@ -1,0 +1,9 @@
+name=Captive Flame
+image=https://magiccards.info/scans/en/sok/96.jpg
+value=3.590
+rarity=U
+type=Enchantment
+cost={2}{R}
+ability={R}: Target creature gets +1/+0 until end of turn.
+timing=enchantment
+oracle={R}: Target creature gets +1/+0 until end of turn.

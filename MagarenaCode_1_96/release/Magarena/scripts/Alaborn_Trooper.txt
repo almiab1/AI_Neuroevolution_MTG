@@ -1,0 +1,10 @@
+name=Alaborn Trooper
+image=https://magiccards.info/scans/en/po2/124.jpg
+value=2.040
+rarity=C
+type=Creature
+subtype=Human,Soldier
+cost={2}{W}
+pt=2/3
+timing=main
+oracle=NONE

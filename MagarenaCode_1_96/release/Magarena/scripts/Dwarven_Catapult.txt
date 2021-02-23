@@ -1,0 +1,10 @@
+name=Dwarven Catapult
+image=https://magiccards.info/scans/en/5e/220.jpg
+value=2.296
+rarity=U
+type=Instant
+cost={X}{R}
+ability=Cast SN with AI only if an opponent controls a creature.
+timing=removal
+requires_groovy_code
+oracle=Dwarven Catapult deals X damage divided evenly, rounded down, among all creatures target opponent controls.

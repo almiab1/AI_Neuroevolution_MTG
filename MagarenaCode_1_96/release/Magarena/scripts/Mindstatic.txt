@@ -1,0 +1,9 @@
+name=Mindstatic
+image=https://magiccards.info/scans/en/dgm/14.jpg
+value=1.564
+rarity=C
+type=Instant
+cost={3}{U}
+effect=Counter target spell unless its controller pays {6}.
+timing=counter
+oracle=Counter target spell unless its controller pays {6}.

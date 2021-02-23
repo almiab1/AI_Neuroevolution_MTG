@@ -1,0 +1,11 @@
+name=Llanowar Knight
+image=https://magiccards.info/scans/en/in/254.jpg
+value=3.750
+rarity=C
+type=Creature
+subtype=Elf,Knight
+cost={G}{W}
+pt=2/2
+ability=Protection from black
+timing=main
+oracle=Protection from black

@@ -1,0 +1,11 @@
+name=Into the Void
+image=https://magiccards.info/scans/en/cn2/112.jpg
+image_updated=2017-08-17
+value=3.100
+rarity=U
+type=Sorcery
+cost={3}{U}
+effect=Return up to two target creatures to their owners' hands.
+timing=main
+oracle=Return up to two target creatures to their owners' hands.
+status=not supported: multiple-targets

@@ -1,0 +1,10 @@
+name=1/1 colorless Insect artifact creature token with flying named Wasp
+token=Wasp
+image=https://magiccards.info/extras/token/tenth-edition/wasp.jpg
+value=1
+type=Artifact,Creature
+subtype=Insect
+color=
+pt=1/1
+ability=Flying
+oracle=Flying

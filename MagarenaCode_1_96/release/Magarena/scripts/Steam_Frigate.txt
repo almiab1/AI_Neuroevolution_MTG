@@ -1,0 +1,11 @@
+name=Steam Frigate
+image=https://magiccards.info/scans/en/po2/47.jpg
+value=2.143
+rarity=C
+type=Creature
+subtype=Human,Pirate
+cost={2}{U}
+pt=3/3
+ability=SN can't attack unless defending player controls an Island.
+timing=main
+oracle=Steam Frigate can't attack unless defending player controls an Island.

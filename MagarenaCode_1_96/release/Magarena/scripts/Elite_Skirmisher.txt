@@ -1,0 +1,11 @@
+name=Elite Skirmisher
+image=https://magiccards.info/scans/en/bng/8.jpg
+value=3.065
+rarity=C
+type=Creature
+subtype=Human,Soldier
+cost={2}{W}
+pt=3/1
+ability=Whenever you cast a spell that targets SN, you may tap target creature.
+timing=main
+oracle=Heroic — Whenever you cast a spell that targets Elite Skirmisher, you may tap target creature.

@@ -1,0 +1,10 @@
+name=Mindcrank
+image=https://magiccards.info/scans/en/ima/220.jpg
+image_updated=2017-04-12
+value=3.521
+rarity=U
+type=Artifact
+cost={2}
+timing=artifact
+requires_groovy_code
+oracle=Whenever an opponent loses life, that player puts that many cards from the top of his or her library into his or her graveyard.

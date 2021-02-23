@@ -1,0 +1,11 @@
+name=Abbey Griffin
+image=https://magiccards.info/scans/en/isd/1.jpg
+value=2.165
+rarity=C
+type=Creature
+subtype=Griffin
+cost={3}{W}
+pt=2/2
+ability=Flying, vigilance
+timing=main
+oracle=Flying, vigilance

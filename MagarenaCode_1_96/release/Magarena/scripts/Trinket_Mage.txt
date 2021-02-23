@@ -1,0 +1,12 @@
+name=Trinket Mage
+image=https://magiccards.info/scans/en/c16/102.jpg
+image_updated=2017-08-17
+value=4.455
+rarity=C
+type=Creature
+subtype=Human,Wizard
+cost={2}{U}
+pt=2/2
+ability=When SN enters the battlefield, you may search your library for an artifact card with converted mana cost 1 or less, reveal that card, and put it into your hand. If you do, shuffle your library.
+timing=main
+oracle=When Trinket Mage enters the battlefield, you may search your library for an artifact card with converted mana cost 1 or less, reveal that card, and put it into your hand. If you do, shuffle your library.

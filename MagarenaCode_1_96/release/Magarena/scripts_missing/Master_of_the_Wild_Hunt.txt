@@ -1,0 +1,14 @@
+name=Master of the Wild Hunt
+image=https://magiccards.info/scans/en/a25/181.jpg
+image_updated=2018-04-25
+value=4.282
+rarity=M
+type=Creature
+subtype=Human,Shaman
+cost={2}{G}{G}
+pt=3/3
+ability=At the beginning of your upkeep, create a 2/2 green Wolf creature token.;\
+        {T}: Tap all untapped Wolf creatures you control. Each Wolf tapped this way deals damage equal to its power to target creature. That creature deals damage equal to its power divided as its controller chooses among any number of those Wolves.
+timing=main
+oracle=At the beginning of your upkeep, create a 2/2 green Wolf creature token.\n{T}: Tap all untapped Wolf creatures you control. Each Wolf tapped this way deals damage equal to its power to target creature. That creature deals damage equal to its power divided as its controller chooses among any number of those Wolves.
+status=not supported: any-number-of

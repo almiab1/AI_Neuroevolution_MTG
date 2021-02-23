@@ -1,0 +1,10 @@
+name=Pinnacle of Rage
+image=https://magiccards.info/scans/en/bng/105.jpg
+value=2.077
+rarity=U
+type=Sorcery
+cost={4}{R}{R}
+effect=SN deals 3 damage to each of two target creatures and/or players.
+timing=main
+oracle=Pinnacle of Rage deals 3 damage to each of two target creatures and/or players.
+status=not supported: multiple-targets

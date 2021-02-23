@@ -1,0 +1,9 @@
+name=Irradiate
+image=https://magiccards.info/scans/en/mi/67.jpg
+value=2.714
+rarity=C
+type=Instant
+cost={3}{B}
+effect=Target creature gets -1/-1 until end of turn for each artifact you control.
+timing=removal
+oracle=Target creature gets -1/-1 until end of turn for each artifact you control.

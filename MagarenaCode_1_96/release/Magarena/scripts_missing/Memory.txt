@@ -1,0 +1,13 @@
+name=Memory
+image=https://magiccards.info/scans/en/akh/211b.jpg
+value=2.500
+rarity=R
+type=Sorcery
+cost={4}{U}{U}
+split=Commit
+ability=Aftermath
+effect=Each player shuffles his or her hand and graveyard into his or her library, then draws seven cards.
+timing=main
+second_half
+oracle=Aftermath\nEach player shuffles his or her hand and graveyard into his or her library, then draws seven cards.
+status=not supported: split-card

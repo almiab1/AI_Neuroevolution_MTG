@@ -1,0 +1,12 @@
+name=Skyshroud Elite
+image=https://magiccards.info/scans/en/ex/123.jpg
+image_updated=2017-01-08
+value=4.250
+rarity=U
+type=Creature
+subtype=Elf
+cost={G}
+pt=1/1
+ability=SN gets +1/+2 as long as an opponent controls a nonbasic land.
+timing=main
+oracle=Skyshroud Elite gets +1/+2 as long as an opponent controls a nonbasic land.

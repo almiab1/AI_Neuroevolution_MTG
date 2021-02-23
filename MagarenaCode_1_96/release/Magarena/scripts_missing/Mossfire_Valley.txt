@@ -1,0 +1,9 @@
+name=Mossfire Valley
+image=https://magiccards.info/scans/en/od/321.jpg
+value=4.062
+rarity=R
+type=Land
+ability={1}, {T}: Add {R}{G}.
+timing=land
+oracle={1}, {T}: Add {R}{G}.
+status=not supported: add-multiple-mana

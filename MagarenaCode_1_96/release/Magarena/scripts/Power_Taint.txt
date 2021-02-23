@@ -1,0 +1,13 @@
+name=Power Taint
+image=https://magiccards.info/scans/en/us/90.jpg
+value=3.485
+rarity=C
+type=Enchantment
+subtype=Aura
+cost={1}{U}
+ability=Enchant enchantment;\
+        Cycling {2}
+timing=aura
+enchant=default,neg enchantment
+oracle=Enchant enchantment\nAt the beginning of the upkeep of enchanted enchantment's controller, that player loses 2 life unless he or she pays {2}.\nCycling {2}
+requires_groovy_code

@@ -1,0 +1,9 @@
+name=Cloud Cover
+image=https://magiccards.info/scans/en/ps/98.jpg
+value=4.304
+rarity=R
+type=Enchantment
+cost={2}{W}{U}
+ability=Whenever another permanent you control becomes the target of a spell or ability an opponent controls, you may return that permanent to its owner's hand.
+timing=enchantment
+oracle=Whenever another permanent you control becomes the target of a spell or ability an opponent controls, you may return that permanent to its owner's hand.

@@ -1,0 +1,9 @@
+name=Burden of Greed
+image=https://magiccards.info/scans/en/ds/38.jpg
+value=2.191
+rarity=C
+type=Instant
+cost={3}{B}
+timing=removal
+requires_groovy_code
+oracle=Target player loses 1 life for each tapped artifact he or she controls.

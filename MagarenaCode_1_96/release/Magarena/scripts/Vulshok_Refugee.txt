@@ -1,0 +1,11 @@
+name=Vulshok Refugee
+image=https://magiccards.info/scans/en/nph/101.jpg
+value=3.250
+rarity=U
+type=Creature
+subtype=Human,Warrior
+cost={1}{R}{R}
+pt=3/2
+ability=Protection from red
+timing=main
+oracle=Protection from red

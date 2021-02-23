@@ -1,0 +1,11 @@
+name=Blue Mana Battery
+image=https://magiccards.info/scans/en/4e/318.jpg
+value=2.859
+rarity=R
+type=Artifact
+cost={4}
+ability={2}, {T}: Put a charge counter on SN.;\
+        {T}, Remove any number of charge counters from SN: Add {U}, then add an additional {U} for each charge counter removed this way.
+timing=artifact
+oracle={2}, {T}: Put a charge counter on Blue Mana Battery.\n{T}, Remove any number of charge counters from Blue Mana Battery: Add {U}, then add an additional {U} for each charge counter removed this way.
+status=not supported: add-multiple-mana

@@ -1,0 +1,11 @@
+name=Dwarven Warriors
+image=https://magiccards.info/scans/en/5e/222.jpg
+value=2.520
+rarity=C
+type=Creature
+subtype=Dwarf,Warrior
+cost={2}{R}
+pt=1/1
+ability={T}: Target creature with power 2 or less can't be blocked this turn.
+timing=main
+oracle={T}: Target creature with power 2 or less can't be blocked this turn.

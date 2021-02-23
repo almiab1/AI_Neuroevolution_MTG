@@ -1,0 +1,12 @@
+name=Nut Collector
+image=https://magiccards.info/scans/en/od/259.jpg
+value=4.036
+rarity=R
+type=Creature
+subtype=Human,Druid
+cost={5}{G}
+pt=1/1
+ability=At the beginning of your upkeep, you may create a 1/1 green Squirrel creature token.;\
+        Squirrel creatures get +2/+2 as long as seven or more cards are in your graveyard.
+timing=main
+oracle=At the beginning of your upkeep, you may create a 1/1 green Squirrel creature token.\nThreshold — Squirrel creatures get +2/+2 as long as seven or more cards are in your graveyard.

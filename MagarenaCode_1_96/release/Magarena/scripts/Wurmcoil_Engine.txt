@@ -1,0 +1,12 @@
+name=Wurmcoil Engine
+image=https://magiccards.info/scans/en/c14/283.jpg
+value=4.595
+rarity=M
+type=Artifact,Creature
+subtype=Wurm
+cost={6}
+pt=6/6
+ability=Deathtouch, lifelink;\
+        When SN dies, create a 3/3 colorless Wurm artifact creature token with deathtouch~and create a 3/3 colorless Wurm artifact creature token with lifelink.
+timing=main
+oracle=Deathtouch, lifelink\nWhen Wurmcoil Engine dies, create a 3/3 colorless Wurm artifact creature token with deathtouch and a 3/3 colorless Wurm artifact creature token with lifelink.

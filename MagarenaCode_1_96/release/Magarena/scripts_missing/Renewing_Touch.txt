@@ -1,0 +1,10 @@
+name=Renewing Touch
+image=https://magiccards.info/scans/en/st/140.jpg
+value=3.854
+rarity=U
+type=Sorcery
+cost={G}
+effect=Shuffle any number of target creature cards from your graveyard into your library.
+timing=main
+oracle=Shuffle any number of target creature cards from your graveyard into your library.
+status=not supported: multiple-targets

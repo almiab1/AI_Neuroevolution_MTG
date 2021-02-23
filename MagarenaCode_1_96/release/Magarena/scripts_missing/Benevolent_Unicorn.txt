@@ -1,0 +1,12 @@
+name=Benevolent Unicorn
+image=https://magiccards.info/scans/en/mr/208.jpg
+value=3.436
+rarity=C
+type=Creature
+subtype=Unicorn
+cost={1}{W}
+pt=1/2
+ability=If a spell would deal damage to a creature or player, it deals that much damage minus 1 to that creature or player instead.
+timing=main
+oracle=If a spell would deal damage to a creature or player, it deals that much damage minus 1 to that creature or player instead.
+status=needs groovy

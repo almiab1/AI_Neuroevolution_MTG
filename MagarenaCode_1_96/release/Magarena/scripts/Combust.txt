@@ -1,0 +1,11 @@
+name=Combust
+image=https://magiccards.info/scans/en/mm2/110.jpg
+value=3.188
+removal=4
+rarity=U
+type=Instant
+cost={1}{R}
+ability=This spell can't be countered.
+timing=removal
+requires_groovy_code
+oracle=This spell can't be countered.\nCombust deals 5 damage to target white or blue creature. The damage can't be prevented.

@@ -1,0 +1,11 @@
+name=Chromatic Lantern
+image=https://magiccards.info/scans/en/c16/247.jpg
+image_updated=2017-08-17
+value=4.236
+rarity=R
+type=Artifact
+cost={3}
+ability=Lands you control have "{T}: Add one mana of any color.";\
+        {T}: Add one mana of any color.
+timing=artifact
+oracle=Lands you control have "{T}: Add one mana of any color."\n{T}: Add one mana of any color.

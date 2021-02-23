@@ -1,0 +1,9 @@
+name=Feast or Famine
+image=https://magiccards.info/scans/en/ai/8.jpg
+value=3.794
+rarity=C
+type=Instant
+cost={3}{B}
+effect=Choose one — (1) Create a 2/2 black Zombie creature token. (2) Destroy target nonartifact, nonblack creature. It can't be regenerated.
+timing=removal
+oracle=Choose one —\n• Create a 2/2 black Zombie creature token.\n• Destroy target nonartifact, nonblack creature. It can't be regenerated.

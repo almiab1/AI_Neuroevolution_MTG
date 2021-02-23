@@ -1,0 +1,11 @@
+name=People of the Woods
+image=https://magiccards.info/scans/en/dk/46.jpg
+value=3.311
+rarity=U
+type=Creature
+subtype=Human
+cost={G}{G}
+pt=1/*
+ability=SN's toughness is equal to the number of Forests you control.
+timing=main
+oracle=People of the Woods's toughness is equal to the number of Forests you control.

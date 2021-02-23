@@ -1,0 +1,13 @@
+name=Hyena Umbra
+image=https://magiccards.info/scans/en/pc2/8.jpg
+value=3.857
+rarity=C
+type=Enchantment
+subtype=Aura
+cost={W}
+ability=Enchant creature;\
+        Enchanted creature gets +1/+1 and has first strike.;\
+        Totem armor
+timing=aura
+enchant=first strike,pos creature
+oracle=Enchant creature\nEnchanted creature gets +1/+1 and has first strike.\nTotem armor

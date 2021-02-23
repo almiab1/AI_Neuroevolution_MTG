@@ -1,0 +1,9 @@
+name=Goblin Bombardment
+image=https://magiccards.info/scans/en/tp/179.jpg
+value=4.000
+rarity=U
+type=Enchantment
+cost={1}{R}
+ability=Sacrifice a creature: SN deals 1 damage to target creature or player.
+timing=enchantment
+oracle=Sacrifice a creature: Goblin Bombardment deals 1 damage to target creature or player.

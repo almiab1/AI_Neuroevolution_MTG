@@ -1,0 +1,13 @@
+name=Trestle Troll
+image=https://magiccards.info/scans/en/rtr/205.jpg
+value=3.067
+rarity=C
+type=Creature
+subtype=Troll
+cost={1}{B}{G}
+pt=1/4
+ability=Defender;\
+        Reach;\
+        {1}{B}{G}: Regenerate SN.
+timing=smain
+oracle=Defender\nReach\n{1}{B}{G}: Regenerate Trestle Troll.

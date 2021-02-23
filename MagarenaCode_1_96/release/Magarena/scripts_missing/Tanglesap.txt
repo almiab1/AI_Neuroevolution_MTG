@@ -1,0 +1,10 @@
+name=Tanglesap
+image=https://magiccards.info/scans/en/zen/186.jpg
+value=2.877
+rarity=C
+type=Instant
+cost={1}{G}
+effect=Prevent all combat damage that would be dealt this turn by creatures without trample.
+timing=removal
+oracle=Prevent all combat damage that would be dealt this turn by creatures without trample.
+status=needs groovy

@@ -1,0 +1,11 @@
+name=Benalish Cavalry
+image=https://magiccards.info/scans/en/ts/4.jpg
+value=3.725
+rarity=C
+type=Creature
+subtype=Human,Knight
+cost={1}{W}
+pt=2/2
+ability=Flanking
+timing=main
+oracle=Flanking

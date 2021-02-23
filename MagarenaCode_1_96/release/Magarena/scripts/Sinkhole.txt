@@ -1,0 +1,10 @@
+name=Sinkhole
+image=https://magiccards.info/scans/en/ema/106.jpg
+value=4.606
+removal=3
+rarity=R
+type=Sorcery
+cost={B}{B}
+effect=Destroy target land.
+timing=main
+oracle=Destroy target land.

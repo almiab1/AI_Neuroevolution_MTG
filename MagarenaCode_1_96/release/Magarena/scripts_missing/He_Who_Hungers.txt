@@ -1,0 +1,14 @@
+name=He Who Hungers
+image=https://magiccards.info/scans/en/chk/114.jpg
+value=3.762
+rarity=R
+type=Legendary,Creature
+subtype=Spirit
+cost={4}{B}
+pt=3/2
+ability=Flying;\
+        {1}, Sacrifice a Spirit: Target opponent reveals his or her hand. You choose a card from it. That player discards that card. Activate this ability only any time you could cast a sorcery.;\
+        Soulshift 4
+timing=main
+oracle=Flying\n{1}, Sacrifice a Spirit: Target opponent reveals his or her hand. You choose a card from it. That player discards that card. Activate this ability only any time you could cast a sorcery.\nSoulshift 4
+status=not supported: reveal-hand

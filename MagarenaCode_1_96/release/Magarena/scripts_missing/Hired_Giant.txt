@@ -1,0 +1,12 @@
+name=Hired Giant
+image=https://magiccards.info/scans/en/mm/194.jpg
+value=2.278
+rarity=U
+type=Creature
+subtype=Giant
+cost={3}{R}
+pt=4/4
+ability=When SN enters the battlefield, each other player may search his or her library for a land card and put that card onto the battlefield. Then each player who searched his or her library this way shuffles it.
+timing=main
+oracle=When Hired Giant enters the battlefield, each other player may search his or her library for a land card and put that card onto the battlefield. Then each player who searched his or her library this way shuffles it.
+status=needs groovy

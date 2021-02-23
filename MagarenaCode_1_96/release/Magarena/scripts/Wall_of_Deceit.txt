@@ -1,0 +1,14 @@
+name=Wall of Deceit
+image=https://magiccards.info/scans/en/le/55.jpg
+image_updated=2011-01-11
+value=3.817
+rarity=U
+type=Creature
+subtype=Wall
+cost={1}{U}
+pt=0/5
+ability=Defender;\
+        {3}: Turn SN face down.;\
+        Morph {U}
+timing=main
+oracle=Defender\n{3}: Turn Wall of Deceit face down.\nMorph {U}

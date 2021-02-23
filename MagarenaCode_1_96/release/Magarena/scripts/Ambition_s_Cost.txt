@@ -1,0 +1,10 @@
+name=Ambition's Cost
+image=https://magiccards.info/scans/en/c17/95.jpg
+image_updated=2017-10-03
+value=3.579
+rarity=U
+type=Sorcery
+cost={3}{B}
+effect=You draw three cards and you lose 3 life.
+timing=draw
+oracle=You draw three cards and you lose 3 life.

@@ -1,0 +1,10 @@
+name=Kindle
+image=https://magiccards.info/scans/en/a25/140.jpg
+image_updated=2018-04-27
+value=3.500
+rarity=C
+type=Instant
+cost={1}{R}
+timing=removal
+requires_groovy_code
+oracle=Kindle deals X damage to target creature or player, where X is 2 plus the number of cards named Kindle in all graveyards.

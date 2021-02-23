@@ -1,0 +1,11 @@
+name=Rootborn Defenses
+image=https://magiccards.info/scans/en/mm3/21.jpg
+image_updated=2017-08-08
+value=3.822
+rarity=C
+type=Instant
+cost={2}{W}
+ability=Cast SN with AI only if you control a creature.
+effect=Populate.~Creatures you control gain indestructible until end of turn.
+timing=pump
+oracle=Populate. Creatures you control gain indestructible until end of turn.

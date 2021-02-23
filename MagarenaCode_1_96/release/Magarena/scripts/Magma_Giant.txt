@@ -1,0 +1,12 @@
+name=Magma Giant
+image=https://magiccards.info/scans/en/5dn/72.jpg
+image_updated=2016-02-29
+value=3.904
+rarity=R
+type=Creature
+subtype=Giant
+cost={5}{R}{R}
+pt=5/5
+ability=When SN enters the battlefield, SN deals 2 damage to each creature and each player.
+timing=main
+oracle=When Magma Giant enters the battlefield, it deals 2 damage to each creature and each player.

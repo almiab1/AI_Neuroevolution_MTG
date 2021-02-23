@@ -1,0 +1,11 @@
+name=Research Assistant
+image=https://magiccards.info/scans/en/m15/77.jpg
+value=2.071
+rarity=C
+type=Creature
+subtype=Human,Wizard
+cost={1}{U}
+pt=1/3
+ability={3}{U}, {T}: Draw a card, then discard a card.
+timing=main
+oracle={3}{U}, {T}: Draw a card, then discard a card.

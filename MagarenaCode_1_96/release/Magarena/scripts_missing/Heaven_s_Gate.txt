@@ -1,0 +1,10 @@
+name=Heaven's Gate
+image=https://magiccards.info/scans/en/lg/188.jpg
+value=1.955
+rarity=U
+type=Instant
+cost={W}
+effect=Any number of target creatures become white until end of turn.
+timing=removal
+oracle=Any number of target creatures become white until end of turn.
+status=not supported: multiple-targets

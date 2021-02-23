@@ -1,0 +1,10 @@
+name=Reflect Damage
+image=https://magiccards.info/scans/en/mr/337.jpg
+value=3.585
+rarity=R
+type=Instant
+cost={3}{R}{W}
+effect=The next time a source of your choice would deal damage this turn, that damage is dealt to that source's controller instead.
+timing=removal
+oracle=The next time a source of your choice would deal damage this turn, that damage is dealt to that source's controller instead.
+status=not supported: source-deal-damage

@@ -1,0 +1,9 @@
+name=Enlightened Tutor
+image=https://magiccards.info/scans/en/ema/9.jpg
+value=4.570
+rarity=R
+type=Instant
+cost={W}
+effect=Search your library for an artifact or enchantment card and reveal that card. Shuffle your library, then put the card on top of it.
+timing=removal
+oracle=Search your library for an artifact or enchantment card and reveal that card. Shuffle your library, then put the card on top of it.

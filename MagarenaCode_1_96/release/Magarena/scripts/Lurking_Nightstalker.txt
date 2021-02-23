@@ -1,0 +1,11 @@
+name=Lurking Nightstalker
+image=https://magiccards.info/scans/en/po2/17.jpg
+value=3.500
+rarity=C
+type=Creature
+subtype=Nightstalker
+cost={B}{B}
+pt=1/1
+ability=Whenever SN attacks, SN gets +2/+0 until end of turn.
+timing=main
+oracle=Whenever Lurking Nightstalker attacks, it gets +2/+0 until end of turn.

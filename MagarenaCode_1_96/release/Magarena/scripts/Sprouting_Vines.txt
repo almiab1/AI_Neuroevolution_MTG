@@ -1,0 +1,10 @@
+name=Sprouting Vines
+image=https://magiccards.info/scans/en/sc/128.jpg
+value=2.950
+rarity=C
+type=Instant
+cost={2}{G}
+ability=Storm
+effect=Search your library for a basic land card, reveal that card, and put it into your hand. Then shuffle your library.
+timing=storm
+oracle=Search your library for a basic land card, reveal that card, and put it into your hand. Then shuffle your library.\nStorm

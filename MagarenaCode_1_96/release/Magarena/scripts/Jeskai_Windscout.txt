@@ -1,0 +1,12 @@
+name=Jeskai Windscout
+image=https://magiccards.info/scans/en/ktk/44.jpg
+value=3.167
+rarity=C
+type=Creature
+subtype=Bird,Scout
+cost={2}{U}
+pt=2/1
+ability=Flying;\
+        Prowess
+timing=main
+oracle=Flying\nProwess

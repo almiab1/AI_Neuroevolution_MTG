@@ -1,0 +1,12 @@
+name=Azorius Guildgate
+image=https://magiccards.info/scans/en/mm3/230.jpg
+image_updated=2017-08-08
+value=3.656
+rarity=C
+type=Land
+subtype=Gate
+mana=w3u3
+ability=SN enters the battlefield tapped.;\
+        {T}: Add {W} or {U}.
+timing=tapland
+oracle=Azorius Guildgate enters the battlefield tapped.\n{T}: Add {W} or {U}.

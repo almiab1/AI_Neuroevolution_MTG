@@ -1,0 +1,10 @@
+name=Seismic Spike
+image=https://magiccards.info/scans/en/rav/141.jpg
+value=3.904
+rarity=C
+type=Sorcery
+cost={2}{R}{R}
+effect=Destroy target land. Add {R}{R}.
+timing=main
+oracle=Destroy target land. Add {R}{R}.
+status=not supported: add-multiple-mana

@@ -1,0 +1,12 @@
+name=Oxidda Scrapmelter
+image=https://magiccards.info/scans/en/som/101.jpg
+value=3.541
+removal=1
+rarity=U
+type=Creature
+subtype=Beast
+cost={3}{R}
+pt=3/3
+ability=When SN enters the battlefield, destroy target artifact.
+timing=main
+oracle=When Oxidda Scrapmelter enters the battlefield, destroy target artifact.

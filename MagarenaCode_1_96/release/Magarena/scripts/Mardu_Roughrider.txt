@@ -1,0 +1,11 @@
+name=Mardu Roughrider
+image=https://magiccards.info/scans/en/ktk/187.jpg
+value=3.250
+rarity=U
+type=Creature
+subtype=Orc,Warrior
+cost={2}{R}{W}{B}
+pt=5/4
+ability=Whenever SN attacks, target creature can't block this turn.
+timing=main
+oracle=Whenever Mardu Roughrider attacks, target creature can't block this turn.

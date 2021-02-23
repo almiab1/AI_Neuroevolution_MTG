@@ -1,0 +1,10 @@
+name=Reciprocate
+image=https://magiccards.info/scans/en/chk/40.jpg
+value=3.456
+rarity=U
+type=Instant
+cost={W}
+effect=Exile target creature that dealt damage to you this turn.
+timing=removal
+oracle=Exile target creature that dealt damage to you this turn.
+status=not supported: no-info

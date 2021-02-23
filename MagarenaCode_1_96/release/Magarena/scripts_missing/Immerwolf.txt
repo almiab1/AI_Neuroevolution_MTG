@@ -1,0 +1,13 @@
+name=Immerwolf
+image=https://magiccards.info/scans/en/dka/141.jpg
+value=3.896
+rarity=U
+type=Creature
+subtype=Wolf
+cost={1}{R}{G}
+pt=2/2
+ability=Intimidate;\
+        Each other creature you control that's a Wolf or a Werewolf gets +1/+1.;\
+        Non-Human Werewolves you control can't transform.
+timing=main
+oracle=Intimidate\nEach other creature you control that's a Wolf or a Werewolf gets +1/+1.\nNon-Human Werewolves you control can't transform.

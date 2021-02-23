@@ -1,0 +1,12 @@
+name=Spike Jester
+image=https://magiccards.info/scans/en/mm3/188.jpg
+image_updated=2017-08-08
+value=3.796
+rarity=C
+type=Creature
+subtype=Goblin,Warrior
+cost={B}{R}
+pt=3/1
+ability=Haste
+timing=fmain
+oracle=Haste

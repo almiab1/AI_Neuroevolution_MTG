@@ -1,0 +1,10 @@
+name=1/1 red Goblin creature token with haste
+token=Goblin
+image=https://magiccards.info/extras/token/return-to-ravnica/goblin.jpg
+value=1
+type=Creature
+subtype=Goblin
+color=r
+ability=haste
+pt=1/1
+oracle=Haste

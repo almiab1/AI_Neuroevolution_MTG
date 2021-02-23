@@ -1,0 +1,15 @@
+name=Changeling Hero
+image=https://magiccards.info/scans/en/lw/9.jpg
+value=3.011
+removal=2
+rarity=U
+type=Creature
+subtype=Shapeshifter
+cost={4}{W}
+pt=4/4
+ability=Changeling;\
+        Champion a creature;\
+        Lifelink;\
+        Cast SN with AI only if you control a creature
+timing=main
+oracle=Changeling\nChampion a creature\nLifelink

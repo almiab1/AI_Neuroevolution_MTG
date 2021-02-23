@@ -1,0 +1,11 @@
+name=Darba
+image=https://magiccards.info/scans/en/pr/111.jpg
+value=2.742
+rarity=U
+type=Creature
+subtype=Bird,Beast
+cost={3}{G}
+pt=5/4
+ability=At the beginning of your upkeep, sacrifice SN unless you pay {G}{G}.
+timing=main
+oracle=At the beginning of your upkeep, sacrifice Darba unless you pay {G}{G}.

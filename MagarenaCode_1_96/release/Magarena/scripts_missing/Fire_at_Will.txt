@@ -1,0 +1,10 @@
+name=Fire at Will
+image=https://magiccards.info/scans/en/eve/140.jpg
+value=2.373
+rarity=C
+type=Instant
+cost={R/W}{R/W}{R/W}
+effect=SN deals 3 damage divided as you choose among one, two, or three target attacking or blocking creatures.
+timing=removal
+oracle=Fire at Will deals 3 damage divided as you choose among one, two, or three target attacking or blocking creatures.
+status=not supported: multiple-targets

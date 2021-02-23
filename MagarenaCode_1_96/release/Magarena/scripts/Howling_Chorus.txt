@@ -1,0 +1,15 @@
+name=Howling Chorus
+image=https://magiccards.info/scans/en/emn/168b.jpg
+image_updated=2016-09-05
+value=2.500
+rarity=U
+type=Creature
+subtype=Eldrazi,Werewolf
+color=
+pt=3/5
+ability=Creatures with power less than SN's power can't block it.;\
+        Whenever SN deals combat damage to a player, create a 3/2 colorless Eldrazi Horror creature token.
+transform=Shrill Howler
+timing=main
+hidden
+oracle=Creatures with power less than Howling Chorus's power can't block it.\nWhenever Howling Chorus deals combat damage to a player, create a 3/2 colorless Eldrazi Horror creature token.

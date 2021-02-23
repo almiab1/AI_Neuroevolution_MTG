@@ -1,0 +1,11 @@
+name=Serpent Warrior
+image=https://magiccards.info/scans/en/9e/162.jpg
+value=1.615
+rarity=C
+type=Creature
+subtype=Snake,Warrior
+cost={2}{B}
+pt=3/3
+ability=When SN enters the battlefield, you lose 3 life.
+timing=main
+oracle=When Serpent Warrior enters the battlefield, you lose 3 life.

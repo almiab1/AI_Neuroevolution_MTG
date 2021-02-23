@@ -1,0 +1,11 @@
+name=Whims of the Fates
+image=https://magiccards.info/scans/en/c16/139.jpg
+image_updated=2017-01-11
+value=3.333
+rarity=R
+type=Sorcery
+cost={5}{R}
+effect=Starting with you, each player separates all permanents he or she controls into three piles. Then each player chooses one of his or her piles at random and sacrifices those permanents.
+timing=main
+oracle=Starting with you, each player separates all permanents he or she controls into three piles. Then each player chooses one of his or her piles at random and sacrifices those permanents.
+status=not supported: piles

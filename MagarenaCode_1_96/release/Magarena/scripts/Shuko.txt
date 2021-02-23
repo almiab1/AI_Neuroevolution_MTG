@@ -1,0 +1,11 @@
+name=Shuko
+image=https://magiccards.info/scans/en/bok/159.jpg
+value=4.169
+rarity=U
+type=Artifact
+subtype=Equipment
+cost={1}
+ability=Equipped creature gets +1/+0.;\
+        Equip {0}
+timing=equipment
+oracle=Equipped creature gets +1/+0.\nEquip {0}

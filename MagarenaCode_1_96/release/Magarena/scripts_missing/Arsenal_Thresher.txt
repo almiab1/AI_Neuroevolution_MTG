@@ -1,0 +1,13 @@
+name=Arsenal Thresher
+image=https://magiccards.info/scans/en/arb/131.jpg
+image_updated=2016-12-13
+value=2.833
+rarity=C
+type=Artifact,Creature
+subtype=Construct
+cost={2}{W/B}{U}
+pt=2/2
+ability=As SN enters the battlefield, you may reveal any number of other artifact cards from your hand. SN enters the battlefield with a +1/+1 counter on it for each card revealed this way.
+timing=main
+oracle=As Arsenal Thresher enters the battlefield, you may reveal any number of other artifact cards from your hand. Arsenal Thresher enters the battlefield with a +1/+1 counter on it for each card revealed this way.
+status=not supported: any-number-of

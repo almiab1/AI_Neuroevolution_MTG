@@ -1,0 +1,13 @@
+name=Phyrexian Battleflies
+image=https://magiccards.info/scans/en/in/114.jpg
+image_updated=2017-01-03
+value=2.423
+rarity=C
+type=Creature
+subtype=Insect
+cost={B}
+pt=0/1
+ability=Flying;\
+        {B}: SN gets +1/+0 until end of turn. Activate this ability no more than twice each turn.
+timing=main
+oracle=Flying\n{B}: Phyrexian Battleflies gets +1/+0 until end of turn. Activate this ability no more than twice each turn.

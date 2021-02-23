@@ -1,0 +1,9 @@
+name=Biorhythm
+image=https://magiccards.info/scans/en/9e/231.jpg
+value=4.007
+rarity=R
+type=Sorcery
+cost={6}{G}{G}
+timing=main
+requires_groovy_code
+oracle=Each player's life total becomes the number of creatures he or she controls.

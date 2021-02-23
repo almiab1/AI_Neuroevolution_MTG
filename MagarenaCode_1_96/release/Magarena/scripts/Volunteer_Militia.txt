@@ -1,0 +1,10 @@
+name=Volunteer Militia
+image=https://magiccards.info/scans/en/p3k/30.jpg
+value=3.093
+rarity=C
+type=Creature
+subtype=Human,Soldier
+cost={W}
+pt=1/2
+timing=main
+oracle=NONE

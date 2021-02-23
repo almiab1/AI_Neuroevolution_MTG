@@ -1,0 +1,10 @@
+name=Volcanic Vision
+image=https://magiccards.info/scans/en/c16/137.jpg
+image_updated=2017-08-17
+value=2.500
+rarity=R
+type=Sorcery
+cost={5}{R}{R}
+timing=main
+requires_groovy_code
+oracle=Return target instant or sorcery card from your graveyard to your hand. Volcanic Vision deals damage equal to that card's converted mana cost to each creature your opponents control. Exile Volcanic Vision.

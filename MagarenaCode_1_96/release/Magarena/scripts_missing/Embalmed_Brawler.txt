@@ -1,0 +1,13 @@
+name=Embalmed Brawler
+image=https://magiccards.info/scans/en/le/69.jpg
+value=2.191
+rarity=C
+type=Creature
+subtype=Zombie
+cost={2}{B}
+pt=2/2
+ability=Amplify 1;\
+        Whenever SN attacks or blocks, you lose 1 life for each +1/+1 counter on it.
+timing=main
+oracle=Amplify 1\nWhenever Embalmed Brawler attacks or blocks, you lose 1 life for each +1/+1 counter on it.
+status=not supported: amplify

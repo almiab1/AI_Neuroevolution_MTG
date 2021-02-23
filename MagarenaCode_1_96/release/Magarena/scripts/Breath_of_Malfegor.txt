@@ -1,0 +1,9 @@
+name=Breath of Malfegor
+image=https://magiccards.info/scans/en/arb/35.jpg
+value=3.022
+rarity=C
+type=Instant
+cost={3}{B}{R}
+effect=SN deals 5 damage to each opponent.
+timing=flash
+oracle=Breath of Malfegor deals 5 damage to each opponent.

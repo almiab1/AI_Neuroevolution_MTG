@@ -1,0 +1,12 @@
+name=Fire Ants
+image=https://magiccards.info/scans/en/us/187.jpg
+image_updated=2016-12-02
+value=4.290
+rarity=U
+type=Creature
+subtype=Insect
+cost={2}{R}
+pt=2/1
+ability={T}: SN deals 1 damage to each other creature without flying.
+timing=main
+oracle={T}: Fire Ants deals 1 damage to each other creature without flying.

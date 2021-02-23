@@ -1,0 +1,12 @@
+name=Taste for Mayhem
+image=https://magiccards.info/scans/en/di/75.jpg
+value=3.333
+rarity=C
+type=Enchantment
+subtype=Aura
+cost={R}
+ability=Enchant creature
+timing=aura
+enchant=pump,pos creature
+oracle=Enchant creature\nEnchanted creature gets +2/+0.\nHellbent — Enchanted creature gets an additional +2/+0 as long as you have no cards in hand.
+requires_groovy_code

@@ -1,0 +1,11 @@
+name=Etched Champion
+image=https://magiccards.info/scans/en/mm2/209.jpg
+value=4.136
+rarity=R
+type=Artifact,Creature
+subtype=Soldier
+cost={3}
+pt=2/2
+ability=SN has protection from all colors as long as you control three or more artifacts.
+timing=main
+oracle=Metalcraft — Etched Champion has protection from all colors as long as you control three or more artifacts.

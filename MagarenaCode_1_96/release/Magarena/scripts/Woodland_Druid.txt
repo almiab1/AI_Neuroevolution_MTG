@@ -1,0 +1,10 @@
+name=Woodland Druid
+image=https://magiccards.info/scans/en/od/284.jpg
+value=2.675
+rarity=C
+type=Creature
+subtype=Human,Druid
+cost={G}
+pt=1/2
+timing=main
+oracle=NONE

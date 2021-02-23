@@ -1,0 +1,11 @@
+name=Jhessian Infiltrator
+image=https://magiccards.info/scans/en/ala/174.jpg
+value=3.752
+rarity=U
+type=Creature
+subtype=Human,Rogue
+cost={G}{U}
+pt=2/2
+ability=SN can't be blocked.
+timing=main
+oracle=Jhessian Infiltrator can't be blocked.

@@ -1,0 +1,12 @@
+name=Talus Paladin
+image=https://magiccards.info/scans/en/wwk/21.jpg
+value=3.577
+rarity=R
+type=Creature
+subtype=Human,Knight,Ally
+cost={3}{W}
+pt=2/3
+ability=Whenever SN or another Ally enters the battlefield under your control, you may have Allies you control gain lifelink until end of turn.;\
+        Whenever SN or another Ally enters the battlefield under your control, you may put a +1/+1 counter on SN.
+timing=main
+oracle=Whenever Talus Paladin or another Ally enters the battlefield under your control, you may have Allies you control gain lifelink until end of turn, and you may put a +1/+1 counter on Talus Paladin.

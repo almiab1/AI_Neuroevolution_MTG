@@ -1,0 +1,12 @@
+name=Ekundu Cyclops
+image=https://magiccards.info/scans/en/mr/171.jpg
+value=3.244
+rarity=C
+type=Creature
+subtype=Cyclops
+cost={3}{R}
+pt=3/4
+ability=If a creature you control attacks, SN also attacks if able.
+timing=main
+oracle=If a creature you control attacks, Ekundu Cyclops also attacks if able.
+status=not supported: attacking-restriction

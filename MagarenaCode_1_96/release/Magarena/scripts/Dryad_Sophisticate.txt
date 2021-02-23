@@ -1,0 +1,11 @@
+name=Dryad Sophisticate
+image=https://magiccards.info/scans/en/gp/83.jpg
+value=4.082
+rarity=U
+type=Creature
+subtype=Dryad
+cost={1}{G}
+pt=2/1
+ability=Nonbasic landwalk
+timing=main
+oracle=Nonbasic landwalk

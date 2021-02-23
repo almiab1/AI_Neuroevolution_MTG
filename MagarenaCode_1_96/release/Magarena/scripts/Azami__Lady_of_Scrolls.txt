@@ -1,0 +1,12 @@
+name=Azami, Lady of Scrolls
+image=https://magiccards.info/scans/en/c17/82.jpg
+image_updated=2017-10-03
+value=3.773
+rarity=R
+type=Legendary,Creature
+subtype=Human,Wizard
+cost={2}{U}{U}{U}
+pt=0/2
+ability=Tap an untapped Wizard you control: Draw a card.
+timing=main
+oracle=Tap an untapped Wizard you control: Draw a card.

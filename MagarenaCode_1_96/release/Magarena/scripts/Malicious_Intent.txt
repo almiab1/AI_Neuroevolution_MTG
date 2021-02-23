@@ -1,0 +1,12 @@
+name=Malicious Intent
+image=https://magiccards.info/scans/en/avr/147.jpg
+value=1.211
+rarity=C
+type=Enchantment
+subtype=Aura
+cost={1}{R}
+ability=Enchant creature;\
+        Enchanted creature has "{T}: Target creature can't block this turn."
+timing=aura
+enchant=pump,pos creature
+oracle=Enchant creature\nEnchanted creature has "{T}: Target creature can't block this turn."

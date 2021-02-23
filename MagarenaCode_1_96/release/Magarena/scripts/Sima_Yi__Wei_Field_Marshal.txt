@@ -1,0 +1,11 @@
+name=Sima Yi, Wei Field Marshal
+image=https://magiccards.info/scans/en/p3k/82.jpg
+value=3.167
+rarity=R
+type=Legendary,Creature
+subtype=Human,Soldier
+cost={5}{B}
+pt=*/4
+ability=SN's power is equal to the number of Swamps you control.
+timing=main
+oracle=Sima Yi, Wei Field Marshal's power is equal to the number of Swamps you control.

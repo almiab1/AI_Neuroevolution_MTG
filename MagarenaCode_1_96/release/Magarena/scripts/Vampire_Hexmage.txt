@@ -1,0 +1,12 @@
+name=Vampire Hexmage
+image=https://magiccards.info/scans/en/c14/168.jpg
+value=4.545
+rarity=U
+type=Creature
+subtype=Vampire,Shaman
+cost={B}{B}
+pt=2/1
+ability=First strike
+timing=main
+oracle=First strike\nSacrifice Vampire Hexmage: Remove all counters from target permanent.
+requires_groovy_code

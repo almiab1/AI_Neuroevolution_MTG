@@ -1,0 +1,11 @@
+name=Dakra Mystic
+image=https://magiccards.info/scans/en/jou/35.jpg
+value=3.802
+rarity=U
+type=Creature
+subtype=Merfolk,Wizard
+cost={U}
+pt=1/1
+ability={U}, {T}: Each player reveals the top card of his or her library. You may put the revealed cards into their owners' graveyards. If you don't, each player draws a card.
+timing=main
+oracle={U}, {T}: Each player reveals the top card of his or her library. You may put the revealed cards into their owners' graveyards. If you don't, each player draws a card.

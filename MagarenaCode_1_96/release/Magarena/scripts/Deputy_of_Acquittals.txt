@@ -1,0 +1,13 @@
+name=Deputy of Acquittals
+image=https://magiccards.info/scans/en/mm3/159.jpg
+image_updated=2017-08-08
+value=3.803
+rarity=C
+type=Creature
+subtype=Human,Wizard
+cost={W}{U}
+pt=2/2
+ability=Flash;\
+        When SN enters the battlefield, you may return another target creature you control to its owner's hand.
+timing=pumpFlash
+oracle=Flash\nWhen Deputy of Acquittals enters the battlefield, you may return another target creature you control to its owner's hand.

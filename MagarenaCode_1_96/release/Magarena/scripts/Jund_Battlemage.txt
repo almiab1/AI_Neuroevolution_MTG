@@ -1,0 +1,12 @@
+name=Jund Battlemage
+image=https://magiccards.info/scans/en/ala/106.jpg
+value=3.007
+rarity=U
+type=Creature
+subtype=Human,Shaman
+cost={2}{R}
+pt=2/2
+ability={B}, {T}: Target player loses 1 life.;\
+        {G}, {T}: Create a 1/1 green Saproling creature token.
+timing=main
+oracle={B}, {T}: Target player loses 1 life.\n{G}, {T}: Create a 1/1 green Saproling creature token.

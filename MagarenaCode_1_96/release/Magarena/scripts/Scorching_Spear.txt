@@ -1,0 +1,9 @@
+name=Scorching Spear
+image=https://magiccards.info/scans/en/st/116.jpg
+value=0.921
+rarity=C
+type=Sorcery
+cost={R}
+effect=SN deals 1 damage to target creature or player.
+timing=main
+oracle=Scorching Spear deals 1 damage to target creature or player.

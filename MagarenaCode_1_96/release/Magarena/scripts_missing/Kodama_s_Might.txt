@@ -1,0 +1,12 @@
+name=Kodama's Might
+image=https://magiccards.info/scans/en/chk/224.jpg
+value=3.581
+rarity=C
+type=Instant
+subtype=Arcane
+cost={G}
+ability=Splice onto Arcane {G}
+effect=Target creature gets +2/+2 until end of turn.
+timing=removal
+oracle=Target creature gets +2/+2 until end of turn.\nSplice onto Arcane {G}
+status=not supported: splice-onto-arcane

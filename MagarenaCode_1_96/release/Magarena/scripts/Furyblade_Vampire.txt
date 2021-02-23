@@ -1,0 +1,13 @@
+name=Furyblade Vampire
+image=https://magiccards.info/scans/en/emn/128.jpg
+image_updated=2016-09-05
+value=2.500
+rarity=U
+type=Creature
+subtype=Vampire,Berserker
+cost={1}{R}
+pt=1/2
+ability=Trample;\
+        At the beginning of combat on your turn, you may discard a card. If you do, SN gets +3/+0 until end of turn.
+timing=main
+oracle=Trample\nAt the beginning of combat on your turn, you may discard a card. If you do, Furyblade Vampire gets +3/+0 until end of turn.

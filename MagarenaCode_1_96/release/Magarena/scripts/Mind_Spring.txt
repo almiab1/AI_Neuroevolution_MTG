@@ -1,0 +1,10 @@
+name=Mind Spring
+image=https://magiccards.info/scans/en/m10/64.jpg
+image_updated=2016-12-23
+value=3.719
+rarity=R
+type=Sorcery
+cost={X}{U}{U}
+effect=Draw X cards.
+timing=draw
+oracle=Draw X cards.

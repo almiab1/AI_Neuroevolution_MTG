@@ -1,0 +1,9 @@
+name=Beacon of Immortality
+image=https://magiccards.info/scans/en/10e/10.jpg
+value=4.271
+rarity=R
+type=Instant
+cost={5}{W}
+timing=pump
+requires_groovy_code
+oracle=Double target player's life total. Shuffle Beacon of Immortality into its owner's library.

@@ -1,0 +1,12 @@
+name=Defender of Chaos
+image=https://magiccards.info/scans/en/ul/75.jpg
+value=4.047
+rarity=C
+type=Creature
+subtype=Human,Knight
+cost={2}{R}
+pt=2/1
+ability=Flash;\
+        Protection from white
+timing=flash
+oracle=Flash\nProtection from white

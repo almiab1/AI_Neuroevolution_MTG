@@ -1,0 +1,11 @@
+name=Tethmos High Priest
+image=https://magiccards.info/scans/en/jou/29.jpg
+value=3.743
+rarity=U
+type=Creature
+subtype=Cat,Cleric
+cost={2}{W}
+pt=2/3
+ability=Whenever you cast a spell that targets SN, return target creature card with converted mana cost 2 or less from your graveyard to the battlefield.
+timing=main
+oracle=Heroic — Whenever you cast a spell that targets Tethmos High Priest, return target creature card with converted mana cost 2 or less from your graveyard to the battlefield.

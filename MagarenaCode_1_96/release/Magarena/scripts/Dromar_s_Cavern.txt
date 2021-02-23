@@ -1,0 +1,11 @@
+name=Dromar's Cavern
+image=https://magiccards.info/scans/en/ps/138.jpg
+value=3.571
+rarity=U
+type=Land
+subtype=Lair
+mana=w2u2b2
+ability=When SN enters the battlefield, sacrifice SN unless you return a non-Lair land you control to its owner's hand.;\
+        {T}: Add {W}, {U}, or {B}.
+timing=land
+oracle=When Dromar's Cavern enters the battlefield, sacrifice it unless you return a non-Lair land you control to its owner's hand.\n{T}: Add {W}, {U}, or {B}.

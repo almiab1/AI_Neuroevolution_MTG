@@ -1,0 +1,11 @@
+name=Pit Scorpion
+image=https://magiccards.info/scans/en/5e/49.jpg
+value=2.780
+rarity=C
+type=Creature
+subtype=Scorpion
+cost={2}{B}
+pt=1/1
+ability=Whenever SN deals damage to a player, that player gets a poison counter.
+timing=main
+oracle=Whenever Pit Scorpion deals damage to a player, that player gets a poison counter.

@@ -1,0 +1,10 @@
+name=Helm of Chatzuk
+image=https://magiccards.info/scans/en/5e/376.jpg
+value=2.424
+rarity=R
+type=Artifact
+cost={1}
+ability={1}, {T}: Target creature gains banding until end of turn.
+timing=artifact
+oracle={1}, {T}: Target creature gains banding until end of turn.
+status=not supported: banding

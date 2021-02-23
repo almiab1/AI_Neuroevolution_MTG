@@ -1,0 +1,12 @@
+name=Kinsbaile Skirmisher
+image=https://magiccards.info/scans/en/m15/16.jpg
+image_updated=2016-12-21
+value=3.083
+rarity=C
+type=Creature
+subtype=Kithkin,Soldier
+cost={1}{W}
+pt=2/2
+ability=When SN enters the battlefield, target creature gets +1/+1 until end of turn.
+timing=main
+oracle=When Kinsbaile Skirmisher enters the battlefield, target creature gets +1/+1 until end of turn.

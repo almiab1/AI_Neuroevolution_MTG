@@ -1,0 +1,11 @@
+name=Balshan Beguiler
+image=https://magiccards.info/scans/en/od/66.jpg
+value=2.400
+rarity=U
+type=Creature
+subtype=Human,Wizard
+cost={2}{U}
+pt=1/1
+ability=Whenever SN deals combat damage to a player, that player reveals the top two cards of his or her library. You choose one of those cards and put it into his or her graveyard.
+timing=main
+oracle=Whenever Balshan Beguiler deals combat damage to a player, that player reveals the top two cards of his or her library. You choose one of those cards and put it into his or her graveyard.

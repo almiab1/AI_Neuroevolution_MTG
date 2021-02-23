@@ -1,0 +1,9 @@
+name=White Sun's Zenith
+image=https://magiccards.info/scans/en/c14/95.jpg
+value=3.602
+rarity=R
+type=Instant
+cost={X}{W}{W}{W}
+effect=Create X 2/2 white Cat creature tokens.~Shuffle SN into its owner's library.
+timing=token
+oracle=Create X 2/2 white Cat creature tokens. Shuffle White Sun's Zenith into its owner's library.

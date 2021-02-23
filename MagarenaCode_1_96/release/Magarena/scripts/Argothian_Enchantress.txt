@@ -1,0 +1,12 @@
+name=Argothian Enchantress
+image=https://magiccards.info/scans/en/ema/158.jpg
+value=4.579
+rarity=M
+type=Creature
+subtype=Human,Druid
+cost={1}{G}
+pt=0/1
+ability=Shroud;\
+        Whenever you cast an enchantment spell, draw a card.
+timing=main
+oracle=Shroud\nWhenever you cast an enchantment spell, draw a card.

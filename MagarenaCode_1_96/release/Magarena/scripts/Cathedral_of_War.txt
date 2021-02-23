@@ -1,0 +1,10 @@
+name=Cathedral of War
+image=https://magiccards.info/scans/en/m13/221.jpg
+value=3.839
+rarity=R
+type=Land
+ability=SN enters the battlefield tapped.;\
+        Exalted;\
+        {T}: Add {C}.
+timing=land
+oracle=Cathedral of War enters the battlefield tapped.\nExalted\n{T}: Add {C}.

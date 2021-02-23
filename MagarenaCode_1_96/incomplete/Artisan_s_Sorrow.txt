@@ -1,0 +1,9 @@
+name=Artisan's Sorrow
+image=http://mtgimage.com/card/artisan's%20sorrow.jpg
+value=2.76
+rarity=U
+type=Instant
+cost={3}{G}
+timing=removal
+requires_groovy_code
+oracle=Destroy target artifact or enchantment. Scry 2.

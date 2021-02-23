@@ -1,0 +1,11 @@
+name=Angel of Retribution
+image=https://magiccards.info/scans/en/tr/1.jpg
+value=2.204
+rarity=R
+type=Creature
+subtype=Angel
+cost={6}{W}
+pt=5/5
+ability=Flying, first strike
+timing=main
+oracle=Flying, first strike

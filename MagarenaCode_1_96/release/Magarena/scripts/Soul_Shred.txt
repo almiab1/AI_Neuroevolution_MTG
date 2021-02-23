@@ -1,0 +1,9 @@
+name=Soul Shred
+image=https://magiccards.info/scans/en/po/35.jpg
+value=2.308
+rarity=C
+type=Sorcery
+cost={3}{B}{B}
+effect=SN deals 3 damage to target nonblack creature.~You gain 3 life.
+timing=main
+oracle=Soul Shred deals 3 damage to target nonblack creature. You gain 3 life.

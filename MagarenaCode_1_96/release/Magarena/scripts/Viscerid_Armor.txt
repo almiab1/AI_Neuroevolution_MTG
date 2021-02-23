@@ -1,0 +1,13 @@
+name=Viscerid Armor
+image=https://magiccards.info/scans/en/ai/60.jpg
+value=2.804
+rarity=C
+type=Enchantment
+subtype=Aura
+cost={1}{U}
+ability=Enchant creature;\
+        Enchanted creature gets +1/+1.;\
+        {1}{U}: Return SN to its owner's hand.
+timing=aura
+enchant=pump,pos creature
+oracle=Enchant creature\nEnchanted creature gets +1/+1.\n{1}{U}: Return Viscerid Armor to its owner's hand.

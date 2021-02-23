@@ -1,0 +1,13 @@
+name=Emerald Dragonfly
+image=https://magiccards.info/scans/en/lg/98.jpg
+image_updated=2016-12-02
+value=3.090
+rarity=C
+type=Creature
+subtype=Insect
+cost={1}{G}
+pt=1/1
+ability=Flying;\
+        {G}{G}: SN gains first strike until end of turn.
+timing=main
+oracle=Flying\n{G}{G}: Emerald Dragonfly gains first strike until end of turn.

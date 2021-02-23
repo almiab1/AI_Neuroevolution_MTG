@@ -1,0 +1,12 @@
+name=Radiant's Dragoons
+image=https://magiccards.info/scans/en/ul/21.jpg
+value=3.300
+rarity=U
+type=Creature
+subtype=Human,Soldier
+cost={3}{W}
+pt=2/5
+ability=Echo {3}{W};\
+        When SN enters the battlefield, you gain 5 life.
+timing=main
+oracle=Echo {3}{W}\nWhen Radiant's Dragoons enters the battlefield, you gain 5 life.

@@ -1,0 +1,11 @@
+name=Blind Obedience
+image=https://magiccards.info/scans/en/c16/59.jpg
+image_updated=2017-08-17
+value=4.123
+rarity=R
+type=Enchantment
+cost={1}{W}
+ability=Extort;\
+        Artifacts and creatures your opponents control enter the battlefield tapped.
+timing=enchantment
+oracle=Extort\nArtifacts and creatures your opponents control enter the battlefield tapped.

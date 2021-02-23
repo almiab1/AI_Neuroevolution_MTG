@@ -1,0 +1,12 @@
+name=Dire Wolves
+image=https://magiccards.info/scans/en/ia/118.jpg
+value=2.341
+rarity=C
+type=Creature
+subtype=Wolf
+cost={2}{G}
+pt=2/2
+ability=SN has banding as long as you control a Plains.
+timing=main
+oracle=Dire Wolves has banding as long as you control a Plains.
+status=not supported: banding

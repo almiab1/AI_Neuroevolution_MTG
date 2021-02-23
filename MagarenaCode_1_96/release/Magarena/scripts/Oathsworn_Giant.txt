@@ -1,0 +1,12 @@
+name=Oathsworn Giant
+image=https://magiccards.info/scans/en/rav/27.jpg
+value=3.786
+rarity=U
+type=Creature
+subtype=Giant,Soldier
+cost={4}{W}{W}
+pt=3/4
+ability=Vigilance;\
+        Other creatures you control get +0/+2 and have vigilance.
+timing=main
+oracle=Vigilance\nOther creatures you control get +0/+2 and have vigilance.

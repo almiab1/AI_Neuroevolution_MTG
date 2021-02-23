@@ -1,0 +1,10 @@
+name=Return to Dust
+image=https://magiccards.info/scans/en/c14/85.jpg
+value=2.500
+rarity=U
+type=Instant
+cost={2}{W}{W}
+effect=Exile target artifact or enchantment. If you cast this spell during your main phase, you may exile up to one other target artifact or enchantment.
+timing=removal
+oracle=Exile target artifact or enchantment. If you cast this spell during your main phase, you may exile up to one other target artifact or enchantment.
+status=not supported: multiple-targets

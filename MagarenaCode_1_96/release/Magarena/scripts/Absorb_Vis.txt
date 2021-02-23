@@ -1,0 +1,11 @@
+name=Absorb Vis
+image=https://magiccards.info/scans/en/cn2/126.jpg
+image_updated=2017-08-29
+value=2.635
+rarity=C
+type=Sorcery
+cost={6}{B}
+ability=Basic landcycling {1}{B}
+effect=Target player loses 4 life and you gain 4 life.
+timing=main
+oracle=Target player loses 4 life and you gain 4 life.\nBasic landcycling {1}{B}

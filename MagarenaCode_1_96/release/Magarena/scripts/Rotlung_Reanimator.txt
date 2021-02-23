@@ -1,0 +1,11 @@
+name=Rotlung Reanimator
+image=https://magiccards.info/scans/en/on/164.jpg
+value=4.254
+rarity=R
+type=Creature
+subtype=Zombie,Cleric
+cost={2}{B}
+pt=2/2
+ability=Whenever SN or another Cleric dies, create a 2/2 black Zombie creature token.
+timing=main
+oracle=Whenever Rotlung Reanimator or another Cleric dies, create a 2/2 black Zombie creature token.

@@ -1,0 +1,11 @@
+name=Tuktuk Scrapper
+image=https://magiccards.info/scans/en/wwk/94.jpg
+value=3.549
+rarity=U
+type=Creature
+subtype=Goblin,Artificer,Ally
+cost={3}{R}
+pt=2/2
+timing=main
+requires_groovy_code
+oracle=Whenever Tuktuk Scrapper or another Ally enters the battlefield under your control, you may destroy target artifact. If that artifact is put into a graveyard this way, Tuktuk Scrapper deals damage to that artifact's controller equal to the number of Allies you control.

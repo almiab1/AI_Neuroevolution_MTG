@@ -1,0 +1,11 @@
+name=Wizard Mentor
+image=https://magiccards.info/scans/en/us/112.jpg
+value=3.323
+rarity=C
+type=Creature
+subtype=Human,Wizard
+cost={2}{U}
+pt=2/2
+ability={T}: Return target creature you control to its owner's hand.~Return SN to its owner's hand.
+timing=main
+oracle={T}: Return Wizard Mentor and target creature you control to their owner's hand.

@@ -1,0 +1,11 @@
+name=Cinder Giant
+image=https://magiccards.info/scans/en/wl/93.jpg
+value=3.214
+rarity=U
+type=Creature
+subtype=Giant
+cost={3}{R}
+pt=5/3
+ability=At the beginning of your upkeep, SN deals 2 damage to each other creature you control.
+timing=main
+oracle=At the beginning of your upkeep, Cinder Giant deals 2 damage to each other creature you control.

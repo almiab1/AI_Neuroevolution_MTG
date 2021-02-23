@@ -1,0 +1,10 @@
+name=1/1 white Cat creature token with lifelink
+token=Cat
+image=https://magiccards.info/extras/token/amonkhet/cat.jpg
+value=1
+type=Creature
+subtype=Cat
+color=w
+ability=Lifelink
+pt=1/1
+oracle=Lifelink

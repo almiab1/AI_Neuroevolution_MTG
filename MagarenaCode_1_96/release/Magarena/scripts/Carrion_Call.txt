@@ -1,0 +1,9 @@
+name=Carrion Call
+image=https://magiccards.info/scans/en/som/115.jpg
+value=3.093
+rarity=U
+type=Instant
+cost={3}{G}
+effect=Create two 1/1 green Insect creature tokens with infect.
+timing=token
+oracle=Create two 1/1 green Insect creature tokens with infect.

@@ -1,0 +1,12 @@
+name=Mindbreak Trap
+image=https://magiccards.info/scans/en/zen/57.jpg
+value=4.512
+rarity=M
+type=Instant
+subtype=Trap
+cost={2}{U}{U}
+ability=If an opponent cast three or more spells this turn, you may pay {0} rather than pay this spell's mana cost.
+effect=Exile any number of target spells.
+timing=removal
+oracle=If an opponent cast three or more spells this turn, you may pay {0} rather than pay this spell's mana cost.\nExile any number of target spells.
+status=not supported: multiple-targets

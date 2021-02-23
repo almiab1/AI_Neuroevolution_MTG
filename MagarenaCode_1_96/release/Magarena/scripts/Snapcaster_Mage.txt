@@ -1,0 +1,13 @@
+name=Snapcaster Mage
+image=https://magiccards.info/scans/en/mm3/50.jpg
+image_updated=2017-08-08
+value=4.361
+rarity=M
+type=Creature
+subtype=Human,Wizard
+cost={1}{U}
+pt=2/1
+ability=Flash
+timing=pumpFlash
+oracle=Flash\nWhen Snapcaster Mage enters the battlefield, target instant or sorcery card in your graveyard gains flashback until end of turn. The flashback cost is equal to its mana cost.
+requires_groovy_code

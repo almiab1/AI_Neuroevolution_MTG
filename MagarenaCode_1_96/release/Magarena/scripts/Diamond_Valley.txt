@@ -1,0 +1,8 @@
+name=Diamond Valley
+image=https://magiccards.info/scans/en/an/87.jpg
+value=4.500
+rarity=U
+type=Land
+timing=land
+requires_groovy_code
+oracle={T}, Sacrifice a creature: You gain life equal to the sacrificed creature's toughness.

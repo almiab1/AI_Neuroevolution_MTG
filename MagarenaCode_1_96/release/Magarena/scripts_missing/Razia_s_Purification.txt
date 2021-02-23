@@ -1,0 +1,9 @@
+name=Razia's Purification
+image=https://magiccards.info/scans/en/rav/224.jpg
+value=4.000
+rarity=R
+type=Sorcery
+cost={4}{R}{W}
+effect=Each player chooses three permanents he or she controls, then sacrifices the rest.
+timing=main
+oracle=Each player chooses three permanents he or she controls, then sacrifices the rest.

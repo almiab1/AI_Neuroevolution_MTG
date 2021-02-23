@@ -1,0 +1,13 @@
+name=Ludevic's Test Subject
+image=https://magiccards.info/scans/en/isd/64a.jpg
+value=3.806
+rarity=R
+type=Creature
+subtype=Lizard
+cost={1}{U}
+pt=0/3
+ability=Defender
+transform=Ludevic's Abomination
+timing=smain
+oracle=Defender\n{1}{U}: Put a hatchling counter on Ludevic's Test Subject. Then if there are five or more hatchling counters on it, remove all of them and transform it.
+requires_groovy_code

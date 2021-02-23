@@ -1,0 +1,11 @@
+name=Soltari Emissary
+image=https://magiccards.info/scans/en/tp/254.jpg
+value=3.758
+rarity=R
+type=Creature
+subtype=Soltari,Soldier
+cost={1}{W}
+pt=2/1
+ability={W}: SN gains shadow until end of turn.
+timing=main
+oracle={W}: Soltari Emissary gains shadow until end of turn.

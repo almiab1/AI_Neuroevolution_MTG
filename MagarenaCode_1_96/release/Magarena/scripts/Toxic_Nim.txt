@@ -1,0 +1,12 @@
+name=Toxic Nim
+image=https://magiccards.info/scans/en/nph/75.jpg
+value=2.915
+rarity=C
+type=Creature
+subtype=Zombie
+cost={4}{B}{B}
+pt=4/1
+ability=Infect;\
+        {B}: Regenerate SN.
+timing=main
+oracle=Infect\n{B}: Regenerate Toxic Nim.

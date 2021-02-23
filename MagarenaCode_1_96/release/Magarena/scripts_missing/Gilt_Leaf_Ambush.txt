@@ -1,0 +1,10 @@
+name=Gilt-Leaf Ambush
+image=https://magiccards.info/scans/en/lw/214.jpg
+value=3.571
+rarity=C
+type=Tribal,Instant
+subtype=Elf
+cost={2}{G}
+effect=Create two 1/1 green Elf Warrior creature tokens. Clash with an opponent. If you win, those creatures gain deathtouch until end of turn.
+timing=removal
+oracle=Create two 1/1 green Elf Warrior creature tokens. Clash with an opponent. If you win, those creatures gain deathtouch until end of turn.

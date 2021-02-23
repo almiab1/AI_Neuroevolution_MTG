@@ -1,0 +1,10 @@
+name=Meekstone
+image=https://magiccards.info/scans/en/7e/307.jpg
+value=4.299
+rarity=R
+type=Artifact
+cost={1}
+static=all
+ability=Creatures with power 3 or greater don't untap during their controllers' untap steps.
+timing=artifact
+oracle=Creatures with power 3 or greater don't untap during their controllers' untap steps.

@@ -1,0 +1,9 @@
+name=Ivory Cup
+image=https://magiccards.info/scans/en/8e/305.jpg
+value=1.358
+rarity=U
+type=Artifact
+cost={1}
+ability=Whenever a player casts a white spell, you may pay {1}. If you do, you gain 1 life.
+timing=artifact
+oracle=Whenever a player casts a white spell, you may pay {1}. If you do, you gain 1 life.

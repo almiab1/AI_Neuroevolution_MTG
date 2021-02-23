@@ -1,0 +1,9 @@
+name=Ranger's Guile
+image=https://magiccards.info/scans/en/m15/193.jpg
+value=2.700
+rarity=C
+type=Instant
+cost={G}
+effect=Target creature you control gets +1/+1 and gains hexproof until end of turn.
+timing=pump
+oracle=Target creature you control gets +1/+1 and gains hexproof until end of turn.

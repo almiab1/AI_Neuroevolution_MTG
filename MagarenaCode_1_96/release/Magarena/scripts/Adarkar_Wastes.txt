@@ -1,0 +1,10 @@
+name=Adarkar Wastes
+image=https://magiccards.info/scans/en/10e/347.jpg
+value=4.265
+rarity=R
+type=Land
+mana=w2u2
+ability={T}: Add {C}.;\
+        {T}: Add {W} or {U}. SN deals 1 damage to you.
+timing=land
+oracle={T}: Add {C}.\n{T}: Add {W} or {U}. Adarkar Wastes deals 1 damage to you.

@@ -1,0 +1,13 @@
+name=Protean Hulk
+image=https://magiccards.info/scans/en/a25/185.jpg
+image_updated=2018-04-25
+value=4.537
+rarity=R
+type=Creature
+subtype=Beast
+cost={5}{G}{G}
+pt=6/6
+ability=When SN dies, search your library for any number of creature cards with total converted mana cost 6 or less and put them onto the battlefield. Then shuffle your library.
+timing=main
+oracle=When Protean Hulk dies, search your library for any number of creature cards with total converted mana cost 6 or less and put them onto the battlefield. Then shuffle your library.
+status=not supported: any-number-of

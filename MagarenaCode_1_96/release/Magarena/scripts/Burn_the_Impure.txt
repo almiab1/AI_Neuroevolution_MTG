@@ -1,0 +1,10 @@
+name=Burn the Impure
+image=https://magiccards.info/scans/en/mbs/59.jpg
+value=3.279
+removal=3
+rarity=C
+type=Instant
+cost={1}{R}
+timing=removal
+requires_groovy_code
+oracle=Burn the Impure deals 3 damage to target creature. If that creature has infect, Burn the Impure deals 3 damage to that creature's controller.

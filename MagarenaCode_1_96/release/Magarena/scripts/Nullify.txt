@@ -1,0 +1,9 @@
+name=Nullify
+image=https://magiccards.info/scans/en/bng/45.jpg
+value=3.786
+rarity=C
+type=Instant
+cost={U}{U}
+effect=Counter target creature or Aura spell.
+timing=counter
+oracle=Counter target creature or Aura spell.

@@ -1,0 +1,13 @@
+name=Tolarian Drake
+image=https://magiccards.info/scans/en/wl/55.jpg
+value=2.379
+rarity=C
+type=Creature
+subtype=Drake
+cost={2}{U}
+pt=2/4
+ability=Flying;\
+        Phasing
+timing=main
+oracle=Flying\nPhasing
+status=not supported: phasing

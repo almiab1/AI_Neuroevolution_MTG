@@ -1,0 +1,9 @@
+name=Adventurers' Guildhouse
+image=https://magiccards.info/scans/en/lg/245.jpg
+value=1.477
+rarity=U
+type=Land
+ability=Green legendary creatures you control have "bands with other legendary creatures."
+timing=land
+oracle=Green legendary creatures you control have "bands with other legendary creatures."
+status=not supported: banding

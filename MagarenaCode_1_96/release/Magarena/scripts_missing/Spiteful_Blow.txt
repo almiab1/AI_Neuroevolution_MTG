@@ -1,0 +1,10 @@
+name=Spiteful Blow
+image=https://magiccards.info/scans/en/jou/83.jpg
+value=2.885
+rarity=U
+type=Sorcery
+cost={4}{B}{B}
+effect=Destroy target creature and target land.
+timing=main
+oracle=Destroy target creature and target land.
+status=not supported: multiple-targets

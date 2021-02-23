@@ -1,0 +1,11 @@
+name=Mind's Desire
+image=https://magiccards.info/scans/en/sc/41.jpg
+value=4.500
+rarity=R
+type=Sorcery
+cost={4}{U}{U}
+ability=Storm
+effect=Shuffle your library. Then exile the top card of your library. Until end of turn, you may play that card without paying its mana cost.
+timing=storm
+oracle=Shuffle your library. Then exile the top card of your library. Until end of turn, you may play that card without paying its mana cost.\nStorm
+status=not supported: may-play-card

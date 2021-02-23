@@ -1,0 +1,12 @@
+name=Phyrexian Rager
+image=https://magiccards.info/scans/en/ima/102.jpg
+image_updated=2017-04-12
+value=3.884
+rarity=C
+type=Creature
+subtype=Horror
+cost={2}{B}
+pt=2/2
+ability=When SN enters the battlefield, you draw a card and you lose 1 life.
+timing=main
+oracle=When Phyrexian Rager enters the battlefield, you draw a card and you lose 1 life.

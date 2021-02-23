@@ -1,0 +1,11 @@
+name=Gorgon Flail
+image=https://magiccards.info/scans/en/m10/211.jpg
+value=4.181
+rarity=U
+type=Artifact
+subtype=Equipment
+cost={2}
+ability=Equipped creature gets +1/+1 and has deathtouch.;\
+        Equip {2}
+timing=equipment
+oracle=Equipped creature gets +1/+1 and has deathtouch.\nEquip {2}

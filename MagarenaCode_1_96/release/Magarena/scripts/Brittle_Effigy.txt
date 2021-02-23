@@ -1,0 +1,10 @@
+name=Brittle Effigy
+image=https://magiccards.info/scans/en/m11/202.jpg
+value=4.034
+removal=4
+rarity=R
+type=Artifact
+cost={1}
+ability={4}, {T}, Exile SN: Exile target creature.
+timing=artifact
+oracle={4}, {T}, Exile Brittle Effigy: Exile target creature.

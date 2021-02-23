@@ -1,0 +1,9 @@
+name=Head Games
+image=https://magiccards.info/scans/en/10e/148.jpg
+value=3.950
+rarity=R
+type=Sorcery
+cost={3}{B}{B}
+effect=Target opponent puts the cards from his or her hand on top of his or her library. Search that player's library for that many cards. The player puts those cards into his or her hand, then shuffles his or her library.
+timing=main
+oracle=Target opponent puts the cards from his or her hand on top of his or her library. Search that player's library for that many cards. The player puts those cards into his or her hand, then shuffles his or her library.

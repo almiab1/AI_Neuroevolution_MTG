@@ -1,0 +1,13 @@
+name=Drogskol Captain
+image=https://magiccards.info/scans/en/dka/136.jpg
+value=3.891
+rarity=U
+type=Creature
+subtype=Spirit,Soldier
+cost={1}{W}{U}
+pt=2/2
+ability=Flying;\
+        Other Spirit creatures you control get +1/+1 and have hexproof.
+static=player
+timing=main
+oracle=Flying\nOther Spirit creatures you control get +1/+1 and have hexproof.

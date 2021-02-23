@@ -1,0 +1,10 @@
+name=Meteor Shower
+image=https://magiccards.info/scans/en/ia/202.jpg
+value=3.160
+rarity=C
+type=Sorcery
+cost={X}{X}{R}
+effect=SN deals X plus 1 damage divided as you choose among any number of target creatures and/or players.
+timing=main
+oracle=Meteor Shower deals X plus 1 damage divided as you choose among any number of target creatures and/or players.
+status=not supported: multiple-targets

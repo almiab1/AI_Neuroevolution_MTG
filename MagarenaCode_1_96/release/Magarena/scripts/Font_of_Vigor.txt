@@ -1,0 +1,9 @@
+name=Font of Vigor
+image=https://magiccards.info/scans/en/jou/11.jpg
+value=1.339
+rarity=C
+type=Enchantment
+cost={1}{W}
+ability={2}{W}, Sacrifice SN: You gain 7 life.
+timing=enchantment
+oracle={2}{W}, Sacrifice Font of Vigor: You gain 7 life.
