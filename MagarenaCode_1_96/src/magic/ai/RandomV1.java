@@ -11,22 +11,22 @@ import magic.model.MagicPlayer;
 import magic.model.event.MagicEvent;
 import magic.model.phase.MagicStep;
 
-public class MMAB extends MagicAI {
+public class RandomV1 extends MagicAI {
 
     private static final long SEC_TO_NANO=1000000000L;
 
     private final boolean CHEAT;
     private final boolean DECKSTR;
 
-    public MMAB(final boolean cheat) {
+    public RandomV1(final boolean cheat) {
         this(cheat, false);
     }
 
-    public static MMAB DeckStrAI() {
-        return new MMAB(false, true);
+    public static RandomV1 DeckStrAI() {
+        return new RandomV1(false, true);
     }
 
-    private MMAB(final boolean cheat, final boolean deckStr) {
+    private RandomV1(final boolean cheat, final boolean deckStr) {
         CHEAT = cheat;
         DECKSTR = deckStr;
     }
