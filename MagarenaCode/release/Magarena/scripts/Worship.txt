@@ -1,9 +1,0 @@
-name=Worship
-image=https://magiccards.info/scans/en/9e/55.jpg
-value=4.517
-rarity=R
-type=Enchantment
-cost={3}{W}
-timing=enchantment
-requires_groovy_code
-oracle=If you control a creature, damage that would reduce your life total to less than 1 reduces it to 1 instead.

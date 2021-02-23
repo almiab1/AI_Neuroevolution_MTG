@@ -1,9 +1,0 @@
-name=Howl of the Horde
-image=https://magiccards.info/scans/en/ktk/112.jpg
-value=3.375
-rarity=R
-type=Sorcery
-cost={2}{R}
-effect=When you cast your next instant or sorcery spell this turn, copy that spell. You may choose new targets for the copy.~If you attacked with a creature this turn, when you cast your next instant or sorcery spell this turn, copy that spell an additional time. You may choose new targets for the copy.
-timing=main
-oracle=When you cast your next instant or sorcery spell this turn, copy that spell. You may choose new targets for the copy.\nRaid — If you attacked with a creature this turn, when you cast your next instant or sorcery spell this turn, copy that spell an additional time. You may choose new targets for the copy.

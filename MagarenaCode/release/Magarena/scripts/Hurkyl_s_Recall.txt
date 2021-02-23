@@ -1,9 +1,0 @@
-name=Hurkyl's Recall
-image=https://magiccards.info/scans/en/mm2/48.jpg
-value=4.547
-rarity=R
-type=Instant
-cost={1}{U}
-timing=removal
-requires_groovy_code
-oracle=Return all artifacts target player owns to his or her hand.

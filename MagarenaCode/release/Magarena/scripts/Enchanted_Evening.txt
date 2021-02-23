@@ -1,9 +1,0 @@
-name=Enchanted Evening
-image=https://magiccards.info/scans/en/shm/140.jpg
-value=3.861
-rarity=R
-type=Enchantment
-cost={3}{W/U}{W/U}
-timing=enchantment
-oracle=All permanents are enchantments in addition to their other types.
-requires_groovy_code

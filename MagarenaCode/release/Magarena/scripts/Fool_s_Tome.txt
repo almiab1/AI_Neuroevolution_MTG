@@ -1,9 +1,0 @@
-name=Fool's Tome
-image=https://magiccards.info/scans/en/tp/279.jpg
-value=2.632
-rarity=R
-type=Artifact
-cost={4}
-ability={2}, {T}: Draw a card. Activate this ability only if you have no cards in hand.
-timing=artifact
-oracle={2}, {T}: Draw a card. Activate this ability only if you have no cards in hand.

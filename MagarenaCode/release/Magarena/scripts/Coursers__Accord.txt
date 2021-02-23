@@ -1,9 +1,0 @@
-name=Coursers' Accord
-image=https://magiccards.info/scans/en/rtr/154.jpg
-value=2.673
-rarity=C
-type=Sorcery
-cost={4}{G}{W}
-effect=Create a 3/3 green Centaur creature token,~then populate.
-timing=main
-oracle=Create a 3/3 green Centaur creature token, then populate.

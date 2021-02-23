@@ -1,9 +1,0 @@
-name=Stream of Life
-image=https://magiccards.info/scans/en/9e/272.jpg
-value=2.457
-rarity=U
-type=Sorcery
-cost={X}{G}
-effect=Target player gains X life.
-timing=main
-oracle=Target player gains X life.

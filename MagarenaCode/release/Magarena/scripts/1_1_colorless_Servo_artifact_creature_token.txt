@@ -1,8 +1,0 @@
-name=1/1 colorless Servo artifact creature token
-token=Servo
-image=https://magiccards.info/extras/token/kaladesh/servo-1.jpg
-value=1
-pt=1/1
-color=
-subtype=Servo
-type=Artifact,Creature

@@ -1,8 +1,0 @@
-name=3/3 green Centaur enchantment creature token
-token=Centaur
-image=https://magiccards.info/extras/token/born-of-the-gods/centaur.jpg
-value=3
-type=Enchantment,Creature
-subtype=Centaur
-color=g
-pt=3/3

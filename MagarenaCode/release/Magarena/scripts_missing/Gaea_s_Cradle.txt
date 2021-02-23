@@ -1,9 +1,0 @@
-name=Gaea's Cradle
-image=https://magiccards.info/scans/en/us/321.jpg
-value=4.618
-rarity=R
-type=Legendary,Land
-ability={T}: Add {G} for each creature you control.
-timing=land
-oracle={T}: Add {G} for each creature you control.
-status=not supported: add-multiple-mana

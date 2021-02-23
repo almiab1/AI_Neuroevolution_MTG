@@ -1,9 +1,0 @@
-name=Furious Assault
-image=https://magiccards.info/scans/en/mm/191.jpg
-value=3.064
-rarity=C
-type=Enchantment
-cost={2}{R}
-ability=Whenever you cast a creature spell, SN deals 1 damage to target player.
-timing=enchantment
-oracle=Whenever you cast a creature spell, Furious Assault deals 1 damage to target player.

@@ -1,9 +1,0 @@
-name=Tundra
-image=https://magiccards.info/scans/en/rv/304.jpg
-value=4.500
-rarity=R
-type=Land
-subtype=Plains,Island
-mana=u4w4
-timing=land
-oracle=NONE

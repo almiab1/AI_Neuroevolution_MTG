@@ -1,9 +1,0 @@
-name=Stifle
-image=https://magiccards.info/scans/en/cns/108.jpg
-value=4.696
-rarity=R
-type=Instant
-cost={U}
-effect=Counter target activated or triggered ability.
-timing=counter
-oracle=Counter target activated or triggered ability.

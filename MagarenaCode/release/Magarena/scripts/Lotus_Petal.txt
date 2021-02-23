@@ -1,9 +1,0 @@
-name=Lotus Petal
-image=https://magiccards.info/scans/en/tp/284.jpg
-value=4.595
-rarity=C
-type=Artifact
-cost={0}
-ability={T}, Sacrifice SN: Add one mana of any color.
-timing=artifact
-oracle={T}, Sacrifice Lotus Petal: Add one mana of any color.

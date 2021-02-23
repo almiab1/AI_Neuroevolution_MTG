@@ -1,9 +1,0 @@
-name=Horncaller's Chant
-image=https://magiccards.info/scans/en/rtr/128.jpg
-value=2.271
-rarity=C
-type=Sorcery
-cost={7}{G}
-effect=Create a 4/4 green Rhino creature token with trample,~then populate.
-timing=main
-oracle=Create a 4/4 green Rhino creature token with trample, then populate.

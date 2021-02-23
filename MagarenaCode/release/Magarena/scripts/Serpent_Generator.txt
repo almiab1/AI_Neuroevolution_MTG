@@ -1,9 +1,0 @@
-name=Serpent Generator
-image=https://magiccards.info/scans/en/5e/397.jpg
-value=3.094
-rarity=R
-type=Artifact
-cost={6}
-ability={4}, {T}: Create a 1/1 colorless Snake artifact creature token.
-timing=artifact
-oracle={4}, {T}: Create a 1/1 colorless Snake artifact creature token. It has "Whenever this creature deals damage to a player, that player gets a poison counter."

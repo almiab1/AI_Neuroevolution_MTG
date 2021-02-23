@@ -1,9 +1,0 @@
-name=Devastate
-image=https://magiccards.info/scans/en/pr/87.jpg
-value=2.360
-rarity=C
-type=Sorcery
-cost={3}{R}{R}
-effect=Destroy target land.~SN deals 1 damage to each creature and each player.
-timing=main
-oracle=Destroy target land. Devastate deals 1 damage to each creature and each player.

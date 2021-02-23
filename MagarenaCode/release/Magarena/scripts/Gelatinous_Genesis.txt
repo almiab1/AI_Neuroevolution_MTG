@@ -1,9 +1,0 @@
-name=Gelatinous Genesis
-image=https://magiccards.info/scans/en/roe/183.jpg
-value=3.670
-rarity=R
-type=Sorcery
-cost={X}{X}{G}
-timing=main
-requires_groovy_code
-oracle=Create X X/X green Ooze creature tokens.

@@ -1,9 +1,0 @@
-name=Marsh Flats
-image=https://magiccards.info/scans/en/mm3/239.jpg
-image_updated=2017-08-08
-value=4.477
-rarity=R
-type=Land
-ability={T}, Pay 1 life, Sacrifice SN: Search your library for a Plains or Swamp card and put it onto the battlefield. Then shuffle your library.
-timing=land
-oracle={T}, Pay 1 life, Sacrifice Marsh Flats: Search your library for a Plains or Swamp card and put it onto the battlefield. Then shuffle your library.

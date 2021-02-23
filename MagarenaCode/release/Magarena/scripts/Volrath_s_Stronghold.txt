@@ -1,9 +1,0 @@
-name=Volrath's Stronghold
-image=https://magiccards.info/scans/en/sh/137.jpg
-value=4.453
-rarity=R
-type=Legendary,Land
-ability={T}: Add {C}.;\
-        {1}{B}, {T}: Put target creature card from your graveyard on top of your library.
-timing=land
-oracle={T}: Add {C}.\n{1}{B}, {T}: Put target creature card from your graveyard on top of your library.

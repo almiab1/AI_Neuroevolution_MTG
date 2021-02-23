@@ -1,9 +1,0 @@
-name=Nantuko Shrine
-image=https://magiccards.info/scans/en/od/256.jpg
-value=3.000
-rarity=R
-type=Enchantment
-cost={1}{G}{G}
-timing=enchantment
-oracle=Whenever a player casts a spell, that player creates X 1/1 green Squirrel creature tokens, where X is the number of cards in all graveyards with the same name as that spell.
-requires_groovy_code

@@ -1,9 +1,0 @@
-name=Profane Memento
-image=https://magiccards.info/scans/en/m15/226.jpg
-value=2.667
-rarity=U
-type=Artifact
-cost={1}
-timing=artifact
-oracle=Whenever a creature card is put into an opponent's graveyard from anywhere, you gain 1 life.
-requires_groovy_code

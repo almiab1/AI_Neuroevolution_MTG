@@ -1,9 +1,0 @@
-name=Identity Crisis
-image=https://magiccards.info/scans/en/arb/81.jpg
-value=3.276
-rarity=R
-type=Sorcery
-cost={2}{W}{W}{B}{B}
-timing=main
-requires_groovy_code
-oracle=Exile all cards from target player's hand and graveyard.

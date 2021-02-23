@@ -1,9 +1,0 @@
-name=Rain of Embers
-image=https://magiccards.info/scans/en/rav/138.jpg
-value=2.797
-rarity=C
-type=Sorcery
-cost={1}{R}
-effect=SN deals 1 damage to each creature and each player.
-timing=main
-oracle=Rain of Embers deals 1 damage to each creature and each player.

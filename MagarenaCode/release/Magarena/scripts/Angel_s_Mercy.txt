@@ -1,9 +1,0 @@
-name=Angel's Mercy
-image=https://magiccards.info/scans/en/m13/3.jpg
-value=1.355
-rarity=C
-type=Instant
-cost={2}{W}{W}
-effect=You gain 7 life.
-timing=draw
-oracle=You gain 7 life.

@@ -1,9 +1,0 @@
-name=Onslaught
-image=https://magiccards.info/scans/en/ex/92.jpg
-value=3.935
-rarity=C
-type=Enchantment
-cost={R}
-ability=Whenever you cast a creature spell, tap target creature.
-timing=enchantment
-oracle=Whenever you cast a creature spell, tap target creature.

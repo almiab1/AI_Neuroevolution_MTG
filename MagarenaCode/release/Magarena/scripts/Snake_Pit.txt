@@ -1,9 +1,0 @@
-name=Snake Pit
-image=https://magiccards.info/scans/en/mm/271.jpg
-value=3.942
-rarity=U
-type=Enchantment
-cost={3}{G}
-ability=Whenever an opponent casts a blue or black spell, you may create a 1/1 green Snake creature token.
-timing=enchantment
-oracle=Whenever an opponent casts a blue or black spell, you may create a 1/1 green Snake creature token.

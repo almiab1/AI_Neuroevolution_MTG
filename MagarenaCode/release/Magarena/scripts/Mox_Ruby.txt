@@ -1,9 +1,0 @@
-name=Mox Ruby
-image=https://magiccards.info/scans/en/un/265.jpg
-value=4.875
-rarity=R
-type=Artifact
-cost={0}
-ability={T}: Add {R}.
-timing=artifact
-oracle={T}: Add {R}.

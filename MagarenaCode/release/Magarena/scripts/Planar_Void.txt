@@ -1,9 +1,0 @@
-name=Planar Void
-image=https://magiccards.info/scans/en/us/149.jpg
-value=4.173
-rarity=U
-type=Enchantment
-cost={B}
-timing=enchantment
-requires_groovy_code
-oracle=Whenever another card is put into a graveyard from anywhere, exile that card.

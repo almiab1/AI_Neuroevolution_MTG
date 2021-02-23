@@ -1,9 +1,0 @@
-name=Treasured Find
-image=https://magiccards.info/scans/en/rtr/204.jpg
-value=3.812
-rarity=U
-type=Sorcery
-cost={B}{G}
-effect=Return target card from your graveyard to your hand.~Exile SN.
-timing=main
-oracle=Return target card from your graveyard to your hand. Exile Treasured Find.

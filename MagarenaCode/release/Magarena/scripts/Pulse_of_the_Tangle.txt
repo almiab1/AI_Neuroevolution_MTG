@@ -1,9 +1,0 @@
-name=Pulse of the Tangle
-image=https://magiccards.info/scans/en/ds/80.jpg
-value=4.340
-rarity=R
-type=Sorcery
-cost={1}{G}{G}
-effect=Create a 3/3 green Beast creature token.~Then if an opponent controls more creatures than you, return SN to its owner's hand.
-timing=main
-oracle=Create a 3/3 green Beast creature token. Then if an opponent controls more creatures than you, return Pulse of the Tangle to its owner's hand.

@@ -1,9 +1,0 @@
-name=Last Breath
-image=https://magiccards.info/scans/en/shm/11.jpg
-value=2.682
-rarity=C
-type=Instant
-cost={1}{W}
-effect=Exile target creature with power 2 or less.~Its controller gains 4 life.
-timing=removal
-oracle=Exile target creature with power 2 or less. Its controller gains 4 life.

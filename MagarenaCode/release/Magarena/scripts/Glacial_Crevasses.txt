@@ -1,9 +1,0 @@
-name=Glacial Crevasses
-image=https://magiccards.info/scans/en/ia/187.jpg
-value=3.540
-rarity=R
-type=Enchantment
-cost={2}{R}
-ability=Sacrifice a snow Mountain: Prevent all combat damage that would be dealt this turn.
-timing=enchantment
-oracle=Sacrifice a snow Mountain: Prevent all combat damage that would be dealt this turn.

@@ -1,9 +1,0 @@
-name=Screams of the Damned
-image=https://magiccards.info/scans/en/od/160.jpg
-value=1.500
-rarity=U
-type=Enchantment
-cost={3}{B}{B}
-ability={1}{B}, Exile a card from your graveyard: SN deals 1 damage to each creature and each player.
-timing=enchantment
-oracle={1}{B}, Exile a card from your graveyard: Screams of the Damned deals 1 damage to each creature and each player.

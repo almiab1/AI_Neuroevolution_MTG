@@ -1,9 +1,0 @@
-name=Herbal Poultice
-image=https://magiccards.info/scans/en/lw/257.jpg
-value=2.150
-rarity=C
-type=Artifact
-cost={0}
-ability={3}, Sacrifice SN: Regenerate target creature.
-timing=artifact
-oracle={3}, Sacrifice Herbal Poultice: Regenerate target creature.

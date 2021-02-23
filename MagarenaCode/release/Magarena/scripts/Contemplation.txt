@@ -1,9 +1,0 @@
-name=Contemplation
-image=https://magiccards.info/scans/en/sh/104.jpg
-value=3.266
-rarity=U
-type=Enchantment
-cost={1}{W}{W}
-ability=Whenever you cast a spell, you gain 1 life.
-timing=enchantment
-oracle=Whenever you cast a spell, you gain 1 life.

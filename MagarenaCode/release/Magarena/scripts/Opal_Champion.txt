@@ -1,9 +1,0 @@
-name=Opal Champion
-image=https://magiccards.info/scans/en/ul/16.jpg
-value=3.420
-rarity=C
-type=Enchantment
-cost={2}{W}
-ability=When an opponent casts a creature spell, if SN is an enchantment, SN becomes a 3/3 Knight creature with first strike.
-timing=enchantment
-oracle=When an opponent casts a creature spell, if Opal Champion is an enchantment, Opal Champion becomes a 3/3 Knight creature with first strike.

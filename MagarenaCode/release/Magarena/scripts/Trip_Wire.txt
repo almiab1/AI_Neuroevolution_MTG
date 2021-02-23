@@ -1,9 +1,0 @@
-name=Trip Wire
-image=https://magiccards.info/scans/en/p3k/156.jpg
-value=1.500
-rarity=U
-type=Sorcery
-cost={2}{G}
-effect=Destroy target creature with horsemanship.
-timing=main
-oracle=Destroy target creature with horsemanship.

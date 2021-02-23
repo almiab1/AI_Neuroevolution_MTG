@@ -1,9 +1,0 @@
-name=Forget
-image=https://magiccards.info/scans/en/6e/70.jpg
-value=3.216
-rarity=R
-type=Sorcery
-cost={U}{U}
-effect=Target player discards two cards, then draws as many cards as he or she discarded this way.
-timing=main
-oracle=Target player discards two cards, then draws as many cards as he or she discarded this way.

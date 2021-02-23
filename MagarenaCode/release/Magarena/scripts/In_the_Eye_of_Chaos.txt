@@ -1,9 +1,0 @@
-name=In the Eye of Chaos
-image=https://magiccards.info/scans/en/lg/61.jpg
-value=4.333
-rarity=R
-type=World,Enchantment
-cost={2}{U}
-timing=enchantment
-requires_groovy_code
-oracle=Whenever a player casts an instant spell, counter it unless that player pays {X}, where X is its converted mana cost.

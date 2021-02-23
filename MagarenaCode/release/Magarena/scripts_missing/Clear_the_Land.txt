@@ -1,9 +1,0 @@
-name=Clear the Land
-image=https://magiccards.info/scans/en/mm/235.jpg
-value=3.750
-rarity=R
-type=Sorcery
-cost={2}{G}
-effect=Each player reveals the top five cards of his or her library, puts all land cards revealed this way onto the battlefield tapped, and exiles the rest.
-timing=main
-oracle=Each player reveals the top five cards of his or her library, puts all land cards revealed this way onto the battlefield tapped, and exiles the rest.

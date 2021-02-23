@@ -1,9 +1,0 @@
-name=Yavimaya Hollow
-image=https://magiccards.info/scans/en/ud/143.jpg
-value=4.500
-rarity=R
-type=Legendary,Land
-ability={T}: Add {C}.;\
-        {G}, {T}: Regenerate target creature.
-timing=land
-oracle={T}: Add {C}.\n{G}, {T}: Regenerate target creature.

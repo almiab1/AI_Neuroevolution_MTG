@@ -1,3 +1,0 @@
-[
-    PreventDamageTrigger.PreventCombatDamageDealtToDealtBy
-]

@@ -1,9 +1,0 @@
-name=Animate Land
-image=https://magiccards.info/scans/en/ne/101.jpg
-value=3.975
-rarity=U
-type=Instant
-cost={G}
-effect=Until end of turn, target land becomes a 3/3 creature that's still a land.
-timing=animate
-oracle=Until end of turn, target land becomes a 3/3 creature that's still a land.

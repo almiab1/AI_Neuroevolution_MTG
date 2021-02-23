@@ -1,9 +1,0 @@
-name=Goblin Trenches
-image=https://magiccards.info/scans/en/ema/203.jpg
-value=4.337
-rarity=R
-type=Enchantment
-cost={1}{R}{W}
-ability={2}, Sacrifice a land: Create two 1/1 red and white Goblin Soldier creature tokens.
-timing=enchantment
-oracle={2}, Sacrifice a land: Create two 1/1 red and white Goblin Soldier creature tokens.

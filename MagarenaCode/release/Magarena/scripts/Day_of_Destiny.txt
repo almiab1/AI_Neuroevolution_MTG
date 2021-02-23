@@ -1,9 +1,0 @@
-name=Day of Destiny
-image=https://magiccards.info/scans/en/bok/1.jpg
-value=3.478
-rarity=R
-type=Legendary,Enchantment
-cost={3}{W}
-ability=Legendary creatures you control get +2/+2.
-timing=enchantment
-oracle=Legendary creatures you control get +2/+2.

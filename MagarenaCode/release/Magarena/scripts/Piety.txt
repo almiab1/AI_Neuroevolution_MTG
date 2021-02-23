@@ -1,9 +1,0 @@
-name=Piety
-image=https://magiccards.info/scans/en/4e/291.jpg
-value=1.452
-rarity=C
-type=Instant
-cost={2}{W}
-effect=Blocking creatures get +0/+3 until end of turn.
-timing=block
-oracle=Blocking creatures get +0/+3 until end of turn.

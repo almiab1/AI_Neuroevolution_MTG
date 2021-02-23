@@ -1,9 +1,0 @@
-name=Dovescape
-image=https://magiccards.info/scans/en/di/143.jpg
-value=4.057
-rarity=R
-type=Enchantment
-cost={3}{W/U}{W/U}{W/U}
-timing=enchantment
-requires_groovy_code
-oracle=Whenever a player casts a noncreature spell, counter that spell. That player creates X 1/1 white and blue Bird creature tokens with flying, where X is the spell's converted mana cost.

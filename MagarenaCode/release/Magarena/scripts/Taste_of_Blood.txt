@@ -1,9 +1,0 @@
-name=Taste of Blood
-image=https://magiccards.info/scans/en/m12/113.jpg
-value=1.946
-rarity=C
-type=Sorcery
-cost={B}
-effect=SN deals 1 damage to target player~and you gain 1 life.
-timing=removal
-oracle=Taste of Blood deals 1 damage to target player and you gain 1 life.

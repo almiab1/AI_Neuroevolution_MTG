@@ -1,9 +1,0 @@
-name=Essence Filter
-image=https://magiccards.info/scans/en/ia/121.jpg
-value=3.850
-rarity=C
-type=Sorcery
-cost={1}{G}{G}
-timing=main
-requires_groovy_code
-oracle=Destroy all enchantments or all nonwhite enchantments.

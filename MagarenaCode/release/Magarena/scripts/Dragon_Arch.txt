@@ -1,9 +1,0 @@
-name=Dragon Arch
-image=https://magiccards.info/scans/en/ap/135.jpg
-value=4.425
-rarity=U
-type=Artifact
-cost={5}
-ability={2}, {T}: You may put a multicolored creature card from your hand onto the battlefield.
-timing=artifact
-oracle={2}, {T}: You may put a multicolored creature card from your hand onto the battlefield.

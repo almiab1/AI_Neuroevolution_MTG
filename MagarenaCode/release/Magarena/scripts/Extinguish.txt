@@ -1,9 +1,0 @@
-name=Extinguish
-image=https://magiccards.info/scans/en/st/37.jpg
-value=1.307
-rarity=C
-type=Instant
-cost={1}{U}
-effect=Counter target sorcery spell.
-timing=counter
-oracle=Counter target sorcery spell.

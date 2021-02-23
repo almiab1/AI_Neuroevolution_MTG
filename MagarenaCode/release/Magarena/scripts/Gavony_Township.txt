@@ -1,9 +1,0 @@
-name=Gavony Township
-image=https://magiccards.info/scans/en/isd/239.jpg
-value=3.896
-rarity=R
-type=Land
-ability={T}: Add {C}.;\
-        {2}{G}{W}, {T}: Put a +1/+1 counter on each creature you control.
-timing=land
-oracle={T}: Add {C}.\n{2}{G}{W}, {T}: Put a +1/+1 counter on each creature you control.

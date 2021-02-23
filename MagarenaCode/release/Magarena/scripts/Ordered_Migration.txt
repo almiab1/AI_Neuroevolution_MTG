@@ -1,9 +1,0 @@
-name=Ordered Migration
-image=https://magiccards.info/scans/en/in/258.jpg
-value=3.050
-rarity=U
-type=Sorcery
-cost={3}{W}{U}
-effect=Create a 1/1 blue Bird creature token with flying for each basic land type among lands you control.
-timing=main
-oracle=Domain — Create a 1/1 blue Bird creature token with flying for each basic land type among lands you control.

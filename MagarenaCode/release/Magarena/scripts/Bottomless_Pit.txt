@@ -1,9 +1,0 @@
-name=Bottomless Pit
-image=https://magiccards.info/scans/en/sh/1.jpg
-value=3.732
-rarity=U
-type=Enchantment
-cost={1}{B}{B}
-ability=At the beginning of each player's upkeep, that player discards a card at random.
-timing=enchantment
-oracle=At the beginning of each player's upkeep, that player discards a card at random.

@@ -1,9 +1,0 @@
-name=Vile Rebirth
-image=https://magiccards.info/scans/en/m13/115.jpg
-value=3.569
-rarity=C
-type=Instant
-cost={B}
-effect=Exile target creature card from a graveyard.~Create a 2/2 black Zombie creature token.
-timing=token
-oracle=Exile target creature card from a graveyard. Create a 2/2 black Zombie creature token.

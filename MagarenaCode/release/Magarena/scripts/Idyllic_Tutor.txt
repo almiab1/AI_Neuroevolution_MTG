@@ -1,9 +1,0 @@
-name=Idyllic Tutor
-image=https://magiccards.info/scans/en/mt/12.jpg
-value=3.621
-rarity=R
-type=Sorcery
-cost={2}{W}
-effect=Search your library for an enchantment card, reveal it, and put it into your hand. Then shuffle your library.
-timing=main
-oracle=Search your library for an enchantment card, reveal it, and put it into your hand. Then shuffle your library.

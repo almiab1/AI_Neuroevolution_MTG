@@ -1,9 +1,0 @@
-name=Envelop
-image=https://magiccards.info/scans/en/ju/39.jpg
-value=3.068
-rarity=C
-type=Instant
-cost={U}
-effect=Counter target sorcery spell.
-timing=counter
-oracle=Counter target sorcery spell.

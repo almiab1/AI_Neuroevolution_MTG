@@ -1,9 +1,0 @@
-name=Martial Law
-image=https://magiccards.info/scans/en/rtr/14.jpg
-value=3.833
-rarity=R
-type=Enchantment
-cost={2}{W}{W}
-ability=At the beginning of your upkeep, detain target creature an opponent controls.
-timing=enchantment
-oracle=At the beginning of your upkeep, detain target creature an opponent controls.

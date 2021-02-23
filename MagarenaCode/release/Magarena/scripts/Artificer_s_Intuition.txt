@@ -1,9 +1,0 @@
-name=Artificer's Intuition
-image=https://magiccards.info/scans/en/5dn/23.jpg
-value=3.475
-rarity=R
-type=Enchantment
-cost={1}{U}
-ability={U}, Discard an artifact card: Search your library for an artifact card with converted mana cost 1 or less, reveal that card, and put it into your hand. Then shuffle your library.
-timing=enchantment
-oracle={U}, Discard an artifact card: Search your library for an artifact card with converted mana cost 1 or less, reveal that card, and put it into your hand. Then shuffle your library.

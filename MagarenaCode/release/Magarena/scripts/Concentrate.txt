@@ -1,9 +1,0 @@
-name=Concentrate
-image=https://magiccards.info/scans/en/c14/103.jpg
-value=3.946
-rarity=U
-type=Sorcery
-cost={2}{U}{U}
-effect=Draw three cards.
-timing=draw
-oracle=Draw three cards.

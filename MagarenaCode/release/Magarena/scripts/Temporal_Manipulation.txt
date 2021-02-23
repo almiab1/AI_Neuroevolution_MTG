@@ -1,9 +1,0 @@
-name=Temporal Manipulation
-image=https://magiccards.info/scans/en/po2/54.jpg
-value=3.976
-rarity=R
-type=Sorcery
-cost={3}{U}{U}
-effect=Take an extra turn after this one.
-timing=main
-oracle=Take an extra turn after this one.

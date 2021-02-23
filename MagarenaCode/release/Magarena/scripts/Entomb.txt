@@ -1,9 +1,0 @@
-name=Entomb
-image=https://magiccards.info/scans/en/ema/87.jpg
-value=4.524
-rarity=R
-type=Instant
-cost={B}
-effect=Search your library for a card and put that card into your graveyard. Then shuffle your library.
-timing=draw
-oracle=Search your library for a card and put that card into your graveyard. Then shuffle your library.

@@ -1,9 +1,0 @@
-name=Boiling Blood
-image=https://magiccards.info/scans/en/wl/92.jpg
-value=2.379
-rarity=C
-type=Instant
-cost={2}{R}
-effect=Target creature attacks this turn if able.~Draw a card.
-timing=mustattack
-oracle=Target creature attacks this turn if able.\nDraw a card.

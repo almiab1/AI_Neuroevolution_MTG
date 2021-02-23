@@ -1,9 +1,0 @@
-name=Aliban's Tower
-image=https://magiccards.info/scans/en/hl/76.jpg
-value=2.115
-rarity=C
-type=Instant
-cost={1}{R}
-effect=Target blocking creature gets +3/+1 until end of turn.
-timing=pump
-oracle=Target blocking creature gets +3/+1 until end of turn.

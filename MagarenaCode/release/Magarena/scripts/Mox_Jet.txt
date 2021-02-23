@@ -1,9 +1,0 @@
-name=Mox Jet
-image=https://magiccards.info/scans/en/un/263.jpg
-value=4.100
-rarity=R
-type=Artifact
-cost={0}
-ability={T}: Add {B}.
-timing=artifact
-oracle={T}: Add {B}.

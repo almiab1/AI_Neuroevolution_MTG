@@ -1,9 +1,0 @@
-name=Savage Surge
-image=https://magiccards.info/scans/en/rtr/133.jpg
-value=3.276
-rarity=U
-type=Instant
-cost={1}{G}
-effect=Target creature gets +2/+2 until end of turn.~Untap *that creature*.
-timing=pump
-oracle=Target creature gets +2/+2 until end of turn. Untap that creature.

@@ -1,9 +1,0 @@
-name=Vendetta
-image=https://magiccards.info/scans/en/roe/130.jpg
-value=4.081
-rarity=C
-type=Instant
-cost={B}
-timing=removal
-requires_groovy_code
-oracle=Destroy target nonblack creature. It can't be regenerated. You lose life equal to that creature's toughness.

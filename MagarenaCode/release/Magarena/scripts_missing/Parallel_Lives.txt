@@ -1,9 +1,0 @@
-name=Parallel Lives
-image=https://magiccards.info/scans/en/isd/199.jpg
-value=3.896
-rarity=R
-type=Enchantment
-cost={3}{G}
-ability=If an effect would create one or more tokens under your control, it creates twice that many of those tokens instead.
-timing=enchantment
-oracle=If an effect would create one or more tokens under your control, it creates twice that many of those tokens instead.

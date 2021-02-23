@@ -1,9 +1,0 @@
-name=Enter the Infinite
-image=https://magiccards.info/scans/en/gtc/34.jpg
-value=3.435
-rarity=M
-type=Sorcery
-cost={8}{U}{U}{U}{U}
-effect=Draw cards equal to the number of cards in your library, then put a card from your hand on top of your library. You have no maximum hand size until your next turn.
-timing=main
-oracle=Draw cards equal to the number of cards in your library, then put a card from your hand on top of your library. You have no maximum hand size until your next turn.

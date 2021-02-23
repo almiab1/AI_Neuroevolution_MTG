@@ -1,9 +1,0 @@
-name=Ancient Ziggurat
-image=https://magiccards.info/scans/en/cfx/141.jpg
-value=4.165
-rarity=U
-type=Land
-ability={T}: Add one mana of any color. Spend this mana only to cast a creature spell.
-timing=land
-oracle={T}: Add one mana of any color. Spend this mana only to cast a creature spell.
-status=not supported: mana-restriction

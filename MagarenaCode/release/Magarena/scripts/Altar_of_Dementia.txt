@@ -1,9 +1,0 @@
-name=Altar of Dementia
-image=https://magiccards.info/scans/en/cns/196.jpg
-value=4.393
-rarity=R
-type=Artifact
-cost={2}
-timing=artifact
-oracle=Sacrifice a creature: Target player puts a number of cards equal to the sacrificed creature's power from the top of his or her library into his or her graveyard.
-requires_groovy_code

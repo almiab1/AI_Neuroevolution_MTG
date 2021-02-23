@@ -1,9 +1,0 @@
-name=Inspiration
-image=https://magiccards.info/scans/en/rtr/42.jpg
-value=3.508
-rarity=C
-type=Instant
-cost={3}{U}
-effect=Target player draws two cards.
-timing=draw
-oracle=Target player draws two cards.

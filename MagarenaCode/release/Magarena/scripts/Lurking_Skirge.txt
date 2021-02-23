@@ -1,9 +1,0 @@
-name=Lurking Skirge
-image=https://magiccards.info/scans/en/ul/55.jpg
-value=3.853
-rarity=R
-type=Enchantment
-cost={1}{B}
-timing=enchantment
-requires_groovy_code
-oracle=When a creature is put into an opponent's graveyard from the battlefield, if Lurking Skirge is an enchantment, Lurking Skirge becomes a 3/2 Imp creature with flying.

@@ -1,8 +1,0 @@
-name=3/3 black Kavu creature token
-token=Kavu
-image=http://cdn.staticneo.com/w/mtg/4/42/Kavu.jpg
-value=3
-type=Creature
-subtype=Kavu
-color=b
-pt=3/3

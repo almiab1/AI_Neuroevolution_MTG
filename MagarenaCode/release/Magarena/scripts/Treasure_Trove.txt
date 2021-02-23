@@ -1,9 +1,0 @@
-name=Treasure Trove
-image=https://magiccards.info/scans/en/9e/110.jpg
-value=3.100
-rarity=U
-type=Enchantment
-cost={2}{U}{U}
-ability={2}{U}{U}: Draw a card.
-timing=enchantment
-oracle={2}{U}{U}: Draw a card.

@@ -1,9 +1,0 @@
-name=Gaze of the Gorgon
-image=https://magiccards.info/scans/en/rav/246.jpg
-value=3.395
-rarity=C
-type=Instant
-cost={3}{B/G}
-effect=Regenerate target creature. At this turn's next end of combat, destroy all creatures that blocked or were blocked by it this turn.
-timing=removal
-oracle=Regenerate target creature. At this turn's next end of combat, destroy all creatures that blocked or were blocked by it this turn.

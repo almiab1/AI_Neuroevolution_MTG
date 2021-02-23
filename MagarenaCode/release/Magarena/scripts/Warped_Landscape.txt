@@ -1,9 +1,0 @@
-name=Warped Landscape
-image=https://magiccards.info/scans/en/soi/280.jpg
-value=2.500
-rarity=C
-type=Land
-ability={T}: Add {C}.;\
-        {2}, {T}, Sacrifice SN: Search your library for a basic land card and put it onto the battlefield tapped. Then shuffle your library.
-timing=land
-oracle={T}: Add {C}.\n{2}, {T}, Sacrifice Warped Landscape: Search your library for a basic land card and put it onto the battlefield tapped. Then shuffle your library.

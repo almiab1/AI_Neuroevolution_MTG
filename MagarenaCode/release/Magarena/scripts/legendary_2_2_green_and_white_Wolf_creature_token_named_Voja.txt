@@ -1,8 +1,0 @@
-name=legendary 2/2 green and white Wolf creature token named Voja
-token=Voja
-image=http://cdn.staticneo.com/w/mtg/9/91/Voja.jpg
-value=2
-type=Legendary,Creature
-subtype=Wolf
-color=gw
-pt=2/2

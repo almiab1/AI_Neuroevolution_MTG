@@ -1,9 +1,0 @@
-name=Pegasus Refuge
-image=https://magiccards.info/scans/en/tp/247.jpg
-value=2.203
-rarity=R
-type=Enchantment
-cost={3}{W}
-ability={2}, Discard a card: Create a 1/1 white Pegasus creature token with flying.
-timing=enchantment
-oracle={2}, Discard a card: Create a 1/1 white Pegasus creature token with flying.

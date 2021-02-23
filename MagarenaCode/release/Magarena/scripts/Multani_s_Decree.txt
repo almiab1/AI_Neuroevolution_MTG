@@ -1,9 +1,0 @@
-name=Multani's Decree
-image=https://magiccards.info/scans/en/ud/114.jpg
-value=3.983
-rarity=C
-type=Sorcery
-cost={3}{G}
-timing=main
-requires_groovy_code
-oracle=Destroy all enchantments. You gain 2 life for each enchantment destroyed this way.

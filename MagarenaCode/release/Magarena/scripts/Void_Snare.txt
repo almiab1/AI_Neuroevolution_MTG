@@ -1,9 +1,0 @@
-name=Void Snare
-image=https://magiccards.info/scans/en/m15/82.jpg
-value=3.722
-rarity=C
-type=Sorcery
-cost={U}
-effect=Return target nonland permanent to its owner's hand.
-timing=main
-oracle=Return target nonland permanent to its owner's hand.

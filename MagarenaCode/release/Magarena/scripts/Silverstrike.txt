@@ -1,9 +1,0 @@
-name=Silverstrike
-image=https://magiccards.info/scans/en/soi/37.jpg
-value=2.500
-rarity=U
-type=Instant
-cost={3}{W}
-effect=Destroy target attacking creature.~You gain 3 life.
-timing=removal
-oracle=Destroy target attacking creature. You gain 3 life.

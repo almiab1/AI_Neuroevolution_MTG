@@ -1,9 +1,0 @@
-name=False Summoning
-image=https://magiccards.info/scans/en/po2/40.jpg
-value=3.688
-rarity=C
-type=Instant
-cost={1}{U}
-effect=Counter target creature spell.
-timing=counter
-oracle=Counter target creature spell.

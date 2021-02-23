@@ -1,9 +1,0 @@
-name=Flurry of Horns
-image=https://magiccards.info/scans/en/jou/96.jpg
-value=3.720
-rarity=C
-type=Sorcery
-cost={4}{R}
-effect=Create two 2/3 red Minotaur creature tokens with haste.
-timing=main
-oracle=Create two 2/3 red Minotaur creature tokens with haste.

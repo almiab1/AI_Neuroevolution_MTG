@@ -1,9 +1,0 @@
-name=Gallantry
-image=https://magiccards.info/scans/en/od/23.jpg
-value=3.196
-rarity=U
-type=Instant
-cost={1}{W}
-effect=Target blocking creature gets +4/+4 until end of turn.~Draw a card.
-timing=pump
-oracle=Target blocking creature gets +4/+4 until end of turn.\nDraw a card.

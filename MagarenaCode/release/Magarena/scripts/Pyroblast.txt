@@ -1,9 +1,0 @@
-name=Pyroblast
-image=https://magiccards.info/scans/en/ema/142.jpg
-value=4.530
-rarity=U
-type=Instant
-cost={R}
-effect=Choose one — (1) Counter target blue spell. (2) Destroy target blue permanent.
-timing=counter
-oracle=Choose one —\n• Counter target spell if it's blue.\n• Destroy target permanent if it's blue.

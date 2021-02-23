@@ -1,9 +1,0 @@
-name=Breathstealer's Crypt
-image=https://magiccards.info/scans/en/vi/127.jpg
-value=3.387
-rarity=R
-type=Enchantment
-cost={2}{U}{B}
-timing=enchantment
-requires_groovy_code
-oracle=If a player would draw a card, instead he or she draws a card and reveals it. If it's a creature card, that player discards it unless he or she pays 3 life.

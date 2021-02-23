@@ -1,9 +1,0 @@
-name=Boundless Realms
-image=https://magiccards.info/scans/en/m13/162.jpg
-value=3.638
-rarity=R
-type=Sorcery
-cost={6}{G}
-timing=main
-requires_groovy_code
-oracle=Search your library for up to X basic land cards, where X is the number of lands you control, and put them onto the battlefield tapped. Then shuffle your library.

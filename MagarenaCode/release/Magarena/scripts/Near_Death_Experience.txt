@@ -1,9 +1,0 @@
-name=Near-Death Experience
-image=https://magiccards.info/scans/en/roe/38.jpg
-value=3.863
-rarity=R
-type=Enchantment
-cost={2}{W}{W}{W}
-timing=enchantment
-oracle=At the beginning of your upkeep, if you have exactly 1 life, you win the game.
-requires_groovy_code

@@ -1,9 +1,0 @@
-name=Prosperity
-image=https://magiccards.info/scans/en/6e/89.jpg
-value=4.318
-rarity=U
-type=Sorcery
-cost={X}{U}
-effect=Each player draws X cards.
-timing=main
-oracle=Each player draws X cards.

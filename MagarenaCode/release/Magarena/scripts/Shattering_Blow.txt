@@ -1,9 +1,0 @@
-name=Shattering Blow
-image=https://magiccards.info/scans/en/gtc/225.jpg
-value=4.177
-rarity=C
-type=Instant
-cost={1}{R/W}
-effect=Exile target artifact.
-timing=removal
-oracle=Exile target artifact.

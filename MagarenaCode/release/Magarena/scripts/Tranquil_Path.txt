@@ -1,9 +1,0 @@
-name=Tranquil Path
-image=https://magiccards.info/scans/en/ap/89.jpg
-value=3.080
-rarity=C
-type=Sorcery
-cost={4}{G}
-effect=Destroy all enchantments.~Draw a card.
-timing=main
-oracle=Destroy all enchantments.\nDraw a card.

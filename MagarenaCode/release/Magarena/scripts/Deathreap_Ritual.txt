@@ -1,9 +1,0 @@
-name=Deathreap Ritual
-image=https://magiccards.info/scans/en/cns/44.jpg
-value=4.111
-rarity=U
-type=Enchantment
-cost={2}{B}{G}
-ability=At the beginning of each end step, if a creature died this turn, you may draw a card.
-timing=enchantment
-oracle=Morbid — At the beginning of each end step, if a creature died this turn, you may draw a card.

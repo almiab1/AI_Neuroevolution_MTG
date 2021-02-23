@@ -1,9 +1,0 @@
-name=Shoving Match
-image=https://magiccards.info/scans/en/mm/103.jpg
-value=3.837
-rarity=U
-type=Instant
-cost={2}{U}
-effect=Until end of turn, all creatures gain "{T}: Tap target creature."
-timing=tapping
-oracle=Until end of turn, all creatures gain "{T}: Tap target creature."

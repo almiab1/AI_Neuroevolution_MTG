@@ -1,9 +1,0 @@
-name=Thran Forge
-image=https://magiccards.info/scans/en/wl/159.jpg
-value=3.333
-rarity=U
-type=Artifact
-cost={3}
-timing=artifact
-oracle={2}: Until end of turn, target nonartifact creature gets +1/+0 and becomes an artifact in addition to its other types.
-requires_groovy_code

@@ -1,9 +1,0 @@
-name=Land Tax
-image=https://magiccards.info/scans/en/4e/284.jpg
-value=4.588
-rarity=R
-type=Enchantment
-cost={W}
-ability=At the beginning of your upkeep, if an opponent controls more lands than you, you may search your library for up to three basic land cards, reveal them, and put them into your hand. If you do, shuffle your library.
-timing=enchantment
-oracle=At the beginning of your upkeep, if an opponent controls more lands than you, you may search your library for up to three basic land cards, reveal them, and put them into your hand. If you do, shuffle your library.

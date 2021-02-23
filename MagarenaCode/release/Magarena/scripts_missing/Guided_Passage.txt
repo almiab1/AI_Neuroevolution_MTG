@@ -1,9 +1,0 @@
-name=Guided Passage
-image=https://magiccards.info/scans/en/ap/105.jpg
-value=4.326
-rarity=R
-type=Sorcery
-cost={U}{R}{G}
-effect=Reveal the cards in your library. An opponent chooses from among them a creature card, a land card, and a noncreature, nonland card. You put the chosen cards into your hand. Then shuffle your library.
-timing=main
-oracle=Reveal the cards in your library. An opponent chooses from among them a creature card, a land card, and a noncreature, nonland card. You put the chosen cards into your hand. Then shuffle your library.

@@ -1,9 +1,0 @@
-name=Biomass Mutation
-image=https://magiccards.info/scans/en/gtc/213.jpg
-value=3.487
-rarity=R
-type=Instant
-cost={X}{G/U}{G/U}
-timing=pump
-oracle=Creatures you control have base power and toughness X/X until end of turn.
-requires_groovy_code

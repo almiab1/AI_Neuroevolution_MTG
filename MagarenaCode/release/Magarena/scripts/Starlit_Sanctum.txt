@@ -1,9 +1,0 @@
-name=Starlit Sanctum
-image=https://magiccards.info/scans/en/on/325.jpg
-value=4.198
-rarity=U
-type=Land
-ability={T}: Add {C}.
-timing=land
-requires_groovy_code
-oracle={T}: Add {C}.\n{W}, {T}, Sacrifice a Cleric creature: You gain life equal to the sacrificed creature's toughness.\n{B}, {T}, Sacrifice a Cleric creature: Target player loses life equal to the sacrificed creature's power.

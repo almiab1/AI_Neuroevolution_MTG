@@ -1,9 +1,0 @@
-name=Diabolic Revelation
-image=https://magiccards.info/scans/en/m13/87.jpg
-value=3.750
-rarity=R
-type=Sorcery
-cost={X}{3}{B}{B}
-effect=Search your library for up to X cards and put those cards into your hand. Then shuffle your library.
-timing=main
-oracle=Search your library for up to X cards and put those cards into your hand. Then shuffle your library.

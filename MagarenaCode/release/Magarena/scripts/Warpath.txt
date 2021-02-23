@@ -1,9 +1,0 @@
-name=Warpath
-image=https://magiccards.info/scans/en/mm/226.jpg
-value=2.591
-rarity=U
-type=Instant
-cost={3}{R}
-effect=SN deals 3 damage to each blocking creature and each blocked creature.
-timing=removal
-oracle=Warpath deals 3 damage to each blocking creature and each blocked creature.

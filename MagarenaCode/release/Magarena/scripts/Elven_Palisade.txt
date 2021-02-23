@@ -1,9 +1,0 @@
-name=Elven Palisade
-image=https://magiccards.info/scans/en/ex/109.jpg
-value=2.088
-rarity=U
-type=Enchantment
-cost={G}
-ability=Sacrifice a Forest: Target attacking creature gets -3/-0 until end of turn.
-timing=enchantment
-oracle=Sacrifice a Forest: Target attacking creature gets -3/-0 until end of turn.

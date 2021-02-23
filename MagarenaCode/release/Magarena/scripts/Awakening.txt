@@ -1,9 +1,0 @@
-name=Awakening
-image=https://magiccards.info/scans/en/sh/51.jpg
-value=3.818
-rarity=R
-type=Enchantment
-cost={2}{G}{G}
-ability=At the beginning of each upkeep, untap all creatures and lands.
-timing=enchantment
-oracle=At the beginning of each upkeep, untap all creatures and lands.

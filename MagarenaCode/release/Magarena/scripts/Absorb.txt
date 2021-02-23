@@ -1,9 +1,0 @@
-name=Absorb
-image=https://magiccards.info/scans/en/in/226.jpg
-value=4.124
-rarity=R
-type=Instant
-cost={W}{U}{U}
-effect=Counter target spell.~You gain 3 life.
-timing=counter
-oracle=Counter target spell. You gain 3 life.

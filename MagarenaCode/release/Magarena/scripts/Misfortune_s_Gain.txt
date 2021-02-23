@@ -1,9 +1,0 @@
-name=Misfortune's Gain
-image=https://magiccards.info/scans/en/p3k/13.jpg
-value=2.600
-rarity=C
-type=Sorcery
-cost={3}{W}
-timing=main
-requires_groovy_code=Path of Peace
-oracle=Destroy target creature. Its owner gains 4 life.

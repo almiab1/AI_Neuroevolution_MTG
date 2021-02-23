@@ -1,9 +1,0 @@
-name=Geist Snatch
-image=https://magiccards.info/scans/en/avr/55.jpg
-value=2.321
-rarity=C
-type=Instant
-cost={2}{U}{U}
-effect=Counter target creature spell.~Create a 1/1 blue Spirit creature token with flying.
-timing=counter
-oracle=Counter target creature spell. Create a 1/1 blue Spirit creature token with flying.

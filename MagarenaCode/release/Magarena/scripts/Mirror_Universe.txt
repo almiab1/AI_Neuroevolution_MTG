@@ -1,9 +1,0 @@
-name=Mirror Universe
-image=https://magiccards.info/scans/en/lg/232.jpg
-value=4.400
-rarity=R
-type=Artifact
-cost={6}
-timing=artifact
-requires_groovy_code
-oracle={T}, Sacrifice Mirror Universe: Exchange life totals with target opponent. Activate this ability only during your upkeep.

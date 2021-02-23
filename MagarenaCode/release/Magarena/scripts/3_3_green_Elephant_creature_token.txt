@@ -1,9 +1,0 @@
-name=3/3 green Elephant creature token
-token=Elephant
-image=https://magiccards.info/extras/token/modern-masters-2015/elephant.jpg
-image_updated=2015-11-12
-value=3
-type=Creature
-subtype=Elephant
-color=g
-pt=3/3

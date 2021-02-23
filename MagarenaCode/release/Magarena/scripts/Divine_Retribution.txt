@@ -1,9 +1,0 @@
-name=Divine Retribution
-image=https://magiccards.info/scans/en/mr/216.jpg
-value=2.538
-rarity=R
-type=Instant
-cost={1}{W}
-effect=SN deals damage to target attacking creature equal to the number of attacking creatures.
-timing=block
-oracle=Divine Retribution deals damage to target attacking creature equal to the number of attacking creatures.

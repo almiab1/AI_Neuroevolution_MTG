@@ -1,9 +1,0 @@
-name=Apocalypse
-image=https://magiccards.info/scans/en/tp/162.jpg
-value=4.511
-rarity=R
-type=Sorcery
-cost={2}{R}{R}{R}
-effect=Exile all permanents.~You discard your hand.
-timing=removal
-oracle=Exile all permanents. You discard your hand.

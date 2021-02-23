@@ -1,9 +1,0 @@
-name=Misty Rainforest
-image=https://magiccards.info/scans/en/mm3/240.jpg
-image_updated=2017-08-08
-value=4.513
-rarity=R
-type=Land
-ability={T}, Pay 1 life, Sacrifice SN: Search your library for a Forest or Island card and put it onto the battlefield. Then shuffle your library.
-timing=land
-oracle={T}, Pay 1 life, Sacrifice Misty Rainforest: Search your library for a Forest or Island card and put it onto the battlefield. Then shuffle your library.

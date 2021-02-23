@@ -1,9 +1,0 @@
-name=Soul Barrier
-image=https://magiccards.info/scans/en/5e/125.jpg
-value=4.102
-rarity=C
-type=Enchantment
-cost={2}{U}
-timing=enchantment
-oracle=Whenever an opponent casts a creature spell, Soul Barrier deals 2 damage to that player unless he or she pays {2}.
-requires_groovy_code

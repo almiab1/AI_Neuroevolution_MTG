@@ -1,7 +1,0 @@
-name=green Hydra creature token
-token=Hydra
-image=https://img.scryfall.com/cards/border_crop/en/tjou/4.jpg?1517813031
-value=2
-type=Creature
-subtype=Hydra
-color=g

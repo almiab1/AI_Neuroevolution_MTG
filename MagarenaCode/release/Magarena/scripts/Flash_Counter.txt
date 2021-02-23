@@ -1,9 +1,0 @@
-name=Flash Counter
-image=https://magiccards.info/scans/en/8e/78.jpg
-value=2.324
-rarity=C
-type=Instant
-cost={1}{U}
-effect=Counter target instant spell.
-timing=counter
-oracle=Counter target instant spell.

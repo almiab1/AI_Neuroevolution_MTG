@@ -1,9 +1,0 @@
-name=Telim'Tor's Darts
-image=https://magiccards.info/scans/en/mr/286.jpg
-value=2.310
-rarity=U
-type=Artifact
-cost={2}
-ability={2}, {T}: SN deals 1 damage to target player.
-timing=artifact
-oracle={2}, {T}: Telim'Tor's Darts deals 1 damage to target player.

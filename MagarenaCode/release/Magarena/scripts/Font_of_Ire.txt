@@ -1,9 +1,0 @@
-name=Font of Ire
-image=https://magiccards.info/scans/en/jou/97.jpg
-value=1.889
-rarity=C
-type=Enchantment
-cost={1}{R}
-ability={3}{R}, Sacrifice SN: SN deals 5 damage to target player.
-timing=enchantment
-oracle={3}{R}, Sacrifice Font of Ire: Font of Ire deals 5 damage to target player.

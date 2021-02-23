@@ -1,9 +1,0 @@
-name=Blood Tithe
-image=https://magiccards.info/scans/en/m11/84.jpg
-value=3.060
-rarity=C
-type=Sorcery
-cost={3}{B}
-effect=Each opponent loses 3 life. You gain life equal to the life lost this way.
-timing=main
-oracle=Each opponent loses 3 life. You gain life equal to the life lost this way.

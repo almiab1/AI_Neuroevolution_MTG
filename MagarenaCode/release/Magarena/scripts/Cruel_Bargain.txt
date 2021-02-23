@@ -1,9 +1,0 @@
-name=Cruel Bargain
-image=https://magiccards.info/scans/en/po/8.jpg
-value=4.500
-rarity=R
-type=Sorcery
-cost={B}{B}{B}
-timing=draw
-requires_groovy_code
-oracle=Draw four cards. You lose half your life, rounded up.

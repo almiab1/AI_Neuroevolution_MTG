@@ -1,9 +1,0 @@
-name=Mighty Emergence
-image=https://magiccards.info/scans/en/ala/137.jpg
-value=3.030
-rarity=U
-type=Enchantment
-cost={2}{G}
-ability=Whenever a creature with power 5 or greater enters the battlefield under your control, you may put two +1/+1 counters on RN.
-timing=enchantment
-oracle=Whenever a creature with power 5 or greater enters the battlefield under your control, you may put two +1/+1 counters on it.

@@ -1,9 +1,0 @@
-name=Peach Garden Oath
-image=https://magiccards.info/scans/en/8e/34.jpg
-value=3.591
-rarity=U
-type=Sorcery
-cost={W}
-effect=You gain 2 life for each creature you control.
-timing=main
-oracle=You gain 2 life for each creature you control.

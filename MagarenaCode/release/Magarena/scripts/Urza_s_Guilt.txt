@@ -1,9 +1,0 @@
-name=Urza's Guilt
-image=https://magiccards.info/scans/en/ps/130.jpg
-value=3.630
-rarity=R
-type=Sorcery
-cost={2}{U}{B}
-timing=main
-requires_groovy_code
-oracle=Each player draws two cards, then discards three cards, then loses 4 life.

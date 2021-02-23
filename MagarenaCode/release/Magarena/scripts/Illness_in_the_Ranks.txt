@@ -1,9 +1,0 @@
-name=Illness in the Ranks
-image=https://magiccards.info/scans/en/gtc/69.jpg
-value=3.381
-rarity=U
-type=Enchantment
-cost={B}
-ability=Creature tokens get -1/-1.
-timing=enchantment
-oracle=Creature tokens get -1/-1.

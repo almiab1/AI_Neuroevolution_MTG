@@ -1,9 +1,0 @@
-name=Brilliant Plan
-image=https://magiccards.info/scans/en/p3k/36.jpg
-value=2.278
-rarity=U
-type=Sorcery
-cost={4}{U}
-effect=Draw three cards.
-timing=draw
-oracle=Draw three cards.

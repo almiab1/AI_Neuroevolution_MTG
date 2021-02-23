@@ -1,9 +1,0 @@
-name=Kiss of Death
-image=https://magiccards.info/scans/en/po2/16.jpg
-value=2.024
-rarity=U
-type=Sorcery
-cost={4}{B}{B}
-effect=SN deals 4 damage to target opponent.~You gain 4 life.
-timing=main
-oracle=Kiss of Death deals 4 damage to target opponent. You gain 4 life.

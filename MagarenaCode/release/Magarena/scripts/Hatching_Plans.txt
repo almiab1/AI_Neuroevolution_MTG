@@ -1,9 +1,0 @@
-name=Hatching Plans
-image=https://magiccards.info/scans/en/gp/27.jpg
-value=3.896
-rarity=R
-type=Enchantment
-cost={1}{U}
-ability=When SN is put into a graveyard from the battlefield, draw three cards.
-timing=enchantment
-oracle=When Hatching Plans is put into a graveyard from the battlefield, draw three cards.

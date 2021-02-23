@@ -1,9 +1,0 @@
-name=Flashfreeze
-image=https://magiccards.info/scans/en/mm2/45.jpg
-value=3.523
-rarity=U
-type=Instant
-cost={1}{U}
-effect=Counter target red or green spell.
-timing=counter
-oracle=Counter target red or green spell.

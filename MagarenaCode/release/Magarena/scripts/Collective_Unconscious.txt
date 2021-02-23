@@ -1,9 +1,0 @@
-name=Collective Unconscious
-image=https://magiccards.info/scans/en/c14/187.jpg
-value=3.512
-rarity=R
-type=Sorcery
-cost={4}{G}{G}
-effect=Draw a card for each creature you control.
-timing=main
-oracle=Draw a card for each creature you control.

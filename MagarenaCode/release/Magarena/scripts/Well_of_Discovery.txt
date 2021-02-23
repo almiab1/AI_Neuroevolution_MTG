@@ -1,9 +1,0 @@
-name=Well of Discovery
-image=https://magiccards.info/scans/en/pr/140.jpg
-value=3.645
-rarity=R
-type=Artifact
-cost={6}
-ability=At the beginning of your end step, if you control no untapped lands, draw a card.
-timing=artifact
-oracle=At the beginning of your end step, if you control no untapped lands, draw a card.

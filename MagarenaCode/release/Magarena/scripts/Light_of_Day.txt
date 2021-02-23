@@ -1,9 +1,0 @@
-name=Light of Day
-image=https://magiccards.info/scans/en/6e/29.jpg
-value=4.106
-rarity=U
-type=Enchantment
-cost={3}{W}
-ability=Black creatures can't attack or block.
-timing=enchantment
-oracle=Black creatures can't attack or block.

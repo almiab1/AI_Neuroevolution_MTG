@@ -1,9 +1,0 @@
-name=Coerced Confession
-image=https://magiccards.info/scans/en/gtc/217.jpg
-value=2.200
-rarity=U
-type=Sorcery
-cost={4}{U/B}
-timing=main
-requires_groovy_code
-oracle=Target player puts the top four cards of his or her library into his or her graveyard. You draw a card for each creature card put into that graveyard this way.

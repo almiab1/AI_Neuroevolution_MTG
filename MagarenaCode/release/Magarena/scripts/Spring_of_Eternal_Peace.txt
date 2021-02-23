@@ -1,9 +1,0 @@
-name=Spring of Eternal Peace
-image=https://magiccards.info/scans/en/p3k/148.jpg
-value=1.559
-rarity=C
-type=Sorcery
-cost={3}{G}{G}
-effect=You gain 8 life.
-timing=main
-oracle=You gain 8 life.

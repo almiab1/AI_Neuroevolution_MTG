@@ -1,9 +1,0 @@
-name=Mark of Asylum
-image=https://magiccards.info/scans/en/cfx/10.jpg
-value=3.236
-rarity=R
-type=Enchantment
-cost={1}{W}
-ability=Prevent all noncombat damage that would be dealt to creatures you control.
-timing=enchantment
-oracle=Prevent all noncombat damage that would be dealt to creatures you control.

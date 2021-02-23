@@ -1,9 +1,0 @@
-name=Customs Depot
-image=https://magiccards.info/scans/en/mm/71.jpg
-value=3.161
-rarity=U
-type=Enchantment
-cost={1}{U}
-ability=Whenever you cast a creature spell, you may pay {1}. If you do, draw a card, then discard a card.
-timing=enchantment
-oracle=Whenever you cast a creature spell, you may pay {1}. If you do, draw a card, then discard a card.

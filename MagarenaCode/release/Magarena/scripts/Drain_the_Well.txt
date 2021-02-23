@@ -1,9 +1,0 @@
-name=Drain the Well
-image=https://magiccards.info/scans/en/eve/121.jpg
-value=2.565
-rarity=C
-type=Sorcery
-cost={2}{B/G}{B/G}
-effect=Destroy target land.~You gain 2 life.
-timing=main
-oracle=Destroy target land. You gain 2 life.
