@@ -1,0 +1,11 @@
+name=Greater Forgeling
+image=https://magiccards.info/scans/en/rav/129.jpg
+value=1.771
+rarity=U
+type=Creature
+subtype=Elemental
+cost={3}{R}{R}
+pt=3/4
+ability={1}{R}: SN gets +3/-3 until end of turn.
+timing=main
+oracle={1}{R}: Greater Forgeling gets +3/-3 until end of turn.

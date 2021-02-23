@@ -1,0 +1,12 @@
+name=Ronin Houndmaster
+image=https://magiccards.info/scans/en/chk/184.jpg
+value=2.736
+rarity=C
+type=Creature
+subtype=Human,Samurai
+cost={2}{R}
+pt=2/2
+ability=Haste;\
+        Bushido 1
+timing=fmain
+oracle=Haste\nBushido 1

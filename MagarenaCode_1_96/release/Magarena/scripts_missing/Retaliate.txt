@@ -1,0 +1,10 @@
+name=Retaliate
+image=https://magiccards.info/scans/en/5dn/13.jpg
+value=3.470
+rarity=R
+type=Instant
+cost={2}{W}{W}
+effect=Destroy all creatures that dealt damage to you this turn.
+timing=removal
+oracle=Destroy all creatures that dealt damage to you this turn.
+status=not supported: no-info

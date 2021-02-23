@@ -1,0 +1,13 @@
+name=Body Double
+image=https://magiccards.info/scans/en/c17/83.jpg
+image_updated=2017-10-03
+value=4.500
+rarity=R
+type=Creature
+subtype=Shapeshifter
+cost={4}{U}
+pt=0/0
+ability=You may have SN enter the battlefield as a copy of any creature card in a graveyard.;\
+        Cast SN with AI only if there is a creature card in a graveyard.
+timing=main
+oracle=You may have Body Double enter the battlefield as a copy of any creature card in a graveyard.

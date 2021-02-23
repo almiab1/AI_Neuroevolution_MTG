@@ -1,0 +1,11 @@
+name=Kiora's Dismissal
+image=https://magiccards.info/scans/en/jou/44.jpg
+value=3.238
+rarity=U
+type=Instant
+cost={U}
+ability=This spell costs {U} more to cast for each target beyond the first.
+effect=Return any number of target enchantments to their owners' hands.
+timing=removal
+oracle=Strive — This spell costs {U} more to cast for each target beyond the first.\nReturn any number of target enchantments to their owners' hands.
+status=not supported: multiple-targets

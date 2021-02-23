@@ -1,0 +1,9 @@
+name=Whirling Catapult
+image=https://magiccards.info/scans/en/ai/181.jpg
+value=2.875
+rarity=U
+type=Artifact
+cost={4}
+ability={2}, Exile the top two cards of your library: SN deals 1 damage to each creature with flying and each player.
+timing=artifact
+oracle={2}, Exile the top two cards of your library: Whirling Catapult deals 1 damage to each creature with flying and each player.

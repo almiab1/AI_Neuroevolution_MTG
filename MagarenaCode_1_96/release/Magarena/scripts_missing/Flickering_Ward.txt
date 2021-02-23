@@ -1,0 +1,15 @@
+name=Flickering Ward
+image=https://magiccards.info/scans/en/tp/231.jpg
+value=4.314
+rarity=U
+type=Enchantment
+subtype=Aura
+cost={W}
+ability=Enchant creature;\
+        As SN enters the battlefield, choose a color.;\
+        Enchanted creature has protection from the chosen color. This effect doesn't remove SN.;\
+        {W}: Return SN to its owner's hand.
+timing=aura
+enchant=default,creature
+oracle=Enchant creature\nAs Flickering Ward enters the battlefield, choose a color.\nEnchanted creature has protection from the chosen color. This effect doesn't remove Flickering Ward.\n{W}: Return Flickering Ward to its owner's hand.
+status=not supported: doesnt-remove

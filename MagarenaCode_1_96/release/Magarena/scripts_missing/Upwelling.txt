@@ -1,0 +1,10 @@
+name=Upwelling
+image=https://magiccards.info/scans/en/10e/306.jpg
+value=4.183
+rarity=R
+type=Enchantment
+cost={3}{G}
+ability=Mana pools don't empty as steps and phases end.
+timing=enchantment
+oracle=Mana pools don't empty as steps and phases end.
+status=not supported: mana-pool

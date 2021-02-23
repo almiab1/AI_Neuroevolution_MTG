@@ -1,0 +1,11 @@
+name=Hideous End
+image=https://magiccards.info/scans/en/zen/98.jpg
+image_updated=2016-12-10
+value=3.862
+removal=4
+rarity=C
+type=Instant
+cost={1}{B}{B}
+effect=Destroy target nonblack creature.~Its controller loses 2 life.
+timing=removal
+oracle=Destroy target nonblack creature. Its controller loses 2 life.

@@ -1,0 +1,12 @@
+name=Squall Drifter
+image=https://magiccards.info/scans/en/cs/17.jpg
+value=3.513
+rarity=C
+type=Snow,Creature
+subtype=Elemental
+cost={1}{W}
+pt=1/1
+ability=Flying;\
+        {W}, {T}: Tap target creature.
+timing=main
+oracle=Flying\n{W}, {T}: Tap target creature.

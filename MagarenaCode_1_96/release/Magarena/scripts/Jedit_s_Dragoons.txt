@@ -1,0 +1,13 @@
+name=Jedit's Dragoons
+image=https://magiccards.info/scans/en/ts/25.jpg
+image_updated=2016-12-20
+value=1.543
+rarity=C
+type=Creature
+subtype=Cat,Soldier
+cost={5}{W}
+pt=2/5
+ability=Vigilance;\
+        When SN enters the battlefield, you gain 4 life.
+timing=main
+oracle=Vigilance\nWhen Jedit's Dragoons enters the battlefield, you gain 4 life.

@@ -1,0 +1,12 @@
+name=Auramancer
+image=https://magiccards.info/scans/en/a25/6.jpg
+image_updated=2018-04-26
+value=2.500
+rarity=C
+type=Creature
+subtype=Human,Wizard
+cost={2}{W}
+pt=2/2
+ability=When SN enters the battlefield, you may return target enchantment card from your graveyard to your hand.
+timing=main
+oracle=When Auramancer enters the battlefield, you may return target enchantment card from your graveyard to your hand.

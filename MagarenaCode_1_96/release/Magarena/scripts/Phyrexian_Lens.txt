@@ -1,0 +1,9 @@
+name=Phyrexian Lens
+image=https://magiccards.info/scans/en/in/307.jpg
+value=1.593
+rarity=R
+type=Artifact
+cost={3}
+ability={T}, Pay 1 life: Add one mana of any color.
+timing=artifact
+oracle={T}, Pay 1 life: Add one mana of any color.

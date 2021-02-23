@@ -1,0 +1,11 @@
+name=Smolder Initiate
+image=https://magiccards.info/scans/en/shm/78.jpg
+value=3.024
+rarity=C
+type=Creature
+subtype=Elemental,Shaman
+cost={B}
+pt=1/1
+ability=Whenever a player casts a black spell, you may pay {1}. If you do, target player loses 1 life.
+timing=main
+oracle=Whenever a player casts a black spell, you may pay {1}. If you do, target player loses 1 life.

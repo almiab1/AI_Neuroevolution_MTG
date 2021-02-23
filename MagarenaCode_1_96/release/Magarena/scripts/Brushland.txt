@@ -1,0 +1,10 @@
+name=Brushland
+image=https://magiccards.info/scans/en/10e/349.jpg
+value=4.255
+rarity=R
+type=Land
+mana=w2g2
+ability={T}: Add {C}.;\
+        {T}: Add {G} or {W}. SN deals 1 damage to you.
+timing=land
+oracle={T}: Add {C}.\n{T}: Add {G} or {W}. Brushland deals 1 damage to you.

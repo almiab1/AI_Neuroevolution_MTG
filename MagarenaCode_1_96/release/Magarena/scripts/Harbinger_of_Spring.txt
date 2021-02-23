@@ -1,0 +1,12 @@
+name=Harbinger of Spring
+image=https://magiccards.info/scans/en/bok/128.jpg
+value=2.689
+rarity=C
+type=Creature
+subtype=Spirit
+cost={4}{G}
+pt=2/1
+ability=Protection from non-Spirit creatures;\
+        Soulshift 4
+timing=main
+oracle=Protection from non-Spirit creatures\nSoulshift 4

@@ -1,0 +1,13 @@
+name=Wall of Opposition
+image=https://magiccards.info/scans/en/lg/168.jpg
+image_updated=2011-01-11
+value=2.735
+rarity=R
+type=Creature
+subtype=Wall
+cost={3}{R}{R}
+pt=0/6
+ability=Defender;\
+        {1}: SN gets +1/+0 until end of turn.
+timing=smain
+oracle=Defender\n{1}: Wall of Opposition gets +1/+0 until end of turn.

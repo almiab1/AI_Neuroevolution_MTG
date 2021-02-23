@@ -1,0 +1,14 @@
+name=Nylea, God of the Hunt
+image=https://magiccards.info/scans/en/ths/166.jpg
+value=3.518
+rarity=M
+type=Legendary,Enchantment,Creature
+subtype=God
+cost={3}{G}
+pt=6/6
+ability=Indestructible;\
+        Other creatures you control have trample.;\
+        {3}{G}: Target creature gets +2/+2 until end of turn.
+timing=main
+oracle=Indestructible\nAs long as your devotion to green is less than five, Nylea isn't a creature.\nOther creatures you control have trample.\n{3}{G}: Target creature gets +2/+2 until end of turn.
+requires_groovy_code

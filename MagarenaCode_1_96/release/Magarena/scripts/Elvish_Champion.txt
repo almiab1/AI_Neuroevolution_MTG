@@ -1,0 +1,13 @@
+name=Elvish Champion
+image=https://magiccards.info/scans/en/10e/261.jpg
+image_updated=2016-12-02
+value=4.299
+rarity=R
+type=Creature
+subtype=Elf
+cost={1}{G}{G}
+pt=2/2
+ability=Other Elf creatures get +1/+1 and have forestwalk.
+static=all
+timing=main
+oracle=Other Elf creatures get +1/+1 and have forestwalk.

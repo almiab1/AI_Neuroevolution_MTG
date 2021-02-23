@@ -1,0 +1,12 @@
+name=Saprazzan Breaker
+image=https://magiccards.info/scans/en/mm/98.jpg
+value=2.548
+rarity=U
+type=Creature
+subtype=Beast
+cost={4}{U}
+pt=3/3
+ability={U}: Put the top card of your library into your graveyard. If that card is a land card, SN can't be blocked this turn.
+timing=main
+oracle={U}: Put the top card of your library into your graveyard. If that card is a land card, Saprazzan Breaker can't be blocked this turn.
+status=needs groovy

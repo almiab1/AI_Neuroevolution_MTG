@@ -1,0 +1,16 @@
+name=Ulvenwald Captive
+image=https://magiccards.info/scans/en/emn/175a.jpg
+image_updated=2016-09-05
+value=2.500
+rarity=C
+type=Creature
+subtype=Werewolf,Horror
+cost={1}{G}
+pt=1/2
+ability=Defender;\
+        {T}: Add {G}.;\
+        {5}{G}{G}: Transform SN.
+transform=Ulvenwald Abomination
+timing=smain
+oracle=Defender\n{T}: Add {G}.\n{5}{G}{G}: Transform Ulvenwald Captive.
+status=not supported: other-half

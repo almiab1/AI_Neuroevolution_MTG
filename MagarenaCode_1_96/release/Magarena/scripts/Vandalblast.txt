@@ -1,0 +1,12 @@
+name=Vandalblast
+image=https://magiccards.info/scans/en/rtr/111.jpg
+image_updated=2016-02-29
+value=3.759
+rarity=U
+type=Sorcery
+cost={R}
+ability=Cast SN with AI only if an opponent controls an artifact.
+effect=Destroy target artifact you don't control.
+timing=removal
+requires_groovy_code
+oracle=Destroy target artifact you don't control.\nOverload {4}{R}

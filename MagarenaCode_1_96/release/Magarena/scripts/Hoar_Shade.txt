@@ -1,0 +1,11 @@
+name=Hoar Shade
+image=https://magiccards.info/scans/en/ia/19.jpg
+value=2.819
+rarity=C
+type=Creature
+subtype=Shade
+cost={3}{B}
+pt=1/2
+ability={B}: SN gets +1/+1 until end of turn.
+timing=main
+oracle={B}: Hoar Shade gets +1/+1 until end of turn.

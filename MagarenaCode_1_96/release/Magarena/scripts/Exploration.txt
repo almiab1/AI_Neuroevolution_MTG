@@ -1,0 +1,9 @@
+name=Exploration
+image=https://magiccards.info/scans/en/cns/164.jpg
+value=4.568
+rarity=R
+type=Enchantment
+cost={G}
+timing=enchantment
+oracle=You may play an additional land on each of your turns.
+requires_groovy_code

@@ -1,0 +1,12 @@
+name=Wormwood Dryad
+image=https://magiccards.info/scans/en/ts/233.jpg
+value=2.238
+rarity=C
+type=Creature
+subtype=Dryad
+cost={2}{G}
+pt=3/1
+ability={G}: SN gains forestwalk until end of turn.~SN deals 1 damage to you.;\
+        {B}: SN gains swampwalk until end of turn.~SN deals 1 damage to you.
+timing=main
+oracle={G}: Wormwood Dryad gains forestwalk until end of turn and deals 1 damage to you.\n{B}: Wormwood Dryad gains swampwalk until end of turn and deals 1 damage to you.

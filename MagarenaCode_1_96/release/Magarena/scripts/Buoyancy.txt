@@ -1,0 +1,13 @@
+name=Buoyancy
+image=https://magiccards.info/scans/en/mm/63.jpg
+value=2.778
+rarity=C
+type=Enchantment
+subtype=Aura
+cost={1}{U}
+ability=Flash;\
+        Enchant creature;\
+        Enchanted creature has flying.
+timing=pumpFlash
+enchant=flying,pos creature
+oracle=Flash\nEnchant creature\nEnchanted creature has flying.

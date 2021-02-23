@@ -1,0 +1,9 @@
+name=Thassa's Ire
+image=https://magiccards.info/scans/en/jou/54.jpg
+value=2.326
+rarity=U
+type=Enchantment
+cost={U}
+ability={3}{U}: You may tap or untap target creature.
+timing=enchantment
+oracle={3}{U}: You may tap or untap target creature.

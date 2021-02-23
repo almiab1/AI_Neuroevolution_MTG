@@ -1,0 +1,12 @@
+name=Stonehorn Dignitary
+image=https://magiccards.info/scans/en/m12/37.jpg
+value=3.955
+rarity=C
+type=Creature
+subtype=Rhino,Soldier
+cost={3}{W}
+pt=1/4
+ability=When SN enters the battlefield, target opponent skips his or her next combat phase.
+timing=main
+oracle=When Stonehorn Dignitary enters the battlefield, target opponent skips his or her next combat phase.
+status=not supported: skip-action

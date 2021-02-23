@@ -1,0 +1,9 @@
+name=War Barge
+image=https://magiccards.info/scans/en/tsts/116.jpg
+value=2.944
+rarity=U
+type=Artifact
+cost={4}
+ability={3}: Target creature gains islandwalk until end of turn. When SN leaves the battlefield this turn, destroy that creature. A creature destroyed this way can't be regenerated.
+timing=artifact
+oracle={3}: Target creature gains islandwalk until end of turn. When War Barge leaves the battlefield this turn, destroy that creature. A creature destroyed this way can't be regenerated.

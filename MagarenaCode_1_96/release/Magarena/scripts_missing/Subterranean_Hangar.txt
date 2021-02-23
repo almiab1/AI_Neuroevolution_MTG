@@ -1,0 +1,11 @@
+name=Subterranean Hangar
+image=https://magiccards.info/scans/en/mm/329.jpg
+value=3.905
+rarity=U
+type=Land
+ability=SN enters the battlefield tapped.;\
+        {T}: Put a storage counter on SN.;\
+        {T}, Remove any number of storage counters from SN: Add {B} for each storage counter removed this way.
+timing=land
+oracle=Subterranean Hangar enters the battlefield tapped.\n{T}: Put a storage counter on Subterranean Hangar.\n{T}, Remove any number of storage counters from Subterranean Hangar: Add {B} for each storage counter removed this way.
+status=not supported: add-multiple-mana

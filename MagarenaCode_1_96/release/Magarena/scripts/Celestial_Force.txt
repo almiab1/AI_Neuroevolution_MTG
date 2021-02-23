@@ -1,0 +1,11 @@
+name=Celestial Force
+image=https://magiccards.info/scans/en/cmd/10.jpg
+value=3.769
+rarity=R
+type=Creature
+subtype=Elemental
+cost={5}{W}{W}{W}
+pt=7/7
+ability=At the beginning of each upkeep, you gain 3 life.
+timing=main
+oracle=At the beginning of each upkeep, you gain 3 life.

@@ -1,0 +1,12 @@
+name=Bloodfray Giant
+image=https://magiccards.info/scans/en/rtr/89.jpg
+value=3.527
+rarity=U
+type=Creature
+subtype=Giant
+cost={2}{R}{R}
+pt=4/3
+ability=Trample;\
+        Unleash
+timing=main
+oracle=Trample\nUnleash

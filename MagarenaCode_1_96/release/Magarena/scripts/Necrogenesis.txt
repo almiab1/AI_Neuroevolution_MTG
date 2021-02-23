@@ -1,0 +1,10 @@
+name=Necrogenesis
+image=https://magiccards.info/scans/en/c16/215.jpg
+image_updated=2017-08-17
+value=3.000
+rarity=U
+type=Enchantment
+cost={B}{G}
+ability={2}: Exile target creature card from a graveyard.~Create a 1/1 green Saproling creature token.
+timing=enchantment
+oracle={2}: Exile target creature card from a graveyard. Create a 1/1 green Saproling creature token.

@@ -1,0 +1,9 @@
+name=Righteous Fury
+image=https://magiccards.info/scans/en/st/23.jpg
+value=3.956
+rarity=R
+type=Sorcery
+cost={4}{W}{W}
+timing=main
+requires_groovy_code
+oracle=Destroy all tapped creatures. You gain 2 life for each creature destroyed this way.

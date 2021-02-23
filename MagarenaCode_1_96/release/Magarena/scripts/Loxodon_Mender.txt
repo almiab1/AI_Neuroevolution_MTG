@@ -1,0 +1,11 @@
+name=Loxodon Mender
+image=https://magiccards.info/scans/en/mi/12.jpg
+value=1.191
+rarity=C
+type=Creature
+subtype=Elephant,Cleric
+cost={5}{W}
+pt=3/3
+ability={W}, {T}: Regenerate target artifact.
+timing=main
+oracle={W}, {T}: Regenerate target artifact.

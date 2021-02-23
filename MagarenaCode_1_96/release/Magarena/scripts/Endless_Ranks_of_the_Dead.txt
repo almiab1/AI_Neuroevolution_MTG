@@ -1,0 +1,9 @@
+name=Endless Ranks of the Dead
+image=https://magiccards.info/scans/en/isd/99.jpg
+value=3.897
+rarity=R
+type=Enchantment
+cost={2}{B}{B}
+timing=enchantment
+requires_groovy_code
+oracle=At the beginning of your upkeep, create X 2/2 black Zombie creature tokens, where X is half the number of Zombies you control, rounded down.

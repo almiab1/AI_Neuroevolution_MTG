@@ -1,0 +1,10 @@
+name=Dispel
+image=https://magiccards.info/scans/en/bfz/76.jpg
+image_updated=2015-11-08
+value=3.481
+rarity=C
+type=Instant
+cost={U}
+effect=Counter target instant spell.
+timing=counter
+oracle=Counter target instant spell.

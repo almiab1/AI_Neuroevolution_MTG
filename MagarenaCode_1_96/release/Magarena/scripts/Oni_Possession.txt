@@ -1,0 +1,15 @@
+name=Oni Possession
+image=https://magiccards.info/scans/en/chk/135.jpg
+image_updated=2017-01-03
+value=2.500
+rarity=U
+type=Enchantment
+subtype=Aura
+cost={2}{B}
+ability=Enchant creature;\
+        At the beginning of your upkeep, sacrifice a creature.;\
+        Enchanted creature gets +3/+3 and has trample.
+timing=aura
+enchant=pump,pos creature
+requires_groovy_code
+oracle=Enchant creature\nAt the beginning of your upkeep, sacrifice a creature.\nEnchanted creature gets +3/+3 and has trample.\nEnchanted creature is a Demon Spirit.

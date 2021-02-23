@@ -1,0 +1,10 @@
+name=Light from Within
+image=https://magiccards.info/scans/en/eve/10.jpg
+value=4.061
+rarity=R
+type=Enchantment
+cost={2}{W}{W}
+ability=Each creature you control gets +1/+1 for each white mana symbol in its mana cost.
+timing=enchantment
+oracle=Chroma — Each creature you control gets +1/+1 for each white mana symbol in its mana cost.
+status=needs groovy

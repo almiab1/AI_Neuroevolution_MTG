@@ -1,0 +1,11 @@
+name=Polymorphous Rush
+image=https://magiccards.info/scans/en/jou/46.jpg
+value=3.640
+rarity=R
+type=Instant
+cost={2}{U}
+ability=This spell costs {1}{U} more to cast for each target beyond the first.
+effect=Choose a creature on the battlefield. Any number of target creatures you control each become a copy of that creature until end of turn.
+timing=removal
+oracle=Strive — This spell costs {1}{U} more to cast for each target beyond the first.\nChoose a creature on the battlefield. Any number of target creatures you control each become a copy of that creature until end of turn.
+status=not supported: multiple-targets

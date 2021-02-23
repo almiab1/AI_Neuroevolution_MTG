@@ -1,0 +1,9 @@
+name=Astral Slide
+image=https://magiccards.info/scans/en/on/4.jpg
+value=4.000
+rarity=U
+type=Enchantment
+cost={2}{W}
+ability=Whenever a player cycles a card, you may exile target creature. If you do, return that card to the battlefield under its owner's control at the beginning of the next end step.
+timing=enchantment
+oracle=Whenever a player cycles a card, you may exile target creature. If you do, return that card to the battlefield under its owner's control at the beginning of the next end step.

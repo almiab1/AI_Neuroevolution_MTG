@@ -1,0 +1,11 @@
+name=Prowling Nightstalker
+image=https://magiccards.info/scans/en/po2/23.jpg
+value=3.087
+rarity=C
+type=Creature
+subtype=Nightstalker
+cost={3}{B}
+pt=2/2
+ability=SN can't be blocked except by black creatures.
+timing=main
+oracle=Prowling Nightstalker can't be blocked except by black creatures.

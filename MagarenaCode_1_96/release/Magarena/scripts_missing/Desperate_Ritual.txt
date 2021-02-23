@@ -1,0 +1,12 @@
+name=Desperate Ritual
+image=https://magiccards.info/scans/en/mma/110.jpg
+value=4.325
+rarity=U
+type=Instant
+subtype=Arcane
+cost={1}{R}
+ability=Splice onto Arcane {1}{R}
+effect=Add {R}{R}{R}.
+timing=removal
+oracle=Add {R}{R}{R}.\nSplice onto Arcane {1}{R}
+status=not supported: add-multiple-mana

@@ -1,0 +1,12 @@
+name=Blizzard Elemental
+image=https://magiccards.info/scans/en/ud/27.jpg
+value=2.857
+rarity=R
+type=Creature
+subtype=Elemental
+cost={5}{U}{U}
+pt=5/5
+ability=Flying;\
+        {3}{U}: Untap SN.
+timing=main
+oracle=Flying\n{3}{U}: Untap Blizzard Elemental.

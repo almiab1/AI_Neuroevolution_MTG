@@ -1,0 +1,14 @@
+name=Foul Emissary
+image=https://magiccards.info/scans/en/emn/158.jpg
+image_updated=2016-09-05
+value=2.500
+rarity=U
+type=Creature
+subtype=Human,Horror
+cost={2}{G}
+pt=1/1
+ability=When SN enters the battlefield, look at the top four cards of your library. You may reveal a creature card from among them and put it into your hand. Put the rest on the bottom of your library in any order.;\
+        When you sacrifice SN while casting a spell with emerge, create a 3/2 colorless Eldrazi Horror creature token.
+timing=main
+oracle=When Foul Emissary enters the battlefield, look at the top four cards of your library. You may reveal a creature card from among them and put it into your hand. Put the rest on the bottom of your library in any order.\nWhen you sacrifice Foul Emissary while casting a spell with emerge, create a 3/2 colorless Eldrazi Horror creature token.
+status=not supported: sacrifice-with-emerge

@@ -1,0 +1,11 @@
+name=Crookshank Kobolds
+image=https://magiccards.info/scans/en/lg/220.jpg
+value=3.852
+rarity=C
+type=Creature
+subtype=Kobold
+color=r
+cost={0}
+pt=0/1
+timing=main
+oracle=NONE

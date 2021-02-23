@@ -1,0 +1,11 @@
+name=Cruel Feeding
+image=https://magiccards.info/scans/en/jou/64.jpg
+value=2.475
+rarity=C
+type=Instant
+cost={B}
+ability=This spell costs {2}{B} more to cast for each target beyond the first.
+effect=Any number of target creatures each get +1/+0 and gain lifelink until end of turn.
+timing=removal
+oracle=Strive — This spell costs {2}{B} more to cast for each target beyond the first.\nAny number of target creatures each get +1/+0 and gain lifelink until end of turn.
+status=not supported: multiple-targets

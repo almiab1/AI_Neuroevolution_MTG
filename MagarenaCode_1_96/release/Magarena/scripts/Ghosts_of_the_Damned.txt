@@ -1,0 +1,11 @@
+name=Ghosts of the Damned
+image=https://magiccards.info/scans/en/lg/12.jpg
+value=2.058
+rarity=C
+type=Creature
+subtype=Spirit
+cost={1}{B}{B}
+pt=0/2
+ability={T}: Target creature gets -1/-0 until end of turn.
+timing=main
+oracle={T}: Target creature gets -1/-0 until end of turn.

@@ -1,0 +1,11 @@
+name=Caustic Hound
+image=https://magiccards.info/scans/en/mbs/40.jpg
+value=1.951
+rarity=C
+type=Creature
+subtype=Hound
+cost={5}{B}
+pt=4/4
+ability=When SN dies, each player loses 4 life.
+timing=main
+oracle=When Caustic Hound dies, each player loses 4 life.

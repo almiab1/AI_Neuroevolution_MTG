@@ -1,0 +1,12 @@
+name=Assembly-Worker
+image=https://magiccards.info/scans/en/a25/221.jpg
+image_updated=2018-04-26
+value=2.851
+rarity=C
+type=Artifact,Creature
+subtype=Assembly-Worker
+cost={3}
+pt=2/2
+ability={T}: Target Assembly-Worker gets +1/+1 until end of turn.
+timing=main
+oracle={T}: Target Assembly-Worker creature gets +1/+1 until end of turn.

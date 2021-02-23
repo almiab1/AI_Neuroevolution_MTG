@@ -1,0 +1,9 @@
+name=Conch Horn
+image=https://magiccards.info/scans/en/fe/168.jpg
+value=2.922
+rarity=R
+type=Artifact
+cost={2}
+timing=artifact
+oracle={1}, {T}, Sacrifice Conch Horn: Draw two cards, then put a card from your hand on top of your library.
+requires_groovy_code

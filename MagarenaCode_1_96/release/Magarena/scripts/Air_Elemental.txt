@@ -1,0 +1,12 @@
+name=Air Elemental
+image=https://magiccards.info/scans/en/xln/45.jpg
+image_updated=2017-10-30
+value=3.342
+rarity=U
+type=Creature
+subtype=Elemental
+cost={3}{U}{U}
+pt=4/4
+ability=Flying
+timing=main
+oracle=Flying

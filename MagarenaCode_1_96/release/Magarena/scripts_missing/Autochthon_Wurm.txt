@@ -1,0 +1,13 @@
+name=Autochthon Wurm
+image=https://magiccards.info/scans/en/rav/191.jpg
+value=3.818
+rarity=R
+type=Creature
+subtype=Wurm
+cost={10}{G}{G}{G}{W}{W}
+pt=9/14
+ability=Convoke;\
+        Trample
+timing=main
+oracle=Convoke\nTrample
+status=not supported: convoke

@@ -1,0 +1,14 @@
+name=Supreme Exemplar
+image=https://magiccards.info/scans/en/mt/53.jpg
+value=3.577
+removal=2
+rarity=R
+type=Creature
+subtype=Elemental
+cost={6}{U}
+pt=10/10
+ability=Flying;\
+        Champion an Elemental;\
+        Cast SN with AI only if you control an Elemental
+timing=main
+oracle=Flying\nChampion an Elemental

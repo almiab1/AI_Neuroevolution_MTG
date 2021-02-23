@@ -1,0 +1,12 @@
+name=Silverglade Elemental
+image=https://magiccards.info/scans/en/mm/269.jpg
+image_updated=2017-01-08
+value=4.095
+rarity=C
+type=Creature
+subtype=Elemental
+cost={4}{G}
+pt=4/4
+ability=When SN enters the battlefield, you may search your library for a Forest card and put that card onto the battlefield. If you do, shuffle your library.
+timing=main
+oracle=When Silverglade Elemental enters the battlefield, you may search your library for a Forest card and put that card onto the battlefield. If you do, shuffle your library.

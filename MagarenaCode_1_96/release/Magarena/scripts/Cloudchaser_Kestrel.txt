@@ -1,0 +1,13 @@
+name=Cloudchaser Kestrel
+image=https://magiccards.info/scans/en/ts/10.jpg
+value=3.682
+rarity=C
+type=Creature
+subtype=Bird
+cost={1}{W}{W}
+pt=2/2
+ability=Flying;\
+        When SN enters the battlefield, destroy target enchantment.;\
+        {W}: Target permanent becomes white until end of turn.
+timing=main
+oracle=Flying\nWhen Cloudchaser Kestrel enters the battlefield, destroy target enchantment.\n{W}: Target permanent becomes white until end of turn.

@@ -1,0 +1,10 @@
+name=Just Fate
+image=https://magiccards.info/scans/en/po2/137.jpg
+value=3.250
+rarity=R
+type=Instant
+cost={2}{W}
+ability=Cast this spell only during the declare attackers step and only if you've been attacked this step.
+effect=Destroy target attacking creature.
+timing=attack
+oracle=Cast this spell only during the declare attackers step and only if you've been attacked this step.\nDestroy target attacking creature.

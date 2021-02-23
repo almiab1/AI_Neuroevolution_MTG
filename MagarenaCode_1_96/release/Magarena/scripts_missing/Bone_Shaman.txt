@@ -1,0 +1,12 @@
+name=Bone Shaman
+image=https://magiccards.info/scans/en/ia/176.jpg
+value=2.097
+rarity=C
+type=Creature
+subtype=Giant,Shaman
+cost={2}{R}{R}
+pt=3/3
+ability={B}: Until end of turn, SN gains "Creatures dealt damage by SN this turn can't be regenerated this turn."
+timing=main
+oracle={B}: Until end of turn, Bone Shaman gains "Creatures dealt damage by Bone Shaman this turn can't be regenerated this turn."
+status=needs groovy

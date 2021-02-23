@@ -1,0 +1,10 @@
+name=Scent of Ivy
+image=https://magiccards.info/scans/en/ud/120.jpg
+value=2.952
+rarity=C
+type=Instant
+cost={G}
+effect=Reveal any number of green cards in your hand. Target creature gets +X/+X until end of turn, where X is the number of cards revealed this way.
+timing=removal
+oracle=Reveal any number of green cards in your hand. Target creature gets +X/+X until end of turn, where X is the number of cards revealed this way.
+status=not supported: any-number-of

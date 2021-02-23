@@ -1,0 +1,12 @@
+name=Dream Fighter
+image=https://magiccards.info/scans/en/mr/63.jpg
+value=3.842
+rarity=C
+type=Creature
+subtype=Human,Soldier
+cost={2}{U}
+pt=1/1
+ability=Whenever SN blocks or becomes blocked by a creature, SN and that creature phase out.
+timing=main
+oracle=Whenever Dream Fighter blocks or becomes blocked by a creature, Dream Fighter and that creature phase out.
+status=not supported: phasing

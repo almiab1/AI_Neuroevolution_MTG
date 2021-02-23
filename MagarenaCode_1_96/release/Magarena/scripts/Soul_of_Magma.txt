@@ -1,0 +1,11 @@
+name=Soul of Magma
+image=https://magiccards.info/scans/en/chk/189.jpg
+value=1.823
+rarity=C
+type=Creature
+subtype=Spirit
+cost={3}{R}{R}
+pt=2/2
+ability=Whenever you cast a Spirit or Arcane spell, SN deals 1 damage to target creature.
+timing=main
+oracle=Whenever you cast a Spirit or Arcane spell, Soul of Magma deals 1 damage to target creature.

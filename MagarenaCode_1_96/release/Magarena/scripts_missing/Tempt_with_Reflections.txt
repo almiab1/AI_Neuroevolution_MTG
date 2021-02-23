@@ -1,0 +1,10 @@
+name=Tempt with Reflections
+image=https://magiccards.info/scans/en/c13/60.jpg
+value=3.600
+rarity=R
+type=Sorcery
+cost={3}{U}
+effect=Choose target creature you control. Create a token that's a copy of that creature. Each opponent may create a token that's a copy of that creature. For each opponent who does, create a token that's a copy of that creature.
+timing=main
+oracle=Tempting offer — Choose target creature you control. Create a token that's a copy of that creature. Each opponent may create a token that's a copy of that creature. For each opponent who does, create a token that's a copy of that creature.
+status=needs groovy

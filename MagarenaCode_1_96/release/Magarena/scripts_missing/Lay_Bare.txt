@@ -1,0 +1,10 @@
+name=Lay Bare
+image=https://magiccards.info/scans/en/roe/74.jpg
+value=2.328
+rarity=C
+type=Instant
+cost={2}{U}{U}
+effect=Counter target spell. Look at its controller's hand.
+timing=counter
+oracle=Counter target spell. Look at its controller's hand.
+status=not supported: reveal-hand

@@ -1,0 +1,13 @@
+name=Followed Footsteps
+image=https://magiccards.info/scans/en/cn2/111.jpg
+image_updated=2017-08-29
+value=4.077
+rarity=R
+type=Enchantment
+subtype=Aura
+cost={3}{U}{U}
+ability=Enchant creature;\
+        At the beginning of your upkeep, create a token that's a copy of enchanted creature.
+timing=aura
+enchant=copy,creature
+oracle=Enchant creature\nAt the beginning of your upkeep, create a token that's a copy of enchanted creature.

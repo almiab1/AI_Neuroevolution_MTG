@@ -1,0 +1,11 @@
+name=Burnt Offering
+image=https://magiccards.info/scans/en/ia/4.jpg
+value=4.109
+rarity=C
+type=Instant
+cost={B}
+ability=As an additional cost to cast SN, sacrifice a creature.
+effect=Add X mana in any combination of {B} and/or {R}, where X is the sacrificed creature's converted mana cost.
+timing=removal
+oracle=As an additional cost to cast Burnt Offering, sacrifice a creature.\nAdd X mana in any combination of {B} and/or {R}, where X is the sacrificed creature's converted mana cost.
+status=not supported: add-multiple-mana

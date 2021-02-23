@@ -1,0 +1,11 @@
+name=Call the Scions
+image=https://magiccards.info/scans/en/bfz/165.jpg
+image_updated=2015-11-08
+value=2.500
+rarity=C
+type=Sorcery
+cost={2}{G}
+ability=Devoid
+effect=Create two 1/1 colorless Eldrazi Scion creature tokens.
+timing=main
+oracle=Devoid\nCreate two 1/1 colorless Eldrazi Scion creature tokens. They have "Sacrifice this creature: Add {C}."

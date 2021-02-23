@@ -1,0 +1,9 @@
+name=Mending Touch
+image=https://magiccards.info/scans/en/dgm/44.jpg
+value=2.909
+rarity=C
+type=Instant
+cost={G}
+effect=Regenerate target creature.
+timing=pump
+oracle=Regenerate target creature.

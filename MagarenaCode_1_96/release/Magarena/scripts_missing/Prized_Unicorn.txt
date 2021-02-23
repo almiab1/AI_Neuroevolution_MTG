@@ -1,0 +1,13 @@
+name=Prized Unicorn
+image=https://magiccards.info/scans/en/ori/287.jpg
+image_updated=2010-09-10
+value=3.034
+rarity=U
+type=Creature
+subtype=Unicorn
+cost={3}{G}
+pt=2/2
+ability=All creatures able to block SN do so.
+timing=main
+oracle=All creatures able to block Prized Unicorn do so.
+status=not supported: blocking-restriction

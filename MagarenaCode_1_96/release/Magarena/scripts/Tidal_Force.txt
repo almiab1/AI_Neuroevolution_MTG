@@ -1,0 +1,11 @@
+name=Tidal Force
+image=https://magiccards.info/scans/en/c13/62.jpg
+value=3.824
+rarity=R
+type=Creature
+subtype=Elemental
+cost={5}{U}{U}{U}
+pt=7/7
+ability=At the beginning of each upkeep, you may tap or untap target permanent.
+timing=main
+oracle=At the beginning of each upkeep, you may tap or untap target permanent.

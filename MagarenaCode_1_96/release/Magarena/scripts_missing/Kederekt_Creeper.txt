@@ -1,0 +1,13 @@
+name=Kederekt Creeper
+image=https://magiccards.info/scans/en/ala/176.jpg
+value=3.128
+rarity=C
+type=Creature
+subtype=Horror
+cost={U}{B}{R}
+pt=2/3
+ability=Menace;\
+        Deathtouch
+timing=main
+oracle=Menace\nDeathtouch
+status=not supported: blocking-restriction

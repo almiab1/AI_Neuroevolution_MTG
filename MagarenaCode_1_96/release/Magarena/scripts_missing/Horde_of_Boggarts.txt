@@ -1,0 +1,13 @@
+name=Horde of Boggarts
+image=https://magiccards.info/scans/en/shm/94.jpg
+value=3.408
+rarity=U
+type=Creature
+subtype=Goblin
+cost={3}{R}
+pt=*/*
+ability=Menace;\
+        SN's power and toughness are each equal to the number of red permanents you control.
+timing=main
+oracle=Menace\nHorde of Boggarts's power and toughness are each equal to the number of red permanents you control.
+status=not supported: blocking-restriction

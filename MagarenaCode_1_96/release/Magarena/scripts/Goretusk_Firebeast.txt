@@ -1,0 +1,11 @@
+name=Goretusk Firebeast
+image=https://magiccards.info/scans/en/ju/91.jpg
+value=1.828
+rarity=C
+type=Creature
+subtype=Elemental,Boar,Beast
+cost={5}{R}
+pt=2/2
+ability=When SN enters the battlefield, SN deals 4 damage to target player.
+timing=main
+oracle=When Goretusk Firebeast enters the battlefield, it deals 4 damage to target player.

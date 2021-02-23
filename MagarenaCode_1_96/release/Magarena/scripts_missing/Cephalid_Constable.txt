@@ -1,0 +1,12 @@
+name=Cephalid Constable
+image=https://magiccards.info/scans/en/10e/72.jpg
+value=4.049
+rarity=R
+type=Creature
+subtype=Cephalid,Wizard
+cost={1}{U}{U}
+pt=1/1
+ability=Whenever SN deals combat damage to a player, return up to that many target permanents that player controls to their owner's hands.
+timing=main
+oracle=Whenever Cephalid Constable deals combat damage to a player, return up to that many target permanents that player controls to their owner's hands.
+status=not supported: multiple-targets

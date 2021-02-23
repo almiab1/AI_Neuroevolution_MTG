@@ -1,0 +1,10 @@
+name=Dream Twist
+image=https://magiccards.info/scans/en/ema/47.jpg
+value=3.562
+rarity=C
+type=Instant
+cost={U}
+ability=Flashback {1}{U}
+effect=Target player puts the top three cards of his or her library into his or her graveyard.
+timing=removal
+oracle=Target player puts the top three cards of his or her library into his or her graveyard.\nFlashback {1}{U}

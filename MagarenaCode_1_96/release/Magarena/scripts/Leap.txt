@@ -1,0 +1,9 @@
+name=Leap
+image=https://magiccards.info/scans/en/sh/35.jpg
+value=4.053
+rarity=C
+type=Instant
+cost={U}
+effect=Target creature gains flying until end of turn.~Draw a card.
+timing=pump
+oracle=Target creature gains flying until end of turn.\nDraw a card.

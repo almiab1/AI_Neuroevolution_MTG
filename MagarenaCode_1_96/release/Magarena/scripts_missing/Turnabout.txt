@@ -1,0 +1,9 @@
+name=Turnabout
+image=https://magiccards.info/scans/en/us/105.jpg
+value=4.500
+rarity=U
+type=Instant
+cost={2}{U}{U}
+effect=Choose artifact, creature, or land. Tap all untapped permanents of the chosen type target player controls, or untap all tapped permanents of that type that player controls.
+timing=removal
+oracle=Choose artifact, creature, or land. Tap all untapped permanents of the chosen type target player controls, or untap all tapped permanents of that type that player controls.

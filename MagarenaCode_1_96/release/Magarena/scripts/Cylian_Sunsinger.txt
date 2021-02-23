@@ -1,0 +1,11 @@
+name=Cylian Sunsinger
+image=https://magiccards.info/scans/en/cfx/80.jpg
+value=2.893
+rarity=R
+type=Creature
+subtype=Elf,Shaman
+cost={1}{G}
+pt=2/2
+timing=main
+requires_groovy_code
+oracle={R}{G}{W}: Cylian Sunsinger and each other creature with the same name as it get +3/+3 until end of turn.

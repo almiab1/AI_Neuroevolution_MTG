@@ -1,0 +1,9 @@
+name=Obelisk of Naya
+image=https://magiccards.info/scans/en/ala/216.jpg
+value=2.385
+rarity=C
+type=Artifact
+cost={3}
+ability={T}: Add {R}, {G}, or {W}.
+timing=artifact
+oracle={T}: Add {R}, {G}, or {W}.

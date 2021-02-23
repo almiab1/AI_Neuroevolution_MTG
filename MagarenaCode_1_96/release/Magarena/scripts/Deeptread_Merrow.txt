@@ -1,0 +1,11 @@
+name=Deeptread Merrow
+image=https://magiccards.info/scans/en/lw/57.jpg
+value=2.233
+rarity=C
+type=Creature
+subtype=Merfolk,Rogue
+cost={1}{U}
+pt=2/1
+ability={U}: SN gains islandwalk until end of turn.
+timing=main
+oracle={U}: Deeptread Merrow gains islandwalk until end of turn.

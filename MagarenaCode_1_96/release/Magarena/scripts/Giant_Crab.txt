@@ -1,0 +1,11 @@
+name=Giant Crab
+image=https://magiccards.info/scans/en/tp/66.jpg
+value=3.118
+rarity=C
+type=Creature
+subtype=Crab
+cost={4}{U}
+pt=3/3
+ability={U}: SN gains shroud until end of turn.
+timing=main
+oracle={U}: Giant Crab gains shroud until end of turn.

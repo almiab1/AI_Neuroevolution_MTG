@@ -1,0 +1,11 @@
+name=Kraken Hatchling
+image=https://magiccards.info/scans/en/mm3/42.jpg
+image_updated=2017-08-08
+value=3.430
+rarity=C
+type=Creature
+subtype=Kraken
+cost={U}
+pt=0/4
+timing=main
+oracle=NONE

@@ -1,0 +1,12 @@
+name=Crimson Mage
+image=https://magiccards.info/scans/en/a25/127.jpg
+image_updated=2018-04-27
+value=3.636
+rarity=C
+type=Creature
+subtype=Human,Shaman
+cost={1}{R}
+pt=2/1
+ability={R}: Target creature you control gains haste until end of turn.
+timing=main
+oracle={R}: Target creature you control gains haste until end of turn.

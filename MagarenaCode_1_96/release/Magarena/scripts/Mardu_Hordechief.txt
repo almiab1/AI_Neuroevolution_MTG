@@ -1,0 +1,11 @@
+name=Mardu Hordechief
+image=https://magiccards.info/scans/en/ktk/17.jpg
+value=3.250
+rarity=C
+type=Creature
+subtype=Human,Warrior
+cost={2}{W}
+pt=2/3
+ability=When SN enters the battlefield, if you attacked with a creature this turn, create a 1/1 white Warrior creature token.
+timing=main
+oracle=Raid — When Mardu Hordechief enters the battlefield, if you attacked with a creature this turn, create a 1/1 white Warrior creature token.

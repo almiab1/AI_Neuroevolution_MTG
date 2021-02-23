@@ -1,0 +1,12 @@
+name=Wall of Razors
+image=https://magiccards.info/scans/en/sh/100.jpg
+value=4.000
+rarity=U
+type=Creature
+subtype=Wall
+cost={1}{R}
+pt=4/1
+ability=Defender;\
+        First strike
+timing=smain
+oracle=Defender\nFirst strike

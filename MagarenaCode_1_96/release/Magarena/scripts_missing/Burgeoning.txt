@@ -1,0 +1,11 @@
+name=Burgeoning
+image=https://magiccards.info/scans/en/c16/143.jpg
+image_updated=2017-08-29
+value=4.435
+rarity=R
+type=Enchantment
+cost={G}
+ability=Whenever an opponent plays a land, you may put a land card from your hand onto the battlefield.
+timing=enchantment
+oracle=Whenever an opponent plays a land, you may put a land card from your hand onto the battlefield.
+status=not supported: when-plays-land

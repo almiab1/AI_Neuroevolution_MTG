@@ -1,0 +1,11 @@
+name=Elvish Promenade
+image=https://magiccards.info/scans/en/lw/208.jpg
+image_updated=2016-12-02
+value=4.081
+rarity=U
+type=Tribal,Sorcery
+subtype=Elf
+cost={3}{G}
+effect=Create a 1/1 green Elf Warrior creature token for each Elf you control.
+timing=main
+oracle=Create a 1/1 green Elf Warrior creature token for each Elf you control.

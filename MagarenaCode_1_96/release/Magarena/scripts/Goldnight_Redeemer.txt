@@ -1,0 +1,12 @@
+name=Goldnight Redeemer
+image=https://magiccards.info/scans/en/avr/23.jpg
+value=3.044
+rarity=U
+type=Creature
+subtype=Angel
+cost={4}{W}{W}
+pt=4/4
+ability=Flying;\
+        When SN enters the battlefield, you gain 2 life for each other creature you control.
+timing=main
+oracle=Flying\nWhen Goldnight Redeemer enters the battlefield, you gain 2 life for each other creature you control.

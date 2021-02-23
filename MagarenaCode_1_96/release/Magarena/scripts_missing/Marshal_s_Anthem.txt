@@ -1,0 +1,13 @@
+name=Marshal's Anthem
+image=https://magiccards.info/scans/en/c14/77.jpg
+image_updated=2016-02-29
+value=2.500
+rarity=R
+type=Enchantment
+cost={2}{W}{W}
+ability=Multikicker {1}{W};\
+        Creatures you control get +1/+1.;\
+        When SN enters the battlefield, return up to X target creature cards from your graveyard to the battlefield, where X is the number of times SN was kicked.
+timing=enchantment
+oracle=Multikicker {1}{W}\nCreatures you control get +1/+1.\nWhen Marshal's Anthem enters the battlefield, return up to X target creature cards from your graveyard to the battlefield, where X is the number of times Marshal's Anthem was kicked.
+status=not supported: multiple-targets

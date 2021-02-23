@@ -1,0 +1,11 @@
+name=Abyssal Nightstalker
+image=https://magiccards.info/scans/en/po2/1.jpg
+value=2.859
+rarity=U
+type=Creature
+subtype=Nightstalker
+cost={3}{B}
+pt=2/2
+ability=Whenever SN attacks and isn't blocked, defending player discards a card.
+timing=main
+oracle=Whenever Abyssal Nightstalker attacks and isn't blocked, defending player discards a card.

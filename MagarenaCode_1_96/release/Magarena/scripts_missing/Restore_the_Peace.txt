@@ -1,0 +1,10 @@
+name=Restore the Peace
+image=https://magiccards.info/scans/en/dgm/97.jpg
+value=3.384
+rarity=U
+type=Instant
+cost={1}{W}{U}
+effect=Return each creature that dealt damage this turn to its owner's hand.
+timing=removal
+oracle=Return each creature that dealt damage this turn to its owner's hand.
+status=not supported: no-info

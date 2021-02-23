@@ -1,0 +1,14 @@
+name=Skizzik
+image=https://magiccards.info/scans/en/dom/145.jpg
+image_updated=2018-08-07
+value=4.215
+rarity=U
+type=Creature
+subtype=Elemental
+cost={3}{R}
+pt=5/3
+ability=Kicker {R};\
+        Trample, haste
+timing=fmain
+oracle=Kicker {R}\nTrample, haste\nAt the beginning of the end step, if Skizzik wasn't kicked, sacrifice it.
+requires_groovy_code

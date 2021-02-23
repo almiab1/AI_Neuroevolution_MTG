@@ -1,0 +1,11 @@
+name=Ali from Cairo
+image=https://magiccards.info/scans/en/an/44.jpg
+value=4.150
+rarity=R
+type=Creature
+subtype=Human
+cost={2}{R}{R}
+pt=0/1
+timing=main
+requires_groovy_code
+oracle=Damage that would reduce your life total to less than 1 reduces it to 1 instead.

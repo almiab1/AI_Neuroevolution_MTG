@@ -1,0 +1,11 @@
+name=Shu Elite Companions
+image=https://magiccards.info/scans/en/p3k/21.jpg
+value=3.217
+rarity=U
+type=Creature
+subtype=Human,Soldier
+cost={4}{W}
+pt=3/3
+ability=Horsemanship
+timing=main
+oracle=Horsemanship

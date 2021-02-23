@@ -1,0 +1,11 @@
+name=Undergrowth Scavenger
+image=https://magiccards.info/scans/en/m15/204.jpg
+value=2.833
+rarity=C
+type=Creature
+subtype=Fungus,Horror
+cost={3}{G}
+pt=0/0
+timing=main
+requires_groovy_code
+oracle=Undergrowth Scavenger enters the battlefield with a number of +1/+1 counters on it equal to the number of creature cards in all graveyards.

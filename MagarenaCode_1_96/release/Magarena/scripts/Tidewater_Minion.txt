@@ -1,0 +1,13 @@
+name=Tidewater Minion
+image=https://magiccards.info/scans/en/rav/71.jpg
+value=3.262
+rarity=C
+type=Creature
+subtype=Elemental,Minion
+cost={3}{U}{U}
+pt=4/4
+ability=Defender;\
+        {4}: SN loses defender until end of turn.;\
+        {T}: Untap target permanent. Activate this ability with AI no more than three times each turn.
+timing=smain
+oracle=Defender\n{4}: Tidewater Minion loses defender until end of turn.\n{T}: Untap target permanent.

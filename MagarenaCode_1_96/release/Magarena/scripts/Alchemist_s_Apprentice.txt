@@ -1,0 +1,11 @@
+name=Alchemist's Apprentice
+image=https://magiccards.info/scans/en/avr/42.jpg
+value=2.697
+rarity=C
+type=Creature
+subtype=Human,Wizard
+cost={1}{U}
+pt=1/1
+ability=Sacrifice SN: Draw a card.
+timing=main
+oracle=Sacrifice Alchemist's Apprentice: Draw a card.

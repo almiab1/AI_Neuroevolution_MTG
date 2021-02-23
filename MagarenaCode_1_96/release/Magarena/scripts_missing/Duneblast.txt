@@ -1,0 +1,11 @@
+name=Duneblast
+image=https://magiccards.info/scans/en/c16/194.jpg
+image_updated=2017-08-17
+value=3.833
+rarity=R
+type=Sorcery
+cost={4}{W}{B}{G}
+effect=Choose up to one creature. Destroy the rest.
+timing=main
+oracle=Choose up to one creature. Destroy the rest.
+status=needs groovy

@@ -1,0 +1,11 @@
+name=Barbarian General
+image=https://magiccards.info/scans/en/p3k/100.jpg
+value=2.435
+rarity=U
+type=Creature
+subtype=Human,Barbarian,Soldier
+cost={4}{R}
+pt=3/2
+ability=Horsemanship
+timing=main
+oracle=Horsemanship

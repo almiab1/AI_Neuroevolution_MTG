@@ -1,0 +1,12 @@
+name=Coralhelm Commander
+image=https://magiccards.info/scans/en/roe/57.jpg
+value=4.402
+rarity=R
+type=Creature
+subtype=Merfolk,Soldier
+cost={U}{U}
+pt=2/2
+ability=level up {1} 4
+timing=main
+requires_groovy_code
+oracle=Level up {1}\nLEVEL 2-3\n3/3\nFlying\nLEVEL 4+\n4/4\nFlying\nOther Merfolk creatures you control get +1/+1.

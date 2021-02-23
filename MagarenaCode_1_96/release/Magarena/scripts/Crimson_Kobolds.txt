@@ -1,0 +1,11 @@
+name=Crimson Kobolds
+image=https://magiccards.info/scans/en/lg/219.jpg
+value=4.047
+rarity=C
+type=Creature
+subtype=Kobold
+color=r
+cost={0}
+pt=0/1
+timing=main
+oracle=NONE

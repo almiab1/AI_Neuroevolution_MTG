@@ -1,0 +1,10 @@
+name=Valiant Guard
+image=https://magiccards.info/scans/en/cfx/19.jpg
+value=2.386
+rarity=C
+type=Creature
+subtype=Human,Soldier
+cost={W}
+pt=0/3
+timing=main
+oracle=NONE

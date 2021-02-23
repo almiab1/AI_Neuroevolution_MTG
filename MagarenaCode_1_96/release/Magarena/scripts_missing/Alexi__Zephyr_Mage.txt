@@ -1,0 +1,12 @@
+name=Alexi, Zephyr Mage
+image=https://magiccards.info/scans/en/pr/28.jpg
+value=3.986
+rarity=R
+type=Legendary,Creature
+subtype=Human,Spellshaper
+cost={3}{U}{U}
+pt=3/3
+ability={X}{U}, {T}, Discard two cards: Return X target creatures to their owners' hands.
+timing=main
+oracle={X}{U}, {T}, Discard two cards: Return X target creatures to their owners' hands.
+status=not supported: multiple-targets

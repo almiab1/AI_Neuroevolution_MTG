@@ -1,0 +1,15 @@
+name=Morphling
+image=https://magiccards.info/scans/en/us/85.jpg
+value=4.500
+rarity=R
+type=Creature
+subtype=Shapeshifter
+cost={3}{U}{U}
+pt=3/3
+ability={U}: Untap SN.;\
+        {U}: SN gains flying until end of turn.;\
+        {U}: SN gains shroud until end of turn.;\
+        {1}: SN gets +1/-1 until end of turn.;\
+        {1}: SN gets -1/+1 until end of turn.
+timing=main
+oracle={U}: Untap Morphling.\n{U}: Morphling gains flying until end of turn.\n{U}: Morphling gains shroud until end of turn.\n{1}: Morphling gets +1/-1 until end of turn.\n{1}: Morphling gets -1/+1 until end of turn.

@@ -1,0 +1,11 @@
+name=Goblin Wardriver
+image=https://magiccards.info/scans/en/mbs/64.jpg
+value=3.848
+rarity=U
+type=Creature
+subtype=Goblin,Warrior
+cost={R}{R}
+pt=2/2
+ability=Battle cry
+timing=main
+oracle=Battle cry

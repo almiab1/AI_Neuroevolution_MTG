@@ -1,0 +1,12 @@
+name=Goblin Clearcutter
+image=https://magiccards.info/scans/en/le/96.jpg
+value=3.241
+rarity=U
+type=Creature
+subtype=Goblin
+cost={3}{R}
+pt=3/3
+ability={T}, Sacrifice a Forest: Add three mana in any combination of {R} and/or {G}.
+timing=main
+oracle={T}, Sacrifice a Forest: Add three mana in any combination of {R} and/or {G}.
+status=not supported: add-multiple-mana

@@ -1,0 +1,9 @@
+name=Insight
+image=https://magiccards.info/scans/en/6e/75.jpg
+value=3.297
+rarity=U
+type=Enchantment
+cost={2}{U}
+ability=Whenever an opponent casts a green spell, you draw a card.
+timing=enchantment
+oracle=Whenever an opponent casts a green spell, you draw a card.

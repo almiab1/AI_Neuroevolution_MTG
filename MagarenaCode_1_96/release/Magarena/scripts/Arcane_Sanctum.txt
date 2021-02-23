@@ -1,0 +1,11 @@
+name=Arcane Sanctum
+image=https://magiccards.info/scans/en/mm3/228.jpg
+image_updated=2017-08-08
+value=3.824
+rarity=U
+type=Land
+mana=w2u2b2
+ability=SN enters the battlefield tapped.;\
+        {T}: Add {W}, {U}, or {B}.
+timing=tapland
+oracle=Arcane Sanctum enters the battlefield tapped.\n{T}: Add {W}, {U}, or {B}.

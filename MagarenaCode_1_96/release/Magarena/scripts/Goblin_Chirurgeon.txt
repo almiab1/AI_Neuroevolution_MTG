@@ -1,0 +1,11 @@
+name=Goblin Chirurgeon
+image=https://magiccards.info/scans/en/fe/110.jpg
+value=3.890
+rarity=C
+type=Creature
+subtype=Goblin,Shaman
+cost={R}
+pt=0/2
+ability=Sacrifice a Goblin: Regenerate target creature.
+timing=main
+oracle=Sacrifice a Goblin: Regenerate target creature.

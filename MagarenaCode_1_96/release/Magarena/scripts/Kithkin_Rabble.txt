@@ -1,0 +1,12 @@
+name=Kithkin Rabble
+image=https://magiccards.info/scans/en/shm/9.jpg
+value=3.357
+rarity=U
+type=Creature
+subtype=Kithkin
+cost={3}{W}
+pt=*/*
+ability=Vigilance;\
+        SN's power and toughness are each equal to the number of white permanents you control.
+timing=main
+oracle=Vigilance\nKithkin Rabble's power and toughness are each equal to the number of white permanents you control.

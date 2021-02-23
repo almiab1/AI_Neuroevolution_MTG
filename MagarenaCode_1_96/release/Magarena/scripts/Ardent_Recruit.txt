@@ -1,0 +1,11 @@
+name=Ardent Recruit
+image=https://magiccards.info/scans/en/mbs/2.jpg
+value=3.408
+rarity=C
+type=Creature
+subtype=Human,Soldier
+cost={W}
+pt=1/1
+ability=SN gets +2/+2 as long as you control three or more artifacts.
+timing=main
+oracle=Metalcraft — Ardent Recruit gets +2/+2 as long as you control three or more artifacts.

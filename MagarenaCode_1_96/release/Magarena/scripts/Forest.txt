@@ -1,0 +1,10 @@
+name=Forest
+image=https://magiccards.info/scans/en/bfz/274b.jpg
+image_updated=2016-02-29
+value=4.250
+rarity=B
+type=Basic,Land
+subtype=Forest
+mana=g4
+timing=land
+oracle=NONE

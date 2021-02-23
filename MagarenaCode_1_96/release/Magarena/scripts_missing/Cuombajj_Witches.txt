@@ -1,0 +1,12 @@
+name=Cuombajj Witches
+image=https://magiccards.info/scans/en/at/22.jpg
+value=3.219
+rarity=C
+type=Creature
+subtype=Human,Wizard
+cost={B}{B}
+pt=1/3
+ability={T}: SN deals 1 damage to target creature or player and 1 damage to target creature or player of an opponent's choice.
+timing=main
+oracle={T}: Cuombajj Witches deals 1 damage to target creature or player and 1 damage to target creature or player of an opponent's choice.
+status=not supported: multiple-targets

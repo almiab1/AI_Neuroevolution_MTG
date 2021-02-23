@@ -1,0 +1,13 @@
+name=Curse of the Bloody Tome
+image=https://magiccards.info/scans/en/isd/50.jpg
+value=3.313
+rarity=C
+type=Enchantment
+subtype=Aura,Curse
+cost={2}{U}
+ability=Enchant player;\
+        At the beginning of enchanted player's upkeep, that player puts the top two cards of his or her library into his or her graveyard.
+timing=aura
+enchant=default,player
+oracle=Enchant player\nAt the beginning of enchanted player's upkeep, that player puts the top two cards of his or her library into his or her graveyard.
+status=not supported: enchant-player

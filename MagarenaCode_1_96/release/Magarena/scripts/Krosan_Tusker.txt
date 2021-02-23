@@ -1,0 +1,13 @@
+name=Krosan Tusker
+image=https://magiccards.info/scans/en/a25/178.jpg
+image_updated=2018-04-27
+value=4.000
+rarity=U
+type=Creature
+subtype=Boar,Beast
+cost={5}{G}{G}
+pt=6/5
+ability=Cycling {2}{G};\
+        When you cycle SN, you may search your library for a basic land card, reveal that card, put it into your hand, then shuffle your library.
+timing=main
+oracle=Cycling {2}{G}\nWhen you cycle Krosan Tusker, you may search your library for a basic land card, reveal that card, put it into your hand, then shuffle your library.

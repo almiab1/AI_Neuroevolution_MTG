@@ -1,0 +1,11 @@
+name=Forgeborn Oreads
+image=https://magiccards.info/scans/en/jou/98.jpg
+value=3.625
+rarity=U
+type=Enchantment,Creature
+subtype=Nymph
+cost={2}{R}{R}
+pt=4/2
+ability=Whenever SN or another enchantment enters the battlefield under your control, SN deals 1 damage to target creature or player.
+timing=main
+oracle=Constellation — Whenever Forgeborn Oreads or another enchantment enters the battlefield under your control, Forgeborn Oreads deals 1 damage to target creature or player.

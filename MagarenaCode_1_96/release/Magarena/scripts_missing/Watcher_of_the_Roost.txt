@@ -1,0 +1,14 @@
+name=Watcher of the Roost
+image=https://magiccards.info/scans/en/ktk/30.jpg
+value=2.500
+rarity=U
+type=Creature
+subtype=Bird,Soldier
+cost={2}{W}
+pt=2/1
+ability=Flying;\
+        Morph—Reveal a white card in your hand.;\
+        When SN is turned face up, you gain 2 life.
+timing=main
+oracle=Flying\nMorph—Reveal a white card in your hand.\nWhen Watcher of the Roost is turned face up, you gain 2 life.
+status=not supported: reveal-cost

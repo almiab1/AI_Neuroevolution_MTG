@@ -1,0 +1,13 @@
+name=Abyssal Persecutor
+image=https://magiccards.info/scans/en/ima/78.jpg
+image_updated=2017-04-12
+value=4.288
+rarity=R
+type=Creature
+subtype=Demon
+cost={2}{B}{B}
+pt=6/6
+ability=Flying, trample
+timing=main
+requires_groovy_code
+oracle=Flying, trample\nYou can't win the game and your opponents can't lose the game.

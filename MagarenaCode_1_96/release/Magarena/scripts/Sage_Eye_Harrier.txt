@@ -1,0 +1,12 @@
+name=Sage-Eye Harrier
+image=https://magiccards.info/scans/en/ktk/20.jpg
+value=2.000
+rarity=C
+type=Creature
+subtype=Bird,Warrior
+cost={4}{W}
+pt=1/5
+ability=Flying;\
+        Morph {3}{W}
+timing=main
+oracle=Flying\nMorph {3}{W}

@@ -1,0 +1,16 @@
+name=Balefire Liege
+image=https://magiccards.info/scans/en/eve/132.jpg
+image_updated=2016-12-13
+value=4.281
+rarity=R
+type=Creature
+subtype=Spirit,Horror
+cost={2}{R/W}{R/W}{R/W}
+pt=2/4
+ability=Other red creatures you control get +1/+1.;\
+        Other white creatures you control get +1/+1.;\
+        Whenever you cast a red spell, SN deals 3 damage to target player.;\
+        Whenever you cast a white spell, you gain 3 life.
+static=player
+timing=main
+oracle=Other red creatures you control get +1/+1.\nOther white creatures you control get +1/+1.\nWhenever you cast a red spell, Balefire Liege deals 3 damage to target player.\nWhenever you cast a white spell, you gain 3 life.

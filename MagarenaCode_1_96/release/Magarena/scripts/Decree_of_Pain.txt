@@ -1,0 +1,12 @@
+name=Decree of Pain
+image=https://magiccards.info/scans/en/c17/111.jpg
+image_updated=2017-10-03
+value=3.932
+rarity=R
+type=Sorcery
+cost={6}{B}{B}
+ability=Cycling {3}{B}{B};\
+        When you cycle SN, all creatures get -2/-2 until end of turn.
+timing=main
+requires_groovy_code
+oracle=Destroy all creatures. They can't be regenerated. Draw a card for each creature destroyed this way.\nCycling {3}{B}{B}\nWhen you cycle Decree of Pain, all creatures get -2/-2 until end of turn.

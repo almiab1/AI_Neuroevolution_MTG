@@ -1,0 +1,12 @@
+name=Dwarven Recruiter
+image=https://magiccards.info/scans/en/od/186.jpg
+value=3.815
+rarity=U
+type=Creature
+subtype=Dwarf
+cost={2}{R}
+pt=2/2
+ability=When SN enters the battlefield, search your library for any number of Dwarf cards and reveal those cards. Shuffle your library, then put them on top of it in any order.
+timing=main
+oracle=When Dwarven Recruiter enters the battlefield, search your library for any number of Dwarf cards and reveal those cards. Shuffle your library, then put them on top of it in any order.
+status=not supported: any-number-of

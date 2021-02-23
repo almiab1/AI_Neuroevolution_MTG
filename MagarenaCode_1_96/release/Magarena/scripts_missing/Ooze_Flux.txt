@@ -1,0 +1,10 @@
+name=Ooze Flux
+image=https://magiccards.info/scans/en/gtc/128.jpg
+value=3.316
+rarity=R
+type=Enchantment
+cost={3}{G}
+ability={1}{G}, Remove one or more +1/+1 counters from among creatures you control: Create an X/X green Ooze creature token, where X is the number of +1/+1 counters removed this way.
+timing=enchantment
+oracle={1}{G}, Remove one or more +1/+1 counters from among creatures you control: Create an X/X green Ooze creature token, where X is the number of +1/+1 counters removed this way.
+status=not supported: remove-one-or-more

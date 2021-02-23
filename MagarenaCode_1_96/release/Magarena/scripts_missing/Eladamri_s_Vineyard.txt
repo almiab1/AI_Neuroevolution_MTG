@@ -1,0 +1,10 @@
+name=Eladamri's Vineyard
+image=https://magiccards.info/scans/en/tp/118.jpg
+value=4.351
+rarity=R
+type=Enchantment
+cost={G}
+ability=At the beginning of each player's precombat main phase, add {G}{G}.
+timing=enchantment
+oracle=At the beginning of each player's precombat main phase, add {G}{G}.
+status=not supported: add-multiple-mana

@@ -1,0 +1,10 @@
+name=Circular Logic
+image=https://magiccards.info/scans/en/tr/33.jpg
+value=4.000
+rarity=U
+type=Instant
+cost={2}{U}
+ability=Madness {U}
+timing=counter
+requires_groovy_code
+oracle=Counter target spell unless its controller pays {1} for each card in your graveyard.\nMadness {U}

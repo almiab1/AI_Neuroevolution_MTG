@@ -1,0 +1,15 @@
+name=Umezawa's Jitte
+image=https://magiccards.info/scans/en/bok/163.jpg
+value=4.594
+rarity=R
+type=Legendary,Artifact
+subtype=Equipment
+cost={2}
+ability=Whenever equipped creature deals combat damage, put two charge counters on SN.;\
+        Remove a charge counter from SN: Choose one — \
+        (1) Equipped creature gets +2/+2 until end of turn. \
+        (2) Target creature gets -1/-1 until end of turn. \
+        (3) You gain 2 life.;\
+        Equip {2}
+timing=equipment
+oracle=Whenever equipped creature deals combat damage, put two charge counters on Umezawa's Jitte.\nRemove a charge counter from Umezawa's Jitte: Choose one —\n• Equipped creature gets +2/+2 until end of turn.\n• Target creature gets -1/-1 until end of turn.\n• You gain 2 life.\nEquip {2}

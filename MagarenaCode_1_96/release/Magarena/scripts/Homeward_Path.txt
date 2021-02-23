@@ -1,0 +1,10 @@
+name=Homeward Path
+image=https://magiccards.info/scans/en/c16/301.jpg
+image_updated=2017-08-17
+value=3.806
+rarity=R
+type=Land
+ability={T}: Add {C}.
+timing=land
+oracle={T}: Add {C}.\n{T}: Each player gains control of all creatures he or she owns.
+requires_groovy_code

@@ -1,0 +1,10 @@
+name=Time Ebb
+image=https://magiccards.info/scans/en/9e/107.jpg
+value=4.064
+removal=3
+rarity=C
+type=Sorcery
+cost={2}{U}
+effect=Put target creature on top of its owner's library.
+timing=removal
+oracle=Put target creature on top of its owner's library.

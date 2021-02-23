@@ -1,0 +1,9 @@
+name=Mental Vapors
+image=https://magiccards.info/scans/en/gtc/72.jpg
+value=2.427
+rarity=U
+type=Sorcery
+cost={3}{B}
+effect=Target player discards a card.~Cipher.
+timing=main
+oracle=Target player discards a card.\nCipher

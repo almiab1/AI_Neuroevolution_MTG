@@ -1,0 +1,11 @@
+name=Soliton
+image=https://magiccards.info/scans/en/som/204.jpg
+value=3.007
+rarity=C
+type=Artifact,Creature
+subtype=Construct
+cost={5}
+pt=3/4
+ability={U}: Untap SN.
+timing=main
+oracle={U}: Untap Soliton.

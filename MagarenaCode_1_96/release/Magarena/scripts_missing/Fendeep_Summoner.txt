@@ -1,0 +1,12 @@
+name=Fendeep Summoner
+image=https://magiccards.info/scans/en/mt/61.jpg
+value=3.450
+rarity=R
+type=Creature
+subtype=Treefolk,Shaman
+cost={4}{B}
+pt=3/5
+ability={T}: Up to two target Swamps each become 3/5 Treefolk Warrior creatures in addition to their other types until end of turn.
+timing=main
+oracle={T}: Up to two target Swamps each become 3/5 Treefolk Warrior creatures in addition to their other types until end of turn.
+status=not supported: multiple-targets

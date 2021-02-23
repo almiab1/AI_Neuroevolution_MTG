@@ -1,0 +1,11 @@
+name=Spitting Image
+image=https://magiccards.info/scans/en/c16/236.jpg
+image_updated=2017-08-17
+value=3.675
+rarity=R
+type=Sorcery
+cost={4}{G/U}{G/U}
+ability=Retrace
+effect=Create a token that's a copy of target creature.
+timing=main
+oracle=Create a token that's a copy of target creature.\nRetrace

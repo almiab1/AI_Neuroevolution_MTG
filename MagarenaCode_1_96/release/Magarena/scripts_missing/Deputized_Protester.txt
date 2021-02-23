@@ -1,0 +1,14 @@
+name=Deputized Protester
+image=https://magiccards.info/scans/en/cn2/51.jpg
+image_updated=2016-09-05
+value=2.500
+rarity=C
+type=Creature
+subtype=Human,Warrior
+cost={2}{R}
+pt=2/1
+ability=Menace;\
+        Melee
+timing=main
+oracle=Menace\nMelee
+status=not supported: blocking-restriction

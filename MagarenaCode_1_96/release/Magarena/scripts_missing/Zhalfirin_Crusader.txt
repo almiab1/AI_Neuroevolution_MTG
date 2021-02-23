@@ -1,0 +1,13 @@
+name=Zhalfirin Crusader
+image=https://magiccards.info/scans/en/vi/125.jpg
+value=2.500
+rarity=R
+type=Creature
+subtype=Human,Knight
+cost={1}{W}{W}
+pt=2/2
+ability=Flanking;\
+        {1}{W}: The next 1 damage that would be dealt to SN this turn is dealt to target creature or player instead.
+timing=main
+oracle=Flanking\n{1}{W}: The next 1 damage that would be dealt to Zhalfirin Crusader this turn is dealt to target creature or player instead.
+status=not supported: redirect-next-damage

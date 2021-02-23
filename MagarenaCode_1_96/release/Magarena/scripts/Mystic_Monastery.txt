@@ -1,0 +1,11 @@
+name=Mystic Monastery
+image=https://magiccards.info/scans/en/c16/310.jpg
+image_updated=2017-08-17
+value=3.750
+rarity=U
+type=Land
+mana=u2r2w2
+ability=SN enters the battlefield tapped.;\
+        {T}: Add {U}, {R}, or {W}.
+timing=tapland
+oracle=Mystic Monastery enters the battlefield tapped.\n{T}: Add {U}, {R}, or {W}.

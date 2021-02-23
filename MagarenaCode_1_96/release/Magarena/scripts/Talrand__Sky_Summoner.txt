@@ -1,0 +1,12 @@
+name=Talrand, Sky Summoner
+image=https://magiccards.info/scans/en/m13/72.jpg
+image_updated=2016-02-29
+value=4.173
+rarity=R
+type=Legendary,Creature
+subtype=Merfolk,Wizard
+cost={2}{U}{U}
+pt=2/2
+ability=Whenever you cast an instant or sorcery spell, create a 2/2 blue Drake creature token with flying.
+timing=main
+oracle=Whenever you cast an instant or sorcery spell, create a 2/2 blue Drake creature token with flying.

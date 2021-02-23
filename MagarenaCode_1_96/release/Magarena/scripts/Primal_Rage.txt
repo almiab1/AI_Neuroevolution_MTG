@@ -1,0 +1,10 @@
+name=Primal Rage
+image=https://magiccards.info/scans/en/10e/286.jpg
+value=4.196
+rarity=U
+type=Enchantment
+cost={1}{G}
+ability=Creatures you control have trample.
+static=player
+timing=enchantment
+oracle=Creatures you control have trample.

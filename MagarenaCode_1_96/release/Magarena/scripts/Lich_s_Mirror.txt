@@ -1,0 +1,9 @@
+name=Lich's Mirror
+image=https://magiccards.info/scans/en/ala/210.jpg
+value=3.290
+rarity=M
+type=Artifact
+cost={5}
+timing=artifact
+requires_groovy_code
+oracle=If you would lose the game, instead shuffle your hand, your graveyard, and all permanents you own into your library, then draw seven cards and your life total becomes 20.

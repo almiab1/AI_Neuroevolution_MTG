@@ -1,0 +1,12 @@
+name=Metropolis Sprite
+image=https://magiccards.info/scans/en/gtc/42.jpg
+value=2.809
+rarity=C
+type=Creature
+subtype=Faerie,Rogue
+cost={1}{U}
+pt=1/2
+ability=Flying;\
+        {U}: SN gets +1/-1 until end of turn.
+timing=main
+oracle=Flying\n{U}: Metropolis Sprite gets +1/-1 until end of turn.

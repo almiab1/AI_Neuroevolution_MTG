@@ -1,0 +1,12 @@
+name=Specter's Shroud
+image=https://magiccards.info/scans/en/ds/142.jpg
+value=3.632
+rarity=U
+type=Artifact
+subtype=Equipment
+cost={2}
+ability=Equipped creature gets +1/+0.;\
+        Whenever equipped creature deals combat damage to a player, that player discards a card.;\
+        Equip {1}
+timing=equipment
+oracle=Equipped creature gets +1/+0.\nWhenever equipped creature deals combat damage to a player, that player discards a card.\nEquip {1}

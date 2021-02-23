@@ -1,0 +1,12 @@
+name=Umbra Stalker
+image=https://magiccards.info/scans/en/eve/48.jpg
+value=3.343
+rarity=R
+type=Creature
+subtype=Elemental
+cost={4}{B}{B}{B}
+pt=*/*
+ability=SN's power and toughness are each equal to the number of black mana symbols in the mana costs of cards in your graveyard.
+timing=main
+oracle=Chroma — Umbra Stalker's power and toughness are each equal to the number of black mana symbols in the mana costs of cards in your graveyard.
+status=needs groovy

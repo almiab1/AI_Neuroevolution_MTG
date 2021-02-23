@@ -1,0 +1,11 @@
+name=Trickbind
+image=https://magiccards.info/scans/en/ts/88.jpg
+value=4.434
+rarity=R
+type=Instant
+cost={1}{U}
+ability=Split second
+effect=Counter target activated or triggered ability. If a permanent's ability is countered this way, activated abilities of that permanent can't be activated this turn.
+timing=counter
+oracle=Split second\nCounter target activated or triggered ability. If a permanent's ability is countered this way, activated abilities of that permanent can't be activated this turn.
+status=needs groovy

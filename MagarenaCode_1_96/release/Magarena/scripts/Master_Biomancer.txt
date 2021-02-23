@@ -1,0 +1,12 @@
+name=Master Biomancer
+image=https://magiccards.info/scans/en/c16/210.jpg
+image_updated=2017-08-17
+value=4.028
+rarity=M
+type=Creature
+subtype=Elf,Wizard
+cost={2}{G}{U}
+pt=2/4
+timing=main
+requires_groovy_code
+oracle=Each other creature you control enters the battlefield with a number of additional +1/+1 counters on it equal to Master Biomancer's power and as a Mutant in addition to its other types.

@@ -1,0 +1,13 @@
+name=Street Savvy
+image=https://magiccards.info/scans/en/di/97.jpg
+value=2.400
+rarity=C
+type=Enchantment
+subtype=Aura
+cost={G}
+ability=Enchant creature;\
+        Enchanted creature gets +0/+2 and can block creatures with landwalk abilities as though they didn't have those abilities.
+timing=aura
+enchant=default,creature
+oracle=Enchant creature\nEnchanted creature gets +0/+2 and can block creatures with landwalk abilities as though they didn't have those abilities.
+status=not supported: block-as-though

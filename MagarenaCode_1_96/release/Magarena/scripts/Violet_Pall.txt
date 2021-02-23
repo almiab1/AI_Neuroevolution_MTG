@@ -1,0 +1,11 @@
+name=Violet Pall
+image=https://magiccards.info/scans/en/mt/81.jpg
+value=2.795
+rarity=C
+type=Tribal,Instant
+subtype=Faerie
+cost={4}{B}
+effect=Destroy target nonblack creature.~Create a 1/1 black Faerie Rogue creature token with flying.
+timing=removal
+removal=3
+oracle=Destroy target nonblack creature. Create a 1/1 black Faerie Rogue creature token with flying.

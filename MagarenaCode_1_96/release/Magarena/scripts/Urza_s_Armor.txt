@@ -1,0 +1,9 @@
+name=Urza's Armor
+image=https://magiccards.info/scans/en/8e/318.jpg
+value=3.141
+rarity=R
+type=Artifact
+cost={6}
+timing=artifact
+oracle=If a source would deal damage to you, prevent 1 of that damage.
+requires_groovy_code

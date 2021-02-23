@@ -1,0 +1,11 @@
+name=Leyline of Lifeforce
+image=https://magiccards.info/scans/en/gp/90.jpg
+value=3.420
+rarity=R
+type=Enchantment
+cost={2}{G}{G}
+ability=If SN is in your opening hand, you may begin the game with it on the battlefield.;\
+        Creature spells can't be countered.
+timing=enchantment
+oracle=If Leyline of Lifeforce is in your opening hand, you may begin the game with it on the battlefield.\nCreature spells can't be countered.
+status=not supported: opening-hand

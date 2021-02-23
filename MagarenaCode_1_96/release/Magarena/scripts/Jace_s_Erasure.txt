@@ -1,0 +1,9 @@
+name=Jace's Erasure
+image=https://magiccards.info/scans/en/m12/60.jpg
+value=3.685
+rarity=C
+type=Enchantment
+cost={1}{U}
+ability=Whenever you draw a card, you may have target player put the top card of his or her library into his or her graveyard.
+timing=enchantment
+oracle=Whenever you draw a card, you may have target player put the top card of his or her library into his or her graveyard.

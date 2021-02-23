@@ -1,0 +1,11 @@
+name=Uba Mask
+image=https://magiccards.info/scans/en/chk/272.jpg
+value=3.569
+rarity=R
+type=Artifact
+cost={4}
+ability=If a player would draw a card, that player exiles that card face up instead.;\
+        Each player may play cards he or she exiled with SN this turn.
+timing=artifact
+oracle=If a player would draw a card, that player exiles that card face up instead.\nEach player may play cards he or she exiled with Uba Mask this turn.
+status=not supported: may-play-card

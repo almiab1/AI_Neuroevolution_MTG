@@ -1,0 +1,13 @@
+name=Geist of the Lonely Vigil
+image=https://magiccards.info/scans/en/emn/27.jpg
+image_updated=2016-09-05
+value=2.500
+rarity=U
+type=Creature
+subtype=Spirit,Cleric
+cost={1}{W}
+pt=2/3
+ability=Defender, flying;\
+        SN can attack as though it didn't have defender as long as there are four or more card types among cards in your graveyard.
+timing=smain
+oracle=Defender, flying\nDelirium — Geist of the Lonely Vigil can attack as though it didn't have defender as long as there are four or more card types among cards in your graveyard.

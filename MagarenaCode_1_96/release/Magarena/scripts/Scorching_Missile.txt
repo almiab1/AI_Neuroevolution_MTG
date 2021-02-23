@@ -1,0 +1,10 @@
+name=Scorching Missile
+image=https://magiccards.info/scans/en/od/219.jpg
+value=2.000
+rarity=C
+type=Sorcery
+cost={3}{R}
+ability=Flashback {9}{R}
+effect=SN deals 4 damage to target player.
+timing=main
+oracle=Scorching Missile deals 4 damage to target player.\nFlashback {9}{R}

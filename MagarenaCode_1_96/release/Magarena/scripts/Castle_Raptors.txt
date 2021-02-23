@@ -1,0 +1,12 @@
+name=Castle Raptors
+image=https://magiccards.info/scans/en/ts/5.jpg
+value=2.161
+rarity=C
+type=Creature
+subtype=Bird,Soldier
+cost={4}{W}
+pt=3/3
+ability=Flying;\
+        As long as SN is untapped, it gets +0/+2.
+timing=main
+oracle=Flying\nAs long as Castle Raptors is untapped, it gets +0/+2.

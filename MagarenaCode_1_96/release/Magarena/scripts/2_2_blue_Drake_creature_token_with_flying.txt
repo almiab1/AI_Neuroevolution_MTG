@@ -1,0 +1,10 @@
+name=2/2 blue Drake creature token with flying
+token=Drake
+image=https://magiccards.info/extras/token/magic-2013/drake.jpg
+value=2
+type=Creature
+subtype=Drake
+color=u
+pt=2/2
+ability=Flying
+oracle=Flying

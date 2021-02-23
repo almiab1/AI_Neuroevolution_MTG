@@ -1,0 +1,12 @@
+name=Summit Apes
+image=https://magiccards.info/scans/en/wwk/114.jpg
+value=2.960
+rarity=U
+type=Creature
+subtype=Ape
+cost={3}{G}
+pt=5/2
+ability=As long as you control a Mountain, SN has menace.
+timing=main
+oracle=As long as you control a Mountain, Summit Apes has menace.
+status=not supported: blocking-restriction

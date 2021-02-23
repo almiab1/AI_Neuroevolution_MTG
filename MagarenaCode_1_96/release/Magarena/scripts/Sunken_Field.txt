@@ -1,0 +1,12 @@
+name=Sunken Field
+image=https://magiccards.info/scans/en/pr/51.jpg
+value=3.739
+rarity=U
+type=Enchantment
+subtype=Aura
+cost={1}{U}
+ability=Enchant land;\
+        Enchanted land has "{T}: Counter target spell unless its controller pays {1}."
+timing=aura
+enchant=pump,pos land
+oracle=Enchant land\nEnchanted land has "{T}: Counter target spell unless its controller pays {1}."

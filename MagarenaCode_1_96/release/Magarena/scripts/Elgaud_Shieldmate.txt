@@ -1,0 +1,12 @@
+name=Elgaud Shieldmate
+image=https://magiccards.info/scans/en/avr/50.jpg
+value=3.841
+rarity=C
+type=Creature
+subtype=Human,Soldier
+cost={3}{U}
+pt=2/3
+ability=Soulbond;\
+        As long as SN is paired with another creature, both creatures have hexproof.
+timing=main
+oracle=Soulbond\nAs long as Elgaud Shieldmate is paired with another creature, both creatures have hexproof.

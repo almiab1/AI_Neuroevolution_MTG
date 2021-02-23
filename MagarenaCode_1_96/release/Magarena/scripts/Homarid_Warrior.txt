@@ -1,0 +1,11 @@
+name=Homarid Warrior
+image=https://magiccards.info/scans/en/5e/92.jpg
+value=1.864
+rarity=C
+type=Creature
+subtype=Homarid,Warrior
+cost={4}{U}
+pt=3/3
+ability={U}: SN gains shroud until end of turn.~SN doesn't untap during your next untap step.~Tap SN.
+timing=main
+oracle={U}: Homarid Warrior gains shroud until end of turn and doesn't untap during your next untap step. Tap Homarid Warrior.

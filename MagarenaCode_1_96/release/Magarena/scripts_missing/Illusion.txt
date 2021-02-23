@@ -1,0 +1,11 @@
+name=Illusion
+image=https://magiccards.info/scans/en/ap/129a.jpg
+value=2.630
+rarity=U
+type=Instant
+cost={U}
+effect=Target spell or permanent becomes the color of your choice until end of turn.
+split=Reality
+timing=pump
+oracle=Target spell or permanent becomes the color of your choice until end of turn.
+status=not supported: split-card

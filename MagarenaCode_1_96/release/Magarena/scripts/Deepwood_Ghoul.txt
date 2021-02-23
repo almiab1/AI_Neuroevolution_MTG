@@ -1,0 +1,11 @@
+name=Deepwood Ghoul
+image=https://magiccards.info/scans/en/8e/127.jpg
+value=2.620
+rarity=C
+type=Creature
+subtype=Zombie
+cost={2}{B}
+pt=2/1
+ability=Pay 2 life: Regenerate SN.
+timing=main
+oracle=Pay 2 life: Regenerate Deepwood Ghoul.

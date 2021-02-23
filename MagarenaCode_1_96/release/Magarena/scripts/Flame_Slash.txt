@@ -1,0 +1,11 @@
+name=Flame Slash
+image=https://magiccards.info/scans/en/cn2/157.jpg
+image_updated=2017-08-29
+value=3.855
+rarity=C
+type=Sorcery
+cost={R}
+effect=SN deals 4 damage to target creature.
+removal=4
+timing=removal
+oracle=Flame Slash deals 4 damage to target creature.

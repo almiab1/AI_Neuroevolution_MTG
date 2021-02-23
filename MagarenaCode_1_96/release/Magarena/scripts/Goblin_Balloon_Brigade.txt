@@ -1,0 +1,12 @@
+name=Goblin Balloon Brigade
+image=https://magiccards.info/scans/en/cn2/159.jpg
+image_updated=2017-08-29
+value=3.419
+rarity=C
+type=Creature
+subtype=Goblin,Warrior
+cost={R}
+pt=1/1
+ability={R}: SN gains flying until end of turn.
+timing=main
+oracle={R}: Goblin Balloon Brigade gains flying until end of turn.

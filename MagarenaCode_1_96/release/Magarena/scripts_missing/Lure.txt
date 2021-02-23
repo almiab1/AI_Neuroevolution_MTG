@@ -1,0 +1,14 @@
+name=Lure
+image=https://magiccards.info/scans/en/ima/175.jpg
+image_updated=2017-04-12
+value=4.042
+rarity=U
+type=Enchantment
+subtype=Aura
+cost={1}{G}{G}
+ability=Enchant creature;\
+        All creatures able to block enchanted creature do so.
+timing=aura
+enchant=default,creature
+oracle=Enchant creature\nAll creatures able to block enchanted creature do so.
+status=not supported: blocking-restriction

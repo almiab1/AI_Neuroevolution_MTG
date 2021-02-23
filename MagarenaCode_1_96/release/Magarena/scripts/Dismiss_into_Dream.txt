@@ -1,0 +1,11 @@
+name=Dismiss into Dream
+image=https://magiccards.info/scans/en/m14/50.jpg
+value=3.642
+rarity=R
+type=Enchantment
+cost={6}{U}
+ability=creatures your opponents control have "When this creature becomes the target of a spell or ability, sacrifice it."
+static=opponent
+timing=enchantment
+requires_groovy_code
+oracle=Each creature your opponents control is an Illusion in addition to its other types and has "When this creature becomes the target of a spell or ability, sacrifice it."

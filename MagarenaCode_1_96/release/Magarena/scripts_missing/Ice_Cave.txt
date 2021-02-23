@@ -1,0 +1,10 @@
+name=Ice Cave
+image=https://magiccards.info/scans/en/ap/24.jpg
+value=3.487
+rarity=R
+type=Enchantment
+cost={3}{U}{U}
+ability=Whenever a player casts a spell, any other player may pay that spell's mana cost. If a player does, counter the spell.
+timing=enchantment
+oracle=Whenever a player casts a spell, any other player may pay that spell's mana cost. If a player does, counter the spell.
+status=needs groovy

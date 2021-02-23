@@ -1,0 +1,10 @@
+name=Anvil of Bogardan
+image=https://magiccards.info/scans/en/vi/141.jpg
+value=3.938
+rarity=R
+type=Artifact
+cost={2}
+ability=At the beginning of each player's draw step, that player draws a card, then discards a card.
+timing=artifact
+oracle=Players have no maximum hand size.\nAt the beginning of each player's draw step, that player draws an additional card, then discards a card.
+requires_groovy_code

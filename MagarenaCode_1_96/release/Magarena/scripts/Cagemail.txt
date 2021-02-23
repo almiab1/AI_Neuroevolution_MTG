@@ -1,0 +1,12 @@
+name=Cagemail
+image=https://magiccards.info/scans/en/ju/7.jpg
+value=2.870
+rarity=C
+type=Enchantment
+subtype=Aura
+cost={1}{W}
+ability=Enchant creature;\
+        Enchanted creature gets +2/+2 and can't attack.
+timing=aura
+enchant=default,creature
+oracle=Enchant creature\nEnchanted creature gets +2/+2 and can't attack.

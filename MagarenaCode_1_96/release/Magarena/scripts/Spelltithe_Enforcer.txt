@@ -1,0 +1,11 @@
+name=Spelltithe Enforcer
+image=https://magiccards.info/scans/en/gp/18.jpg
+value=3.300
+rarity=R
+type=Creature
+subtype=Elephant,Wizard
+cost={3}{W}{W}
+pt=3/3
+timing=main
+requires_groovy_code
+oracle=Whenever an opponent casts a spell, that player sacrifices a permanent unless he or she pays {1}.

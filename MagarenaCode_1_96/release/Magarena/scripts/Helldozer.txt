@@ -1,0 +1,12 @@
+name=Helldozer
+image=https://magiccards.info/scans/en/rav/88.jpg
+image_updated=2016-12-13
+value=4.219
+rarity=R
+type=Creature
+subtype=Zombie,Giant
+cost={3}{B}{B}{B}
+pt=6/5
+timing=main
+requires_groovy_code
+oracle={B}{B}{B}, {T}: Destroy target land. If that land was nonbasic, untap Helldozer.

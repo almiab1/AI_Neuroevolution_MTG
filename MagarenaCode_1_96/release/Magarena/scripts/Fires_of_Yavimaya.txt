@@ -1,0 +1,11 @@
+name=Fires of Yavimaya
+image=https://magiccards.info/scans/en/cns/188.jpg
+value=4.500
+rarity=U
+type=Enchantment
+cost={1}{R}{G}
+ability=Creatures you control have haste.;\
+        Sacrifice SN: Target creature gets +2/+2 until end of turn.
+static=player
+timing=enchantment
+oracle=Creatures you control have haste.\nSacrifice Fires of Yavimaya: Target creature gets +2/+2 until end of turn.

@@ -1,0 +1,11 @@
+name=Firebrand Ranger
+image=https://magiccards.info/scans/en/in/143.jpg
+value=3.393
+rarity=U
+type=Creature
+subtype=Human,Soldier
+cost={1}{R}
+pt=2/1
+ability={G}, {T}: You may put a basic land card from your hand onto the battlefield.
+timing=main
+oracle={G}, {T}: You may put a basic land card from your hand onto the battlefield.

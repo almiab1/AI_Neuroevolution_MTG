@@ -1,0 +1,8 @@
+name=The Tabernacle at Pendrell Vale
+image=https://magiccards.info/scans/en/lg/252.jpg
+value=4.642
+rarity=R
+type=Legendary,Land
+ability=All creatures have "At the beginning of your upkeep, destroy this creature unless you pay {1}."
+timing=land
+oracle=All creatures have "At the beginning of your upkeep, destroy this creature unless you pay {1}."

@@ -1,0 +1,12 @@
+name=Vigilance
+image=https://magiccards.info/scans/en/chk/49.jpg
+value=2.578
+rarity=C
+type=Enchantment
+subtype=Aura
+cost={W}
+ability=Enchant creature;\
+        Enchanted creature has vigilance.
+timing=aura
+enchant=default,pos creature
+oracle=Enchant creature\nEnchanted creature has vigilance.

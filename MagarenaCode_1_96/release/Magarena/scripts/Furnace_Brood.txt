@@ -1,0 +1,11 @@
+name=Furnace Brood
+image=https://magiccards.info/scans/en/ex/84.jpg
+value=2.944
+rarity=C
+type=Creature
+subtype=Elemental
+cost={3}{R}
+pt=3/3
+timing=main
+requires_groovy_code
+oracle={R}: Target creature can't be regenerated this turn.

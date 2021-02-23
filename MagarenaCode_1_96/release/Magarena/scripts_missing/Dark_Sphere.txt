@@ -1,0 +1,10 @@
+name=Dark Sphere
+image=https://magiccards.info/scans/en/dk/97.jpg
+value=3.386
+rarity=U
+type=Artifact
+cost={0}
+ability={T}, Sacrifice SN: The next time a source of your choice would deal damage to you this turn, prevent half that damage, rounded down.
+timing=artifact
+oracle={T}, Sacrifice Dark Sphere: The next time a source of your choice would deal damage to you this turn, prevent half that damage, rounded down.
+status=not supported: source-deal-damage

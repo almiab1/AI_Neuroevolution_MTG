@@ -1,0 +1,13 @@
+name=Insectile Aberration
+image=https://magiccards.info/scans/en/isd/51b.jpg
+value=4.224
+rarity=C
+type=Creature
+subtype=Human,Insect
+color=u
+pt=3/2
+ability=Flying
+transform=Delver of Secrets
+timing=main
+hidden
+oracle=Flying

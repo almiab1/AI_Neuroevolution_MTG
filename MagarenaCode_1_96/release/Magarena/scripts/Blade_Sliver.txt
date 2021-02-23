@@ -1,0 +1,12 @@
+name=Blade Sliver
+image=https://magiccards.info/scans/en/le/88.jpg
+value=3.586
+rarity=U
+type=Creature
+subtype=Sliver
+cost={2}{R}
+pt=2/2
+ability=All Sliver creatures get +1/+0.
+static=all
+timing=main
+oracle=All Sliver creatures get +1/+0.

@@ -1,0 +1,12 @@
+name=Transcendent Master
+image=https://magiccards.info/scans/en/roe/51.jpg
+value=4.263
+rarity=M
+type=Creature
+subtype=Human,Cleric,Avatar
+cost={1}{W}{W}
+pt=3/3
+ability=level up {1} 12
+timing=main
+requires_groovy_code
+oracle=Level up {1}\nLEVEL 6-11\n6/6\nLifelink\nLEVEL 12+\n9/9\nLifelink, indestructible

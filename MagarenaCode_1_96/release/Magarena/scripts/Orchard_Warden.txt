@@ -1,0 +1,11 @@
+name=Orchard Warden
+image=https://magiccards.info/scans/en/mt/131.jpg
+value=3.000
+rarity=U
+type=Creature
+subtype=Treefolk,Shaman
+cost={4}{G}{G}
+pt=4/6
+timing=main
+requires_groovy_code
+oracle=Whenever another Treefolk creature enters the battlefield under your control, you may gain life equal to that creature's toughness.

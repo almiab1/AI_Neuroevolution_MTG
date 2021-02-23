@@ -1,0 +1,11 @@
+name=Contagion
+image=https://magiccards.info/scans/en/ai/4.jpg
+value=4.571
+rarity=U
+type=Instant
+cost={3}{B}{B}
+ability=You may pay 1 life and exile a black card from your hand rather than pay this spell's mana cost.
+effect=Distribute two -2/-1 counters among one or two target creatures.
+timing=removal
+oracle=You may pay 1 life and exile a black card from your hand rather than pay this spell's mana cost.\nDistribute two -2/-1 counters among one or two target creatures.
+status=not supported: multiple-targets

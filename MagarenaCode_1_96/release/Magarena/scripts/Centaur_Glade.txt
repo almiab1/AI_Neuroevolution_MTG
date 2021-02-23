@@ -1,0 +1,9 @@
+name=Centaur Glade
+image=https://magiccards.info/scans/en/on/251.jpg
+value=4.145
+rarity=U
+type=Enchantment
+cost={3}{G}{G}
+ability={2}{G}{G}: Create a 3/3 green Centaur creature token.
+timing=enchantment
+oracle={2}{G}{G}: Create a 3/3 green Centaur creature token.

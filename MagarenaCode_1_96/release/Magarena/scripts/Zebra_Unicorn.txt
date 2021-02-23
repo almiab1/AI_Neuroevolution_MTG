@@ -1,0 +1,11 @@
+name=Zebra Unicorn
+image=https://magiccards.info/scans/en/mr/350.jpg
+value=3.277
+rarity=U
+type=Creature
+subtype=Unicorn
+cost={2}{G}{W}
+pt=2/2
+timing=main
+requires_groovy_code=Mourning Thrull
+oracle=Whenever Zebra Unicorn deals damage, you gain that much life.

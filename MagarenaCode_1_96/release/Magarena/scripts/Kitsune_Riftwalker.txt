@@ -1,0 +1,11 @@
+name=Kitsune Riftwalker
+image=https://magiccards.info/scans/en/chk/29.jpg
+value=1.833
+rarity=C
+type=Creature
+subtype=Fox,Wizard
+cost={1}{W}{W}
+pt=2/1
+ability=Protection from Spirits;Protection from Arcane
+timing=main
+oracle=Protection from Spirits and from Arcane

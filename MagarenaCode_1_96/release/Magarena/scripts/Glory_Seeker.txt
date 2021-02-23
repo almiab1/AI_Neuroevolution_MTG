@@ -1,0 +1,11 @@
+name=Glory Seeker
+image=https://magiccards.info/scans/en/roe/22.jpg
+image_updated=2016-12-03
+value=2.449
+rarity=C
+type=Creature
+subtype=Human,Soldier
+cost={1}{W}
+pt=2/2
+timing=main
+oracle=NONE

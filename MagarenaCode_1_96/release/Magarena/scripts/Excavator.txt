@@ -1,0 +1,9 @@
+name=Excavator
+image=https://magiccards.info/scans/en/tp/277.jpg
+value=1.769
+rarity=U
+type=Artifact
+cost={2}
+timing=artifact
+oracle={T}, Sacrifice a basic land: Target creature gains landwalk of each of the land types of the sacrificed land until end of turn.
+requires_groovy_code

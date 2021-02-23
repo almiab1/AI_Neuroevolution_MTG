@@ -1,0 +1,12 @@
+name=Enfeeblement
+image=https://magiccards.info/scans/en/9e/127.jpg
+value=2.741
+rarity=C
+type=Enchantment
+subtype=Aura
+cost={B}{B}
+ability=Enchant creature;\
+        Enchanted creature gets -2/-2.
+timing=aura
+enchant=weaken -2/-2,neg creature
+oracle=Enchant creature\nEnchanted creature gets -2/-2.

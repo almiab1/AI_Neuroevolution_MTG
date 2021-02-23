@@ -1,0 +1,13 @@
+name=Ghastlord of Fugue
+image=https://magiccards.info/scans/en/shm/162.jpg
+value=4.115
+rarity=R
+type=Creature
+subtype=Spirit,Avatar
+cost={U/B}{U/B}{U/B}{U/B}{U/B}
+pt=4/4
+ability=SN can't be blocked.;\
+        Whenever SN deals combat damage to a player, that player reveals his or her hand. You choose a card from it. That player exiles that card.
+timing=main
+oracle=Ghastlord of Fugue can't be blocked.\nWhenever Ghastlord of Fugue deals combat damage to a player, that player reveals his or her hand. You choose a card from it. That player exiles that card.
+status=not supported: reveal-hand

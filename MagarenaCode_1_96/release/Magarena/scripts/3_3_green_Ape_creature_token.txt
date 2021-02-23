@@ -1,0 +1,9 @@
+name=3/3 green Ape creature token
+token=Ape
+image=https://magiccards.info/extras/token/commander-2014/ape.jpg
+image_updated=2015-11-12
+value=3
+type=Creature
+subtype=Ape
+color=g
+pt=3/3

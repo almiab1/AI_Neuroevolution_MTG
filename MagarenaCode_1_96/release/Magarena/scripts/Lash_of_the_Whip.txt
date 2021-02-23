@@ -1,0 +1,9 @@
+name=Lash of the Whip
+image=https://magiccards.info/scans/en/ths/94.jpg
+value=2.073
+rarity=C
+type=Instant
+cost={4}{B}
+effect=Target creature gets -4/-4 until end of turn.
+timing=removal
+oracle=Target creature gets -4/-4 until end of turn.

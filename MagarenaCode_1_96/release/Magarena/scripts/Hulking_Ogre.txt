@@ -1,0 +1,11 @@
+name=Hulking Ogre
+image=https://magiccards.info/scans/en/st/108.jpg
+value=2.466
+rarity=U
+type=Creature
+subtype=Ogre
+cost={2}{R}
+pt=3/3
+ability=SN can't block.
+timing=main
+oracle=Hulking Ogre can't block.

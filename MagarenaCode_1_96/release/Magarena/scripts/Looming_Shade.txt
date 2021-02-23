@@ -1,0 +1,11 @@
+name=Looming Shade
+image=https://magiccards.info/scans/en/m10/103.jpg
+value=3.062
+rarity=C
+type=Creature
+subtype=Shade
+cost={2}{B}
+pt=1/1
+ability={B}: SN gets +1/+1 until end of turn.
+timing=main
+oracle={B}: Looming Shade gets +1/+1 until end of turn.

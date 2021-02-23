@@ -1,0 +1,10 @@
+name=Beacon of Unrest
+image=https://magiccards.info/scans/en/c16/107.jpg
+image_updated=2017-08-17
+value=4.325
+rarity=R
+type=Sorcery
+cost={3}{B}{B}
+effect=Put target artifact or creature card from a graveyard onto the battlefield under your control.~Shuffle SN into its owner's library.
+timing=main
+oracle=Put target artifact or creature card from a graveyard onto the battlefield under your control. Shuffle Beacon of Unrest into its owner's library.

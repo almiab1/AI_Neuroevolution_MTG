@@ -1,0 +1,9 @@
+name=2/2 white Cat creature token
+token=Cat
+image=https://magiccards.info/extras/token/commander-2014/cat.jpg
+image_updated=2015-11-12
+value=2
+type=Creature
+subtype=Cat
+color=w
+pt=2/2

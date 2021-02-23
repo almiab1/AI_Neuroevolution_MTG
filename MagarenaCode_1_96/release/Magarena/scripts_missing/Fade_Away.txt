@@ -1,0 +1,10 @@
+name=Fade Away
+image=https://magiccards.info/scans/en/ex/34.jpg
+value=4.195
+rarity=C
+type=Sorcery
+cost={2}{U}
+effect=For each creature, its controller sacrifices a permanent unless he or she pays {1}.
+timing=main
+oracle=For each creature, its controller sacrifices a permanent unless he or she pays {1}.
+status=needs groovy

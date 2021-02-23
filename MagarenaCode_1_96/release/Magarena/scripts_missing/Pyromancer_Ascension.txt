@@ -1,0 +1,12 @@
+name=Pyromancer Ascension
+image=https://magiccards.info/scans/en/mm3/108.jpg
+image_updated=2017-08-08
+value=4.066
+rarity=R
+type=Enchantment
+cost={1}{R}
+ability=Whenever you cast an instant or sorcery spell that has the same name as a card in your graveyard, you may put a quest counter on SN.;\
+        Whenever you cast an instant or sorcery spell while SN has two or more quest counters on it, you may copy that spell. You may choose new targets for the copy.
+timing=enchantment
+oracle=Whenever you cast an instant or sorcery spell that has the same name as a card in your graveyard, you may put a quest counter on Pyromancer Ascension.\nWhenever you cast an instant or sorcery spell while Pyromancer Ascension has two or more quest counters on it, you may copy that spell. You may choose new targets for the copy.
+status=needs groovy

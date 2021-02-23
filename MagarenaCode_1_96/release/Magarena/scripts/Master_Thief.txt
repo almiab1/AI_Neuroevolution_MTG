@@ -1,0 +1,11 @@
+name=Master Thief
+image=https://magiccards.info/scans/en/m12/64.jpg
+value=3.898
+rarity=U
+type=Creature
+subtype=Human,Rogue
+cost={2}{U}{U}
+pt=2/2
+ability=When SN enters the battlefield, gain control of target artifact for as long as you control SN.
+timing=main
+oracle=When Master Thief enters the battlefield, gain control of target artifact for as long as you control Master Thief.

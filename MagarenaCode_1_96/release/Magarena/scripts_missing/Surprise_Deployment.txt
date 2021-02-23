@@ -1,0 +1,11 @@
+name=Surprise Deployment
+image=https://magiccards.info/scans/en/ps/18.jpg
+value=3.393
+rarity=U
+type=Instant
+cost={3}{W}
+ability=Cast this spell only during combat.
+effect=You may put a nonwhite creature card from your hand onto the battlefield. At the beginning of the next end step, return that creature to your hand.
+timing=removal
+oracle=Cast this spell only during combat.\nYou may put a nonwhite creature card from your hand onto the battlefield. At the beginning of the next end step, return that creature to your hand.
+status=needs groovy

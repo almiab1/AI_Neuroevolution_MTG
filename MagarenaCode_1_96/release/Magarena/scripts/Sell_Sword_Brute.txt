@@ -1,0 +1,11 @@
+name=Sell-Sword Brute
+image=https://magiccards.info/scans/en/rav/142.jpg
+value=1.293
+rarity=C
+type=Creature
+subtype=Human,Mercenary
+cost={1}{R}
+pt=2/2
+ability=When SN dies, SN deals 2 damage to you.
+timing=main
+oracle=When Sell-Sword Brute dies, it deals 2 damage to you.

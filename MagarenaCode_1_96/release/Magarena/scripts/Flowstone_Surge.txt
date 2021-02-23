@@ -1,0 +1,9 @@
+name=Flowstone Surge
+image=https://magiccards.info/scans/en/ne/85.jpg
+value=3.472
+rarity=U
+type=Enchantment
+cost={1}{R}
+ability=Creatures you control get +1/-1.
+timing=enchantment
+oracle=Creatures you control get +1/-1.

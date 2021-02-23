@@ -1,0 +1,9 @@
+name=Close Quarters
+image=https://magiccards.info/scans/en/mm/184.jpg
+value=4.019
+rarity=U
+type=Enchantment
+cost={2}{R}{R}
+ability=Whenever a creature you control becomes blocked, SN deals 1 damage to target creature or player.
+timing=enchantment
+oracle=Whenever a creature you control becomes blocked, Close Quarters deals 1 damage to target creature or player.

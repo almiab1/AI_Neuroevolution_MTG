@@ -1,0 +1,11 @@
+name=Retromancer
+image=https://magiccards.info/scans/en/us/209.jpg
+value=3.081
+rarity=C
+type=Creature
+subtype=Viashino,Shaman
+cost={2}{R}{R}
+pt=3/3
+ability=Whenever SN becomes the target of a spell or ability, SN deals 3 damage to that spell or ability's controller.
+timing=main
+oracle=Whenever Retromancer becomes the target of a spell or ability, Retromancer deals 3 damage to that spell or ability's controller.

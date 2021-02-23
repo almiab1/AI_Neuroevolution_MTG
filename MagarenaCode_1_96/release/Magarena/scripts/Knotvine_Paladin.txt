@@ -1,0 +1,11 @@
+name=Knotvine Paladin
+image=https://magiccards.info/scans/en/arb/71.jpg
+value=3.430
+rarity=R
+type=Creature
+subtype=Human,Knight
+cost={G}{W}
+pt=2/2
+ability=Whenever SN attacks, SN gets +1/+1 until end of turn for each untapped creature you control.
+timing=main
+oracle=Whenever Knotvine Paladin attacks, it gets +1/+1 until end of turn for each untapped creature you control.

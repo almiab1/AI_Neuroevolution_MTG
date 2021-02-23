@@ -1,0 +1,11 @@
+name=Monk Idealist
+image=https://magiccards.info/scans/en/ema/21.jpg
+value=3.829
+rarity=C
+type=Creature
+subtype=Human,Monk,Cleric
+cost={2}{W}
+pt=2/2
+ability=When SN enters the battlefield, return target enchantment card from your graveyard to your hand.
+timing=main
+oracle=When Monk Idealist enters the battlefield, return target enchantment card from your graveyard to your hand.

@@ -1,0 +1,12 @@
+name=Deepcavern Imp
+image=https://magiccards.info/scans/en/mma/79.jpg
+value=3.119
+rarity=C
+type=Creature
+subtype=Imp,Rebel
+cost={2}{B}
+pt=2/2
+ability=Flying, haste;\
+        Echo—Discard a card.
+timing=fmain
+oracle=Flying, haste\nEcho—Discard a card.

@@ -1,0 +1,13 @@
+name=Odric, Master Tactician
+image=https://magiccards.info/scans/en/m13/23.jpg
+value=4.012
+rarity=R
+type=Legendary,Creature
+subtype=Human,Soldier
+cost={2}{W}{W}
+pt=3/4
+ability=First strike;\
+        Whenever SN and at least three other creatures attack, you choose which creatures block this combat and how those creatures block.
+timing=main
+oracle=First strike\nWhenever Odric, Master Tactician and at least three other creatures attack, you choose which creatures block this combat and how those creatures block.
+status=not supported: choose-block

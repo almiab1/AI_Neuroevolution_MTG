@@ -1,0 +1,13 @@
+name=Mistform Mask
+image=https://magiccards.info/scans/en/on/94.jpg
+value=1.900
+rarity=C
+type=Enchantment
+subtype=Aura
+cost={1}{U}
+ability=Enchant creature;\
+        {1}: Enchanted creature becomes the creature type of your choice until end of turn.
+timing=aura
+enchant=default,creature
+oracle=Enchant creature\n{1}: Enchanted creature becomes the creature type of your choice until end of turn.
+status=not supported: choose-creature-type

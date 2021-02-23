@@ -1,0 +1,12 @@
+name=Kjeldoran Javelineer
+image=https://magiccards.info/scans/en/cs/11.jpg
+value=2.682
+rarity=C
+type=Creature
+subtype=Human,Soldier
+cost={W}
+pt=1/2
+ability=Cumulative upkeep {1};\
+        {T}: SN deals damage equal to the number of age counters on it to target attacking or blocking creature.
+timing=main
+oracle=Cumulative upkeep {1}\n{T}: Kjeldoran Javelineer deals damage equal to the number of age counters on it to target attacking or blocking creature.

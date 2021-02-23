@@ -1,0 +1,12 @@
+name=Sage of Lat-Nam
+image=https://magiccards.info/scans/en/dom/64.jpg
+image_updated=2018-08-07
+value=3.431
+rarity=U
+type=Creature
+subtype=Human,Artificer
+cost={1}{U}
+pt=1/2
+ability={T}, Sacrifice an artifact: Draw a card.
+timing=main
+oracle={T}, Sacrifice an artifact: Draw a card.

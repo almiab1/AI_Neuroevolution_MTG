@@ -1,0 +1,9 @@
+name=Avoid Fate
+image=https://magiccards.info/scans/en/tsts/73.jpg
+value=4.236
+rarity=C
+type=Instant
+cost={G}
+effect=Counter target instant or Aura spell that targets a permanent you control.
+timing=counter
+oracle=Counter target instant or Aura spell that targets a permanent you control.

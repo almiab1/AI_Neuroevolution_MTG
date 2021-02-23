@@ -1,0 +1,10 @@
+name=Mirror Gallery
+image=https://magiccards.info/scans/en/bok/154.jpg
+value=4.232
+rarity=R
+type=Artifact
+cost={5}
+ability=The "legend rule" doesn't apply.
+timing=artifact
+oracle=The "legend rule" doesn't apply.
+status=not supported: rule-change

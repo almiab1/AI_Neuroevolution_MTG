@@ -1,0 +1,12 @@
+name=Uyo, Silent Prophet
+image=https://magiccards.info/scans/en/chk/99.jpg
+value=3.733
+rarity=R
+type=Legendary,Creature
+subtype=Moonfolk,Wizard
+cost={4}{U}{U}
+pt=4/4
+ability=Flying;\
+        {2}, Return two lands you control to their owner's hand: Copy target instant or sorcery spell. You may choose new targets for the copy.
+timing=main
+oracle=Flying\n{2}, Return two lands you control to their owner's hand: Copy target instant or sorcery spell. You may choose new targets for the copy.

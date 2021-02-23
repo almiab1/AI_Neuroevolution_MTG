@@ -1,0 +1,11 @@
+name=Elvish Hexhunter
+image=https://magiccards.info/scans/en/shm/226.jpg
+value=4.051
+rarity=C
+type=Creature
+subtype=Elf,Shaman
+cost={G/W}
+pt=1/1
+ability={G/W}, {T}, Sacrifice SN: Destroy target enchantment.
+timing=main
+oracle={G/W}, {T}, Sacrifice Elvish Hexhunter: Destroy target enchantment.

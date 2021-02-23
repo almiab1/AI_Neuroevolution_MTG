@@ -1,0 +1,12 @@
+name=Markov's Servant
+image=https://magiccards.info/scans/en/dka/55b.jpg
+value=2.631
+rarity=C
+type=Creature
+subtype=Vampire
+color=b
+pt=4/4
+transform=Chosen of Markov
+timing=main
+hidden
+oracle=NONE

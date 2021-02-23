@@ -1,0 +1,12 @@
+name=Krovikan Vampire
+image=https://magiccards.info/scans/en/ia/29.jpg
+value=3.579
+rarity=U
+type=Creature
+subtype=Vampire
+cost={3}{B}{B}
+pt=3/3
+ability=At the beginning of each end step, if a creature dealt damage by SN this turn died, put that card onto the battlefield under your control. Sacrifice it when you lose control of SN.
+timing=main
+oracle=At the beginning of each end step, if a creature dealt damage by Krovikan Vampire this turn died, put that card onto the battlefield under your control. Sacrifice it when you lose control of Krovikan Vampire.
+status=not supported: damage-by-SN-dies

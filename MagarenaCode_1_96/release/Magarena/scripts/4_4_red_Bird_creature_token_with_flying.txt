@@ -1,0 +1,10 @@
+name=4/4 red Bird creature token with flying
+token=Bird
+image=https://magiccards.info/extras/token/player-rewards-2003/rukh.jpg
+value=3
+type=Creature
+subtype=Bird
+color=r
+ability=Flying
+pt=4/4
+oracle=Flying

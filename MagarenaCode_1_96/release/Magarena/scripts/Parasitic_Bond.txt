@@ -1,0 +1,12 @@
+name=Parasitic Bond
+image=https://magiccards.info/scans/en/us/145.jpg
+value=3.059
+rarity=U
+type=Enchantment
+subtype=Aura
+cost={3}{B}
+ability=Enchant creature
+timing=aura
+enchant=weaken,neg creature
+oracle=Enchant creature\nAt the beginning of the upkeep of enchanted creature's controller, Parasitic Bond deals 2 damage to that player.
+requires_groovy_code

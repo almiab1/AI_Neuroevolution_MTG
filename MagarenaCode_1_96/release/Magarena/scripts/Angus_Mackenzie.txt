@@ -1,0 +1,11 @@
+name=Angus Mackenzie
+image=https://magiccards.info/scans/en/lg/257.jpg
+value=4.060
+rarity=R
+type=Legendary,Creature
+subtype=Human,Cleric
+cost={G}{W}{U}
+pt=2/2
+ability={G}{W}{U}, {T}: Prevent all combat damage that would be dealt this turn. Activate this ability only before the combat damage step.
+timing=main
+oracle={G}{W}{U}, {T}: Prevent all combat damage that would be dealt this turn. Activate this ability only before the combat damage step.

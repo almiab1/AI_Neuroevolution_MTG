@@ -1,0 +1,10 @@
+name=Radiant Purge
+image=https://magiccards.info/scans/en/dtk/31.jpg
+value=2.500
+rarity=R
+type=Instant
+cost={1}{W}
+effect=Exile target multicolored creature or multicolored enchantment.
+timing=removal
+oracle=Exile target multicolored creature or multicolored enchantment.
+status=needs groovy

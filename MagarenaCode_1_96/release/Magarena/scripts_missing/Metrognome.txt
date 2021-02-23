@@ -1,0 +1,11 @@
+name=Metrognome
+image=https://magiccards.info/scans/en/us/301.jpg
+value=3.250
+rarity=R
+type=Artifact
+cost={4}
+ability=When a spell or ability an opponent controls causes you to discard SN, create four 1/1 colorless Gnome artifact creature tokens.;\
+        {4}, {T}: Create a 1/1 colorless Gnome artifact creature token.
+timing=artifact
+oracle=When a spell or ability an opponent controls causes you to discard Metrognome, create four 1/1 colorless Gnome artifact creature tokens.\n{4}, {T}: Create a 1/1 colorless Gnome artifact creature token.
+status=not supported: no-info

@@ -1,0 +1,11 @@
+name=Votary of the Conclave
+image=https://magiccards.info/scans/en/rav/35.jpg
+value=1.906
+rarity=C
+type=Creature
+subtype=Human,Soldier
+cost={W}
+pt=1/1
+ability={2}{G}: Regenerate SN.
+timing=main
+oracle={2}{G}: Regenerate Votary of the Conclave.

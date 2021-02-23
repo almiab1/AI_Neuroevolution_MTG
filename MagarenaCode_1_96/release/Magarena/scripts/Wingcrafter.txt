@@ -1,0 +1,13 @@
+name=Wingcrafter
+image=https://magiccards.info/scans/en/mm3/58.jpg
+image_updated=2017-08-08
+value=3.858
+rarity=C
+type=Creature
+subtype=Human,Wizard
+cost={U}
+pt=1/1
+ability=Soulbond;\
+        As long as SN is paired with another creature, both creatures have flying.
+timing=main
+oracle=Soulbond\nAs long as Wingcrafter is paired with another creature, both creatures have flying.

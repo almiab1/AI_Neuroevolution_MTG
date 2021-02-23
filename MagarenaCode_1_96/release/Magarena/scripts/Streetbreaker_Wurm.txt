@@ -1,0 +1,10 @@
+name=Streetbreaker Wurm
+image=https://magiccards.info/scans/en/gp/133.jpg
+value=2.952
+rarity=C
+type=Creature
+subtype=Wurm
+cost={3}{R}{G}
+pt=6/4
+timing=main
+oracle=NONE

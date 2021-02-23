@@ -1,0 +1,12 @@
+name=Endless Wurm
+image=https://magiccards.info/scans/en/us/249.jpg
+value=4.250
+rarity=R
+type=Creature
+subtype=Wurm
+cost={3}{G}{G}
+pt=9/9
+ability=Trample;\
+        At the beginning of your upkeep, sacrifice SN unless you sacrifice an enchantment.
+timing=main
+oracle=Trample\nAt the beginning of your upkeep, sacrifice Endless Wurm unless you sacrifice an enchantment.

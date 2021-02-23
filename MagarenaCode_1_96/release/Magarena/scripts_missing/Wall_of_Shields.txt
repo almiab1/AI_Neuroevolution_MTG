@@ -1,0 +1,13 @@
+name=Wall of Shields
+image=https://magiccards.info/scans/en/ia/322.jpg
+value=2.462
+rarity=U
+type=Artifact,Creature
+subtype=Wall
+cost={3}
+pt=0/4
+ability=Defender;\
+        Banding
+timing=smain
+oracle=Defender\nBanding
+status=not supported: banding

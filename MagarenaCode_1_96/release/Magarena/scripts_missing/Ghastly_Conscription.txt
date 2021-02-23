@@ -1,0 +1,11 @@
+name=Ghastly Conscription
+image=https://magiccards.info/scans/en/c16/111.jpg
+image_updated=2017-08-17
+value=2.500
+rarity=M
+type=Sorcery
+cost={5}{B}{B}
+effect=Exile all creature cards from target player's graveyard in a face-down pile, shuffle that pile, then manifest those cards.
+timing=main
+oracle=Exile all creature cards from target player's graveyard in a face-down pile, shuffle that pile, then manifest those cards.
+status=not supported: exile-face-down

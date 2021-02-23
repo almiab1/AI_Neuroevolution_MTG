@@ -1,0 +1,11 @@
+name=Mobilization
+image=https://magiccards.info/scans/en/c14/81.jpg
+value=4.254
+rarity=R
+type=Enchantment
+cost={2}{W}
+ability=Soldier creatures have vigilance.;\
+        {2}{W}: Create a 1/1 white Soldier creature token.
+static=all
+timing=enchantment
+oracle=Soldier creatures have vigilance.\n{2}{W}: Create a 1/1 white Soldier creature token.

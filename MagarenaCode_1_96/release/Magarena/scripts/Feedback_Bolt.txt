@@ -1,0 +1,10 @@
+name=Feedback Bolt
+image=https://magiccards.info/scans/en/5dn/64.jpg
+value=3.032
+removal=3
+rarity=U
+type=Instant
+cost={4}{R}
+effect=SN deals damage to target player equal to the number of artifacts you control.
+timing=removal
+oracle=Feedback Bolt deals damage to target player equal to the number of artifacts you control.

@@ -1,0 +1,11 @@
+name=Pariah's Shield
+image=https://magiccards.info/scans/en/rav/267.jpg
+value=3.705
+rarity=R
+type=Artifact
+subtype=Equipment
+cost={5}
+ability=Equip {3}
+timing=equipment
+requires_groovy_code
+oracle=All damage that would be dealt to you is dealt to equipped creature instead.\nEquip {3}

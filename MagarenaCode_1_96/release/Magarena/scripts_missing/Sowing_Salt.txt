@@ -1,0 +1,9 @@
+name=Sowing Salt
+image=https://magiccards.info/scans/en/bok/118.jpg
+value=4.167
+rarity=U
+type=Sorcery
+cost={2}{R}{R}
+effect=Exile target nonbasic land. Search its controller's graveyard, hand, and library for all cards with the same name as that land and exile them. Then that player shuffles his or her library.
+timing=main
+oracle=Exile target nonbasic land. Search its controller's graveyard, hand, and library for all cards with the same name as that land and exile them. Then that player shuffles his or her library.

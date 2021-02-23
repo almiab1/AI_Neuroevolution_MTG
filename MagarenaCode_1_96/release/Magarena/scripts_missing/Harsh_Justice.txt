@@ -1,0 +1,11 @@
+name=Harsh Justice
+image=https://magiccards.info/scans/en/po/180.jpg
+value=4.133
+rarity=R
+type=Instant
+cost={2}{W}
+ability=Cast this spell only during the declare attackers step and only if you've been attacked this step.
+effect=This turn, whenever an attacking creature deals combat damage to you, it deals that much damage to its controller.
+timing=removal
+oracle=Cast this spell only during the declare attackers step and only if you've been attacked this step.\nThis turn, whenever an attacking creature deals combat damage to you, it deals that much damage to its controller.
+status=needs groovy

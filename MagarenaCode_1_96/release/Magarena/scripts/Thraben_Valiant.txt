@@ -1,0 +1,12 @@
+name=Thraben Valiant
+image=https://magiccards.info/scans/en/avr/39.jpg
+image_updated=2016-09-12
+value=2.708
+rarity=C
+type=Creature
+subtype=Human,Soldier
+cost={1}{W}
+pt=2/1
+ability=Vigilance
+timing=main
+oracle=Vigilance

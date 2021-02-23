@@ -1,0 +1,12 @@
+name=Carrion Crow
+image=https://magiccards.info/scans/en/m15/88.jpg
+value=2.071
+rarity=C
+type=Creature
+subtype=Zombie,Bird
+cost={2}{B}
+pt=2/2
+ability=Flying;\
+        SN enters the battlefield tapped.
+timing=main
+oracle=Flying\nCarrion Crow enters the battlefield tapped.

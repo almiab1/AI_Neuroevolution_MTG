@@ -1,0 +1,12 @@
+name=Telepathic Spies
+image=https://magiccards.info/scans/en/7e/101.jpg
+value=2.773
+rarity=C
+type=Creature
+subtype=Human,Wizard
+cost={2}{U}
+pt=2/2
+ability=When SN enters the battlefield, look at target opponent's hand.
+timing=main
+oracle=When Telepathic Spies enters the battlefield, look at target opponent's hand.
+status=not supported: reveal-hand

@@ -1,0 +1,13 @@
+name=Nomadic Elf
+image=https://magiccards.info/scans/en/in/200.jpg
+image_updated=2017-01-01
+value=3.000
+rarity=C
+type=Creature
+subtype=Elf,Nomad
+cost={1}{G}
+pt=2/2
+ability={1}{G}: Add one mana of any color.
+timing=main
+oracle={1}{G}: Add one mana of any color.
+status=not supported: mana-ability-with-choice

@@ -1,0 +1,10 @@
+name=Barony Vampire
+image=https://magiccards.info/scans/en/m11/82.jpg
+value=2.368
+rarity=C
+type=Creature
+subtype=Vampire
+cost={2}{B}
+pt=3/2
+timing=main
+oracle=NONE

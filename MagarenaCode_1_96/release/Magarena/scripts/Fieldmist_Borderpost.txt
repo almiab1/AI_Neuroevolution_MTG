@@ -1,0 +1,12 @@
+name=Fieldmist Borderpost
+image=https://magiccards.info/scans/en/arb/5.jpg
+image_updated=2016-12-13
+value=2.841
+rarity=C
+type=Artifact
+cost={1}{W}{U}
+ability=You may pay {1} and return a basic land you control to its owner's hand rather than pay this spell's mana cost.;\
+        SN enters the battlefield tapped.;\
+        {T}: Add {W} or {U}.
+timing=artifact
+oracle=You may pay {1} and return a basic land you control to its owner's hand rather than pay this spell's mana cost.\nFieldmist Borderpost enters the battlefield tapped.\n{T}: Add {W} or {U}.

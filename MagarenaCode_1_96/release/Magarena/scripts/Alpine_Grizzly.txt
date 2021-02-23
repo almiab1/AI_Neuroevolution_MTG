@@ -1,0 +1,10 @@
+name=Alpine Grizzly
+image=https://magiccards.info/scans/en/ktk/127.jpg
+value=3.083
+rarity=C
+type=Creature
+subtype=Bear
+cost={2}{G}
+pt=4/2
+timing=main
+oracle=NONE

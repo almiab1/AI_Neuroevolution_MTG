@@ -1,0 +1,11 @@
+name=Elite Cat Warrior
+image=https://magiccards.info/scans/en/po/87.jpg
+value=3.315
+rarity=C
+type=Creature
+subtype=Cat,Warrior
+cost={2}{G}
+pt=2/3
+ability=Forestwalk
+timing=main
+oracle=Forestwalk

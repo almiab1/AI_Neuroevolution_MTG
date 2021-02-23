@@ -1,0 +1,11 @@
+name=Mardu Blazebringer
+image=https://magiccards.info/scans/en/ktk/115.jpg
+value=1.500
+rarity=U
+type=Creature
+subtype=Ogre,Warrior
+cost={2}{R}
+pt=4/4
+ability=When SN attacks or blocks, sacrifice SN at end of combat.
+timing=main
+oracle=When Mardu Blazebringer attacks or blocks, sacrifice it at end of combat.

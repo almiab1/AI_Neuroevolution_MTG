@@ -1,0 +1,11 @@
+name=Mystic Speculation
+image=https://magiccards.info/scans/en/fut/41.jpg
+value=3.865
+rarity=U
+type=Sorcery
+cost={U}
+ability=Buyback {2}
+effect=Scry 3.
+timing=main
+oracle=Buyback {2}\nScry 3.
+status=not supported: ordering-lib-top

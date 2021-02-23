@@ -1,0 +1,9 @@
+name=Null Rod
+image=https://magiccards.info/scans/en/wl/154.jpg
+value=4.500
+rarity=R
+type=Artifact
+cost={2}
+ability=Artifacts can't activate abilities.
+timing=artifact
+oracle=Activated abilities of artifacts can't be activated.

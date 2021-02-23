@@ -1,0 +1,11 @@
+name=Shields of Velis Vel
+image=https://magiccards.info/scans/en/lw/39.jpg
+value=2.887
+rarity=C
+type=Tribal,Instant
+subtype=Shapeshifter
+cost={W}
+ability=Changeling
+timing=pump
+requires_groovy_code
+oracle=Changeling\nCreatures target player controls get +0/+1 and gain all creature types until end of turn.

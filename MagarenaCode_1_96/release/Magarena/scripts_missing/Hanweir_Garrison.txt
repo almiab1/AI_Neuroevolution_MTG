@@ -1,0 +1,14 @@
+name=Hanweir Garrison
+image=https://magiccards.info/scans/en/emn/130a.jpg
+image_updated=2016-09-05
+value=2.500
+rarity=R
+type=Creature
+subtype=Human,Soldier
+cost={2}{R}
+pt=2/3
+ability=Whenever SN attacks, create two 1/1 red Human creature tokens that are tapped and attacking.
+transform=Hanweir, the Writhing Township
+timing=main
+oracle=Whenever Hanweir Garrison attacks, create two 1/1 red Human creature tokens that are tapped and attacking.\n(Melds with Hanweir Battlements.)
+status=not supported: meld

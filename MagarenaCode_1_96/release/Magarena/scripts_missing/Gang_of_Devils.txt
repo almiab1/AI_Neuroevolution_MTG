@@ -1,0 +1,13 @@
+name=Gang of Devils
+image=https://magiccards.info/scans/en/cn2/158.jpg
+image_updated=2017-08-29
+value=2.875
+rarity=U
+type=Creature
+subtype=Devil
+cost={5}{R}
+pt=3/3
+ability=When SN dies, it deals 3 damage divided as you choose among one, two, or three target creatures and/or players.
+timing=main
+oracle=When Gang of Devils dies, it deals 3 damage divided as you choose among one, two, or three target creatures and/or players.
+status=not supported: multiple-targets

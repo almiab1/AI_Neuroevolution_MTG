@@ -1,0 +1,13 @@
+name=Spellbreaker Behemoth
+image=https://magiccards.info/scans/en/arb/60.jpg
+value=3.771
+rarity=R
+type=Creature
+subtype=Beast
+cost={1}{R}{G}{G}
+pt=5/5
+ability=This spell can't be countered.;\
+        Creature spells you control with power 5 or greater can't be countered.
+timing=main
+oracle=This spell can't be countered.\nCreature spells you control with power 5 or greater can't be countered.
+status=not supported: spell-modification

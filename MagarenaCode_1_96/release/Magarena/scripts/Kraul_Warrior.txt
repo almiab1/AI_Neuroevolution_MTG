@@ -1,0 +1,11 @@
+name=Kraul Warrior
+image=https://magiccards.info/scans/en/dgm/42.jpg
+value=2.810
+rarity=C
+type=Creature
+subtype=Insect,Warrior
+cost={1}{G}
+pt=2/2
+ability={5}{G}: SN gets +3/+3 until end of turn.
+timing=main
+oracle={5}{G}: Kraul Warrior gets +3/+3 until end of turn.

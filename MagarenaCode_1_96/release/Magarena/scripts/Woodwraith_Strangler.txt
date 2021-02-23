@@ -1,0 +1,11 @@
+name=Woodwraith Strangler
+image=https://magiccards.info/scans/en/rav/241.jpg
+value=1.886
+rarity=C
+type=Creature
+subtype=Plant,Zombie
+cost={2}{B}{G}
+pt=2/2
+ability=Exile a creature card from your graveyard: Regenerate SN.
+timing=main
+oracle=Exile a creature card from your graveyard: Regenerate Woodwraith Strangler.

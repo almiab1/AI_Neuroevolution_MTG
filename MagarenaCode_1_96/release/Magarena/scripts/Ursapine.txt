@@ -1,0 +1,11 @@
+name=Ursapine
+image=https://magiccards.info/scans/en/rav/188.jpg
+value=4.031
+rarity=R
+type=Creature
+subtype=Beast
+cost={3}{G}{G}
+pt=3/3
+ability={G}: Target creature gets +1/+1 until end of turn.
+timing=main
+oracle={G}: Target creature gets +1/+1 until end of turn.

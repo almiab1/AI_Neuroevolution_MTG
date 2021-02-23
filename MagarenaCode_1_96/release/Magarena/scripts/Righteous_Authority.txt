@@ -1,0 +1,12 @@
+name=Righteous Authority
+image=https://magiccards.info/scans/en/rtr/189.jpg
+value=3.379
+rarity=R
+type=Enchantment
+subtype=Aura
+cost={3}{W}{U}
+ability=Enchant creature
+timing=aura
+enchant=pump,pos creature
+oracle=Enchant creature\nEnchanted creature gets +1/+1 for each card in its controller's hand.\nAt the beginning of the draw step of enchanted creature's controller, that player draws an additional card.
+requires_groovy_code

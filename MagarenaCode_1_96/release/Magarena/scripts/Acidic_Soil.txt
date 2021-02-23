@@ -1,0 +1,9 @@
+name=Acidic Soil
+image=https://magiccards.info/scans/en/us/172.jpg
+value=3.338
+rarity=U
+type=Sorcery
+cost={2}{R}
+timing=main
+oracle=Acidic Soil deals damage to each player equal to the number of lands he or she controls.
+requires_groovy_code

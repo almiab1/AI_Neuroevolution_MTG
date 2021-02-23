@@ -1,0 +1,11 @@
+name=Krark-Clan Engineers
+image=https://magiccards.info/scans/en/5dn/70.jpg
+value=2.274
+rarity=U
+type=Creature
+subtype=Goblin,Artificer
+cost={3}{R}
+pt=2/2
+ability={R}, Sacrifice two artifacts: Destroy target artifact.
+timing=main
+oracle={R}, Sacrifice two artifacts: Destroy target artifact.

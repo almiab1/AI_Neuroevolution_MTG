@@ -1,0 +1,11 @@
+name=Aerie Worshippers
+image=https://magiccards.info/scans/en/bng/30.jpg
+value=3.662
+rarity=U
+type=Creature
+subtype=Human,Cleric
+cost={3}{U}
+pt=2/4
+ability=Whenever SN becomes untapped, you may pay {2}{U}. If you do, create a 2/2 blue Bird enchantment creature token with flying.
+timing=main
+oracle=Inspired — Whenever Aerie Worshippers becomes untapped, you may pay {2}{U}. If you do, create a 2/2 blue Bird enchantment creature token with flying.

@@ -1,0 +1,13 @@
+name=Wane
+image=https://magiccards.info/scans/en/in/296b.jpg
+image_updated=2017-01-11
+value=4.148
+rarity=U
+type=Instant
+cost={W}
+effect=Destroy target enchantment.
+split=Wax
+timing=removal
+second_half
+oracle=Destroy target enchantment.
+status=not supported: split-card

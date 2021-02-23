@@ -1,0 +1,9 @@
+name=Clone Legion
+image=https://magiccards.info/scans/en/dtk/48.jpg
+value=2.500
+rarity=M
+type=Sorcery
+cost={7}{U}{U}
+timing=main
+requires_groovy_code
+oracle=For each creature target player controls, create a token that's a copy of that creature.

@@ -1,0 +1,12 @@
+name=Wanderguard Sentry
+image=https://magiccards.info/scans/en/9e/111.jpg
+value=1.554
+rarity=C
+type=Creature
+subtype=Drone
+cost={4}{U}
+pt=3/3
+ability=When SN enters the battlefield, look at target opponent's hand.
+timing=main
+oracle=When Wanderguard Sentry enters the battlefield, look at target opponent's hand.
+status=not supported: reveal-hand

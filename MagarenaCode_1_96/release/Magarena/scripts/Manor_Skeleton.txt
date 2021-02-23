@@ -1,0 +1,12 @@
+name=Manor Skeleton
+image=https://magiccards.info/scans/en/isd/106.jpg
+value=3.008
+rarity=C
+type=Creature
+subtype=Skeleton
+cost={1}{B}
+pt=1/1
+ability=Haste;\
+        {1}{B}: Regenerate SN.
+timing=fmain
+oracle=Haste\n{1}{B}: Regenerate Manor Skeleton.

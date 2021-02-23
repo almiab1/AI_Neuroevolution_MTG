@@ -1,0 +1,13 @@
+name=Away
+image=https://magiccards.info/scans/en/dgm/127b.jpg
+value=4.197
+rarity=U
+type=Instant
+cost={2}{B}
+split=Far
+ability=Fuse
+effect=Target player sacrifices a creature.
+timing=removal
+second_half
+oracle=Target player sacrifices a creature.\nFuse
+status=not supported: split-card

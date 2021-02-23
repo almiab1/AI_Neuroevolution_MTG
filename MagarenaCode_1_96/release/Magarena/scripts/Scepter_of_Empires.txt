@@ -1,0 +1,9 @@
+name=Scepter of Empires
+image=https://magiccards.info/scans/en/m12/216.jpg
+value=2.967
+rarity=U
+type=Artifact
+cost={3}
+timing=artifact
+requires_groovy_code
+oracle={T}: Scepter of Empires deals 1 damage to target player. It deals 3 damage to that player instead if you control artifacts named Crown of Empires and Throne of Empires.

@@ -1,0 +1,10 @@
+name=Green Sun's Zenith
+image=https://magiccards.info/scans/en/ema/169.jpg
+value=4.598
+rarity=R
+type=Sorcery
+cost={X}{G}
+effect=Search your library for a green creature card with converted mana cost X or less, put it onto the battlefield, then shuffle your library. Shuffle SN into its owner's library.
+timing=main
+oracle=Search your library for a green creature card with converted mana cost X or less, put it onto the battlefield, then shuffle your library. Shuffle Green Sun's Zenith into its owner's library.
+status=needs groovy

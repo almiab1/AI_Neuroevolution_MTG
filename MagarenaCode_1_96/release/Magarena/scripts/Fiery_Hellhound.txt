@@ -1,0 +1,12 @@
+name=Fiery Hellhound
+image=https://magiccards.info/scans/en/ori/284.jpg
+image_updated=2010-09-10
+value=2.864
+rarity=C
+type=Creature
+subtype=Elemental,Hound
+cost={1}{R}{R}
+pt=2/2
+ability={R}: SN gets +1/+0 until end of turn.
+timing=main
+oracle={R}: Fiery Hellhound gets +1/+0 until end of turn.

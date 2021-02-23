@@ -1,0 +1,11 @@
+name=Shape Stealer
+image=https://magiccards.info/scans/en/sok/55.jpg
+value=3.808
+rarity=U
+type=Creature
+subtype=Shapeshifter,Spirit
+cost={U}{U}
+pt=1/1
+timing=main
+oracle=Whenever Shape Stealer blocks or becomes blocked by a creature, change Shape Stealer's base power and toughness to that creature's power and toughness until end of turn.
+requires_groovy_code

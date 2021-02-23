@@ -1,0 +1,11 @@
+name=Toxic Iguanar
+image=https://magiccards.info/scans/en/cfx/72.jpg
+value=2.967
+rarity=C
+type=Creature
+subtype=Lizard
+cost={R}
+pt=1/1
+ability=SN has deathtouch as long as you control a green permanent.
+timing=main
+oracle=Toxic Iguanar has deathtouch as long as you control a green permanent.

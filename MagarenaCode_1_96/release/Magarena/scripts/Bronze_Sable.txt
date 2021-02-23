@@ -1,0 +1,11 @@
+name=Bronze Sable
+image=https://magiccards.info/scans/en/cn2/208.jpg
+image_updated=2017-08-17
+value=2.500
+rarity=C
+type=Artifact,Creature
+subtype=Sable
+cost={2}
+pt=2/1
+timing=main
+oracle=NONE

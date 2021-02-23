@@ -1,0 +1,12 @@
+name=Yavimaya Ants
+image=https://magiccards.info/scans/en/ai/93.jpg
+value=3.872
+rarity=U
+type=Creature
+subtype=Insect
+cost={2}{G}{G}
+pt=5/1
+ability=Trample, haste;\
+        Cumulative upkeep {G}{G}
+timing=main
+oracle=Trample, haste\nCumulative upkeep {G}{G}

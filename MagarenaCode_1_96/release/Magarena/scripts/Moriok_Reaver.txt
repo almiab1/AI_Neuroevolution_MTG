@@ -1,0 +1,10 @@
+name=Moriok Reaver
+image=https://magiccards.info/scans/en/som/70.jpg
+value=2.027
+rarity=C
+type=Creature
+subtype=Human,Warrior
+cost={2}{B}
+pt=3/2
+timing=main
+oracle=NONE

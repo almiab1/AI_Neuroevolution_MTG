@@ -1,0 +1,10 @@
+name=Talisman of Unity
+image=https://magiccards.info/scans/en/mi/257.jpg
+value=3.136
+rarity=U
+type=Artifact
+cost={2}
+ability={T}: Add {C}.;\
+        {T}: Add {G} or {W}. SN deals 1 damage to you.
+timing=artifact
+oracle={T}: Add {C}.\n{T}: Add {G} or {W}. Talisman of Unity deals 1 damage to you.

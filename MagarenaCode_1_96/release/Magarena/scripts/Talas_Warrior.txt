@@ -1,0 +1,11 @@
+name=Talas Warrior
+image=https://magiccards.info/scans/en/po2/53.jpg
+value=3.976
+rarity=R
+type=Creature
+subtype=Human,Pirate,Warrior
+cost={1}{U}{U}
+pt=2/2
+ability=SN can't be blocked.
+timing=main
+oracle=Talas Warrior can't be blocked.

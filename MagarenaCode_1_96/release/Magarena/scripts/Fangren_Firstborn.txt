@@ -1,0 +1,11 @@
+name=Fangren Firstborn
+image=https://magiccards.info/scans/en/ds/75.jpg
+value=4.398
+rarity=R
+type=Creature
+subtype=Beast
+cost={1}{G}{G}{G}
+pt=4/2
+ability=Whenever SN attacks, put a +1/+1 counter on each attacking creature.
+timing=main
+oracle=Whenever Fangren Firstborn attacks, put a +1/+1 counter on each attacking creature.

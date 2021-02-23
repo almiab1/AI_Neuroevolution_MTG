@@ -1,0 +1,11 @@
+name=Burn Away
+image=https://magiccards.info/scans/en/cn2/151.jpg
+image_updated=2017-08-29
+value=3.250
+rarity=U
+type=Instant
+cost={4}{R}
+effect=SN deals 6 damage to target creature. When that creature dies this turn, exile all cards from its controller's graveyard.
+timing=removal
+oracle=Burn Away deals 6 damage to target creature. When that creature dies this turn, exile all cards from its controller's graveyard.
+status=needs groovy

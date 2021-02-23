@@ -1,0 +1,11 @@
+name=Fling
+image=https://magiccards.info/scans/en/akh/132.jpg
+image_updated=2017-09-29
+value=4.523
+rarity=C
+type=Instant
+cost={1}{R}
+ability=As an additional cost to cast SN, sacrifice a creature.
+timing=removal
+requires_groovy_code
+oracle=As an additional cost to cast Fling, sacrifice a creature.\nFling deals damage equal to the sacrificed creature's power to target creature or player.

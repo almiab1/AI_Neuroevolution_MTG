@@ -1,0 +1,9 @@
+name=Infiltrate
+image=https://magiccards.info/scans/en/ne/33.jpg
+value=3.216
+rarity=C
+type=Instant
+cost={U}
+effect=Target creature can't be blocked this turn.
+timing=removal
+oracle=Target creature can't be blocked this turn.

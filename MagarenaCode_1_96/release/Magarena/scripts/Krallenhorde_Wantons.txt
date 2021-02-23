@@ -1,0 +1,13 @@
+name=Krallenhorde Wantons
+image=https://magiccards.info/scans/en/isd/185b.jpg
+value=2.585
+rarity=C
+type=Creature
+subtype=Werewolf
+color=g
+pt=7/7
+ability=At the beginning of each upkeep, if a player cast two or more spells last turn, transform SN.
+transform=Grizzled Outcasts
+timing=main
+hidden
+oracle=At the beginning of each upkeep, if a player cast two or more spells last turn, transform Krallenhorde Wantons.

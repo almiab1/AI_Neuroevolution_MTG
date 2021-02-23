@@ -1,0 +1,12 @@
+name=Belligerent Sliver
+image=https://magiccards.info/scans/en/m15/129.jpg
+value=3.400
+rarity=U
+type=Creature
+subtype=Sliver
+cost={2}{R}
+pt=2/2
+ability=Sliver creatures you control have menace.
+timing=main
+oracle=Sliver creatures you control have menace.
+status=not supported: blocking-restriction

@@ -1,0 +1,11 @@
+name=Cruel Revival
+image=https://magiccards.info/scans/en/ori/88.jpg
+image_updated=2015-11-05
+value=3.868
+rarity=U
+type=Instant
+cost={4}{B}
+effect=Destroy target non-Zombie creature. It can't be regenerated. Return up to one target Zombie card from your graveyard to your hand.
+timing=removal
+oracle=Destroy target non-Zombie creature. It can't be regenerated. Return up to one target Zombie card from your graveyard to your hand.
+status=not supported: multiple-targets

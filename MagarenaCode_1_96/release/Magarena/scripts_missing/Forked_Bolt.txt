@@ -1,0 +1,10 @@
+name=Forked Bolt
+image=https://magiccards.info/scans/en/roe/146.jpg
+value=3.984
+rarity=U
+type=Sorcery
+cost={R}
+effect=SN deals 2 damage divided as you choose among one or two target creatures and/or players.
+timing=main
+oracle=Forked Bolt deals 2 damage divided as you choose among one or two target creatures and/or players.
+status=not supported: multiple-targets

@@ -1,0 +1,11 @@
+name=Myr Landshaper
+image=https://magiccards.info/scans/en/ds/131.jpg
+value=3.203
+rarity=C
+type=Artifact,Creature
+subtype=Myr
+cost={3}
+pt=1/1
+ability={T}: Target land becomes an artifact in addition to its other types until end of turn.
+timing=main
+oracle={T}: Target land becomes an artifact in addition to its other types until end of turn.

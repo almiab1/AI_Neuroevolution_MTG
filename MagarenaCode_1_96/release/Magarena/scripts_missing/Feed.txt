@@ -1,0 +1,13 @@
+name=Feed
+image=https://magiccards.info/scans/en/akh/214b.jpg
+value=2.500
+rarity=R
+type=Sorcery
+cost={3}{G}
+split=Mouth
+ability=Aftermath
+effect=Draw a card for each creature you control with power 3 or greater.
+timing=main
+second_half
+oracle=Aftermath\nDraw a card for each creature you control with power 3 or greater.
+status=not supported: split-card

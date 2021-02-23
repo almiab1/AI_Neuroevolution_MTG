@@ -1,0 +1,9 @@
+name=Sacred Ground
+image=https://magiccards.info/scans/en/9e/37.jpg
+value=4.092
+rarity=R
+type=Enchantment
+cost={1}{W}
+ability=Whenever a spell or ability an opponent controls causes a land to be put into your graveyard from the battlefield, return that card to the battlefield.
+timing=enchantment
+oracle=Whenever a spell or ability an opponent controls causes a land to be put into your graveyard from the battlefield, return that card to the battlefield.

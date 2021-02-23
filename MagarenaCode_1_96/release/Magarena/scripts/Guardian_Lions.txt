@@ -1,0 +1,11 @@
+name=Guardian Lions
+image=https://magiccards.info/scans/en/m13/17.jpg
+value=1.844
+rarity=C
+type=Creature
+subtype=Cat
+cost={4}{W}
+pt=1/6
+ability=Vigilance
+timing=main
+oracle=Vigilance

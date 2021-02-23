@@ -1,0 +1,12 @@
+name=Kodama of the North Tree
+image=https://magiccards.info/scans/en/chk/222.jpg
+value=3.959
+rarity=R
+type=Legendary,Creature
+subtype=Spirit
+cost={2}{G}{G}{G}
+pt=6/4
+ability=Trample;\
+        Shroud
+timing=main
+oracle=Trample\nShroud

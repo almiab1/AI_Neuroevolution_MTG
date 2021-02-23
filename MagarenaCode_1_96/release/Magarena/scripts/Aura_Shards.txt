@@ -1,0 +1,9 @@
+name=Aura Shards
+image=https://magiccards.info/scans/en/cmd/182.jpg
+value=4.326
+rarity=U
+type=Enchantment
+cost={1}{G}{W}
+ability=Whenever a creature enters the battlefield under your control, you may destroy target artifact or enchantment.
+timing=enchantment
+oracle=Whenever a creature enters the battlefield under your control, you may destroy target artifact or enchantment.

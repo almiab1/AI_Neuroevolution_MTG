@@ -1,0 +1,13 @@
+name=Armor of Faith
+image=https://magiccards.info/scans/en/5e/284.jpg
+value=2.786
+rarity=C
+type=Enchantment
+subtype=Aura
+cost={W}
+ability=Enchant creature;\
+        Enchanted creature gets +1/+1.;\
+        {W}: Enchanted creature gets +0/+1 until end of turn.
+timing=aura
+enchant=pump,pos creature
+oracle=Enchant creature\nEnchanted creature gets +1/+1.\n{W}: Enchanted creature gets +0/+1 until end of turn.

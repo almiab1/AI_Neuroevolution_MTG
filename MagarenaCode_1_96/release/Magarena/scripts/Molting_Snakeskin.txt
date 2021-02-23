@@ -1,0 +1,12 @@
+name=Molting Snakeskin
+image=https://magiccards.info/scans/en/ktk/80.jpg
+value=2.000
+rarity=C
+type=Enchantment
+subtype=Aura
+cost={B}
+ability=Enchant creature;\
+        Enchanted creature gets +2/+0 and has "{2}{B}: Regenerate this creature."
+timing=aura
+enchant=pump,pos creature
+oracle=Enchant creature\nEnchanted creature gets +2/+0 and has "{2}{B}: Regenerate this creature."

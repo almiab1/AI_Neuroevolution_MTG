@@ -1,0 +1,11 @@
+name=Asceticism
+image=https://magiccards.info/scans/en/som/110.jpg
+value=4.171
+rarity=R
+type=Enchantment
+cost={3}{G}{G}
+ability=Creatures you control have hexproof.;\
+        {1}{G}: Regenerate target creature.
+static=player
+timing=enchantment
+oracle=Creatures you control have hexproof.\n{1}{G}: Regenerate target creature.

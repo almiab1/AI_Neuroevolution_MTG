@@ -1,0 +1,11 @@
+name=Banishing Stroke
+image=https://magiccards.info/scans/en/mm3/2.jpg
+image_updated=2017-08-08
+value=3.526
+rarity=U
+type=Instant
+cost={5}{W}
+ability=Miracle {W}
+effect=Put target artifact, creature, or enchantment on the bottom of its owner's library.
+timing=removal
+oracle=Put target artifact, creature, or enchantment on the bottom of its owner's library.\nMiracle {W}

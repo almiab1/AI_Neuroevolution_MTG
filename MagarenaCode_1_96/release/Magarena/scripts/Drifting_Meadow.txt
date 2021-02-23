@@ -1,0 +1,12 @@
+name=Drifting Meadow
+image=https://magiccards.info/scans/en/c14/292.jpg
+image_updated=2016-02-29
+value=3.438
+rarity=C
+type=Land
+mana=w3
+ability=SN enters the battlefield tapped.;\
+        {T}: Add {W}.;\
+        Cycling {2}
+timing=tapland
+oracle=Drifting Meadow enters the battlefield tapped.\n{T}: Add {W}.\nCycling {2}

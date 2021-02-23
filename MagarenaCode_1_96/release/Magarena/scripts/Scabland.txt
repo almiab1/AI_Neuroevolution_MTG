@@ -1,0 +1,11 @@
+name=Scabland
+image=https://magiccards.info/scans/en/tp/331.jpg
+value=2.600
+rarity=R
+type=Land
+mana=w2r2
+ability=SN enters the battlefield tapped.;\
+        {T}: Add {C}.;\
+        {T}: Add {R} or {W}. SN deals 1 damage to you.
+timing=tapland
+oracle=Scabland enters the battlefield tapped.\n{T}: Add {C}.\n{T}: Add {R} or {W}. Scabland deals 1 damage to you.

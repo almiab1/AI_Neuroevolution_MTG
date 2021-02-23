@@ -1,0 +1,13 @@
+name=Ainok Survivalist
+image=https://magiccards.info/scans/en/a25/157.jpg
+image_updated=2018-04-26
+value=2.500
+rarity=C
+type=Creature
+subtype=Hound,Shaman
+cost={1}{G}
+pt=2/1
+ability=Megamorph {1}{G};\
+        When SN is turned face up, destroy target artifact or enchantment an opponent controls.
+timing=main
+oracle=Megamorph {1}{G}\nWhen Ainok Survivalist is turned face up, destroy target artifact or enchantment an opponent controls.

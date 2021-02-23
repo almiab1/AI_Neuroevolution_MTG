@@ -1,0 +1,9 @@
+name=Nephalia Drownyard
+image=https://magiccards.info/scans/en/isd/245.jpg
+value=3.649
+rarity=R
+type=Land
+ability={T}: Add {C}.;\
+        {1}{U}{B}, {T}: Target player puts the top three cards of his or her library into his or her graveyard.
+timing=land
+oracle={T}: Add {C}.\n{1}{U}{B}, {T}: Target player puts the top three cards of his or her library into his or her graveyard.

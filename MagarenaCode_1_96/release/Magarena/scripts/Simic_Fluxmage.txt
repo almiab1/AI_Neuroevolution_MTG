@@ -1,0 +1,12 @@
+name=Simic Fluxmage
+image=https://magiccards.info/scans/en/gtc/49.jpg
+value=2.904
+rarity=U
+type=Creature
+subtype=Merfolk,Wizard
+cost={2}{U}
+pt=1/2
+ability=Evolve
+timing=fmain
+oracle=Evolve\n{1}{U}, {T}: Move a +1/+1 counter from Simic Fluxmage onto target creature.
+requires_groovy_code

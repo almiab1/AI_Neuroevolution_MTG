@@ -1,0 +1,9 @@
+name=Temporal Spring
+image=https://magiccards.info/scans/en/ap/125.jpg
+value=4.037
+rarity=C
+type=Sorcery
+cost={1}{G}{U}
+effect=Put target permanent on top of its owner's library.
+timing=main
+oracle=Put target permanent on top of its owner's library.

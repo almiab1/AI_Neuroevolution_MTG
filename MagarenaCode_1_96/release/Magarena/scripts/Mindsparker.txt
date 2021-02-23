@@ -1,0 +1,12 @@
+name=Mindsparker
+image=https://magiccards.info/scans/en/m14/146.jpg
+value=3.640
+rarity=R
+type=Creature
+subtype=Elemental
+cost={1}{R}{R}
+pt=3/2
+ability=First strike;\
+        Whenever an opponent casts a white or blue instant or sorcery spell, SN deals 2 damage to that player.
+timing=main
+oracle=First strike\nWhenever an opponent casts a white or blue instant or sorcery spell, Mindsparker deals 2 damage to that player.

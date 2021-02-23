@@ -1,0 +1,11 @@
+name=Aspect of Wolf
+image=https://magiccards.info/scans/en/5e/140.jpg
+value=2.514
+rarity=R
+type=Enchantment
+subtype=Aura
+cost={1}{G}
+enchant=pump,pos creature
+timing=aura
+requires_groovy_code
+oracle=Enchant creature\nEnchanted creature gets +X/+Y, where X is half the number of Forests you control, rounded down, and Y is half the number of Forests you control, rounded up.
