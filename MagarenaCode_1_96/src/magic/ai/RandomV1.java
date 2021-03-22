@@ -63,7 +63,7 @@ public class RandomV1 extends MagicAI {
             " phase=" + sourceGame.getPhase().getType() +
             " slice=" + (0/1000000) +
             " time=" + timeTaken
-            );
+        );
         
         return sourceGame.map(choiceResultsList.get(randomIndex));
     }
