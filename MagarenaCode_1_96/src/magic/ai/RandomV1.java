@@ -1,15 +1,10 @@
 package magic.ai;
 
-import java.util.ArrayList;
 import java.util.List;
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
-import java.util.concurrent.TimeUnit;
 import magic.model.MagicGame;
 import magic.model.MagicGameLog;
 import magic.model.MagicPlayer;
 import magic.model.event.MagicEvent;
-import magic.model.phase.MagicStep;
         
 public class RandomV1 extends MagicAI {
 
@@ -68,7 +63,7 @@ public class RandomV1 extends MagicAI {
             " phase=" + sourceGame.getPhase().getType() +
             " slice=" + (0/1000000) +
             " time=" + timeTaken
-            );
+        );
         
         return sourceGame.map(choiceResultsList.get(randomIndex));
     }
