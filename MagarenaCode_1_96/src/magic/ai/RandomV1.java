@@ -52,7 +52,7 @@ public class RandomV1 extends MagicAI {
         }
         
         // Random choice
-        int randomIndex = (int)(Math.random() * ((choiceResultsList.size() - 0) + 1)) + 0;
+        int randomIndex = (int)(Math.random() * ((choiceResultsList.size())));
 
         // Logging.
         final long timeTaken = System.currentTimeMillis() - startTime;

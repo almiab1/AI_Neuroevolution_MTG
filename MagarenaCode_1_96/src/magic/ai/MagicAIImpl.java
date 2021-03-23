@@ -9,7 +9,8 @@ public enum MagicAIImpl {
     VEGASC("vegas (cheat)", new VegasAI(true)),
     MTDF("mtd(f)", new MTDF(false)),
     MTDFC("mtd(f) (cheat)", new MTDF(true)),
-    RANDOMV1("randomv1", new RandomV1(true)),
+    RANDOMV1("randomv1", new RandomV1(false)),
+    RANDOMV1C("randomv1 (cheat)", new RandomV1(true)),
 
     MMABFast("minimax (deck strength)", magic.ai.MMAB.DeckStrAI()),
     ;
