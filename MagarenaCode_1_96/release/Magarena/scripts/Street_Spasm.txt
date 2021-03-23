@@ -1,0 +1,12 @@
+name=Street Spasm
+image=https://magiccards.info/scans/en/rtr/106.jpg
+value=3.250
+rarity=U
+type=Instant
+cost={X}{R}
+effect=SN deals X damage to target creature without flying you don't control.
+ability=Cast SN with AI only if an opponent controls a creature without flying.
+timing=removal
+removal=1
+requires_groovy_code
+oracle=Street Spasm deals X damage to target creature without flying you don't control.\nOverload {X}{X}{R}{R}

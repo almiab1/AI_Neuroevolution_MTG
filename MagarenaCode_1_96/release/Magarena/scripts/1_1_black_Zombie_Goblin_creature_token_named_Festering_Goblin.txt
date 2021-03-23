@@ -1,0 +1,10 @@
+name=1/1 black Zombie Goblin creature token named Festering Goblin
+token=Festering Goblin
+image=http://cdn.staticneo.com/w/mtg/2/24/Festering_Goblin.jpg
+value=1
+type=Creature
+subtype=Zombie,Goblin
+color=b
+ability=When SN dies, target creature gets -1/-1 until end of turn.
+pt=1/1
+oracle=When Festering Goblin dies, target creature gets -1/-1 until end of turn.

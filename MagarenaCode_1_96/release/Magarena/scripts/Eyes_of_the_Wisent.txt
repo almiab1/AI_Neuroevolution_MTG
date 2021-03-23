@@ -1,0 +1,10 @@
+name=Eyes of the Wisent
+image=https://magiccards.info/scans/en/lw/210.jpg
+value=4.164
+rarity=R
+type=Tribal,Enchantment
+subtype=Elemental
+cost={1}{G}
+ability=Whenever an opponent casts a blue spell during your turn, you may create a 4/4 green Elemental creature token.
+timing=enchantment
+oracle=Whenever an opponent casts a blue spell during your turn, you may create a 4/4 green Elemental creature token.

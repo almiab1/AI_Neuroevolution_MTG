@@ -1,0 +1,12 @@
+name=Magus of the Candelabra
+image=https://magiccards.info/scans/en/ts/203.jpg
+value=4.133
+rarity=R
+type=Creature
+subtype=Human,Wizard
+cost={G}
+pt=1/2
+ability={X}, {T}: Untap X target lands.
+timing=main
+oracle={X}, {T}: Untap X target lands.
+status=not supported: multiple-targets

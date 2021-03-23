@@ -1,0 +1,12 @@
+name=Makindi Shieldmate
+image=https://magiccards.info/scans/en/zen/26.jpg
+value=2.843
+rarity=C
+type=Creature
+subtype=Kor,Soldier,Ally
+cost={2}{W}
+pt=0/3
+ability=Defender;\
+        Whenever SN or another Ally enters the battlefield under your control, you may put a +1/+1 counter on SN.
+timing=smain
+oracle=Defender\nWhenever Makindi Shieldmate or another Ally enters the battlefield under your control, you may put a +1/+1 counter on Makindi Shieldmate.

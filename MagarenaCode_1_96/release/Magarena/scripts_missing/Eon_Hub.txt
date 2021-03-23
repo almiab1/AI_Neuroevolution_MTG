@@ -1,0 +1,10 @@
+name=Eon Hub
+image=https://magiccards.info/scans/en/5dn/120.jpg
+value=4.387
+rarity=R
+type=Artifact
+cost={5}
+ability=Players skip their upkeep steps.
+timing=artifact
+oracle=Players skip their upkeep steps.
+status=not supported: skip-action

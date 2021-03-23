@@ -1,0 +1,10 @@
+name=Insidious Will
+image=https://magiccards.info/scans/en/kld/52.jpg
+image_updated=2016-10-05
+value=2.500
+rarity=R
+type=Instant
+cost={2}{U}{U}
+effect=Choose one — (1) Counter target spell. (2) You may choose new targets for target spell. (3) Copy target instant or sorcery spell. You may choose new targets for the copy.
+timing=counter
+oracle=Choose one —\n• Counter target spell.\n• You may choose new targets for target spell.\n• Copy target instant or sorcery spell. You may choose new targets for the copy.

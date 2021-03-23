@@ -1,0 +1,11 @@
+name=Centaur Archer
+image=https://magiccards.info/scans/en/ia/360.jpg
+value=3.283
+rarity=U
+type=Creature
+subtype=Centaur,Archer
+cost={1}{R}{G}
+pt=3/2
+ability={T}: SN deals 1 damage to target creature with flying.
+timing=main
+oracle={T}: Centaur Archer deals 1 damage to target creature with flying.

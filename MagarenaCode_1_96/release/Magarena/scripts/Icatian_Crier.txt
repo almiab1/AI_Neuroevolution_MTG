@@ -1,0 +1,11 @@
+name=Icatian Crier
+image=https://magiccards.info/scans/en/ts/23.jpg
+value=3.062
+rarity=C
+type=Creature
+subtype=Human,Spellshaper
+cost={2}{W}
+pt=1/1
+ability={1}{W}, {T}, Discard a card: Create two 1/1 white Citizen creature tokens.
+timing=main
+oracle={1}{W}, {T}, Discard a card: Create two 1/1 white Citizen creature tokens.

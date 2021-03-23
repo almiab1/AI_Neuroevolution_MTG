@@ -1,0 +1,11 @@
+name=Pewter Golem
+image=https://magiccards.info/scans/en/mi/227.jpg
+value=1.786
+rarity=C
+type=Artifact,Creature
+subtype=Golem
+cost={5}
+pt=4/2
+ability={1}{B}: Regenerate SN.
+timing=main
+oracle={1}{B}: Regenerate Pewter Golem.

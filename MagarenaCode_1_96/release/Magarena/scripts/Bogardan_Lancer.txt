@@ -1,0 +1,12 @@
+name=Bogardan Lancer
+image=https://magiccards.info/scans/en/fut/95.jpg
+value=3.176
+rarity=C
+type=Creature
+subtype=Human,Knight
+cost={1}{R}
+pt=1/1
+ability=Bloodthirst 1;\
+        Flanking
+timing=main
+oracle=Bloodthirst 1\nFlanking

@@ -1,0 +1,12 @@
+name=Tsabo Tavoc
+image=https://magiccards.info/scans/en/in/281.jpg
+value=4.049
+rarity=R
+type=Legendary,Creature
+subtype=Horror
+cost={5}{B}{R}
+pt=7/4
+ability=First strike, protection from legendary creatures;\
+        {B}{B}, {T}: Destroy target legendary creature. It can't be regenerated.
+timing=main
+oracle=First strike, protection from legendary creatures\n{B}{B}, {T}: Destroy target legendary creature. It can't be regenerated.

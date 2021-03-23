@@ -1,0 +1,13 @@
+name=Twisted Abomination
+image=https://magiccards.info/scans/en/a25/111.jpg
+image_updated=2018-04-27
+value=3.750
+rarity=C
+type=Creature
+subtype=Zombie,Mutant
+cost={5}{B}
+pt=5/3
+ability={B}: Regenerate SN.;\
+        Swampcycling {2}
+timing=main
+oracle={B}: Regenerate Twisted Abomination.\nSwampcycling {2}

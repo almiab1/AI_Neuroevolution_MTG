@@ -1,0 +1,9 @@
+name=Snow-Covered Mountain
+image=https://magiccards.info/scans/en/cs/154.jpg
+value=4.561
+rarity=B
+type=Basic,Snow,Land
+subtype=Mountain
+mana=r4
+timing=land
+oracle=NONE

@@ -1,0 +1,10 @@
+name=Glyph of Destruction
+image=https://magiccards.info/scans/en/lg/148.jpg
+value=3.852
+rarity=C
+type=Instant
+cost={R}
+effect=Target blocking Wall you control gets +10/+0 until end of combat. Prevent all damage that would be dealt to it this turn. Destroy it at the beginning of the next end step.
+timing=removal
+oracle=Target blocking Wall you control gets +10/+0 until end of combat. Prevent all damage that would be dealt to it this turn. Destroy it at the beginning of the next end step.
+status=needs groovy

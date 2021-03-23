@@ -1,0 +1,11 @@
+name=Raptor Companion
+image=https://magiccards.info/scans/en/rix/19.jpg
+image_updated=2018-03-12
+value=2.500
+rarity=C
+type=Creature
+subtype=Dinosaur
+cost={1}{W}
+pt=3/1
+timing=main
+oracle=NONE

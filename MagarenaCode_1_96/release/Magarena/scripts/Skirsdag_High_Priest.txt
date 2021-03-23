@@ -1,0 +1,11 @@
+name=Skirsdag High Priest
+image=https://magiccards.info/scans/en/c14/163.jpg
+value=3.848
+rarity=R
+type=Creature
+subtype=Human,Cleric
+cost={1}{B}
+pt=1/2
+ability={T}, Tap another two untapped creatures you control: Create a 5/5 black Demon creature token with flying. Activate this ability only if a creature died this turn.
+timing=main
+oracle=Morbid — {T}, Tap two untapped creatures you control: Create a 5/5 black Demon creature token with flying. Activate this ability only if a creature died this turn.

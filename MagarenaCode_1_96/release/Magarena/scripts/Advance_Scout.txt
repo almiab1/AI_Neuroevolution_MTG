@@ -1,0 +1,13 @@
+name=Advance Scout
+image=https://magiccards.info/scans/en/tp/213.jpg
+image_updated=2016-11-20
+value=3.645
+rarity=C
+type=Creature
+subtype=Human,Soldier,Scout
+cost={1}{W}
+pt=1/1
+ability=First strike;\
+        {W}: Target creature gains first strike until end of turn.
+timing=main
+oracle=First strike\n{W}: Target creature gains first strike until end of turn.

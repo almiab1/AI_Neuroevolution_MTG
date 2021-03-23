@@ -1,0 +1,11 @@
+name=Snake of the Golden Grove
+image=https://magiccards.info/scans/en/bng/141.jpg
+value=3.221
+rarity=C
+type=Creature
+subtype=Snake
+cost={4}{G}
+pt=4/4
+ability=Tribute 3 effect You gain 4 life.
+timing=main
+oracle=Tribute 3\nWhen Snake of the Golden Grove enters the battlefield, if tribute wasn't paid, you gain 4 life.

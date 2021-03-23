@@ -1,0 +1,12 @@
+name=Timber Wolves
+image=https://magiccards.info/scans/en/4e/159.jpg
+value=3.295
+rarity=R
+type=Creature
+subtype=Wolf
+cost={G}
+pt=1/1
+ability=Banding
+timing=main
+oracle=Banding
+status=not supported: banding

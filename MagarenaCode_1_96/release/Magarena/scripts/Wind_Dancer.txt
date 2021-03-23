@@ -1,0 +1,12 @@
+name=Wind Dancer
+image=https://magiccards.info/scans/en/cns/111.jpg
+value=3.750
+rarity=U
+type=Creature
+subtype=Faerie
+cost={1}{U}
+pt=1/1
+ability=Flying;\
+        {T}: Target creature gains flying until end of turn.
+timing=main
+oracle=Flying\n{T}: Target creature gains flying until end of turn.

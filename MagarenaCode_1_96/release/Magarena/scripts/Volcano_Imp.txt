@@ -1,0 +1,12 @@
+name=Volcano Imp
+image=https://magiccards.info/scans/en/ps/56.jpg
+value=1.783
+rarity=C
+type=Creature
+subtype=Imp
+cost={3}{B}
+pt=2/2
+ability=Flying;\
+        {1}{R}: SN gains first strike until end of turn.
+timing=main
+oracle=Flying\n{1}{R}: Volcano Imp gains first strike until end of turn.

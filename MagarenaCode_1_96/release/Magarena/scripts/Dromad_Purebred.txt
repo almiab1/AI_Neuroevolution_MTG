@@ -1,0 +1,11 @@
+name=Dromad Purebred
+image=https://magiccards.info/scans/en/rav/15.jpg
+value=1.436
+rarity=C
+type=Creature
+subtype=Camel,Beast
+cost={4}{W}
+pt=1/5
+ability=Whenever SN is dealt damage, you gain 1 life.
+timing=main
+oracle=Whenever Dromad Purebred is dealt damage, you gain 1 life.

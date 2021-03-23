@@ -1,0 +1,10 @@
+name=Lay of the Land
+image=https://magiccards.info/scans/en/cn2/185.jpg
+image_updated=2017-08-29
+value=2.439
+rarity=C
+type=Sorcery
+cost={G}
+effect=Search your library for a basic land card, reveal it, put it into your hand, then shuffle your library.
+timing=main
+oracle=Search your library for a basic land card, reveal it, put it into your hand, then shuffle your library.

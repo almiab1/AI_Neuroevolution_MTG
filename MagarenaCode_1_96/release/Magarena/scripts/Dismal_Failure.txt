@@ -1,0 +1,9 @@
+name=Dismal Failure
+image=https://magiccards.info/scans/en/pc/39.jpg
+value=3.688
+rarity=U
+type=Instant
+cost={2}{U}{U}
+effect=Counter target spell.~Its controller discards a card.
+timing=counter
+oracle=Counter target spell. Its controller discards a card.

@@ -1,0 +1,12 @@
+name=Hooded Horror
+image=https://magiccards.info/scans/en/c13/80.jpg
+value=3.324
+rarity=U
+type=Creature
+subtype=Horror
+cost={4}{B}
+pt=4/4
+ability=SN can't be blocked as long as defending player controls the most creatures or is tied for the most.
+timing=main
+oracle=Hooded Horror can't be blocked as long as defending player controls the most creatures or is tied for the most.
+status=needs groovy

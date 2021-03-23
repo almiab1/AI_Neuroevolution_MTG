@@ -1,0 +1,11 @@
+name=Valeron Outlander
+image=https://magiccards.info/scans/en/cfx/130.jpg
+value=2.906
+rarity=C
+type=Creature
+subtype=Human,Scout
+cost={G}{W}
+pt=2/2
+ability=Protection from black
+timing=main
+oracle=Protection from black

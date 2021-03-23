@@ -1,0 +1,12 @@
+name=Skygames
+image=https://magiccards.info/scans/en/gtc/51.jpg
+value=2.019
+rarity=C
+type=Enchantment
+subtype=Aura
+cost={1}{U}
+ability=Enchant land;\
+        Enchanted land has "{T}: Target creature gains flying until end of turn. Activate this ability only any time you could cast a sorcery."
+timing=aura
+enchant=pump,pos land
+oracle=Enchant land\nEnchanted land has "{T}: Target creature gains flying until end of turn. Activate this ability only any time you could cast a sorcery."

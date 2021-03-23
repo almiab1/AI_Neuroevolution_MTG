@@ -1,0 +1,13 @@
+name=Basalt Monolith
+image=https://magiccards.info/scans/en/rv/235.jpg
+image_updated=2016-02-29
+value=4.426
+rarity=U
+type=Artifact
+cost={3}
+ability=SN doesn't untap during your untap step.;\
+        {T}: Add {C}{C}{C}.;\
+        {3}: Untap SN.
+timing=artifact
+oracle=Basalt Monolith doesn't untap during your untap step.\n{T}: Add {C}{C}{C}.\n{3}: Untap Basalt Monolith.
+status=not supported: add-multiple-mana

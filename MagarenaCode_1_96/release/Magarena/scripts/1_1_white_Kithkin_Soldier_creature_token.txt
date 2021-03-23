@@ -1,0 +1,8 @@
+name=1/1 white Kithkin Soldier creature token
+token=Kithkin Soldier
+image=https://magiccards.info/extras/token/lorwyn/kithkin-soldier.jpg
+value=1
+type=Creature
+subtype=Kithkin,Soldier
+color=w
+pt=1/1

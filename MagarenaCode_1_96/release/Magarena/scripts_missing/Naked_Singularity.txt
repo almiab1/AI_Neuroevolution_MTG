@@ -1,0 +1,11 @@
+name=Naked Singularity
+image=https://magiccards.info/scans/en/ia/305.jpg
+value=4.081
+rarity=R
+type=Artifact
+cost={5}
+ability=Cumulative upkeep {3};\
+        If tapped for mana, Plains produce {R}, Islands produce {G}, Swamps produce {W}, Mountains produce {U}, and Forests produce {B} instead of any other type.
+timing=artifact
+oracle=Cumulative upkeep {3}\nIf tapped for mana, Plains produce {R}, Islands produce {G}, Swamps produce {W}, Mountains produce {U}, and Forests produce {B} instead of any other type.
+status=not supported: when-tap-for-mana

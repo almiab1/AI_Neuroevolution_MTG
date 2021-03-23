@@ -1,0 +1,10 @@
+name=Blackmail
+image=https://magiccards.info/scans/en/9e/115.jpg
+value=3.950
+rarity=U
+type=Sorcery
+cost={B}
+effect=Target player reveals three cards from his or her hand and you choose one of them. That player discards that card.
+timing=main
+oracle=Target player reveals three cards from his or her hand and you choose one of them. That player discards that card.
+status=not supported: reveal-hand

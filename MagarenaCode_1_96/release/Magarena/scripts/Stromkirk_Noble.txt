@@ -1,0 +1,12 @@
+name=Stromkirk Noble
+image=https://magiccards.info/scans/en/isd/164.jpg
+value=3.845
+rarity=R
+type=Creature
+subtype=Vampire
+cost={R}
+pt=1/1
+ability=SN can't be blocked by Humans.;\
+        Whenever SN deals combat damage to a player, put a +1/+1 counter on SN.
+timing=main
+oracle=Stromkirk Noble can't be blocked by Humans.\nWhenever Stromkirk Noble deals combat damage to a player, put a +1/+1 counter on it.

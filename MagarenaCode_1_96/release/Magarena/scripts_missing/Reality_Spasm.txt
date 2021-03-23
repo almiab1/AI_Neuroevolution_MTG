@@ -1,0 +1,10 @@
+name=Reality Spasm
+image=https://magiccards.info/scans/en/roe/81.jpg
+value=3.234
+rarity=U
+type=Instant
+cost={X}{U}{U}
+effect=Choose one — (1) Tap X target permanents. (2) Untap X target permanents.
+timing=removal
+oracle=Choose one —\n• Tap X target permanents.\n• Untap X target permanents.
+status=not supported: multiple-targets

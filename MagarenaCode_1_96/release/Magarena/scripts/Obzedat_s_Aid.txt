@@ -1,0 +1,9 @@
+name=Obzedat's Aid
+image=https://magiccards.info/scans/en/dgm/89.jpg
+value=3.812
+rarity=R
+type=Sorcery
+cost={3}{W}{B}
+effect=Return target permanent card from your graveyard to the battlefield.
+timing=main
+oracle=Return target permanent card from your graveyard to the battlefield.

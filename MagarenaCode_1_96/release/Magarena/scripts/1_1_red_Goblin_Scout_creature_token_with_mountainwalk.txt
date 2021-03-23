@@ -1,0 +1,10 @@
+name=1/1 red Goblin Scout creature token with mountainwalk
+image=http://cdn.staticneo.com/w/mtg/b/bd/Goblin_Scout.jpg
+token=Goblin Scout
+type=Creature
+subtype=Goblin,Scout
+color=R
+value=1
+pt=1/1
+ability=Mountainwalk
+oracle=Mountainwalk

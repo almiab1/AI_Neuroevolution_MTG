@@ -1,0 +1,10 @@
+name=Footbottom Feast
+image=https://magiccards.info/scans/en/cmd/84.jpg
+value=3.012
+rarity=C
+type=Instant
+cost={2}{B}
+effect=Put any number of target creature cards from your graveyard on top of your library.~Draw a card.
+timing=removal
+oracle=Put any number of target creature cards from your graveyard on top of your library.\nDraw a card.
+status=not supported: multiple-targets

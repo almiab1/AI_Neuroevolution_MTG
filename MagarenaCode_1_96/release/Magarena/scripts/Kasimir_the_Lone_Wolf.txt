@@ -1,0 +1,10 @@
+name=Kasimir the Lone Wolf
+image=https://magiccards.info/scans/en/lg/277.jpg
+value=1.018
+rarity=U
+type=Legendary,Creature
+subtype=Human,Warrior
+cost={4}{W}{U}
+pt=5/3
+timing=main
+oracle=NONE

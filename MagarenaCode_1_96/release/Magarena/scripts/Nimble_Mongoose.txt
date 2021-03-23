@@ -1,0 +1,12 @@
+name=Nimble Mongoose
+image=https://magiccards.info/scans/en/ema/179.jpg
+value=4.476
+rarity=C
+type=Creature
+subtype=Mongoose
+cost={G}
+pt=1/1
+ability=Shroud;\
+        SN gets +2/+2 as long as seven or more cards are in your graveyard.
+timing=main
+oracle=Shroud\nThreshold — Nimble Mongoose gets +2/+2 as long as seven or more cards are in your graveyard.

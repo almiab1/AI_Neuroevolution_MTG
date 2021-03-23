@@ -1,0 +1,11 @@
+name=Forge Devil
+image=https://magiccards.info/scans/en/m15/140.jpg
+value=2.600
+rarity=C
+type=Creature
+subtype=Devil
+cost={R}
+pt=1/1
+ability=When SN enters the battlefield, SN deals 1 damage to target creature and 1 damage to you.
+timing=main
+oracle=When Forge Devil enters the battlefield, it deals 1 damage to target creature and 1 damage to you.

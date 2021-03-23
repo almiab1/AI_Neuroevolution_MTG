@@ -1,0 +1,11 @@
+name=Springjack Shepherd
+image=https://magiccards.info/scans/en/eve/15.jpg
+value=3.708
+rarity=U
+type=Creature
+subtype=Kithkin,Wizard
+cost={3}{W}
+pt=1/2
+timing=main
+requires_groovy_code
+oracle=Chroma — When Springjack Shepherd enters the battlefield, create a 0/1 white Goat creature token for each white mana symbol in the mana costs of permanents you control.

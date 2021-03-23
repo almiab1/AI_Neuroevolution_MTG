@@ -1,0 +1,9 @@
+name=Rise from the Tides
+image=https://magiccards.info/scans/en/soi/83.jpg
+value=2.500
+rarity=U
+type=Sorcery
+cost={5}{U}
+effect=Create a 2/2 black Zombie creature token that's tapped for each instant and sorcery card in your graveyard.
+timing=main
+oracle=Create a tapped 2/2 black Zombie creature token for each instant and sorcery card in your graveyard.

@@ -1,0 +1,10 @@
+name=Rule of Law
+image=https://magiccards.info/scans/en/10e/37.jpg
+value=3.925
+rarity=U
+type=Enchantment
+cost={2}{W}
+ability=Each player can't cast more than one spell each turn.
+timing=enchantment
+oracle=Each player can't cast more than one spell each turn.
+status=not supported: players-cant

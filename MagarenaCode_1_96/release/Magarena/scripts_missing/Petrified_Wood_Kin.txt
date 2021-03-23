@@ -1,0 +1,14 @@
+name=Petrified Wood-Kin
+image=https://magiccards.info/scans/en/gp/91.jpg
+value=3.728
+rarity=R
+type=Creature
+subtype=Elemental,Warrior
+cost={6}{G}
+pt=3/3
+ability=This spell can't be countered.;\
+        Bloodthirst X;\
+        Protection from instants
+timing=main
+oracle=This spell can't be countered.\nBloodthirst X\nProtection from instants
+status=not supported: no-info

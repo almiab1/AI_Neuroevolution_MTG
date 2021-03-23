@@ -1,0 +1,10 @@
+name=North Star
+image=https://magiccards.info/scans/en/lg/233.jpg
+value=1.571
+rarity=R
+type=Artifact
+cost={4}
+ability={4}, {T}: For one spell this turn, you may spend mana as though it were mana of any type to pay that spell's mana cost.
+timing=artifact
+oracle={4}, {T}: For one spell this turn, you may spend mana as though it were mana of any type to pay that spell's mana cost.
+status=not supported: spend-mana-as-though

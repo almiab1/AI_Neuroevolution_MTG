@@ -1,0 +1,10 @@
+name=4/4 green Rhino creature token with trample
+token=Rhino
+image=https://magiccards.info/extras/token/return-to-ravnica/rhino.jpg
+value=4
+type=Creature
+subtype=Rhino
+color=g
+pt=4/4
+ability=Trample
+oracle=Trample

@@ -1,0 +1,12 @@
+name=Stun Sniper
+image=https://magiccards.info/scans/en/arb/100.jpg
+image_updated=2016-09-12
+value=3.769
+rarity=U
+type=Creature
+subtype=Human,Archer
+cost={R}{W}
+pt=1/1
+ability={1}, {T}: SN deals 1 damage to target creature.~Tap *that creature*.
+timing=main
+oracle={1}, {T}: Stun Sniper deals 1 damage to target creature. Tap that creature.

@@ -1,0 +1,12 @@
+name=Uril, the Miststalker
+image=https://magiccards.info/scans/en/arb/124.jpg
+value=4.009
+rarity=M
+type=Legendary,Creature
+subtype=Beast
+cost={2}{R}{G}{W}
+pt=5/5
+ability=Hexproof;\
+        SN gets +2/+2 for each Aura attached to it.
+timing=main
+oracle=Hexproof\nUril, the Miststalker gets +2/+2 for each Aura attached to it.

@@ -1,0 +1,10 @@
+name=Cinder Cloud
+image=https://magiccards.info/scans/en/mr/165.jpg
+value=3.100
+rarity=U
+type=Instant
+cost={3}{R}{R}
+effect=Destroy target creature. If a white creature dies this way, SN deals damage to that creature's controller equal to the creature's power.
+timing=removal
+oracle=Destroy target creature. If a white creature dies this way, Cinder Cloud deals damage to that creature's controller equal to the creature's power.
+status=needs groovy

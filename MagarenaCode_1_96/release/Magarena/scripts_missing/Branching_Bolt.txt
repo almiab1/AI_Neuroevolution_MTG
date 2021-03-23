@@ -1,0 +1,11 @@
+name=Branching Bolt
+image=https://magiccards.info/scans/en/ala/158.jpg
+image_updated=2016-12-13
+value=3.018
+rarity=C
+type=Instant
+cost={1}{R}{G}
+effect=Choose one or both — (1) SN deals 3 damage to target creature with flying. (2) SN deals 3 damage to target creature without flying.
+timing=removal
+oracle=Choose one or both —\n• Branching Bolt deals 3 damage to target creature with flying.\n• Branching Bolt deals 3 damage to target creature without flying.
+status=not supported: multiple-targets

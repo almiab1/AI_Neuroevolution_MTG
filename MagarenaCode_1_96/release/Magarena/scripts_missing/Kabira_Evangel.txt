@@ -1,0 +1,12 @@
+name=Kabira Evangel
+image=https://magiccards.info/scans/en/zen/15.jpg
+value=3.861
+rarity=R
+type=Creature
+subtype=Human,Cleric,Ally
+cost={2}{W}
+pt=2/3
+ability=Whenever SN or another Ally enters the battlefield under your control, you may choose a color. If you do, Allies you control gain protection from the chosen color until end of turn.
+timing=main
+oracle=Whenever Kabira Evangel or another Ally enters the battlefield under your control, you may choose a color. If you do, Allies you control gain protection from the chosen color until end of turn.
+status=needs groovy

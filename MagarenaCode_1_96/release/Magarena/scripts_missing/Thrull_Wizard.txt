@@ -1,0 +1,12 @@
+name=Thrull Wizard
+image=https://magiccards.info/scans/en/fe/31.jpg
+value=2.784
+rarity=U
+type=Creature
+subtype=Thrull,Wizard
+cost={2}{B}
+pt=1/1
+ability={1}{B}: Counter target black spell unless that spell's controller pays {B} or {3}.
+timing=main
+oracle={1}{B}: Counter target black spell unless that spell's controller pays {B} or {3}.
+status=not supported: pays-or

@@ -1,0 +1,11 @@
+name=Giantbaiting
+image=https://magiccards.info/scans/en/mm3/208.jpg
+image_updated=2017-08-08
+value=3.608
+rarity=C
+type=Sorcery
+cost={2}{R/G}
+ability=Conspire
+effect=Create a 4/4 red and green Giant Warrior creature token with haste. Exile it at the beginning of the next end step.
+timing=main
+oracle=Create a 4/4 red and green Giant Warrior creature token with haste. Exile it at the beginning of the next end step.\nConspire

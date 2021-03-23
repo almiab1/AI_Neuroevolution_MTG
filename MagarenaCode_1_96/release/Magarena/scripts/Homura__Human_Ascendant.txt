@@ -1,0 +1,13 @@
+name=Homura, Human Ascendant
+image=https://magiccards.info/scans/en/sok/103a.jpg
+value=3.904
+rarity=R
+type=Legendary,Creature
+subtype=Human,Monk
+cost={4}{R}{R}
+pt=4/4
+ability=SN can't block.;\
+        When SN dies, return SN from your graveyard to the battlefield flipped.
+flip=Homura's Essence
+timing=main
+oracle=Homura, Human Ascendant can't block.\nWhen Homura dies, return it to the battlefield flipped.

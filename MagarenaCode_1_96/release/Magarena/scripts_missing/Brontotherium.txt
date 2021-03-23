@@ -1,0 +1,13 @@
+name=Brontotherium
+image=https://magiccards.info/scans/en/le/119.jpg
+value=3.793
+rarity=U
+type=Creature
+subtype=Beast
+cost={4}{G}{G}
+pt=5/3
+ability=Trample;\
+        Provoke
+timing=main
+oracle=Trample\nProvoke
+status=not supported: blocking-restriction

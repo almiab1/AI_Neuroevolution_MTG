@@ -1,0 +1,12 @@
+name=Fledgling Djinn
+image=https://magiccards.info/scans/en/wl/11.jpg
+value=3.060
+rarity=C
+type=Creature
+subtype=Djinn
+cost={1}{B}
+pt=2/2
+ability=Flying;\
+        At the beginning of your upkeep, SN deals 1 damage to you.
+timing=main
+oracle=Flying\nAt the beginning of your upkeep, Fledgling Djinn deals 1 damage to you.

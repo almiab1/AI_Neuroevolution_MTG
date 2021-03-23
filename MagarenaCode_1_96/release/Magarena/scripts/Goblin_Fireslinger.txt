@@ -1,0 +1,11 @@
+name=Goblin Fireslinger
+image=https://magiccards.info/scans/en/mm2/114.jpg
+value=3.955
+rarity=C
+type=Creature
+subtype=Goblin,Warrior
+cost={R}
+pt=1/1
+ability={T}: SN deals 1 damage to target player.
+timing=main
+oracle={T}: Goblin Fireslinger deals 1 damage to target player.

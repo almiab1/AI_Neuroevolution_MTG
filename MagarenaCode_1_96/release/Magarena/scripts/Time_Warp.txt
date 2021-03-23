@@ -1,0 +1,9 @@
+name=Time Warp
+image=https://magiccards.info/scans/en/m10/75.jpg
+value=4.164
+rarity=M
+type=Sorcery
+cost={3}{U}{U}
+effect=Target player takes an extra turn after this one.
+timing=smain
+oracle=Target player takes an extra turn after this one.

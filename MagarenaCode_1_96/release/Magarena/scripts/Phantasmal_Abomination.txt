@@ -1,0 +1,12 @@
+name=Phantasmal Abomination
+image=https://magiccards.info/scans/en/roe/80.jpg
+value=2.552
+rarity=U
+type=Creature
+subtype=Illusion
+cost={1}{U}{U}
+pt=5/5
+ability=Defender;\
+        When SN becomes the target of a spell or ability, sacrifice it.
+timing=smain
+oracle=Defender\nWhen Phantasmal Abomination becomes the target of a spell or ability, sacrifice it.

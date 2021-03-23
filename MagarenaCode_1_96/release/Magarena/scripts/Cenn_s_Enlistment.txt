@@ -1,0 +1,10 @@
+name=Cenn's Enlistment
+image=https://magiccards.info/scans/en/mma/9.jpg
+value=3.062
+rarity=C
+type=Sorcery
+cost={3}{W}
+effect=Create two 1/1 white Kithkin Soldier creature tokens.
+ability=Retrace
+timing=token
+oracle=Create two 1/1 white Kithkin Soldier creature tokens.\nRetrace

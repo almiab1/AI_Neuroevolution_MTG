@@ -1,0 +1,12 @@
+name=Avalanche Tusker
+image=https://magiccards.info/scans/en/ktk/166.jpg
+value=3.600
+rarity=R
+type=Creature
+subtype=Elephant,Warrior
+cost={2}{G}{U}{R}
+pt=6/4
+ability=Whenever SN attacks, target creature defending player controls blocks it this combat if able.
+timing=main
+oracle=Whenever Avalanche Tusker attacks, target creature defending player controls blocks it this combat if able.
+status=not supported: blocking-restriction

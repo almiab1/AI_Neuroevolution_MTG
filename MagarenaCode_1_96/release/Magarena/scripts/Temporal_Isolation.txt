@@ -1,0 +1,18 @@
+name=Temporal Isolation
+image=https://magiccards.info/scans/en/ts/43.jpg
+value=3.936
+rarity=C
+type=Enchantment
+subtype=Aura
+cost={1}{W}
+ability=Flash;\
+        Enchant creature;\
+        Enchanted creature has shadow.
+timing=flash
+enchant=can't attack or block,neg creature
+oracle=Flash\nEnchant creature\nEnchanted creature has shadow.\nPrevent all damage that would be dealt by enchanted creature.
+requires_groovy_code
+# not the ideal targetPicker as the creature can still
+# attack and block, but because this gives the creature
+# shadow it can't block much and the aura prevents it
+# from doing any damage.

@@ -1,0 +1,11 @@
+name=Glissa's Courier
+image=https://magiccards.info/scans/en/mbs/80.jpg
+value=2.554
+rarity=C
+type=Creature
+subtype=Horror
+cost={1}{G}{G}
+pt=2/3
+ability=Mountainwalk
+timing=main
+oracle=Mountainwalk

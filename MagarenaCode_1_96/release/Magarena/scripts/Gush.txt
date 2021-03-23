@@ -1,0 +1,10 @@
+name=Gush
+image=https://magiccards.info/scans/en/mm/82.jpg
+value=4.500
+rarity=C
+type=Instant
+cost={4}{U}
+ability=You may return two Islands you control to their owner's hand rather than pay this spell's mana cost.
+effect=Draw two cards.
+timing=draw
+oracle=You may return two Islands you control to their owner's hand rather than pay this spell's mana cost.\nDraw two cards.

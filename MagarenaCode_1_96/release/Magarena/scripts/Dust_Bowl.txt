@@ -1,0 +1,9 @@
+name=Dust Bowl
+image=https://magiccards.info/scans/en/mm/316.jpg
+value=4.318
+rarity=R
+type=Land
+ability={T}: Add {C}.;\
+        {3}, {T}, Sacrifice a land: Destroy target nonbasic land.
+timing=land
+oracle={T}: Add {C}.\n{3}, {T}, Sacrifice a land: Destroy target nonbasic land.

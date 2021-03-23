@@ -1,0 +1,9 @@
+name=Extortion
+image=http://mtgimage.com/card/extortion.jpg
+value=2.929
+rarity=R
+type=Sorcery
+cost={3}{B}{B}
+timing=removal
+requires_groovy_code
+oracle=Look at target player's hand and choose up to two cards from it. That player discards those cards.

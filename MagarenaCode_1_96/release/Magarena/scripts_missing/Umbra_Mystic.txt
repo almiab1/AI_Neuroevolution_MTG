@@ -1,0 +1,12 @@
+name=Umbra Mystic
+image=https://magiccards.info/scans/en/roe/52.jpg
+value=3.742
+rarity=R
+type=Creature
+subtype=Human,Wizard
+cost={2}{W}
+pt=2/2
+ability=Auras attached to permanents you control have totem armor.
+timing=main
+oracle=Auras attached to permanents you control have totem armor.
+status=needs groovy

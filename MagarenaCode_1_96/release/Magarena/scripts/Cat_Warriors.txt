@@ -1,0 +1,11 @@
+name=Cat Warriors
+image=https://magiccards.info/scans/en/6e/219.jpg
+value=2.550
+rarity=C
+type=Creature
+subtype=Cat,Warrior
+cost={1}{G}{G}
+pt=2/2
+ability=Forestwalk
+timing=main
+oracle=Forestwalk

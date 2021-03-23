@@ -1,0 +1,12 @@
+name=Selesnya Guildgate
+image=https://magiccards.info/scans/en/mm3/246.jpg
+image_updated=2017-08-08
+value=3.688
+rarity=C
+type=Land
+subtype=Gate
+mana=g3w3
+ability=SN enters the battlefield tapped.;\
+        {T}: Add {G} or {W}.
+timing=tapland
+oracle=Selesnya Guildgate enters the battlefield tapped.\n{T}: Add {G} or {W}.

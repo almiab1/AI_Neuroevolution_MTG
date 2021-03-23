@@ -1,0 +1,10 @@
+name=Thunderclap
+image=https://magiccards.info/scans/en/mm/219.jpg
+value=3.500
+rarity=C
+type=Instant
+cost={2}{R}
+ability=You may sacrifice a Mountain rather than pay this spell's mana cost.
+effect=SN deals 3 damage to target creature.
+timing=removal
+oracle=You may sacrifice a Mountain rather than pay this spell's mana cost.\nThunderclap deals 3 damage to target creature.

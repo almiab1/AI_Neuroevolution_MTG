@@ -1,0 +1,9 @@
+name=Oppressive Will
+image=https://magiccards.info/scans/en/sok/50.jpg
+value=2.079
+rarity=C
+type=Instant
+cost={2}{U}
+timing=counter
+requires_groovy_code
+oracle=Counter target spell unless its controller pays {1} for each card in your hand.

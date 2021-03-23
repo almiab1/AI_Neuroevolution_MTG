@@ -1,0 +1,11 @@
+name=Simic Ragworm
+image=https://magiccards.info/scans/en/di/93.jpg
+value=2.955
+rarity=C
+type=Creature
+subtype=Worm
+cost={3}{G}
+pt=3/3
+ability={U}: Untap SN.
+timing=main
+oracle={U}: Untap Simic Ragworm.

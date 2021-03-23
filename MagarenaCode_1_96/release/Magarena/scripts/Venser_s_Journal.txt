@@ -1,0 +1,11 @@
+name=Venser's Journal
+image=https://magiccards.info/scans/en/c16/279.jpg
+image_updated=2017-08-17
+value=3.440
+rarity=R
+type=Artifact
+cost={5}
+ability=At the beginning of your upkeep, you gain 1 life for each card in your hand.
+timing=artifact
+requires_groovy_code=Spellbook
+oracle=You have no maximum hand size.\nAt the beginning of your upkeep, you gain 1 life for each card in your hand.

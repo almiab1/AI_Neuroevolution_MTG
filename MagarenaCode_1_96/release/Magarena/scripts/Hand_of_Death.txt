@@ -1,0 +1,10 @@
+name=Hand of Death
+image=https://magiccards.info/scans/en/st2k/6.jpg
+value=2.014
+removal=4
+rarity=C
+type=Sorcery
+cost={2}{B}
+effect=Destroy target nonblack creature.
+timing=main
+oracle=Destroy target nonblack creature.

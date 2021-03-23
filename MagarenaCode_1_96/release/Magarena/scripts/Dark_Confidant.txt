@@ -1,0 +1,12 @@
+name=Dark Confidant
+image=https://magiccards.info/scans/en/mm2/75.jpg
+image_updated=2015-11-05
+value=4.609
+rarity=M
+type=Creature
+subtype=Human,Wizard
+cost={1}{B}
+pt=2/1
+timing=main
+requires_groovy_code
+oracle=At the beginning of your upkeep, reveal the top card of your library and put that card into your hand. You lose life equal to its converted mana cost.

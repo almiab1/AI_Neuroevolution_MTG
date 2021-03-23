@@ -1,0 +1,10 @@
+name=Walk the Aeons
+image=https://magiccards.info/scans/en/ts/93.jpg
+value=4.163
+rarity=R
+type=Sorcery
+cost={4}{U}{U}
+ability=Buyback—Sacrifice three Islands.
+effect=Target player takes an extra turn after this one.
+timing=smain
+oracle=Buyback—Sacrifice three Islands.\nTarget player takes an extra turn after this one.

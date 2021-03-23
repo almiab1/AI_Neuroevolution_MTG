@@ -1,0 +1,11 @@
+name=Shaman of Spring
+image=https://magiccards.info/scans/en/m15/199.jpg
+value=3.083
+rarity=C
+type=Creature
+subtype=Elf,Shaman
+cost={3}{G}
+pt=2/2
+ability=When SN enters the battlefield, draw a card.
+timing=main
+oracle=When Shaman of Spring enters the battlefield, draw a card.

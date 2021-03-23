@@ -1,0 +1,12 @@
+name=Cavern of Souls
+image=https://magiccards.info/scans/en/mm3/232.jpg
+image_updated=2017-08-08
+value=4.305
+rarity=M
+type=Land
+ability=As SN enters the battlefield, choose a creature type.;\
+        {T}: Add {C}.;\
+        {T}: Add one mana of any color. Spend this mana only to cast a creature spell of the chosen type, and that spell can't be countered.
+timing=land
+oracle=As Cavern of Souls enters the battlefield, choose a creature type.\n{T}: Add {C}.\n{T}: Add one mana of any color. Spend this mana only to cast a creature spell of the chosen type, and that spell can't be countered.
+status=not supported: mana-restriction

@@ -1,0 +1,12 @@
+name=Treasure Cruise
+image=https://magiccards.info/scans/en/c16/101.jpg
+image_updated=2017-08-17
+value=3.333
+rarity=C
+type=Sorcery
+cost={7}{U}
+ability=Delve
+effect=Draw three cards.
+timing=main
+oracle=Delve\nDraw three cards.
+status=not supported: delve

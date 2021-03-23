@@ -1,0 +1,14 @@
+name=Knightly Valor
+image=https://magiccards.info/scans/en/m19/20.jpg
+image_updated=2018-08-07
+value=2.500
+rarity=U
+type=Enchantment
+subtype=Aura
+cost={4}{W}
+ability=Enchant creature;\
+        When SN enters the battlefield, create a 2/2 white Knight creature token with vigilance.;\
+        Enchanted creature gets +2/+2 and has vigilance.
+timing=aura
+enchant=pump,pos creature
+oracle=Enchant creature\nWhen Knightly Valor enters the battlefield, create a 2/2 white Knight creature token with vigilance.\nEnchanted creature gets +2/+2 and has vigilance.

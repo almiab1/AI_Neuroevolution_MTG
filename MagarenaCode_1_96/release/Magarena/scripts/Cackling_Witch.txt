@@ -1,0 +1,11 @@
+name=Cackling Witch
+image=https://magiccards.info/scans/en/mm/119.jpg
+value=3.018
+rarity=U
+type=Creature
+subtype=Human,Spellshaper
+cost={1}{B}
+pt=1/1
+ability={X}{B}, {T}, Discard a card: Target creature gets +X/+0 until end of turn.
+timing=main
+oracle={X}{B}, {T}, Discard a card: Target creature gets +X/+0 until end of turn.

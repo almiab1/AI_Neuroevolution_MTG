@@ -1,0 +1,10 @@
+name=Elite Vanguard
+image=https://magiccards.info/scans/en/ema/8.jpg
+value=4.030
+rarity=C
+type=Creature
+subtype=Human,Soldier
+cost={W}
+pt=2/1
+timing=main
+oracle=NONE

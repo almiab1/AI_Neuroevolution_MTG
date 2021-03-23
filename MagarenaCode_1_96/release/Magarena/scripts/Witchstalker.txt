@@ -1,0 +1,12 @@
+name=Witchstalker
+image=https://magiccards.info/scans/en/m14/202.jpg
+value=3.690
+rarity=R
+type=Creature
+subtype=Wolf
+cost={1}{G}{G}
+pt=3/3
+ability=Hexproof;\
+        Whenever an opponent casts a blue or black spell during your turn, put a +1/+1 counter on SN.
+timing=main
+oracle=Hexproof\nWhenever an opponent casts a blue or black spell during your turn, put a +1/+1 counter on Witchstalker.

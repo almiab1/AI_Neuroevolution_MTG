@@ -1,0 +1,13 @@
+name=Kamahl, Fist of Krosa
+image=https://magiccards.info/scans/en/on/268.jpg
+image_updated=2016-12-21
+value=4.317
+rarity=R
+type=Legendary,Creature
+subtype=Human,Druid
+cost={4}{G}{G}
+pt=4/3
+ability={G}: Target land becomes a 1/1 creature until end of turn. It's still a land.;\
+        {2}{G}{G}{G}: Creatures you control get +3/+3 and gain trample until end of turn.
+timing=main
+oracle={G}: Target land becomes a 1/1 creature until end of turn. It's still a land.\n{2}{G}{G}{G}: Creatures you control get +3/+3 and gain trample until end of turn.

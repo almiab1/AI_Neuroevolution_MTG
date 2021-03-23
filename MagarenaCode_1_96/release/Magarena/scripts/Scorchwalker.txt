@@ -1,0 +1,11 @@
+name=Scorchwalker
+image=https://magiccards.info/scans/en/gtc/104.jpg
+value=3.080
+rarity=C
+type=Creature
+subtype=Elemental
+cost={3}{R}
+pt=5/1
+ability={1}{R}{R}, Discard SN: Target attacking creature gets +5/+1 until end of turn.
+timing=main
+oracle=Bloodrush — {1}{R}{R}, Discard Scorchwalker: Target attacking creature gets +5/+1 until end of turn.

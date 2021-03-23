@@ -1,0 +1,9 @@
+name=Guttural Response
+image=https://magiccards.info/scans/en/shm/208.jpg
+value=4.199
+rarity=U
+type=Instant
+cost={R/G}
+effect=Counter target blue instant spell.
+timing=counter
+oracle=Counter target blue instant spell.

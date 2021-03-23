@@ -1,0 +1,10 @@
+name=Staff of the Ages
+image=https://magiccards.info/scans/en/ia/315.jpg
+value=3.102
+rarity=R
+type=Artifact
+cost={3}
+ability=Creatures with landwalk abilities can be blocked as though they didn't have those abilities.
+timing=artifact
+oracle=Creatures with landwalk abilities can be blocked as though they didn't have those abilities.
+status=not supported: block-as-though

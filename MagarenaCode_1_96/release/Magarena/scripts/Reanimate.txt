@@ -1,0 +1,10 @@
+name=Reanimate
+image=https://magiccards.info/scans/en/tp/45.jpg
+image_updated=2017-01-06
+value=4.667
+rarity=U
+type=Sorcery
+cost={B}
+timing=main
+requires_groovy_code
+oracle=Put target creature card from a graveyard onto the battlefield under your control. You lose life equal to its converted mana cost.

@@ -1,0 +1,9 @@
+name=Blessed Reversal
+image=https://magiccards.info/scans/en/8e/7.jpg
+value=3.523
+rarity=R
+type=Instant
+cost={1}{W}
+timing=block
+requires_groovy_code
+oracle=You gain 3 life for each creature attacking you.

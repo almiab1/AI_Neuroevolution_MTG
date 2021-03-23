@@ -1,0 +1,11 @@
+name=Primeval Shambler
+image=https://magiccards.info/scans/en/8e/156.jpg
+value=2.875
+rarity=U
+type=Creature
+subtype=Horror,Mercenary
+cost={4}{B}
+pt=3/3
+ability={B}: SN gets +1/+1 until end of turn.
+timing=main
+oracle={B}: Primeval Shambler gets +1/+1 until end of turn.

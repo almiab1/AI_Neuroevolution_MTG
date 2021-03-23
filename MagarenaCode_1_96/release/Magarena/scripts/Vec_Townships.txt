@@ -1,0 +1,10 @@
+name=Vec Townships
+image=https://magiccards.info/scans/en/tp/339.jpg
+value=2.732
+rarity=U
+type=Land
+mana=g2w2
+ability={T}: Add {C}.;\
+        {T}: Add {G} or {W}. SN doesn't untap during your next untap step.
+timing=land
+oracle={T}: Add {C}.\n{T}: Add {G} or {W}. Vec Townships doesn't untap during your next untap step.

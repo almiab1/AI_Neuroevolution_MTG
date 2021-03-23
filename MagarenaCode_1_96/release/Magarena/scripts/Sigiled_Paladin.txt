@@ -1,0 +1,12 @@
+name=Sigiled Paladin
+image=https://magiccards.info/scans/en/ala/27.jpg
+value=3.722
+rarity=U
+type=Creature
+subtype=Human,Knight
+cost={W}{W}
+pt=2/2
+ability=First strike;\
+        Exalted
+timing=fmain
+oracle=First strike\nExalted

@@ -1,0 +1,9 @@
+name=Vanquish
+image=https://magiccards.info/scans/en/5dn/20.jpg
+value=2.250
+rarity=U
+type=Instant
+cost={2}{W}
+effect=Destroy target blocking creature.
+timing=removal
+oracle=Destroy target blocking creature.

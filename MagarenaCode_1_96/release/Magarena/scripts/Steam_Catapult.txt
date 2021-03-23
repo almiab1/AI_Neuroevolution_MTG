@@ -1,0 +1,11 @@
+name=Steam Catapult
+image=https://magiccards.info/scans/en/po2/142.jpg
+value=3.395
+rarity=R
+type=Creature
+subtype=Human,Soldier
+cost={3}{W}{W}
+pt=2/3
+ability={T}: Destroy target tapped creature. Activate this ability only during your turn, before attackers are declared.
+timing=main
+oracle={T}: Destroy target tapped creature. Activate this ability only during your turn, before attackers are declared.

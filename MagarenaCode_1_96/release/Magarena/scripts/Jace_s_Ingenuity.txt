@@ -1,0 +1,9 @@
+name=Jace's Ingenuity
+image=https://magiccards.info/scans/en/m15/63.jpg
+value=2.929
+rarity=U
+type=Instant
+cost={3}{U}{U}
+effect=Draw three cards.
+timing=draw
+oracle=Draw three cards.

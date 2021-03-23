@@ -1,0 +1,10 @@
+name=Rites of Spring
+image=https://magiccards.info/scans/en/od/265.jpg
+value=3.656
+rarity=C
+type=Sorcery
+cost={1}{G}
+effect=Discard any number of cards. Search your library for up to that many basic land cards, reveal those cards, and put them into your hand. Then shuffle your library.
+timing=main
+oracle=Discard any number of cards. Search your library for up to that many basic land cards, reveal those cards, and put them into your hand. Then shuffle your library.
+status=not supported: any-number-of

@@ -1,0 +1,11 @@
+name=Enatu Golem
+image=https://magiccards.info/scans/en/roe/217.jpg
+value=1.963
+rarity=U
+type=Artifact,Creature
+subtype=Golem
+cost={6}
+pt=3/5
+ability=When SN dies, you gain 4 life.
+timing=main
+oracle=When Enatu Golem dies, you gain 4 life.

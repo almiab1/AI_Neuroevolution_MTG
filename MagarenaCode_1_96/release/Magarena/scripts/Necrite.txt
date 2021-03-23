@@ -1,0 +1,11 @@
+name=Necrite
+image=https://magiccards.info/scans/en/5e/43.jpg
+value=3.017
+rarity=C
+type=Creature
+subtype=Thrull
+cost={1}{B}{B}
+pt=2/2
+ability=Whenever SN attacks and isn't blocked, you may sacrifice SN. If you do, destroy target creature defending player controls. It can't be regenerated.
+timing=main
+oracle=Whenever Necrite attacks and isn't blocked, you may sacrifice it. If you do, destroy target creature defending player controls. It can't be regenerated.

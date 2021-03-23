@@ -1,0 +1,12 @@
+name=Soltari Champion
+image=https://magiccards.info/scans/en/sh/118.jpg
+value=4.408
+rarity=R
+type=Creature
+subtype=Soltari,Soldier
+cost={2}{W}
+pt=2/2
+ability=Shadow;\
+        Whenever SN attacks, other creatures you control get +1/+1 until end of turn.
+timing=main
+oracle=Shadow\nWhenever Soltari Champion attacks, other creatures you control get +1/+1 until end of turn.

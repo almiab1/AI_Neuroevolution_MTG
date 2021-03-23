@@ -1,0 +1,10 @@
+name=Firebolt
+image=https://magiccards.info/scans/en/ema/130.jpg
+value=4.032
+rarity=C
+type=Sorcery
+cost={R}
+ability=Flashback {4}{R}
+effect=SN deals 2 damage to target creature or player.
+timing=main
+oracle=Firebolt deals 2 damage to target creature or player.\nFlashback {4}{R}

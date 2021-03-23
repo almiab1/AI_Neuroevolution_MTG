@@ -1,0 +1,11 @@
+name=Flowstone Crusher
+image=https://magiccards.info/scans/en/9e/184.jpg
+value=3.310
+rarity=U
+type=Creature
+subtype=Beast
+cost={3}{R}{R}
+pt=4/4
+ability={R}: SN gets +1/-1 until end of turn.
+timing=main
+oracle={R}: Flowstone Crusher gets +1/-1 until end of turn.

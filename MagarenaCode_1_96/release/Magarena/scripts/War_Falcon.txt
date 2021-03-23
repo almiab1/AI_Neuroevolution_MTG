@@ -1,0 +1,12 @@
+name=War Falcon
+image=https://magiccards.info/scans/en/m13/38.jpg
+value=3.685
+rarity=C
+type=Creature
+subtype=Bird
+cost={W}
+pt=2/1
+ability=Flying;\
+        SN can't attack unless you control a Knight or a Soldier.
+timing=main
+oracle=Flying\nWar Falcon can't attack unless you control a Knight or a Soldier.

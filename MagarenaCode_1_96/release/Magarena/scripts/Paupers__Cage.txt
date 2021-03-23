@@ -1,0 +1,9 @@
+name=Paupers' Cage
+image=https://magiccards.info/scans/en/mr/279.jpg
+value=2.969
+rarity=R
+type=Artifact
+cost={3}
+ability=At the beginning of each opponent's upkeep, if that player has two or fewer cards in hand, SN deals 2 damage to RN.
+timing=artifact
+oracle=At the beginning of each opponent's upkeep, if that player has two or fewer cards in hand, Paupers' Cage deals 2 damage to him or her.

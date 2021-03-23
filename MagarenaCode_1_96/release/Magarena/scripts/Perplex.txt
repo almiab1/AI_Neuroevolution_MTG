@@ -1,0 +1,10 @@
+name=Perplex
+image=https://magiccards.info/scans/en/rav/217.jpg
+value=4.012
+rarity=C
+type=Instant
+cost={1}{U}{B}
+ability=Transmute {1}{U}{B}
+timing=counter
+requires_groovy_code
+oracle=Counter target spell unless its controller discards his or her hand.\nTransmute {1}{U}{B}

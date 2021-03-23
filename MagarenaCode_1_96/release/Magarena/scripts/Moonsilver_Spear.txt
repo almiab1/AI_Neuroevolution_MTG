@@ -1,0 +1,12 @@
+name=Moonsilver Spear
+image=https://magiccards.info/scans/en/c14/251.jpg
+value=3.891
+rarity=R
+type=Artifact
+subtype=Equipment
+cost={4}
+ability=Equipped creature has first strike.;\
+        Whenever equipped creature attacks, create a 4/4 white Angel creature token with flying.;\
+        Equip {4}
+timing=equipment
+oracle=Equipped creature has first strike.\nWhenever equipped creature attacks, create a 4/4 white Angel creature token with flying.\nEquip {4}

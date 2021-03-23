@@ -1,0 +1,12 @@
+name=Reinforced Bulwark
+image=https://magiccards.info/scans/en/roe/223.jpg
+value=2.372
+rarity=C
+type=Artifact,Creature
+subtype=Wall
+cost={3}
+pt=0/4
+ability=Defender;\
+        {T}: Prevent the next 1 damage that would be dealt to you this turn.
+timing=smain
+oracle=Defender\n{T}: Prevent the next 1 damage that would be dealt to you this turn.

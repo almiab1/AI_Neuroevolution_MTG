@@ -1,0 +1,13 @@
+name=Narcolepsy
+image=https://magiccards.info/scans/en/mm2/52.jpg
+value=3.917
+removal=2
+rarity=C
+type=Enchantment
+subtype=Aura
+cost={1}{U}
+ability=Enchant creature;\
+        At the beginning of each upkeep, if enchanted creature is untapped, tap enchanted creature.
+timing=aura
+enchant=can't attack or block,neg creature
+oracle=Enchant creature\nAt the beginning of each upkeep, if enchanted creature is untapped, tap it.

@@ -1,0 +1,13 @@
+name=Black Scarab
+image=https://magiccards.info/scans/en/ia/230.jpg
+value=2.294
+rarity=U
+type=Enchantment
+subtype=Aura
+cost={W}
+ability=Enchant creature;\
+        Enchanted creature can't be blocked by black creatures.;\
+        Enchanted creature gets +2/+2 as long as an opponent controls a black permanent.
+enchant=pump,pos creature
+timing=aura
+oracle=Enchant creature\nEnchanted creature can't be blocked by black creatures.\nEnchanted creature gets +2/+2 as long as an opponent controls a black permanent.

@@ -1,0 +1,11 @@
+name=Ashenmoor Cohort
+image=https://magiccards.info/scans/en/shm/56.jpg
+value=1.113
+rarity=C
+type=Creature
+subtype=Elemental,Warrior
+cost={5}{B}
+pt=4/3
+ability=SN gets +1/+1 as long as you control another black creature.
+timing=main
+oracle=Ashenmoor Cohort gets +1/+1 as long as you control another black creature.

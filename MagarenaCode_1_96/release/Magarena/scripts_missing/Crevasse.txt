@@ -1,0 +1,10 @@
+name=Crevasse
+image=https://magiccards.info/scans/en/lg/138.jpg
+value=1.500
+rarity=U
+type=Enchantment
+cost={2}{R}
+ability=Creatures with mountainwalk can be blocked as though they didn't have mountainwalk.
+timing=enchantment
+oracle=Creatures with mountainwalk can be blocked as though they didn't have mountainwalk.
+status=not supported: block-as-though

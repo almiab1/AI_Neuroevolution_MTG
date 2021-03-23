@@ -1,0 +1,12 @@
+name=Behemoth Sledge
+image=https://magiccards.info/scans/en/c17/162.jpg
+image_updated=2017-10-03
+value=3.441
+rarity=U
+type=Artifact
+subtype=Equipment
+cost={1}{G}{W}
+ability=Equipped creature gets +2/+2 and has lifelink and trample.;\
+        Equip {3}
+timing=equipment
+oracle=Equipped creature gets +2/+2 and has trample and lifelink.\nEquip {3}

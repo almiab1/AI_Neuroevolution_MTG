@@ -1,0 +1,11 @@
+name=Forsaken Drifters
+image=https://magiccards.info/scans/en/bng/72.jpg
+value=2.640
+rarity=C
+type=Creature
+subtype=Zombie
+cost={3}{B}
+pt=4/2
+ability=When SN dies, put the top four cards of your library into your graveyard.
+timing=main
+oracle=When Forsaken Drifters dies, put the top four cards of your library into your graveyard.

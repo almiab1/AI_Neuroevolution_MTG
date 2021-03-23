@@ -1,0 +1,12 @@
+name=Zephyr Net
+image=https://magiccards.info/scans/en/lw/98.jpg
+value=2.211
+rarity=C
+type=Enchantment
+subtype=Aura
+cost={1}{U}
+ability=Enchant creature;\
+        Enchanted creature has defender and flying.
+timing=aura
+enchant=defender,creature
+oracle=Enchant creature\nEnchanted creature has defender and flying.

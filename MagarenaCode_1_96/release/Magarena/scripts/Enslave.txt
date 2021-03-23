@@ -1,0 +1,13 @@
+name=Enslave
+image=https://magiccards.info/scans/en/nph/58.jpg
+value=3.596
+rarity=U
+type=Enchantment
+subtype=Aura
+cost={4}{B}{B}
+ability=Enchant creature;\
+        You control enchanted creature.
+timing=aura
+enchant=gain control,neg creature
+oracle=Enchant creature\nYou control enchanted creature.\nAt the beginning of your upkeep, enchanted creature deals 1 damage to its owner.
+requires_groovy_code

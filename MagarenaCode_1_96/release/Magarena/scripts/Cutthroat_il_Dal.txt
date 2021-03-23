@@ -1,0 +1,11 @@
+name=Cutthroat il-Dal
+image=https://magiccards.info/scans/en/fut/64.jpg
+value=2.675
+rarity=C
+type=Creature
+subtype=Human,Rogue
+cost={3}{B}
+pt=4/1
+ability=SN has shadow as long as you have no cards in hand.
+timing=main
+oracle=Hellbent — Cutthroat il-Dal has shadow as long as you have no cards in hand.

@@ -1,0 +1,9 @@
+name=Rise of the Dark Realms
+image=https://magiccards.info/scans/en/m14/111.jpg
+value=3.625
+rarity=M
+type=Sorcery
+cost={7}{B}{B}
+timing=main
+requires_groovy_code
+oracle=Put all creature cards from all graveyards onto the battlefield under your control.

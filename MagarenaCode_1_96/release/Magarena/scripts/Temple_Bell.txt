@@ -1,0 +1,10 @@
+name=Temple Bell
+image=https://magiccards.info/scans/en/c16/277.jpg
+image_updated=2017-08-17
+value=3.700
+rarity=R
+type=Artifact
+cost={3}
+ability={T}: Each player draws a card.
+timing=artifact
+oracle={T}: Each player draws a card.

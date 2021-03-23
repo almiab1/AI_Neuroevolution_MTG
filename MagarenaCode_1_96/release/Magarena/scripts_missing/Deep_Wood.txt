@@ -1,0 +1,11 @@
+name=Deep Wood
+image=https://magiccards.info/scans/en/po2/66.jpg
+value=2.722
+rarity=U
+type=Instant
+cost={1}{G}
+ability=Cast this spell only during the declare attackers step and only if you've been attacked this step.
+effect=Prevent all damage that would be dealt to you this turn by attacking creatures.
+timing=removal
+oracle=Cast this spell only during the declare attackers step and only if you've been attacked this step.\nPrevent all damage that would be dealt to you this turn by attacking creatures.
+status=needs groovy

@@ -1,0 +1,12 @@
+name=Ihsan's Shade
+image=https://magiccards.info/scans/en/a25/94.jpg
+image_updated=2018-04-27
+value=3.788
+rarity=U
+type=Legendary,Creature
+subtype=Shade,Knight
+cost={3}{B}{B}{B}
+pt=5/5
+ability=Protection from white
+timing=main
+oracle=Protection from white

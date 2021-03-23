@@ -1,0 +1,12 @@
+name=Phyrexian Vatmother
+image=https://magiccards.info/scans/en/mbs/52.jpg
+value=3.672
+rarity=R
+type=Creature
+subtype=Horror
+cost={2}{B}{B}
+pt=4/5
+ability=Infect;\
+        At the beginning of your upkeep, you get a poison counter.
+timing=main
+oracle=Infect\nAt the beginning of your upkeep, you get a poison counter.

@@ -1,0 +1,11 @@
+name=Fangren Pathcutter
+image=https://magiccards.info/scans/en/5dn/87.jpg
+value=3.583
+rarity=U
+type=Creature
+subtype=Beast
+cost={4}{G}{G}
+pt=4/6
+ability=Whenever SN attacks, attacking creatures gain trample until end of turn.
+timing=main
+oracle=Whenever Fangren Pathcutter attacks, attacking creatures gain trample until end of turn.

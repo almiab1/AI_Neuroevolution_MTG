@@ -1,0 +1,11 @@
+name=Skirsdag Flayer
+image=https://magiccards.info/scans/en/dka/74.jpg
+value=2.917
+rarity=U
+type=Creature
+subtype=Human,Cleric
+cost={1}{B}
+pt=1/1
+ability={3}{B}, {T}, Sacrifice a Human: Destroy target creature.
+timing=main
+oracle={3}{B}, {T}, Sacrifice a Human: Destroy target creature.

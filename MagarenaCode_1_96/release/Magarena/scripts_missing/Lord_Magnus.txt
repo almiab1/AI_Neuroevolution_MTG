@@ -1,0 +1,14 @@
+name=Lord Magnus
+image=https://magiccards.info/scans/en/lg/283.jpg
+value=2.429
+rarity=U
+type=Legendary,Creature
+subtype=Human,Druid
+cost={3}{G}{W}{W}
+pt=4/3
+ability=First strike;\
+        Creatures with plainswalk can be blocked as though they didn't have plainswalk.;\
+        Creatures with forestwalk can be blocked as though they didn't have forestwalk.
+timing=main
+oracle=First strike\nCreatures with plainswalk can be blocked as though they didn't have plainswalk.\nCreatures with forestwalk can be blocked as though they didn't have forestwalk.
+status=not supported: block-as-though

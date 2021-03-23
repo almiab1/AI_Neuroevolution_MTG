@@ -1,0 +1,10 @@
+name=Sigil of the Empty Throne
+image=https://magiccards.info/scans/en/ori/31.jpg
+image_updated=2016-02-29
+value=2.500
+rarity=R
+type=Enchantment
+cost={3}{W}{W}
+ability=Whenever you cast an enchantment spell, create a 4/4 white Angel creature token with flying.
+timing=enchantment
+oracle=Whenever you cast an enchantment spell, create a 4/4 white Angel creature token with flying.

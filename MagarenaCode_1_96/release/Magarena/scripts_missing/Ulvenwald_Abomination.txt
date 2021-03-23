@@ -1,0 +1,15 @@
+name=Ulvenwald Abomination
+image=https://magiccards.info/scans/en/emn/175b.jpg
+image_updated=2016-09-05
+value=2.500
+rarity=C
+type=Creature
+subtype=Eldrazi,Werewolf
+color=
+pt=4/6
+ability={T}: Add {C}{C}.
+transform=Ulvenwald Captive
+timing=main
+hidden
+oracle={T}: Add {C}{C}.
+status=not supported: add-multiple-mana

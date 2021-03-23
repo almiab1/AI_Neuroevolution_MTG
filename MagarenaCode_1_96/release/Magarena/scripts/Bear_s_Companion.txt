@@ -1,0 +1,11 @@
+name=Bear's Companion
+image=https://magiccards.info/scans/en/ktk/167.jpg
+value=3.833
+rarity=U
+type=Creature
+subtype=Human,Warrior
+cost={2}{G}{U}{R}
+pt=2/2
+ability=When SN enters the battlefield, create a 4/4 green Bear creature token.
+timing=main
+oracle=When Bear's Companion enters the battlefield, create a 4/4 green Bear creature token.

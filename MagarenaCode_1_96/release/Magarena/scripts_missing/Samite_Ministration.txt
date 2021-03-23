@@ -1,0 +1,10 @@
+name=Samite Ministration
+image=https://magiccards.info/scans/en/in/36.jpg
+value=3.096
+rarity=U
+type=Instant
+cost={1}{W}
+effect=Prevent all damage that would be dealt to you this turn by a source of your choice. Whenever damage from a black or red source is prevented this way this turn, you gain that much life.
+timing=removal
+oracle=Prevent all damage that would be dealt to you this turn by a source of your choice. Whenever damage from a black or red source is prevented this way this turn, you gain that much life.
+status=not supported: source-deal-damage

@@ -1,0 +1,11 @@
+name=Phyrexian Bloodstock
+image=https://magiccards.info/scans/en/ps/50.jpg
+value=2.882
+rarity=C
+type=Creature
+subtype=Zombie
+cost={4}{B}
+pt=3/3
+ability=When SN leaves the battlefield, destroy target white creature. It can't be regenerated.
+timing=main
+oracle=When Phyrexian Bloodstock leaves the battlefield, destroy target white creature. It can't be regenerated.

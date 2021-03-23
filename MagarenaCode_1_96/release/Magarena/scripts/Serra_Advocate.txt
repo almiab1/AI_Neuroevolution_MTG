@@ -1,0 +1,13 @@
+name=Serra Advocate
+image=https://magiccards.info/scans/en/7e/41.jpg
+image_updated=2017-01-07
+value=3.691
+rarity=U
+type=Creature
+subtype=Angel
+cost={3}{W}
+pt=2/2
+ability=Flying;\
+        {T}: Target attacking or blocking creature gets +2/+2 until end of turn.
+timing=main
+oracle=Flying\n{T}: Target attacking or blocking creature gets +2/+2 until end of turn.

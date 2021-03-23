@@ -1,0 +1,13 @@
+name=Crimson Hellkite
+image=https://magiccards.info/scans/en/7e/178.jpg
+value=3.414
+rarity=R
+type=Creature
+subtype=Dragon
+cost={6}{R}{R}{R}
+pt=6/6
+ability=Flying;\
+        {X}, {T}: SN deals X damage to target creature. Spend only red mana on X.
+timing=main
+oracle=Flying\n{X}, {T}: Crimson Hellkite deals X damage to target creature. Spend only red mana on X.
+status=not supported: mana-restriction

@@ -1,0 +1,10 @@
+name=Fluctuator
+image=https://magiccards.info/scans/en/us/295.jpg
+value=4.418
+rarity=R
+type=Artifact
+cost={2}
+ability=Cycling abilities you activate cost up to {2} less to activate.
+timing=artifact
+oracle=Cycling abilities you activate cost up to {2} less to activate.
+status=not supported: complex-cost-modification

@@ -1,0 +1,9 @@
+name=Serene Heart
+image=https://magiccards.info/scans/en/mr/140.jpg
+value=3.109
+rarity=C
+type=Instant
+cost={1}{G}
+effect=Destroy all Auras.
+timing=removal
+oracle=Destroy all Auras.

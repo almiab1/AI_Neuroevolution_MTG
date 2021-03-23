@@ -1,0 +1,10 @@
+name=Sacred Foundry
+image=https://magiccards.info/scans/en/gtc/245.jpg
+value=4.106
+rarity=R
+type=Land
+subtype=Mountain,Plains
+mana=r3w3
+ability=As SN enters the battlefield, you may pay 2 life. If you don't, SN enters the battlefield tapped.
+timing=land
+oracle=As Sacred Foundry enters the battlefield, you may pay 2 life. If you don't, Sacred Foundry enters the battlefield tapped.

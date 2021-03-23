@@ -1,0 +1,9 @@
+name=Yamabushi's Flame
+image=https://magiccards.info/scans/en/chk/198.jpg
+value=3.088
+rarity=C
+type=Instant
+cost={2}{R}
+effect=SN deals 3 damage to target creature or player. If a creature dealt damage this way would die this turn, exile it instead.
+timing=removal
+oracle=Yamabushi's Flame deals 3 damage to target creature or player. If a creature dealt damage this way would die this turn, exile it instead.

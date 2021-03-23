@@ -1,0 +1,11 @@
+name=Ghazbán Ogre
+image=https://magiccards.info/scans/en/5e/160.jpg
+value=3.100
+rarity=C
+type=Creature
+subtype=Ogre
+cost={G}
+pt=2/2
+timing=main
+requires_groovy_code=Wild Dogs
+oracle=At the beginning of your upkeep, if a player has more life than each other player, the player with the most life gains control of Ghazbán Ogre.

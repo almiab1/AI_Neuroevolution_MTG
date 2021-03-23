@@ -1,0 +1,13 @@
+name=Mogis's Warhound
+image=https://magiccards.info/scans/en/jou/104.jpg
+value=3.261
+rarity=U
+type=Enchantment,Creature
+subtype=Hound
+cost={1}{R}
+pt=2/2
+ability=Bestow {2}{R};\
+        SN attacks each combat if able.;\
+        Enchanted creature gets +2/+2 and attacks each combat if able.
+timing=main
+oracle=Bestow {2}{R}\nMogis's Warhound attacks each combat if able.\nEnchanted creature gets +2/+2 and attacks each combat if able.

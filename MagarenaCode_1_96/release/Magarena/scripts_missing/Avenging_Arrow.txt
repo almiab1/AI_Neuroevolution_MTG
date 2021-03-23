@@ -1,0 +1,10 @@
+name=Avenging Arrow
+image=https://magiccards.info/scans/en/rtr/4.jpg
+value=2.411
+rarity=C
+type=Instant
+cost={2}{W}
+effect=Destroy target creature that dealt damage this turn.
+timing=removal
+oracle=Destroy target creature that dealt damage this turn.
+status=not supported: no-info

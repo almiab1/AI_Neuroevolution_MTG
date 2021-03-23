@@ -1,0 +1,11 @@
+name=Deathcurse Ogre
+image=https://magiccards.info/scans/en/chk/109.jpg
+value=1.292
+rarity=C
+type=Creature
+subtype=Ogre,Warrior
+cost={5}{B}
+pt=3/3
+ability=When SN dies, each player loses 3 life.
+timing=main
+oracle=When Deathcurse Ogre dies, each player loses 3 life.

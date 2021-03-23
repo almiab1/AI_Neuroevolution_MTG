@@ -1,0 +1,8 @@
+name=8/8 red, green, and white Beast creature token
+token=Beast
+image=https://img.scryfall.com/cards/border_crop/en/tala/10.jpg?1517813031
+value=3
+type=Creature
+subtype=Beast
+color=rgw
+pt=8/8

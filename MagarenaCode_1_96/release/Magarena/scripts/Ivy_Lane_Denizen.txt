@@ -1,0 +1,11 @@
+name=Ivy Lane Denizen
+image=https://magiccards.info/scans/en/gtc/125.jpg
+value=3.197
+rarity=C
+type=Creature
+subtype=Elf,Warrior
+cost={3}{G}
+pt=2/3
+ability=Whenever another green creature enters the battlefield under your control, put a +1/+1 counter on target creature.
+timing=main
+oracle=Whenever another green creature enters the battlefield under your control, put a +1/+1 counter on target creature.

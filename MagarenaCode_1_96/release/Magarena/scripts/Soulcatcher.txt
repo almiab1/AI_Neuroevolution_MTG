@@ -1,0 +1,12 @@
+name=Soulcatcher
+image=https://magiccards.info/scans/en/ema/30.jpg
+value=4.214
+rarity=U
+type=Creature
+subtype=Bird,Soldier
+cost={1}{W}
+pt=1/1
+ability=Flying;\
+        Whenever a creature with flying dies, put a +1/+1 counter on SN.
+timing=main
+oracle=Flying\nWhenever a creature with flying dies, put a +1/+1 counter on Soulcatcher.

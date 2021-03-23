@@ -1,0 +1,10 @@
+name=Throttle
+image=https://magiccards.info/scans/en/soi/138.jpg
+image_updated=2010-09-10
+value=2.250
+rarity=C
+type=Instant
+cost={4}{B}
+effect=Target creature gets -4/-4 until end of turn.
+timing=removal
+oracle=Target creature gets -4/-4 until end of turn.

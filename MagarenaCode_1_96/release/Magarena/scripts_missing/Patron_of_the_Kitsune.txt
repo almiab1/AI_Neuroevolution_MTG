@@ -1,0 +1,13 @@
+name=Patron of the Kitsune
+image=https://magiccards.info/scans/en/bok/19.jpg
+value=3.510
+rarity=R
+type=Legendary,Creature
+subtype=Spirit
+cost={4}{W}{W}
+pt=5/6
+ability=Fox offering;\
+        Whenever a creature attacks, you may gain 1 life.
+timing=main
+oracle=Fox offering\nWhenever a creature attacks, you may gain 1 life.
+status=not supported: offering

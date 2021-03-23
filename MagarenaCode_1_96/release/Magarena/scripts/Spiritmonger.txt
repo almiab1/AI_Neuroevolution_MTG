@@ -1,0 +1,14 @@
+name=Spiritmonger
+image=https://magiccards.info/scans/en/ima/209.jpg
+image_updated=2017-04-12
+value=4.455
+rarity=R
+type=Creature
+subtype=Beast
+cost={3}{B}{G}
+pt=6/6
+ability=Whenever SN deals damage to a creature, put a +1/+1 counter on SN.;\
+        {B}: Regenerate SN.;\
+        {G}: SN becomes the color of your choice until end of turn.
+timing=main
+oracle=Whenever Spiritmonger deals damage to a creature, put a +1/+1 counter on Spiritmonger.\n{B}: Regenerate Spiritmonger.\n{G}: Spiritmonger becomes the color of your choice until end of turn.

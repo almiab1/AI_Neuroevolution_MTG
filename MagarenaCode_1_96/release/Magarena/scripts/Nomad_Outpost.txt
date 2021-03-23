@@ -1,0 +1,11 @@
+name=Nomad Outpost
+image=https://magiccards.info/scans/en/c16/311.jpg
+image_updated=2017-08-17
+value=3.750
+rarity=U
+type=Land
+mana=r2w2b2
+ability=SN enters the battlefield tapped.;\
+        {T}: Add {R}, {W}, or {B}.
+timing=tapland
+oracle=Nomad Outpost enters the battlefield tapped.\n{T}: Add {R}, {W}, or {B}.

@@ -1,0 +1,12 @@
+name=Sindbad
+image=https://magiccards.info/scans/en/tsts/31.jpg
+value=3.050
+rarity=U
+type=Creature
+subtype=Human
+cost={1}{U}
+pt=1/1
+ability={T}: Draw a card and reveal it. If it isn't a land card, discard it.
+timing=main
+oracle={T}: Draw a card and reveal it. If it isn't a land card, discard it.
+status=needs groovy

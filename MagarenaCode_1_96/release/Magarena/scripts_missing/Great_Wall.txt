@@ -1,0 +1,10 @@
+name=Great Wall
+image=https://magiccards.info/scans/en/lg/186.jpg
+value=1.068
+rarity=U
+type=Enchantment
+cost={2}{W}
+ability=Creatures with plainswalk can be blocked as though they didn't have plainswalk.
+timing=enchantment
+oracle=Creatures with plainswalk can be blocked as though they didn't have plainswalk.
+status=not supported: block-as-though

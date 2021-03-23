@@ -1,0 +1,10 @@
+name=Claws of Wirewood
+image=https://magiccards.info/scans/en/sc/114.jpg
+value=3.091
+rarity=U
+type=Sorcery
+cost={3}{G}
+ability=Cycling {2}
+effect=SN deals 3 damage to each creature with flying and each player.
+timing=main
+oracle=Claws of Wirewood deals 3 damage to each creature with flying and each player.\nCycling {2}

@@ -1,0 +1,11 @@
+name=Phelddagrif
+image=https://magiccards.info/scans/en/ai/196.jpg
+value=4.083
+rarity=R
+type=Legendary,Creature
+subtype=Phelddagrif
+cost={1}{G}{W}{U}
+pt=4/4
+timing=main
+requires_groovy_code
+oracle={G}: Phelddagrif gains trample until end of turn. Target opponent creates a 1/1 green Hippo creature token.\n{W}: Phelddagrif gains flying until end of turn. Target opponent gains 2 life.\n{U}: Return Phelddagrif to its owner's hand. Target opponent may draw a card.

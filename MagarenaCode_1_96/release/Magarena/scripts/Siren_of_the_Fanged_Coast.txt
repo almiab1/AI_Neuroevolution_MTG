@@ -1,0 +1,12 @@
+name=Siren of the Fanged Coast
+image=https://magiccards.info/scans/en/bng/50.jpg
+value=2.833
+rarity=U
+type=Creature
+subtype=Siren
+cost={3}{U}{U}
+ability=Flying;\
+        Tribute 3 effect Gain control of target creature.
+pt=1/1
+timing=main
+oracle=Flying\nTribute 3\nWhen Siren of the Fanged Coast enters the battlefield, if tribute wasn't paid, gain control of target creature.

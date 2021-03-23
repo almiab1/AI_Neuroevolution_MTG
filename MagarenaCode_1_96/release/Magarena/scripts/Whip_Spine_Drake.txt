@@ -1,0 +1,12 @@
+name=Whip-Spine Drake
+image=https://magiccards.info/scans/en/fut/62.jpg
+value=3.110
+rarity=C
+type=Creature
+subtype=Drake
+cost={3}{U}{U}
+pt=3/3
+ability=Flying;\
+        Morph {2}{W}
+timing=main
+oracle=Flying\nMorph {2}{W}

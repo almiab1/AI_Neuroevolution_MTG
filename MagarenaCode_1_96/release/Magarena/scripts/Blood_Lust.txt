@@ -1,0 +1,9 @@
+name=Blood Lust
+image=https://magiccards.info/scans/en/5e/212.jpg
+value=3.695
+rarity=C
+type=Instant
+cost={1}{R}
+timing=pump
+requires_groovy_code
+oracle=If target creature has toughness 5 or greater, it gets +4/-4 until end of turn. Otherwise, it gets +4/-X until end of turn, where X is its toughness minus 1.

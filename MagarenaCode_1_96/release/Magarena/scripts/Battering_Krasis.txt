@@ -1,0 +1,12 @@
+name=Battering Krasis
+image=https://magiccards.info/scans/en/dgm/41.jpg
+value=3.373
+rarity=C
+type=Creature
+subtype=Fish,Beast
+cost={2}{G}
+pt=2/1
+ability=Trample;\
+        Evolve
+timing=main
+oracle=Trample\nEvolve

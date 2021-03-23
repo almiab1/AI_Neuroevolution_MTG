@@ -1,0 +1,14 @@
+name=Hand of the Praetors
+image=https://magiccards.info/scans/en/som/66.jpg
+value=4.173
+rarity=R
+type=Creature
+subtype=Zombie
+cost={3}{B}
+pt=3/2
+ability=Infect;\
+        Other creatures you control with infect get +1/+1.;\
+        Whenever you cast a creature spell with infect, target player gets a poison counter.
+static=player
+timing=main
+oracle=Infect\nOther creatures you control with infect get +1/+1.\nWhenever you cast a creature spell with infect, target player gets a poison counter.

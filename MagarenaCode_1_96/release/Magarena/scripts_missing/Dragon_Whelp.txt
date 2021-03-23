@@ -1,0 +1,12 @@
+name=Dragon Whelp
+image=https://magiccards.info/scans/en/cmd/120.jpg
+value=3.718
+rarity=U
+type=Creature
+subtype=Dragon
+cost={2}{R}{R}
+pt=2/3
+ability=Flying;\
+        {R}: SN gets +1/+0 until end of turn. If this ability has been activated four or more times this turn, sacrifice SN at the beginning of the next end step.
+timing=main
+oracle=Flying\n{R}: Dragon Whelp gets +1/+0 until end of turn. If this ability has been activated four or more times this turn, sacrifice Dragon Whelp at the beginning of the next end step.

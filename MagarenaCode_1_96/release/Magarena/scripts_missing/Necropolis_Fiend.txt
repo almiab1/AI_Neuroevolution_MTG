@@ -1,0 +1,14 @@
+name=Necropolis Fiend
+image=https://magiccards.info/scans/en/ktk/82.jpg
+value=3.000
+rarity=R
+type=Creature
+subtype=Demon
+cost={7}{B}{B}
+pt=4/5
+ability=Delve;\
+        Flying;\
+        {X}, {T}, Exile X cards from your graveyard: Target creature gets -X/-X until end of turn.
+timing=main
+oracle=Delve\nFlying\n{X}, {T}, Exile X cards from your graveyard: Target creature gets -X/-X until end of turn.
+status=not supported: delve

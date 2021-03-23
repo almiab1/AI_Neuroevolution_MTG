@@ -1,0 +1,9 @@
+name=1/1 black and green Worm creature token
+token=Worm
+image=https://magiccards.info/extras/token/modern-masters-2015/worm.jpg
+image_updated=2015-11-12
+value=1
+type=Creature
+subtype=Worm
+color=bg
+pt=1/1

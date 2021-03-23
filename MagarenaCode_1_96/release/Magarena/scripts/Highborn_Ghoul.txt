@@ -1,0 +1,11 @@
+name=Highborn Ghoul
+image=https://magiccards.info/scans/en/dka/68.jpg
+value=3.281
+rarity=C
+type=Creature
+subtype=Zombie
+cost={B}{B}
+pt=2/1
+ability=Intimidate
+timing=main
+oracle=Intimidate

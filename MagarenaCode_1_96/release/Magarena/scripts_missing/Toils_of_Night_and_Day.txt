@@ -1,0 +1,11 @@
+name=Toils of Night and Day
+image=https://magiccards.info/scans/en/bok/57.jpg
+value=2.828
+rarity=C
+type=Instant
+subtype=Arcane
+cost={2}{U}
+effect=You may tap or untap target permanent, then you may tap or untap another target permanent.
+timing=removal
+oracle=You may tap or untap target permanent, then you may tap or untap another target permanent.
+status=not supported: multiple-targets

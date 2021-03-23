@@ -1,0 +1,12 @@
+name=Wall of Lava
+image=https://magiccards.info/scans/en/ia/223.jpg
+value=3.171
+rarity=U
+type=Creature
+subtype=Wall
+cost={1}{R}{R}
+pt=1/3
+ability=Defender;\
+        {R}: SN gets +1/+1 until end of turn.
+timing=smain
+oracle=Defender\n{R}: Wall of Lava gets +1/+1 until end of turn.

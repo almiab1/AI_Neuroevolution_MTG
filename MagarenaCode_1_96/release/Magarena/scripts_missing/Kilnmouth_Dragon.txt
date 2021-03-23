@@ -1,0 +1,15 @@
+name=Kilnmouth Dragon
+image=https://magiccards.info/scans/en/le/104.jpg
+image_updated=2016-12-21
+value=4.106
+rarity=R
+type=Creature
+subtype=Dragon
+cost={5}{R}{R}
+pt=5/5
+ability=Amplify 3;\
+        Flying;\
+        {T}: SN deals damage equal to the number of +1/+1 counters on it to target creature or player.
+timing=main
+oracle=Amplify 3\nFlying\n{T}: Kilnmouth Dragon deals damage equal to the number of +1/+1 counters on it to target creature or player.
+status=not supported: amplify

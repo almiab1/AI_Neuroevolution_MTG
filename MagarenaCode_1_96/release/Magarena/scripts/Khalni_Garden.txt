@@ -1,0 +1,11 @@
+name=Khalni Garden
+image=https://magiccards.info/scans/en/pc2/122.jpg
+value=3.925
+rarity=C
+type=Land
+mana=g4
+ability=SN enters the battlefield tapped.;\
+        When SN enters the battlefield, create a 0/1 green Plant creature token.;\
+        {T}: Add {G}.
+timing=land
+oracle=Khalni Garden enters the battlefield tapped.\nWhen Khalni Garden enters the battlefield, create a 0/1 green Plant creature token.\n{T}: Add {G}.

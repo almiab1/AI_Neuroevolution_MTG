@@ -1,0 +1,10 @@
+name=Wrack with Madness
+image=https://magiccards.info/scans/en/dka/107.jpg
+value=2.713
+removal=3
+rarity=C
+type=Sorcery
+cost={3}{R}
+timing=removal
+requires_groovy_code
+oracle=Target creature deals damage to itself equal to its power.

@@ -1,0 +1,12 @@
+name=Wolfir Silverheart
+image=https://magiccards.info/scans/en/avr/206.jpg
+value=4.053
+rarity=R
+type=Creature
+subtype=Wolf,Warrior
+cost={3}{G}{G}
+pt=4/4
+ability=Soulbond;\
+        As long as SN is paired with another creature, each of those creatures gets +4/+4.
+timing=main
+oracle=Soulbond\nAs long as Wolfir Silverheart is paired with another creature, each of those creatures gets +4/+4.

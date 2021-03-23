@@ -1,0 +1,13 @@
+name=Inferno Trap
+image=https://magiccards.info/scans/en/zen/133.jpg
+image_updated=2016-12-13
+value=2.000
+rarity=U
+type=Instant
+subtype=Trap
+cost={3}{R}
+ability=If you've been dealt damage by two or more creatures this turn, you may pay {R} rather than pay this spell's mana cost.
+effect=SN deals 4 damage to target creature.
+timing=removal
+oracle=If you've been dealt damage by two or more creatures this turn, you may pay {R} rather than pay this spell's mana cost.\nInferno Trap deals 4 damage to target creature.
+status=not supported: no-info

@@ -1,0 +1,14 @@
+name=Deranged Hermit
+image=https://magiccards.info/scans/en/ul/101.jpg
+value=4.420
+rarity=R
+type=Creature
+subtype=Elf
+cost={3}{G}{G}
+pt=1/1
+ability=Echo {3}{G}{G};\
+        When SN enters the battlefield, create four 1/1 green Squirrel creature tokens.;\
+        Squirrel creatures get +1/+1.
+static=all
+timing=main
+oracle=Echo {3}{G}{G}\nWhen Deranged Hermit enters the battlefield, create four 1/1 green Squirrel creature tokens.\nSquirrel creatures get +1/+1.

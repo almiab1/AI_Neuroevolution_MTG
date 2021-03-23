@@ -1,0 +1,9 @@
+name=Ankh of Mishra
+image=https://magiccards.info/scans/en/6e/273.jpg
+value=4.000
+rarity=R
+type=Artifact
+cost={2}
+ability=Whenever a land enters the battlefield, SN deals 2 damage to that land's controller.
+timing=artifact
+oracle=Whenever a land enters the battlefield, Ankh of Mishra deals 2 damage to that land's controller.

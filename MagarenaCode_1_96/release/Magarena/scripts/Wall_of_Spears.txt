@@ -1,0 +1,13 @@
+name=Wall of Spears
+image=https://magiccards.info/scans/en/8e/320.jpg
+image_updated=2011-01-11
+value=3.036
+rarity=U
+type=Artifact,Creature
+subtype=Wall
+cost={3}
+pt=2/3
+ability=Defender;\
+        First strike
+timing=smain
+oracle=Defender\nFirst strike

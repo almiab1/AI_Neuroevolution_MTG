@@ -1,0 +1,11 @@
+name=Increasing Devotion
+image=https://magiccards.info/scans/en/dka/11.jpg
+value=3.780
+rarity=R
+type=Sorcery
+cost={3}{W}{W}
+ability=Flashback {7}{W}{W}
+effect=Create five 1/1 white Human creature tokens. If SN was cast from a graveyard, create ten of those tokens instead.
+timing=main
+oracle=Create five 1/1 white Human creature tokens. If Increasing Devotion was cast from a graveyard, create ten of those tokens instead.\nFlashback {7}{W}{W}
+status=needs groovy

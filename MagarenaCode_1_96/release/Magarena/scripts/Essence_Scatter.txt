@@ -1,0 +1,10 @@
+name=Essence Scatter
+image=https://magiccards.info/scans/en/m19/54.jpg
+image_updated=2018-08-07
+value=3.527
+rarity=C
+type=Instant
+cost={1}{U}
+effect=Counter target creature spell.
+timing=counter
+oracle=Counter target creature spell.

@@ -1,0 +1,12 @@
+name=Goblin Spy
+image=https://magiccards.info/scans/en/in/145.jpg
+value=3.841
+rarity=U
+type=Creature
+subtype=Goblin,Rogue
+cost={R}
+pt=1/1
+ability=Play with the top card of your library revealed.
+timing=main
+oracle=Play with the top card of your library revealed.
+status=not supported: play-revealed

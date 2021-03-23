@@ -1,0 +1,9 @@
+name=Lifeforce
+image=https://magiccards.info/scans/en/5e/172.jpg
+value=3.708
+rarity=U
+type=Enchantment
+cost={G}{G}
+ability={G}{G}: Counter target black spell.
+timing=enchantment
+oracle={G}{G}: Counter target black spell.

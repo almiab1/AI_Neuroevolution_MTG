@@ -1,0 +1,11 @@
+name=Reset
+image=https://magiccards.info/scans/en/lg/73.jpg
+value=4.489
+rarity=U
+type=Instant
+cost={U}{U}
+ability=Cast this spell only during an opponent's turn after their upkeep step.
+effect=Untap all lands you control.
+timing=removal
+oracle=Cast this spell only during an opponent's turn after their upkeep step.\nUntap all lands you control.
+status=needs groovy

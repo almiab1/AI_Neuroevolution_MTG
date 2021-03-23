@@ -1,0 +1,10 @@
+name=Spoils of Evil
+image=https://magiccards.info/scans/en/ia/51.jpg
+value=4.265
+rarity=R
+type=Instant
+cost={2}{B}
+effect=For each artifact or creature card in target opponent's graveyard, add {C} and you gain 1 life.
+timing=removal
+oracle=For each artifact or creature card in target opponent's graveyard, add {C} and you gain 1 life.
+status=not supported: non-activated-mana-ability

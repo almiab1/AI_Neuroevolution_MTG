@@ -1,0 +1,12 @@
+name=Brackwater Elemental
+image=https://magiccards.info/scans/en/cfx/21.jpg
+value=2.879
+rarity=C
+type=Creature
+subtype=Elemental
+cost={2}{U}
+pt=4/4
+ability=When SN attacks or blocks, sacrifice SN at the beginning of the next end step.;\
+        Unearth {2}{U}
+timing=main
+oracle=When Brackwater Elemental attacks or blocks, sacrifice it at the beginning of the next end step.\nUnearth {2}{U}

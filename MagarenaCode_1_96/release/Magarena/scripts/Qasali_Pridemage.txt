@@ -1,0 +1,13 @@
+name=Qasali Pridemage
+image=https://magiccards.info/scans/en/c17/189.jpg
+image_updated=2017-10-03
+value=4.580
+rarity=C
+type=Creature
+subtype=Cat,Wizard
+cost={G}{W}
+pt=2/2
+ability=Exalted;\
+        {1}, Sacrifice SN: Destroy target artifact or enchantment.
+timing=fmain
+oracle=Exalted\n{1}, Sacrifice Qasali Pridemage: Destroy target artifact or enchantment.

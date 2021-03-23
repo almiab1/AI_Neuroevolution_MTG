@@ -1,0 +1,9 @@
+name=Mountain Stronghold
+image=https://magiccards.info/scans/en/lg/249.jpg
+value=1.290
+rarity=U
+type=Land
+ability=Red legendary creatures you control have "bands with other legendary creatures."
+timing=land
+oracle=Red legendary creatures you control have "bands with other legendary creatures."
+status=not supported: banding

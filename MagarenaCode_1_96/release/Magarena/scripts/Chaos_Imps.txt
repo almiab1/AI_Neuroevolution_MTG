@@ -1,0 +1,13 @@
+name=Chaos Imps
+image=https://magiccards.info/scans/en/rtr/90.jpg
+value=3.566
+rarity=R
+type=Creature
+subtype=Imp
+cost={4}{R}{R}
+pt=6/5
+ability=Flying;\
+        Unleash;\
+        SN has trample as long as it has a +1/+1 counter on it.
+timing=main
+oracle=Flying\nUnleash\nChaos Imps has trample as long as it has a +1/+1 counter on it.

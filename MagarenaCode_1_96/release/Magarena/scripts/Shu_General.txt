@@ -1,0 +1,11 @@
+name=Shu General
+image=https://magiccards.info/scans/en/p3k/25.jpg
+value=3.724
+rarity=U
+type=Creature
+subtype=Human,Soldier
+cost={3}{W}
+pt=2/2
+ability=Vigilance; horsemanship
+timing=main
+oracle=Vigilance, horsemanship

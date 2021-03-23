@@ -1,0 +1,12 @@
+name=Solidarity of Heroes
+image=https://magiccards.info/scans/en/c16/168.jpg
+image_updated=2017-08-17
+value=3.662
+rarity=U
+type=Instant
+cost={1}{G}
+ability=This spell costs {1}{G} more to cast for each target beyond the first.
+effect=Choose any number of target creatures. Double the number of +1/+1 counters on each of them.
+timing=removal
+oracle=Strive — This spell costs {1}{G} more to cast for each target beyond the first.\nChoose any number of target creatures. Double the number of +1/+1 counters on each of them.
+status=not supported: multiple-targets

@@ -1,0 +1,11 @@
+name=Opulent Palace
+image=https://magiccards.info/scans/en/c16/313.jpg
+image_updated=2017-08-17
+value=3.750
+rarity=U
+type=Land
+mana=b2g2u2
+ability=SN enters the battlefield tapped.;\
+        {T}: Add {B}, {G}, or {U}.
+timing=tapland
+oracle=Opulent Palace enters the battlefield tapped.\n{T}: Add {B}, {G}, or {U}.

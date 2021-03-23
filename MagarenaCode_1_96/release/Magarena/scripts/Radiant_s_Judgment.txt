@@ -1,0 +1,11 @@
+name=Radiant's Judgment
+image=https://magiccards.info/scans/en/ul/22.jpg
+value=3.500
+removal=3
+rarity=C
+type=Instant
+cost={2}{W}
+ability=Cycling {2}
+effect=Destroy target creature with power 4 or greater.
+timing=removal
+oracle=Destroy target creature with power 4 or greater.\nCycling {2}

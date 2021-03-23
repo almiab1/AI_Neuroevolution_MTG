@@ -1,0 +1,13 @@
+name=Sultai Scavenger
+image=https://magiccards.info/scans/en/ktk/91.jpg
+value=3.667
+rarity=C
+type=Creature
+subtype=Bird,Warrior
+cost={5}{B}
+pt=3/3
+ability=Delve;\
+        Flying
+timing=main
+oracle=Delve\nFlying
+status=not supported: delve

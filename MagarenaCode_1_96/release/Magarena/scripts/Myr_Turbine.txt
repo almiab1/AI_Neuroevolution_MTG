@@ -1,0 +1,10 @@
+name=Myr Turbine
+image=https://magiccards.info/scans/en/mbs/117.jpg
+value=3.524
+rarity=R
+type=Artifact
+cost={5}
+ability={T}: Create a 1/1 colorless Myr artifact creature token.;\
+        {T}, Tap another five untapped Myr you control: Search your library for a Myr creature card, put it onto the battlefield, then shuffle your library.
+timing=main
+oracle={T}: Create a 1/1 colorless Myr artifact creature token.\n{T}, Tap five untapped Myr you control: Search your library for a Myr creature card, put it onto the battlefield, then shuffle your library.

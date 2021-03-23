@@ -1,0 +1,11 @@
+name=Unsubstantiate
+image=https://magiccards.info/scans/en/emn/79.jpg
+image_updated=2016-09-05
+value=2.500
+rarity=U
+type=Instant
+cost={1}{U}
+effect=Return target spell or creature to its owner's hand.
+timing=removal
+oracle=Return target spell or creature to its owner's hand.
+status=needs groovy

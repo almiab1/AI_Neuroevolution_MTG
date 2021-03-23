@@ -1,0 +1,11 @@
+name=Soul Manipulation
+image=https://magiccards.info/scans/en/mm3/185.jpg
+image_updated=2017-08-08
+value=3.611
+rarity=U
+type=Instant
+cost={1}{U}{B}
+effect=Choose one or both — (1) Counter target creature spell. (2) Return target creature card from your graveyard to your hand.
+timing=counter
+oracle=Choose one or both —\n• Counter target creature spell.\n• Return target creature card from your graveyard to your hand.
+status=not supported: multiple-targets

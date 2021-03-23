@@ -1,0 +1,10 @@
+name=Godless Shrine
+image=https://magiccards.info/scans/en/gtc/242.jpg
+value=4.101
+rarity=R
+type=Land
+subtype=Plains,Swamp
+mana=w3b3
+ability=As SN enters the battlefield, you may pay 2 life. If you don't, SN enters the battlefield tapped.
+timing=land
+oracle=As Godless Shrine enters the battlefield, you may pay 2 life. If you don't, Godless Shrine enters the battlefield tapped.

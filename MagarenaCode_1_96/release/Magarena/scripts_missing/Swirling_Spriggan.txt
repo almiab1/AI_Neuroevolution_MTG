@@ -1,0 +1,12 @@
+name=Swirling Spriggan
+image=https://magiccards.info/scans/en/eve/76.jpg
+value=2.712
+rarity=U
+type=Creature
+subtype=Goblin,Shaman
+cost={2}{G}{G}
+pt=3/3
+ability={G/U}{G/U}: Target creature you control becomes the color or colors of your choice until end of turn.
+timing=main
+oracle={G/U}{G/U}: Target creature you control becomes the color or colors of your choice until end of turn.
+status=not supported: choose-colors

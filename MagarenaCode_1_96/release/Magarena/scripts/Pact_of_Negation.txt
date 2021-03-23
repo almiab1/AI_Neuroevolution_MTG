@@ -1,0 +1,11 @@
+name=Pact of Negation
+image=https://magiccards.info/scans/en/a25/68.jpg
+image_updated=2018-04-27
+value=4.588
+rarity=R
+type=Instant
+cost={0}
+color=u
+effect=Counter target spell.~At the beginning of your next upkeep, pay {3}{U}{U}. If you don't, you lose the game.
+timing=counter
+oracle=Counter target spell.\nAt the beginning of your next upkeep, pay {3}{U}{U}. If you don't, you lose the game.

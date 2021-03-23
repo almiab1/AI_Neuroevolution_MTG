@@ -1,0 +1,11 @@
+name=Mind's Dilation
+image=https://magiccards.info/scans/en/emn/70.jpg
+image_updated=2016-09-05
+value=2.500
+rarity=M
+type=Enchantment
+cost={5}{U}{U}
+ability=Whenever an opponent casts his or her first spell each turn, that player exiles the top card of his or her library. If it's a nonland card, you may cast it without paying its mana cost.
+timing=enchantment
+oracle=Whenever an opponent casts his or her first spell each turn, that player exiles the top card of his or her library. If it's a nonland card, you may cast it without paying its mana cost.
+status=not supported: may-play-card

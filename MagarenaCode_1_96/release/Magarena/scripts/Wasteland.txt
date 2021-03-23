@@ -1,0 +1,9 @@
+name=Wasteland
+image=https://magiccards.info/scans/en/ema/248.jpg
+value=4.585
+rarity=R
+type=Land
+ability={T}: Add {C}.;\
+        {T}, Sacrifice SN: Destroy target nonbasic land.
+timing=land
+oracle={T}: Add {C}.\n{T}, Sacrifice Wasteland: Destroy target nonbasic land.

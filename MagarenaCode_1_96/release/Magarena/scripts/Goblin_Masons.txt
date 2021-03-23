@@ -1,0 +1,11 @@
+name=Goblin Masons
+image=https://magiccards.info/scans/en/ud/86.jpg
+value=2.645
+rarity=C
+type=Creature
+subtype=Goblin
+cost={1}{R}
+pt=2/1
+ability=When SN dies, destroy target Wall.
+timing=main
+oracle=When Goblin Masons dies, destroy target Wall.

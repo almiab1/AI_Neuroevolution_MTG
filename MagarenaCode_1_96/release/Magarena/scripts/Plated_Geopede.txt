@@ -1,0 +1,13 @@
+name=Plated Geopede
+image=https://magiccards.info/scans/en/zen/141.jpg
+image_updated=2017-01-03
+value=4.013
+rarity=C
+type=Creature
+subtype=Insect
+cost={1}{R}
+pt=1/1
+ability=First strike;\
+        Whenever a land enters the battlefield under your control, SN gets +2/+2 until end of turn.
+timing=main
+oracle=First strike\nLandfall — Whenever a land enters the battlefield under your control, Plated Geopede gets +2/+2 until end of turn.

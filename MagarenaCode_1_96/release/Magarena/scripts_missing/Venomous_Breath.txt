@@ -1,0 +1,10 @@
+name=Venomous Breath
+image=https://magiccards.info/scans/en/mm/281.jpg
+value=2.929
+rarity=U
+type=Instant
+cost={3}{G}
+effect=Choose target creature. At this turn's next end of combat, destroy all creatures that blocked or were blocked by it this turn.
+timing=removal
+oracle=Choose target creature. At this turn's next end of combat, destroy all creatures that blocked or were blocked by it this turn.
+status=needs groovy

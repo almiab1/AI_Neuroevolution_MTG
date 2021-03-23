@@ -1,0 +1,9 @@
+name=Whitesun's Passage
+image=https://magiccards.info/scans/en/som/27.jpg
+value=2.175
+rarity=C
+type=Instant
+cost={1}{W}
+effect=You gain 5 life.
+timing=removal
+oracle=You gain 5 life.

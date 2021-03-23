@@ -1,0 +1,10 @@
+name=High Market
+image=https://magiccards.info/scans/en/mm/320.jpg
+image_updated=2016-02-29
+value=3.819
+rarity=R
+type=Land
+ability={T}: Add {C}.;\
+        {T}, Sacrifice a creature: You gain 1 life.
+timing=land
+oracle={T}: Add {C}.\n{T}, Sacrifice a creature: You gain 1 life.

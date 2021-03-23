@@ -1,0 +1,12 @@
+name=Mayael the Anima
+image=https://magiccards.info/scans/en/ala/179.jpg
+value=3.789
+rarity=M
+type=Legendary,Creature
+subtype=Elf,Shaman
+cost={R}{G}{W}
+pt=2/3
+ability={3}{R}{G}{W}, {T}: Look at the top five cards of your library. You may put a creature card with power 5 or greater from among them onto the battlefield. Put the rest on the bottom of your library in any order.
+timing=main
+oracle={3}{R}{G}{W}, {T}: Look at the top five cards of your library. You may put a creature card with power 5 or greater from among them onto the battlefield. Put the rest on the bottom of your library in any order.
+status=needs groovy

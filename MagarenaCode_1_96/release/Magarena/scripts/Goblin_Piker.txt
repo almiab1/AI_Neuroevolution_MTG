@@ -1,0 +1,10 @@
+name=Goblin Piker
+image=https://magiccards.info/scans/en/m12/141.jpg
+value=1.526
+rarity=C
+type=Creature
+subtype=Goblin,Warrior
+cost={1}{R}
+pt=2/1
+timing=main
+oracle=NONE

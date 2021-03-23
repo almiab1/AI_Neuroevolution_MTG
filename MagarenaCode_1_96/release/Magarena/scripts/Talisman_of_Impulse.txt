@@ -1,0 +1,10 @@
+name=Talisman of Impulse
+image=https://magiccards.info/scans/en/mi/254.jpg
+value=3.143
+rarity=U
+type=Artifact
+cost={2}
+ability={T}: Add {C}.;\
+        {T}: Add {R} or {G}. SN deals 1 damage to you.
+timing=artifact
+oracle={T}: Add {C}.\n{T}: Add {R} or {G}. Talisman of Impulse deals 1 damage to you.

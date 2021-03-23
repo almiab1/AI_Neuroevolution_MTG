@@ -1,0 +1,12 @@
+name=Tuktuk Grunts
+image=https://magiccards.info/scans/en/zen/152.jpg
+value=1.927
+rarity=C
+type=Creature
+subtype=Goblin,Warrior,Ally
+cost={4}{R}
+pt=2/2
+ability=Haste;\
+        Whenever SN or another Ally enters the battlefield under your control, you may put a +1/+1 counter on SN.
+timing=fmain
+oracle=Haste\nWhenever Tuktuk Grunts or another Ally enters the battlefield under your control, you may put a +1/+1 counter on Tuktuk Grunts.

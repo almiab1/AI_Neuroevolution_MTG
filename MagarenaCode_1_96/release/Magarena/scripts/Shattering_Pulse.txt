@@ -1,0 +1,11 @@
+name=Shattering Pulse
+image=https://magiccards.info/scans/en/ex/102.jpg
+value=4.066
+removal=1
+rarity=C
+type=Instant
+cost={1}{R}
+ability=Buyback {3}
+effect=Destroy target artifact.
+timing=removal
+oracle=Buyback {3}\nDestroy target artifact.

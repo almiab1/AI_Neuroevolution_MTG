@@ -1,0 +1,12 @@
+name=Kabira Crossroads
+image=https://magiccards.info/scans/en/c17/259.jpg
+image_updated=2017-10-03
+value=3.432
+rarity=C
+type=Land
+mana=w4
+ability=SN enters the battlefield tapped.;\
+        When SN enters the battlefield, you gain 2 life.;\
+        {T}: Add {W}.
+timing=land
+oracle=Kabira Crossroads enters the battlefield tapped.\nWhen Kabira Crossroads enters the battlefield, you gain 2 life.\n{T}: Add {W}.

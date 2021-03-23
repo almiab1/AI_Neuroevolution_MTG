@@ -1,0 +1,11 @@
+name=Tar Pit Warrior
+image=https://magiccards.info/scans/en/vi/20.jpg
+value=3.633
+rarity=C
+type=Creature
+subtype=Cyclops,Warrior
+cost={2}{B}
+pt=3/4
+ability=When SN becomes the target of a spell or ability, sacrifice it.
+timing=main
+oracle=When Tar Pit Warrior becomes the target of a spell or ability, sacrifice it.

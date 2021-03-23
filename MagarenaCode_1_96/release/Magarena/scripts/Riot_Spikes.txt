@@ -1,0 +1,12 @@
+name=Riot Spikes
+image=https://magiccards.info/scans/en/di/146.jpg
+value=2.541
+rarity=C
+type=Enchantment
+subtype=Aura
+cost={B/R}
+ability=Enchant creature;\
+        Enchanted creature gets +2/-1.
+timing=aura
+enchant=pump,creature
+oracle=Enchant creature\nEnchanted creature gets +2/-1.

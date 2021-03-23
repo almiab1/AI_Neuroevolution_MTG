@@ -1,0 +1,12 @@
+name=Konda, Lord of Eiganjo
+image=https://magiccards.info/scans/en/chk/30.jpg
+value=4.012
+rarity=R
+type=Legendary,Creature
+subtype=Human,Samurai
+cost={5}{W}{W}
+pt=3/3
+ability=Vigilance, indestructible;\
+        Bushido 5
+timing=main
+oracle=Vigilance, indestructible\nBushido 5

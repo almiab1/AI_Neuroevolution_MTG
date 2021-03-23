@@ -1,0 +1,14 @@
+name=Decomposition
+image=https://magiccards.info/scans/en/mr/110.jpg
+value=3.326
+rarity=U
+type=Enchantment
+subtype=Aura
+cost={1}{G}
+ability=Enchant black creature;\
+        Enchanted creature has "Cumulative upkeep—Pay 1 life.";\
+        When enchanted creature dies, its controller loses 2 life.
+timing=aura
+enchant=default,black creature
+oracle=Enchant black creature\nEnchanted creature has "Cumulative upkeep—Pay 1 life."\nWhen enchanted creature dies, its controller loses 2 life.
+status=needs groovy

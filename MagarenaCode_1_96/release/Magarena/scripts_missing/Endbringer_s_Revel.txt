@@ -1,0 +1,10 @@
+name=Endbringer's Revel
+image=https://magiccards.info/scans/en/pr/63.jpg
+value=2.886
+rarity=U
+type=Enchantment
+cost={2}{B}
+ability={4}: Return target creature card from a graveyard to its owner's hand. Any player may activate this ability but only any time he or she could cast a sorcery.
+timing=enchantment
+oracle={4}: Return target creature card from a graveyard to its owner's hand. Any player may activate this ability but only any time he or she could cast a sorcery.
+status=not supported: any-player-activate

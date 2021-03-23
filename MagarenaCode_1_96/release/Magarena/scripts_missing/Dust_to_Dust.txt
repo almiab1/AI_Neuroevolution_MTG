@@ -1,0 +1,10 @@
+name=Dust to Dust
+image=https://magiccards.info/scans/en/5e/305.jpg
+value=4.286
+rarity=U
+type=Sorcery
+cost={1}{W}{W}
+effect=Exile two target artifacts.
+timing=main
+oracle=Exile two target artifacts.
+status=not supported: multiple-targets

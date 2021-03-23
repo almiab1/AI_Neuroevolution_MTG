@@ -1,0 +1,12 @@
+name=Rhox Charger
+image=https://magiccards.info/scans/en/ala/145.jpg
+value=3.006
+rarity=U
+type=Creature
+subtype=Rhino,Soldier
+cost={3}{G}
+pt=3/3
+ability=Trample;\
+        Exalted
+timing=fmain
+oracle=Trample\nExalted

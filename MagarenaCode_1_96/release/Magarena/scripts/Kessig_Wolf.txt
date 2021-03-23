@@ -1,0 +1,11 @@
+name=Kessig Wolf
+image=https://magiccards.info/scans/en/isd/151.jpg
+value=2.405
+rarity=C
+type=Creature
+subtype=Wolf
+cost={2}{R}
+pt=3/1
+ability={1}{R}: SN gains first strike until end of turn.
+timing=main
+oracle={1}{R}: Kessig Wolf gains first strike until end of turn.

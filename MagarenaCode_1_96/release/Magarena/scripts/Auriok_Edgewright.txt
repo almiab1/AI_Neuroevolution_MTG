@@ -1,0 +1,11 @@
+name=Auriok Edgewright
+image=https://magiccards.info/scans/en/som/3.jpg
+value=3.384
+rarity=U
+type=Creature
+subtype=Human,Soldier
+cost={W}{W}
+pt=2/2
+ability=SN has double strike as long as you control three or more artifacts.
+timing=main
+oracle=Metalcraft — Auriok Edgewright has double strike as long as you control three or more artifacts.

@@ -1,0 +1,12 @@
+name=Cephalid Broker
+image=https://magiccards.info/scans/en/ima/44.jpg
+image_updated=2017-04-12
+value=3.538
+rarity=U
+type=Creature
+subtype=Cephalid
+cost={3}{U}
+pt=2/2
+ability={T}: Target player draws two cards, then discards two cards.
+timing=main
+oracle={T}: Target player draws two cards, then discards two cards.

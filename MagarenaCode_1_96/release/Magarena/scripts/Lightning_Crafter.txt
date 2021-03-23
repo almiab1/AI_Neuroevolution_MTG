@@ -1,0 +1,14 @@
+name=Lightning Crafter
+image=https://magiccards.info/scans/en/mt/93.jpg
+value=3.767
+removal=2
+rarity=R
+type=Creature
+subtype=Goblin,Shaman
+cost={3}{R}
+pt=3/3
+ability=Champion a Goblin or Shaman;\
+        {T}: SN deals 3 damage to target creature or player.;\
+        Cast SN with AI only if you control a Goblin or Shaman
+timing=main
+oracle=Champion a Goblin or Shaman\n{T}: Lightning Crafter deals 3 damage to target creature or player.

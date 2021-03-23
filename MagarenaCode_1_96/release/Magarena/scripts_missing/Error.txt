@@ -1,0 +1,13 @@
+name=Error
+image=https://magiccards.info/scans/en/c16/239b.jpg
+image_updated=2017-08-17
+value=3.196
+rarity=U
+type=Instant
+cost={U}{B}
+effect=Counter target multicolored spell.
+split=Trial
+timing=counter
+second_half
+oracle=Counter target multicolored spell.
+status=not supported: split-card

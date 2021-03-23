@@ -1,0 +1,12 @@
+name=Warrior en-Kor
+image=https://magiccards.info/scans/en/sh/124.jpg
+value=2.500
+rarity=U
+type=Creature
+subtype=Kor,Warrior,Knight
+cost={W}{W}
+pt=2/2
+ability={0}: The next 1 damage that would be dealt to SN this turn is dealt to target creature you control instead.
+timing=main
+oracle={0}: The next 1 damage that would be dealt to Warrior en-Kor this turn is dealt to target creature you control instead.
+status=not supported: redirect-next-damage

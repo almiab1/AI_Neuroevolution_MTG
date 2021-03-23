@@ -1,0 +1,12 @@
+name=Demonic Taskmaster
+image=https://magiccards.info/scans/en/avr/95.jpg
+value=3.724
+rarity=U
+type=Creature
+subtype=Demon
+cost={2}{B}
+pt=4/3
+ability=Flying;\
+        At the beginning of your upkeep, sacrifice another creature.
+timing=main
+oracle=Flying\nAt the beginning of your upkeep, sacrifice a creature other than Demonic Taskmaster.

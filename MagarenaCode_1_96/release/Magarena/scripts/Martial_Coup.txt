@@ -1,0 +1,10 @@
+name=Martial Coup
+image=https://magiccards.info/scans/en/c14/78.jpg
+value=4.049
+removal=4
+rarity=R
+type=Sorcery
+cost={X}{W}{W}
+timing=removal
+requires_groovy_code
+oracle=Create X 1/1 white Soldier creature tokens. If X is 5 or more, destroy all other creatures.

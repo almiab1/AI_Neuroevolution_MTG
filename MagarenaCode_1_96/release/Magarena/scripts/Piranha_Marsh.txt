@@ -1,0 +1,11 @@
+name=Piranha Marsh
+image=https://magiccards.info/scans/en/zen/222.jpg
+value=3.509
+rarity=C
+type=Land
+mana=b3
+ability=SN enters the battlefield tapped.;\
+        When SN enters the battlefield, target player loses 1 life.;\
+        {T}: Add {B}.
+timing=land
+oracle=Piranha Marsh enters the battlefield tapped.\nWhen Piranha Marsh enters the battlefield, target player loses 1 life.\n{T}: Add {B}.

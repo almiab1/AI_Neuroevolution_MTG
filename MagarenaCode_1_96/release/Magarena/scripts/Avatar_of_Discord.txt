@@ -1,0 +1,13 @@
+name=Avatar of Discord
+image=https://magiccards.info/scans/en/di/140.jpg
+image_updated=2016-12-13
+value=3.764
+rarity=R
+type=Creature
+subtype=Avatar
+cost={B/R}{B/R}{B/R}
+pt=5/3
+ability=Flying;\
+        When SN enters the battlefield, sacrifice SN unless you discard two cards.
+timing=main
+oracle=Flying\nWhen Avatar of Discord enters the battlefield, sacrifice it unless you discard two cards.

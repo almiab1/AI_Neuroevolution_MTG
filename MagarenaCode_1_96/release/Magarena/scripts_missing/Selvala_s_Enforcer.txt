@@ -1,0 +1,12 @@
+name=Selvala's Enforcer
+image=https://magiccards.info/scans/en/cns/40.jpg
+value=3.700
+rarity=C
+type=Creature
+subtype=Elf,Warrior
+cost={3}{G}
+pt=2/2
+ability=When SN enters the battlefield, each player reveals the top card of his or her library. For each nonland card revealed this way, put a +1/+1 counter on SN. Then each player draws a card.
+timing=main
+oracle=Parley — When Selvala's Enforcer enters the battlefield, each player reveals the top card of his or her library. For each nonland card revealed this way, put a +1/+1 counter on Selvala's Enforcer. Then each player draws a card.
+status=needs groovy

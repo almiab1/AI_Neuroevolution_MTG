@@ -1,0 +1,10 @@
+name=Concordant Crossroads
+image=https://magiccards.info/scans/en/lg/93.jpg
+value=4.575
+rarity=R
+type=World,Enchantment
+cost={G}
+ability=All creatures have haste.
+static=all
+timing=enchantment
+oracle=All creatures have haste.

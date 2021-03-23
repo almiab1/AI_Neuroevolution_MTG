@@ -1,0 +1,9 @@
+name=Timely Reinforcements
+image=https://magiccards.info/scans/en/m12/40.jpg
+value=4.154
+rarity=U
+type=Sorcery
+cost={2}{W}
+timing=main
+oracle=If you have less life than an opponent, you gain 6 life. If you control fewer creatures than an opponent, create three 1/1 white Soldier creature tokens.
+requires_groovy_code

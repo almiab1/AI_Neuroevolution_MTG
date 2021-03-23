@@ -1,0 +1,15 @@
+name=Bone Shredder
+image=https://magiccards.info/scans/en/ul/49.jpg
+image_updated=2016-11-20
+value=3.625
+removal=1
+rarity=U
+type=Creature
+subtype=Minion
+cost={2}{B}
+pt=1/1
+ability=Flying;\
+        Echo {2}{B};\
+        When SN enters the battlefield, destroy target nonartifact, nonblack creature.
+timing=main
+oracle=Flying\nEcho {2}{B}\nWhen Bone Shredder enters the battlefield, destroy target nonartifact, nonblack creature.

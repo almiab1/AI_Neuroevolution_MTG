@@ -1,0 +1,15 @@
+name=Vile Redeemer
+image=https://magiccards.info/scans/en/ogw/125.jpg
+image_updated=2016-02-29
+value=2.500
+rarity=R
+type=Creature
+subtype=Eldrazi
+cost={2}{G}
+pt=3/3
+ability=Devoid;\
+        Flash;\
+        When you cast SN, you may pay {C}. If you do, create a 1/1 colorless Eldrazi Scion creature token for each nontoken creature that died under your control this turn. Those tokens have "Sacrifice this creature: Add {C}."
+timing=flash
+oracle=Devoid\nFlash\nWhen you cast Vile Redeemer, you may pay {C}. If you do, create a 1/1 colorless Eldrazi Scion creature token for each nontoken creature that died under your control this turn. Those tokens have "Sacrifice this creature: Add {C}."
+status=not supported: no-info

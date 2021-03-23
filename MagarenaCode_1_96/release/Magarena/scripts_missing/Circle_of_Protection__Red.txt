@@ -1,0 +1,10 @@
+name=Circle of Protection: Red
+image=https://magiccards.info/scans/en/9e/11.jpg
+value=3.544
+rarity=U
+type=Enchantment
+cost={1}{W}
+ability={1}: The next time a red source of your choice would deal damage to you this turn, prevent that damage.
+timing=enchantment
+oracle={1}: The next time a red source of your choice would deal damage to you this turn, prevent that damage.
+status=not supported: source-deal-damage

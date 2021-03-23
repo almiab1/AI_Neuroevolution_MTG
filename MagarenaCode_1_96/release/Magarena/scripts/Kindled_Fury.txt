@@ -1,0 +1,10 @@
+name=Kindled Fury
+image=https://magiccards.info/scans/en/hou/101.jpg
+image_updated=2017-09-29
+value=2.286
+rarity=C
+type=Instant
+cost={R}
+effect=Target creature gets +1/+0 and gains first strike until end of turn.
+timing=pump
+oracle=Target creature gets +1/+0 and gains first strike until end of turn.

@@ -1,0 +1,11 @@
+name=Sea Spirit
+image=https://magiccards.info/scans/en/5e/119.jpg
+value=2.457
+rarity=U
+type=Creature
+subtype=Elemental,Spirit
+cost={4}{U}
+pt=2/3
+ability={U}: SN gets +1/+0 until end of turn.
+timing=main
+oracle={U}: Sea Spirit gets +1/+0 until end of turn.

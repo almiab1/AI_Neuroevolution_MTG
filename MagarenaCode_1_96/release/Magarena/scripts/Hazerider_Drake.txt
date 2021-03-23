@@ -1,0 +1,11 @@
+name=Hazerider Drake
+image=https://magiccards.info/scans/en/mr/328.jpg
+value=2.759
+rarity=U
+type=Creature
+subtype=Drake
+cost={2}{W}{U}
+pt=2/3
+ability=Flying, protection from red
+timing=main
+oracle=Flying, protection from red

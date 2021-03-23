@@ -1,0 +1,11 @@
+name=Titanium Golem
+image=https://magiccards.info/scans/en/mi/263.jpg
+value=1.343
+rarity=C
+type=Artifact,Creature
+subtype=Golem
+cost={5}
+pt=3/3
+ability={1}{W}: SN gains first strike until end of turn.
+timing=main
+oracle={1}{W}: Titanium Golem gains first strike until end of turn.

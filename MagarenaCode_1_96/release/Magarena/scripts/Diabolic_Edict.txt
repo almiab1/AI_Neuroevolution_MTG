@@ -1,0 +1,12 @@
+name=Diabolic Edict
+image=https://magiccards.info/scans/en/a25/85.jpg
+image_updated=2018-04-27
+value=4.574
+removal=3
+rarity=C
+type=Instant
+cost={1}{B}
+ability=Cast SN with AI only if an opponent controls a creature.
+effect=Target player sacrifices a creature.
+timing=removal
+oracle=Target player sacrifices a creature.

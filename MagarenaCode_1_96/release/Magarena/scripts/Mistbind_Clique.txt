@@ -1,0 +1,16 @@
+name=Mistbind Clique
+image=https://magiccards.info/scans/en/lw/75.jpg
+value=4.039
+removal=2
+rarity=R
+type=Creature
+subtype=Faerie,Wizard
+cost={3}{U}
+pt=4/4
+ability=Flash;\
+        Flying;\
+        Champion a Faerie;\
+        Cast SN with AI only if you control a Faerie
+timing=flash
+oracle=Flash\nFlying\nChampion a Faerie\nWhen a Faerie is championed with Mistbind Clique, tap all lands target player controls.
+requires_groovy_code

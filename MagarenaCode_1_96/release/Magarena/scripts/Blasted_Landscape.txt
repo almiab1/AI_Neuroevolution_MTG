@@ -1,0 +1,10 @@
+name=Blasted Landscape
+image=https://magiccards.info/scans/en/us/319.jpg
+image_updated=2016-02-29
+value=3.602
+rarity=U
+type=Land
+ability={T}: Add {C}.;\
+        Cycling {2}
+timing=land
+oracle={T}: Add {C}.\nCycling {2}

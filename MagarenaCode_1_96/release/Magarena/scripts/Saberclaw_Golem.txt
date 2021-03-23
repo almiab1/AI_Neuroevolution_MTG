@@ -1,0 +1,11 @@
+name=Saberclaw Golem
+image=https://magiccards.info/scans/en/som/200.jpg
+value=2.341
+rarity=C
+type=Artifact,Creature
+subtype=Golem
+cost={5}
+pt=4/2
+ability={R}: SN gains first strike until end of turn.
+timing=main
+oracle={R}: Saberclaw Golem gains first strike until end of turn.

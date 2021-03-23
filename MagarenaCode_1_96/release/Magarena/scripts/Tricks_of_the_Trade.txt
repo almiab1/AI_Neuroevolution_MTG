@@ -1,0 +1,12 @@
+name=Tricks of the Trade
+image=https://magiccards.info/scans/en/m13/74.jpg
+value=3.100
+rarity=C
+type=Enchantment
+subtype=Aura
+cost={3}{U}
+ability=Enchant creature;\
+        Enchanted creature gets +2/+0 and can't be blocked.
+timing=aura
+enchant=pump,pos creature
+oracle=Enchant creature\nEnchanted creature gets +2/+0 and can't be blocked.

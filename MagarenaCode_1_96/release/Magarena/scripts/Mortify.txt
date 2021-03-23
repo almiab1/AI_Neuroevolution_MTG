@@ -1,0 +1,11 @@
+name=Mortify
+image=https://magiccards.info/scans/en/c16/212.jpg
+image_updated=2017-08-17
+value=4.417
+removal=5
+rarity=U
+type=Instant
+cost={1}{W}{B}
+effect=Destroy target creature or enchantment.
+timing=removal
+oracle=Destroy target creature or enchantment.

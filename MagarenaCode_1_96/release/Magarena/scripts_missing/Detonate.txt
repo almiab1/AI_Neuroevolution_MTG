@@ -1,0 +1,11 @@
+name=Detonate
+image=https://magiccards.info/scans/en/mi/88.jpg
+image_updated=2015-11-13
+value=3.688
+rarity=U
+type=Sorcery
+cost={X}{R}
+effect=Destroy target artifact with converted mana cost X. It can't be regenerated. SN deals X damage to that artifact's controller.
+timing=main
+oracle=Destroy target artifact with converted mana cost X. It can't be regenerated. Detonate deals X damage to that artifact's controller.
+status=not supported: x-cost-as-target

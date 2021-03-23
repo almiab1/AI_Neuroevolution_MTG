@@ -1,0 +1,13 @@
+name=Wall of Bone
+image=https://magiccards.info/scans/en/m10/119.jpg
+image_updated=2011-01-11
+value=3.724
+rarity=U
+type=Creature
+subtype=Skeleton,Wall
+cost={2}{B}
+pt=1/4
+ability=Defender;\
+        {B}: Regenerate SN.
+timing=smain
+oracle=Defender\n{B}: Regenerate Wall of Bone.

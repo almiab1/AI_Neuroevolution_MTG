@@ -1,0 +1,9 @@
+name=Darksteel Relic
+image=https://magiccards.info/scans/en/nph/134.jpg
+value=3.302
+rarity=U
+type=Artifact
+cost={0}
+ability=Indestructible
+timing=artifact
+oracle=Indestructible

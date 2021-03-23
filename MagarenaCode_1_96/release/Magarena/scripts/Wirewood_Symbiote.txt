@@ -1,0 +1,11 @@
+name=Wirewood Symbiote
+image=https://magiccards.info/scans/en/ema/192.jpg
+value=4.163
+rarity=U
+type=Creature
+subtype=Insect
+cost={G}
+pt=1/1
+ability=Return an Elf you control to its owner's hand: Untap target creature. Activate this ability only once each turn.
+timing=main
+oracle=Return an Elf you control to its owner's hand: Untap target creature. Activate this ability only once each turn.

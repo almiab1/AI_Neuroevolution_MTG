@@ -1,0 +1,10 @@
+name=Death Mutation
+image=https://magiccards.info/scans/en/cmd/192.jpg
+value=3.029
+rarity=U
+type=Sorcery
+cost={6}{B}{G}
+timing=removal
+removal=4
+requires_groovy_code
+oracle=Destroy target nonblack creature. It can't be regenerated. Create X 1/1 green Saproling creature tokens, where X is that creature's converted mana cost.

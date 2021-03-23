@@ -1,0 +1,13 @@
+name=Fire Sprites
+image=https://magiccards.info/scans/en/lg/100.jpg
+value=2.357
+rarity=C
+type=Creature
+subtype=Faerie
+cost={1}{G}
+pt=1/1
+ability=Flying;\
+        {G}, {T}: Add {R}.
+timing=main
+oracle=Flying\n{G}, {T}: Add {R}.
+status=not supported: mana-ability-with-choice

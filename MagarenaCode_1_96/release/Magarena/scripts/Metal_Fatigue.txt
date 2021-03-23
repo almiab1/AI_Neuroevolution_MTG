@@ -1,0 +1,9 @@
+name=Metal Fatigue
+image=https://magiccards.info/scans/en/ds/8.jpg
+value=2.667
+rarity=C
+type=Instant
+cost={2}{W}
+effect=Tap all artifacts.
+timing=tapping
+oracle=Tap all artifacts.

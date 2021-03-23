@@ -1,0 +1,11 @@
+name=Broodwarden
+image=https://magiccards.info/scans/en/roe/181.jpg
+value=3.945
+rarity=U
+type=Creature
+subtype=Eldrazi,Drone
+cost={3}{G}{G}
+pt=4/4
+ability=Eldrazi Spawn creatures you control get +2/+1.
+timing=main
+oracle=Eldrazi Spawn creatures you control get +2/+1.

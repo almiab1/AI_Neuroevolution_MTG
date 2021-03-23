@@ -1,0 +1,10 @@
+name=Angel's Tomb
+image=https://magiccards.info/scans/en/ori/222.jpg
+image_updated=2015-11-05
+value=2.500
+rarity=U
+type=Artifact
+cost={3}
+ability=Whenever a creature enters the battlefield under your control, you may have SN become a 3/3 white Angel artifact creature with flying until end of turn.
+timing=artifact
+oracle=Whenever a creature enters the battlefield under your control, you may have Angel's Tomb become a 3/3 white Angel artifact creature with flying until end of turn.

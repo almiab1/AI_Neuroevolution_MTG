@@ -1,0 +1,11 @@
+name=Niall Silvain
+image=https://magiccards.info/scans/en/dk/45.jpg
+value=1.206
+rarity=R
+type=Creature
+subtype=Ouphe
+cost={G}{G}{G}
+pt=2/2
+ability={G}{G}{G}{G}, {T}: Regenerate target creature.
+timing=main
+oracle={G}{G}{G}{G}, {T}: Regenerate target creature.

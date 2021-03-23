@@ -1,0 +1,12 @@
+name=Ghor-Clan Bloodscale
+image=https://magiccards.info/scans/en/gp/66.jpg
+value=1.638
+rarity=U
+type=Creature
+subtype=Viashino,Warrior
+cost={3}{R}
+pt=2/1
+ability=First strike;\
+        {3}{G}: SN gets +2/+2 until end of turn. Activate this ability only once each turn.
+timing=main
+oracle=First strike\n{3}{G}: Ghor-Clan Bloodscale gets +2/+2 until end of turn. Activate this ability only once each turn.

@@ -1,0 +1,12 @@
+name=Calciderm
+image=https://magiccards.info/scans/en/ema/5.jpg
+value=3.977
+rarity=U
+type=Creature
+subtype=Beast
+cost={2}{W}{W}
+pt=5/5
+ability=Shroud;\
+        Vanishing 4
+timing=main
+oracle=Shroud\nVanishing 4

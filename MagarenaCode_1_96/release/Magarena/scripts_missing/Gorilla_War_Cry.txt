@@ -1,0 +1,11 @@
+name=Gorilla War Cry
+image=https://magiccards.info/scans/en/ai/108.jpg
+value=3.450
+rarity=C
+type=Instant
+cost={1}{R}
+ability=Cast this spell only during combat before blockers are declared.
+effect=All creatures gain menace until end of turn.~Draw a card at the beginning of the next turn's upkeep.
+timing=removal
+oracle=Cast this spell only during combat before blockers are declared.\nAll creatures gain menace until end of turn.\nDraw a card at the beginning of the next turn's upkeep.
+status=not supported: blocking-restriction

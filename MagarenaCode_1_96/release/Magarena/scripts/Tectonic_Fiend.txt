@@ -1,0 +1,12 @@
+name=Tectonic Fiend
+image=https://magiccards.info/scans/en/ts/181.jpg
+value=0.955
+rarity=U
+type=Creature
+subtype=Elemental
+cost={4}{R}{R}
+pt=7/7
+ability=Echo {4}{R}{R};\
+        SN attacks each combat if able.
+timing=main
+oracle=Echo {4}{R}{R}\nTectonic Fiend attacks each combat if able.

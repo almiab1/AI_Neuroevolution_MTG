@@ -1,0 +1,11 @@
+name=Crash of Rhinos
+image=https://magiccards.info/scans/en/mr/108.jpg
+value=3.551
+rarity=C
+type=Creature
+subtype=Rhino
+cost={6}{G}{G}
+pt=8/4
+ability=Trample
+timing=main
+oracle=Trample

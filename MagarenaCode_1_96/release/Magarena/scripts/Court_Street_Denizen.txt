@@ -1,0 +1,12 @@
+name=Court Street Denizen
+image=https://magiccards.info/scans/en/gtc/8.jpg
+image_updated=2016-11-28
+value=2.930
+rarity=C
+type=Creature
+subtype=Human,Soldier
+cost={2}{W}
+pt=2/2
+ability=Whenever another white creature enters the battlefield under your control, tap target creature an opponent controls.
+timing=main
+oracle=Whenever another white creature enters the battlefield under your control, tap target creature an opponent controls.

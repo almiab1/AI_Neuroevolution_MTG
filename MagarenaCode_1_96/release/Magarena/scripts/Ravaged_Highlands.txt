@@ -1,0 +1,11 @@
+name=Ravaged Highlands
+image=https://magiccards.info/scans/en/od/324.jpg
+value=2.658
+rarity=C
+type=Land
+mana=w1u1b1r3g1
+ability=SN enters the battlefield tapped.;\
+        {T}: Add {R}.;\
+        {T}, Sacrifice SN: Add one mana of any color.
+timing=tapland
+oracle=Ravaged Highlands enters the battlefield tapped.\n{T}: Add {R}.\n{T}, Sacrifice Ravaged Highlands: Add one mana of any color.

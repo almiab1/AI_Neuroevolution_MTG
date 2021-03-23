@@ -1,0 +1,13 @@
+name=Raksha Golden Cub
+image=https://magiccards.info/scans/en/c17/69.jpg
+image_updated=2017-10-03
+value=4.043
+rarity=R
+type=Legendary,Creature
+subtype=Cat,Soldier
+cost={5}{W}{W}
+pt=3/4
+ability=Vigilance;\
+        As long as SN is equipped, Cat creatures you control get +2/+2 and have double strike.
+timing=fmain
+oracle=Vigilance\nAs long as Raksha Golden Cub is equipped, Cat creatures you control get +2/+2 and have double strike.

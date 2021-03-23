@@ -1,0 +1,11 @@
+name=Entrapment Maneuver
+image=https://magiccards.info/scans/en/c16/2.jpg
+image_updated=2016-12-02
+value=2.500
+rarity=R
+type=Instant
+cost={3}{W}
+ability=Cast SN with AI only if an opponent controls an attacking creature.
+timing=attack
+oracle=Target player sacrifices an attacking creature. You create X 1/1 white Soldier creature tokens, where X is that creature's toughness.
+requires_groovy_code

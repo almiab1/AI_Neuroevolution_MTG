@@ -1,0 +1,12 @@
+name=Elvish Bard
+image=https://magiccards.info/scans/en/9e/236.jpg
+value=3.276
+rarity=U
+type=Creature
+subtype=Elf,Shaman
+cost={3}{G}{G}
+pt=2/4
+ability=All creatures able to block SN do so.
+timing=main
+oracle=All creatures able to block Elvish Bard do so.
+status=not supported: blocking-restriction

@@ -1,0 +1,13 @@
+name=Selesnya Sagittars
+image=https://magiccards.info/scans/en/rav/229.jpg
+value=2.919
+rarity=U
+type=Creature
+subtype=Elf,Archer
+cost={3}{G}{W}
+pt=2/5
+ability=Reach;\
+        SN can block an additional creature each combat.
+timing=main
+oracle=Reach\nSelesnya Sagittars can block an additional creature each combat.
+status=not supported: block-multiple

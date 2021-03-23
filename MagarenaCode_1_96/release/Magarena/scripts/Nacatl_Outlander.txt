@@ -1,0 +1,11 @@
+name=Nacatl Outlander
+image=https://magiccards.info/scans/en/cfx/119.jpg
+value=2.821
+rarity=C
+type=Creature
+subtype=Cat,Scout
+cost={R}{G}
+pt=2/2
+ability=Protection from blue
+timing=main
+oracle=Protection from blue

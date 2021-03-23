@@ -1,0 +1,11 @@
+name=black Demon creature token with flying
+token=Demon
+image=https://img.scryfall.com/cards/border_crop/en/tdvd/6.jpg?1520566391
+image_updated=2015-11-12
+value=2
+type=Creature
+subtype=Demon
+color=b
+pt=*/*
+ability=Flying
+oracle=Flying

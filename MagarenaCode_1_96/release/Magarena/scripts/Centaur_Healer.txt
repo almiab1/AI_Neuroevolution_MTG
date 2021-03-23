@@ -1,0 +1,12 @@
+name=Centaur Healer
+image=https://magiccards.info/scans/en/mm3/156.jpg
+image_updated=2017-08-08
+value=3.827
+rarity=C
+type=Creature
+subtype=Centaur,Cleric
+cost={1}{G}{W}
+pt=3/3
+ability=When SN enters the battlefield, you gain 3 life.
+timing=main
+oracle=When Centaur Healer enters the battlefield, you gain 3 life.

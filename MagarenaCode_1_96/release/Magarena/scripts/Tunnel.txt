@@ -1,0 +1,9 @@
+name=Tunnel
+image=https://magiccards.info/scans/en/4e/245.jpg
+value=1.987
+rarity=U
+type=Instant
+cost={R}
+effect=Destroy target Wall. It can't be regenerated.
+timing=removal
+oracle=Destroy target Wall. It can't be regenerated.

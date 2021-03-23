@@ -1,0 +1,12 @@
+name=Assault
+image=https://magiccards.info/scans/en/in/295a.jpg
+image_updated=2016-12-13
+value=3.628
+rarity=U
+type=Sorcery
+cost={R}
+effect=SN deals 2 damage to target creature or player.
+split=Battery
+timing=main
+oracle=Assault deals 2 damage to target creature or player.
+status=not supported: split-card

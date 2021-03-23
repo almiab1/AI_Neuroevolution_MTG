@@ -1,0 +1,12 @@
+name=Adarkar Unicorn
+image=https://magiccards.info/scans/en/ia/225.jpg
+value=2.260
+rarity=C
+type=Creature
+subtype=Unicorn
+cost={1}{W}{W}
+pt=2/2
+ability={T}: Add {U} or {C}{U}. Spend this mana only to pay cumulative upkeep costs.
+timing=main
+oracle={T}: Add {U} or {C}{U}. Spend this mana only to pay cumulative upkeep costs.
+status=not supported: add-multiple-mana

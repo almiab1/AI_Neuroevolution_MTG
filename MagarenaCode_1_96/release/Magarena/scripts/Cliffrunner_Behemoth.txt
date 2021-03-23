@@ -1,0 +1,12 @@
+name=Cliffrunner Behemoth
+image=https://magiccards.info/scans/en/cfx/79.jpg
+value=3.414
+rarity=R
+type=Creature
+subtype=Rhino,Beast
+cost={3}{G}
+pt=5/3
+ability=SN has haste as long as you control a red permanent.;\
+        SN has lifelink as long as you control a white permanent.
+timing=main
+oracle=Cliffrunner Behemoth has haste as long as you control a red permanent.\nCliffrunner Behemoth has lifelink as long as you control a white permanent.

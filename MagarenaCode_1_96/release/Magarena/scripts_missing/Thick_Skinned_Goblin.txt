@@ -1,0 +1,13 @@
+name=Thick-Skinned Goblin
+image=https://magiccards.info/scans/en/ts/182.jpg
+value=4.131
+rarity=U
+type=Creature
+subtype=Goblin,Shaman
+cost={1}{R}
+pt=2/1
+ability=You may pay {0} rather than pay the echo cost for permanents you control.;\
+        {R}: SN gains protection from red until end of turn.
+timing=main
+oracle=You may pay {0} rather than pay the echo cost for permanents you control.\n{R}: Thick-Skinned Goblin gains protection from red until end of turn.
+status=not supported: complex-cost-modification

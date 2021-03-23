@@ -1,0 +1,12 @@
+name=Azure Mage
+image=https://magiccards.info/scans/en/mm3/31.jpg
+image_updated=2017-08-08
+value=3.768
+rarity=U
+type=Creature
+subtype=Human,Wizard
+cost={1}{U}
+pt=2/1
+ability={3}{U}: Draw a card.
+timing=main
+oracle={3}{U}: Draw a card.

@@ -1,0 +1,11 @@
+name=Narstad Scrapper
+image=https://magiccards.info/scans/en/avr/218.jpg
+value=1.250
+rarity=C
+type=Artifact,Creature
+subtype=Construct
+cost={5}
+pt=3/3
+ability={2}: SN gets +1/+0 until end of turn.
+timing=main
+oracle={2}: Narstad Scrapper gets +1/+0 until end of turn.

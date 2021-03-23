@@ -1,0 +1,9 @@
+name=Seal of Cleansing
+image=https://magiccards.info/scans/en/ema/26.jpg
+value=4.000
+rarity=C
+type=Enchantment
+cost={1}{W}
+ability=Sacrifice SN: Destroy target artifact or enchantment.
+timing=enchantment
+oracle=Sacrifice Seal of Cleansing: Destroy target artifact or enchantment.

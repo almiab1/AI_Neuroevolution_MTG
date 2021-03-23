@@ -1,0 +1,9 @@
+name=Font of Mythos
+image=https://magiccards.info/scans/en/cfx/136.jpg
+value=3.418
+rarity=R
+type=Artifact
+cost={4}
+ability=At the beginning of each player's draw step, that player draws two additional cards.
+timing=artifact
+oracle=At the beginning of each player's draw step, that player draws two additional cards.

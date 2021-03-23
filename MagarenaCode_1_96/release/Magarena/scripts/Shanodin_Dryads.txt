@@ -1,0 +1,11 @@
+name=Shanodin Dryads
+image=https://magiccards.info/scans/en/7e/269.jpg
+value=2.537
+rarity=C
+type=Creature
+subtype=Nymph,Dryad
+cost={G}
+pt=1/1
+ability=Forestwalk
+timing=main
+oracle=Forestwalk

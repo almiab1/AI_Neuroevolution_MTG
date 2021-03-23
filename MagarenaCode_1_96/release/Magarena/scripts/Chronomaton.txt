@@ -1,0 +1,11 @@
+name=Chronomaton
+image=https://magiccards.info/scans/en/m13/201.jpg
+value=3.562
+rarity=U
+type=Artifact,Creature
+subtype=Golem
+cost={1}
+pt=1/1
+ability={1}, {T}: Put a +1/+1 counter on SN.
+timing=main
+oracle={1}, {T}: Put a +1/+1 counter on Chronomaton.

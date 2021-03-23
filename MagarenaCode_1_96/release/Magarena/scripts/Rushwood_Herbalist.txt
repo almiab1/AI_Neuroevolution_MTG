@@ -1,0 +1,11 @@
+name=Rushwood Herbalist
+image=https://magiccards.info/scans/en/mm/265.jpg
+value=2.208
+rarity=C
+type=Creature
+subtype=Human,Spellshaper
+cost={2}{G}
+pt=2/2
+ability={G}, {T}, Discard a card: Regenerate target creature.
+timing=main
+oracle={G}, {T}, Discard a card: Regenerate target creature.

@@ -1,0 +1,13 @@
+name=Withengar Unbound
+image=https://magiccards.info/scans/en/dka/147b.jpg
+value=3.839
+rarity=M
+type=Legendary,Creature
+subtype=Demon
+color=b
+pt=13/13
+ability=Flying, intimidate, trample
+transform=Elbrus, the Binding Blade
+timing=main
+hidden
+oracle=Flying, intimidate, trample\nWhenever a player loses the game, put thirteen +1/+1 counters on Withengar Unbound.

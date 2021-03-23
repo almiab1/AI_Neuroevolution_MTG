@@ -1,0 +1,13 @@
+name=Spider Climb
+image=https://magiccards.info/scans/en/vi/70.jpg
+value=3.578
+rarity=C
+type=Enchantment
+subtype=Aura
+cost={G}
+ability=Enchant creature;\
+        Enchanted creature gets +0/+3 and has reach.
+timing=aura
+enchant=pump,pos creature
+oracle=You may cast Spider Climb as though it had flash. If you cast it any time a sorcery couldn't have been cast, the controller of the permanent it becomes sacrifices it at the beginning of the next cleanup step.\nEnchant creature\nEnchanted creature gets +0/+3 and has reach.
+requires_groovy_code=Lightning Reflexes

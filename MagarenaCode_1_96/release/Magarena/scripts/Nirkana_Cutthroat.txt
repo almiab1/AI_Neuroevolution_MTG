@@ -1,0 +1,12 @@
+name=Nirkana Cutthroat
+image=https://magiccards.info/scans/en/roe/119.jpg
+value=4.017
+rarity=U
+type=Creature
+subtype=Vampire,Warrior
+cost={2}{B}
+pt=3/2
+ability=level up {2}{B} 3
+timing=main
+requires_groovy_code
+oracle=Level up {2}{B}\nLEVEL 1-2\n4/3\nDeathtouch\nLEVEL 3+\n5/4\nFirst strike, deathtouch

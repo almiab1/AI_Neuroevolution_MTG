@@ -1,0 +1,10 @@
+name=Reward the Faithful
+image=https://magiccards.info/scans/en/sc/22.jpg
+value=3.382
+rarity=U
+type=Instant
+cost={W}
+effect=Any number of target players each gain life equal to the highest converted mana cost among permanents you control.
+timing=removal
+oracle=Any number of target players each gain life equal to the highest converted mana cost among permanents you control.
+status=not supported: multiple-targets

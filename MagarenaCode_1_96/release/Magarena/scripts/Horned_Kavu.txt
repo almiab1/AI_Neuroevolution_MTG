@@ -1,0 +1,11 @@
+name=Horned Kavu
+image=https://magiccards.info/scans/en/ps/110.jpg
+value=4.262
+rarity=C
+type=Creature
+subtype=Kavu
+cost={R}{G}
+pt=3/4
+ability=When SN enters the battlefield, return a red or green creature you control to its owner's hand.
+timing=main
+oracle=When Horned Kavu enters the battlefield, return a red or green creature you control to its owner's hand.

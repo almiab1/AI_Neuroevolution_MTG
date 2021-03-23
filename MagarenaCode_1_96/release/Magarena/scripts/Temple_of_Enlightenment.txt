@@ -1,0 +1,11 @@
+name=Temple of Enlightenment
+image=https://magiccards.info/scans/en/bng/163.jpg
+value=3.811
+rarity=R
+type=Land
+mana=w3u3
+ability=SN enters the battlefield tapped.;\
+        When SN enters the battlefield, scry 1.;\
+        {T}: Add {W} or {U}.
+timing=tapland
+oracle=Temple of Enlightenment enters the battlefield tapped.\nWhen Temple of Enlightenment enters the battlefield, scry 1.\n{T}: Add {W} or {U}.

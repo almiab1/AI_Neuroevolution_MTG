@@ -1,0 +1,14 @@
+name=Kruin Outlaw
+image=https://magiccards.info/scans/en/isd/152a.jpg
+value=3.890
+rarity=R
+type=Creature
+subtype=Human,Rogue,Werewolf
+cost={1}{R}{R}
+pt=2/2
+ability=First strike;\
+        At the beginning of each upkeep, if no spells were cast last turn, transform SN.
+transform=Terror of Kruin Pass
+timing=main
+oracle=First strike\nAt the beginning of each upkeep, if no spells were cast last turn, transform Kruin Outlaw.
+status=not supported: other-half

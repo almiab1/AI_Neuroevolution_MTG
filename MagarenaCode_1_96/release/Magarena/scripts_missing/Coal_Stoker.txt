@@ -1,0 +1,13 @@
+name=Coal Stoker
+image=https://magiccards.info/scans/en/ts/150.jpg
+image_updated=2016-11-28
+value=3.500
+rarity=C
+type=Creature
+subtype=Elemental
+cost={3}{R}
+pt=3/3
+ability=When SN enters the battlefield, if you cast it from your hand, add {R}{R}{R}.
+timing=main
+oracle=When Coal Stoker enters the battlefield, if you cast it from your hand, add {R}{R}{R}.
+status=not supported: add-multiple-mana

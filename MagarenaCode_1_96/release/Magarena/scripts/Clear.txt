@@ -1,0 +1,10 @@
+name=Clear
+image=https://magiccards.info/scans/en/us/7.jpg
+value=3.452
+rarity=U
+type=Instant
+cost={1}{W}
+ability=Cycling {2}
+effect=Destroy target enchantment.
+timing=removal
+oracle=Destroy target enchantment.\nCycling {2}

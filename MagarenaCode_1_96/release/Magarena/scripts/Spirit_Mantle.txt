@@ -1,0 +1,12 @@
+name=Spirit Mantle
+image=https://magiccards.info/scans/en/pc2/12.jpg
+value=3.949
+rarity=U
+type=Enchantment
+subtype=Aura
+cost={1}{W}
+ability=Enchant creature;\
+        Enchanted creature gets +1/+1 and has protection from creatures.
+timing=aura
+enchant=pump,pos creature
+oracle=Enchant creature\nEnchanted creature gets +1/+1 and has protection from creatures.

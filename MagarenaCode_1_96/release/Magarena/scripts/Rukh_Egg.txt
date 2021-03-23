@@ -1,0 +1,11 @@
+name=Rukh Egg
+image=https://magiccards.info/scans/en/9e/214.jpg
+value=3.583
+rarity=R
+type=Creature
+subtype=Bird
+cost={3}{R}
+pt=0/3
+timing=main
+requires_groovy_code
+oracle=When Rukh Egg dies, create a 4/4 red Bird creature token with flying at the beginning of the next end step.

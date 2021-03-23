@@ -1,0 +1,11 @@
+name=Disfigure
+image=https://magiccards.info/scans/en/a25/87.jpg
+image_updated=2018-04-27
+value=4.127
+removal=2
+rarity=C
+type=Instant
+cost={B}
+effect=Target creature gets -2/-2 until end of turn.
+timing=removal
+oracle=Target creature gets -2/-2 until end of turn.

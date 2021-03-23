@@ -1,0 +1,12 @@
+name=Scarecrow
+image=https://magiccards.info/scans/en/dk/105.jpg
+value=2.810
+rarity=U
+type=Artifact,Creature
+subtype=Scarecrow
+cost={5}
+pt=2/2
+ability={6}, {T}: Prevent all damage that would be dealt to you this turn by creatures with flying.
+timing=main
+oracle={6}, {T}: Prevent all damage that would be dealt to you this turn by creatures with flying.
+status=needs groovy

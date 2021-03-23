@@ -1,0 +1,12 @@
+name=Arrogant Wurm
+image=https://magiccards.info/scans/en/tr/120.jpg
+value=4.000
+rarity=U
+type=Creature
+subtype=Wurm
+cost={3}{G}{G}
+pt=4/4
+ability=Trample;\
+        Madness {2}{G}
+timing=main
+oracle=Trample\nMadness {2}{G}

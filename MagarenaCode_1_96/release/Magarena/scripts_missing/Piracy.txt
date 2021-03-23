@@ -1,0 +1,10 @@
+name=Piracy
+image=https://magiccards.info/scans/en/st/45.jpg
+value=3.840
+rarity=R
+type=Sorcery
+cost={U}{U}
+effect=Until end of turn, you may tap lands you don't control for mana. Spend this mana only to cast spells.
+timing=main
+oracle=Until end of turn, you may tap lands you don't control for mana. Spend this mana only to cast spells.
+status=not supported: mana-restriction

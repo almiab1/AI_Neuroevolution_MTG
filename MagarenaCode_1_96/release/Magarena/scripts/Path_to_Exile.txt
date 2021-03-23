@@ -1,0 +1,11 @@
+name=Path to Exile
+image=https://magiccards.info/scans/en/mm3/17.jpg
+image_updated=2017-08-08
+value=4.300
+removal=5
+rarity=U
+type=Instant
+cost={W}
+timing=removal
+requires_groovy_code
+oracle=Exile target creature. Its controller may search his or her library for a basic land card, put that card onto the battlefield tapped, then shuffle his or her library.

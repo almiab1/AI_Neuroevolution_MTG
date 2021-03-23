@@ -1,0 +1,13 @@
+name=Presence of Gond
+image=https://magiccards.info/scans/en/a25/184.jpg
+image_updated=2018-04-27
+value=3.773
+rarity=C
+type=Enchantment
+subtype=Aura
+cost={2}{G}
+ability=Enchant creature;\
+        Enchanted creature has "{T}: Create a 1/1 green Elf Warrior creature token."
+timing=aura
+enchant=pump,pos creature
+oracle=Enchant creature\nEnchanted creature has "{T}: Create a 1/1 green Elf Warrior creature token."

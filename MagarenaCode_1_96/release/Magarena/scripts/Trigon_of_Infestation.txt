@@ -1,0 +1,11 @@
+name=Trigon of Infestation
+image=https://magiccards.info/scans/en/som/214.jpg
+value=3.000
+rarity=U
+type=Artifact
+cost={4}
+ability=SN enters the battlefield with three charge counters on it.;\
+        {G}{G}, {T}: Put a charge counter on SN.;\
+        {2}, {T}, Remove a charge counter from SN: Create a 1/1 green Insect creature token with infect.
+timing=artifact
+oracle=Trigon of Infestation enters the battlefield with three charge counters on it.\n{G}{G}, {T}: Put a charge counter on Trigon of Infestation.\n{2}, {T}, Remove a charge counter from Trigon of Infestation: Create a 1/1 green Insect creature token with infect.

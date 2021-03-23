@@ -1,0 +1,10 @@
+name=Water Elemental
+image=https://magiccards.info/scans/en/st/60.jpg
+value=2.885
+rarity=U
+type=Creature
+subtype=Elemental
+cost={3}{U}{U}
+pt=5/4
+timing=main
+oracle=NONE

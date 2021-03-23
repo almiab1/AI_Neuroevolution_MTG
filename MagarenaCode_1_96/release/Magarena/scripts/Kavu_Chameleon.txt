@@ -1,0 +1,12 @@
+name=Kavu Chameleon
+image=https://magiccards.info/scans/en/in/191.jpg
+value=4.048
+rarity=U
+type=Creature
+subtype=Kavu
+cost={3}{G}{G}
+pt=4/4
+ability=This spell can't be countered.;\
+        {G}: SN becomes the color of your choice until end of turn.
+timing=fmain
+oracle=This spell can't be countered.\n{G}: Kavu Chameleon becomes the color of your choice until end of turn.

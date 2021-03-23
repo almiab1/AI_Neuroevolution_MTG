@@ -1,0 +1,11 @@
+name=Winding Wurm
+image=https://magiccards.info/scans/en/us/285.jpg
+value=2.784
+rarity=C
+type=Creature
+subtype=Wurm
+cost={4}{G}
+pt=6/6
+ability=Echo {4}{G}
+timing=main
+oracle=Echo {4}{G}

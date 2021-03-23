@@ -1,0 +1,12 @@
+name=Serra Avatar
+image=https://magiccards.info/scans/en/c14/87.jpg
+value=4.361
+rarity=M
+type=Creature
+subtype=Avatar
+cost={4}{W}{W}{W}
+pt=*/*
+ability=SN's power and toughness are each equal to your life total.;\
+        When SN is put into a graveyard from anywhere, shuffle it into its owner's library.
+timing=main
+oracle=Serra Avatar's power and toughness are each equal to your life total.\nWhen Serra Avatar is put into a graveyard from anywhere, shuffle it into its owner's library.

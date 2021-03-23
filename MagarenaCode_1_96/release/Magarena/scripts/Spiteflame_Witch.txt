@@ -1,0 +1,11 @@
+name=Spiteflame Witch
+image=https://magiccards.info/scans/en/shm/197.jpg
+value=3.108
+rarity=U
+type=Creature
+subtype=Elemental,Shaman
+cost={1}{B/R}
+pt=2/1
+ability={B}{R}: Each player loses 1 life.
+timing=main
+oracle={B}{R}: Each player loses 1 life.

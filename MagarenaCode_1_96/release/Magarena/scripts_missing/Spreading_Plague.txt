@@ -1,0 +1,10 @@
+name=Spreading Plague
+image=https://magiccards.info/scans/en/in/125.jpg
+value=4.105
+rarity=R
+type=Enchantment
+cost={4}{B}
+ability=Whenever a creature enters the battlefield, destroy all other creatures that share a color with it. They can't be regenerated.
+timing=enchantment
+oracle=Whenever a creature enters the battlefield, destroy all other creatures that share a color with it. They can't be regenerated.
+status=needs groovy

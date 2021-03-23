@@ -1,0 +1,10 @@
+name=Dragonstorm
+image=https://magiccards.info/scans/en/mma/111.jpg
+value=4.268
+rarity=R
+type=Sorcery
+cost={8}{R}
+ability=Storm
+effect=Search your library for a Dragon permanent card and put it onto the battlefield. Then shuffle your library.
+timing=storm
+oracle=Search your library for a Dragon permanent card and put it onto the battlefield. Then shuffle your library.\nStorm

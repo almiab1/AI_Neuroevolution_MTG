@@ -1,0 +1,9 @@
+name=Ray of Dissolution
+image=https://magiccards.info/scans/en/ths/27.jpg
+value=2.887
+rarity=C
+type=Instant
+cost={2}{W}
+effect=Destroy target enchantment.~You gain 3 life.
+timing=removal
+oracle=Destroy target enchantment. You gain 3 life.

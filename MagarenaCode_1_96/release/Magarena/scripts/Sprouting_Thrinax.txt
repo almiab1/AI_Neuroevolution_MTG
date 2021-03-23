@@ -1,0 +1,12 @@
+name=Sprouting Thrinax
+image=https://magiccards.info/scans/en/mm3/189.jpg
+image_updated=2017-08-08
+value=3.781
+rarity=U
+type=Creature
+subtype=Lizard
+cost={B}{R}{G}
+pt=3/3
+ability=When SN dies, create three 1/1 green Saproling creature tokens.
+timing=main
+oracle=When Sprouting Thrinax dies, create three 1/1 green Saproling creature tokens.

@@ -1,0 +1,11 @@
+name=Treespring Lorian
+image=https://magiccards.info/scans/en/on/293.jpg
+value=2.033
+rarity=C
+type=Creature
+subtype=Beast
+cost={5}{G}
+pt=5/4
+ability=Morph {5}{G}
+timing=main
+oracle=Morph {5}{G}

@@ -1,0 +1,10 @@
+name=Dimir Cluestone
+image=https://magiccards.info/scans/en/dgm/138.jpg
+value=2.650
+rarity=C
+type=Artifact
+cost={3}
+ability={T}: Add {U} or {B}.;\
+        {U}{B}, {T}, Sacrifice SN: Draw a card.
+timing=artifact
+oracle={T}: Add {U} or {B}.\n{U}{B}, {T}, Sacrifice Dimir Cluestone: Draw a card.

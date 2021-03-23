@@ -1,0 +1,12 @@
+name=Lethargy Trap
+image=https://magiccards.info/scans/en/zen/51.jpg
+value=2.643
+rarity=C
+type=Instant
+subtype=Trap
+cost={3}{U}
+ability=If three or more creatures are attacking, you may pay {U} rather than pay this spell's mana cost.
+effect=Attacking creatures get -3/-0 until end of turn.
+timing=removal
+oracle=If three or more creatures are attacking, you may pay {U} rather than pay this spell's mana cost.\nAttacking creatures get -3/-0 until end of turn.
+status=needs groovy

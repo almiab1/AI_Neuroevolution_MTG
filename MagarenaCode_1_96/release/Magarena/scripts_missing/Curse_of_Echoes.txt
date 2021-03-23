@@ -1,0 +1,13 @@
+name=Curse of Echoes
+image=https://magiccards.info/scans/en/dka/34.jpg
+value=3.558
+rarity=R
+type=Enchantment
+subtype=Aura,Curse
+cost={4}{U}
+ability=Enchant player;\
+        Whenever enchanted player casts an instant or sorcery spell, each other player may copy that spell and may choose new targets for the copy he or she controls.
+timing=aura
+enchant=default,player
+oracle=Enchant player\nWhenever enchanted player casts an instant or sorcery spell, each other player may copy that spell and may choose new targets for the copy he or she controls.
+status=not supported: enchant-player

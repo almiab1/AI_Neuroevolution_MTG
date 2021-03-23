@@ -1,0 +1,8 @@
+name=4/4 black Horror creature token
+token=Horror
+image=http://cdn.staticneo.com/w/mtg/e/e6/Horror2.jpg
+value=4
+type=Creature
+subtype=Horror
+color=b
+pt=4/4

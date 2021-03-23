@@ -1,0 +1,13 @@
+name=Sadistic Glee
+image=https://magiccards.info/scans/en/tp/47.jpg
+image_updated=2017-01-07
+value=4.041
+rarity=C
+type=Enchantment
+subtype=Aura
+cost={B}
+ability=Enchant creature;\
+        Whenever a creature dies, put a +1/+1 counter on enchanted creature.
+timing=aura
+enchant=pump,pos creature
+oracle=Enchant creature\nWhenever a creature dies, put a +1/+1 counter on enchanted creature.

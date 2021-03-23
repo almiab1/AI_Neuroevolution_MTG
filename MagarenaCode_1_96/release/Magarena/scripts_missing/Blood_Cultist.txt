@@ -1,0 +1,13 @@
+name=Blood Cultist
+image=https://magiccards.info/scans/en/ala/157.jpg
+value=2.984
+rarity=U
+type=Creature
+subtype=Human,Wizard
+cost={1}{B}{R}
+pt=1/1
+ability={T}: SN deals 1 damage to target creature.;\
+        Whenever a creature dealt damage by SN this turn dies, put a +1/+1 counter on SN.
+timing=main
+oracle={T}: Blood Cultist deals 1 damage to target creature.\nWhenever a creature dealt damage by Blood Cultist this turn dies, put a +1/+1 counter on Blood Cultist.
+status=not supported: damage-by-SN-dies

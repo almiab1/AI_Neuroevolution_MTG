@@ -1,0 +1,11 @@
+name=Steppe Lynx
+image=https://magiccards.info/scans/en/zen/36.jpg
+value=4.096
+rarity=C
+type=Creature
+subtype=Cat
+cost={W}
+pt=0/1
+ability=Whenever a land enters the battlefield under your control, SN gets +2/+2 until end of turn.
+timing=main
+oracle=Landfall — Whenever a land enters the battlefield under your control, Steppe Lynx gets +2/+2 until end of turn.

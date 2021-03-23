@@ -1,0 +1,11 @@
+name=Cao Cao, Lord of Wei
+image=https://magiccards.info/scans/en/p3k/68.jpg
+value=3.794
+rarity=R
+type=Legendary,Creature
+subtype=Human,Soldier
+cost={3}{B}{B}
+pt=3/3
+ability={T}: Target opponent discards two cards. Activate this ability only during your turn, before attackers are declared.
+timing=main
+oracle={T}: Target opponent discards two cards. Activate this ability only during your turn, before attackers are declared.

@@ -1,0 +1,13 @@
+name=Quicksilver Wall
+image=https://magiccards.info/scans/en/pr/41.jpg
+value=3.129
+rarity=U
+type=Creature
+subtype=Wall
+cost={2}{U}
+pt=1/6
+ability=Defender;\
+        {4}: Return SN to its owner's hand. Any player may activate this ability.
+timing=smain
+oracle=Defender\n{4}: Return Quicksilver Wall to its owner's hand. Any player may activate this ability.
+status=not supported: any-player-activate

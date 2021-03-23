@@ -1,0 +1,10 @@
+name=Feast on the Fallen
+image=https://magiccards.info/scans/en/m15/96.jpg
+value=2.429
+rarity=U
+type=Enchantment
+cost={2}{B}
+ability=At the beginning of each upkeep, if an opponent lost life last turn, put a +1/+1 counter on target creature you control.
+timing=enchantment
+oracle=At the beginning of each upkeep, if an opponent lost life last turn, put a +1/+1 counter on target creature you control.
+status=not supported: no-info

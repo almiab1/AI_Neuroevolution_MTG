@@ -1,0 +1,9 @@
+name=Morale
+image=https://magiccards.info/scans/en/4e/286.jpg
+value=1.821
+rarity=C
+type=Instant
+cost={1}{W}{W}
+effect=Attacking creatures get +1/+1 until end of turn.
+timing=attack
+oracle=Attacking creatures get +1/+1 until end of turn.

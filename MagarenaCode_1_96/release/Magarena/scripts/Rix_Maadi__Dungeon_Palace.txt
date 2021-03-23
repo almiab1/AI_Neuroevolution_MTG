@@ -1,0 +1,9 @@
+name=Rix Maadi, Dungeon Palace
+image=https://magiccards.info/scans/en/di/179.jpg
+value=3.139
+rarity=U
+type=Land
+ability={T}: Add {C}.;\
+        {1}{B}{R}, {T}: Each player discards a card. Activate this ability only any time you could cast a sorcery.
+timing=land
+oracle={T}: Add {C}.\n{1}{B}{R}, {T}: Each player discards a card. Activate this ability only any time you could cast a sorcery.

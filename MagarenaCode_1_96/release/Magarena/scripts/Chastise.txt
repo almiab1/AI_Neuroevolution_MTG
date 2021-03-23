@@ -1,0 +1,10 @@
+name=Chastise
+image=https://magiccards.info/scans/en/9e/9.jpg
+value=3.810
+removal=4
+rarity=U
+type=Instant
+cost={3}{W}
+timing=attack
+requires_groovy_code
+oracle=Destroy target attacking creature. You gain life equal to its power.

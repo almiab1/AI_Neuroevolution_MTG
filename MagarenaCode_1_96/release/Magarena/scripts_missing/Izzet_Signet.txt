@@ -1,0 +1,11 @@
+name=Izzet Signet
+image=https://magiccards.info/scans/en/mm3/223.jpg
+image_updated=2017-08-08
+value=4.071
+rarity=U
+type=Artifact
+cost={2}
+ability={1}, {T}: Add {U}{R}.
+timing=artifact
+oracle={1}, {T}: Add {U}{R}.
+status=not supported: add-multiple-mana

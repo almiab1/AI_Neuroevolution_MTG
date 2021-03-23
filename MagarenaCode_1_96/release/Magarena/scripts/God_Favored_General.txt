@@ -1,0 +1,11 @@
+name=God-Favored General
+image=https://magiccards.info/scans/en/bng/14.jpg
+value=3.520
+rarity=U
+type=Creature
+subtype=Human,Soldier
+cost={1}{W}
+pt=1/1
+ability=Whenever SN becomes untapped, you may pay {2}{W}. If you do, create two 1/1 white Soldier enchantment creature tokens.
+timing=main
+oracle=Inspired — Whenever God-Favored General becomes untapped, you may pay {2}{W}. If you do, create two 1/1 white Soldier enchantment creature tokens.

@@ -1,0 +1,12 @@
+name=Souls of the Faultless
+image=https://magiccards.info/scans/en/gp/131.jpg
+value=4.140
+rarity=U
+type=Creature
+subtype=Spirit
+cost={W}{B}{B}
+pt=0/4
+ability=Defender
+timing=smain
+oracle=Defender\nWhenever Souls of the Faultless is dealt combat damage, you gain that much life and attacking player loses that much life.
+requires_groovy_code

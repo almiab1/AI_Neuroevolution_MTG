@@ -1,0 +1,11 @@
+name=Drowned
+image=https://magiccards.info/scans/en/dk/23.jpg
+value=3.324
+rarity=C
+type=Creature
+subtype=Zombie
+cost={1}{U}
+pt=1/1
+ability={B}: Regenerate SN.
+timing=main
+oracle={B}: Regenerate Drowned.

@@ -1,0 +1,12 @@
+name=Lance
+image=https://magiccards.info/scans/en/rv/211.jpg
+value=2.256
+rarity=U
+type=Enchantment
+subtype=Aura
+cost={W}
+ability=Enchant creature;\
+        Enchanted creature has first strike.
+timing=aura
+enchant=first strike,pos creature
+oracle=Enchant creature\nEnchanted creature has first strike.

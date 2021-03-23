@@ -1,0 +1,13 @@
+name=Dragon Mage
+image=https://magiccards.info/scans/en/c16/124.jpg
+image_updated=2017-08-17
+value=4.305
+rarity=R
+type=Creature
+subtype=Dragon,Wizard
+cost={5}{R}{R}
+pt=5/5
+ability=Flying;\
+        Whenever SN deals combat damage to a player, each player discards his or her hand.~Each player draws seven cards.
+timing=main
+oracle=Flying\nWhenever Dragon Mage deals combat damage to a player, each player discards his or her hand, then draws seven cards.

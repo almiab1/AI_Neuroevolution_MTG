@@ -1,0 +1,9 @@
+name=Hidden Guerrillas
+image=https://magiccards.info/scans/en/us/261.jpg
+value=4.041
+rarity=U
+type=Enchantment
+cost={G}
+ability=When an opponent casts an artifact spell, if SN is an enchantment, SN becomes a 5/3 Soldier creature with trample.
+timing=enchantment
+oracle=When an opponent casts an artifact spell, if Hidden Guerrillas is an enchantment, Hidden Guerrillas becomes a 5/3 Soldier creature with trample.

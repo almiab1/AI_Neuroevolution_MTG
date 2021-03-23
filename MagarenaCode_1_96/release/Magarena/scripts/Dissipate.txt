@@ -1,0 +1,9 @@
+name=Dissipate
+image=https://magiccards.info/scans/en/m15/51.jpg
+value=4.000
+rarity=U
+type=Instant
+cost={1}{U}{U}
+effect=Counter target spell. If that spell is countered this way, exile it instead of putting it into its owner's graveyard.
+timing=counter
+oracle=Counter target spell. If that spell is countered this way, exile it instead of putting it into its owner's graveyard.

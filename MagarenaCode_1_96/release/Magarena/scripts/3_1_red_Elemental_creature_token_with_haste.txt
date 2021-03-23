@@ -1,0 +1,10 @@
+name=3/1 red Elemental creature token with haste
+token=Elemental
+image=http://cdn.staticneo.com/w/mtg/2/21/Elemental6.jpg
+value=3
+type=Creature
+subtype=Elemental
+color=R
+pt=3/1
+ability=haste
+oracle=Haste

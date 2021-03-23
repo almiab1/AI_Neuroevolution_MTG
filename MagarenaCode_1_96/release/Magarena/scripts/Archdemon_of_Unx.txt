@@ -1,0 +1,12 @@
+name=Archdemon of Unx
+image=https://magiccards.info/scans/en/ala/64.jpg
+value=2.966
+rarity=R
+type=Creature
+subtype=Demon
+cost={5}{B}{B}
+pt=6/6
+ability=Flying, trample;\
+        At the beginning of your upkeep, sacrifice a non-Zombie creature.~Create a 2/2 black Zombie creature token.
+timing=main
+oracle=Flying, trample\nAt the beginning of your upkeep, sacrifice a non-Zombie creature, then create a 2/2 black Zombie creature token.

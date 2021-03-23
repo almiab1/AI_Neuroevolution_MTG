@@ -1,0 +1,13 @@
+name=Keldon Vandals
+image=https://magiccards.info/scans/en/ud/91.jpg
+value=3.943
+removal=1
+rarity=C
+type=Creature
+subtype=Human,Rogue
+cost={2}{R}
+pt=4/1
+ability=Echo {2}{R};\
+        When SN enters the battlefield, destroy target artifact.
+timing=main
+oracle=Echo {2}{R}\nWhen Keldon Vandals enters the battlefield, destroy target artifact.

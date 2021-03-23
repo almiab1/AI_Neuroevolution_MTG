@@ -1,0 +1,13 @@
+name=Loss
+image=https://magiccards.info/scans/en/dgm/130b.jpg
+value=2.413
+rarity=U
+type=Instant
+cost={2}{B}
+ability=Fuse
+effect=Creatures your opponents control get -1/-1 until end of turn.
+split=Profit
+timing=removal
+second_half
+oracle=Creatures your opponents control get -1/-1 until end of turn.\nFuse
+status=not supported: split-card

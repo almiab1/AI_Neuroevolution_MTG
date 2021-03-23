@@ -1,0 +1,12 @@
+name=Charging Slateback
+image=https://magiccards.info/scans/en/on/194.jpg
+value=1.648
+rarity=C
+type=Creature
+subtype=Beast
+cost={4}{R}
+pt=4/3
+ability=SN can't block.;\
+        Morph {4}{R}
+timing=main
+oracle=Charging Slateback can't block.\nMorph {4}{R}

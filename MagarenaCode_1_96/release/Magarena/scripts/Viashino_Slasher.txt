@@ -1,0 +1,11 @@
+name=Viashino Slasher
+image=https://magiccards.info/scans/en/rav/149.jpg
+value=1.462
+rarity=C
+type=Creature
+subtype=Viashino,Warrior
+cost={1}{R}
+pt=1/2
+ability={R}: SN gets +1/-1 until end of turn.
+timing=main
+oracle={R}: Viashino Slasher gets +1/-1 until end of turn.

@@ -1,0 +1,12 @@
+name=Runed Servitor
+image=https://magiccards.info/scans/en/ima/226.jpg
+image_updated=2017-04-12
+value=2.500
+rarity=C
+type=Artifact,Creature
+subtype=Construct
+cost={2}
+pt=2/2
+ability=When SN dies, each player draws a card.
+timing=main
+oracle=When Runed Servitor dies, each player draws a card.

@@ -1,0 +1,12 @@
+name=Dauthi Jackal
+image=https://magiccards.info/scans/en/ex/58.jpg
+value=3.833
+rarity=C
+type=Creature
+subtype=Dauthi,Jackal
+cost={2}{B}
+pt=2/1
+ability=Shadow;\
+        {B}{B}, Sacrifice SN: Destroy target blocking creature.
+timing=main
+oracle=Shadow\n{B}{B}, Sacrifice Dauthi Jackal: Destroy target blocking creature.

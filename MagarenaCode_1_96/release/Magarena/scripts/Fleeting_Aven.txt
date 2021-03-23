@@ -1,0 +1,12 @@
+name=Fleeting Aven
+image=https://magiccards.info/scans/en/on/83.jpg
+value=2.341
+rarity=U
+type=Creature
+subtype=Bird,Wizard
+cost={1}{U}{U}
+pt=2/2
+ability=Flying;\
+        Whenever a player cycles a card, return SN to its owner's hand.
+timing=main
+oracle=Flying\nWhenever a player cycles a card, return Fleeting Aven to its owner's hand.

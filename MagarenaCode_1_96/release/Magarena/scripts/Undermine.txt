@@ -1,0 +1,9 @@
+name=Undermine
+image=https://magiccards.info/scans/en/in/282.jpg
+value=4.296
+rarity=R
+type=Instant
+cost={U}{U}{B}
+effect=Counter target spell.~Its controller loses 3 life.
+timing=counter
+oracle=Counter target spell. Its controller loses 3 life.

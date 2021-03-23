@@ -1,0 +1,11 @@
+name=Infernal Plunge
+image=https://magiccards.info/scans/en/isd/148.jpg
+value=3.424
+rarity=C
+type=Sorcery
+cost={R}
+ability=As an additional cost to cast SN, sacrifice a creature.
+effect=Add {R}{R}{R}.
+timing=main
+oracle=As an additional cost to cast Infernal Plunge, sacrifice a creature.\nAdd {R}{R}{R}.
+status=not supported: add-multiple-mana

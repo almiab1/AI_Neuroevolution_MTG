@@ -1,0 +1,11 @@
+name=Terminate
+image=https://magiccards.info/scans/en/mm3/194.jpg
+image_updated=2017-08-08
+value=4.272
+removal=5
+rarity=U
+type=Instant
+cost={B}{R}
+effect=Destroy target creature. It can't be regenerated.
+timing=removal
+oracle=Destroy target creature. It can't be regenerated.

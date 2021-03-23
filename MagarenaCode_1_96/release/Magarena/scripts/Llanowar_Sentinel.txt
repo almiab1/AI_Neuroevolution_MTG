@@ -1,0 +1,11 @@
+name=Llanowar Sentinel
+image=https://magiccards.info/scans/en/10e/275.jpg
+value=3.905
+rarity=C
+type=Creature
+subtype=Elf
+cost={2}{G}
+pt=2/3
+ability=When SN enters the battlefield, you may pay {1}{G}. If you do, search your library for a card named Llanowar Sentinel and put that card onto the battlefield. Then shuffle your library.
+timing=main
+oracle=When Llanowar Sentinel enters the battlefield, you may pay {1}{G}. If you do, search your library for a card named Llanowar Sentinel and put that card onto the battlefield. Then shuffle your library.

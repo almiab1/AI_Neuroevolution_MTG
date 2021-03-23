@@ -1,0 +1,12 @@
+name=Duskwalker
+image=https://magiccards.info/scans/en/in/104.jpg
+value=2.714
+rarity=C
+type=Creature
+subtype=Human,Minion
+cost={B}
+pt=1/1
+ability=Kicker {3}{B}
+timing=main
+oracle=Kicker {3}{B}\nIf Duskwalker was kicked, it enters the battlefield with two +1/+1 counters on it and with fear.
+requires_groovy_code

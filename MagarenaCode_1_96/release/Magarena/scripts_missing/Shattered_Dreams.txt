@@ -1,0 +1,10 @@
+name=Shattered Dreams
+image=https://magiccards.info/scans/en/5dn/59.jpg
+value=2.452
+rarity=U
+type=Sorcery
+cost={B}
+effect=Target opponent reveals his or her hand. You choose an artifact card from it. That player discards that card.
+timing=main
+oracle=Target opponent reveals his or her hand. You choose an artifact card from it. That player discards that card.
+status=not supported: reveal-hand

@@ -1,0 +1,11 @@
+name=Deranged Outcast
+image=https://magiccards.info/scans/en/dka/112.jpg
+value=3.318
+rarity=R
+type=Creature
+subtype=Human,Rogue
+cost={1}{G}
+pt=2/1
+ability={1}{G}, Sacrifice a Human: Put two +1/+1 counters on target creature.
+timing=main
+oracle={1}{G}, Sacrifice a Human: Put two +1/+1 counters on target creature.

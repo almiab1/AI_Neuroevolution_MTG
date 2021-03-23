@@ -1,0 +1,11 @@
+name=Pine Barrens
+image=https://magiccards.info/scans/en/tp/323.jpg
+value=2.456
+rarity=R
+type=Land
+mana=b2g2
+ability=SN enters the battlefield tapped.;\
+        {T}: Add {C}.;\
+        {T}: Add {B} or {G}. SN deals 1 damage to you.
+timing=tapland
+oracle=Pine Barrens enters the battlefield tapped.\n{T}: Add {C}.\n{T}: Add {B} or {G}. Pine Barrens deals 1 damage to you.

@@ -1,0 +1,12 @@
+name=Doomed Traveler
+image=https://magiccards.info/scans/en/ima/16.jpg
+image_updated=2017-04-12
+value=4.167
+rarity=C
+type=Creature
+subtype=Human,Soldier
+cost={W}
+pt=1/1
+ability=When SN dies, create a 1/1 white Spirit creature token with flying.
+timing=main
+oracle=When Doomed Traveler dies, create a 1/1 white Spirit creature token with flying.

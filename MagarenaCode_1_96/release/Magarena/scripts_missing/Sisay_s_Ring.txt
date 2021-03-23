@@ -1,0 +1,10 @@
+name=Sisay's Ring
+image=https://magiccards.info/scans/en/7e/315.jpg
+value=2.793
+rarity=U
+type=Artifact
+cost={4}
+ability={T}: Add {C}{C}.
+timing=artifact
+oracle={T}: Add {C}{C}.
+status=not supported: add-multiple-mana

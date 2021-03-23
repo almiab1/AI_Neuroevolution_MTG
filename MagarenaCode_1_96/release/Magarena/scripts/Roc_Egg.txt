@@ -1,0 +1,12 @@
+name=Roc Egg
+image=https://magiccards.info/scans/en/m12/32.jpg
+value=3.163
+rarity=U
+type=Creature
+subtype=Bird
+cost={2}{W}
+pt=0/3
+ability=Defender;\
+        When SN dies, create a 3/3 white Bird creature token with flying.
+timing=smain
+oracle=Defender\nWhen Roc Egg dies, create a 3/3 white Bird creature token with flying.

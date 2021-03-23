@@ -1,0 +1,9 @@
+name=Master's Call
+image=https://magiccards.info/scans/en/mbs/13.jpg
+value=3.511
+rarity=C
+type=Instant
+cost={2}{W}
+effect=Create two 1/1 colorless Myr artifact creature tokens.
+timing=token
+oracle=Create two 1/1 colorless Myr artifact creature tokens.

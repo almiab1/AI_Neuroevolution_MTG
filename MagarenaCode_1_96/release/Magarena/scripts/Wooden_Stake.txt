@@ -1,0 +1,12 @@
+name=Wooden Stake
+image=https://magiccards.info/scans/en/isd/237.jpg
+value=2.793
+rarity=C
+type=Artifact
+subtype=Equipment
+cost={2}
+ability=Equipped creature gets +1/+0.;\
+        Equip {1}
+timing=equipment
+requires_groovy_code
+oracle=Equipped creature gets +1/+0.\nWhenever equipped creature blocks or becomes blocked by a Vampire, destroy that creature. It can't be regenerated.\nEquip {1}

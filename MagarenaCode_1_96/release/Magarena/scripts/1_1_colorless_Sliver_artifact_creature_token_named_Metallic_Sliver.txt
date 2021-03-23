@@ -1,0 +1,8 @@
+name=1/1 colorless Sliver artifact creature token named Metallic Sliver
+token=Metallic Sliver
+image=http://cdn.staticneo.com/w/mtg/b/bf/Metallic_Sliver.jpg
+value=1
+type=Artifact,Creature
+subtype=Sliver
+color=
+pt=1/1

@@ -1,0 +1,13 @@
+name=Exava, Rakdos Blood Witch
+image=https://magiccards.info/scans/en/dgm/69.jpg
+value=3.843
+rarity=R
+type=Legendary,Creature
+subtype=Human,Cleric
+cost={2}{B}{R}
+pt=3/3
+ability=First strike, haste;\
+        Unleash;\
+        Each other creature you control with a +1/+1 counter on it has haste.
+timing=main
+oracle=First strike, haste\nUnleash\nEach other creature you control with a +1/+1 counter on it has haste.

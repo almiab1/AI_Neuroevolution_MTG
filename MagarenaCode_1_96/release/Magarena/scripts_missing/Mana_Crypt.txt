@@ -1,0 +1,11 @@
+name=Mana Crypt
+image=https://magiccards.info/scans/en/ema/225.jpg
+value=4.125
+rarity=M
+type=Artifact
+cost={0}
+ability=At the beginning of your upkeep, flip a coin. If you lose the flip, SN deals 3 damage to you.;\
+        {T}: Add {C}{C}.
+timing=artifact
+oracle=At the beginning of your upkeep, flip a coin. If you lose the flip, Mana Crypt deals 3 damage to you.\n{T}: Add {C}{C}.
+status=not supported: add-multiple-mana

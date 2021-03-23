@@ -1,0 +1,9 @@
+name=Tranquil Domain
+image=https://magiccards.info/scans/en/mr/143.jpg
+value=3.267
+rarity=C
+type=Instant
+cost={1}{G}
+effect=Destroy all non-Aura enchantments.
+timing=removal
+oracle=Destroy all non-Aura enchantments.

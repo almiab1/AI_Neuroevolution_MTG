@@ -1,0 +1,10 @@
+name=Invincible Hymn
+image=https://magiccards.info/scans/en/ala/14.jpg
+value=2.988
+rarity=R
+type=Sorcery
+cost={6}{W}{W}
+effect=Count the number of cards in your library. Your life total becomes that number.
+timing=main
+oracle=Count the number of cards in your library. Your life total becomes that number.
+status=needs groovy

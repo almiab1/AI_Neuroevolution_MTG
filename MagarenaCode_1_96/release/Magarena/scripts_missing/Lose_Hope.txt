@@ -1,0 +1,10 @@
+name=Lose Hope
+image=https://magiccards.info/scans/en/5dn/52.jpg
+value=3.500
+rarity=C
+type=Instant
+cost={B}
+effect=Target creature gets -1/-1 until end of turn. Scry 2.
+timing=removal
+oracle=Target creature gets -1/-1 until end of turn. Scry 2.
+status=not supported: ordering-lib-top

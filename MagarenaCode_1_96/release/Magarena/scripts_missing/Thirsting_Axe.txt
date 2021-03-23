@@ -1,0 +1,14 @@
+name=Thirsting Axe
+image=https://magiccards.info/scans/en/emn/202.jpg
+image_updated=2016-09-05
+value=2.500
+rarity=U
+type=Artifact
+subtype=Equipment
+cost={3}
+ability=Equipped creature gets +4/+0.;\
+        At the beginning of your end step, if equipped creature didn't deal combat damage to a creature this turn, sacrifice it.;\
+        Equip {2}
+timing=equipment
+oracle=Equipped creature gets +4/+0.\nAt the beginning of your end step, if equipped creature didn't deal combat damage to a creature this turn, sacrifice it.\nEquip {2}
+status=not supported: no-info

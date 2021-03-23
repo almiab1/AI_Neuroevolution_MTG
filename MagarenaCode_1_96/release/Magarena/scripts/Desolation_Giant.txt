@@ -1,0 +1,13 @@
+name=Desolation Giant
+image=https://magiccards.info/scans/en/ap/59.jpg
+image_updated=2016-02-29
+value=3.703
+rarity=R
+type=Creature
+subtype=Giant
+cost={2}{R}{R}
+pt=3/3
+ability=Kicker {W}{W}
+timing=main
+requires_groovy_code
+oracle=Kicker {W}{W}\nWhen Desolation Giant enters the battlefield, destroy all other creatures you control. If it was kicked, destroy all other creatures instead.

@@ -1,0 +1,9 @@
+name=Painful Quandary
+image=https://magiccards.info/scans/en/som/73.jpg
+value=4.042
+rarity=R
+type=Enchantment
+cost={3}{B}{B}
+timing=enchantment
+requires_groovy_code
+oracle=Whenever an opponent casts a spell, that player loses 5 life unless he or she discards a card.

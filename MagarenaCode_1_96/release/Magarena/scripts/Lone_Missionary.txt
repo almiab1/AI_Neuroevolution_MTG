@@ -1,0 +1,12 @@
+name=Lone Missionary
+image=https://magiccards.info/scans/en/mm3/14.jpg
+image_updated=2017-08-08
+value=4.000
+rarity=C
+type=Creature
+subtype=Kor,Monk
+cost={1}{W}
+pt=2/1
+ability=When SN enters the battlefield, you gain 4 life.
+timing=main
+oracle=When Lone Missionary enters the battlefield, you gain 4 life.

@@ -1,0 +1,10 @@
+name=Spidery Grasp
+image=https://magiccards.info/scans/en/akh/188.jpg
+image_updated=2017-09-29
+value=2.730
+rarity=C
+type=Instant
+cost={2}{G}
+effect=Untap target creature.~*It* gets +2/+4 and gains reach until end of turn.
+timing=tapping
+oracle=Untap target creature. It gets +2/+4 and gains reach until end of turn.

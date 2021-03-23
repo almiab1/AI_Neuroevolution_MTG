@@ -1,0 +1,12 @@
+name=Plaguebearer
+image=https://magiccards.info/scans/en/ex/71.jpg
+value=4.444
+rarity=R
+type=Creature
+subtype=Zombie
+cost={1}{B}
+pt=1/1
+ability={X}{X}{B}: Destroy target nonblack creature with converted mana cost X.
+timing=main
+oracle={X}{X}{B}: Destroy target nonblack creature with converted mana cost X.
+status=not supported: x-cost-as-target

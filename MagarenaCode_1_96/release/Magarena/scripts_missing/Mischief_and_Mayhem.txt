@@ -1,0 +1,10 @@
+name=Mischief and Mayhem
+image=https://magiccards.info/scans/en/bng/126.jpg
+value=2.960
+rarity=U
+type=Sorcery
+cost={4}{G}
+effect=Up to two target creatures each get +4/+4 until end of turn.
+timing=main
+oracle=Up to two target creatures each get +4/+4 until end of turn.
+status=not supported: multiple-targets

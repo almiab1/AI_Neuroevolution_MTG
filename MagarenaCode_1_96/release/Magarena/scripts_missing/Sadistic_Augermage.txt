@@ -1,0 +1,12 @@
+name=Sadistic Augermage
+image=https://magiccards.info/scans/en/rav/103.jpg
+value=2.714
+rarity=C
+type=Creature
+subtype=Human,Wizard
+cost={2}{B}
+pt=3/1
+ability=When SN dies, each player puts a card from his or her hand on top of his or her library.
+timing=main
+oracle=When Sadistic Augermage dies, each player puts a card from his or her hand on top of his or her library.
+status=needs groovy

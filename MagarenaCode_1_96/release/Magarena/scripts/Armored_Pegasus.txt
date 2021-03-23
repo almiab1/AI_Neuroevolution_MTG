@@ -1,0 +1,11 @@
+name=Armored Pegasus
+image=https://magiccards.info/scans/en/6e/5.jpg
+value=2.579
+rarity=C
+type=Creature
+subtype=Pegasus
+cost={1}{W}
+pt=1/2
+ability=Flying
+timing=main
+oracle=Flying

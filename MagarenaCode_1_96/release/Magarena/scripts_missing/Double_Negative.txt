@@ -1,0 +1,10 @@
+name=Double Negative
+image=https://magiccards.info/scans/en/arb/87.jpg
+value=3.346
+rarity=U
+type=Instant
+cost={U}{U}{R}
+effect=Counter up to two target spells.
+timing=counter
+oracle=Counter up to two target spells.
+status=not supported: multiple-targets

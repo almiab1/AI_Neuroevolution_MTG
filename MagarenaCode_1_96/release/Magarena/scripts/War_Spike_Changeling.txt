@@ -1,0 +1,12 @@
+name=War-Spike Changeling
+image=https://magiccards.info/scans/en/mma/139.jpg
+value=2.767
+rarity=C
+type=Creature
+subtype=Shapeshifter
+cost={3}{R}
+pt=3/3
+ability=Changeling;\
+        {R}: SN gains first strike until end of turn.
+timing=main
+oracle=Changeling\n{R}: War-Spike Changeling gains first strike until end of turn.

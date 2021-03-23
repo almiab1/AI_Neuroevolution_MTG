@@ -1,0 +1,13 @@
+name=Skylasher
+image=https://magiccards.info/scans/en/dgm/49.jpg
+value=3.829
+rarity=R
+type=Creature
+subtype=Insect
+cost={1}{G}
+pt=2/2
+ability=Flash;\
+        This spell can't be countered.;\
+        Reach, protection from blue
+timing=flash
+oracle=Flash\nThis spell can't be countered.\nReach, protection from blue

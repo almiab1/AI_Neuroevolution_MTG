@@ -1,0 +1,13 @@
+name=Veilborn Ghoul
+image=https://magiccards.info/scans/en/m13/114.jpg
+value=2.512
+rarity=U
+type=Creature
+subtype=Zombie
+cost={4}{B}
+pt=4/1
+ability=SN can't block.;\
+        Whenever a Swamp enters the battlefield under your control, you may return SN from your graveyard to your hand.
+timing=main
+oracle=Veilborn Ghoul can't block.\nWhenever a Swamp enters the battlefield under your control, you may return Veilborn Ghoul from your graveyard to your hand.
+status=not supported: trigger-from-graveyard

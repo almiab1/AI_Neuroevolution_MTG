@@ -1,0 +1,10 @@
+name=Reprisal
+image=https://magiccards.info/scans/en/jou/23.jpg
+value=3.905
+removal=3
+rarity=U
+type=Instant
+cost={1}{W}
+effect=Destroy target creature with power 4 or greater. It can't be regenerated.
+timing=removal
+oracle=Destroy target creature with power 4 or greater. It can't be regenerated.

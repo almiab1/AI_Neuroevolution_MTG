@@ -1,0 +1,12 @@
+name=Rag Man
+image=https://magiccards.info/scans/en/7e/156.jpg
+value=2.766
+rarity=R
+type=Creature
+subtype=Human,Minion
+cost={2}{B}{B}
+pt=2/1
+ability={B}{B}{B}, {T}: Target opponent reveals his or her hand and discards a creature card at random. Activate this ability only during your turn.
+timing=main
+oracle={B}{B}{B}, {T}: Target opponent reveals his or her hand and discards a creature card at random. Activate this ability only during your turn.
+status=not supported: reveal-hand

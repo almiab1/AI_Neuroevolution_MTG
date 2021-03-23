@@ -1,0 +1,10 @@
+name=Canopy Claws
+image=https://magiccards.info/scans/en/ju/108.jpg
+value=2.367
+rarity=C
+type=Instant
+cost={G}
+ability=Flashback {G}
+effect=Target creature loses flying until end of turn.
+timing=removal
+oracle=Target creature loses flying until end of turn.\nFlashback {G}

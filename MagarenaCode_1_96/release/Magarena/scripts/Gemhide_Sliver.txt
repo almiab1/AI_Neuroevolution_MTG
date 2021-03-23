@@ -1,0 +1,12 @@
+name=Gemhide Sliver
+image=https://magiccards.info/scans/en/ts/196.jpg
+value=4.398
+rarity=C
+type=Creature
+subtype=Sliver
+cost={1}{G}
+pt=1/1
+ability=All Slivers have "{T}: Add one mana of any color."
+static=all
+timing=main
+oracle=All Slivers have "{T}: Add one mana of any color."

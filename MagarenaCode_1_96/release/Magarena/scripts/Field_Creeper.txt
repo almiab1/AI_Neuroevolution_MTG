@@ -1,0 +1,11 @@
+name=Field Creeper
+image=https://magiccards.info/scans/en/m19/234.jpg
+image_updated=2018-08-07
+value=2.500
+rarity=C
+type=Artifact,Creature
+subtype=Scarecrow
+cost={2}
+pt=2/1
+timing=main
+oracle=NONE

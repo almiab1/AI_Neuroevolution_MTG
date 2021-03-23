@@ -1,0 +1,9 @@
+name=Storm Herd
+image=https://magiccards.info/scans/en/cmd/34.jpg
+value=3.522
+rarity=R
+type=Sorcery
+cost={8}{W}{W}
+effect=Create X 1/1 white Pegasus creature tokens with flying, where X is your life total.
+timing=main
+oracle=Create X 1/1 white Pegasus creature tokens with flying, where X is your life total.

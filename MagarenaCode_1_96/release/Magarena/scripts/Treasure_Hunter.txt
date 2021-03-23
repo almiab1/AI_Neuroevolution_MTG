@@ -1,0 +1,11 @@
+name=Treasure Hunter
+image=https://magiccards.info/scans/en/10e/52.jpg
+value=3.603
+rarity=U
+type=Creature
+subtype=Human
+cost={2}{W}
+pt=2/2
+ability=When SN enters the battlefield, you may return target artifact card from your graveyard to your hand.
+timing=main
+oracle=When Treasure Hunter enters the battlefield, you may return target artifact card from your graveyard to your hand.

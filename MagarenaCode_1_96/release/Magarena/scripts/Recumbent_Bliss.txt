@@ -1,0 +1,13 @@
+name=Recumbent Bliss
+image=https://magiccards.info/scans/en/eve/13.jpg
+value=3.232
+rarity=C
+type=Enchantment
+subtype=Aura
+cost={2}{W}
+ability=Enchant creature;\
+        Enchanted creature can't attack or block.;\
+        At the beginning of your upkeep, you may gain 1 life.
+timing=aura
+enchant=can't attack or block,neg creature
+oracle=Enchant creature\nEnchanted creature can't attack or block.\nAt the beginning of your upkeep, you may gain 1 life.

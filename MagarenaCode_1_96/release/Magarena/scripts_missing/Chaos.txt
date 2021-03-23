@@ -1,0 +1,13 @@
+name=Chaos
+image=https://magiccards.info/scans/en/c16/240b.jpg
+image_updated=2017-08-17
+value=4.151
+rarity=U
+type=Instant
+cost={2}{R}
+effect=Creatures can't block this turn.
+split=Order
+timing=attack
+second_half
+oracle=Creatures can't block this turn.
+status=not supported: split-card

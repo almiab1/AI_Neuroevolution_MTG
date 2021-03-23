@@ -1,0 +1,9 @@
+name=Fugue
+image=https://magiccards.info/scans/en/7e/137.jpg
+value=2.649
+rarity=U
+type=Sorcery
+cost={3}{B}{B}
+effect=Target player discards three cards.
+timing=main
+oracle=Target player discards three cards.

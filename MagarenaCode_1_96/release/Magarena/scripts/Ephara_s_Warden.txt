@@ -1,0 +1,11 @@
+name=Ephara's Warden
+image=https://magiccards.info/scans/en/ths/10.jpg
+value=2.016
+rarity=C
+type=Creature
+subtype=Human,Cleric
+cost={3}{W}
+pt=1/2
+ability={T}: Tap target creature with power 3 or less.
+timing=main
+oracle={T}: Tap target creature with power 3 or less.

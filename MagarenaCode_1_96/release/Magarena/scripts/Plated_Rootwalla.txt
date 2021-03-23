@@ -1,0 +1,12 @@
+name=Plated Rootwalla
+image=https://magiccards.info/scans/en/ex/116.jpg
+image_updated=2017-01-03
+value=2.203
+rarity=C
+type=Creature
+subtype=Lizard
+cost={4}{G}
+pt=3/3
+ability={2}{G}: SN gets +3/+3 until end of turn. Activate this ability only once each turn.
+timing=main
+oracle={2}{G}: Plated Rootwalla gets +3/+3 until end of turn. Activate this ability only once each turn.

@@ -1,0 +1,11 @@
+name=Castle Sengir
+image=https://magiccards.info/scans/en/hl/138.jpg
+value=1.735
+rarity=U
+type=Land
+ability={T}: Add {C}.;\
+        {1}, {T}: Add {B}.;\
+        {2}, {T}: Add {U} or {R}.
+timing=land
+oracle={T}: Add {C}.\n{1}, {T}: Add {B}.\n{2}, {T}: Add {U} or {R}.
+status=not supported: mana-ability-with-choice

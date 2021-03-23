@@ -1,0 +1,11 @@
+name=Desert of the Fervent
+image=https://magiccards.info/scans/en/hou/170.jpg
+value=2.500
+rarity=C
+type=Land
+subtype=Desert
+ability=SN enters the battlefield tapped.;\
+        {T}: Add {R}.;\
+        Cycling {1}{R}
+timing=land
+oracle=Desert of the Fervent enters the battlefield tapped.\n{T}: Add {R}.\nCycling {1}{R}

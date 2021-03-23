@@ -1,0 +1,12 @@
+name=Woodripper
+image=https://magiccards.info/scans/en/ne/125.jpg
+value=3.731
+rarity=U
+type=Creature
+subtype=Beast
+cost={3}{G}{G}
+pt=4/6
+ability=Fading 3;\
+        {1}, Remove a fade counter from SN: Destroy target artifact.
+timing=main
+oracle=Fading 3\n{1}, Remove a fade counter from Woodripper: Destroy target artifact.

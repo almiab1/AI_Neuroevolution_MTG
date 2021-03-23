@@ -1,0 +1,11 @@
+name=Foundry Street Denizen
+image=https://magiccards.info/scans/en/m15/141.jpg
+value=3.250
+rarity=C
+type=Creature
+subtype=Goblin,Warrior
+cost={R}
+pt=1/1
+ability=Whenever another red creature enters the battlefield under your control, SN gets +1/+0 until end of turn.
+timing=main
+oracle=Whenever another red creature enters the battlefield under your control, Foundry Street Denizen gets +1/+0 until end of turn.

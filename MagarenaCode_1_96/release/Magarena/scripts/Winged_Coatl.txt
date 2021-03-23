@@ -1,0 +1,14 @@
+name=Winged Coatl
+image=https://magiccards.info/scans/en/arb/105.jpg
+value=3.833
+removal=2
+rarity=C
+type=Creature
+subtype=Snake
+cost={1}{G}{U}
+pt=1/1
+ability=Flash;\
+        Flying;\
+        Deathtouch
+timing=flash
+oracle=Flash\nFlying\nDeathtouch

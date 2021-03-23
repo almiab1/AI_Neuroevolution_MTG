@@ -1,0 +1,11 @@
+name=Bant Sureblade
+image=https://magiccards.info/scans/en/arb/143.jpg
+value=3.616
+rarity=C
+type=Creature
+subtype=Human,Soldier
+cost={G/U}{W}
+pt=2/1
+ability=As long as you control another multicolored permanent, SN gets +1/+1 and has first strike.
+timing=main
+oracle=As long as you control another multicolored permanent, Bant Sureblade gets +1/+1 and has first strike.

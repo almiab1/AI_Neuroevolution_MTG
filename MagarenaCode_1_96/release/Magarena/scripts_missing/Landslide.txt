@@ -1,0 +1,10 @@
+name=Landslide
+image=https://magiccards.info/scans/en/ud/92.jpg
+value=3.865
+rarity=U
+type=Sorcery
+cost={R}
+effect=Sacrifice any number of Mountains. SN deals that much damage to target player.
+timing=main
+oracle=Sacrifice any number of Mountains. Landslide deals that much damage to target player.
+status=not supported: any-number-of

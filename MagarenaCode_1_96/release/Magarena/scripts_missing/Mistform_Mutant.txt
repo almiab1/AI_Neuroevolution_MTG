@@ -1,0 +1,12 @@
+name=Mistform Mutant
+image=https://magiccards.info/scans/en/on/95.jpg
+value=2.455
+rarity=U
+type=Creature
+subtype=Illusion,Mutant
+cost={4}{U}{U}
+pt=3/4
+ability={1}{U}: Choose a creature type other than Wall. Target creature becomes that type until end of turn.
+timing=main
+oracle={1}{U}: Choose a creature type other than Wall. Target creature becomes that type until end of turn.
+status=not supported: choose-creature-type

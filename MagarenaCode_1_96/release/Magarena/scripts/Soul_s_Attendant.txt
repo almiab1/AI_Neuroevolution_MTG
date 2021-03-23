@@ -1,0 +1,11 @@
+name=Soul's Attendant
+image=https://magiccards.info/scans/en/roe/44.jpg
+value=4.250
+rarity=C
+type=Creature
+subtype=Human,Cleric
+cost={W}
+pt=1/1
+ability=Whenever another creature enters the battlefield, you may gain 1 life.
+timing=main
+oracle=Whenever another creature enters the battlefield, you may gain 1 life.

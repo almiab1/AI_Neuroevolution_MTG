@@ -1,0 +1,10 @@
+name=Arc Lightning
+image=https://magiccards.info/scans/en/ktk/97.jpg
+value=2.500
+rarity=U
+type=Sorcery
+cost={2}{R}
+effect=SN deals 3 damage divided as you choose among one, two, or three target creatures and/or players.
+timing=main
+oracle=Arc Lightning deals 3 damage divided as you choose among one, two, or three target creatures and/or players.
+status=not supported: multiple-targets

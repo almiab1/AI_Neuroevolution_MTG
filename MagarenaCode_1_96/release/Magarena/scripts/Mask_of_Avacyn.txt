@@ -1,0 +1,11 @@
+name=Mask of Avacyn
+image=https://magiccards.info/scans/en/isd/229.jpg
+value=3.701
+rarity=U
+type=Artifact
+subtype=Equipment
+cost={2}
+ability=Equipped creature gets +1/+2 and has hexproof.;\
+        Equip {3}
+timing=equipment
+oracle=Equipped creature gets +1/+2 and has hexproof.\nEquip {3}

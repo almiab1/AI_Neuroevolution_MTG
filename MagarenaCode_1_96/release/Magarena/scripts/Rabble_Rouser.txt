@@ -1,0 +1,12 @@
+name=Rabble-Rouser
+image=https://magiccards.info/scans/en/gp/73.jpg
+value=2.441
+rarity=U
+type=Creature
+subtype=Goblin,Shaman
+cost={3}{R}
+pt=1/1
+ability=Bloodthirst 1;\
+        {R}, {T}: Attacking creatures get +X/+0 until end of turn, where X is SN's power.
+timing=main
+oracle=Bloodthirst 1\n{R}, {T}: Attacking creatures get +X/+0 until end of turn, where X is Rabble-Rouser's power.

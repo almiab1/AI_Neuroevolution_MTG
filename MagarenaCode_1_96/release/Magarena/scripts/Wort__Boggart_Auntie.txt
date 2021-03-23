@@ -1,0 +1,12 @@
+name=Wort, Boggart Auntie
+image=https://magiccards.info/scans/en/lw/252.jpg
+value=4.067
+rarity=R
+type=Legendary,Creature
+subtype=Goblin,Shaman
+cost={2}{B}{R}
+pt=3/3
+ability=Fear;\
+        At the beginning of your upkeep, you may return target Goblin card from your graveyard to your hand.
+timing=main
+oracle=Fear\nAt the beginning of your upkeep, you may return target Goblin card from your graveyard to your hand.

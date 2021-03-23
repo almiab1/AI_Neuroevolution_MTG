@@ -1,0 +1,11 @@
+name=Horn of Greed
+image=https://magiccards.info/scans/en/cn2/211.jpg
+image_updated=2017-08-29
+value=3.823
+rarity=R
+type=Artifact
+cost={3}
+ability=Whenever a player plays a land, that player draws a card.
+timing=artifact
+oracle=Whenever a player plays a land, that player draws a card.
+status=not supported: when-plays-land

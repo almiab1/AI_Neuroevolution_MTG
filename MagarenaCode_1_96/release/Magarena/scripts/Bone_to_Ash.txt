@@ -1,0 +1,10 @@
+name=Bone to Ash
+image=https://magiccards.info/scans/en/m19/47.jpg
+image_updated=2018-08-07
+value=2.500
+rarity=U
+type=Instant
+cost={2}{U}{U}
+effect=Counter target creature spell.~Draw a card.
+timing=counter
+oracle=Counter target creature spell.\nDraw a card.

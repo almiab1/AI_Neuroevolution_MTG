@@ -1,0 +1,12 @@
+name=Heart Sliver
+image=https://magiccards.info/scans/en/tp/182.jpg
+value=4.447
+rarity=C
+type=Creature
+subtype=Sliver
+cost={1}{R}
+pt=1/1
+ability=All Sliver creatures have haste.
+static=all
+timing=fmain
+oracle=All Sliver creatures have haste.

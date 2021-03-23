@@ -1,0 +1,11 @@
+name=Rouse the Mob
+image=https://magiccards.info/scans/en/jou/109.jpg
+value=3.021
+rarity=C
+type=Instant
+cost={R}
+ability=This spell costs {2}{R} more to cast for each target beyond the first.
+effect=Any number of target creatures each get +2/+0 and gain trample until end of turn.
+timing=removal
+oracle=Strive — This spell costs {2}{R} more to cast for each target beyond the first.\nAny number of target creatures each get +2/+0 and gain trample until end of turn.
+status=not supported: multiple-targets

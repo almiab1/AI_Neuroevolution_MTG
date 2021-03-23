@@ -1,0 +1,16 @@
+name=Moonscarred Werewolf
+image=https://magiccards.info/scans/en/dka/125b.jpg
+value=3.315
+rarity=C
+type=Creature
+subtype=Werewolf
+color=g
+pt=2/2
+ability=Vigilance;\
+        {T}: Add {G}{G}.;\
+        At the beginning of each upkeep, if a player cast two or more spells last turn, transform SN.
+transform=Scorned Villager
+timing=main
+hidden
+oracle=Vigilance\n{T}: Add {G}{G}.\nAt the beginning of each upkeep, if a player cast two or more spells last turn, transform Moonscarred Werewolf.
+status=not supported: add-multiple-mana

@@ -1,0 +1,11 @@
+name=King Suleiman
+image=https://magiccards.info/scans/en/an/61.jpg
+value=3.089
+rarity=R
+type=Creature
+subtype=Human
+cost={1}{W}
+pt=1/1
+ability={T}: Destroy target Djinn or Efreet.
+timing=main
+oracle={T}: Destroy target Djinn or Efreet.

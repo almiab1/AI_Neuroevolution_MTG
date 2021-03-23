@@ -1,0 +1,12 @@
+name=Consuming Vortex
+image=https://magiccards.info/scans/en/chk/54.jpg
+value=2.225
+rarity=C
+type=Instant
+subtype=Arcane
+cost={1}{U}
+ability=Splice onto Arcane {3}{U}
+effect=Return target creature to its owner's hand.
+timing=removal
+oracle=Return target creature to its owner's hand.\nSplice onto Arcane {3}{U}
+status=not supported: splice-onto-arcane

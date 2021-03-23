@@ -1,0 +1,12 @@
+name=Necrotic Sliver
+image=https://magiccards.info/scans/en/pc/159.jpg
+value=4.439
+rarity=U
+type=Creature
+subtype=Sliver
+cost={1}{W}{B}
+pt=2/2
+ability=All Slivers have "{3}, Sacrifice this permanent: Destroy target permanent."
+static=all
+timing=main
+oracle=All Slivers have "{3}, Sacrifice this permanent: Destroy target permanent."

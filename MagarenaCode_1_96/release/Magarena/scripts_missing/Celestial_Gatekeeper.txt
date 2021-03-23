@@ -1,0 +1,13 @@
+name=Celestial Gatekeeper
+image=https://magiccards.info/scans/en/le/6.jpg
+value=3.709
+rarity=R
+type=Creature
+subtype=Bird,Cleric
+cost={3}{W}{W}
+pt=2/2
+ability=Flying;\
+        When SN dies, exile it, then return up to two target Bird and/or Cleric permanent cards from your graveyard to the battlefield.
+timing=main
+oracle=Flying\nWhen Celestial Gatekeeper dies, exile it, then return up to two target Bird and/or Cleric permanent cards from your graveyard to the battlefield.
+status=not supported: multiple-targets

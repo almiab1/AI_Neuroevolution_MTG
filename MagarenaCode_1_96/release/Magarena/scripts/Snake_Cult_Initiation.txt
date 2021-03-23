@@ -1,0 +1,12 @@
+name=Snake Cult Initiation
+image=https://magiccards.info/scans/en/fut/89.jpg
+value=3.724
+rarity=U
+type=Enchantment
+subtype=Aura
+cost={3}{B}
+ability=Enchant creature;\
+        Enchanted creature has poisonous 3.
+timing=aura
+enchant=pump,pos creature
+oracle=Enchant creature\nEnchanted creature has poisonous 3.

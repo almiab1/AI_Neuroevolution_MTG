@@ -1,0 +1,12 @@
+name=Spectral Flight
+image=https://magiccards.info/scans/en/isd/79.jpg
+value=3.700
+rarity=C
+type=Enchantment
+subtype=Aura
+cost={1}{U}
+ability=Enchant creature;\
+        Enchanted creature gets +2/+2 and has flying.
+timing=aura
+enchant=flying,pos creature
+oracle=Enchant creature\nEnchanted creature gets +2/+2 and has flying.

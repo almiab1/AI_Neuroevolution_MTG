@@ -1,0 +1,12 @@
+name=Spirit of the Night
+image=https://magiccards.info/scans/en/mr/44.jpg
+value=4.105
+rarity=R
+type=Legendary,Creature
+subtype=Demon,Spirit
+cost={6}{B}{B}{B}
+pt=6/5
+ability=Flying, trample, haste, protection from black;\
+        SN has first strike as long as it's attacking.
+timing=main
+oracle=Flying, trample, haste, protection from black\nSpirit of the Night has first strike as long as it's attacking.

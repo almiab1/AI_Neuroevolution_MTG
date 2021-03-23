@@ -1,0 +1,9 @@
+name=Déjà Vu
+image=https://magiccards.info/scans/en/po2/35.jpg
+value=3.034
+rarity=C
+type=Sorcery
+cost={2}{U}
+effect=Return target sorcery card from your graveyard to your hand.
+timing=main
+oracle=Return target sorcery card from your graveyard to your hand.

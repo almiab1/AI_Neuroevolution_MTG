@@ -1,0 +1,9 @@
+name=Ambush
+image=https://magiccards.info/scans/en/hl/78.jpg
+value=1.817
+rarity=C
+type=Instant
+cost={3}{R}
+effect=Blocking creatures gain first strike until end of turn.
+timing=block
+oracle=Blocking creatures gain first strike until end of turn.

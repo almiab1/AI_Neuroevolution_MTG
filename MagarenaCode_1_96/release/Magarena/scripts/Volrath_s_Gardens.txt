@@ -1,0 +1,9 @@
+name=Volrath's Gardens
+image=https://magiccards.info/scans/en/sh/74.jpg
+value=2.282
+rarity=R
+type=Enchantment
+cost={1}{G}
+ability={2}, Tap an untapped creature you control: You gain 2 life. Activate this ability only any time you could cast a sorcery.
+timing=enchantment
+oracle={2}, Tap an untapped creature you control: You gain 2 life. Activate this ability only any time you could cast a sorcery.

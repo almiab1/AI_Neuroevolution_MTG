@@ -1,0 +1,12 @@
+name=Elvish Eulogist
+image=https://magiccards.info/scans/en/lw/205.jpg
+image_updated=2016-12-02
+value=2.712
+rarity=C
+type=Creature
+subtype=Elf,Shaman
+cost={G}
+pt=1/1
+ability=Sacrifice SN: You gain 1 life for each Elf card in your graveyard.
+timing=main
+oracle=Sacrifice Elvish Eulogist: You gain 1 life for each Elf card in your graveyard.

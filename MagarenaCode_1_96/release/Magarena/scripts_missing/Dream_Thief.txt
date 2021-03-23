@@ -1,0 +1,13 @@
+name=Dream Thief
+image=https://magiccards.info/scans/en/eve/20.jpg
+value=2.256
+rarity=C
+type=Creature
+subtype=Faerie,Rogue
+cost={2}{U}
+pt=2/1
+ability=Flying;\
+        When SN enters the battlefield, draw a card if you've cast another blue spell this turn.
+timing=main
+oracle=Flying\nWhen Dream Thief enters the battlefield, draw a card if you've cast another blue spell this turn.
+status=not supported: no-info

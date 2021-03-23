@@ -1,0 +1,11 @@
+name=Shu Grain Caravan
+image=https://magiccards.info/scans/en/p3k/26.jpg
+value=2.688
+rarity=C
+type=Creature
+subtype=Human,Soldier
+cost={2}{W}
+pt=2/2
+ability=When SN enters the battlefield, you gain 2 life.
+timing=main
+oracle=When Shu Grain Caravan enters the battlefield, you gain 2 life.

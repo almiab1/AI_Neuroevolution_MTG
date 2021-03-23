@@ -1,0 +1,13 @@
+name=Vexing Shusher
+image=https://magiccards.info/scans/en/shm/222.jpg
+value=4.397
+rarity=R
+type=Creature
+subtype=Goblin,Shaman
+cost={R/G}{R/G}
+pt=2/2
+ability=This spell can't be countered.;\
+        {R/G}: Target spell can't be countered.
+timing=main
+oracle=This spell can't be countered.\n{R/G}: Target spell can't be countered.
+status=not supported: spell-modification

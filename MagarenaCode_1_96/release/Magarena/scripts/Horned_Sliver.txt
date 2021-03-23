@@ -1,0 +1,12 @@
+name=Horned Sliver
+image=https://magiccards.info/scans/en/tp/128.jpg
+value=3.979
+rarity=U
+type=Creature
+subtype=Sliver
+cost={2}{G}
+pt=2/2
+ability=All Sliver creatures have trample.
+static=all
+timing=main
+oracle=All Sliver creatures have trample.

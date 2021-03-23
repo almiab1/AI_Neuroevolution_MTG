@@ -1,0 +1,10 @@
+name=Whelming Wave
+image=https://magiccards.info/scans/en/bng/57.jpg
+image_updated=2017-01-11
+value=3.800
+rarity=R
+type=Sorcery
+cost={2}{U}{U}
+timing=main
+requires_groovy_code
+oracle=Return all creatures to their owners' hands except for Krakens, Leviathans, Octopuses, and Serpents.

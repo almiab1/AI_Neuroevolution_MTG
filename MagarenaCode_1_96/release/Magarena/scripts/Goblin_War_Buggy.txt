@@ -1,0 +1,12 @@
+name=Goblin War Buggy
+image=https://magiccards.info/scans/en/us/196.jpg
+value=3.782
+rarity=C
+type=Creature
+subtype=Goblin
+cost={1}{R}
+pt=2/2
+ability=Haste;\
+        Echo {1}{R}
+timing=fmain
+oracle=Haste\nEcho {1}{R}

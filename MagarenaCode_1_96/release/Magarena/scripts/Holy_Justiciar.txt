@@ -1,0 +1,11 @@
+name=Holy Justiciar
+image=https://magiccards.info/scans/en/avr/25.jpg
+value=1.562
+rarity=U
+type=Creature
+subtype=Human,Cleric
+cost={3}{W}
+pt=2/1
+timing=main
+requires_groovy_code
+oracle={2}{W}, {T}: Tap target creature. If that creature is a Zombie, exile it.

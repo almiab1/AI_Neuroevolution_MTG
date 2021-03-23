@@ -1,0 +1,12 @@
+name=Foriysian Brigade
+image=https://magiccards.info/scans/en/wl/130.jpg
+value=2.885
+rarity=U
+type=Creature
+subtype=Human,Soldier
+cost={3}{W}
+pt=2/4
+ability=SN can block an additional creature each combat.
+timing=main
+oracle=Foriysian Brigade can block an additional creature each combat.
+status=not supported: block-multiple

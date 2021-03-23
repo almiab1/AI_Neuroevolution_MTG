@@ -1,0 +1,15 @@
+name=Tangleclaw Werewolf
+image=https://magiccards.info/scans/en/emn/174a.jpg
+image_updated=2016-09-05
+value=2.500
+rarity=U
+type=Creature
+subtype=Werewolf,Horror
+cost={2}{G}{G}
+pt=2/4
+ability=SN can block an additional creature each combat.;\
+        {6}{G}: Transform SN.
+transform=Fibrous Entangler
+timing=main
+oracle=Tangleclaw Werewolf can block an additional creature each combat.\n{6}{G}: Transform Tangleclaw Werewolf.
+status=not supported: block-multiple

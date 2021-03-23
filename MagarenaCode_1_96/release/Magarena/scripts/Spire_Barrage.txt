@@ -1,0 +1,10 @@
+name=Spire Barrage
+image=https://magiccards.info/scans/en/zen/150.jpg
+image_updated=2016-01-09
+value=2.447
+rarity=C
+type=Sorcery
+cost={4}{R}
+effect=SN deals damage to target creature or player equal to the number of Mountains you control.
+timing=main
+oracle=Spire Barrage deals damage to target creature or player equal to the number of Mountains you control.

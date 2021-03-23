@@ -1,0 +1,13 @@
+name=Greater Gargadon
+image=https://magiccards.info/scans/en/mma/117.jpg
+value=3.963
+rarity=R
+type=Creature
+subtype=Beast
+cost={9}{R}
+pt=9/7
+ability=Suspend 10—{R};\
+        Sacrifice an artifact, creature, or land: Remove a time counter from SN. Activate this ability only if SN is suspended.
+timing=main
+oracle=Suspend 10—{R}\nSacrifice an artifact, creature, or land: Remove a time counter from Greater Gargadon. Activate this ability only if Greater Gargadon is suspended.
+status=not supported: activate-from-exile

@@ -1,0 +1,11 @@
+name=Ancient Ooze
+image=https://magiccards.info/scans/en/sc/112.jpg
+value=3.736
+rarity=R
+type=Creature
+subtype=Ooze
+cost={5}{G}{G}
+pt=*/*
+timing=main
+requires_groovy_code
+oracle=Ancient Ooze's power and toughness are each equal to the total converted mana cost of other creatures you control.

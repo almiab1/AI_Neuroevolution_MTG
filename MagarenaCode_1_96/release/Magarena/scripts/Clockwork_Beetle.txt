@@ -1,0 +1,12 @@
+name=Clockwork Beetle
+image=https://magiccards.info/scans/en/mi/153.jpg
+value=3.044
+rarity=C
+type=Artifact,Creature
+subtype=Insect
+cost={1}
+pt=0/0
+ability=SN enters the battlefield with two +1/+1 counters on it.;\
+        Whenever SN attacks or blocks, remove a +1/+1 counter from SN at end of combat.
+timing=main
+oracle=Clockwork Beetle enters the battlefield with two +1/+1 counters on it.\nWhenever Clockwork Beetle attacks or blocks, remove a +1/+1 counter from it at end of combat.

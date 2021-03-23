@@ -1,0 +1,10 @@
+name=Drain Power
+image=https://magiccards.info/scans/en/5e/82.jpg
+value=4.050
+rarity=R
+type=Sorcery
+cost={U}{U}
+effect=Target player activates a mana ability of each land he or she controls. Then put all mana from that player's mana pool into yours.
+timing=main
+oracle=Target player activates a mana ability of each land he or she controls. Then put all mana from that player's mana pool into yours.
+status=not supported: mana-pool

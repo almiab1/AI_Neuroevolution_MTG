@@ -1,0 +1,12 @@
+name=Diviner Spirit
+image=https://magiccards.info/scans/en/c13/40.jpg
+value=2.929
+rarity=U
+type=Creature
+subtype=Spirit
+cost={4}{U}
+pt=2/4
+ability=Whenever SN deals combat damage to a player, you and that player each draw that many cards.
+timing=main
+oracle=Whenever Diviner Spirit deals combat damage to a player, you and that player each draw that many cards.
+status=needs groovy

@@ -1,0 +1,11 @@
+name=Crypt of Agadeem
+image=https://magiccards.info/scans/en/c14/288.jpg
+value=2.500
+rarity=R
+type=Land
+ability=SN enters the battlefield tapped.;\
+        {T}: Add {B}.;\
+        {2}, {T}: Add {B} for each black creature card in your graveyard.
+timing=land
+oracle=Crypt of Agadeem enters the battlefield tapped.\n{T}: Add {B}.\n{2}, {T}: Add {B} for each black creature card in your graveyard.
+status=not supported: add-multiple-mana

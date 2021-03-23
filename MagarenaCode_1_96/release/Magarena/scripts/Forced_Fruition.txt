@@ -1,0 +1,9 @@
+name=Forced Fruition
+image=https://magiccards.info/scans/en/lw/66.jpg
+value=4.127
+rarity=R
+type=Enchantment
+cost={4}{U}{U}
+ability=Whenever an opponent casts a spell, that player draws seven cards.
+timing=enchantment
+oracle=Whenever an opponent casts a spell, that player draws seven cards.

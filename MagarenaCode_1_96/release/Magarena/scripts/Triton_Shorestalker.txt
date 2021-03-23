@@ -1,0 +1,11 @@
+name=Triton Shorestalker
+image=https://magiccards.info/scans/en/jou/56.jpg
+value=3.850
+rarity=C
+type=Creature
+subtype=Merfolk,Rogue
+cost={U}
+pt=1/1
+ability=SN can't be blocked.
+timing=main
+oracle=Triton Shorestalker can't be blocked.

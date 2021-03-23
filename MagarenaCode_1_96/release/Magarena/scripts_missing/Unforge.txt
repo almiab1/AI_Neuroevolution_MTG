@@ -1,0 +1,10 @@
+name=Unforge
+image=https://magiccards.info/scans/en/ds/71.jpg
+value=2.274
+rarity=C
+type=Instant
+cost={2}{R}
+effect=Destroy target Equipment. If that Equipment was attached to a creature, SN deals 2 damage to that creature.
+timing=removal
+oracle=Destroy target Equipment. If that Equipment was attached to a creature, Unforge deals 2 damage to that creature.
+status=needs groovy

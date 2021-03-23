@@ -1,0 +1,9 @@
+name=Conjurer's Closet
+image=https://magiccards.info/scans/en/avr/214.jpg
+value=3.826
+rarity=R
+type=Artifact
+cost={5}
+ability=At the beginning of your end step, you may exile target creature you control, then return that card to the battlefield under your control.
+timing=artifact
+oracle=At the beginning of your end step, you may exile target creature you control, then return that card to the battlefield under your control.

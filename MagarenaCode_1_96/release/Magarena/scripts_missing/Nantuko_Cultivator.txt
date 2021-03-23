@@ -1,0 +1,12 @@
+name=Nantuko Cultivator
+image=https://magiccards.info/scans/en/tr/133.jpg
+value=4.000
+rarity=R
+type=Creature
+subtype=Insect,Druid
+cost={3}{G}
+pt=2/2
+ability=When SN enters the battlefield, you may discard any number of land cards. Put that many +1/+1 counters on SN and draw that many cards.
+timing=main
+oracle=When Nantuko Cultivator enters the battlefield, you may discard any number of land cards. Put that many +1/+1 counters on Nantuko Cultivator and draw that many cards.
+status=not supported: any-number-of

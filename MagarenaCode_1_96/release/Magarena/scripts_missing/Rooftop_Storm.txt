@@ -1,0 +1,10 @@
+name=Rooftop Storm
+image=https://magiccards.info/scans/en/isd/71.jpg
+value=3.877
+rarity=R
+type=Enchantment
+cost={5}{U}
+ability=You may pay {0} rather than pay the mana cost for Zombie creature spells you cast.
+timing=enchantment
+oracle=You may pay {0} rather than pay the mana cost for Zombie creature spells you cast.
+status=needs groovy

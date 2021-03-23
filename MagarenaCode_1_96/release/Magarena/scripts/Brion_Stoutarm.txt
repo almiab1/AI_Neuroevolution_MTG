@@ -1,0 +1,13 @@
+name=Brion Stoutarm
+image=https://magiccards.info/scans/en/a25/200.jpg
+image_updated=2018-04-27
+value=3.918
+rarity=R
+type=Legendary,Creature
+subtype=Giant,Warrior
+cost={2}{R}{W}
+pt=4/4
+ability=Lifelink
+timing=main
+oracle=Lifelink\n{R}, {T}, Sacrifice another creature: Brion Stoutarm deals damage equal to the sacrificed creature's power to target player or planeswalker.
+requires_groovy_code

@@ -1,0 +1,11 @@
+name=Nantuko Shade
+image=https://magiccards.info/scans/en/c14/151.jpg
+value=4.307
+rarity=R
+type=Creature
+subtype=Insect,Shade
+cost={B}{B}
+pt=2/1
+ability={B}: SN gets +1/+1 until end of turn.
+timing=main
+oracle={B}: Nantuko Shade gets +1/+1 until end of turn.

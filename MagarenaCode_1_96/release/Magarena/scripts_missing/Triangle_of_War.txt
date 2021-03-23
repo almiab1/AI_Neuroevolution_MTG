@@ -1,0 +1,10 @@
+name=Triangle of War
+image=https://magiccards.info/scans/en/vi/158.jpg
+value=2.500
+rarity=R
+type=Artifact
+cost={1}
+ability={2}, Sacrifice SN: Target creature you control fights target creature an opponent controls.
+timing=artifact
+oracle={2}, Sacrifice Triangle of War: Target creature you control fights target creature an opponent controls.
+status=not supported: multiple-targets

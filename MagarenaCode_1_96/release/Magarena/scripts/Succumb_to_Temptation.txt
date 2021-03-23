@@ -1,0 +1,10 @@
+name=Succumb to Temptation
+image=https://magiccards.info/scans/en/emn/107.jpg
+image_updated=2016-09-05
+value=2.500
+rarity=C
+type=Instant
+cost={1}{B}{B}
+effect=You draw two cards and you lose 2 life.
+timing=draw
+oracle=You draw two cards and you lose 2 life.

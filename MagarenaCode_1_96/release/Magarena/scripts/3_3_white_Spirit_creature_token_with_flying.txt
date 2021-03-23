@@ -1,0 +1,10 @@
+name=3/3 white Spirit creature token with flying
+image=http://cdn.staticneo.com/w/mtg/6/6a/Spirit3.jpg
+value=3
+token=Spirit
+type=Creature
+subtype=Spirit
+color=W
+pt=3/3
+ability=Flying
+oracle=Flying

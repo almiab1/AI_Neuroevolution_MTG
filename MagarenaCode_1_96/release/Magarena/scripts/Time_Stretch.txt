@@ -1,0 +1,9 @@
+name=Time Stretch
+image=https://magiccards.info/scans/en/10e/118.jpg
+value=4.257
+rarity=R
+type=Sorcery
+cost={8}{U}{U}
+effect=Target player takes two extra turns after this one.
+timing=smain
+oracle=Target player takes two extra turns after this one.

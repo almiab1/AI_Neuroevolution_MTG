@@ -1,0 +1,12 @@
+name=Nikko-Onna
+image=https://magiccards.info/scans/en/sok/21.jpg
+value=3.556
+rarity=U
+type=Creature
+subtype=Spirit
+cost={2}{W}
+pt=2/2
+ability=When SN enters the battlefield, destroy target enchantment.;\
+        Whenever you cast a Spirit or Arcane spell, you may return SN to its owner's hand.
+timing=main
+oracle=When Nikko-Onna enters the battlefield, destroy target enchantment.\nWhenever you cast a Spirit or Arcane spell, you may return Nikko-Onna to its owner's hand.

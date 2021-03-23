@@ -1,0 +1,13 @@
+name=Vent Sentinel
+image=https://magiccards.info/scans/en/ima/153.jpg
+image_updated=2017-04-12
+value=3.500
+rarity=C
+type=Creature
+subtype=Elemental
+cost={3}{R}
+pt=2/4
+ability=Defender;\
+        {1}{R}, {T}: SN deals damage to target player equal to the number of creatures with defender you control.
+timing=smain
+oracle=Defender\n{1}{R}, {T}: Vent Sentinel deals damage to target player equal to the number of creatures with defender you control.

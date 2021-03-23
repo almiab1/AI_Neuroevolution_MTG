@@ -1,0 +1,9 @@
+name=Dwarven Shrine
+image=https://magiccards.info/scans/en/od/187.jpg
+value=1.841
+rarity=R
+type=Enchantment
+cost={1}{R}{R}
+timing=enchantment
+oracle=Whenever a player casts a spell, Dwarven Shrine deals X damage to that player, where X is twice the number of cards in all graveyards with the same name as that spell.
+requires_groovy_code

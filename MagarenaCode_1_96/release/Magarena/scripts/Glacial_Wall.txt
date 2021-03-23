@@ -1,0 +1,11 @@
+name=Glacial Wall
+image=https://magiccards.info/scans/en/ema/53.jpg
+value=3.011
+rarity=C
+type=Creature
+subtype=Wall
+cost={2}{U}
+pt=0/7
+ability=Defender
+timing=smain
+oracle=Defender

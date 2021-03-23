@@ -1,0 +1,10 @@
+name=Dismiss
+image=https://magiccards.info/scans/en/cn2/108.jpg
+image_updated=2017-08-29
+value=4.361
+rarity=U
+type=Instant
+cost={2}{U}{U}
+effect=Counter target spell.~Draw a card.
+timing=counter
+oracle=Counter target spell.\nDraw a card.

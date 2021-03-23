@@ -1,0 +1,13 @@
+name=Stormblood Berserker
+image=https://magiccards.info/scans/en/mm2/130.jpg
+value=2.500
+rarity=U
+type=Creature
+subtype=Human,Berserker
+cost={1}{R}
+pt=1/1
+ability=Bloodthirst 2;\
+        Menace
+timing=main
+oracle=Bloodthirst 2\nMenace
+status=not supported: blocking-restriction

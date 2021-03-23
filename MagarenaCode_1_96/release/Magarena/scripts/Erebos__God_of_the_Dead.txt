@@ -1,0 +1,13 @@
+name=Erebos, God of the Dead
+image=https://magiccards.info/scans/en/ths/85.jpg
+value=3.802
+rarity=M
+type=Legendary,Enchantment,Creature
+subtype=God
+cost={3}{B}
+pt=5/7
+ability=Indestructible;\
+        {1}{B}, Pay 2 life: Draw a card.
+timing=main
+requires_groovy_code
+oracle=Indestructible\nAs long as your devotion to black is less than five, Erebos isn't a creature.\nYour opponents can't gain life.\n{1}{B}, Pay 2 life: Draw a card.

@@ -1,0 +1,11 @@
+name=Court Homunculus
+image=https://magiccards.info/scans/en/mm2/13.jpg
+value=3.467
+rarity=C
+type=Artifact,Creature
+subtype=Homunculus
+cost={W}
+pt=1/1
+ability=SN gets +1/+1 as long as you control another artifact.
+timing=main
+oracle=Court Homunculus gets +1/+1 as long as you control another artifact.

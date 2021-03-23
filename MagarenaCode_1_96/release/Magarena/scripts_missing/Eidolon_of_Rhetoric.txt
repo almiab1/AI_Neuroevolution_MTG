@@ -1,0 +1,12 @@
+name=Eidolon of Rhetoric
+image=https://magiccards.info/scans/en/jou/10.jpg
+value=4.071
+rarity=U
+type=Enchantment,Creature
+subtype=Spirit
+cost={2}{W}
+pt=1/4
+ability=Each player can't cast more than one spell each turn.
+timing=main
+oracle=Each player can't cast more than one spell each turn.
+status=needs groovy

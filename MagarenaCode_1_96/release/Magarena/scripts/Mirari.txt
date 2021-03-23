@@ -1,0 +1,9 @@
+name=Mirari
+image=https://magiccards.info/scans/en/od/303.jpg
+value=4.115
+rarity=R
+type=Legendary,Artifact
+cost={5}
+timing=artifact
+requires_groovy_code
+oracle=Whenever you cast an instant or sorcery spell, you may pay {3}. If you do, copy that spell. You may choose new targets for the copy.

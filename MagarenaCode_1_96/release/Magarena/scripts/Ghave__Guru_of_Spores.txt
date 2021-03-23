@@ -1,0 +1,14 @@
+name=Ghave, Guru of Spores
+image=https://magiccards.info/scans/en/c16/200.jpg
+image_updated=2017-08-17
+value=4.004
+rarity=M
+type=Legendary,Creature
+subtype=Fungus,Shaman
+cost={2}{B}{G}{W}
+pt=0/0
+ability=SN enters the battlefield with five +1/+1 counters on it.;\
+        {1}, Remove a +1/+1 counter from a creature you control: Create a 1/1 green Saproling creature token.;\
+        {1}, Sacrifice a creature: Put a +1/+1 counter on target creature.
+timing=main
+oracle=Ghave, Guru of Spores enters the battlefield with five +1/+1 counters on it.\n{1}, Remove a +1/+1 counter from a creature you control: Create a 1/1 green Saproling creature token.\n{1}, Sacrifice a creature: Put a +1/+1 counter on target creature.

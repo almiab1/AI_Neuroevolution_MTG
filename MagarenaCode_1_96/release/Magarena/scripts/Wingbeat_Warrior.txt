@@ -1,0 +1,13 @@
+name=Wingbeat Warrior
+image=https://magiccards.info/scans/en/le/29.jpg
+value=2.706
+rarity=C
+type=Creature
+subtype=Bird,Soldier,Warrior
+cost={2}{W}
+pt=2/1
+ability=Flying;\
+        Morph {2}{W};\
+        When SN is turned face up, target creature gains first strike until end of turn.
+timing=main
+oracle=Flying\nMorph {2}{W}\nWhen Wingbeat Warrior is turned face up, target creature gains first strike until end of turn.

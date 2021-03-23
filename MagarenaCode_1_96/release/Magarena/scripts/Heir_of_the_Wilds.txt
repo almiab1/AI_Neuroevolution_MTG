@@ -1,0 +1,12 @@
+name=Heir of the Wilds
+image=https://magiccards.info/scans/en/ktk/134.jpg
+value=3.625
+rarity=U
+type=Creature
+subtype=Human,Warrior
+cost={1}{G}
+pt=2/2
+ability=Deathtouch;\
+        Whenever SN attacks, if you control a creature with power 4 or greater, SN gets +1/+1 until end of turn.
+timing=main
+oracle=Deathtouch\nFerocious — Whenever Heir of the Wilds attacks, if you control a creature with power 4 or greater, Heir of the Wilds gets +1/+1 until end of turn.

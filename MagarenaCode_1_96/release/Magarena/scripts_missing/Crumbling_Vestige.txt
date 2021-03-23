@@ -1,0 +1,12 @@
+name=Crumbling Vestige
+image=https://magiccards.info/scans/en/ogw/170.jpg
+image_updated=2016-02-29
+value=2.500
+rarity=C
+type=Land
+ability=SN enters the battlefield tapped.;\
+        When SN enters the battlefield, add one mana of any color.;\
+        {T}: Add {C}.
+timing=land
+oracle=Crumbling Vestige enters the battlefield tapped.\nWhen Crumbling Vestige enters the battlefield, add one mana of any color.\n{T}: Add {C}.
+status=not supported: non-activated-mana-ability

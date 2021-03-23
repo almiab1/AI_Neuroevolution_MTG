@@ -1,0 +1,9 @@
+name=Onyx Goblet
+image=https://magiccards.info/scans/en/ala/81.jpg
+value=2.475
+rarity=C
+type=Artifact
+cost={2}{B}
+ability={T}: Target player loses 1 life.
+timing=artifact
+oracle={T}: Target player loses 1 life.

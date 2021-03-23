@@ -1,0 +1,9 @@
+name=Tower of the Magistrate
+image=https://magiccards.info/scans/en/mm/330.jpg
+value=3.976
+rarity=R
+type=Land
+ability={T}: Add {C}.;\
+        {1}, {T}: Target creature gains protection from artifacts until end of turn.
+timing=land
+oracle={T}: Add {C}.\n{1}, {T}: Target creature gains protection from artifacts until end of turn.

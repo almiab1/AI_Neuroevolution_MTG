@@ -1,0 +1,11 @@
+name=Atogatog
+image=https://magiccards.info/scans/en/od/286.jpg
+value=3.532
+rarity=R
+type=Legendary,Creature
+subtype=Atog
+cost={W}{U}{B}{R}{G}
+pt=5/5
+timing=main
+requires_groovy_code
+oracle=Sacrifice an Atog creature: Atogatog gets +X/+X until end of turn, where X is the sacrificed creature's power.

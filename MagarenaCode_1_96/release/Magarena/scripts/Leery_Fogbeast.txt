@@ -1,0 +1,11 @@
+name=Leery Fogbeast
+image=https://magiccards.info/scans/en/on/273.jpg
+value=2.738
+rarity=C
+type=Creature
+subtype=Beast
+cost={2}{G}
+pt=4/2
+ability=Whenever SN becomes blocked, prevent all combat damage that would be dealt this turn.
+timing=main
+oracle=Whenever Leery Fogbeast becomes blocked, prevent all combat damage that would be dealt this turn.

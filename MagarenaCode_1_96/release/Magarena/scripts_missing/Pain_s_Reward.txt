@@ -1,0 +1,10 @@
+name=Pain's Reward
+image=https://magiccards.info/scans/en/sok/85.jpg
+value=3.697
+rarity=R
+type=Sorcery
+cost={2}{B}
+effect=Each player may bid life. You start the bidding with a bid of any number. In turn order, each player may top the high bid. The bidding ends if the high bid stands. The high bidder loses life equal to the high bid and draws four cards.
+timing=main
+oracle=Each player may bid life. You start the bidding with a bid of any number. In turn order, each player may top the high bid. The bidding ends if the high bid stands. The high bidder loses life equal to the high bid and draws four cards.
+status=not supported: any-number-of

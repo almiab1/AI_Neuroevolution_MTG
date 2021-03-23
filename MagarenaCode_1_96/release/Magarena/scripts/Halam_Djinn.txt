@@ -1,0 +1,12 @@
+name=Halam Djinn
+image=https://magiccards.info/scans/en/in/146.jpg
+value=2.889
+rarity=U
+type=Creature
+subtype=Djinn
+cost={5}{R}
+pt=6/5
+ability=Haste
+timing=fmain
+oracle=Haste\nHalam Djinn gets -2/-2 as long as red is the most common color among all permanents or is tied for most common.
+requires_groovy_code

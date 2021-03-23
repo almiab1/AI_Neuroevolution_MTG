@@ -1,0 +1,9 @@
+name=Cowardice
+image=https://magiccards.info/scans/en/9e/70.jpg
+value=3.645
+rarity=R
+type=Enchantment
+cost={3}{U}{U}
+ability=Whenever a creature becomes the target of a spell or ability, return that creature to its owner's hand.
+timing=enchantment
+oracle=Whenever a creature becomes the target of a spell or ability, return that creature to its owner's hand.

@@ -1,0 +1,12 @@
+name=Blood Bairn
+image=https://magiccards.info/scans/en/c15/117.jpg
+image_updated=2016-02-29
+value=3.200
+rarity=C
+type=Creature
+subtype=Vampire
+cost={2}{B}
+pt=2/2
+ability=Sacrifice another creature: SN gets +2/+2 until end of turn.
+timing=main
+oracle=Sacrifice another creature: Blood Bairn gets +2/+2 until end of turn.

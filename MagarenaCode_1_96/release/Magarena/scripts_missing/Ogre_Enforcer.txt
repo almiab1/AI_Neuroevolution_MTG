@@ -1,0 +1,12 @@
+name=Ogre Enforcer
+image=https://magiccards.info/scans/en/vi/89.jpg
+value=3.562
+rarity=R
+type=Creature
+subtype=Ogre
+cost={3}{R}{R}
+pt=4/4
+ability=SN can't be destroyed by lethal damage unless lethal damage dealt by a single source is marked on it.
+timing=main
+oracle=Ogre Enforcer can't be destroyed by lethal damage unless lethal damage dealt by a single source is marked on it.
+status=not supported: no-info

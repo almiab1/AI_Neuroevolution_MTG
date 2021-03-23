@@ -1,0 +1,13 @@
+name=Captain's Claws
+image=https://magiccards.info/scans/en/ogw/162.jpg
+image_updated=2016-02-29
+value=2.500
+rarity=R
+type=Artifact
+subtype=Equipment
+cost={2}
+ability=Equipped creature gets +1/+0.;\
+        Whenever equipped creature attacks, create a 1/1 white Kor Ally creature token that's tapped and attacking.;\
+        Equip {1}
+timing=equipment
+oracle=Equipped creature gets +1/+0.\nWhenever equipped creature attacks, create a 1/1 white Kor Ally creature token that's tapped and attacking.\nEquip {1}

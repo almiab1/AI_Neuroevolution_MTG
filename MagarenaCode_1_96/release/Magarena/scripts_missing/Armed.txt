@@ -1,0 +1,12 @@
+name=Armed
+image=https://magiccards.info/scans/en/dgm/122a.jpg
+value=3.960
+rarity=U
+type=Sorcery
+cost={1}{R}
+split=Dangerous
+ability=Fuse
+effect=Target creature gets +1/+1 and gains double strike until end of turn.
+timing=main
+oracle=Target creature gets +1/+1 and gains double strike until end of turn.\nFuse
+status=not supported: split-card

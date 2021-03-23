@@ -1,0 +1,9 @@
+name=Tel-Jilad Justice
+image=http://mtgimage.com/card/tel-jilad%20justice.jpg
+value=3.697
+rarity=U
+type=Instant
+cost={1}{G}
+timing=removal
+requires_groovy_code
+oracle=Destroy target artifact. Scry 2.

@@ -1,0 +1,10 @@
+name=Fire Diamond
+image=https://magiccards.info/scans/en/c14/240.jpg
+value=3.167
+rarity=U
+type=Artifact
+cost={2}
+ability=SN enters the battlefield tapped.;\
+        {T}: Add {R}.
+timing=artifact
+oracle=Fire Diamond enters the battlefield tapped.\n{T}: Add {R}.

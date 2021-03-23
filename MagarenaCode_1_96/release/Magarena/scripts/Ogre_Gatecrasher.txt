@@ -1,0 +1,11 @@
+name=Ogre Gatecrasher
+image=https://magiccards.info/scans/en/di/67.jpg
+value=2.621
+rarity=C
+type=Creature
+subtype=Ogre,Rogue
+cost={3}{R}
+pt=3/3
+ability=When SN enters the battlefield, destroy target creature with defender.
+timing=main
+oracle=When Ogre Gatecrasher enters the battlefield, destroy target creature with defender.

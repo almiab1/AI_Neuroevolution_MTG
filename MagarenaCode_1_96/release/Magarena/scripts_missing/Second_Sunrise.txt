@@ -1,0 +1,10 @@
+name=Second Sunrise
+image=https://magiccards.info/scans/en/mi/20.jpg
+value=4.373
+rarity=R
+type=Instant
+cost={1}{W}{W}
+effect=Each player returns to the battlefield all artifact, creature, enchantment, and land cards in his or her graveyard that were put there from the battlefield this turn.
+timing=removal
+oracle=Each player returns to the battlefield all artifact, creature, enchantment, and land cards in his or her graveyard that were put there from the battlefield this turn.
+status=not supported: no-info

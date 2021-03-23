@@ -1,0 +1,12 @@
+name=Akroan Hoplite
+image=https://magiccards.info/scans/en/cn2/197.jpg
+image_updated=2016-11-20
+value=3.570
+rarity=U
+type=Creature
+subtype=Human,Soldier
+cost={R}{W}
+pt=1/2
+ability=Whenever SN attacks, SN gets +X/+0 until end of turn, where X is the number of attacking creatures you control.
+timing=main
+oracle=Whenever Akroan Hoplite attacks, it gets +X/+0 until end of turn, where X is the number of attacking creatures you control.

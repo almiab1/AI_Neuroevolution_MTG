@@ -1,0 +1,12 @@
+name=War Priest of Thune
+image=https://magiccards.info/scans/en/ema/35.jpg
+value=4.234
+removal=1
+rarity=U
+type=Creature
+subtype=Human,Cleric
+cost={1}{W}
+pt=2/2
+ability=When SN enters the battlefield, you may destroy target enchantment.
+timing=main
+oracle=When War Priest of Thune enters the battlefield, you may destroy target enchantment.

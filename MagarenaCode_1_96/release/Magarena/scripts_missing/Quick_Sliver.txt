@@ -1,0 +1,13 @@
+name=Quick Sliver
+image=https://magiccards.info/scans/en/le/136.jpg
+value=3.988
+rarity=C
+type=Creature
+subtype=Sliver
+cost={1}{G}
+pt=1/1
+ability=Flash;\
+        Any player may cast Sliver spells as though they had flash.
+timing=flash
+oracle=Flash\nAny player may cast Sliver spells as though they had flash.
+status=not supported: card-modification

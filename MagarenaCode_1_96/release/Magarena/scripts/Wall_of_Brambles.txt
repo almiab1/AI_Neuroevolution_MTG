@@ -1,0 +1,12 @@
+name=Wall of Brambles
+image=https://magiccards.info/scans/en/5e/200.jpg
+value=3.062
+rarity=U
+type=Creature
+subtype=Plant,Wall
+cost={2}{G}
+pt=2/3
+ability=Defender;\
+        {G}: Regenerate SN.
+timing=smain
+oracle=Defender\n{G}: Regenerate Wall of Brambles.

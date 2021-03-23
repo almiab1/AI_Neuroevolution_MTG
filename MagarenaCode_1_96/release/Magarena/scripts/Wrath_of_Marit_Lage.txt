@@ -1,0 +1,10 @@
+name=Wrath of Marit Lage
+image=https://magiccards.info/scans/en/8e/115.jpg
+value=3.274
+rarity=U
+type=Enchantment
+cost={3}{U}{U}
+ability=When SN enters the battlefield, tap all red creatures.;\
+        Red creatures don't untap during their controllers' untap steps.
+timing=enchantment
+oracle=When Wrath of Marit Lage enters the battlefield, tap all red creatures.\nRed creatures don't untap during their controllers' untap steps.

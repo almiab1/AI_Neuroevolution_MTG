@@ -1,0 +1,11 @@
+name=Oreskos Sun Guide
+image=https://magiccards.info/scans/en/bng/22.jpg
+value=3.400
+rarity=C
+type=Creature
+subtype=Cat,Monk
+cost={1}{W}
+pt=2/2
+ability=Whenever SN becomes untapped, you gain 2 life.
+timing=main
+oracle=Inspired — Whenever Oreskos Sun Guide becomes untapped, you gain 2 life.

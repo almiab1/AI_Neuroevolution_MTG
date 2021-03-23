@@ -1,0 +1,13 @@
+name=Splatter Thug
+image=https://magiccards.info/scans/en/ima/146.jpg
+image_updated=2017-04-12
+value=3.074
+rarity=C
+type=Creature
+subtype=Human,Warrior
+cost={2}{R}
+pt=2/2
+ability=First strike;\
+        Unleash
+timing=main
+oracle=First strike\nUnleash

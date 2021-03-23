@@ -1,0 +1,12 @@
+name=Lightning Greaves
+image=https://magiccards.info/scans/en/c16/260.jpg
+image_updated=2017-08-17
+value=4.438
+rarity=U
+type=Artifact
+subtype=Equipment
+cost={2}
+ability=Equipped creature has haste and shroud.;\
+        Equip {0}
+timing=equipment
+oracle=Equipped creature has haste and shroud.\nEquip {0}

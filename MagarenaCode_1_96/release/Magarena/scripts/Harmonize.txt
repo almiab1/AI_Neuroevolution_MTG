@@ -1,0 +1,10 @@
+name=Harmonize
+image=https://magiccards.info/scans/en/mm3/128.jpg
+image_updated=2017-08-08
+value=3.737
+rarity=U
+type=Sorcery
+cost={2}{G}{G}
+effect=Draw three cards.
+timing=draw
+oracle=Draw three cards.

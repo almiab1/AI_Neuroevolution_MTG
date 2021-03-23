@@ -1,0 +1,10 @@
+name=Axegrinder Giant
+image=https://magiccards.info/scans/en/lw/151.jpg
+value=1.852
+rarity=C
+type=Creature
+subtype=Giant,Warrior
+cost={4}{R}{R}
+pt=6/4
+timing=main
+oracle=NONE

@@ -1,0 +1,11 @@
+name=Wreak Havoc
+image=https://magiccards.info/scans/en/gp/139.jpg
+value=3.340
+removal=4
+rarity=U
+type=Sorcery
+cost={2}{R}{G}
+ability=This spell can't be countered.
+timing=main
+effect=Destroy target artifact or land.
+oracle=This spell can't be countered.\nDestroy target artifact or land.

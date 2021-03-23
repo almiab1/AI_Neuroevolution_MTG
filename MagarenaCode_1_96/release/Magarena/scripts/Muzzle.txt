@@ -1,0 +1,12 @@
+name=Muzzle
+image=https://magiccards.info/scans/en/mm/30.jpg
+value=3.268
+rarity=C
+type=Enchantment
+subtype=Aura
+cost={1}{W}
+ability=Enchant creature
+timing=aura
+enchant=can't attack,neg creature
+oracle=Enchant creature\nPrevent all damage that would be dealt by enchanted creature.
+requires_groovy_code=Defang

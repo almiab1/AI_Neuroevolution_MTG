@@ -1,0 +1,10 @@
+name=Warriors' Lesson
+image=https://magiccards.info/scans/en/ths/184.jpg
+value=3.500
+rarity=U
+type=Instant
+cost={G}
+effect=Until end of turn, up to two target creatures you control each gain "Whenever this creature deals combat damage to a player, draw a card."
+timing=removal
+oracle=Until end of turn, up to two target creatures you control each gain "Whenever this creature deals combat damage to a player, draw a card."
+status=not supported: multiple-targets

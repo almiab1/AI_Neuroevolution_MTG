@@ -1,0 +1,11 @@
+name=Arcane Teachings
+image=https://magiccards.info/scans/en/10e/188.jpg
+value=3.616
+rarity=U
+type=Enchantment
+subtype=Aura
+cost={2}{R}
+ability=Enchanted creature gets +2/+2 and has "{T}: This creature deals 1 damage to target creature or player."
+timing=aura
+enchant=pump,pos creature
+oracle=Enchant creature\nEnchanted creature gets +2/+2 and has "{T}: This creature deals 1 damage to target creature or player."

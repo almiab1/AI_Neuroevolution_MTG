@@ -1,0 +1,12 @@
+name=Edric, Spymaster of Trest
+image=https://magiccards.info/scans/en/c16/195.jpg
+image_updated=2017-08-17
+value=4.538
+rarity=R
+type=Legendary,Creature
+subtype=Elf,Rogue
+cost={1}{G}{U}
+pt=2/2
+timing=fmain
+requires_groovy_code
+oracle=Whenever a creature deals combat damage to one of your opponents, its controller may draw a card.

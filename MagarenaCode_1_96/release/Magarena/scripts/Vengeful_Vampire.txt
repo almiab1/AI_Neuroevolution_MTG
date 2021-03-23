@@ -1,0 +1,12 @@
+name=Vengeful Vampire
+image=https://magiccards.info/scans/en/dka/78.jpg
+value=1.825
+rarity=U
+type=Creature
+subtype=Vampire
+cost={4}{B}{B}
+pt=3/2
+ability=Flying;\
+        Undying
+timing=main
+oracle=Flying\nUndying

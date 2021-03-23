@@ -1,0 +1,12 @@
+name=Varchild's War-Riders
+image=https://magiccards.info/scans/en/ai/122.jpg
+value=4.125
+rarity=R
+type=Creature
+subtype=Human,Warrior
+cost={1}{R}
+pt=3/4
+ability=Trample, rampage 1
+timing=main
+requires_groovy_code
+oracle=Cumulative upkeep—Have an opponent create a 1/1 red Survivor creature token.\nTrample, rampage 1

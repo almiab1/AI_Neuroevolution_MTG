@@ -1,0 +1,12 @@
+name=Oracle's Insight
+image=https://magiccards.info/scans/en/bng/47.jpg
+value=3.750
+rarity=U
+type=Enchantment
+subtype=Aura
+cost={3}{U}
+ability=Enchant creature;\
+        Enchanted creature has "{T}: Scry 1,~then draw a card."
+timing=aura
+enchant=pump,pos creature
+oracle=Enchant creature\nEnchanted creature has "{T}: Scry 1, then draw a card."

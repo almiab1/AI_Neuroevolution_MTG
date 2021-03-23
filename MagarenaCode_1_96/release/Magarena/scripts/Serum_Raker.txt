@@ -1,0 +1,12 @@
+name=Serum Raker
+image=https://magiccards.info/scans/en/mbs/31.jpg
+value=2.109
+rarity=C
+type=Creature
+subtype=Drake
+cost={2}{U}{U}
+pt=3/2
+ability=Flying;\
+        When SN dies, each player discards a card.
+timing=main
+oracle=Flying\nWhen Serum Raker dies, each player discards a card.

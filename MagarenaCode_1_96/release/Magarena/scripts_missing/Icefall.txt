@@ -1,0 +1,10 @@
+name=Icefall
+image=https://magiccards.info/scans/en/cs/85.jpg
+value=3.590
+rarity=C
+type=Sorcery
+cost={2}{R}{R}
+effect=Destroy target artifact or land.~Recover {R}{R}
+timing=main
+oracle=Destroy target artifact or land.\nRecover {R}{R}
+status=not supported: trigger-from-graveyard

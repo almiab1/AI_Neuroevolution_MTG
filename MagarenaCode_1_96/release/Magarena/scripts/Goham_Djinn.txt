@@ -1,0 +1,12 @@
+name=Goham Djinn
+image=https://magiccards.info/scans/en/in/107.jpg
+value=2.194
+rarity=U
+type=Creature
+subtype=Djinn
+cost={5}{B}
+pt=5/5
+ability={1}{B}: Regenerate SN.
+timing=main
+requires_groovy_code
+oracle={1}{B}: Regenerate Goham Djinn.\nGoham Djinn gets -2/-2 as long as black is the most common color among all permanents or is tied for most common.

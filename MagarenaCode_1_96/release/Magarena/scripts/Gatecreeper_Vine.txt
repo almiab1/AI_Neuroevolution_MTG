@@ -1,0 +1,12 @@
+name=Gatecreeper Vine
+image=https://magiccards.info/scans/en/rtr/124.jpg
+value=3.591
+rarity=C
+type=Creature
+subtype=Plant
+cost={1}{G}
+pt=0/2
+ability=Defender;\
+        When SN enters the battlefield, you may search your library for a basic land card or a Gate card, reveal it, put it into your hand, then shuffle your library.
+timing=smain
+oracle=Defender\nWhen Gatecreeper Vine enters the battlefield, you may search your library for a basic land card or a Gate card, reveal it, put it into your hand, then shuffle your library.

@@ -1,0 +1,13 @@
+name=Skyreach Manta
+image=https://magiccards.info/scans/en/mm2/229.jpg
+value=2.500
+rarity=C
+type=Artifact,Creature
+subtype=Fish
+cost={5}
+pt=0/0
+ability=Sunburst;\
+        Flying
+timing=main
+oracle=Sunburst\nFlying
+status=not supported: mana-spent

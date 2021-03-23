@@ -1,0 +1,10 @@
+name=Natural Selection
+image=https://magiccards.info/scans/en/un/121.jpg
+value=3.738
+rarity=R
+type=Instant
+cost={G}
+effect=Look at the top three cards of target player's library, then put them back in any order. You may have that player shuffle his or her library.
+timing=removal
+oracle=Look at the top three cards of target player's library, then put them back in any order. You may have that player shuffle his or her library.
+status=not supported: ordering-lib-top

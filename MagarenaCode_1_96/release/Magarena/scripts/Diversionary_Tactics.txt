@@ -1,0 +1,9 @@
+name=Diversionary Tactics
+image=https://magiccards.info/scans/en/ap/7.jpg
+value=2.964
+rarity=U
+type=Enchantment
+cost={3}{W}
+ability=Tap two untapped creatures you control: Tap target creature.
+timing=enchantment
+oracle=Tap two untapped creatures you control: Tap target creature.

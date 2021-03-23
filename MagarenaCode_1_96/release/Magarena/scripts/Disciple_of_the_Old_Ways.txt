@@ -1,0 +1,11 @@
+name=Disciple of the Old Ways
+image=https://magiccards.info/scans/en/gtc/118.jpg
+value=2.977
+rarity=C
+type=Creature
+subtype=Human,Warrior
+cost={1}{G}
+pt=2/2
+ability={R}: SN gains first strike until end of turn.
+timing=main
+oracle={R}: Disciple of the Old Ways gains first strike until end of turn.

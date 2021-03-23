@@ -1,0 +1,11 @@
+name=Vexing Devil
+image=https://magiccards.info/scans/en/avr/164.jpg
+value=4.083
+rarity=R
+type=Creature
+subtype=Devil
+cost={R}
+pt=4/3
+timing=main
+requires_groovy_code
+oracle=When Vexing Devil enters the battlefield, any opponent may have it deal 4 damage to him or her. If a player does, sacrifice Vexing Devil.

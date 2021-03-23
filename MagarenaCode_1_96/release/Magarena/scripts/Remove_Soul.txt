@@ -1,0 +1,10 @@
+name=Remove Soul
+image=https://magiccards.info/scans/en/10e/100.jpg
+image_updated=2015-11-13
+value=4.009
+rarity=C
+type=Instant
+cost={1}{U}
+effect=Counter target creature spell.
+timing=counter
+oracle=Counter target creature spell.

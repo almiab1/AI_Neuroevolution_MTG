@@ -1,0 +1,11 @@
+name=Deepwood Tantiv
+image=https://magiccards.info/scans/en/mm/241.jpg
+value=2.129
+rarity=U
+type=Creature
+subtype=Beast
+cost={4}{G}
+pt=2/4
+ability=Whenever SN becomes blocked, you gain 2 life.
+timing=main
+oracle=Whenever Deepwood Tantiv becomes blocked, you gain 2 life.

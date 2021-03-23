@@ -1,0 +1,11 @@
+name=Lonely Sandbar
+image=https://magiccards.info/scans/en/c14/304.jpg
+value=2.750
+rarity=C
+type=Land
+mana=u3
+ability=SN enters the battlefield tapped.;\
+        {T}: Add {U}.;\
+        Cycling {U}
+timing=tapland
+oracle=Lonely Sandbar enters the battlefield tapped.\n{T}: Add {U}.\nCycling {U}

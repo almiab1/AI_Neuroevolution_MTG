@@ -1,0 +1,10 @@
+name=Maw of the Mire
+image=https://magiccards.info/scans/en/isd/108.jpg
+value=2.123
+removal=3
+rarity=C
+type=Sorcery
+cost={4}{B}
+effect=Destroy target land.~You gain 4 life.
+timing=removal
+oracle=Destroy target land. You gain 4 life.

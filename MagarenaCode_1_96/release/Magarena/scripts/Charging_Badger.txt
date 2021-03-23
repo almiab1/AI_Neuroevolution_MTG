@@ -1,0 +1,11 @@
+name=Charging Badger
+image=https://magiccards.info/scans/en/bng/118.jpg
+value=3.846
+rarity=C
+type=Creature
+subtype=Badger
+cost={G}
+pt=1/1
+ability=Trample
+timing=main
+oracle=Trample

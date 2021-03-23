@@ -1,0 +1,10 @@
+name=Darkblast
+image=https://magiccards.info/scans/en/rav/82.jpg
+value=4.191
+rarity=U
+type=Instant
+cost={B}
+effect=Target creature gets -1/-1 until end of turn.~Dredge 3
+timing=removal
+oracle=Target creature gets -1/-1 until end of turn.\nDredge 3
+status=not supported: trigger-from-graveyard

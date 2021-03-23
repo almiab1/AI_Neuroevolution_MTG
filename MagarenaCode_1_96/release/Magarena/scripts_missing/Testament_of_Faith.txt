@@ -1,0 +1,10 @@
+name=Testament of Faith
+image=https://magiccards.info/scans/en/od/55.jpg
+value=2.679
+rarity=U
+type=Enchantment
+cost={W}
+ability={X}: SN becomes an X/X Wall creature with defender in addition to its other types until end of turn.
+timing=enchantment
+oracle={X}: Testament of Faith becomes an X/X Wall creature with defender in addition to its other types until end of turn.
+status=needs groovy

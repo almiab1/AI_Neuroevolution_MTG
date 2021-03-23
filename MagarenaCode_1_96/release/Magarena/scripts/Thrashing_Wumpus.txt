@@ -1,0 +1,11 @@
+name=Thrashing Wumpus
+image=https://magiccards.info/scans/en/mm/166.jpg
+value=4.196
+rarity=R
+type=Creature
+subtype=Beast
+cost={3}{B}{B}
+pt=3/3
+ability={B}: SN deals 1 damage to each creature and each player.
+timing=main
+oracle={B}: Thrashing Wumpus deals 1 damage to each creature and each player.

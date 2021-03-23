@@ -1,0 +1,11 @@
+name=Timbermaw Larva
+image=https://magiccards.info/scans/en/zen/189.jpg
+value=3.859
+rarity=C
+type=Creature
+subtype=Beast
+cost={3}{G}
+pt=2/2
+ability=Whenever SN attacks, SN gets +1/+1 until end of turn for each Forest you control.
+timing=main
+oracle=Whenever Timbermaw Larva attacks, it gets +1/+1 until end of turn for each Forest you control.

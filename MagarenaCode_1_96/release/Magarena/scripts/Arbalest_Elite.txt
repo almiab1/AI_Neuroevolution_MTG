@@ -1,0 +1,11 @@
+name=Arbalest Elite
+image=https://magiccards.info/scans/en/m12/5.jpg
+value=1.788
+rarity=U
+type=Creature
+subtype=Human,Archer
+cost={2}{W}{W}
+pt=2/3
+ability={2}{W}, {T}: SN deals 3 damage to target attacking or blocking creature.~SN doesn't untap during your next untap step.
+timing=main
+oracle={2}{W}, {T}: Arbalest Elite deals 3 damage to target attacking or blocking creature. Arbalest Elite doesn't untap during your next untap step.

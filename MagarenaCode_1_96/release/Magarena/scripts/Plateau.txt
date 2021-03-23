@@ -1,0 +1,9 @@
+name=Plateau
+image=https://magiccards.info/scans/en/rv/296.jpg
+value=4.500
+rarity=R
+type=Land
+subtype=Mountain,Plains
+mana=r4w4
+timing=land
+oracle=NONE

@@ -1,0 +1,11 @@
+name=Death Grasp
+image=https://magiccards.info/scans/en/ap/95.jpg
+image_updated=2016-02-29
+value=4.000
+removal=4
+rarity=R
+type=Sorcery
+cost={X}{W}{B}
+effect=SN deals X damage to target creature or player.~You gain X life.
+timing=removal
+oracle=Death Grasp deals X damage to target creature or player. You gain X life.

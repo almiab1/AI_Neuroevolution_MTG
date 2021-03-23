@@ -1,0 +1,12 @@
+name=Steward of Valeron
+image=https://magiccards.info/scans/en/ala/198.jpg
+value=3.687
+rarity=C
+type=Creature
+subtype=Human,Druid,Knight
+cost={G}{W}
+pt=2/2
+ability=Vigilance;\
+        {T}: Add {G}.
+timing=main
+oracle=Vigilance\n{T}: Add {G}.

@@ -1,0 +1,11 @@
+name=Grand Melee
+image=https://magiccards.info/scans/en/on/211.jpg
+value=3.597
+rarity=R
+type=Enchantment
+cost={3}{R}
+ability=All creatures attack each combat if able.;\
+        All creatures block each combat if able.
+timing=enchantment
+oracle=All creatures attack each combat if able.\nAll creatures block each combat if able.
+status=not supported: blocking-restriction

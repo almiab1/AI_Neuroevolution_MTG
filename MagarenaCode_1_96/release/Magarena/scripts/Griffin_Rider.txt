@@ -1,0 +1,11 @@
+name=Griffin Rider
+image=https://magiccards.info/scans/en/m12/20.jpg
+value=3.685
+rarity=C
+type=Creature
+subtype=Human,Knight
+cost={1}{W}
+pt=1/1
+ability=As long as you control a Griffin creature, SN gets +3/+3 and has flying.
+timing=main
+oracle=As long as you control a Griffin creature, Griffin Rider gets +3/+3 and has flying.

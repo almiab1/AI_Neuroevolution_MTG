@@ -1,0 +1,12 @@
+name=Magus of the Unseen
+image=https://magiccards.info/scans/en/5e/102.jpg
+value=4.000
+rarity=R
+type=Creature
+subtype=Human,Wizard
+cost={1}{U}
+pt=1/1
+ability={1}{U}, {T}: Untap target artifact an opponent controls and gain control of it until end of turn. It gains haste until end of turn. When you lose control of the artifact, tap it.
+timing=main
+oracle={1}{U}, {T}: Untap target artifact an opponent controls and gain control of it until end of turn. It gains haste until end of turn. When you lose control of the artifact, tap it.
+status=needs groovy

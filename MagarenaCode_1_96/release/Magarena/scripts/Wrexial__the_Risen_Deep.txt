@@ -1,0 +1,12 @@
+name=Wrexial, the Risen Deep
+image=https://magiccards.info/scans/en/cmd/239.jpg
+value=3.855
+rarity=M
+type=Legendary,Creature
+subtype=Kraken
+cost={3}{U}{U}{B}
+pt=5/8
+ability=Islandwalk, swampwalk;\
+        Whenever SN deals combat damage to a player, you may cast target instant or sorcery card from that player's graveyard without paying its mana cost. If that card would be put into a graveyard this turn, exile it instead.
+timing=main
+oracle=Islandwalk, swampwalk\nWhenever Wrexial, the Risen Deep deals combat damage to a player, you may cast target instant or sorcery card from that player's graveyard without paying its mana cost. If that card would be put into a graveyard this turn, exile it instead.

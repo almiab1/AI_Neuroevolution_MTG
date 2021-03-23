@@ -1,0 +1,13 @@
+name=Nefashu
+image=https://magiccards.info/scans/en/sc/70.jpg
+image_updated=2017-01-01
+value=3.816
+rarity=R
+type=Creature
+subtype=Zombie,Mutant
+cost={4}{B}{B}
+pt=5/3
+ability=Whenever SN attacks, up to five target creatures each get -1/-1 until end of turn.
+timing=main
+oracle=Whenever Nefashu attacks, up to five target creatures each get -1/-1 until end of turn.
+status=not supported: multiple-targets

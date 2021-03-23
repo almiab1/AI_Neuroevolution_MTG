@@ -1,0 +1,10 @@
+name=Human Frailty
+image=https://magiccards.info/scans/en/avr/109.jpg
+value=2.939
+removal=2
+rarity=U
+type=Instant
+cost={B}
+effect=Destroy target Human creature.
+timing=removal
+oracle=Destroy target Human creature.

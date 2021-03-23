@@ -1,0 +1,10 @@
+name=Aluren
+image=https://magiccards.info/scans/en/tp/107.jpg
+value=2.500
+rarity=R
+type=Enchantment
+cost={2}{G}{G}
+ability=Any player may cast creature spells with converted mana cost 3 or less without paying their mana cost and as though they had flash.
+timing=enchantment
+oracle=Any player may cast creature spells with converted mana cost 3 or less without paying their mana cost and as though they had flash.
+status=not supported: card-modification

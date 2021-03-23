@@ -1,0 +1,9 @@
+name=Enshrined Memories
+image=https://magiccards.info/scans/en/bok/124.jpg
+value=3.410
+rarity=R
+type=Sorcery
+cost={X}{G}
+timing=main
+requires_groovy_code
+oracle=Reveal the top X cards of your library. Put all creature cards revealed this way into your hand and the rest on the bottom of your library in any order.

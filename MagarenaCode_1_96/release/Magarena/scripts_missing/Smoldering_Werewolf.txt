@@ -1,0 +1,15 @@
+name=Smoldering Werewolf
+image=https://magiccards.info/scans/en/emn/142a.jpg
+image_updated=2016-09-05
+value=2.500
+rarity=U
+type=Creature
+subtype=Werewolf,Horror
+cost={2}{R}{R}
+pt=3/2
+ability=When SN enters the battlefield, it deals 1 damage to each of up to two target creatures.;\
+        {4}{R}{R}: Transform SN.
+transform=Erupting Dreadwolf
+timing=main
+oracle=When Smoldering Werewolf enters the battlefield, it deals 1 damage to each of up to two target creatures.\n{4}{R}{R}: Transform Smoldering Werewolf.
+status=not supported: multiple-targets

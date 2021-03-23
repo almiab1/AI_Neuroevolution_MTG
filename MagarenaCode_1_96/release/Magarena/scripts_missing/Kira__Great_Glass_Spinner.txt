@@ -1,0 +1,13 @@
+name=Kira, Great Glass-Spinner
+image=https://magiccards.info/scans/en/mma/49.jpg
+value=4.463
+rarity=R
+type=Legendary,Creature
+subtype=Spirit
+cost={1}{U}{U}
+pt=2/2
+ability=Flying;\
+        Creatures you control have "Whenever this creature becomes the target of a spell or ability for the first time each turn, counter that spell or ability."
+timing=main
+oracle=Flying\nCreatures you control have "Whenever this creature becomes the target of a spell or ability for the first time each turn, counter that spell or ability."
+status=not supported: no-info

@@ -1,0 +1,10 @@
+name=Urban Evolution
+image=https://magiccards.info/scans/en/mm3/198.jpg
+image_updated=2017-08-08
+value=3.547
+rarity=U
+type=Sorcery
+cost={3}{G}{U}
+timing=main
+requires_groovy_code
+oracle=Draw three cards. You may play an additional land this turn.

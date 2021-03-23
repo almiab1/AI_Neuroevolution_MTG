@@ -1,0 +1,13 @@
+name=Jaraku the Interloper
+image=https://magiccards.info/scans/en/bok/31b.jpg
+value=2.500
+rarity=U
+type=Legendary,Creature
+subtype=Spirit
+cost={1}{U}{U}
+pt=3/4
+ability=Remove a ki counter from SN: Counter target spell unless its controller pays {2}.
+flip=Callow Jushi
+timing=main
+hidden
+oracle=Remove a ki counter from Jaraku the Interloper: Counter target spell unless its controller pays {2}.

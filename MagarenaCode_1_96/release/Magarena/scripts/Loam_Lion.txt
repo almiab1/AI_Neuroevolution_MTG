@@ -1,0 +1,11 @@
+name=Loam Lion
+image=https://magiccards.info/scans/en/wwk/13.jpg
+value=4.318
+rarity=U
+type=Creature
+subtype=Cat
+cost={W}
+pt=1/1
+ability=SN gets +1/+2 as long as you control a Forest.
+timing=main
+oracle=Loam Lion gets +1/+2 as long as you control a Forest.

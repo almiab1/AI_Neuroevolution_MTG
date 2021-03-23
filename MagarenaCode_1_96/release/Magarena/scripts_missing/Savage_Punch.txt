@@ -1,0 +1,10 @@
+name=Savage Punch
+image=https://magiccards.info/scans/en/ktk/147.jpg
+value=3.000
+rarity=C
+type=Sorcery
+cost={1}{G}
+effect=Target creature you control fights target creature you don't control.~The creature you control gets +2/+2 until end of turn before it fights if you control a creature with power 4 or greater.
+timing=main
+oracle=Target creature you control fights target creature you don't control.\nFerocious — The creature you control gets +2/+2 until end of turn before it fights if you control a creature with power 4 or greater.
+status=not supported: multiple-targets

@@ -1,0 +1,12 @@
+name=Recoup
+image=https://magiccards.info/scans/en/od/216.jpg
+image_updated=2017-01-06
+value=4.553
+rarity=U
+type=Sorcery
+cost={1}{R}
+ability=Flashback {3}{R}
+effect=Target sorcery card in your graveyard gains flashback until end of turn. The flashback cost is equal to its mana cost.
+timing=main
+oracle=Target sorcery card in your graveyard gains flashback until end of turn. The flashback cost is equal to its mana cost.\nFlashback {3}{R}
+status=needs groovy

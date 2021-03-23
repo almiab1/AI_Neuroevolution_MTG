@@ -1,0 +1,10 @@
+name=Inquisitor's Snare
+image=https://magiccards.info/scans/en/shm/8.jpg
+value=2.786
+rarity=C
+type=Instant
+cost={1}{W}
+effect=Prevent all damage target attacking or blocking creature would deal this turn. If that creature is black or red, destroy it.
+timing=removal
+oracle=Prevent all damage target attacking or blocking creature would deal this turn. If that creature is black or red, destroy it.
+status=needs groovy

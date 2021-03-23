@@ -1,0 +1,9 @@
+name=Sphere of Resistance
+image=https://magiccards.info/scans/en/ex/139.jpg
+value=4.500
+rarity=R
+type=Artifact
+cost={2}
+ability=Spells cost {1} more to cast.
+timing=artifact
+oracle=Spells cost {1} more to cast.

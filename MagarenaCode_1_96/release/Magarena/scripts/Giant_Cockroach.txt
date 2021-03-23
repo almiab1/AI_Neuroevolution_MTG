@@ -1,0 +1,10 @@
+name=Giant Cockroach
+image=https://magiccards.info/scans/en/9e/133.jpg
+value=1.737
+rarity=C
+type=Creature
+subtype=Insect
+cost={3}{B}
+pt=4/2
+timing=main
+oracle=NONE

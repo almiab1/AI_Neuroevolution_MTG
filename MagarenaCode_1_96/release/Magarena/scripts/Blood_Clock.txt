@@ -1,0 +1,9 @@
+name=Blood Clock
+image=https://magiccards.info/scans/en/sok/153.jpg
+value=3.041
+rarity=R
+type=Artifact
+cost={4}
+timing=artifact
+requires_groovy_code
+oracle=At the beginning of each player's upkeep, that player returns a permanent he or she controls to its owner's hand unless he or she pays 2 life.

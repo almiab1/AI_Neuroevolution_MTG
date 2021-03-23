@@ -1,0 +1,13 @@
+name=Eight-and-a-Half-Tails
+image=https://magiccards.info/scans/en/ema/7.jpg
+value=4.076
+rarity=R
+type=Legendary,Creature
+subtype=Fox,Cleric
+cost={W}{W}
+pt=2/2
+ability={1}{W}: Target permanent you control gains protection from white until end of turn.;\
+        {1}: Target spell or permanent becomes white until end of turn.
+timing=main
+oracle={1}{W}: Target permanent you control gains protection from white until end of turn.\n{1}: Target spell or permanent becomes white until end of turn.
+status=not supported: spell-modification

@@ -1,0 +1,9 @@
+name=Graveyard Shovel
+image=https://magiccards.info/scans/en/isd/225.jpg
+value=1.898
+rarity=U
+type=Artifact
+cost={2}
+timing=artifact
+requires_groovy_code
+oracle={2}, {T}: Target player exiles a card from his or her graveyard. If it's a creature card, you gain 2 life.

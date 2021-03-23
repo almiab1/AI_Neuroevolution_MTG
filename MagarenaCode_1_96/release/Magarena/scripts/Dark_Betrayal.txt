@@ -1,0 +1,9 @@
+name=Dark Betrayal
+image=https://magiccards.info/scans/en/ths/83.jpg
+value=3.538
+rarity=U
+type=Instant
+cost={B}
+effect=Destroy target black creature.
+timing=removal
+oracle=Destroy target black creature.

@@ -1,0 +1,10 @@
+name=Worldpurge
+image=https://magiccards.info/scans/en/shm/156.jpg
+value=3.145
+rarity=R
+type=Sorcery
+cost={4}{W/U}{W/U}{W/U}{W/U}
+effect=Return all permanentss.
+timing=main
+oracle=Return all permanentss.
+status=needs groovy

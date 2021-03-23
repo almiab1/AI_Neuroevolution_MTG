@@ -1,0 +1,15 @@
+name=Deathbringer Liege
+image=https://magiccards.info/scans/en/eve/85.jpg
+value=4.195
+rarity=R
+type=Creature
+subtype=Horror
+cost={2}{W/B}{W/B}{W/B}
+pt=3/4
+ability=Other white creatures you control get +1/+1;\
+        Other black creatures you control get +1/+1;\
+        Whenever you cast a white spell, you may tap target creature.
+static=player
+timing=main
+requires_groovy_code
+oracle=Other white creatures you control get +1/+1.\nOther black creatures you control get +1/+1.\nWhenever you cast a white spell, you may tap target creature.\nWhenever you cast a black spell, you may destroy target creature if it's tapped.

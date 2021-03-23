@@ -1,0 +1,12 @@
+name=Weatherseed Treefolk
+image=https://magiccards.info/scans/en/ul/116.jpg
+value=4.399
+rarity=R
+type=Creature
+subtype=Treefolk
+cost={2}{G}{G}{G}
+pt=5/3
+ability=Trample;\
+        When SN dies, return SN from the graveyard to its owner's hand.
+timing=main
+oracle=Trample\nWhen Weatherseed Treefolk dies, return it to its owner's hand.

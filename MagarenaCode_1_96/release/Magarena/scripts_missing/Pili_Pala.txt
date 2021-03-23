@@ -1,0 +1,13 @@
+name=Pili-Pala
+image=https://magiccards.info/scans/en/shm/258.jpg
+value=3.615
+rarity=C
+type=Artifact,Creature
+subtype=Scarecrow
+cost={2}
+pt=1/1
+ability=Flying;\
+        {2}, {Q}: Add one mana of any color.
+timing=main
+oracle=Flying\n{2}, {Q}: Add one mana of any color.
+status=not supported: mana-ability-with-choice

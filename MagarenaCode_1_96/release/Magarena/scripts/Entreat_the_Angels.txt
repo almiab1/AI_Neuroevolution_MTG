@@ -1,0 +1,11 @@
+name=Entreat the Angels
+image=https://magiccards.info/scans/en/mm3/4.jpg
+image_updated=2017-08-08
+value=3.950
+rarity=M
+type=Sorcery
+cost={X}{X}{W}{W}{W}
+ability=Miracle {X}{W}{W}
+effect=Create X 4/4 white Angel creature tokens with flying.
+timing=main
+oracle=Create X 4/4 white Angel creature tokens with flying.\nMiracle {X}{W}{W}

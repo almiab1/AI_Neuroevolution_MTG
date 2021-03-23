@@ -1,0 +1,9 @@
+name=Isolation Cell
+image=https://magiccards.info/scans/en/nph/141.jpg
+value=3.062
+rarity=U
+type=Artifact
+cost={4}
+timing=artifact
+requires_groovy_code
+oracle=Whenever an opponent casts a creature spell, that player loses 2 life unless he or she pays {2}.

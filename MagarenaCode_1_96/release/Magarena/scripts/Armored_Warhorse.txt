@@ -1,0 +1,10 @@
+name=Armored Warhorse
+image=https://magiccards.info/scans/en/m12/7.jpg
+value=3.106
+rarity=C
+type=Creature
+subtype=Horse
+cost={W}{W}
+pt=2/3
+timing=main
+oracle=NONE

@@ -1,0 +1,12 @@
+name=Sigiled Starfish
+image=https://magiccards.info/scans/en/ori/73.jpg
+image_updated=2015-11-05
+value=2.500
+rarity=U
+type=Creature
+subtype=Starfish
+cost={1}{U}
+pt=0/3
+ability={T}: Scry 1.
+timing=main
+oracle={T}: Scry 1.

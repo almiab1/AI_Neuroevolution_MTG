@@ -1,0 +1,13 @@
+name=Psychotrope Thallid
+image=https://magiccards.info/scans/en/pc/137.jpg
+value=3.583
+rarity=U
+type=Creature
+subtype=Fungus
+cost={2}{G}
+pt=1/1
+ability=At the beginning of your upkeep, put a spore counter on SN.;\
+        Remove three spore counters from SN: Create a 1/1 green Saproling creature token.;\
+        {1}, Sacrifice a Saproling: Draw a card.
+timing=main
+oracle=At the beginning of your upkeep, put a spore counter on Psychotrope Thallid.\nRemove three spore counters from Psychotrope Thallid: Create a 1/1 green Saproling creature token.\n{1}, Sacrifice a Saproling: Draw a card.

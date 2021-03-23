@@ -1,0 +1,11 @@
+name=Shore Snapper
+image=https://magiccards.info/scans/en/ala/87.jpg
+value=1.957
+rarity=C
+type=Creature
+subtype=Beast
+cost={2}{B}
+pt=2/2
+ability={U}: SN gains islandwalk until end of turn.
+timing=main
+oracle={U}: Shore Snapper gains islandwalk until end of turn.

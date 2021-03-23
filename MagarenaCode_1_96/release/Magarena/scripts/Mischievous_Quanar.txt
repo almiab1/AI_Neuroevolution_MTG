@@ -1,0 +1,13 @@
+name=Mischievous Quanar
+image=https://magiccards.info/scans/en/sc/42.jpg
+value=4.068
+rarity=R
+type=Creature
+subtype=Beast
+cost={4}{U}
+pt=3/3
+ability={3}{U}{U}: Turn SN face down.;\
+        Morph {1}{U}{U};\
+        When SN is turned face up, copy target instant or sorcery spell. You may choose new targets for that copy.
+timing=main
+oracle={3}{U}{U}: Turn Mischievous Quanar face down.\nMorph {1}{U}{U}\nWhen Mischievous Quanar is turned face up, copy target instant or sorcery spell. You may choose new targets for that copy.

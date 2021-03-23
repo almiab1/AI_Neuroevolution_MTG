@@ -1,0 +1,11 @@
+name=Lethal Vapors
+image=https://magiccards.info/scans/en/sc/68.jpg
+value=4.221
+rarity=R
+type=Enchantment
+cost={2}{B}{B}
+ability=Whenever a creature enters the battlefield, destroy it.;\
+        {0}: Destroy SN. You skip your next turn. Any player may activate this ability.
+timing=enchantment
+oracle=Whenever a creature enters the battlefield, destroy it.\n{0}: Destroy Lethal Vapors. You skip your next turn. Any player may activate this ability.
+status=not supported: skip-action

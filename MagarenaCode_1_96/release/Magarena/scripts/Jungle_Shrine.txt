@@ -1,0 +1,11 @@
+name=Jungle Shrine
+image=https://magiccards.info/scans/en/mm3/238.jpg
+image_updated=2017-08-08
+value=3.958
+rarity=U
+type=Land
+mana=r2g2w2
+ability=SN enters the battlefield tapped.;\
+        {T}: Add {R}, {G}, or {W}.
+timing=tapland
+oracle=Jungle Shrine enters the battlefield tapped.\n{T}: Add {R}, {G}, or {W}.

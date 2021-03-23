@@ -1,0 +1,11 @@
+name=Ronin Cavekeeper
+image=https://magiccards.info/scans/en/sok/111.jpg
+value=2.156
+rarity=C
+type=Creature
+subtype=Human,Samurai
+cost={5}{R}
+pt=4/3
+ability=Bushido 2
+timing=main
+oracle=Bushido 2

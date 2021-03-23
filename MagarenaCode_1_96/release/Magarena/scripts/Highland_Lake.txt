@@ -1,0 +1,11 @@
+name=Highland Lake
+image=https://magiccards.info/scans/en/m19/252.jpg
+image_updated=2018-08-07
+value=2.500
+rarity=C
+type=Land
+mana=u3r3
+ability=SN enters the battlefield tapped.;\
+        {T}: Add {U} or {R}.
+timing=land
+oracle=Highland Lake enters the battlefield tapped.\n{T}: Add {U} or {R}.

@@ -1,0 +1,12 @@
+name=Blessing
+image=https://magiccards.info/scans/en/4e/259.jpg
+value=3.153
+rarity=U
+type=Enchantment
+subtype=Aura
+cost={W}{W}
+ability=Enchant creature;\
+        {W}: Enchanted creature gets +1/+1 until end of turn.
+timing=aura
+enchant=pump,pos creature
+oracle=Enchant creature\n{W}: Enchanted creature gets +1/+1 until end of turn.

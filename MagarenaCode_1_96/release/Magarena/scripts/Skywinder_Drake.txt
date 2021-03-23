@@ -1,0 +1,12 @@
+name=Skywinder Drake
+image=https://magiccards.info/scans/en/m12/75.jpg
+value=3.070
+rarity=C
+type=Creature
+subtype=Drake
+cost={2}{U}
+pt=3/1
+ability=Flying;\
+        SN can block only creatures with flying.
+timing=main
+oracle=Flying\nSkywinder Drake can block only creatures with flying.

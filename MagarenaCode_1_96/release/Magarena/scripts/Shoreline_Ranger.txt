@@ -1,0 +1,13 @@
+name=Shoreline Ranger
+image=https://magiccards.info/scans/en/a25/72.jpg
+image_updated=2018-04-27
+value=3.900
+rarity=C
+type=Creature
+subtype=Bird,Soldier
+cost={5}{U}
+pt=3/4
+ability=Flying;\
+        Islandcycling {2}
+timing=main
+oracle=Flying\nIslandcycling {2}

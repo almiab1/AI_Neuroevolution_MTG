@@ -1,0 +1,11 @@
+name=Tukatongue Thallid
+image=https://magiccards.info/scans/en/mm2/167.jpg
+value=2.931
+rarity=C
+type=Creature
+subtype=Fungus
+cost={G}
+pt=1/1
+ability=When SN dies, create a 1/1 green Saproling creature token.
+timing=main
+oracle=When Tukatongue Thallid dies, create a 1/1 green Saproling creature token.

@@ -1,0 +1,13 @@
+name=Karametra, God of Harvests
+image=https://magiccards.info/scans/en/bng/148.jpg
+value=3.255
+rarity=M
+type=Legendary,Enchantment,Creature
+subtype=God
+cost={3}{G}{W}
+pt=6/7
+ability=Indestructible;\
+        Whenever you cast a creature spell, you may search your library for a Forest or Plains card, put it onto the battlefield tapped, then shuffle your library.
+timing=main
+requires_groovy_code
+oracle=Indestructible\nAs long as your devotion to green and white is less than seven, Karametra isn't a creature.\nWhenever you cast a creature spell, you may search your library for a Forest or Plains card, put it onto the battlefield tapped, then shuffle your library.

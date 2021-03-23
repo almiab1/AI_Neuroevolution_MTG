@@ -1,0 +1,9 @@
+name=Phytoburst
+image=https://magiccards.info/scans/en/dgm/46.jpg
+value=3.629
+rarity=C
+type=Sorcery
+cost={1}{G}
+effect=Target creature gets +5/+5 until end of turn.
+timing=fmain
+oracle=Target creature gets +5/+5 until end of turn.

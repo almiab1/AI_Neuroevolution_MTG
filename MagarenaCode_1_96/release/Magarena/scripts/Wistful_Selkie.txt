@@ -1,0 +1,12 @@
+name=Wistful Selkie
+image=https://magiccards.info/scans/en/eve/165.jpg
+image_updated=2016-02-29
+value=3.421
+rarity=U
+type=Creature
+subtype=Merfolk,Wizard
+cost={G/U}{G/U}{G/U}
+pt=2/2
+ability=When SN enters the battlefield, draw a card.
+timing=main
+oracle=When Wistful Selkie enters the battlefield, draw a card.

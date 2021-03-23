@@ -1,0 +1,10 @@
+name=Disperse
+image=https://magiccards.info/scans/en/m19/50.jpg
+image_updated=2018-08-07
+value=2.500
+rarity=C
+type=Instant
+cost={1}{U}
+effect=Return target nonland permanent to its owner's hand.
+timing=removal
+oracle=Return target nonland permanent to its owner's hand.

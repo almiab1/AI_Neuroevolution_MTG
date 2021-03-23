@@ -1,0 +1,13 @@
+name=Mantle of Leadership
+image=https://magiccards.info/scans/en/pc/9.jpg
+value=3.295
+rarity=U
+type=Enchantment
+subtype=Aura
+cost={1}{W}
+ability=Flash;\
+        Enchant creature;\
+        Whenever a creature enters the battlefield, enchanted creature gets +2/+2 until end of turn.
+timing=pumpFlash
+enchant=pump,pos creature
+oracle=Flash\nEnchant creature\nWhenever a creature enters the battlefield, enchanted creature gets +2/+2 until end of turn.

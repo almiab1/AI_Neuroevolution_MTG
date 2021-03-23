@@ -1,0 +1,13 @@
+name=Curse of Oblivion
+image=https://magiccards.info/scans/en/isd/95.jpg
+value=2.308
+rarity=C
+type=Enchantment
+subtype=Aura,Curse
+cost={3}{B}
+ability=Enchant player;\
+        At the beginning of enchanted player's upkeep, that player exiles two cards from his or her graveyard.
+timing=aura
+enchant=default,player
+oracle=Enchant player\nAt the beginning of enchanted player's upkeep, that player exiles two cards from his or her graveyard.
+status=not supported: enchant-player

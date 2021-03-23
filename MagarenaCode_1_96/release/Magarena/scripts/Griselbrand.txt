@@ -1,0 +1,13 @@
+name=Griselbrand
+image=https://magiccards.info/scans/en/mm3/72.jpg
+image_updated=2017-08-08
+value=4.311
+rarity=M
+type=Legendary,Creature
+subtype=Demon
+cost={4}{B}{B}{B}{B}
+pt=7/7
+ability=Flying, lifelink;\
+        Pay 7 life: Draw seven cards.
+timing=main
+oracle=Flying, lifelink\nPay 7 life: Draw seven cards.

@@ -1,0 +1,13 @@
+name=Thraben Foulbloods
+image=https://magiccards.info/scans/en/emn/108.jpg
+image_updated=2016-09-05
+value=2.500
+rarity=C
+type=Creature
+subtype=Zombie,Hound
+cost={2}{B}
+pt=3/2
+ability=SN gets +1/+1 and has menace as long as there are four or more card types among cards in your graveyard.
+timing=main
+oracle=Delirium — Thraben Foulbloods gets +1/+1 and has menace as long as there are four or more card types among cards in your graveyard.
+status=not supported: blocking-restriction

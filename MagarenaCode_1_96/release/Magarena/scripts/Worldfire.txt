@@ -1,0 +1,9 @@
+name=Worldfire
+image=https://magiccards.info/scans/en/m13/158.jpg
+value=3.775
+rarity=M
+type=Sorcery
+cost={6}{R}{R}{R}
+timing=main
+requires_groovy_code
+oracle=Exile all permanents. Exile all cards from all hands and graveyards. Each player's life total becomes 1.

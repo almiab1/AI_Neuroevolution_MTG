@@ -1,0 +1,11 @@
+name=Goblin Furrier
+image=https://magiccards.info/scans/en/cs/82.jpg
+value=2.770
+rarity=C
+type=Creature
+subtype=Goblin,Warrior
+cost={1}{R}
+pt=2/2
+timing=main
+requires_groovy_code
+oracle=Prevent all damage that Goblin Furrier would deal to snow creatures.

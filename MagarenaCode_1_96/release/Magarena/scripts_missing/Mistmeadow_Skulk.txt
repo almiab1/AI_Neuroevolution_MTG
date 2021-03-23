@@ -1,0 +1,12 @@
+name=Mistmeadow Skulk
+image=https://magiccards.info/scans/en/shm/14.jpg
+value=3.797
+rarity=U
+type=Creature
+subtype=Kithkin,Rogue
+cost={1}{W}
+pt=1/1
+ability=Lifelink, protection from converted mana cost 3 or greater
+timing=main
+oracle=Lifelink, protection from converted mana cost 3 or greater
+status=not supported: missing-ability

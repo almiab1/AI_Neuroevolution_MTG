@@ -1,0 +1,10 @@
+name=Pollen Lullaby
+image=https://magiccards.info/scans/en/cmd/26.jpg
+value=2.593
+rarity=U
+type=Instant
+cost={1}{W}
+effect=Prevent all combat damage that would be dealt this turn. Clash with an opponent. If you win, creatures that player controls don't untap during the player's next untap step.
+timing=removal
+oracle=Prevent all combat damage that would be dealt this turn. Clash with an opponent. If you win, creatures that player controls don't untap during the player's next untap step.
+status=needs groovy

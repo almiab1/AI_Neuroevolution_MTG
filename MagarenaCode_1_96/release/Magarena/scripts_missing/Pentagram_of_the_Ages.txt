@@ -1,0 +1,10 @@
+name=Pentagram of the Ages
+image=https://magiccards.info/scans/en/6e/305.jpg
+value=3.205
+rarity=R
+type=Artifact
+cost={4}
+ability={4}, {T}: The next time a source of your choice would deal damage to you this turn, prevent that damage.
+timing=artifact
+oracle={4}, {T}: The next time a source of your choice would deal damage to you this turn, prevent that damage.
+status=not supported: source-deal-damage

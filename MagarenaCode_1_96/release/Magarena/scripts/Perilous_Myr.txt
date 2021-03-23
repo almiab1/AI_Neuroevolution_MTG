@@ -1,0 +1,12 @@
+name=Perilous Myr
+image=https://magiccards.info/scans/en/a25/227.jpg
+image_updated=2018-04-27
+value=4.110
+rarity=U
+type=Artifact,Creature
+subtype=Myr
+cost={2}
+pt=1/1
+ability=When SN dies, SN deals 2 damage to target creature or player.
+timing=main
+oracle=When Perilous Myr dies, it deals 2 damage to target creature or player.

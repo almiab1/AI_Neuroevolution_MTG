@@ -1,0 +1,13 @@
+name=Ogre Jailbreaker
+image=https://magiccards.info/scans/en/mm3/80.jpg
+image_updated=2017-08-08
+value=2.266
+rarity=C
+type=Creature
+subtype=Ogre,Rogue
+cost={3}{B}
+pt=4/4
+ability=Defender;\
+        SN can attack as though it didn't have defender as long as you control a Gate.
+timing=smain
+oracle=Defender\nOgre Jailbreaker can attack as though it didn't have defender as long as you control a Gate.

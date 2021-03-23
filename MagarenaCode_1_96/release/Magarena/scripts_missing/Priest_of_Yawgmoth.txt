@@ -1,0 +1,12 @@
+name=Priest of Yawgmoth
+image=https://magiccards.info/scans/en/aq/49.jpg
+value=3.946
+rarity=C
+type=Creature
+subtype=Human,Cleric
+cost={1}{B}
+pt=1/2
+ability={T}, Sacrifice an artifact: Add an amount of {B} equal to the sacrificed artifact's converted mana cost.
+timing=main
+oracle={T}, Sacrifice an artifact: Add an amount of {B} equal to the sacrificed artifact's converted mana cost.
+status=not supported: add-multiple-mana

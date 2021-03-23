@@ -1,0 +1,13 @@
+name=Cackling Imp
+image=https://magiccards.info/scans/en/5dn/44.jpg
+image_updated=2016-11-28
+value=1.895
+rarity=C
+type=Creature
+subtype=Imp
+cost={2}{B}{B}
+pt=2/2
+ability=Flying;\
+        {T}: Target player loses 1 life.
+timing=main
+oracle=Flying\n{T}: Target player loses 1 life.

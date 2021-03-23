@@ -1,0 +1,13 @@
+name=Mark of Sakiko
+image=https://magiccards.info/scans/en/bok/135.jpg
+value=3.330
+rarity=U
+type=Enchantment
+subtype=Aura
+cost={1}{G}
+ability=Enchant creature;\
+        Enchanted creature has "Whenever this creature deals combat damage as steps and phases end."
+timing=aura
+enchant=default,creature
+oracle=Enchant creature\nEnchanted creature has "Whenever this creature deals combat damage as steps and phases end."
+status=not supported: add-multiple-mana

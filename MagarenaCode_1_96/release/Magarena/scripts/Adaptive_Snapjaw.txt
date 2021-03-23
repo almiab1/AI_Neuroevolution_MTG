@@ -1,0 +1,11 @@
+name=Adaptive Snapjaw
+image=https://magiccards.info/scans/en/gtc/113.jpg
+value=3.047
+rarity=C
+type=Creature
+subtype=Lizard,Beast
+cost={4}{G}
+pt=6/2
+ability=Evolve
+timing=main
+oracle=Evolve

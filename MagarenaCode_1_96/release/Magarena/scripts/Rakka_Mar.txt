@@ -1,0 +1,12 @@
+name=Rakka Mar
+image=https://magiccards.info/scans/en/cfx/71.jpg
+value=3.482
+rarity=R
+type=Legendary,Creature
+subtype=Human,Shaman
+cost={2}{R}{R}
+pt=2/2
+ability=Haste;\
+        {R}, {T}: Create a 3/1 red Elemental creature token with haste.
+timing=fmain
+oracle=Haste\n{R}, {T}: Create a 3/1 red Elemental creature token with haste.

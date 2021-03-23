@@ -1,0 +1,12 @@
+name=Wirewood Channeler
+image=https://magiccards.info/scans/en/le/144.jpg
+value=3.881
+rarity=U
+type=Creature
+subtype=Elf,Druid
+cost={3}{G}
+pt=2/2
+ability={T}: Add X mana of any one color, where X is the number of Elves on the battlefield.
+timing=main
+oracle={T}: Add X mana of any one color, where X is the number of Elves on the battlefield.
+status=not supported: add-multiple-mana

@@ -1,0 +1,9 @@
+name=Respite
+image=https://magiccards.info/scans/en/cns/176.jpg
+value=4.000
+rarity=C
+type=Instant
+cost={1}{G}
+effect=Prevent all combat damage that would be dealt this turn.~You gain 1 life for each attacking creature.
+timing=block
+oracle=Prevent all combat damage that would be dealt this turn. You gain 1 life for each attacking creature.

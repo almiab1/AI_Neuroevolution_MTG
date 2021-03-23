@@ -1,0 +1,9 @@
+name=Repay in Kind
+image=https://magiccards.info/scans/en/roe/125.jpg
+value=3.446
+rarity=R
+type=Sorcery
+cost={5}{B}{B}
+timing=main
+oracle=Each player's life total becomes the lowest life total among all players.
+requires_groovy_code

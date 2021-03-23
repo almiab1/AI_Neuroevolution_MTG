@@ -1,0 +1,12 @@
+name=Murk Dwellers
+image=https://magiccards.info/scans/en/5e/42.jpg
+value=1.654
+rarity=C
+type=Creature
+subtype=Zombie
+cost={3}{B}
+pt=2/2
+ability=Whenever SN attacks and isn't blocked, SN gets +2/+0 until end of combat.
+timing=main
+oracle=Whenever Murk Dwellers attacks and isn't blocked, it gets +2/+0 until end of combat.
+status=needs groovy

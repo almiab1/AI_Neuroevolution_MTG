@@ -1,0 +1,12 @@
+name=Vampire Lacerator
+image=https://magiccards.info/scans/en/a25/114.jpg
+image_updated=2018-04-27
+value=2.500
+rarity=C
+type=Creature
+subtype=Vampire,Warrior
+cost={B}
+pt=2/2
+timing=main
+requires_groovy_code
+oracle=At the beginning of your upkeep, you lose 1 life unless an opponent has 10 or less life.

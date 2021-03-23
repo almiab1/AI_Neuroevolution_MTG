@@ -1,0 +1,10 @@
+name=Ultimate Price
+image=https://magiccards.info/scans/en/dtk/124.jpg
+value=3.310
+removal=3
+rarity=U
+type=Instant
+cost={1}{B}
+effect=Destroy target monocolored creature.
+timing=removal
+oracle=Destroy target monocolored creature.

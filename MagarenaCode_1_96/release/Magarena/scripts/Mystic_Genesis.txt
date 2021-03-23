@@ -1,0 +1,10 @@
+name=Mystic Genesis
+image=https://magiccards.info/scans/en/mm3/174.jpg
+image_updated=2017-08-08
+value=3.388
+rarity=U
+type=Instant
+cost={2}{G}{U}{U}
+timing=counter
+requires_groovy_code
+oracle=Counter target spell. Create an X/X green Ooze creature token, where X is that spell's converted mana cost.

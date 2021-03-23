@@ -1,0 +1,10 @@
+name=Recollect
+image=https://magiccards.info/scans/en/m19/197.jpg
+image_updated=2018-08-07
+value=3.779
+rarity=U
+type=Sorcery
+cost={2}{G}
+effect=Return target card from your graveyard to your hand.
+timing=draw
+oracle=Return target card from your graveyard to your hand.

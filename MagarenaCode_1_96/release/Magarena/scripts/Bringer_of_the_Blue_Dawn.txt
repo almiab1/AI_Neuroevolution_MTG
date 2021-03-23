@@ -1,0 +1,13 @@
+name=Bringer of the Blue Dawn
+image=https://magiccards.info/scans/en/5dn/26.jpg
+value=4.280
+rarity=R
+type=Creature
+subtype=Bringer
+cost={7}{U}{U}
+pt=5/5
+ability=You may pay {W}{U}{B}{R}{G} rather than pay this spell's mana cost.;\
+        Trample;\
+        At the beginning of your upkeep, you may draw two cards.
+timing=main
+oracle=You may pay {W}{U}{B}{R}{G} rather than pay this spell's mana cost.\nTrample\nAt the beginning of your upkeep, you may draw two cards.

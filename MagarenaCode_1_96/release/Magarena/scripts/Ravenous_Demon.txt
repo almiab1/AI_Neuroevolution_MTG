@@ -1,0 +1,12 @@
+name=Ravenous Demon
+image=https://magiccards.info/scans/en/dka/71a.jpg
+value=3.273
+rarity=R
+type=Creature
+subtype=Demon
+cost={3}{B}{B}
+pt=4/4
+ability=Sacrifice a Human: Transform SN. Activate this ability only any time you could cast a sorcery.
+transform=Archdemon of Greed
+timing=main
+oracle=Sacrifice a Human: Transform Ravenous Demon. Activate this ability only any time you could cast a sorcery.

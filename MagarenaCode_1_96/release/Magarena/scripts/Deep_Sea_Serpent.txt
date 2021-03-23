@@ -1,0 +1,11 @@
+name=Deep-Sea Serpent
+image=https://magiccards.info/scans/en/po/52.jpg
+value=1.729
+rarity=U
+type=Creature
+subtype=Serpent
+cost={4}{U}{U}
+pt=5/5
+ability=SN can't attack unless defending player controls an Island.
+timing=main
+oracle=Deep-Sea Serpent can't attack unless defending player controls an Island.

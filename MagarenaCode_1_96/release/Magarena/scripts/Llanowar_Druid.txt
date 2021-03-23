@@ -1,0 +1,11 @@
+name=Llanowar Druid
+image=https://magiccards.info/scans/en/wl/75.jpg
+value=4.110
+rarity=C
+type=Creature
+subtype=Elf,Druid
+cost={1}{G}
+pt=1/2
+ability={T}, Sacrifice SN: Untap all Forests.
+timing=main
+oracle={T}, Sacrifice Llanowar Druid: Untap all Forests.

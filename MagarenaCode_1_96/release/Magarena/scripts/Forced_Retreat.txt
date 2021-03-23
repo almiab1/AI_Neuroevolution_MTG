@@ -1,0 +1,9 @@
+name=Forced Retreat
+image=https://magiccards.info/scans/en/p3k/44.jpg
+value=3.096
+rarity=C
+type=Sorcery
+cost={2}{U}
+effect=Put target creature on top of its owner's library.
+timing=main
+oracle=Put target creature on top of its owner's library.

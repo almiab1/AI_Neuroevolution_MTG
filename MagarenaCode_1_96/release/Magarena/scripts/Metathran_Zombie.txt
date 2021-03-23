@@ -1,0 +1,11 @@
+name=Metathran Zombie
+image=https://magiccards.info/scans/en/in/63.jpg
+value=3.079
+rarity=C
+type=Creature
+subtype=Metathran,Zombie
+cost={1}{U}
+pt=1/1
+ability={B}: Regenerate SN.
+timing=main
+oracle={B}: Regenerate Metathran Zombie.

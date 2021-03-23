@@ -1,0 +1,14 @@
+name=Cogwork Grinder
+image=https://magiccards.info/scans/en/cns/57.jpg
+value=3.278
+rarity=R
+type=Artifact,Creature
+subtype=Construct
+cost={6}
+pt=0/0
+ability=Draft SN face up.;\
+        As you draft a card, you may remove it from the draft face down.;\
+        SN enters the battlefield with X +1/+1 counters on it, where X is the number of cards you removed from the draft with cards named Cogwork Grinder.
+timing=main
+oracle=Draft Cogwork Grinder face up.\nAs you draft a card, you may remove it from the draft face down.\nCogwork Grinder enters the battlefield with X +1/+1 counters on it, where X is the number of cards you removed from the draft with cards named Cogwork Grinder.
+status=not supported: draft

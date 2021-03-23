@@ -1,0 +1,12 @@
+name=Kitsune Dawnblade
+image=https://magiccards.info/scans/en/sok/16.jpg
+value=1.743
+rarity=C
+type=Creature
+subtype=Fox,Samurai
+cost={4}{W}
+pt=2/3
+ability=Bushido 1;\
+        When SN enters the battlefield, you may tap target creature.
+timing=main
+oracle=Bushido 1\nWhen Kitsune Dawnblade enters the battlefield, you may tap target creature.

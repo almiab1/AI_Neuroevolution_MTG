@@ -1,0 +1,10 @@
+name=Rites of Reaping
+image=https://magiccards.info/scans/en/rtr/191.jpg
+value=1.433
+rarity=U
+type=Sorcery
+cost={4}{B}{G}
+effect=Target creature gets +3/+3 until end of turn. Another target creature gets -3/-3 until end of turn.
+timing=main
+oracle=Target creature gets +3/+3 until end of turn. Another target creature gets -3/-3 until end of turn.
+status=not supported: multiple-targets

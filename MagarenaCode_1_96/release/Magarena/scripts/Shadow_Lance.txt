@@ -1,0 +1,13 @@
+name=Shadow Lance
+image=https://magiccards.info/scans/en/gp/14.jpg
+value=3.575
+rarity=U
+type=Enchantment
+subtype=Aura
+cost={W}
+ability=Enchant creature;\
+        Enchanted creature has first strike.;\
+        {1}{B}: Enchanted creature gets +2/+2 until end of turn.
+timing=aura
+enchant=pump,pos creature
+oracle=Enchant creature\nEnchanted creature has first strike.\n{1}{B}: Enchanted creature gets +2/+2 until end of turn.

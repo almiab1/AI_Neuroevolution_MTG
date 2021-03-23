@@ -1,0 +1,14 @@
+name=Hell's Thunder
+image=https://magiccards.info/scans/en/ala/103.jpg
+image_updated=2016-12-10
+value=3.627
+rarity=R
+type=Creature
+subtype=Elemental
+cost={1}{R}{R}
+pt=4/4
+ability=Flying, haste;\
+        At the beginning of the end step, sacrifice SN.;\
+        Unearth {4}{R}
+timing=fmain
+oracle=Flying, haste\nAt the beginning of the end step, sacrifice Hell's Thunder.\nUnearth {4}{R}

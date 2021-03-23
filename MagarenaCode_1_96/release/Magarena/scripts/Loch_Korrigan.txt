@@ -1,0 +1,11 @@
+name=Loch Korrigan
+image=https://magiccards.info/scans/en/shm/71.jpg
+value=1.618
+rarity=C
+type=Creature
+subtype=Spirit
+cost={3}{B}
+pt=1/1
+ability={U/B}: SN gets +1/+1 until end of turn.
+timing=main
+oracle={U/B}: Loch Korrigan gets +1/+1 until end of turn.

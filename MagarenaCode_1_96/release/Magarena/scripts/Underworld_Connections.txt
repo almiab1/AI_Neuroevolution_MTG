@@ -1,0 +1,13 @@
+name=Underworld Connections
+image=https://magiccards.info/scans/en/rtr/83.jpg
+image_updated=2016-02-29
+value=3.921
+rarity=R
+type=Enchantment
+subtype=Aura
+cost={1}{B}{B}
+ability=Enchant land;\
+        Enchanted land has "{T}, Pay 1 life: Draw a card."
+timing=aura
+enchant=sacrifice,pos land
+oracle=Enchant land\nEnchanted land has "{T}, Pay 1 life: Draw a card."

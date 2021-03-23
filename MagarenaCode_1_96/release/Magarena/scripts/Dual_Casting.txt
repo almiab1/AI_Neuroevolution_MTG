@@ -1,0 +1,12 @@
+name=Dual Casting
+image=https://magiccards.info/scans/en/avr/133.jpg
+value=3.729
+rarity=R
+type=Enchantment
+subtype=Aura
+cost={1}{R}
+ability=Enchant creature;\
+        Enchanted creature has "{R}, {T}: Copy target instant or sorcery spell you control. You may choose new targets for the copy."
+timing=aura
+enchant=pump,pos creature
+oracle=Enchant creature\nEnchanted creature has "{R}, {T}: Copy target instant or sorcery spell you control. You may choose new targets for the copy."

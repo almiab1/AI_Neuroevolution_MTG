@@ -1,0 +1,12 @@
+name=Magus of the Arena
+image=https://magiccards.info/scans/en/pc/104.jpg
+value=3.600
+rarity=R
+type=Creature
+subtype=Human,Wizard
+cost={4}{R}{R}
+pt=5/5
+ability={3}, {T}: Tap target creature you control and target creature of an opponent's choice he or she controls. Those creatures fight each other.
+timing=main
+oracle={3}, {T}: Tap target creature you control and target creature of an opponent's choice he or she controls. Those creatures fight each other.
+status=not supported: multiple-targets

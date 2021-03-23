@@ -1,0 +1,10 @@
+name=Distant Melody
+image=https://magiccards.info/scans/en/mt/32.jpg
+value=3.625
+rarity=C
+type=Sorcery
+cost={3}{U}
+effect=Choose a creature type. Draw a card for each permanent you control of that type.
+timing=main
+oracle=Choose a creature type. Draw a card for each permanent you control of that type.
+status=not supported: choose-creature-type

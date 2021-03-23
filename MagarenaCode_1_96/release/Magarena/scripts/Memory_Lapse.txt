@@ -1,0 +1,9 @@
+name=Memory Lapse
+image=https://magiccards.info/scans/en/ema/60.jpg
+value=4.554
+rarity=C
+type=Instant
+cost={1}{U}
+timing=counter
+requires_groovy_code
+oracle=Counter target spell. If that spell is countered this way, put it on top of its owner's library instead of into that player's graveyard.

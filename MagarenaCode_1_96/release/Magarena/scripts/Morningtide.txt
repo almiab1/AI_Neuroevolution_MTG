@@ -1,0 +1,9 @@
+name=Morningtide
+image=https://magiccards.info/scans/en/tr/10.jpg
+value=3.643
+rarity=R
+type=Sorcery
+cost={1}{W}
+effect=Exile all cards from all graveyards.
+timing=main
+oracle=Exile all cards from all graveyards.

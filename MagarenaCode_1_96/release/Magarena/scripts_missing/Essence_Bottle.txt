@@ -1,0 +1,10 @@
+name=Essence Bottle
+image=https://magiccards.info/scans/en/tp/276.jpg
+value=1.320
+rarity=U
+type=Artifact
+cost={2}
+ability={3}, {T}: Put an elixir counter on SN.;\
+        {T}, Remove all elixir counters from SN: You gain 2 life for each elixir counter removed this way.
+timing=artifact
+oracle={3}, {T}: Put an elixir counter on Essence Bottle.\n{T}, Remove all elixir counters from Essence Bottle: You gain 2 life for each elixir counter removed this way.

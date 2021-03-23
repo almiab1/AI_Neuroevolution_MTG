@@ -1,0 +1,10 @@
+name=Damping Field
+image=https://magiccards.info/scans/en/aq/98.jpg
+value=2.969
+rarity=U
+type=Enchantment
+cost={2}{W}
+ability=Players can't untap more than one artifact during their untap steps.
+timing=enchantment
+oracle=Players can't untap more than one artifact during their untap steps.
+status=not supported: cant-untap-more-than

@@ -1,0 +1,13 @@
+name=Vampire Bats
+image=https://magiccards.info/scans/en/10e/186.jpg
+image_updated=2017-01-11
+value=3.348
+rarity=C
+type=Creature
+subtype=Bat
+cost={B}
+pt=0/1
+ability=Flying;\
+        {B}: SN gets +1/+0 until end of turn. Activate this ability no more than twice each turn.
+timing=main
+oracle=Flying\n{B}: Vampire Bats gets +1/+0 until end of turn. Activate this ability no more than twice each turn.

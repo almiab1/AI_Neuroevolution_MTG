@@ -1,0 +1,9 @@
+name=Niveous Wisps
+image=https://magiccards.info/scans/en/shm/15.jpg
+value=2.967
+rarity=C
+type=Instant
+cost={W}
+timing=tapping
+requires_groovy_code
+oracle=Target creature becomes white until end of turn. Tap that creature.\nDraw a card.

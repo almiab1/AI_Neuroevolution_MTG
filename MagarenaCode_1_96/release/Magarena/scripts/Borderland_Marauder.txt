@@ -1,0 +1,12 @@
+name=Borderland Marauder
+image=https://magiccards.info/scans/en/ima/119.jpg
+image_updated=2017-04-12
+value=3.833
+rarity=C
+type=Creature
+subtype=Human,Warrior
+cost={1}{R}
+pt=1/2
+ability=Whenever SN attacks, SN gets +2/+0 until end of turn.
+timing=main
+oracle=Whenever Borderland Marauder attacks, it gets +2/+0 until end of turn.

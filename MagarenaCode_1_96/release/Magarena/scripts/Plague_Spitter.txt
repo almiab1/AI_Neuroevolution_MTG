@@ -1,0 +1,12 @@
+name=Plague Spitter
+image=https://magiccards.info/scans/en/in/119.jpg
+value=4.246
+rarity=U
+type=Creature
+subtype=Horror
+cost={2}{B}
+pt=2/2
+ability=At the beginning of your upkeep, SN deals 1 damage to each creature and each player.;\
+        When SN dies, SN deals 1 damage to each creature and each player.
+timing=main
+oracle=At the beginning of your upkeep, Plague Spitter deals 1 damage to each creature and each player.\nWhen Plague Spitter dies, Plague Spitter deals 1 damage to each creature and each player.

@@ -1,0 +1,12 @@
+name=Avenger of Zendikar
+image=https://magiccards.info/scans/en/wwk/96.jpg
+value=3.608
+rarity=M
+type=Creature
+subtype=Elemental
+cost={5}{G}{G}
+pt=5/5
+ability=When SN enters the battlefield, create a 0/1 green Plant creature token for each land you control.;\
+        Whenever a land enters the battlefield under your control, you may put a +1/+1 counter on each Plant creature you control.
+timing=main
+oracle=When Avenger of Zendikar enters the battlefield, create a 0/1 green Plant creature token for each land you control.\nLandfall — Whenever a land enters the battlefield under your control, you may put a +1/+1 counter on each Plant creature you control.

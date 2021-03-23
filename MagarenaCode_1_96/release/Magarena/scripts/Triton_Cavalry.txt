@@ -1,0 +1,11 @@
+name=Triton Cavalry
+image=https://magiccards.info/scans/en/jou/55.jpg
+value=3.619
+rarity=U
+type=Creature
+subtype=Merfolk,Soldier
+cost={3}{U}
+pt=2/4
+ability=Whenever you cast a spell that targets SN, you may return target enchantment to its owner's hand.
+timing=main
+oracle=Heroic — Whenever you cast a spell that targets Triton Cavalry, you may return target enchantment to its owner's hand.

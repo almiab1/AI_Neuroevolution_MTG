@@ -1,0 +1,11 @@
+name=Salt Flats
+image=https://magiccards.info/scans/en/tp/330.jpg
+value=2.838
+rarity=R
+type=Land
+mana=w2b2
+ability=SN enters the battlefield tapped.;\
+        {T}: Add {C}.;\
+        {T}: Add {W} or {B}. SN deals 1 damage to you.
+timing=tapland
+oracle=Salt Flats enters the battlefield tapped.\n{T}: Add {C}.\n{T}: Add {W} or {B}. Salt Flats deals 1 damage to you.

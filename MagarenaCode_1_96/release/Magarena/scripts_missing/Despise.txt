@@ -1,0 +1,10 @@
+name=Despise
+image=https://magiccards.info/scans/en/ktk/69.jpg
+value=3.750
+rarity=U
+type=Sorcery
+cost={B}
+effect=Target opponent reveals his or her hand. You choose a creature or planeswalker card from it. That player discards that card.
+timing=main
+oracle=Target opponent reveals his or her hand. You choose a creature or planeswalker card from it. That player discards that card.
+status=not supported: reveal-hand

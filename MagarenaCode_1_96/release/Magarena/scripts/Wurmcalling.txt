@@ -1,0 +1,10 @@
+name=Wurmcalling
+image=https://magiccards.info/scans/en/ts/234.jpg
+value=3.910
+rarity=R
+type=Sorcery
+cost={X}{G}
+ability=Buyback {2}{G}
+timing=main
+requires_groovy_code
+oracle=Buyback {2}{G}\nCreate an X/X green Wurm creature token.

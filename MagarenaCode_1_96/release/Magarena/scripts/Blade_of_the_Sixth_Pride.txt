@@ -1,0 +1,10 @@
+name=Blade of the Sixth Pride
+image=https://magiccards.info/scans/en/fut/19.jpg
+value=3.874
+rarity=C
+type=Creature
+subtype=Cat,Rebel
+cost={1}{W}
+pt=3/1
+timing=main
+oracle=NONE

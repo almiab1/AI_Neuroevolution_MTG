@@ -1,0 +1,9 @@
+name=Corrupted Resolve
+image=https://magiccards.info/scans/en/nph/32.jpg
+value=3.742
+rarity=U
+type=Instant
+cost={1}{U}
+timing=counter
+requires_groovy_code
+oracle=Counter target spell if its controller is poisoned.

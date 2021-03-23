@@ -1,0 +1,9 @@
+name=Collective Blessing
+image=https://magiccards.info/scans/en/rtr/150.jpg
+value=3.643
+rarity=R
+type=Enchantment
+cost={3}{G}{G}{W}
+ability=Creatures you control get +3/+3.
+timing=enchantment
+oracle=Creatures you control get +3/+3.

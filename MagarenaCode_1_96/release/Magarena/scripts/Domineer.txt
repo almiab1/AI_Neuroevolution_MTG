@@ -1,0 +1,12 @@
+name=Domineer
+image=https://magiccards.info/scans/en/mi/33.jpg
+value=3.256
+rarity=U
+type=Enchantment
+subtype=Aura
+cost={1}{U}{U}
+ability=Enchant artifact creature;\
+        You control enchanted artifact creature.
+timing=aura
+enchant=gain control,neg artifact creature
+oracle=Enchant artifact creature\nYou control enchanted artifact creature.

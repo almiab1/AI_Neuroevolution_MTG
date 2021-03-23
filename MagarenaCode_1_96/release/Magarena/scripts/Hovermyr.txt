@@ -1,0 +1,11 @@
+name=Hovermyr
+image=https://magiccards.info/scans/en/nph/138.jpg
+value=3.739
+rarity=C
+type=Artifact,Creature
+subtype=Myr
+cost={2}
+pt=1/2
+ability=Flying, vigilance
+timing=main
+oracle=Flying, vigilance

@@ -1,0 +1,10 @@
+name=Nature's Blessing
+image=https://magiccards.info/scans/en/ai/195.jpg
+value=3.500
+rarity=U
+type=Enchantment
+cost={2}{G}{W}
+ability={G}{W}, Discard a card: Put a +1/+1 counter on target creature or that creature gains banding, first strike, or trample.
+timing=enchantment
+oracle={G}{W}, Discard a card: Put a +1/+1 counter on target creature or that creature gains banding, first strike, or trample.
+status=not supported: banding

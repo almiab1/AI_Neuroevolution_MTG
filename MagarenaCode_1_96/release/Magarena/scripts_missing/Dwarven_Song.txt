@@ -1,0 +1,10 @@
+name=Dwarven Song
+image=https://magiccards.info/scans/en/lg/141.jpg
+value=2.240
+rarity=U
+type=Instant
+cost={R}
+effect=Any number of target creatures become red until end of turn.
+timing=removal
+oracle=Any number of target creatures become red until end of turn.
+status=not supported: multiple-targets

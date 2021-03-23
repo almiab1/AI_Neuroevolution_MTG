@@ -1,0 +1,11 @@
+name=Gorilla Warrior
+image=https://magiccards.info/scans/en/us/256.jpg
+image_updated=2016-12-04
+value=2.700
+rarity=C
+type=Creature
+subtype=Ape,Warrior
+cost={2}{G}
+pt=3/2
+timing=main
+oracle=NONE

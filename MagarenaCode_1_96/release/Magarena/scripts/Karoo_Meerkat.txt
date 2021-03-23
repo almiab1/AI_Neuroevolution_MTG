@@ -1,0 +1,11 @@
+name=Karoo Meerkat
+image=https://magiccards.info/scans/en/mr/123.jpg
+value=3.575
+rarity=U
+type=Creature
+subtype=Mongoose
+cost={1}{G}
+pt=2/1
+ability=Protection from blue
+timing=main
+oracle=Protection from blue

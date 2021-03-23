@@ -1,0 +1,13 @@
+name=Cloudblazer
+image=https://magiccards.info/scans/en/a25/201.jpg
+image_updated=2018-04-27
+value=2.500
+rarity=U
+type=Creature
+subtype=Human,Scout
+cost={3}{W}{U}
+pt=2/2
+ability=Flying;\
+        When SN enters the battlefield, you gain 2 life~and draw two cards.
+timing=main
+oracle=Flying\nWhen Cloudblazer enters the battlefield, you gain 2 life and draw two cards.

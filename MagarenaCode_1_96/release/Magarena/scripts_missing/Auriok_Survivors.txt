@@ -1,0 +1,12 @@
+name=Auriok Survivors
+image=https://magiccards.info/scans/en/nph/3.jpg
+value=2.890
+rarity=U
+type=Creature
+subtype=Human,Soldier
+cost={5}{W}
+pt=4/6
+ability=When SN enters the battlefield, you may return target Equipment card from your graveyard to the battlefield. If you do, you may attach it to SN.
+timing=main
+oracle=When Auriok Survivors enters the battlefield, you may return target Equipment card from your graveyard to the battlefield. If you do, you may attach it to Auriok Survivors.
+status=needs groovy

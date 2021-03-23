@@ -1,0 +1,9 @@
+name=Melting
+image=https://magiccards.info/scans/en/ia/201.jpg
+value=1.619
+rarity=U
+type=Enchantment
+cost={3}{R}
+timing=enchantment
+oracle=All lands are no longer snow.
+requires_groovy_code

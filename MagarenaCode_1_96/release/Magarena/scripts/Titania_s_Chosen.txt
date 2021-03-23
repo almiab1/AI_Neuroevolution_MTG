@@ -1,0 +1,11 @@
+name=Titania's Chosen
+image=https://magiccards.info/scans/en/c14/221.jpg
+value=4.022
+rarity=U
+type=Creature
+subtype=Elf,Archer
+cost={2}{G}
+pt=1/1
+ability=Whenever a player casts a green spell, put a +1/+1 counter on SN.
+timing=main
+oracle=Whenever a player casts a green spell, put a +1/+1 counter on Titania's Chosen.

@@ -1,0 +1,15 @@
+name=Teferi's Imp
+image=https://magiccards.info/scans/en/mr/98.jpg
+value=3.064
+rarity=R
+type=Creature
+subtype=Imp
+cost={2}{U}
+pt=1/1
+ability=Flying;\
+        Phasing;\
+        Whenever SN phases out, discard a card.;\
+        Whenever SN phases in, draw a card.
+timing=main
+oracle=Flying\nPhasing\nWhenever Teferi's Imp phases out, discard a card.\nWhenever Teferi's Imp phases in, draw a card.
+status=not supported: phasing

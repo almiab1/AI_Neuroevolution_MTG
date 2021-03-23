@@ -1,0 +1,11 @@
+name=Timberland Ruins
+image=https://magiccards.info/scans/en/od/330.jpg
+value=2.617
+rarity=C
+type=Land
+mana=w1u1b1r1g3
+ability=SN enters the battlefield tapped.;\
+        {T}: Add {G}.;\
+        {T}, Sacrifice SN: Add one mana of any color.
+timing=tapland
+oracle=Timberland Ruins enters the battlefield tapped.\n{T}: Add {G}.\n{T}, Sacrifice Timberland Ruins: Add one mana of any color.

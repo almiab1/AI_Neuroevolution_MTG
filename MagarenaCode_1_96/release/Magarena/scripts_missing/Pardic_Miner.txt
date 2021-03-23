@@ -1,0 +1,11 @@
+name=Pardic Miner
+image=https://magiccards.info/scans/en/od/212.jpg
+value=2.783
+rarity=R
+type=Creature
+subtype=Dwarf
+cost={1}{R}
+pt=1/1
+ability=Sacrifice SN: Target player can't play lands this turn.
+timing=main
+oracle=Sacrifice Pardic Miner: Target player can't play lands this turn.

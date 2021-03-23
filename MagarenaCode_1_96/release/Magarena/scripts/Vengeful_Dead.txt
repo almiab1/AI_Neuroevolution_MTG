@@ -1,0 +1,11 @@
+name=Vengeful Dead
+image=https://magiccards.info/scans/en/sc/80.jpg
+value=3.833
+rarity=C
+type=Creature
+subtype=Zombie
+cost={3}{B}
+pt=3/2
+ability=Whenever SN or another Zombie dies, each opponent loses 1 life.
+timing=main
+oracle=Whenever Vengeful Dead or another Zombie dies, each opponent loses 1 life.

@@ -1,0 +1,12 @@
+name=Tithe Drinker
+image=https://magiccards.info/scans/en/dgm/109.jpg
+value=3.811
+rarity=C
+type=Creature
+subtype=Vampire
+cost={W}{B}
+pt=2/1
+ability=Lifelink;\
+        Extort
+timing=main
+oracle=Lifelink\nExtort

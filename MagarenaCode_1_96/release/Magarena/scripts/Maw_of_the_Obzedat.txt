@@ -1,0 +1,11 @@
+name=Maw of the Obzedat
+image=https://magiccards.info/scans/en/dgm/83.jpg
+value=3.405
+rarity=U
+type=Creature
+subtype=Thrull
+cost={3}{W}{B}
+pt=3/3
+ability=Sacrifice a creature: Creatures you control get +1/+1 until end of turn.
+timing=main
+oracle=Sacrifice a creature: Creatures you control get +1/+1 until end of turn.

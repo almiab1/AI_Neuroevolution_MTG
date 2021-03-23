@@ -1,0 +1,13 @@
+name=Mycologist
+image=https://magiccards.info/scans/en/pc/27.jpg
+value=2.961
+rarity=U
+type=Creature
+subtype=Human,Druid
+cost={1}{W}
+pt=0/2
+ability=At the beginning of your upkeep, put a spore counter on SN.;\
+        Remove three spore counters from SN: Create a 1/1 green Saproling creature token.;\
+        Sacrifice a Saproling: You gain 2 life.
+timing=main
+oracle=At the beginning of your upkeep, put a spore counter on Mycologist.\nRemove three spore counters from Mycologist: Create a 1/1 green Saproling creature token.\nSacrifice a Saproling: You gain 2 life.

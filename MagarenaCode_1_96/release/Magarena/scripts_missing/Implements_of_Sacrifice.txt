@@ -1,0 +1,10 @@
+name=Implements of Sacrifice
+image=https://magiccards.info/scans/en/fe/173.jpg
+value=2.819
+rarity=R
+type=Artifact
+cost={2}
+ability={1}, {T}, Sacrifice SN: Add two mana of any one color.
+timing=artifact
+oracle={1}, {T}, Sacrifice Implements of Sacrifice: Add two mana of any one color.
+status=not supported: add-multiple-mana

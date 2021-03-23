@@ -1,0 +1,11 @@
+name=Vastwood Animist
+image=https://magiccards.info/scans/en/wwk/116.jpg
+value=2.823
+rarity=U
+type=Creature
+subtype=Elf,Shaman,Ally
+cost={2}{G}
+pt=1/1
+timing=main
+requires_groovy_code
+oracle={T}: Target land you control becomes an X/X Elemental creature until end of turn, where X is the number of Allies you control. It's still a land.

@@ -1,0 +1,13 @@
+name=Scuttlemutt
+image=https://magiccards.info/scans/en/shm/263.jpg
+value=3.897
+rarity=C
+type=Artifact,Creature
+subtype=Scarecrow
+cost={3}
+pt=2/2
+ability={T}: Add one mana of any color.;\
+        {T}: Target creature becomes the color or colors of your choice until end of turn.
+timing=main
+oracle={T}: Add one mana of any color.\n{T}: Target creature becomes the color or colors of your choice until end of turn.
+status=not supported: choose-colors

@@ -1,0 +1,11 @@
+name=Ghostfire
+image=https://magiccards.info/scans/en/fut/115.jpg
+value=3.649
+rarity=C
+type=Instant
+cost={2}{R}
+color=
+timing=removal
+removal=3
+effect=SN deals 3 damage to target creature or player.
+oracle=Ghostfire is colorless.\nGhostfire deals 3 damage to target creature or player.

@@ -1,0 +1,11 @@
+name=Temporal Trespass
+image=https://magiccards.info/scans/en/frf/55.jpg
+value=2.500
+rarity=M
+type=Sorcery
+cost={8}{U}{U}{U}
+ability=Delve
+effect=Take an extra turn after this one. Exile SN.
+timing=main
+oracle=Delve\nTake an extra turn after this one. Exile Temporal Trespass.
+status=not supported: delve

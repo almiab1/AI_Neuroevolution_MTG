@@ -1,0 +1,13 @@
+name=Tidehollow Sculler
+image=https://magiccards.info/scans/en/mma/184.jpg
+value=4.500
+rarity=U
+type=Artifact,Creature
+subtype=Zombie
+cost={W}{B}
+pt=2/2
+ability=When SN enters the battlefield, target opponent reveals his or her hand and you choose a nonland card from it. Exile that card.;\
+        When SN leaves the battlefield, return the exiled card to its owner's hand.
+timing=main
+oracle=When Tidehollow Sculler enters the battlefield, target opponent reveals his or her hand and you choose a nonland card from it. Exile that card.\nWhen Tidehollow Sculler leaves the battlefield, return the exiled card to its owner's hand.
+status=not supported: reveal-hand

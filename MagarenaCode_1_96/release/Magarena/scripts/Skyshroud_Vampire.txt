@@ -1,0 +1,12 @@
+name=Skyshroud Vampire
+image=https://magiccards.info/scans/en/tp/51.jpg
+value=3.368
+rarity=U
+type=Creature
+subtype=Vampire
+cost={3}{B}{B}
+pt=3/3
+ability=Flying;\
+        Discard a creature card: SN gets +2/+2 until end of turn.
+timing=main
+oracle=Flying\nDiscard a creature card: Skyshroud Vampire gets +2/+2 until end of turn.

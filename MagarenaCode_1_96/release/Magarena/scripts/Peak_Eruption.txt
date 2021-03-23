@@ -1,0 +1,9 @@
+name=Peak Eruption
+image=https://magiccards.info/scans/en/ths/132.jpg
+value=3.250
+rarity=U
+type=Sorcery
+cost={2}{R}
+effect=Destroy target Mountain.~SN deals 3 damage to that land's controller.
+timing=main
+oracle=Destroy target Mountain. Peak Eruption deals 3 damage to that land's controller.

@@ -1,0 +1,10 @@
+name=Dream Salvage
+image=https://magiccards.info/scans/en/shm/160.jpg
+value=3.683
+rarity=U
+type=Instant
+cost={U/B}
+effect=Draw cards equal to the number of cards target opponent discarded this turn.
+timing=removal
+oracle=Draw cards equal to the number of cards target opponent discarded this turn.
+status=not supported: no-info

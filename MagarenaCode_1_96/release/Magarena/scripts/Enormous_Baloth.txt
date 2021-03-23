@@ -1,0 +1,10 @@
+name=Enormous Baloth
+image=https://magiccards.info/scans/en/m10/180.jpg
+value=2.939
+rarity=U
+type=Creature
+subtype=Beast
+cost={6}{G}
+pt=7/7
+timing=main
+oracle=NONE

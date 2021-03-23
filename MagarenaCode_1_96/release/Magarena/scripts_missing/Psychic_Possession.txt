@@ -1,0 +1,14 @@
+name=Psychic Possession
+image=https://magiccards.info/scans/en/di/30.jpg
+value=3.949
+rarity=R
+type=Enchantment
+subtype=Aura
+cost={2}{U}{U}
+ability=Enchant opponent;\
+        Skip your draw step.;\
+        Whenever enchanted opponent draws a card, you may draw a card.
+timing=aura
+enchant=default,opponent
+oracle=Enchant opponent\nSkip your draw step.\nWhenever enchanted opponent draws a card, you may draw a card.
+status=not supported: skip-action

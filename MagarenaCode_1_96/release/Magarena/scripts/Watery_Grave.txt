@@ -1,0 +1,10 @@
+name=Watery Grave
+image=https://magiccards.info/scans/en/gtc/249.jpg
+value=4.122
+rarity=R
+type=Land
+subtype=Island,Swamp
+mana=u3b3
+ability=As SN enters the battlefield, you may pay 2 life. If you don't, SN enters the battlefield tapped.
+timing=land
+oracle=As Watery Grave enters the battlefield, you may pay 2 life. If you don't, Watery Grave enters the battlefield tapped.

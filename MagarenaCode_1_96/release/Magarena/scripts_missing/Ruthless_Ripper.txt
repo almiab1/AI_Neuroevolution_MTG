@@ -1,0 +1,15 @@
+name=Ruthless Ripper
+image=https://magiccards.info/scans/en/a25/107.jpg
+image_updated=2018-04-25
+value=2.500
+rarity=C
+type=Creature
+subtype=Human,Assassin
+cost={B}
+pt=1/1
+ability=Deathtouch;\
+        Morph—Reveal a black card in your hand.;\
+        When SN is turned face up, target player loses 2 life.
+timing=main
+oracle=Deathtouch\nMorph—Reveal a black card in your hand.\nWhen Ruthless Ripper is turned face up, target player loses 2 life.
+status=not supported: reveal-cost

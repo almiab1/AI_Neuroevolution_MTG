@@ -1,0 +1,13 @@
+name=Minotaur Tactician
+image=https://magiccards.info/scans/en/ap/65.jpg
+value=1.387
+rarity=C
+type=Creature
+subtype=Minotaur
+cost={3}{R}
+pt=1/1
+ability=Haste;\
+        SN gets +1/+1 as long as you control a white creature.;\
+        SN gets +1/+1 as long as you control a blue creature.
+timing=fmain
+oracle=Haste\nMinotaur Tactician gets +1/+1 as long as you control a white creature.\nMinotaur Tactician gets +1/+1 as long as you control a blue creature.

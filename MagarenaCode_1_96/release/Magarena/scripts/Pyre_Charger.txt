@@ -1,0 +1,13 @@
+name=Pyre Charger
+image=https://magiccards.info/scans/en/shm/103.jpg
+image_updated=2017-01-03
+value=3.012
+rarity=U
+type=Creature
+subtype=Elemental,Warrior
+cost={R}{R}
+pt=1/1
+ability=Haste;\
+        {R}: SN gets +1/+0 until end of turn.
+timing=fmain
+oracle=Haste\n{R}: Pyre Charger gets +1/+0 until end of turn.

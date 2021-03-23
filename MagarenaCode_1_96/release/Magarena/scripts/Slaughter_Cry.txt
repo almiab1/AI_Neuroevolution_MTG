@@ -1,0 +1,9 @@
+name=Slaughter Cry
+image=https://magiccards.info/scans/en/m12/155.jpg
+value=2.182
+rarity=C
+type=Instant
+cost={2}{R}
+effect=Target creature gets +3/+0 and gains first strike until end of turn.
+timing=pump
+oracle=Target creature gets +3/+0 and gains first strike until end of turn.

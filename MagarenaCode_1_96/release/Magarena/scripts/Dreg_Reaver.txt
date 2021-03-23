@@ -1,0 +1,10 @@
+name=Dreg Reaver
+image=https://magiccards.info/scans/en/ala/73.jpg
+value=1.389
+rarity=C
+type=Creature
+subtype=Zombie,Beast
+cost={4}{B}
+pt=4/3
+timing=main
+oracle=NONE

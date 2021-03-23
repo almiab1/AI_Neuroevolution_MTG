@@ -1,0 +1,13 @@
+name=Casting of Bones
+image=https://magiccards.info/scans/en/cstd/22.jpg
+value=3.402
+rarity=C
+type=Enchantment
+subtype=Aura
+cost={2}{B}
+ability=Enchant creature;\
+        When enchanted creature dies, draw three cards, then discard one of them.
+timing=aura
+enchant=default,creature
+oracle=Enchant creature\nWhen enchanted creature dies, draw three cards, then discard one of them.
+status=not supported: discard-drawn

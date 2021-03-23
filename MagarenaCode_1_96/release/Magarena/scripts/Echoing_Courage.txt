@@ -1,0 +1,10 @@
+name=Echoing Courage
+image=https://magiccards.info/scans/en/a25/166.jpg
+image_updated=2018-04-27
+value=3.667
+rarity=C
+type=Instant
+cost={1}{G}
+timing=pump
+requires_groovy_code
+oracle=Target creature and all other creatures with the same name as that creature get +2/+2 until end of turn.

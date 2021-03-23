@@ -1,0 +1,10 @@
+name=Spy Network
+image=https://magiccards.info/scans/en/on/115.jpg
+value=4.063
+rarity=C
+type=Instant
+cost={U}
+effect=Look at target player's hand, the top card of that player's library, and any face-down creatures he or she controls. Look at the top four cards of your library, then put them back in any order.
+timing=removal
+oracle=Look at target player's hand, the top card of that player's library, and any face-down creatures he or she controls. Look at the top four cards of your library, then put them back in any order.
+status=not supported: ordering-lib-top

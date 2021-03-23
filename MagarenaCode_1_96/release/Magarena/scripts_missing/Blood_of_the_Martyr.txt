@@ -1,0 +1,9 @@
+name=Blood of the Martyr
+image=https://magiccards.info/scans/en/ch/60.jpg
+value=3.050
+rarity=U
+type=Instant
+cost={W}{W}{W}
+effect=Until end of turn, if damage would be dealt to any creature, you may have that damage dealt to you instead.
+timing=removal
+oracle=Until end of turn, if damage would be dealt to any creature, you may have that damage dealt to you instead.

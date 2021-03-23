@@ -1,0 +1,11 @@
+name=Scattershot Archer
+image=https://magiccards.info/scans/en/cfx/90.jpg
+value=3.640
+rarity=C
+type=Creature
+subtype=Elf,Archer
+cost={G}
+pt=1/2
+ability={T}: SN deals 1 damage to each creature with flying.
+timing=main
+oracle={T}: Scattershot Archer deals 1 damage to each creature with flying.

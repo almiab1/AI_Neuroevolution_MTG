@@ -1,0 +1,10 @@
+name=Magnetic Theft
+image=https://magiccards.info/scans/en/5dn/74.jpg
+value=3.712
+rarity=U
+type=Instant
+cost={R}
+effect=Attach target Equipment to target creature.
+timing=removal
+oracle=Attach target Equipment to target creature.
+status=not supported: multiple-targets

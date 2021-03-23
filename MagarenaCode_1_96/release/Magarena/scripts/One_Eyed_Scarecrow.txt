@@ -1,0 +1,14 @@
+name=One-Eyed Scarecrow
+image=https://magiccards.info/scans/en/isd/230.jpg
+value=2.831
+removal=1
+rarity=C
+type=Artifact,Creature
+subtype=Scarecrow
+cost={3}
+pt=2/3
+ability=Defender;\
+        Creatures with flying your opponents control get -1/-0.
+static=opponent
+timing=main
+oracle=Defender\nCreatures with flying your opponents control get -1/-0.

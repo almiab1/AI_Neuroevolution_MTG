@@ -1,0 +1,11 @@
+name=Red Cliffs Armada
+image=https://magiccards.info/scans/en/p3k/51.jpg
+value=2.452
+rarity=U
+type=Creature
+subtype=Human,Soldier
+cost={4}{U}
+pt=5/4
+ability=SN can't attack unless defending player controls an Island.
+timing=main
+oracle=Red Cliffs Armada can't attack unless defending player controls an Island.

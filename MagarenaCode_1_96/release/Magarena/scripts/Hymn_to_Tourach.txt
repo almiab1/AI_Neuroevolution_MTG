@@ -1,0 +1,9 @@
+name=Hymn to Tourach
+image=https://magiccards.info/scans/en/ema/92.jpg
+value=4.500
+rarity=U
+type=Sorcery
+cost={B}{B}
+effect=Target player discards two cards at random.
+timing=main
+oracle=Target player discards two cards at random.

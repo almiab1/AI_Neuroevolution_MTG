@@ -1,0 +1,10 @@
+name=5/5 green Beast creature token with trample
+token=Beast
+image=http://cdn.staticneo.com/w/mtg/a/a6/Beast4.jpg
+value=5
+type=Creature
+subtype=Beast
+color=g
+pt=5/5
+ability=Trample
+oracle=Trample

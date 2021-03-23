@@ -1,0 +1,11 @@
+name=Copper Myr
+image=https://magiccards.info/scans/en/som/146.jpg
+value=2.919
+rarity=C
+type=Artifact,Creature
+subtype=Myr
+cost={2}
+pt=1/1
+ability={T}: Add {G}.
+timing=main
+oracle={T}: Add {G}.

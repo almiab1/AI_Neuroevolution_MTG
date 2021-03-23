@@ -1,0 +1,12 @@
+name=Skirk Shaman
+image=https://magiccards.info/scans/en/pc/123.jpg
+image_updated=2017-01-08
+value=2.500
+rarity=C
+type=Creature
+subtype=Goblin,Shaman
+cost={1}{R}{R}
+pt=2/2
+ability=SN can't be blocked except by artifact creatures and/or red creatures.
+timing=main
+oracle=Skirk Shaman can't be blocked except by artifact creatures and/or red creatures.

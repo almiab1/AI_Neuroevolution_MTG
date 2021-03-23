@@ -1,0 +1,12 @@
+name=Lord of Shatterskull Pass
+image=https://magiccards.info/scans/en/roe/156.jpg
+value=4.147
+rarity=R
+type=Creature
+subtype=Minotaur,Shaman
+cost={3}{R}
+pt=3/3
+ability=level up {1}{R} 6
+timing=main
+requires_groovy_code
+oracle=Level up {1}{R}\nLEVEL 1-5\n6/6\nLEVEL 6+\n6/6\nWhenever Lord of Shatterskull Pass attacks, it deals 6 damage to each creature defending player controls.

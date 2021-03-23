@@ -1,0 +1,12 @@
+name=Bronzebeak Moa
+image=https://magiccards.info/scans/en/mm3/152.jpg
+image_updated=2017-08-08
+value=3.785
+rarity=U
+type=Creature
+subtype=Bird
+cost={2}{G}{W}
+pt=2/2
+ability=Whenever another creature enters the battlefield under your control, SN gets +3/+3 until end of turn.
+timing=main
+oracle=Whenever another creature enters the battlefield under your control, Bronzebeak Moa gets +3/+3 until end of turn.

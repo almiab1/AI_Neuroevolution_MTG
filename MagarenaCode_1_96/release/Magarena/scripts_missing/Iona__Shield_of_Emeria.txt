@@ -1,0 +1,14 @@
+name=Iona, Shield of Emeria
+image=https://magiccards.info/scans/en/mm2/20.jpg
+value=2.500
+rarity=M
+type=Legendary,Creature
+subtype=Angel
+cost={6}{W}{W}{W}
+pt=7/7
+ability=Flying;\
+        As SN enters the battlefield, choose a color.;\
+        Your opponents can't cast spells of the chosen color.
+timing=main
+oracle=Flying\nAs Iona, Shield of Emeria enters the battlefield, choose a color.\nYour opponents can't cast spells of the chosen color.
+status=not supported: players-cant

@@ -1,0 +1,13 @@
+name=Nighteyes the Desecrator
+image=https://magiccards.info/scans/en/cmd/92b.jpg
+value=4.027
+rarity=U
+type=Legendary,Creature
+subtype=Rat,Wizard
+cost={1}{B}
+pt=4/2
+ability={4}{B}: Put target creature card from a graveyard onto the battlefield under your control.
+flip=Nezumi Graverobber
+timing=main
+hidden
+oracle={4}{B}: Put target creature card from a graveyard onto the battlefield under your control.

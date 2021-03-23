@@ -1,0 +1,12 @@
+name=Blastoderm
+image=https://magiccards.info/scans/en/ne/102.jpg
+value=4.000
+rarity=C
+type=Creature
+subtype=Beast
+cost={2}{G}{G}
+pt=5/5
+ability=Shroud;\
+        Fading 3
+timing=main
+oracle=Shroud\nFading 3

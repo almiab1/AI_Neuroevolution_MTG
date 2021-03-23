@@ -1,0 +1,11 @@
+name=Oak Street Innkeeper
+image=https://magiccards.info/scans/en/rtr/131.jpg
+value=3.054
+rarity=U
+type=Creature
+subtype=Elf
+cost={2}{G}
+pt=1/2
+ability=As long as it's not your turn, tapped creatures you control have hexproof.
+timing=main
+oracle=As long as it's not your turn, tapped creatures you control have hexproof.

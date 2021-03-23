@@ -1,0 +1,12 @@
+name=Soul Warden
+image=https://magiccards.info/scans/en/mm3/24.jpg
+image_updated=2017-08-08
+value=3.583
+rarity=C
+type=Creature
+subtype=Human,Cleric
+cost={W}
+pt=1/1
+ability=Whenever another creature enters the battlefield, you gain 1 life.
+timing=main
+oracle=Whenever another creature enters the battlefield, you gain 1 life.

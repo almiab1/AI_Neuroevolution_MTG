@@ -1,0 +1,13 @@
+name=Chromeshell Crab
+image=https://magiccards.info/scans/en/cmd/41.jpg
+value=3.765
+rarity=R
+type=Creature
+subtype=Crab,Beast
+cost={4}{U}
+pt=3/3
+ability=Morph {4}{U};\
+        When SN is turned face up, you may exchange control of target creature you control and target creature an opponent controls.
+timing=main
+oracle=Morph {4}{U}\nWhen Chromeshell Crab is turned face up, you may exchange control of target creature you control and target creature an opponent controls.
+status=not supported: multiple-targets

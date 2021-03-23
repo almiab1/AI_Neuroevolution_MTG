@@ -1,0 +1,11 @@
+name=Maalfeld Twins
+image=https://magiccards.info/scans/en/avr/112.jpg
+value=3.267
+rarity=U
+type=Creature
+subtype=Zombie
+cost={5}{B}
+pt=4/4
+ability=When SN dies, create two 2/2 black Zombie creature tokens.
+timing=main
+oracle=When Maalfeld Twins dies, create two 2/2 black Zombie creature tokens.

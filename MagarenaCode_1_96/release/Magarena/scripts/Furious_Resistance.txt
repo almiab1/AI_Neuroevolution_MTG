@@ -1,0 +1,9 @@
+name=Furious Resistance
+image=https://magiccards.info/scans/en/gtc/93.jpg
+value=2.580
+rarity=C
+type=Instant
+cost={R}
+effect=Target blocking creature gets +3/+0 and gains first strike until end of turn.
+timing=pump
+oracle=Target blocking creature gets +3/+0 and gains first strike until end of turn.

@@ -1,0 +1,13 @@
+name=Heedless One
+image=https://magiccards.info/scans/en/on/265.jpg
+image_updated=2016-12-10
+value=4.264
+rarity=U
+type=Creature
+subtype=Elf,Avatar
+cost={3}{G}
+pt=*/*
+ability=Trample;\
+        SN's power and toughness are each equal to the number of Elves on the battlefield.
+timing=main
+oracle=Trample\nHeedless One's power and toughness are each equal to the number of Elves on the battlefield.

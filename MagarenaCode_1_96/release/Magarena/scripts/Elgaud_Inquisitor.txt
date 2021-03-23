@@ -1,0 +1,12 @@
+name=Elgaud Inquisitor
+image=https://magiccards.info/scans/en/dka/6.jpg
+value=2.592
+rarity=C
+type=Creature
+subtype=Human,Cleric
+cost={3}{W}
+pt=2/2
+ability=Lifelink;\
+        When SN dies, create a 1/1 white Spirit creature token with flying.
+timing=main
+oracle=Lifelink\nWhen Elgaud Inquisitor dies, create a 1/1 white Spirit creature token with flying.

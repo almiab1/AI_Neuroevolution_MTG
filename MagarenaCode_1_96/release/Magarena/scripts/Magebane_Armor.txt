@@ -1,0 +1,13 @@
+name=Magebane Armor
+image=https://magiccards.info/scans/en/m10/214.jpg
+value=3.994
+rarity=R
+type=Artifact
+subtype=Equipment
+cost={3}
+ability=Equipped creature gets +2/+4.;\
+        Prevent all noncombat damage that would be dealt to equipped creature.;\
+        Equip {2}
+timing=equipment
+oracle=Equipped creature gets +2/+4 and loses flying.\nPrevent all noncombat damage that would be dealt to equipped creature.\nEquip {2}
+requires_groovy_code

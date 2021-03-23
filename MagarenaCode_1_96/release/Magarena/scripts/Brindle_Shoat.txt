@@ -1,0 +1,11 @@
+name=Brindle Shoat
+image=https://magiccards.info/scans/en/pc2/60.jpg
+value=3.438
+rarity=U
+type=Creature
+subtype=Boar
+cost={1}{G}
+pt=1/1
+ability=When SN dies, create a 3/3 green Boar creature token.
+timing=main
+oracle=When Brindle Shoat dies, create a 3/3 green Boar creature token.

@@ -1,0 +1,10 @@
+name=Amass the Components
+image=https://magiccards.info/scans/en/ima/41.jpg
+image_updated=2017-04-12
+value=2.653
+rarity=C
+type=Sorcery
+cost={3}{U}
+timing=main
+requires_groovy_code
+oracle=Draw three cards, then put a card from your hand on the bottom of your library.

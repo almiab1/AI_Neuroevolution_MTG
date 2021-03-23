@@ -1,0 +1,9 @@
+name=1/1 white and black Human Cleric creature token
+token=Cleric
+image=https://magiccards.info/extras/token/shadows-over-innistrad/human-cleric.jpg
+value=1
+type=Creature
+subtype=Human,Cleric
+color=wb
+pt=1/1
+oracle=NONE

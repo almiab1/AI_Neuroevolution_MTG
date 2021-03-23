@@ -1,0 +1,11 @@
+name=Armory of Iroas
+image=https://magiccards.info/scans/en/jou/158.jpg
+value=2.870
+rarity=U
+type=Artifact
+subtype=Equipment
+cost={2}
+ability=Whenever equipped creature attacks, put a +1/+1 counter on RN.;\
+        Equip {2}
+timing=equipment
+oracle=Whenever equipped creature attacks, put a +1/+1 counter on it.\nEquip {2}

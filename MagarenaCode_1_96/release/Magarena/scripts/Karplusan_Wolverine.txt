@@ -1,0 +1,11 @@
+name=Karplusan Wolverine
+image=https://magiccards.info/scans/en/cs/87.jpg
+value=3.885
+rarity=C
+type=Snow,Creature
+subtype=Wolverine,Beast
+cost={R}
+pt=1/1
+ability=Whenever SN becomes blocked, you may have SN deal 1 damage to target creature or player.
+timing=main
+oracle=Whenever Karplusan Wolverine becomes blocked, you may have it deal 1 damage to target creature or player.

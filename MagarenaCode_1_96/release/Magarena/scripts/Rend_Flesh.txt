@@ -1,0 +1,10 @@
+name=Rend Flesh
+image=https://magiccards.info/scans/en/chk/140.jpg
+value=3.972
+rarity=C
+type=Instant
+subtype=Arcane
+cost={2}{B}
+effect=Destroy target non-Spirit creature.
+timing=removal
+oracle=Destroy target non-Spirit creature.

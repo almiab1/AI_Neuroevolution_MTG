@@ -1,0 +1,12 @@
+name=Blight
+image=https://magiccards.info/scans/en/6e/113.jpg
+value=3.780
+rarity=U
+type=Enchantment
+subtype=Aura
+cost={B}{B}
+ability=Enchant land;\
+        When enchanted land becomes tapped, destroy RN.
+timing=aura
+enchant=destroy,neg land
+oracle=Enchant land\nWhen enchanted land becomes tapped, destroy it.

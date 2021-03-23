@@ -1,0 +1,12 @@
+name=Gryff Vanguard
+image=https://magiccards.info/scans/en/avr/59.jpg
+value=2.805
+rarity=C
+type=Creature
+subtype=Human,Knight
+cost={4}{U}
+pt=3/2
+ability=Flying;\
+        When SN enters the battlefield, draw a card.
+timing=main
+oracle=Flying\nWhen Gryff Vanguard enters the battlefield, draw a card.

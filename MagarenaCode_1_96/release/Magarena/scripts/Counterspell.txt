@@ -1,0 +1,10 @@
+name=Counterspell
+image=https://magiccards.info/scans/en/a25/50.jpg
+image_updated=2018-04-27
+value=4.500
+rarity=C
+type=Instant
+cost={U}{U}
+effect=Counter target spell.
+timing=counter
+oracle=Counter target spell.

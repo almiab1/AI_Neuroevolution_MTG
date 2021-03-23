@@ -1,0 +1,12 @@
+name=Balshan Griffin
+image=https://magiccards.info/scans/en/od/67.jpg
+value=1.379
+rarity=U
+type=Creature
+subtype=Griffin
+cost={3}{U}{U}
+pt=3/2
+ability=Flying;\
+        {1}{U}, Discard a card: Return SN to its owner's hand.
+timing=main
+oracle=Flying\n{1}{U}, Discard a card: Return Balshan Griffin to its owner's hand.

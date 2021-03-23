@@ -1,0 +1,10 @@
+name=Geth's Verdict
+image=https://magiccards.info/scans/en/nph/61.jpg
+value=3.815
+removal=1
+rarity=C
+type=Instant
+cost={B}{B}
+effect=Target player sacrifices a creature~and *he or she* loses 1 life.
+timing=removal
+oracle=Target player sacrifices a creature and loses 1 life.

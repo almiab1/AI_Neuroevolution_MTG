@@ -1,0 +1,10 @@
+name=Rescue
+image=https://magiccards.info/scans/en/dom/63.jpg
+image_updated=2018-08-07
+value=3.959
+rarity=C
+type=Instant
+cost={U}
+effect=Return target permanent you control to its owner's hand.
+timing=removal
+oracle=Return target permanent you control to its owner's hand.

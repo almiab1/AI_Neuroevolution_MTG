@@ -1,0 +1,11 @@
+name=Stone Spirit
+image=https://magiccards.info/scans/en/5e/271.jpg
+value=2.778
+rarity=U
+type=Creature
+subtype=Elemental,Spirit
+cost={4}{R}
+pt=4/3
+ability=SN can't be blocked by creatures with flying.
+timing=main
+oracle=Stone Spirit can't be blocked by creatures with flying.

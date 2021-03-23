@@ -1,0 +1,9 @@
+name=Balance of Power
+image=https://magiccards.info/scans/en/8e/62.jpg
+value=2.086
+rarity=R
+type=Sorcery
+cost={3}{U}{U}
+timing=main
+oracle=If target opponent has more cards in hand than you, draw cards equal to the difference.
+requires_groovy_code

@@ -1,0 +1,9 @@
+name=Lair Delve
+image=https://magiccards.info/scans/en/avr/184.jpg
+value=1.743
+rarity=C
+type=Sorcery
+cost={2}{G}
+effect=Reveal the top two cards of your library. Put all creature and land cards revealed this way into your hand and the rest on the bottom of your library in any order.
+timing=main
+oracle=Reveal the top two cards of your library. Put all creature and land cards revealed this way into your hand and the rest on the bottom of your library in any order.

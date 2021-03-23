@@ -1,0 +1,10 @@
+name=Sky Diamond
+image=https://magiccards.info/scans/en/c14/269.jpg
+value=2.897
+rarity=U
+type=Artifact
+cost={2}
+ability=SN enters the battlefield tapped.;\
+        {T}: Add {U}.
+timing=artifact
+oracle=Sky Diamond enters the battlefield tapped.\n{T}: Add {U}.

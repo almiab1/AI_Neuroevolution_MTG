@@ -1,0 +1,10 @@
+name=Flood
+image=https://magiccards.info/scans/en/5e/87.jpg
+image_updated=2016-12-02
+value=3.857
+rarity=C
+type=Enchantment
+cost={U}
+ability={U}{U}: Tap target creature without flying.
+timing=enchantment
+oracle={U}{U}: Tap target creature without flying.

@@ -1,0 +1,12 @@
+name=Trial
+image=https://magiccards.info/scans/en/c16/239a.jpg
+image_updated=2017-08-17
+value=3.196
+rarity=U
+type=Instant
+cost={W}{U}
+effect=Return all creatures blocking or blocked by target creature to their owner's hand.
+split=Error
+timing=block
+oracle=Return all creatures blocking or blocked by target creature to their owner's hand.
+status=not supported: split-card

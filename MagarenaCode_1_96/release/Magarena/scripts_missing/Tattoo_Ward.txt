@@ -1,0 +1,14 @@
+name=Tattoo Ward
+image=https://magiccards.info/scans/en/od/54.jpg
+value=2.325
+rarity=U
+type=Enchantment
+subtype=Aura
+cost={2}{W}
+ability=Enchant creature;\
+        Enchanted creature gets +1/+1 and has protection from enchantments. This effect doesn't remove SN.;\
+        Sacrifice SN: Destroy target enchantment.
+timing=aura
+enchant=default,creature
+oracle=Enchant creature\nEnchanted creature gets +1/+1 and has protection from enchantments. This effect doesn't remove Tattoo Ward.\nSacrifice Tattoo Ward: Destroy target enchantment.
+status=not supported: doesnt-remove

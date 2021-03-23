@@ -1,0 +1,11 @@
+name=Rotting Legion
+image=https://magiccards.info/scans/en/m11/115.jpg
+value=1.873
+rarity=C
+type=Creature
+subtype=Zombie
+cost={4}{B}
+pt=4/5
+ability=SN enters the battlefield tapped.
+timing=main
+oracle=Rotting Legion enters the battlefield tapped.

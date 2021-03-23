@@ -1,0 +1,11 @@
+name=Lore Broker
+image=https://magiccards.info/scans/en/rav/57.jpg
+value=3.230
+rarity=U
+type=Creature
+subtype=Human,Rogue
+cost={1}{U}
+pt=1/2
+ability={T}: Each player draws a card, then discards a card.
+timing=main
+oracle={T}: Each player draws a card, then discards a card.

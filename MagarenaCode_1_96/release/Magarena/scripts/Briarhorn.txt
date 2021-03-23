@@ -1,0 +1,14 @@
+name=Briarhorn
+image=https://magiccards.info/scans/en/lw/199.jpg
+image_updated=2016-12-13
+value=3.638
+rarity=U
+type=Creature
+subtype=Elemental
+cost={3}{G}
+pt=3/3
+ability=Flash;\
+        When SN enters the battlefield, target creature gets +3/+3 until end of turn.;\
+        Evoke {1}{G}
+timing=flash
+oracle=Flash\nWhen Briarhorn enters the battlefield, target creature gets +3/+3 until end of turn.\nEvoke {1}{G}

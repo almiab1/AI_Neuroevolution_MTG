@@ -1,0 +1,9 @@
+name=Mesmeric Orb
+image=https://magiccards.info/scans/en/mi/204.jpg
+value=4.396
+rarity=R
+type=Artifact
+cost={2}
+ability=Whenever a permanent becomes untapped, that permanent's controller puts the top card of his or her library into his or her graveyard.
+timing=artifact
+oracle=Whenever a permanent becomes untapped, that permanent's controller puts the top card of his or her library into his or her graveyard.

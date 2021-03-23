@@ -1,0 +1,10 @@
+name=Hunters' Feast
+image=https://magiccards.info/scans/en/m11/182.jpg
+value=2.500
+rarity=C
+type=Sorcery
+cost={3}{G}
+effect=Any number of target players each gain 6 life.
+timing=main
+oracle=Any number of target players each gain 6 life.
+status=not supported: multiple-targets

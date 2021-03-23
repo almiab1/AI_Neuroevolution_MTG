@@ -1,0 +1,12 @@
+name=Rofellos, Llanowar Emissary
+image=https://magiccards.info/scans/en/ud/118.jpg
+value=4.500
+rarity=R
+type=Legendary,Creature
+subtype=Elf,Druid
+cost={G}{G}
+pt=2/1
+ability={T}: Add {G} for each Forest you control.
+timing=main
+oracle={T}: Add {G} for each Forest you control.
+status=not supported: add-multiple-mana

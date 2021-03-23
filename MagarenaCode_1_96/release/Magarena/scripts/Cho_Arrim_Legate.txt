@@ -1,0 +1,12 @@
+name=Cho-Arrim Legate
+image=https://magiccards.info/scans/en/mm/10.jpg
+value=3.847
+rarity=U
+type=Creature
+subtype=Human,Soldier
+cost={2}{W}
+pt=1/2
+ability=Protection from black
+timing=main
+requires_groovy_code
+oracle=Protection from black\nIf an opponent controls a Swamp and you control a Plains, you may cast Cho-Arrim Legate without paying its mana cost.

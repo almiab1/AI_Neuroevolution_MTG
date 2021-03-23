@@ -1,0 +1,12 @@
+name=Era of Innovation
+image=https://magiccards.info/scans/en/kld/45.jpg
+image_updated=2016-10-05
+value=2.500
+rarity=U
+type=Enchantment
+cost={1}{U}
+ability=Whenever an artifact enters the battlefield under your control, you may pay {1}. If you do, you get {E}{E}.;\
+        Whenever an Artificer enters the battlefield under your control, you may pay {1}. If you do, you get {E}{E}.;\
+        Pay {E}{E}{E}{E}{E}{E}, Sacrifice SN: Draw three cards.
+timing=enchantment
+oracle=Whenever an artifact or Artificer enters the battlefield under your control, you may pay {1}. If you do, you get {E}{E}.\nPay {E}{E}{E}{E}{E}{E}, Sacrifice Era of Innovation: Draw three cards.

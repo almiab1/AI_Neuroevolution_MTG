@@ -1,0 +1,13 @@
+name=Ersatz Gnomes
+image=https://magiccards.info/scans/en/mr/266.jpg
+value=3.837
+rarity=U
+type=Artifact,Creature
+subtype=Gnome
+cost={3}
+pt=1/1
+ability={T}: Target spell becomes colorless.;\
+        {T}: Target permanent becomes colorless until end of turn.
+timing=main
+oracle={T}: Target spell becomes colorless.\n{T}: Target permanent becomes colorless until end of turn.
+status=not supported: spell-modification

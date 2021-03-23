@@ -1,0 +1,11 @@
+name=Mire Kavu
+image=https://magiccards.info/scans/en/ps/67.jpg
+value=2.706
+rarity=C
+type=Creature
+subtype=Kavu
+cost={3}{R}
+pt=3/2
+ability=SN gets +1/+1 as long as you control a Swamp.
+timing=main
+oracle=Mire Kavu gets +1/+1 as long as you control a Swamp.

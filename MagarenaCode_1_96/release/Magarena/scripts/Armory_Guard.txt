@@ -1,0 +1,12 @@
+name=Armory Guard
+image=https://magiccards.info/scans/en/rtr/2.jpg
+image_updated=2016-09-12
+value=2.269
+rarity=C
+type=Creature
+subtype=Giant,Soldier
+cost={3}{W}
+pt=2/5
+ability=SN has vigilance as long as you control a Gate.
+timing=main
+oracle=Armory Guard has vigilance as long as you control a Gate.

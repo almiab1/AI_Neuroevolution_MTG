@@ -1,0 +1,13 @@
+name=Instigator Gang
+image=https://magiccards.info/scans/en/isd/149a.jpg
+value=3.844
+rarity=R
+type=Creature
+subtype=Human,Werewolf
+cost={3}{R}
+pt=2/3
+ability=Attacking creatures you control get +1/+0.;\
+        At the beginning of each upkeep, if no spells were cast last turn, transform SN.
+transform=Wildblood Pack
+timing=main
+oracle=Attacking creatures you control get +1/+0.\nAt the beginning of each upkeep, if no spells were cast last turn, transform Instigator Gang.

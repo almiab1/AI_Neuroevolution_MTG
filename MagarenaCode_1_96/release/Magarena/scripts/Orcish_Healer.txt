@@ -1,0 +1,13 @@
+name=Orcish Healer
+image=https://magiccards.info/scans/en/cstd/35.jpg
+value=2.132
+rarity=U
+type=Creature
+subtype=Orc,Cleric
+cost={R}{R}
+pt=1/1
+ability={B}{B}{R}, {T}: Regenerate target black or green creature.;\
+        {R}{G}{G}, {T}: Regenerate target black or green creature.
+timing=main
+requires_groovy_code
+oracle={R}{R}, {T}: Target creature can't be regenerated this turn.\n{B}{B}{R}, {T}: Regenerate target black or green creature.\n{R}{G}{G}, {T}: Regenerate target black or green creature.

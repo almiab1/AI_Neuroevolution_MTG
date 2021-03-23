@@ -1,0 +1,11 @@
+name=Saber Ants
+image=https://magiccards.info/scans/en/mm/267.jpg
+value=3.924
+rarity=U
+type=Creature
+subtype=Insect
+cost={3}{G}
+pt=2/3
+timing=main
+requires_groovy_code
+oracle=Whenever Saber Ants is dealt damage, you may create that many 1/1 green Insect creature tokens.

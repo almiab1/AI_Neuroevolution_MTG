@@ -1,0 +1,12 @@
+name=Sword of Light and Shadow
+image=https://magiccards.info/scans/en/mma/217.jpg
+value=4.500
+rarity=M
+type=Artifact
+subtype=Equipment
+cost={3}
+ability=Equipped creature gets +2/+2 and has protection from white and from black.;\
+        Equip {2}
+timing=equipment
+requires_groovy_code
+oracle=Equipped creature gets +2/+2 and has protection from white and from black.\nWhenever equipped creature deals combat damage to a player, you gain 3 life and you may return up to one target creature card from your graveyard to your hand.\nEquip {2}

@@ -1,0 +1,12 @@
+name=Beast Walkers
+image=https://magiccards.info/scans/en/hl/108.jpg
+value=1.402
+rarity=R
+type=Creature
+subtype=Human,Beast,Soldier
+cost={1}{W}{W}
+pt=2/2
+ability={G}: SN gains banding until end of turn.
+timing=main
+oracle={G}: Beast Walkers gains banding until end of turn.
+status=not supported: banding

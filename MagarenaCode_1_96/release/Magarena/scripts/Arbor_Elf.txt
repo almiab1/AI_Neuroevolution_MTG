@@ -1,0 +1,12 @@
+name=Arbor Elf
+image=https://magiccards.info/scans/en/a25/160.jpg
+image_updated=2018-04-26
+value=3.970
+rarity=C
+type=Creature
+subtype=Elf,Druid
+cost={G}
+pt=1/1
+ability={T}: Untap target Forest.
+timing=main
+oracle={T}: Untap target Forest.

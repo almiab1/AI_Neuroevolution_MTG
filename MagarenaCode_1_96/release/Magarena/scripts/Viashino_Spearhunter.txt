@@ -1,0 +1,11 @@
+name=Viashino Spearhunter
+image=https://magiccards.info/scans/en/m10/161.jpg
+value=2.000
+rarity=C
+type=Creature
+subtype=Viashino,Warrior
+cost={2}{R}
+pt=2/1
+ability=First strike
+timing=main
+oracle=First strike

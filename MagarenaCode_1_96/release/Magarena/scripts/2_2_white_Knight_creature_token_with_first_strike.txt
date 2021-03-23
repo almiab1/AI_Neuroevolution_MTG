@@ -1,0 +1,10 @@
+name=2/2 white Knight creature token with first strike
+token=Knight
+image=http://cdn.staticneo.com/w/mtg/3/33/Knight1.jpg
+value=3
+type=Creature
+subtype=Knight
+color=w
+pt=2/2
+ability=first strike
+oracle=First Strike

@@ -1,0 +1,9 @@
+name=Survey the Wreckage
+image=https://magiccards.info/scans/en/rtr/107.jpg
+value=1.398
+rarity=C
+type=Sorcery
+cost={4}{R}
+effect=Destroy target land.~Create a 1/1 red Goblin creature token.
+timing=main
+oracle=Destroy target land. Create a 1/1 red Goblin creature token.

@@ -1,0 +1,10 @@
+name=Cursed Rack
+image=https://magiccards.info/scans/en/4e/330.jpg
+value=3.914
+rarity=U
+type=Artifact
+cost={4}
+ability=As SN enters the battlefield, choose an opponent.
+timing=artifact
+oracle=As Cursed Rack enters the battlefield, choose an opponent.\nThe chosen player's maximum hand size is four.
+requires_groovy_code

@@ -1,0 +1,13 @@
+name=Mycoloth
+image=https://magiccards.info/scans/en/c16/158.jpg
+image_updated=2017-08-17
+value=3.619
+rarity=R
+type=Creature
+subtype=Fungus
+cost={3}{G}{G}
+pt=4/4
+ability=Devour 2;\
+        At the beginning of your upkeep, create a 1/1 green Saproling creature token for each +1/+1 counter on SN.
+timing=main
+oracle=Devour 2\nAt the beginning of your upkeep, create a 1/1 green Saproling creature token for each +1/+1 counter on Mycoloth.

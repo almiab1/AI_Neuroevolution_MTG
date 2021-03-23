@@ -1,0 +1,11 @@
+name=Snowfall
+image=https://magiccards.info/scans/en/ia/101.jpg
+value=2.302
+rarity=C
+type=Enchantment
+cost={2}{U}
+ability=Cumulative upkeep {U};\
+        Whenever an Island is tapped for mana, its controller may add {U} instead. Spend this mana only to pay cumulative upkeep costs.
+timing=enchantment
+oracle=Cumulative upkeep {U}\nWhenever an Island is tapped for mana, its controller may add {U} instead. Spend this mana only to pay cumulative upkeep costs.
+status=not supported: add-multiple-mana

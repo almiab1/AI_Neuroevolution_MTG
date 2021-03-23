@@ -1,0 +1,11 @@
+name=Bonesplitter
+image=https://magiccards.info/scans/en/mma/202.jpg
+value=3.986
+rarity=C
+type=Artifact
+subtype=Equipment
+cost={1}
+ability=Equipped creature gets +2/+0.;\
+        Equip {1}
+timing=equipment
+oracle=Equipped creature gets +2/+0.\nEquip {1}

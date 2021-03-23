@@ -1,0 +1,12 @@
+name=Ogre Sentry
+image=https://magiccards.info/scans/en/cn2/168.jpg
+image_updated=2017-08-29
+value=2.640
+rarity=C
+type=Creature
+subtype=Ogre,Warrior
+cost={1}{R}
+pt=3/3
+ability=Defender
+timing=smain
+oracle=Defender

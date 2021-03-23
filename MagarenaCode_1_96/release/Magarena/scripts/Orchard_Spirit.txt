@@ -1,0 +1,12 @@
+name=Orchard Spirit
+image=https://magiccards.info/scans/en/ori/192.jpg
+image_updated=2015-11-05
+value=2.500
+rarity=C
+type=Creature
+subtype=Spirit
+cost={2}{G}
+pt=2/2
+ability=SN can't be blocked except by creatures with flying or reach.
+timing=main
+oracle=Orchard Spirit can't be blocked except by creatures with flying or reach.

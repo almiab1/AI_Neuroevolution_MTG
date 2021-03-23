@@ -1,0 +1,10 @@
+name=Rats' Feast
+image=https://magiccards.info/scans/en/ju/71.jpg
+value=2.057
+rarity=C
+type=Sorcery
+cost={X}{B}
+effect=Exile X target cards from a single graveyard.
+timing=main
+oracle=Exile X target cards from a single graveyard.
+status=not supported: multiple-targets

@@ -1,0 +1,10 @@
+name=Renounce the Guilds
+image=https://magiccards.info/scans/en/dgm/5.jpg
+value=3.127
+removal=3
+rarity=R
+type=Instant
+cost={1}{W}
+effect=Each player sacrifices a multicolored permanent.
+timing=removal
+oracle=Each player sacrifices a multicolored permanent.

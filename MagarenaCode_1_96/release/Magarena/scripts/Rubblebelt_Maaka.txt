@@ -1,0 +1,12 @@
+name=Rubblebelt Maaka
+image=https://magiccards.info/scans/en/mm3/109.jpg
+image_updated=2017-08-08
+value=3.798
+rarity=C
+type=Creature
+subtype=Cat
+cost={3}{R}
+pt=3/3
+ability={R}, Discard SN: Target attacking creature gets +3/+3 until end of turn.
+timing=main
+oracle=Bloodrush — {R}, Discard Rubblebelt Maaka: Target attacking creature gets +3/+3 until end of turn.

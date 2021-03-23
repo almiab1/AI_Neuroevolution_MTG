@@ -1,0 +1,11 @@
+name=Ruins of Trokair
+image=https://magiccards.info/scans/en/6e/327.jpg
+value=2.977
+rarity=U
+type=Land
+ability=SN enters the battlefield tapped.;\
+        {T}: Add {W}.;\
+        {T}, Sacrifice SN: Add {W}{W}.
+timing=land
+oracle=Ruins of Trokair enters the battlefield tapped.\n{T}: Add {W}.\n{T}, Sacrifice Ruins of Trokair: Add {W}{W}.
+status=not supported: add-multiple-mana

@@ -1,0 +1,12 @@
+name=Nightshade Peddler
+image=https://magiccards.info/scans/en/avr/187.jpg
+value=3.549
+rarity=C
+type=Creature
+subtype=Human,Druid
+cost={1}{G}
+pt=1/1
+ability=Soulbond;\
+        As long as SN is paired with another creature, both creatures have deathtouch.
+timing=main
+oracle=Soulbond\nAs long as Nightshade Peddler is paired with another creature, both creatures have deathtouch.

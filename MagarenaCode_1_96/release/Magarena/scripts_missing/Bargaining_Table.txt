@@ -1,0 +1,10 @@
+name=Bargaining Table
+image=https://magiccards.info/scans/en/mm/288.jpg
+value=3.815
+rarity=R
+type=Artifact
+cost={5}
+ability={X}, {T}: Draw a card. X is the number of cards in an opponent's hand.
+timing=artifact
+oracle={X}, {T}: Draw a card. X is the number of cards in an opponent's hand.
+status=needs groovy

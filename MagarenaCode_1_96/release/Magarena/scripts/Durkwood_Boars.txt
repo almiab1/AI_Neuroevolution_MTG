@@ -1,0 +1,11 @@
+name=Durkwood Boars
+image=https://magiccards.info/scans/en/st2k/3.jpg
+image_updated=2017-08-29
+value=2.136
+rarity=C
+type=Creature
+subtype=Boar
+cost={4}{G}
+pt=4/4
+timing=main
+oracle=NONE

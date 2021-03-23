@@ -1,0 +1,10 @@
+name=Sarcomancy
+image=https://magiccards.info/scans/en/tp/48.jpg
+value=4.500
+rarity=R
+type=Enchantment
+cost={B}
+ability=When SN enters the battlefield, create a 2/2 black Zombie creature token.;\
+        At the beginning of your upkeep, if there are no Zombies on the battlefield, SN deals 1 damage to you.
+timing=enchantment
+oracle=When Sarcomancy enters the battlefield, create a 2/2 black Zombie creature token.\nAt the beginning of your upkeep, if there are no Zombies on the battlefield, Sarcomancy deals 1 damage to you.

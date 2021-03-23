@@ -1,0 +1,12 @@
+name=Wear
+image=https://magiccards.info/scans/en/dgm/135a.jpg
+value=4.315
+rarity=U
+type=Instant
+cost={1}{R}
+ability=Fuse
+effect=Destroy target artifact.
+split=Tear
+timing=removal
+oracle=Destroy target artifact.\nFuse
+status=not supported: split-card

@@ -1,0 +1,15 @@
+name=Soul Ransom
+image=https://magiccards.info/scans/en/mm3/186.jpg
+image_updated=2017-08-08
+value=3.303
+rarity=U
+type=Enchantment
+subtype=Aura
+cost={2}{U}{B}
+ability=Enchant creature;\
+        You control enchanted creature.;\
+        Discard two cards: SN's controller sacrifices it, then draws two cards. Only any opponent may activate this ability.
+timing=aura
+enchant=default,creature
+oracle=Enchant creature\nYou control enchanted creature.\nDiscard two cards: Soul Ransom's controller sacrifices it, then draws two cards. Only any opponent may activate this ability.
+status=not supported: any-player-activate

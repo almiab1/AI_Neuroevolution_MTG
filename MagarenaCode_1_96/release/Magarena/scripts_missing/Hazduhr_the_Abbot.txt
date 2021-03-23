@@ -1,0 +1,12 @@
+name=Hazduhr the Abbot
+image=https://magiccards.info/scans/en/hl/110.jpg
+value=2.076
+rarity=R
+type=Legendary,Creature
+subtype=Human,Cleric
+cost={3}{W}{W}
+pt=2/5
+ability={X}, {T}: The next X damage that would be dealt this turn to target white creature you control is dealt to SN instead.
+timing=main
+oracle={X}, {T}: The next X damage that would be dealt this turn to target white creature you control is dealt to Hazduhr the Abbot instead.
+status=not supported: redirect-next-damage

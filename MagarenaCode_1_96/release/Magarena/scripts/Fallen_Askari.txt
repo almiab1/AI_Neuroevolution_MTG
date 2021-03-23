@@ -1,0 +1,12 @@
+name=Fallen Askari
+image=https://magiccards.info/scans/en/vi/9.jpg
+value=3.500
+rarity=C
+type=Creature
+subtype=Human,Knight
+cost={1}{B}
+pt=2/2
+ability=Flanking;\
+        SN can't block.
+timing=main
+oracle=Flanking\nFallen Askari can't block.

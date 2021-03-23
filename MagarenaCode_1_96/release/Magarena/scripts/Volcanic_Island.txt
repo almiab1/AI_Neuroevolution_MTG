@@ -1,0 +1,9 @@
+name=Volcanic Island
+image=https://magiccards.info/scans/en/rv/306.jpg
+value=4.000
+rarity=R
+type=Land
+subtype=Island,Mountain
+mana=r4u4
+timing=land
+oracle=NONE

@@ -1,0 +1,12 @@
+name=Shimatsu the Bloodcloaked
+image=https://magiccards.info/scans/en/chk/186.jpg
+value=1.825
+rarity=R
+type=Legendary,Creature
+subtype=Demon,Spirit
+cost={3}{R}
+pt=0/0
+ability=As SN enters the battlefield, sacrifice any number of permanents. Shimatsu enters the battlefield with that many +1/+1 counters on it.
+timing=main
+oracle=As Shimatsu the Bloodcloaked enters the battlefield, sacrifice any number of permanents. Shimatsu enters the battlefield with that many +1/+1 counters on it.
+status=not supported: any-number-of

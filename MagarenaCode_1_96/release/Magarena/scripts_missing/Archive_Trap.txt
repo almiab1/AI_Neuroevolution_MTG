@@ -1,0 +1,12 @@
+name=Archive Trap
+image=https://magiccards.info/scans/en/zen/41.jpg
+value=4.483
+rarity=R
+type=Instant
+subtype=Trap
+cost={3}{U}{U}
+ability=If an opponent searched their library this turn, you may pay {0} rather than pay this spell's mana cost.
+effect=Target opponent puts the top thirteen cards of their library into their graveyard.
+timing=removal
+oracle=If an opponent searched their library this turn, you may pay {0} rather than pay this spell's mana cost.\nTarget opponent puts the top thirteen cards of their library into their graveyard.
+status=not supported: no-info

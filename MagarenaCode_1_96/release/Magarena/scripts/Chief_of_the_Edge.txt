@@ -1,0 +1,11 @@
+name=Chief of the Edge
+image=https://magiccards.info/scans/en/ktk/169.jpg
+value=3.625
+rarity=U
+type=Creature
+subtype=Human,Warrior
+cost={W}{B}
+pt=3/2
+ability=Other Warrior creatures you control get +1/+0.
+timing=main
+oracle=Other Warrior creatures you control get +1/+0.

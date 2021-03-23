@@ -1,0 +1,10 @@
+name=Clutch of the Undercity
+image=https://magiccards.info/scans/en/rav/197.jpg
+value=3.680
+rarity=U
+type=Instant
+cost={1}{U}{U}{B}
+ability=Transmute {1}{U}{B}
+effect=Return target permanent to its owner's hand.~Its controller loses 3 life.
+timing=removal
+oracle=Return target permanent to its owner's hand. Its controller loses 3 life.\nTransmute {1}{U}{B}

@@ -1,0 +1,11 @@
+name=Contagious Nim
+image=https://magiccards.info/scans/en/som/58.jpg
+value=3.051
+rarity=C
+type=Creature
+subtype=Zombie
+cost={2}{B}
+pt=2/2
+ability=Infect
+timing=main
+oracle=Infect

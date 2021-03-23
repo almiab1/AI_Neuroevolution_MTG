@@ -1,0 +1,13 @@
+name=Jor Kadeen, the Prevailer
+image=https://magiccards.info/scans/en/c16/206.jpg
+image_updated=2017-08-17
+value=3.781
+rarity=R
+type=Legendary,Creature
+subtype=Human,Warrior
+cost={3}{R}{W}
+pt=5/4
+ability=First strike;\
+        Creatures you control get +3/+0 as long as you control three or more artifacts.
+timing=main
+oracle=First strike\nMetalcraft — Creatures you control get +3/+0 as long as you control three or more artifacts.

@@ -1,0 +1,15 @@
+name=Elesh Norn, Grand Cenobite
+image=https://magiccards.info/scans/en/ima/18.jpg
+image_updated=2017-04-12
+value=4.451
+rarity=M
+type=Legendary,Creature
+subtype=Praetor
+cost={5}{W}{W}
+pt=4/7
+ability=Vigilance;\
+        Other creatures you control get +2/+2.;\
+        Creatures your opponents control get -2/-2.
+static=all
+timing=main
+oracle=Vigilance\nOther creatures you control get +2/+2.\nCreatures your opponents control get -2/-2.

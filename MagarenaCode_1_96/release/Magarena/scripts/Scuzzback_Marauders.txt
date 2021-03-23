@@ -1,0 +1,12 @@
+name=Scuzzback Marauders
+image=https://magiccards.info/scans/en/shm/216.jpg
+value=3.110
+rarity=C
+type=Creature
+subtype=Goblin,Warrior
+cost={4}{R/G}
+pt=5/2
+ability=Trample;\
+        Persist
+timing=main
+oracle=Trample\nPersist

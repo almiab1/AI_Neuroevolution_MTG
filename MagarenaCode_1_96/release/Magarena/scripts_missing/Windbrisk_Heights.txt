@@ -1,0 +1,12 @@
+name=Windbrisk Heights
+image=https://magiccards.info/scans/en/c16/336.jpg
+image_updated=2017-08-17
+value=2.857
+rarity=R
+type=Land
+ability=Hideaway;\
+        {T}: Add {W}.;\
+        {W}, {T}: You may play the exiled card without paying its mana cost if you attacked with three or more creatures this turn.
+timing=land
+oracle=Hideaway\n{T}: Add {W}.\n{W}, {T}: You may play the exiled card without paying its mana cost if you attacked with three or more creatures this turn.
+status=not supported: hideaway

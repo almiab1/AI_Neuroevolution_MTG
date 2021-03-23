@@ -1,0 +1,12 @@
+name=Oyobi, Who Split the Heavens
+image=https://magiccards.info/scans/en/bok/18.jpg
+value=3.791
+rarity=R
+type=Legendary,Creature
+subtype=Spirit
+cost={6}{W}
+pt=3/6
+ability=Flying;\
+        Whenever you cast a Spirit or Arcane spell, create a 3/3 white Spirit creature token with flying.
+timing=main
+oracle=Flying\nWhenever you cast a Spirit or Arcane spell, create a 3/3 white Spirit creature token with flying.

@@ -1,0 +1,11 @@
+name=Dwarven Strike Force
+image=https://magiccards.info/scans/en/od/188.jpg
+value=2.093
+rarity=U
+type=Creature
+subtype=Dwarf,Berserker
+cost={4}{R}
+pt=4/3
+ability=Discard a card at random: SN gains first strike and haste until end of turn.
+timing=main
+oracle=Discard a card at random: Dwarven Strike Force gains first strike and haste until end of turn.

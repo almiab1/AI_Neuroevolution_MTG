@@ -1,0 +1,11 @@
+name=Kobold Drill Sergeant
+image=https://magiccards.info/scans/en/lg/152.jpg
+value=2.892
+rarity=U
+type=Creature
+subtype=Kobold,Soldier
+cost={1}{R}
+pt=1/2
+ability=Other Kobold creatures you control get +0/+1 and have trample.
+timing=main
+oracle=Other Kobold creatures you control get +0/+1 and have trample.

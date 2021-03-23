@@ -1,0 +1,13 @@
+name=Auriok Windwalker
+image=https://magiccards.info/scans/en/5dn/5.jpg
+value=3.524
+rarity=R
+type=Creature
+subtype=Human,Wizard
+cost={3}{W}
+pt=2/3
+ability=Flying;\
+        {T}: Attach target Equipment you control to target creature you control.
+timing=main
+oracle=Flying\n{T}: Attach target Equipment you control to target creature you control.
+status=not supported: multiple-targets

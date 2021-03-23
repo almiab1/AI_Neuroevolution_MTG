@@ -1,0 +1,10 @@
+name=Razor Barrier
+image=https://magiccards.info/scans/en/mi/17.jpg
+image_updated=2017-01-06
+value=3.438
+rarity=C
+type=Instant
+cost={1}{W}
+timing=pump
+requires_groovy_code
+oracle=Target permanent you control gains protection from artifacts or from the color of your choice until end of turn.

@@ -1,0 +1,9 @@
+name=Haunted Crossroads
+image=https://magiccards.info/scans/en/mm/138.jpg
+value=4.164
+rarity=U
+type=Enchantment
+cost={2}{B}
+ability={B}: Put target creature card from your graveyard on top of your library.
+timing=enchantment
+oracle={B}: Put target creature card from your graveyard on top of your library.

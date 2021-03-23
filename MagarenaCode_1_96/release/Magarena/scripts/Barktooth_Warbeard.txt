@@ -1,0 +1,10 @@
+name=Barktooth Warbeard
+image=https://magiccards.info/scans/en/lg/261.jpg
+value=2.149
+rarity=U
+type=Legendary,Creature
+subtype=Human,Warrior
+cost={4}{B}{R}{R}
+pt=6/5
+timing=main
+oracle=NONE

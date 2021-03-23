@@ -1,0 +1,11 @@
+name=King Crab
+image=https://magiccards.info/scans/en/ul/34.jpg
+value=3.719
+rarity=U
+type=Creature
+subtype=Crab
+cost={4}{U}{U}
+pt=4/5
+ability={1}{U}, {T}: Put target green creature on top of its owner's library.
+timing=main
+oracle={1}{U}, {T}: Put target green creature on top of its owner's library.

@@ -1,0 +1,11 @@
+name=Anaba Ancestor
+image=https://magiccards.info/scans/en/hl/81.jpg
+value=2.549
+rarity=R
+type=Creature
+subtype=Minotaur,Spirit
+cost={1}{R}
+pt=1/1
+ability={T}: Another target Minotaur creature gets +1/+1 until end of turn.
+timing=main
+oracle={T}: Another target Minotaur creature gets +1/+1 until end of turn.

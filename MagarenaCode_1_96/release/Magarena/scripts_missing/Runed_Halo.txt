@@ -1,0 +1,11 @@
+name=Runed Halo
+image=https://magiccards.info/scans/en/shm/21.jpg
+value=3.820
+rarity=R
+type=Enchantment
+cost={W}{W}
+ability=As SN enters the battlefield, choose a card name.;\
+        You have protection from the chosen name.
+timing=enchantment
+oracle=As Runed Halo enters the battlefield, choose a card name.\nYou have protection from the chosen name.
+status=not supported: name-card

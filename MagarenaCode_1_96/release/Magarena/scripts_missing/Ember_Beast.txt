@@ -1,0 +1,13 @@
+name=Ember Beast
+image=https://magiccards.info/scans/en/cn2/155.jpg
+image_updated=2017-08-29
+value=3.100
+rarity=C
+type=Creature
+subtype=Beast
+cost={2}{R}
+pt=3/4
+ability=SN can't attack or block alone.
+timing=main
+oracle=Ember Beast can't attack or block alone.
+status=not supported: blocking-restriction

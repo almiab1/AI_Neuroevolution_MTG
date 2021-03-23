@@ -1,0 +1,12 @@
+name=Ichor Slick
+image=https://magiccards.info/scans/en/fut/68.jpg
+image_updated=2016-12-13
+value=3.014
+rarity=C
+type=Sorcery
+cost={2}{B}
+ability=Cycling {2};\
+        Madness {3}{B}
+effect=Target creature gets -3/-3 until end of turn.
+timing=main
+oracle=Target creature gets -3/-3 until end of turn.\nCycling {2}\nMadness {3}{B}

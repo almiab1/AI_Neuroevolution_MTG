@@ -1,0 +1,13 @@
+name=Siege-Gang Commander
+image=https://magiccards.info/scans/en/dom/143.jpg
+image_updated=2018-08-07
+value=4.565
+rarity=R
+type=Creature
+subtype=Goblin
+cost={3}{R}{R}
+pt=2/2
+ability=When SN enters the battlefield, create three 1/1 red Goblin creature tokens.;\
+        {1}{R}, Sacrifice a Goblin: SN deals 2 damage to target creature or player.
+timing=main
+oracle=When Siege-Gang Commander enters the battlefield, create three 1/1 red Goblin creature tokens.\n{1}{R}, Sacrifice a Goblin: Siege-Gang Commander deals 2 damage to target creature or player.

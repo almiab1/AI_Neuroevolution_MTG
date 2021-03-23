@@ -1,0 +1,11 @@
+name=Spire Tracer
+image=https://magiccards.info/scans/en/gtc/135.jpg
+value=3.186
+rarity=C
+type=Creature
+subtype=Elf,Scout
+cost={G}
+pt=1/1
+ability=SN can't be blocked except by creatures with flying or reach.
+timing=main
+oracle=Spire Tracer can't be blocked except by creatures with flying or reach.

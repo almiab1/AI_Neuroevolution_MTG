@@ -1,0 +1,14 @@
+name=Avatar of Woe
+image=https://magiccards.info/scans/en/cn2/128.jpg
+image_updated=2017-08-29
+value=4.158
+rarity=M
+type=Creature
+subtype=Avatar
+cost={6}{B}{B}
+pt=6/5
+ability=Fear;\
+        {T}: Destroy target creature. It can't be regenerated.
+timing=main
+oracle=If there are ten or more creature cards total in all graveyards, this spell costs {6} less to cast.\nFear\n{T}: Destroy target creature. It can't be regenerated.
+requires_groovy_code

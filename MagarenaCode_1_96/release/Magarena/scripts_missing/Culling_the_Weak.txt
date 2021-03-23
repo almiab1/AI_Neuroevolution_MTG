@@ -1,0 +1,11 @@
+name=Culling the Weak
+image=https://magiccards.info/scans/en/ex/55.jpg
+value=4.500
+rarity=C
+type=Instant
+cost={B}
+ability=As an additional cost to cast SN, sacrifice a creature.
+effect=Add {B}{B}{B}{B}.
+timing=removal
+oracle=As an additional cost to cast Culling the Weak, sacrifice a creature.\nAdd {B}{B}{B}{B}.
+status=not supported: add-multiple-mana

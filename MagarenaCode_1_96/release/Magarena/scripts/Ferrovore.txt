@@ -1,0 +1,11 @@
+name=Ferrovore
+image=https://magiccards.info/scans/en/som/88.jpg
+value=2.857
+rarity=C
+type=Creature
+subtype=Beast
+cost={2}{R}
+pt=2/2
+ability={R}, Sacrifice an artifact: SN gets +3/+0 until end of turn.
+timing=main
+oracle={R}, Sacrifice an artifact: Ferrovore gets +3/+0 until end of turn.

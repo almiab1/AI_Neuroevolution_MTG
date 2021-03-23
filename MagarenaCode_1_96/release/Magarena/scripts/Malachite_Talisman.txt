@@ -1,0 +1,9 @@
+name=Malachite Talisman
+image=https://magiccards.info/scans/en/ia/303.jpg
+value=2.317
+rarity=U
+type=Artifact
+cost={2}
+ability=Whenever a player casts a green spell, you may pay {3}. If you do, untap target permanent.
+timing=artifact
+oracle=Whenever a player casts a green spell, you may pay {3}. If you do, untap target permanent.

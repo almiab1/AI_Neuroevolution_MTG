@@ -1,0 +1,14 @@
+name=Zhur-Taa Druid
+image=https://magiccards.info/scans/en/c16/232.jpg
+image_updated=2017-08-17
+value=3.759
+rarity=C
+type=Creature
+subtype=Human,Druid
+cost={R}{G}
+pt=1/1
+ability={T}: Add {G}.;\
+        Whenever you tap SN for mana, it deals 1 damage to each opponent.
+timing=main
+oracle={T}: Add {G}.\nWhenever you tap Zhur-Taa Druid for mana, it deals 1 damage to each opponent.
+status=not supported: when-tap-for-mana

@@ -1,0 +1,9 @@
+name=Gather the Townsfolk
+image=https://magiccards.info/scans/en/dka/8.jpg
+value=3.856
+rarity=C
+type=Sorcery
+cost={1}{W}
+timing=main
+requires_groovy_code
+oracle=Create two 1/1 white Human creature tokens.\nFateful hour — If you have 5 or less life, create five of those tokens instead.

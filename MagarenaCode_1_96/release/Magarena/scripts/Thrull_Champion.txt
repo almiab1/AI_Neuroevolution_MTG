@@ -1,0 +1,12 @@
+name=Thrull Champion
+image=https://magiccards.info/scans/en/fe/29.jpg
+value=3.885
+rarity=R
+type=Creature
+subtype=Thrull
+cost={4}{B}
+pt=2/2
+ability=Thrull creatures get +1/+1.;\
+        {T}: Gain control of target Thrull for as long as you control SN.
+timing=main
+oracle=Thrull creatures get +1/+1.\n{T}: Gain control of target Thrull for as long as you control Thrull Champion.

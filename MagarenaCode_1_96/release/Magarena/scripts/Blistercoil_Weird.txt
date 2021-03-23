@@ -1,0 +1,11 @@
+name=Blistercoil Weird
+image=https://magiccards.info/scans/en/rtr/211.jpg
+value=3.447
+rarity=U
+type=Creature
+subtype=Weird
+cost={U/R}
+pt=1/1
+ability=Whenever you cast an instant or sorcery spell, SN gets +1/+1 until end of turn.~Untap SN.
+timing=main
+oracle=Whenever you cast an instant or sorcery spell, Blistercoil Weird gets +1/+1 until end of turn. Untap it.

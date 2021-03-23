@@ -1,0 +1,9 @@
+name=Goblin Rally
+image=https://magiccards.info/scans/en/rtr/95.jpg
+value=2.953
+rarity=U
+type=Sorcery
+cost={3}{R}{R}
+effect=Create four 1/1 red Goblin creature tokens.
+timing=token
+oracle=Create four 1/1 red Goblin creature tokens.

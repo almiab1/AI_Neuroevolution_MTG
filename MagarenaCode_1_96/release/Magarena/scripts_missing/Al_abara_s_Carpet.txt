@@ -1,0 +1,10 @@
+name=Al-abara's Carpet
+image=https://magiccards.info/scans/en/lg/213.jpg
+value=3.625
+rarity=R
+type=Artifact
+cost={5}
+ability={5}, {T}: Prevent all damage that would be dealt to you this turn by attacking creatures without flying.
+timing=artifact
+oracle={5}, {T}: Prevent all damage that would be dealt to you this turn by attacking creatures without flying.
+status=needs groovy

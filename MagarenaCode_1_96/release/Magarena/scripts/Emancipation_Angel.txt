@@ -1,0 +1,13 @@
+name=Emancipation Angel
+image=https://magiccards.info/scans/en/avr/19.jpg
+value=3.898
+removal=2
+rarity=U
+type=Creature
+subtype=Angel
+cost={1}{W}{W}
+pt=3/3
+ability=Flying;\
+        When SN enters the battlefield, return a permanent you control to its owner's hand.
+timing=main
+oracle=Flying\nWhen Emancipation Angel enters the battlefield, return a permanent you control to its owner's hand.

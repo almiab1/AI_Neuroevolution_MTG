@@ -1,0 +1,10 @@
+name=Slice in Twain
+image=https://magiccards.info/scans/en/xln/207.jpg
+image_updated=2017-10-30
+value=3.462
+rarity=U
+type=Instant
+cost={2}{G}{G}
+effect=Destroy target artifact or enchantment.~Draw a card.
+timing=removal
+oracle=Destroy target artifact or enchantment.\nDraw a card.

@@ -1,0 +1,11 @@
+name=Scalding Devil
+image=https://magiccards.info/scans/en/avr/155.jpg
+value=1.897
+rarity=C
+type=Creature
+subtype=Devil
+cost={1}{R}
+pt=1/1
+ability={2}{R}: SN deals 1 damage to target player.
+timing=main
+oracle={2}{R}: Scalding Devil deals 1 damage to target player.

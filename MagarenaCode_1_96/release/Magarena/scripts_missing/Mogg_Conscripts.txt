@@ -1,0 +1,12 @@
+name=Mogg Conscripts
+image=https://magiccards.info/scans/en/tp/189.jpg
+value=2.500
+rarity=C
+type=Creature
+subtype=Goblin
+cost={R}
+pt=2/2
+ability=SN can't attack unless you've cast a creature spell this turn.
+timing=main
+oracle=Mogg Conscripts can't attack unless you've cast a creature spell this turn.
+status=not supported: no-info

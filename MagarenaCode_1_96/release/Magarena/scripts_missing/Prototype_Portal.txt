@@ -1,0 +1,11 @@
+name=Prototype Portal
+image=https://magiccards.info/scans/en/som/195.jpg
+value=4.151
+rarity=R
+type=Artifact
+cost={4}
+ability=When SN enters the battlefield, you may exile an artifact card from your hand.;\
+        {X}, {T}: Create a token that's a copy of the exiled card. X is the converted mana cost of that card.
+timing=artifact
+oracle=Imprint — When Prototype Portal enters the battlefield, you may exile an artifact card from your hand.\n{X}, {T}: Create a token that's a copy of the exiled card. X is the converted mana cost of that card.
+status=needs groovy

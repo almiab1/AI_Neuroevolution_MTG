@@ -1,0 +1,12 @@
+name=Blighted Agent
+image=https://magiccards.info/scans/en/nph/29.jpg
+value=3.785
+rarity=C
+type=Creature
+subtype=Human,Rogue
+cost={1}{U}
+pt=1/1
+ability=Infect;\
+        SN can't be blocked.
+timing=main
+oracle=Infect\nBlighted Agent can't be blocked.

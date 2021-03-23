@@ -1,0 +1,10 @@
+name=1/1 green Elf Druid creature token named Llanowar Elves
+token=Llanowar Elves
+image=http://cdn.staticneo.com/w/mtg/7/71/Llanowar_Elves.jpg
+value=2
+type=Creature
+subtype=Elf,Druid
+color=g
+ability={T}: Add {G}.
+pt=1/1
+oracle={T}: Add {G}.

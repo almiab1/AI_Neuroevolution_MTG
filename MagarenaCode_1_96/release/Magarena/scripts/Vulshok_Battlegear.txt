@@ -1,0 +1,12 @@
+name=Vulshok Battlegear
+image=https://magiccards.info/scans/en/mi/272.jpg
+image_updated=2017-01-11
+value=3.857
+rarity=U
+type=Artifact
+subtype=Equipment
+cost={3}
+ability=Equipped creature gets +3/+3.;\
+        Equip {3}
+timing=equipment
+oracle=Equipped creature gets +3/+3.\nEquip {3}

@@ -1,0 +1,12 @@
+name=Knight of Dawn
+image=https://magiccards.info/scans/en/tp/238.jpg
+value=3.745
+rarity=U
+type=Creature
+subtype=Human,Knight
+cost={1}{W}{W}
+pt=2/2
+ability=First strike;\
+        {W}{W}: SN gains protection from the color of your choice until end of turn.
+timing=main
+oracle=First strike\n{W}{W}: Knight of Dawn gains protection from the color of your choice until end of turn.

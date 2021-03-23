@@ -1,0 +1,10 @@
+name=Pulverize
+image=https://magiccards.info/scans/en/mm/207.jpg
+value=4.500
+rarity=R
+type=Sorcery
+cost={4}{R}{R}
+ability=You may sacrifice two Mountains rather than pay this spell's mana cost.
+effect=Destroy all artifacts.
+timing=main
+oracle=You may sacrifice two Mountains rather than pay this spell's mana cost.\nDestroy all artifacts.

@@ -1,0 +1,10 @@
+name=Levitation
+image=https://magiccards.info/scans/en/m12/61.jpg
+value=4.015
+rarity=U
+type=Enchantment
+cost={2}{U}{U}
+ability=Creatures you control have flying.
+static=player
+timing=enchantment
+oracle=Creatures you control have flying.

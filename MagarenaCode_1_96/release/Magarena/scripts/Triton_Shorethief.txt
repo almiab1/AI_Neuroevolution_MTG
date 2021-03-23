@@ -1,0 +1,10 @@
+name=Triton Shorethief
+image=https://magiccards.info/scans/en/ths/70.jpg
+value=2.915
+rarity=C
+type=Creature
+subtype=Merfolk,Rogue
+cost={U}
+pt=1/2
+timing=main
+oracle=NONE

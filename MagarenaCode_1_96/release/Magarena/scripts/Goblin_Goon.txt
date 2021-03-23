@@ -1,0 +1,12 @@
+name=Goblin Goon
+image=https://magiccards.info/scans/en/le/99.jpg
+value=2.500
+rarity=R
+type=Creature
+subtype=Goblin,Mutant
+cost={3}{R}
+pt=6/6
+ability=SN can't attack unless you control more creatures than defending player.;\
+        SN can't block unless you control more creatures than attacking player.
+timing=main
+oracle=Goblin Goon can't attack unless you control more creatures than defending player.\nGoblin Goon can't block unless you control more creatures than attacking player.

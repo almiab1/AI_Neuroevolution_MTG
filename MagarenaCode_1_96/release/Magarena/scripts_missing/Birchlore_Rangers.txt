@@ -1,0 +1,13 @@
+name=Birchlore Rangers
+image=https://magiccards.info/scans/en/on/248.jpg
+value=3.658
+rarity=C
+type=Creature
+subtype=Elf,Druid
+cost={G}
+pt=1/1
+ability=Tap two untapped Elves you control: Add one mana of any color.;\
+        Morph {G}
+timing=main
+oracle=Tap two untapped Elves you control: Add one mana of any color.\nMorph {G}
+status=not supported: repeated-mana-ability

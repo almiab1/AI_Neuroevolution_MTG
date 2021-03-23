@@ -1,0 +1,11 @@
+name=Dakmor Ghoul
+image=https://magiccards.info/scans/en/st/70.jpg
+value=3.300
+rarity=U
+type=Creature
+subtype=Zombie
+cost={2}{B}{B}
+pt=2/2
+ability=When SN enters the battlefield, target opponent loses 2 life and you gain 2 life.
+timing=main
+oracle=When Dakmor Ghoul enters the battlefield, target opponent loses 2 life and you gain 2 life.

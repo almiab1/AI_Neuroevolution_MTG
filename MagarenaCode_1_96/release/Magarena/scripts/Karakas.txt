@@ -1,0 +1,10 @@
+name=Karakas
+image=https://magiccards.info/scans/en/ema/240.jpg
+value=4.570
+rarity=M
+type=Legendary,Land
+mana=w1
+ability={T}: Add {W}.;\
+        {T}: Return target legendary creature to its owner's hand.
+timing=land
+oracle={T}: Add {W}.\n{T}: Return target legendary creature to its owner's hand.

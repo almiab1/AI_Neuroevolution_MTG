@@ -1,0 +1,10 @@
+name=Lizard Warrior
+image=https://magiccards.info/scans/en/cns/146.jpg
+value=2.444
+rarity=C
+type=Creature
+subtype=Lizard,Warrior
+cost={3}{R}
+pt=4/2
+timing=main
+oracle=NONE

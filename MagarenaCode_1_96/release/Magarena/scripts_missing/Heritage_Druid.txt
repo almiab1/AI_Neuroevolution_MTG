@@ -1,0 +1,12 @@
+name=Heritage Druid
+image=https://magiccards.info/scans/en/ema/171.jpg
+value=4.339
+rarity=R
+type=Creature
+subtype=Elf,Druid
+cost={G}
+pt=1/1
+ability=Tap three untapped Elves you control: Add {G}{G}{G}.
+timing=main
+oracle=Tap three untapped Elves you control: Add {G}{G}{G}.
+status=not supported: add-multiple-mana

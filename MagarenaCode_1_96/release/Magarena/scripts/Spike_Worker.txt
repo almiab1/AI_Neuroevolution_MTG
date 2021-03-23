@@ -1,0 +1,13 @@
+name=Spike Worker
+image=https://magiccards.info/scans/en/sh/70.jpg
+image_updated=2016-01-09
+value=3.283
+rarity=C
+type=Creature
+subtype=Spike
+cost={2}{G}
+pt=0/0
+ability=SN enters the battlefield with two +1/+1 counters on it.;\
+        {2}, Remove a +1/+1 counter from SN: Put a +1/+1 counter on target creature.
+timing=main
+oracle=Spike Worker enters the battlefield with two +1/+1 counters on it.\n{2}, Remove a +1/+1 counter from Spike Worker: Put a +1/+1 counter on target creature.

@@ -1,0 +1,11 @@
+name=Act of Heroism
+image=https://magiccards.info/scans/en/a25/1.jpg
+image_updated=2018-04-25
+value=2.500
+rarity=C
+type=Instant
+cost={1}{W}
+effect=Untap target creature.~It gets +2/+2 until end of turn and can block an additional creature this turn.
+timing=removal
+oracle=Untap target creature. It gets +2/+2 until end of turn and can block an additional creature this turn.
+status=not supported: block-multiple

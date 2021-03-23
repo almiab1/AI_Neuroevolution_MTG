@@ -1,0 +1,9 @@
+name=View from Above
+image=https://magiccards.info/scans/en/cfx/38.jpg
+value=2.511
+rarity=U
+type=Instant
+cost={1}{U}
+timing=pump
+requires_groovy_code
+oracle=Target creature gains flying until end of turn. If you control a white permanent, return View from Above to its owner's hand.

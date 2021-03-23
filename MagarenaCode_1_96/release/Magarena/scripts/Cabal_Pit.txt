@@ -1,0 +1,10 @@
+name=Cabal Pit
+image=https://magiccards.info/scans/en/od/315.jpg
+value=3.533
+rarity=U
+type=Land
+mana=b2
+ability={T}: Add {B}. SN deals 1 damage to you.;\
+        {B}, {T}, Sacrifice SN: Target creature gets -2/-2 until end of turn. Activate this ability only if seven or more cards are in your graveyard.
+timing=land
+oracle={T}: Add {B}. Cabal Pit deals 1 damage to you.\nThreshold — {B}, {T}, Sacrifice Cabal Pit: Target creature gets -2/-2 until end of turn. Activate this ability only if seven or more cards are in your graveyard.

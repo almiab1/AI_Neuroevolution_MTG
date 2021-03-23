@@ -1,0 +1,10 @@
+name=Mana Flare
+image=https://magiccards.info/scans/en/5e/249.jpg
+value=3.936
+rarity=R
+type=Enchantment
+cost={2}{R}
+ability=Whenever a player taps a land for mana, that player adds one mana of any type that land produced.
+timing=enchantment
+oracle=Whenever a player taps a land for mana, that player adds one mana of any type that land produced.
+status=not supported: non-activated-mana-ability

@@ -1,0 +1,10 @@
+name=Winter's Grasp
+image=https://magiccards.info/scans/en/tp/159.jpg
+value=3.639
+removal=3
+rarity=U
+type=Sorcery
+cost={1}{G}{G}
+effect=Destroy target land.
+timing=main
+oracle=Destroy target land.

@@ -1,0 +1,9 @@
+name=Thoughtflare
+image=https://magiccards.info/scans/en/rtr/203.jpg
+value=3.008
+rarity=U
+type=Instant
+cost={3}{U}{R}
+effect=Draw four cards, then discard two cards.
+timing=draw
+oracle=Draw four cards, then discard two cards.

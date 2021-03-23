@@ -1,0 +1,12 @@
+name=Sword of Feast and Famine
+image=https://magiccards.info/scans/en/mbs/138.jpg
+value=3.769
+rarity=M
+type=Artifact
+subtype=Equipment
+cost={3}
+ability=Equipped creature gets +2/+2 and has protection from black and from green.;\
+        Whenever equipped creature deals combat damage to a player, that player discards a card.~Untap all lands you control.;\
+        Equip {2}
+timing=equipment
+oracle=Equipped creature gets +2/+2 and has protection from black and from green.\nWhenever equipped creature deals combat damage to a player, that player discards a card and you untap all lands you control.\nEquip {2}

@@ -1,0 +1,9 @@
+name=Riptide
+image=https://magiccards.info/scans/en/dk/34.jpg
+value=2.207
+rarity=C
+type=Instant
+cost={U}
+effect=Tap all blue creatures.
+timing=tapping
+oracle=Tap all blue creatures.

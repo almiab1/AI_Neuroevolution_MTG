@@ -1,0 +1,11 @@
+name=Coral Eel
+image=https://magiccards.info/scans/en/9eb/3.jpg
+image_updated=2015-05-17
+value=2.241
+rarity=C
+type=Creature
+subtype=Fish
+cost={1}{U}
+pt=2/1
+timing=main
+oracle=NONE

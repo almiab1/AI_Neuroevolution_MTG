@@ -1,0 +1,11 @@
+name=Grim Guardian
+image=https://magiccards.info/scans/en/jou/73.jpg
+value=3.661
+rarity=C
+type=Enchantment,Creature
+subtype=Zombie
+cost={2}{B}
+pt=1/4
+ability=Whenever SN or another enchantment enters the battlefield under your control, each opponent loses 1 life.
+timing=main
+oracle=Constellation — Whenever Grim Guardian or another enchantment enters the battlefield under your control, each opponent loses 1 life.

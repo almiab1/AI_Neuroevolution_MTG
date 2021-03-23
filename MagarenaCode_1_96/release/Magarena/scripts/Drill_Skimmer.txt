@@ -1,0 +1,12 @@
+name=Drill-Skimmer
+image=https://magiccards.info/scans/en/ds/118.jpg
+value=2.038
+rarity=C
+type=Artifact,Creature
+subtype=Thopter
+cost={4}
+pt=2/1
+ability=Flying;\
+        SN has shroud as long as you control another artifact creature.
+timing=main
+oracle=Flying\nDrill-Skimmer has shroud as long as you control another artifact creature.

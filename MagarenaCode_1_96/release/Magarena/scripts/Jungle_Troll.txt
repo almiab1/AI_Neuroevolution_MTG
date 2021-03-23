@@ -1,0 +1,11 @@
+name=Jungle Troll
+image=https://magiccards.info/scans/en/mr/329.jpg
+value=3.176
+rarity=U
+type=Creature
+subtype=Troll
+cost={1}{R}{G}
+pt=2/1
+ability={R/G}: Regenerate SN.
+timing=main
+oracle={R}: Regenerate Jungle Troll.\n{G}: Regenerate Jungle Troll.

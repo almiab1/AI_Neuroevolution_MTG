@@ -1,0 +1,10 @@
+name=Words of Wilding
+image=https://magiccards.info/scans/en/on/305.jpg
+value=3.606
+rarity=R
+type=Enchantment
+cost={2}{G}
+ability={1}: The next time you would draw a card this turn, create a 2/2 green Bear creature token instead.
+timing=enchantment
+oracle={1}: The next time you would draw a card this turn, create a 2/2 green Bear creature token instead.
+status=not supported: draw-replacement

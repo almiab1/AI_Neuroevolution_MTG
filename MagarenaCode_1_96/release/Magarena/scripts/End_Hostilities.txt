@@ -1,0 +1,9 @@
+name=End Hostilities
+image=https://magiccards.info/scans/en/ktk/8.jpg
+value=3.667
+rarity=R
+type=Sorcery
+cost={3}{W}{W}
+timing=main
+requires_groovy_code
+oracle=Destroy all creatures and all permanents attached to creatures.
