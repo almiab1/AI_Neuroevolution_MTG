@@ -56,11 +56,32 @@ public class FSM extends MagicAI {
             }
         }
         
-//        log("Creatures finded ["+ creatures.size() + "] = " + creatures);
+        log("Creatures finded ["+ creatures.size() + "] = " + creatures);
         
         return creatures;
     }
 
+    private MagicCard getStrongestCreature(List<MagicCard> creatures){
+        
+        MagicCard strongestCreature = null;
+        
+        if (creatures.size() == 1) {
+            strongestCreature = creatures.get(0);
+        } else if( creatures.size() > 1) {
+            strongestCreature = creatures.get(0);
+           
+            for (int i = 0; i < creatures.size(); i++) {
+                if(strongestCreature.getCardDefinition().getCardPower() < creatures.get(i).getCardDefinition().getCardPower()){ 
+                    strongestCreature = creatures.get(i);
+                }  else if(strongestCreature.getCardDefinition().getCardPower() == creatures.get(i).getCardDefinition().getCardPower() &&
+                        strongestCreature.getCardDefinition().getCardToughness() < creatures.get(i).getCardDefinition().getCardToughness()){ 
+                    strongestCreature = creatures.get(i);
+                }
+            }
+        }
+        log("Strogest Creature = " + strongestCreature);
+        return strongestCreature;
+    }
     // ----------------------------------------------------------------------------
     // findNextEventChoiceResults
     // ----------------------------------------------------------------------------
@@ -76,9 +97,12 @@ public class FSM extends MagicAI {
         }
         final MagicEvent event=choiceGame.getNextEvent();
         final List<Object[]> choiceResultsList=event.getArtificialChoiceResults(choiceGame);
+                
+//        getLandsOfMyHand(scorePlayer);
+        List<MagicCard> creatures = getCreatures(scorePlayer);
         
-        // getLandsOfMyHand(scorePlayer);
-        getCreatures(scorePlayer);
+        MagicCard strongestCreature = getStrongestCreature(creatures);
+        
         // No choices
         final int size=choiceResultsList.size();
         if (size==0) {
@@ -103,10 +127,7 @@ public class FSM extends MagicAI {
             " step=" + sourceGame.getStep() +
             " slice=" + (0/1000000) +
             " time=" + timeTaken + 
-            " Energy = " + scorePlayer.getEnergy() +
-            " Hand size = " + scorePlayer.getHandSize() +
-            " Hand = " + scorePlayer.getHand() +
-            " Mana activations = " + scorePlayer.getManaActivations(choiceGame)
+            " Event = " + choiceResultsList.get(0)
                 );
         
         return sourceGame.map(choiceResultsList.get(randomIndex));
