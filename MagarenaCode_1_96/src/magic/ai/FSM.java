@@ -1,12 +1,14 @@
 package magic.ai;
 
 import java.util.List;
+import magic.model.MagicCard;
 import magic.model.MagicGame;
 import magic.model.MagicGameLog;
 import magic.model.MagicPlayer;
+import magic.model.MagicType;
 import magic.model.event.MagicEvent;
         
-public class RandomV1 extends MagicAI {
+public class FSM extends MagicAI {
 
     // ----------------------------------------------------------------------------
     // Set up
@@ -16,12 +18,33 @@ public class RandomV1 extends MagicAI {
 
     private final boolean CHEAT;
 
-    RandomV1(final boolean cheat) {
+    FSM(final boolean cheat) {
         CHEAT = cheat;
     }
 
     private void log(final String message) {
         MagicGameLog.log(message);
+    }
+
+    // ----------------------------------------------------------------------------
+    // Selection methods for the phases
+    // ----------------------------------------------------------------------------
+
+    private void evaluateHand(final MagicGame sourceGame,final MagicPlayer scorePlayer) {
+        int numLands = 0;
+        int numCreatures = 0;
+        
+        List<MagicCard> hand = scorePlayer.getHand();
+        
+        for (MagicCard card:hand){
+            if(card.isLand()){ 
+                numLands += 1;
+            } else if (card.isCreature()){
+                numCreatures += 1;
+            }
+        }
+        
+        log("Num creatures = " + numCreatures + " Num lands = "+numLands);
     }
 
     // ----------------------------------------------------------------------------
@@ -39,7 +62,9 @@ public class RandomV1 extends MagicAI {
         }
         final MagicEvent event=choiceGame.getNextEvent();
         final List<Object[]> choiceResultsList=event.getArtificialChoiceResults(choiceGame);
-
+        
+        evaluateHand(sourceGame,scorePlayer);
+        
         // No choices
         final int size=choiceResultsList.size();
         if (size==0) {
