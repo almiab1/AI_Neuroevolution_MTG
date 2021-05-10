@@ -5,8 +5,8 @@ import magic.model.MagicCard;
 import magic.model.MagicGame;
 import magic.model.MagicGameLog;
 import magic.model.MagicPlayer;
-import magic.model.MagicType;
 import magic.model.event.MagicEvent;
+import java.util.*;
         
 public class FSM extends MagicAI {
 
@@ -29,22 +29,36 @@ public class FSM extends MagicAI {
     // ----------------------------------------------------------------------------
     // Selection methods for the phases
     // ----------------------------------------------------------------------------
-
-    private void evaluateHand(final MagicGame sourceGame,final MagicPlayer scorePlayer) {
-        int numLands = 0;
-        int numCreatures = 0;
-        
+    
+    private List<MagicCard> getLandsOfMyHand(final MagicPlayer scorePlayer){
         List<MagicCard> hand = scorePlayer.getHand();
+        
+        List<MagicCard> lands = new ArrayList<MagicCard>();
         
         for (MagicCard card:hand){
             if(card.isLand()){ 
-                numLands += 1;
-            } else if (card.isCreature()){
-                numCreatures += 1;
+                lands.add(card);
             }
         }
         
-        log("Num creatures = " + numCreatures + " Num lands = "+numLands);
+//        log("Lands finded ["+ lands.size() + "] = " + lands);
+        return lands;
+    }
+    
+    private List<MagicCard> getCreatures(final MagicPlayer scorePlayer){
+        List<MagicCard> hand = scorePlayer.getHand();
+        
+        List<MagicCard> creatures = new ArrayList<MagicCard>();
+        
+        for (MagicCard card:hand){
+            if(card.isCreature()){ 
+                creatures.add(card);
+            }
+        }
+        
+//        log("Creatures finded ["+ creatures.size() + "] = " + creatures);
+        
+        return creatures;
     }
 
     // ----------------------------------------------------------------------------
@@ -63,8 +77,8 @@ public class FSM extends MagicAI {
         final MagicEvent event=choiceGame.getNextEvent();
         final List<Object[]> choiceResultsList=event.getArtificialChoiceResults(choiceGame);
         
-        evaluateHand(sourceGame,scorePlayer);
-        
+        // getLandsOfMyHand(scorePlayer);
+        getCreatures(scorePlayer);
         // No choices
         final int size=choiceResultsList.size();
         if (size==0) {
