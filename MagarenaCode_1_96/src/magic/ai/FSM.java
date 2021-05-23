@@ -6,6 +6,7 @@ import magic.model.MagicGame;
 import magic.model.MagicGameLog;
 import magic.model.MagicPlayer;
 import magic.model.event.MagicEvent;
+import magic.model.choice.MagicChoice;
 import java.util.*;
         
 public class FSM extends MagicAI {
@@ -30,6 +31,19 @@ public class FSM extends MagicAI {
     // Selection methods for the phases
     // ----------------------------------------------------------------------------
     
+    private void evaluateCards(List<Object[]> choiceResultsList){
+        log("------------- Choices search -------------");
+        for(Object[] choice:choiceResultsList){
+            
+            log("Choice:"+'\n' +
+                "   Choice list size is {"+choiceResultsList.size()+"}"+'\n' +
+                "   Choice class is "+choice[0].getClass()+'\n' +
+                "   Choice string: "+choice[0].toString()+'\n' +
+                "--------------------------");
+        }
+        log("------------- Choices search ends -------------");
+    }
+    
     private List<MagicCard> getLandsOfMyHand(final MagicPlayer scorePlayer){
         List<MagicCard> hand = scorePlayer.getHand();
         
@@ -41,7 +55,7 @@ public class FSM extends MagicAI {
             }
         }
         
-//        log("Lands finded ["+ lands.size() + "] = " + lands);
+       log("Lands finded ["+ lands.size() + "] = " + lands);
         return lands;
     }
     
@@ -65,11 +79,13 @@ public class FSM extends MagicAI {
         
         MagicCard strongestCreature = null;
         
+        // Length of the list is 1
         if (creatures.size() == 1) {
             strongestCreature = creatures.get(0);
-        } else if( creatures.size() > 1) {
+        } else if( creatures.size() > 1) { // Length of the list is more than one
             strongestCreature = creatures.get(0);
            
+            // Find the strongest creature
             for (int i = 0; i < creatures.size(); i++) {
                 if(strongestCreature.getCardDefinition().getCardPower() < creatures.get(i).getCardDefinition().getCardPower()){ 
                     strongestCreature = creatures.get(i);
@@ -87,11 +103,13 @@ public class FSM extends MagicAI {
         
         MagicCard weakestCreature = null;
         
+        // Length of the list is 1
         if (creatures.size() == 1) {
             weakestCreature = creatures.get(0);
-        } else if( creatures.size() > 1) {
+        } else if( creatures.size() > 1) {  // Length of the list is more than one
             weakestCreature = creatures.get(0);
            
+            // Find the weakest creature
             for (int i = 0; i < creatures.size(); i++) {
                 if(weakestCreature.getCardDefinition().getCardPower() > creatures.get(i).getCardDefinition().getCardPower()){ 
                     weakestCreature = creatures.get(i);
@@ -119,6 +137,8 @@ public class FSM extends MagicAI {
         }
         final MagicEvent event=choiceGame.getNextEvent();
         final List<Object[]> choiceResultsList=event.getArtificialChoiceResults(choiceGame);
+        
+        evaluateCards(choiceResultsList);
                 
         List<MagicCard> lands = getLandsOfMyHand(scorePlayer);
         List<MagicCard> creatures = getCreatures(scorePlayer);
@@ -139,20 +159,18 @@ public class FSM extends MagicAI {
         
         // Random choice
         int randomIndex = (int)(Math.random() * ((choiceResultsList.size())));
-
+        Object[] choice = choiceResultsList.get(randomIndex);
         // Logging.
         final long timeTaken = System.currentTimeMillis() - startTime;
-        log("RandomV1" +
+        log("FSM" +
             " cheat=" + CHEAT +
             " index=" + scorePlayer.getIndex() +
             " life=" + scorePlayer.getLife() +
             " phase=" + sourceGame.getPhase().getType() +
             " step=" + sourceGame.getStep() +
             " slice=" + (0/1000000) +
-            " time=" + timeTaken + 
-            " Event = " + choiceResultsList.get(0)
-                );
-        
-        return sourceGame.map(choiceResultsList.get(randomIndex));
+            " time=" + timeTaken+
+            " Choice selected = "+choice[0].toString());
+        return sourceGame.map(choice);
     }
 }
