@@ -36,7 +36,7 @@ public class FSM extends MagicAI {
         log("Choice list size is {"+choiceResultsList.size()+"}");
         for(Object[] choice:choiceResultsList){
             log("Choice:"+'\n' +
-                "   Choice class is "+choice[0].getClass()+'\n' +
+                "   Choice class is "+choice[0].getClass()+
                 "   Choice string: "+choice[0].toString());
         }
         log("----------- Choices search ends -----------");
@@ -85,9 +85,6 @@ public class FSM extends MagicAI {
                 }
             }
         }
-
-        log("Ha llegado despues del choices list card que se queda asi --> "+creaturesChoicesList);
-
             
         // Selection the strogest creature of the choices list
         if(creaturesChoicesList.size() == 1){ 
@@ -126,8 +123,6 @@ public class FSM extends MagicAI {
                 }
             }
         }
-
-        log("Ha llegado despues del choices list card que se queda asi --> "+creaturesChoicesList);
             
         // Selection the strogest creature of the choices list
         if(creaturesChoicesList.size() == 1){ 
@@ -148,6 +143,21 @@ public class FSM extends MagicAI {
         
         return weakestCreature;
     }
+
+    private Object[] getPassChoice(List<Object[]> choices){
+        // Init
+        Object[] passChoice = null;
+                
+        // Get card of the choices list
+        for(Object[] choice:choices){
+            if(choice[0].toString() == "pass"){
+                passChoice = choice;
+            }
+        }
+
+        return passChoice;
+    }
+
     // ----------------------------------------------------------------------------
     // findNextEventChoiceResults
     // ----------------------------------------------------------------------------
@@ -164,7 +174,6 @@ public class FSM extends MagicAI {
         final MagicEvent event=choiceGame.getNextEvent();
         final List<Object[]> choiceResultsList=event.getArtificialChoiceResults(choiceGame);
         
-        evaluateCards(choiceResultsList);
 
         
         // No choices
@@ -178,21 +187,28 @@ public class FSM extends MagicAI {
             return sourceGame.map(choiceResultsList.get(0));
         }
         
+        // ----------------------------------------------------------
+        // More than one choice
+        // ----------------------------------------------------------
+
+        // Get info about the choices
+        evaluateCards(choiceResultsList);
         List<MagicCard> lands = getLandsOfMyHand(scorePlayer);
         List<MagicCard> creatures = getCreatures(scorePlayer);
         MagicCard strongestCreature = getStrongestCreature(creatures, choiceResultsList);
         MagicCard weakestCreature = getWeakestCreature(creatures, choiceResultsList);
+        Object[] passChoice = getPassChoice(choiceResultsList);
         
-        String phase = sourceGame.getPhase().getType().toString();
+        // String phase = sourceGame.getPhase().getType().toString();
         
-        if(phase == "FirstMain" || phase == "SecondMain" || phase == "DeclareBlockers" || phase == "DeclareAttackers"){
-            log("------------- Lands and Creatures -------------"+'\n'+
-                "   Lands => "+lands+'\n'+
-                "   Creatures => "+creatures+'\n'+
-                "       Wakest => "+weakestCreature+'\n'+
-                "       Stongest => "+strongestCreature+'\n'+
-                "----------- Lands and Creatures Ends ----------");
-        }
+        // if(phase == "FirstMain" || phase == "SecondMain" || phase == "DeclareBlockers" || phase == "DeclareAttackers"){
+        //     log("------------- Lands and Creatures -------------"+'\n'+
+        //         "   Lands => "+lands+'\n'+
+        //         "   Creatures => "+creatures+'\n'+
+        //         "       Wakest => "+weakestCreature+'\n'+
+        //         "       Stongest => "+strongestCreature+'\n'+
+        //         "----------- Lands and Creatures Ends ----------");
+        // }
 
         // Random choice
         int randomIndex = (int)(Math.random() * ((choiceResultsList.size())));
