@@ -33,15 +33,13 @@ public class FSM extends MagicAI {
     
     private void evaluateCards(List<Object[]> choiceResultsList){
         log("------------- Choices search -------------");
+        log("Choice list size is {"+choiceResultsList.size()+"}");
         for(Object[] choice:choiceResultsList){
-            
             log("Choice:"+'\n' +
-                "   Choice list size is {"+choiceResultsList.size()+"}"+'\n' +
                 "   Choice class is "+choice[0].getClass()+'\n' +
-                "   Choice string: "+choice[0].toString()+'\n' +
-                "--------------------------");
+                "   Choice string: "+choice[0].toString());
         }
-        log("------------- Choices search ends -------------");
+        log("----------- Choices search ends -----------");
     }
     
     private List<MagicCard> getLandsOfMyHand(final MagicPlayer scorePlayer){
@@ -95,7 +93,7 @@ public class FSM extends MagicAI {
                 }
             }
         }
-        log("Strogest Creature = " + strongestCreature);
+        // log("Strogest Creature = " + strongestCreature);
         return strongestCreature;
     }
     
@@ -119,7 +117,7 @@ public class FSM extends MagicAI {
                 }
             }
         }
-        log("Weakest Creature = " + weakestCreature);
+        // log("Weakest Creature = " + weakestCreature);
         return weakestCreature;
     }
     // ----------------------------------------------------------------------------
@@ -139,9 +137,11 @@ public class FSM extends MagicAI {
         final List<Object[]> choiceResultsList=event.getArtificialChoiceResults(choiceGame);
         
         evaluateCards(choiceResultsList);
-                
+
+        log("------------- Lands and Creatures -------------");        
         List<MagicCard> lands = getLandsOfMyHand(scorePlayer);
         List<MagicCard> creatures = getCreatures(scorePlayer);
+        log("----------- Lands and Creatures Ends ----------");        
         
         MagicCard strongestCreature = getStrongestCreature(creatures);
         MagicCard weakestCreature = getWeakestCreature(creatures);
@@ -159,10 +159,11 @@ public class FSM extends MagicAI {
         
         // Random choice
         int randomIndex = (int)(Math.random() * ((choiceResultsList.size())));
-        Object[] choice = choiceResultsList.get(randomIndex);
+        Object[] choiceSelected = choiceResultsList.get(randomIndex);
+        
         // Logging.
         final long timeTaken = System.currentTimeMillis() - startTime;
-        log("FSM" +
+        log("--------------------------FSM--------------------------" + '\n'+
             " cheat=" + CHEAT +
             " index=" + scorePlayer.getIndex() +
             " life=" + scorePlayer.getLife() +
@@ -170,7 +171,8 @@ public class FSM extends MagicAI {
             " step=" + sourceGame.getStep() +
             " slice=" + (0/1000000) +
             " time=" + timeTaken+
-            " Choice selected = "+choice[0].toString());
-        return sourceGame.map(choice);
+            " Choice selected = "+choiceSelected[0].toString()+'\n'+
+            "-------------------------------------------------------");
+        return sourceGame.map(choiceSelected);
     }
 }
