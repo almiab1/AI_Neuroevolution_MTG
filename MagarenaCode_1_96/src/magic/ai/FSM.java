@@ -52,8 +52,6 @@ public class FSM extends MagicAI {
                 lands.add(card);
             }
         }
-        
-       log("Lands finded ["+ lands.size() + "] = " + lands);
         return lands;
     }
     
@@ -68,56 +66,86 @@ public class FSM extends MagicAI {
             }
         }
         
-        log("Creatures finded ["+ creatures.size() + "] = " + creatures);
-        
         return creatures;
     }
 
-    private MagicCard getStrongestCreature(List<MagicCard> creatures){
+    private MagicCard getStrongestCreature(List<MagicCard> creaturesHand, List<Object[]> choices){
         
+        // Init
         MagicCard strongestCreature = null;
+        List<MagicCard> creaturesChoicesList = new ArrayList<MagicCard>();
         
-        // Length of the list is 1
-        if (creatures.size() == 1) {
-            strongestCreature = creatures.get(0);
-        } else if( creatures.size() > 1) { // Length of the list is more than one
-            strongestCreature = creatures.get(0);
-           
-            // Find the strongest creature
-            for (int i = 0; i < creatures.size(); i++) {
-                if(strongestCreature.getCardDefinition().getCardPower() < creatures.get(i).getCardDefinition().getCardPower()){ 
-                    strongestCreature = creatures.get(i);
-                }  else if(strongestCreature.getCardDefinition().getCardPower() == creatures.get(i).getCardDefinition().getCardPower() &&
-                        strongestCreature.getCardDefinition().getCardToughness() < creatures.get(i).getCardDefinition().getCardToughness()){ 
-                    strongestCreature = creatures.get(i);
+        // Get card of the choices list
+        for(Object[] choice:choices){
+            if(choice[0].toString() != "pass" || choice[0].toString() != "skip"){
+                for(MagicCard creature: creaturesHand){
+                    if(choice[0].toString() == creature.getName()){
+                        creaturesChoicesList.add(creature);
+                    }
                 }
             }
         }
-        // log("Strogest Creature = " + strongestCreature);
+
+        log("Ha llegado despues del choices list card que se queda asi --> "+creaturesChoicesList);
+
+            
+        // Selection the strogest creature of the choices list
+        if(creaturesChoicesList.size() == 1){ 
+            strongestCreature = creaturesChoicesList.get(0);
+        } else if(creaturesChoicesList.size() > 0){
+            strongestCreature = creaturesChoicesList.get(0);
+        
+            // Find the strongest creature
+            for (MagicCard creature:creaturesChoicesList) {
+                if(strongestCreature.getCardDefinition().getCardPower() < creature.getCardDefinition().getCardPower()){ 
+                    strongestCreature = creature;
+                }  else if(strongestCreature.getCardDefinition().getCardPower() == creature.getCardDefinition().getCardPower() &&
+                        strongestCreature.getCardDefinition().getCardToughness() < creature.getCardDefinition().getCardToughness()){ 
+                    strongestCreature = creature;
+                }
+            }
+        }
+
         return strongestCreature;
     }
     
-    private MagicCard getWeakestCreature(List<MagicCard> creatures){
+    private MagicCard getWeakestCreature(List<MagicCard> creaturesHand, List<Object[]> choices){
         
+        // Init
         MagicCard weakestCreature = null;
+        List<MagicCard> creaturesChoicesList = new ArrayList<MagicCard>();
         
-        // Length of the list is 1
-        if (creatures.size() == 1) {
-            weakestCreature = creatures.get(0);
-        } else if( creatures.size() > 1) {  // Length of the list is more than one
-            weakestCreature = creatures.get(0);
-           
-            // Find the weakest creature
-            for (int i = 0; i < creatures.size(); i++) {
-                if(weakestCreature.getCardDefinition().getCardPower() > creatures.get(i).getCardDefinition().getCardPower()){ 
-                    weakestCreature = creatures.get(i);
-                }  else if(weakestCreature.getCardDefinition().getCardPower() == creatures.get(i).getCardDefinition().getCardPower() &&
-                        weakestCreature.getCardDefinition().getCardToughness() > creatures.get(i).getCardDefinition().getCardToughness()){ 
-                    weakestCreature = creatures.get(i);
+        
+        // Get card of the choices list
+        for(Object[] choice:choices){
+            if(choice[0].toString() != "pass" || choice[0].toString() != "skip"){
+                for(MagicCard creature: creaturesHand){
+                    if(choice[0].toString() == creature.getName()){
+                        creaturesChoicesList.add(creature);
+                    }
                 }
             }
         }
-        // log("Weakest Creature = " + weakestCreature);
+
+        log("Ha llegado despues del choices list card que se queda asi --> "+creaturesChoicesList);
+            
+        // Selection the strogest creature of the choices list
+        if(creaturesChoicesList.size() == 1){ 
+            weakestCreature = creaturesChoicesList.get(0);
+        } else if(creaturesChoicesList.size() > 1){
+            weakestCreature = creaturesChoicesList.get(0);
+        
+            // Find the strongest creature
+            for (MagicCard creature:creaturesChoicesList) {
+                if(weakestCreature.getCardDefinition().getCardPower() > creature.getCardDefinition().getCardPower()){ 
+                    weakestCreature = creature;
+                }  else if(weakestCreature.getCardDefinition().getCardPower() == creature.getCardDefinition().getCardPower() &&
+                        weakestCreature.getCardDefinition().getCardToughness() > creature.getCardDefinition().getCardToughness()){ 
+                    weakestCreature = creature;
+                }
+            }
+        }
+        
         return weakestCreature;
     }
     // ----------------------------------------------------------------------------
@@ -138,13 +166,6 @@ public class FSM extends MagicAI {
         
         evaluateCards(choiceResultsList);
 
-        log("------------- Lands and Creatures -------------");        
-        List<MagicCard> lands = getLandsOfMyHand(scorePlayer);
-        List<MagicCard> creatures = getCreatures(scorePlayer);
-        log("----------- Lands and Creatures Ends ----------");        
-        
-        MagicCard strongestCreature = getStrongestCreature(creatures);
-        MagicCard weakestCreature = getWeakestCreature(creatures);
         
         // No choices
         final int size=choiceResultsList.size();
@@ -157,6 +178,22 @@ public class FSM extends MagicAI {
             return sourceGame.map(choiceResultsList.get(0));
         }
         
+        List<MagicCard> lands = getLandsOfMyHand(scorePlayer);
+        List<MagicCard> creatures = getCreatures(scorePlayer);
+        MagicCard strongestCreature = getStrongestCreature(creatures, choiceResultsList);
+        MagicCard weakestCreature = getWeakestCreature(creatures, choiceResultsList);
+        
+        String phase = sourceGame.getPhase().getType().toString();
+        
+        if(phase == "FirstMain" || phase == "SecondMain" || phase == "DeclareBlockers" || phase == "DeclareAttackers"){
+            log("------------- Lands and Creatures -------------"+'\n'+
+                "   Lands => "+lands+'\n'+
+                "   Creatures => "+creatures+'\n'+
+                "       Wakest => "+weakestCreature+'\n'+
+                "       Stongest => "+strongestCreature+'\n'+
+                "----------- Lands and Creatures Ends ----------");
+        }
+
         // Random choice
         int randomIndex = (int)(Math.random() * ((choiceResultsList.size())));
         Object[] choiceSelected = choiceResultsList.get(randomIndex);
