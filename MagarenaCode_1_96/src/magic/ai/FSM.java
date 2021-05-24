@@ -164,8 +164,7 @@ public class FSM extends MagicAI {
     
     private void testJSON() throws IOException{
         FSM_Data c = new FSM_Data();
-        JSONObject json = (JSONObject) c.getJSON("./FSM_Data.json");
-        log("JSON --> "+'\n'+json);
+        c.getLandChoice(0);
     }
     // ----------------------------------------------------------------------------
     // findNextEventChoiceResults

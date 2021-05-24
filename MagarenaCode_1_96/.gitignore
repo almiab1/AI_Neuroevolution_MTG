@@ -11,3 +11,4 @@ release/Magarena/reports
 doc/doxygen/
 doc/doxygen*.tmp
 /hs_err_pid15084.log
+/hs_err_pid16404.log
