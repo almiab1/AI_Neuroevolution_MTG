@@ -11,11 +11,12 @@ public enum MagicAIImpl {
     MTDFC("mtd(f) (cheat)", new MTDF(true)),
     RANDOMV1("randomv1", new RandomV1(false)),
     RANDOMV1C("randomv1 (cheat)", new RandomV1(true)),
-
+    FSM("fsm", new FSM(false)),
+    FSMC("fsm (cheat)", new FSM(true)),
     MMABFast("minimax (deck strength)", magic.ai.MMAB.DeckStrAI()),
     ;
 
-    public static final MagicAIImpl[] SUPPORTED_AIS = {MMAB, MMABC, MCTS, MCTSC, VEGAS, VEGASC,RANDOMV1};
+    public static final MagicAIImpl[] SUPPORTED_AIS = {MMAB, MMABC, MCTS, MCTSC, VEGAS, VEGASC,RANDOMV1,FSM};
     public static final MagicAIImpl[] DECKSTR_AIS = {MMABFast, MMABFast};
 
     private final String name;
