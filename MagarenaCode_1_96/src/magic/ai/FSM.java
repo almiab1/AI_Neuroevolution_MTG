@@ -1,13 +1,17 @@
 package magic.ai;
 
-import java.util.List;
 import magic.model.MagicCard;
 import magic.model.MagicGame;
 import magic.model.MagicGameLog;
 import magic.model.MagicPlayer;
 import magic.model.event.MagicEvent;
-import magic.model.choice.MagicChoice;
+import magic.ai.FSM_Data;
+
+import java.io.IOException;
 import java.util.*;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+import org.json.JSONObject;
         
 public class FSM extends MagicAI {
 
@@ -154,10 +158,15 @@ public class FSM extends MagicAI {
                 passChoice = choice;
             }
         }
-
         return passChoice;
     }
-
+    
+    
+    private void testJSON() throws IOException{
+        FSM_Data c = new FSM_Data();
+        JSONObject json = (JSONObject) c.getJSON("./FSM_Data.json");
+        log("JSON --> "+'\n'+json);
+    }
     // ----------------------------------------------------------------------------
     // findNextEventChoiceResults
     // ----------------------------------------------------------------------------
@@ -198,6 +207,12 @@ public class FSM extends MagicAI {
         MagicCard strongestCreature = getStrongestCreature(creatures, choiceResultsList);
         MagicCard weakestCreature = getWeakestCreature(creatures, choiceResultsList);
         Object[] passChoice = getPassChoice(choiceResultsList);
+        
+        try {
+            testJSON();
+        } catch (IOException ex) {
+            Logger.getLogger(FSM.class.getName()).log(Level.SEVERE, null, ex);
+        }
         
         // String phase = sourceGame.getPhase().getType().toString();
         
