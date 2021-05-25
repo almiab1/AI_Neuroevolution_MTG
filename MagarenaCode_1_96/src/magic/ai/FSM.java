@@ -22,9 +22,12 @@ public class FSM extends MagicAI {
     private static final long SEC_TO_NANO=1000000000L;
 
     private final boolean CHEAT;
+    
+    private FSM_Data fsm_data;
 
     FSM(final boolean cheat) {
         CHEAT = cheat;
+        this.fsm_data = new FSM_Data();
     }
 
     private void log(final String message) {
@@ -161,10 +164,8 @@ public class FSM extends MagicAI {
         return passChoice;
     }
     
-    
     private void testJSON() throws IOException{
-        FSM_Data c = new FSM_Data();
-        c.getLandChoice(0);
+        this.fsm_data.getLandChoice(0);
     }
     // ----------------------------------------------------------------------------
     // findNextEventChoiceResults
