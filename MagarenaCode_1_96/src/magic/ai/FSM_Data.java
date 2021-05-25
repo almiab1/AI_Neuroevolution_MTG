@@ -67,15 +67,16 @@ public class FSM_Data {
         for (Object key : jsonObj.keySet()) {
             
             // get info obj
-            String keyStr = (String)key;
+            String keyStr = key.toString();
             Double keyvalue = jsonObj.getDouble(keyStr);
             
             acum_weight += keyvalue; // sum weight
-
+            
             if(randomWeight <= acum_weight){
-                actionChoice = key.toString();
+                actionChoice = keyStr;
                 return actionChoice;
             }
+
         }
         
         return actionChoice;
