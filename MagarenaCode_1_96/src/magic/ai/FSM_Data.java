@@ -53,32 +53,31 @@ public class FSM_Data {
     // Weight-based selector
     // --> string "code action choice"
     // ----------------------------------------------------------------
-    private String weightBasedSelector(JSONArray jsonArray){
+    private String weightBasedSelector(JSONObject jsonObj){
 
         // init 
         String actionChoice = null;
 
         // Random selection
         Random rand = new Random();
-        int randomIndex = rand.nextInt(jsonArray.length());
-        // Double randomWeigth = jsonArray.getJSONObject(randomIndex).names();
-        JSONObject randomObj = jsonArray.getJSONObject(randomIndex);
-        Double randomWeigth = randomObj.getDouble(randomObj.names().getString(0));
-        
-        System.out.println("Random Obj --> "+randomObj+'\n'+"Random Weigth --> "+randomWeigth);
-        
+        Double randomWeight = rand.nextDouble();
         Double acum_weight = 0.0;
-        /*
+        
         // Selector
-        for(int i = 0, size = jsonArray.length(); i < size; i++){
-            acum_weight += jsonArray.getJSONObject(i);
+        for (Object key : jsonObj.keySet()) {
             
-            if(randomWeigth <= acum_weight){
-                System.out.println("ESTE ES EL CORRECTO?¿ .... "+ jsonArray.getString(i));
-                return "NB";
+            // get info obj
+            String keyStr = (String)key;
+            Double keyvalue = jsonObj.getDouble(keyStr);
+            
+            acum_weight += keyvalue; // sum weight
+
+            if(randomWeight <= acum_weight){
+                actionChoice = key.toString();
+                return actionChoice;
             }
         }
-        */
+        
         return actionChoice;
     }
 
@@ -102,90 +101,83 @@ public class FSM_Data {
     */
 
     public void getLandChoice(int diferenceLifes){
-        // get lands state
-        JSONObject landsObj = new JSONObject(json.get("PhaseLowerLand").toString());
-        System.out.println("LANDS OBJ --> " + landsObj.toString());
-
+        
+        // init
+        JSONObject landsObj = json.getJSONObject("PhaseLowerLand"); // get lands state
+        String selection = null;
+        JSONObject optLands = null;
         
         // selector
         if(diferenceLifes == 0){
-            JSONArray optLands = landsObj.getJSONArray("1");
-            weightBasedSelector(optLands);
-
+            optLands = landsObj.getJSONObject("1");
         } else if(diferenceLifes > 0){
-            JSONArray optLands = landsObj.getJSONArray("2");
-
+            optLands = landsObj.getJSONObject("2");
         } else if(diferenceLifes < 0){
-            JSONArray optLands = landsObj.getJSONArray("3");
-        } else{
-
+            optLands = landsObj.getJSONObject("3");
         }
+
+        selection = weightBasedSelector(optLands);
         
     }
 
     public void getLowerCreaturesChoice(int diferenceLifes){
-        // get lands state
-        JSONObject landsObj = new JSONObject(json.get("PhaseLowerCreatures").toString());
+        // init
+        JSONObject creaturesObj = json.getJSONObject("PhaseLowerCreatures"); // get lands state
+        String selection = null;
+        JSONObject optCreatures = null;
 
         // selector
         if(diferenceLifes == 0){
-            JSONObject opt1Lands = new JSONObject(landsObj.get("1").toString());
+            optCreatures = creaturesObj.getJSONObject("1");
 
-        } else if(0 < diferenceLifes && diferenceLifes < 3){
-            JSONObject opt1Lands = new JSONObject(landsObj.get("3").toString());
+        } else if(0 < diferenceLifes && diferenceLifes < 3){            
+            optCreatures = creaturesObj.getJSONObject("3");
 
         } else if(diferenceLifes > 3){
-            JSONObject opt1Lands = new JSONObject(landsObj.get("4").toString());
+            optCreatures = creaturesObj.getJSONObject("4");
 
         } else if(diferenceLifes < 0){
-            JSONObject opt1Lands = new JSONObject(landsObj.get("2").toString());
-
-        } else{
-
+            optCreatures = creaturesObj.getJSONObject("2");
         }
+
+        selection = weightBasedSelector(optCreatures);
     }
 
     public void getAtackChoice(int diferenceLifes){
-        // get lands state
-        JSONObject landsObj = new JSONObject(json.get("PhaseAtack").toString());
+        // init
+        JSONObject creaturesObj = json.getJSONObject("PhaseAtack"); // get lands state
+        String selection = null;
+        JSONObject optCreatures = null;
 
         // selector
         if(diferenceLifes == 0){
-            JSONObject opt1Lands = new JSONObject(landsObj.get("1").toString());
-
+            optCreatures = creaturesObj.getJSONObject("1");
         } else if(0 < diferenceLifes && diferenceLifes < 3){
-            JSONObject opt1Lands = new JSONObject(landsObj.get("2").toString());
-
+            optCreatures = creaturesObj.getJSONObject("2");
         } else if(diferenceLifes > 3){
-            JSONObject opt1Lands = new JSONObject(landsObj.get("4").toString());
-
+            optCreatures = creaturesObj.getJSONObject("4");
         } else if(diferenceLifes < 0){
-            JSONObject opt1Lands = new JSONObject(landsObj.get("3").toString());
-
-        } else{
-
+            optCreatures = creaturesObj.getJSONObject("3");
         }
+        selection = weightBasedSelector(optCreatures);
     }
 
     public void getDefendChoice(int diferenceLifes){
-        // get lands state
-        JSONObject landsObj = new JSONObject(json.get("PhaseDefend").toString());
+        // init
+        JSONObject deffObj = json.getJSONObject("PhaseDefend"); // get lands state
+        String selection = null;
+        JSONObject optDeff = null;
 
         // selector
         if(diferenceLifes == 0){
-            JSONObject opt1Lands = new JSONObject(landsObj.get("1").toString());
-
-        } else if(0 > diferenceLifes && diferenceLifes > -3){
-            JSONObject opt1Lands = new JSONObject(landsObj.get("3").toString());
-
-        } else if(diferenceLifes < -3){
-            JSONObject opt1Lands = new JSONObject(landsObj.get("4").toString());
-
-        } else if(diferenceLifes > 0){
-            JSONObject opt1Lands = new JSONObject(landsObj.get("2").toString());
-
-        } else{
-
+            optDeff = deffObj.getJSONObject("1");
+        } else if(0 < diferenceLifes && diferenceLifes < 3){
+            optDeff = deffObj.getJSONObject("3");
+        } else if(diferenceLifes > 3){
+            optDeff = deffObj.getJSONObject("4");
+        } else if(diferenceLifes < 0){
+            optDeff = deffObj.getJSONObject("2");
         }
+        selection = weightBasedSelector(optDeff);
     }
 }
