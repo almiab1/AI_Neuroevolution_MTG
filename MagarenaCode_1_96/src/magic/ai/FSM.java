@@ -39,14 +39,14 @@ public class FSM extends MagicAI {
     // ----------------------------------------------------------------------------
     
     private void evaluateCards(List<Object[]> choiceResultsList){
-        log("------------- Choices search -------------");
-        log("Choice list size is {"+choiceResultsList.size()+"}");
+        System.out.println("------------- Choices search -------------");
+        System.out.println("Choice list size is {"+choiceResultsList.size()+"}");
         for(Object[] choice:choiceResultsList){
-            log("Choice:"+'\n' +
+            System.out.println("Choice:"+'\n' +
                 "   Choice class is "+choice[0].getClass()+
                 "   Choice string: "+choice[0].toString());
         }
-        log("----------- Choices search ends -----------");
+        System.out.println("----------- Choices search ends -----------");
     }
     
     private List<MagicCard> getLandsOfMyHand(final MagicPlayer scorePlayer){
@@ -76,9 +76,10 @@ public class FSM extends MagicAI {
         return creatures;
     }
 
-    private MagicCard getStrongestCreature(List<MagicCard> creaturesHand, List<Object[]> choices){
+    private Object[] getStrongestCreature(List<MagicCard> creaturesHand, List<Object[]> choices){
         
         // Init
+        Object[] strongestCreatureChoice = null;
         MagicCard strongestCreature = null;
         List<MagicCard> creaturesChoicesList = new ArrayList<MagicCard>();
         
@@ -96,7 +97,7 @@ public class FSM extends MagicAI {
         // Selection the strogest creature of the choices list
         if(creaturesChoicesList.size() == 1){ 
             strongestCreature = creaturesChoicesList.get(0);
-        } else if(creaturesChoicesList.size() > 0){
+        } else if(creaturesChoicesList.size() > 1){
             strongestCreature = creaturesChoicesList.get(0);
         
             // Find the strongest creature
@@ -110,12 +111,24 @@ public class FSM extends MagicAI {
             }
         }
 
-        return strongestCreature;
+        System.out.println("strongestCreature is " + strongestCreature);
+        
+        // Get choice
+        if(strongestCreature != null) {
+            for(Object[] choice:choices){
+                if(choice[0].toString() == strongestCreature.getName()){
+                    strongestCreatureChoice = choice;
+                }
+            }
+        }
+
+        return strongestCreatureChoice;
     }
     
-    private MagicCard getWeakestCreature(List<MagicCard> creaturesHand, List<Object[]> choices){
+    private Object[] getWeakestCreature(List<MagicCard> creaturesHand, List<Object[]> choices){
         
         // Init
+        Object[] weakestCreatureChoice = null;
         MagicCard weakestCreature = null;
         List<MagicCard> creaturesChoicesList = new ArrayList<MagicCard>();
         
@@ -148,7 +161,18 @@ public class FSM extends MagicAI {
             }
         }
         
-        return weakestCreature;
+        System.out.println("weakestCreature is " + weakestCreature);
+        
+        // Get choice
+        if(weakestCreature != null) {
+            for(Object[] choice:choices){
+                if(choice[0].toString() == weakestCreature.getName()){
+                    weakestCreatureChoice = choice;
+                }
+            }
+        }
+        
+        return weakestCreatureChoice;
     }
 
     private Object[] getPassChoice(List<Object[]> choices){
@@ -164,9 +188,19 @@ public class FSM extends MagicAI {
         return passChoice;
     }
     
+    // ----------------------------------------------------------------------------
+    // Select choice
+    // ----------------------------------------------------------------------------
+
+    private Object[] selectChoiceFSM(List<Object[]> choices){
+        return null;
+
+    }
+
     private void testJSON() throws IOException{
         this.fsm_data.getLandChoice(0);
     }
+
     // ----------------------------------------------------------------------------
     // findNextEventChoiceResults
     // ----------------------------------------------------------------------------
@@ -202,28 +236,32 @@ public class FSM extends MagicAI {
 
         // Get info about the choices
         evaluateCards(choiceResultsList);
+
+        /*
         List<MagicCard> lands = getLandsOfMyHand(scorePlayer);
         List<MagicCard> creatures = getCreatures(scorePlayer);
-        MagicCard strongestCreature = getStrongestCreature(creatures, choiceResultsList);
-        MagicCard weakestCreature = getWeakestCreature(creatures, choiceResultsList);
+        Object[] strongestCreature = getStrongestCreature(creatures, choiceResultsList);
+        Object[] weakestCreature = getWeakestCreature(creatures, choiceResultsList);
         Object[] passChoice = getPassChoice(choiceResultsList);
         
+        
+        String phase = sourceGame.getPhase().getType().toString();
+        
+        if(phase == "FirstMain" || phase == "SecondMain" || phase == "DeclareBlockers" || phase == "DeclareAttackers"){
+            System.out.println("------------- Lands and Creatures -------------"+'\n'+
+                "   Lands => "+lands+'\n'+
+                "   Creatures => "+creatures+'\n'+
+                "       Wakest => "+weakestCreature+'\n'+
+                "       Stongest => "+strongestCreature+'\n'+
+                "----------- Lands and Creatures Ends ----------");
+        }
+        */
+
         try {
             testJSON();
         } catch (IOException ex) {
             Logger.getLogger(FSM.class.getName()).log(Level.SEVERE, null, ex);
         }
-        
-        // String phase = sourceGame.getPhase().getType().toString();
-        
-        // if(phase == "FirstMain" || phase == "SecondMain" || phase == "DeclareBlockers" || phase == "DeclareAttackers"){
-        //     log("------------- Lands and Creatures -------------"+'\n'+
-        //         "   Lands => "+lands+'\n'+
-        //         "   Creatures => "+creatures+'\n'+
-        //         "       Wakest => "+weakestCreature+'\n'+
-        //         "       Stongest => "+strongestCreature+'\n'+
-        //         "----------- Lands and Creatures Ends ----------");
-        // }
 
         // Random choice
         int randomIndex = (int)(Math.random() * ((choiceResultsList.size())));
