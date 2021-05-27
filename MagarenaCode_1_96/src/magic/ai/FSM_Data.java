@@ -2,12 +2,19 @@ package magic.ai;
 
 import java.io.InputStream;
 import java.util.*;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
 import org.json.*;
 
 public class FSM_Data {
     
     private JSONObject json;
     private String pathJSON = "./FSM_Data.json";
+
+    private List<String> optionsLands  = Stream.of("BT","NBT").collect(Collectors.toList());
+    private List<String> optionsLowerCreatrues = Stream.of("NBC","BD" ,"BF" ,"BTC").collect(Collectors.toList());
+    private List<String> optionsAtack  = Stream.of("NA", "AD", "AF", "AT").collect(Collectors.toList());
+    private List<String> optionsDefend = Stream.of("ND","DD","DF","DT").collect(Collectors.toList());
     
     FSM_Data(){
         String resourceName = this.pathJSON;
@@ -35,6 +42,21 @@ public class FSM_Data {
         return this.pathJSON;
     }
 
+    public List<String> getOptionsLands(){
+        return this.optionsLands;
+    }
+
+    public List<String> getOptionsLowerCreatrues(){
+        return this.optionsLowerCreatrues;
+    }
+
+    public List<String> getOptionsAtack(){
+        return this.optionsAtack;
+    }
+
+    public List<String> getOptionsDefend(){
+        return this.optionsDefend;
+    }
     // ----------------------------------------------------------------
     // Setter
     // ----------------------------------------------------------------

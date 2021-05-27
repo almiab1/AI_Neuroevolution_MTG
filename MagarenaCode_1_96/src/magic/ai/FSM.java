@@ -25,6 +25,10 @@ public class FSM extends MagicAI {
     
     private FSM_Data fsm_data;
 
+    private List<MagicCard> creaturesHand; 
+    private List<MagicCard> landsHand; 
+
+
     FSM(final boolean cheat) {
         CHEAT = cheat;
         this.fsm_data = new FSM_Data();
@@ -76,9 +80,10 @@ public class FSM extends MagicAI {
         return creatures;
     }
 
-    private Object[] getStrongestCreature(List<MagicCard> creaturesHand, List<Object[]> choices){
+    private Object[] getStrongestCreature(List<Object[]> choices){
         
         // Init
+        List<MagicCard> creaturesHand = this.creaturesHand;
         Object[] strongestCreatureChoice = null;
         MagicCard strongestCreature = null;
         List<MagicCard> creaturesChoicesList = new ArrayList<MagicCard>();
@@ -110,8 +115,6 @@ public class FSM extends MagicAI {
                 }
             }
         }
-
-        System.out.println("strongestCreature is " + strongestCreature);
         
         // Get choice
         if(strongestCreature != null) {
@@ -125,9 +128,10 @@ public class FSM extends MagicAI {
         return strongestCreatureChoice;
     }
     
-    private Object[] getWeakestCreature(List<MagicCard> creaturesHand, List<Object[]> choices){
+    private Object[] getWeakestCreature(List<Object[]> choices){
         
         // Init
+        List<MagicCard> creaturesHand = this.creaturesHand;
         Object[] weakestCreatureChoice = null;
         MagicCard weakestCreature = null;
         List<MagicCard> creaturesChoicesList = new ArrayList<MagicCard>();
@@ -161,8 +165,6 @@ public class FSM extends MagicAI {
             }
         }
         
-        System.out.println("weakestCreature is " + weakestCreature);
-        
         // Get choice
         if(weakestCreature != null) {
             for(Object[] choice:choices){
@@ -187,12 +189,130 @@ public class FSM extends MagicAI {
         }
         return passChoice;
     }
+
+    private Object[] getLandChoice(List<Object[]> choices){
+        // Init
+        Object[] landChoice = null;
+        List<Object[]> landChoiceList = null;
+                
+        // Get card of the choices list
+        for(Object[] choice:choices){
+            if(choice[0].toString() == "pass"){
+                landChoiceList.add(choice);
+            }
+        }
+
+        // Get random land choice
+        if(landChoiceList.size() > 0){
+            int randomIndex = (int)(Math.random() * ((landChoiceList.size())));
+            landChoice = landChoiceList.get(randomIndex);
+        }
+
+        return landChoice;
+    }
     
     // ----------------------------------------------------------------------------
     // Select choice
     // ----------------------------------------------------------------------------
+    
+    private Object[] evaluateDefendAction(String optionSelected, List<Object[]> choices){
+        Object[] evaluatedActionSelected = null;
 
-    private Object[] selectChoiceFSM(List<Object[]> choices){
+        switch(optionSelected){
+            case "ND":
+                evaluatedActionSelected = getPassChoice(choices);
+                break;
+            case "DD":
+                evaluatedActionSelected = getWeakestCreature(choices);
+                break;
+            case "DF":
+                evaluatedActionSelected = getPassChoice(choices);
+                break;
+            case "DT":
+                break;
+            default:
+                break;
+        }
+        
+        return evaluatedActionSelected;
+    }
+
+    private Object[] evaluateAtackAction(String optionSelected, List<Object[]> choices){
+        Object[] evaluatedActionSelected = null;
+
+        switch(optionSelected){
+            case "NA":
+                evaluatedActionSelected = getPassChoice(choices);
+                break;
+            case "AD":
+                evaluatedActionSelected = getWeakestCreature(choices);
+                break;
+            case "AF":
+                evaluatedActionSelected = getPassChoice(choices);
+                break;
+            case "AT":
+                break;
+            default:
+                break;
+        }
+
+        return evaluatedActionSelected;
+    }
+
+    private Object[] evaluateLowerCreaturesAction(String optionSelected, List<Object[]> choices){
+        Object[] evaluatedActionSelected = null;
+
+        switch(optionSelected){
+            case "NBC":
+                evaluatedActionSelected = getPassChoice(choices);
+                break;
+            case "BD":
+                evaluatedActionSelected = getWeakestCreature(choices);
+                break;
+            case "BF":
+                evaluatedActionSelected = getPassChoice(choices);
+                break;
+            case "BTC":
+                break;
+            default:
+                break;
+        }
+        
+        return evaluatedActionSelected;
+    }
+
+    private Object[] evaluateLandAction(String optionSelected, List<Object[]> choices){
+        Object[] evaluatedActionSelected = null;
+
+        switch(optionSelected){
+            case "BT":
+                evaluatedActionSelected = getLandChoice(choices);
+                break;
+            case "NBT":
+                evaluatedActionSelected = getPassChoice(choices);
+                break;
+            default:
+                break;
+        }
+        
+        return evaluatedActionSelected;
+    }
+
+    private Object[] selectChoiceFSM(int diferenceLifes, String phase){
+        // init
+        String optionSelected = null;
+        Object[] choiceSelected = null;
+        
+        if(phase == "FirstMain"){
+            
+        } else if(phase == "SecondMain"){
+            
+        } else if(phase == "DeclareBlockers"){
+            optionSelected = this.fsm_data.getDefendChoice(0);
+        } else if(phase == "DeclareAttackers"){
+            optionSelected = this.fsm_data.getDefendChoice(0);
+        }
+
         return null;
 
     }
@@ -217,6 +337,9 @@ public class FSM extends MagicAI {
         final MagicEvent event=choiceGame.getNextEvent();
         final List<Object[]> choiceResultsList=event.getArtificialChoiceResults(choiceGame);
         
+        // Update lists
+        this.creaturesHand = getCreatures(scorePlayer);
+        this.landsHand = getLandsOfMyHand(scorePlayer);
 
         
         // No choices
