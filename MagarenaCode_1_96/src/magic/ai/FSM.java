@@ -298,7 +298,7 @@ public class FSM extends MagicAI {
         return evaluatedActionSelected;
     }
 
-    private Object[] selectChoiceFSM(int diferenceLifes, String phase){
+    private Object[] selectChoiceFSM(int diferenceLifes, String phase, List<Object[]> choices){
         // init
         String optionSelected = null;
         Object[] choiceSelected = null;
@@ -309,14 +309,20 @@ public class FSM extends MagicAI {
             
         } else if(phase == "DeclareBlockers"){
             optionSelected = this.fsm_data.getDefendChoice(0);
+            choiceSelected = evaluateDefendAction(optionSelected, choices);
         } else if(phase == "DeclareAttackers"){
             optionSelected = this.fsm_data.getDefendChoice(0);
+            choiceSelected = evaluateAtackAction(optionSelected, choices);
         }
 
-        return null;
+        return choiceSelected;
 
     }
-
+    
+    // ----------------------------------------------------------------------------
+    // JSON
+    // ----------------------------------------------------------------------------
+    
     private void testJSON() throws IOException{
         this.fsm_data.getLandChoice(0);
     }
