@@ -384,7 +384,6 @@ public class FSM extends MagicAI {
                 "       Stongest => "+strongestCreature+'\n'+
                 "----------- Lands and Creatures Ends ----------");
         }
-        */
 
         try {
             testJSON();
@@ -392,6 +391,13 @@ public class FSM extends MagicAI {
             Logger.getLogger(FSM.class.getName()).log(Level.SEVERE, null, ex);
         }
 
+        */
+
+        // Selection choice
+        String phase = sourceGame.getPhase().getType().toString();
+        int diferenceLifes = 0;
+        Object[] choiceSelectedFSM = selectChoiceFSM(0,phase,choiceResultsList);
+        
         // Random choice
         int randomIndex = (int)(Math.random() * ((choiceResultsList.size())));
         Object[] choiceSelected = choiceResultsList.get(randomIndex);
