@@ -105,8 +105,8 @@ public class FSM_Data {
         
         // init
         JSONObject landsObj = json.getJSONObject("PhaseLowerLand"); // get lands state
-        String selection = null;
         JSONObject optLands = null;
+        String selection = null;
         
         // selector
         if(diferenceLifes == 0){
@@ -118,14 +118,15 @@ public class FSM_Data {
         }
 
         selection = weightBasedSelector(optLands);
-        
+
+        return selection;
     }
 
     public void getLowerCreaturesChoice(int diferenceLifes){
         // init
         JSONObject creaturesObj = json.getJSONObject("PhaseLowerCreatures"); // get lands state
-        String selection = null;
         JSONObject optCreatures = null;
+        String selection = null;
 
         // selector
         if(diferenceLifes == 0){
@@ -142,13 +143,15 @@ public class FSM_Data {
         }
 
         selection = weightBasedSelector(optCreatures);
+
+        return selection;
     }
 
     public void getAtackChoice(int diferenceLifes){
         // init
         JSONObject creaturesObj = json.getJSONObject("PhaseAtack"); // get lands state
-        String selection = null;
         JSONObject optCreatures = null;
+        String selection = null;
 
         // selector
         if(diferenceLifes == 0){
@@ -161,6 +164,8 @@ public class FSM_Data {
             optCreatures = creaturesObj.getJSONObject("3");
         }
         selection = weightBasedSelector(optCreatures);
+
+        return selection;
     }
 
     public void getDefendChoice(int diferenceLifes){
