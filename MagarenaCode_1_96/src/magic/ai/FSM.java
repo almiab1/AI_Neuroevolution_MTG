@@ -5,13 +5,12 @@ import magic.model.MagicGame;
 import magic.model.MagicGameLog;
 import magic.model.MagicPlayer;
 import magic.model.event.MagicEvent;
+import magic.model.phase.MagicPhaseType;
 import magic.ai.FSM_Data;
 
 import java.io.IOException;
 import java.util.*;
-import java.util.logging.Level;
-import java.util.logging.Logger;
-import org.json.JSONObject;
+import magic.model.choice.MagicPlayChoiceResult;
         
 public class FSM extends MagicAI {
 
@@ -90,7 +89,7 @@ public class FSM extends MagicAI {
         
         // Get card of the choices list
         for(Object[] choice:choices){
-            if(choice[0].toString() != "pass" || choice[0].toString() != "skip"){
+            if(choice[0] != MagicPlayChoiceResult.PASS || choice[0] != MagicPlayChoiceResult.SKIP){
                 for(MagicCard creature: creaturesHand){
                     if(choice[0].toString() == creature.getName()){
                         creaturesChoicesList.add(creature);
@@ -139,7 +138,7 @@ public class FSM extends MagicAI {
         
         // Get card of the choices list
         for(Object[] choice:choices){
-            if(choice[0].toString() != "pass" || choice[0].toString() != "skip"){
+            if(choice[0] != MagicPlayChoiceResult.PASS || choice[0] != MagicPlayChoiceResult.SKIP){
                 for(MagicCard creature: creaturesHand){
                     if(choice[0].toString() == creature.getName()){
                         creaturesChoicesList.add(creature);
@@ -183,7 +182,7 @@ public class FSM extends MagicAI {
                 
         // Get card of the choices list
         for(Object[] choice:choices){
-            if(choice[0].toString() == "pass"){
+            if(choice[0] == MagicPlayChoiceResult.PASS){
                 passChoice = choice;
             }
         }
@@ -193,11 +192,11 @@ public class FSM extends MagicAI {
     private Object[] getLandChoice(List<Object[]> choices){
         // Init
         Object[] landChoice = null;
-        List<Object[]> landChoiceList = null;
+        List<Object[]> landChoiceList = new ArrayList<Object[]>();
                 
         // Get card of the choices list
         for(Object[] choice:choices){
-            if(choice[0].toString() == "pass"){
+            if(choice[0] != MagicPlayChoiceResult.PASS){
                 landChoiceList.add(choice);
             }
         }
@@ -226,9 +225,10 @@ public class FSM extends MagicAI {
                 evaluatedActionSelected = getWeakestCreature(choices);
                 break;
             case "DF":
-                evaluatedActionSelected = getPassChoice(choices);
+                evaluatedActionSelected = getStrongestCreature(choices);
                 break;
             case "DT":
+                evaluatedActionSelected = getStrongestCreature(choices);
                 break;
             default:
                 break;
@@ -248,9 +248,10 @@ public class FSM extends MagicAI {
                 evaluatedActionSelected = getWeakestCreature(choices);
                 break;
             case "AF":
-                evaluatedActionSelected = getPassChoice(choices);
+                evaluatedActionSelected = getStrongestCreature(choices);
                 break;
             case "AT":
+                evaluatedActionSelected = getStrongestCreature(choices);
                 break;
             default:
                 break;
@@ -270,9 +271,10 @@ public class FSM extends MagicAI {
                 evaluatedActionSelected = getWeakestCreature(choices);
                 break;
             case "BF":
-                evaluatedActionSelected = getPassChoice(choices);
+                evaluatedActionSelected = getStrongestCreature(choices);
                 break;
             case "BTC":
+                evaluatedActionSelected = getStrongestCreature(choices);
                 break;
             default:
                 break;
@@ -298,21 +300,27 @@ public class FSM extends MagicAI {
         return evaluatedActionSelected;
     }
 
-    private Object[] selectChoiceFSM(int diferenceLifes, String phase, List<Object[]> choices){
+    private Object[] selectChoiceFSM(int diferenceLifes, MagicPhaseType phase, List<Object[]> choices){
         // init
         String optionSelected = null;
         Object[] choiceSelected = null;
         
-        if(phase == "FirstMain"){
-            
-        } else if(phase == "SecondMain"){
-            
-        } else if(phase == "DeclareBlockers"){
+        if(phase == MagicPhaseType.FirstMain){
+            optionSelected = this.fsm_data.getLandChoice(0);
+            choiceSelected = evaluateLandAction(optionSelected, choices);
+        } else if(phase == MagicPhaseType.SecondMain){
+            optionSelected = this.fsm_data.getLowerCreaturesChoice(0);
+            choiceSelected = evaluateLowerCreaturesAction(optionSelected, choices);
+        } else if(phase == MagicPhaseType.DeclareBlockers){
             optionSelected = this.fsm_data.getDefendChoice(0);
             choiceSelected = evaluateDefendAction(optionSelected, choices);
-        } else if(phase == "DeclareAttackers"){
-            optionSelected = this.fsm_data.getDefendChoice(0);
+        } else if(phase == MagicPhaseType.DeclareAttackers){
+            optionSelected = this.fsm_data.getAtackChoice(0);
             choiceSelected = evaluateAtackAction(optionSelected, choices);
+        }
+
+        if(choiceSelected != null) {
+            System.out.println("Option selected: " + optionSelected + '\n' + "Choice selected: " + choiceSelected[0].toString());
         }
 
         return choiceSelected;
@@ -366,41 +374,26 @@ public class FSM extends MagicAI {
         // Get info about the choices
         evaluateCards(choiceResultsList);
 
-        /*
-        List<MagicCard> lands = getLandsOfMyHand(scorePlayer);
-        List<MagicCard> creatures = getCreatures(scorePlayer);
-        Object[] strongestCreature = getStrongestCreature(creatures, choiceResultsList);
-        Object[] weakestCreature = getWeakestCreature(creatures, choiceResultsList);
-        Object[] passChoice = getPassChoice(choiceResultsList);
-        
-        
-        String phase = sourceGame.getPhase().getType().toString();
-        
-        if(phase == "FirstMain" || phase == "SecondMain" || phase == "DeclareBlockers" || phase == "DeclareAttackers"){
-            System.out.println("------------- Lands and Creatures -------------"+'\n'+
-                "   Lands => "+lands+'\n'+
-                "   Creatures => "+creatures+'\n'+
-                "       Wakest => "+weakestCreature+'\n'+
-                "       Stongest => "+strongestCreature+'\n'+
-                "----------- Lands and Creatures Ends ----------");
-        }
-
-        try {
-            testJSON();
-        } catch (IOException ex) {
-            Logger.getLogger(FSM.class.getName()).log(Level.SEVERE, null, ex);
-        }
-
-        */
-
         // Selection choice
-        String phase = sourceGame.getPhase().getType().toString();
+        Object[] choiceSelected = null;
+
+        // FSM 
+        MagicPhaseType phase = sourceGame.getPhase().getType();
         int diferenceLifes = 0;
-        Object[] choiceSelectedFSM = selectChoiceFSM(0,phase,choiceResultsList);
+        Object[] choiceSelectedFSM = selectChoiceFSM(diferenceLifes,phase,choiceResultsList);
+
+        if(choiceSelectedFSM != null) {
+            System.out.println("-------------------- FSM SLECTION --------------------");
+            System.out.println("Choice selected FSM: " + choiceSelectedFSM[0].toString() + " and the phase is " + phase.toString() + '\n');
+            choiceSelected = choiceSelectedFSM;
+        } else {
+            // Random choice
+            System.out.println("-------------------- RAND SLECTION --------------------");
+            int randomIndex = (int)(Math.random() * ((choiceResultsList.size())));
+            choiceSelected  = choiceResultsList.get(randomIndex);
+            System.out.println("Choice selected FSM: " + choiceSelected[0].toString() + " and the phase is " + phase.toString() + '\n');
+        }
         
-        // Random choice
-        int randomIndex = (int)(Math.random() * ((choiceResultsList.size())));
-        Object[] choiceSelected = choiceResultsList.get(randomIndex);
         
         // Logging.
         final long timeTaken = System.currentTimeMillis() - startTime;
