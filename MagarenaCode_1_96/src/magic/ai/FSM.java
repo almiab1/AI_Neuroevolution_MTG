@@ -54,6 +54,7 @@ public class FSM extends MagicAI {
         System.out.println("----------- Choices search ends -----------");
     }
     
+    // Lands methods
     private List<MagicCard> getLandsOfMyHand(final MagicPlayer scorePlayer){
         List<MagicCard> hand = scorePlayer.getHand();
         
@@ -67,6 +68,7 @@ public class FSM extends MagicAI {
         return lands;
     }
     
+    // Creatures atack and lower methods
     private List<MagicCard> getCreatures(final MagicPlayer scorePlayer){
         List<MagicCard> hand = scorePlayer.getHand();
         
@@ -234,6 +236,7 @@ public class FSM extends MagicAI {
         return landChoice;
     }
 
+    // Block choices
     private Object[] getNoAtackChoice(List<Object[]> choices){
         // Init
         Object[] noAtackChoice = null;
@@ -307,6 +310,7 @@ public class FSM extends MagicAI {
     // Select choice
     // ----------------------------------------------------------------------------
     
+    // Evaluation methods
     private Object[] evaluateDefendAction(String optionSelected, List<Object[]> choices){
         Object[] evaluatedActionSelected = null;
         
@@ -393,6 +397,7 @@ public class FSM extends MagicAI {
         return evaluatedActionSelected;
     }
 
+    // Selection method
     private Object[] selectChoiceFSM(int diferenceLifes, MagicPhaseType phase, List<Object[]> choices){
         // init
         String optionSelected = null;
@@ -400,10 +405,20 @@ public class FSM extends MagicAI {
         
         if(phase == MagicPhaseType.FirstMain){
             optionSelected = this.fsm_data.getLandChoice(diferenceLifes);
-            choiceSelected = evaluateLandAction(optionSelected, choices);
+            if(optionSelected == null){
+                optionSelected = this.fsm_data.getLowerCreaturesChoice(diferenceLifes);
+                choiceSelected = evaluateLowerCreaturesAction(optionSelected, choices);
+            } else {
+                choiceSelected = evaluateLandAction(optionSelected, choices);
+            }
         } else if(phase == MagicPhaseType.SecondMain){
-            optionSelected = this.fsm_data.getLowerCreaturesChoice(diferenceLifes);
-            choiceSelected = evaluateLowerCreaturesAction(optionSelected, choices);
+            optionSelected = this.fsm_data.getLandChoice(diferenceLifes);
+            if(optionSelected == null){
+                optionSelected = this.fsm_data.getLowerCreaturesChoice(diferenceLifes);
+                choiceSelected = evaluateLowerCreaturesAction(optionSelected, choices);
+            } else {
+                choiceSelected = evaluateLandAction(optionSelected, choices);
+            }
         } else if(phase == MagicPhaseType.DeclareBlockers){
             optionSelected = this.fsm_data.getDefendChoice(diferenceLifes);
             choiceSelected = evaluateDefendAction(optionSelected, choices);
