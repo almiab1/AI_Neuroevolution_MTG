@@ -40,6 +40,14 @@ public class MagicDeclareAttackersResult extends ArrayList<MagicPermanent> imple
         return Arrays.toString(toArray());
     }
 
+    public int getSize(){
+        int idx = 0;
+        for (final MagicPermanent permanent : this) {
+            idx++;
+        }
+        return idx;
+    }
+
     @Override
     public long getId() {
         final long[] keys = new long[size()];

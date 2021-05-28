@@ -163,8 +163,10 @@ public class FSM_Data {
         } else if(diferenceLifes < 0){
             optCreatures = creaturesObj.getJSONObject("2");
         }
-
-        selection = weightBasedSelector(optCreatures);
+        
+        if(optCreatures != null){
+            selection = weightBasedSelector(optCreatures);
+        }
 
         return selection;
     }

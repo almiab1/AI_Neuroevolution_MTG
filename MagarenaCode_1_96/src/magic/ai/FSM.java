@@ -10,6 +10,8 @@ import magic.ai.FSM_Data;
 
 import java.io.IOException;
 import java.util.*;
+import magic.model.choice.MagicDeclareAttackersResult;
+import magic.model.choice.MagicDeclareBlockersResult;
 import magic.model.choice.MagicPlayChoiceResult;
         
 public class FSM extends MagicAI {
@@ -89,7 +91,7 @@ public class FSM extends MagicAI {
         
         // Get card of the choices list
         for(Object[] choice:choices){
-            if(choice[0] != MagicPlayChoiceResult.PASS || choice[0] != MagicPlayChoiceResult.SKIP){
+            if(choice[0] != MagicPlayChoiceResult.PASS || choice[0] != MagicPlayChoiceResult.SKIP || choice[0] != null){
                 for(MagicCard creature: creaturesHand){
                     if(choice[0].toString() == creature.getName()){
                         creaturesChoicesList.add(creature);
@@ -138,7 +140,7 @@ public class FSM extends MagicAI {
         
         // Get card of the choices list
         for(Object[] choice:choices){
-            if(choice[0] != MagicPlayChoiceResult.PASS || choice[0] != MagicPlayChoiceResult.SKIP){
+            if(choice[0] != MagicPlayChoiceResult.PASS || choice[0] != MagicPlayChoiceResult.SKIP || choice[0] != null){
                 for(MagicCard creature: creaturesHand){
                     if(choice[0].toString() == creature.getName()){
                         creaturesChoicesList.add(creature);
@@ -176,6 +178,28 @@ public class FSM extends MagicAI {
         return weakestCreatureChoice;
     }
 
+    private Object[] getAtackWhithAll(List<Object[]> choices){
+        // Init
+        Object[] selectedChoice = null;
+        
+        for(Object[] choice:choices){
+            MagicDeclareAttackersResult c = (MagicDeclareAttackersResult) choice[0];
+            System.out.println("Size of the array: " + c.getSize());
+        }
+       
+        /*
+        int bigSizeChoice = choices.get(0)[0].toString.toArray().length;
+        
+        // Get card of the choices list
+        for(Object[] choice:choices){
+            if(bigSizeChoice < choice[0].length){
+                selectedChoice = choice;
+            }
+        }
+        */
+        return selectedChoice;
+    }
+
     private Object[] getPassChoice(List<Object[]> choices){
         // Init
         Object[] passChoice = null;
@@ -209,6 +233,75 @@ public class FSM extends MagicAI {
 
         return landChoice;
     }
+
+    private Object[] getNoAtackChoice(List<Object[]> choices){
+        // Init
+        Object[] noAtackChoice = null;
+                
+        // Get card of the choices list
+        for(Object[] choice:choices){
+            MagicDeclareBlockersResult selectedChoice = (MagicDeclareBlockersResult) choice[0];
+            
+            if(selectedChoice.getPosition() == 0){
+                noAtackChoice = choice;
+            }
+        }
+        return noAtackChoice;
+    }
+    
+    private Object[] getBestBlockChoice(List<Object[]> choices){
+        // Init
+        Object[] bestChoice = choices.get(0);
+        MagicDeclareBlockersResult selectedChoice = (MagicDeclareBlockersResult) choices.get(0)[0];
+        int bestScore = selectedChoice.getScore();
+        
+        // Get card of the choices list
+        for(Object[] choice:choices){
+            MagicDeclareBlockersResult i_choice = (MagicDeclareBlockersResult) choice[0];            
+            
+            if(bestScore < i_choice.getScore() && i_choice.getPosition() != 0){
+                bestScore = i_choice.getScore();
+                bestChoice = choice;
+            }
+        }
+        return bestChoice;
+    }
+    
+    private Object[] getWeakestBlockChoice(List<Object[]> choices){
+        // Init
+        Object[] weakestChoice = choices.get(0);
+        MagicDeclareBlockersResult selectedChoice = (MagicDeclareBlockersResult) choices.get(0)[0];
+        int weakestScore = selectedChoice.getScore();
+        
+        // Get card of the choices list
+        for(Object[] choice:choices){
+            MagicDeclareBlockersResult i_choice = (MagicDeclareBlockersResult) choice[0];            
+            
+            if(weakestScore > i_choice.getScore() && i_choice.getPosition() != 0){
+                weakestScore = i_choice.getScore();
+                weakestChoice = choice;
+            }
+        }
+        return weakestChoice;
+    }
+
+    private Object[] getBigDefendChoice(List<Object[]> choices){
+        // Init
+        Object[] bigDefendChoice = choices.get(0);
+        MagicDeclareBlockersResult selectedChoice = (MagicDeclareBlockersResult) choices.get(0)[0];
+        int sizeCreaturesCombat = selectedChoice.sizeCreaturesCombat();
+        
+        // Get card of the choices list
+        for(Object[] choice:choices){
+            MagicDeclareBlockersResult i_choice = (MagicDeclareBlockersResult) choice[0];            
+            
+            if(sizeCreaturesCombat < i_choice.sizeCreaturesCombat()){
+                sizeCreaturesCombat = i_choice.sizeCreaturesCombat();
+                bigDefendChoice = choice;
+            }
+        }
+        return bigDefendChoice;
+    }
     
     // ----------------------------------------------------------------------------
     // Select choice
@@ -216,19 +309,19 @@ public class FSM extends MagicAI {
     
     private Object[] evaluateDefendAction(String optionSelected, List<Object[]> choices){
         Object[] evaluatedActionSelected = null;
-
+        
         switch(optionSelected){
             case "ND":
-                evaluatedActionSelected = getPassChoice(choices);
+                evaluatedActionSelected = getNoAtackChoice(choices);
                 break;
             case "DD":
-                evaluatedActionSelected = getWeakestCreature(choices);
+                evaluatedActionSelected = getWeakestBlockChoice(choices);
                 break;
             case "DF":
-                evaluatedActionSelected = getStrongestCreature(choices);
+                evaluatedActionSelected = getBestBlockChoice(choices);
                 break;
             case "DT":
-                evaluatedActionSelected = getStrongestCreature(choices);
+                evaluatedActionSelected = getBigDefendChoice(choices);
                 break;
             default:
                 break;
@@ -239,7 +332,7 @@ public class FSM extends MagicAI {
 
     private Object[] evaluateAtackAction(String optionSelected, List<Object[]> choices){
         Object[] evaluatedActionSelected = null;
-
+        
         switch(optionSelected){
             case "NA":
                 evaluatedActionSelected = getPassChoice(choices);
@@ -251,7 +344,7 @@ public class FSM extends MagicAI {
                 evaluatedActionSelected = getStrongestCreature(choices);
                 break;
             case "AT":
-                evaluatedActionSelected = getStrongestCreature(choices);
+                evaluatedActionSelected = getAtackWhithAll(choices);
                 break;
             default:
                 break;
@@ -306,16 +399,16 @@ public class FSM extends MagicAI {
         Object[] choiceSelected = null;
         
         if(phase == MagicPhaseType.FirstMain){
-            optionSelected = this.fsm_data.getLandChoice(0);
+            optionSelected = this.fsm_data.getLandChoice(diferenceLifes);
             choiceSelected = evaluateLandAction(optionSelected, choices);
         } else if(phase == MagicPhaseType.SecondMain){
-            optionSelected = this.fsm_data.getLowerCreaturesChoice(0);
+            optionSelected = this.fsm_data.getLowerCreaturesChoice(diferenceLifes);
             choiceSelected = evaluateLowerCreaturesAction(optionSelected, choices);
         } else if(phase == MagicPhaseType.DeclareBlockers){
-            optionSelected = this.fsm_data.getDefendChoice(0);
+            optionSelected = this.fsm_data.getDefendChoice(diferenceLifes);
             choiceSelected = evaluateDefendAction(optionSelected, choices);
         } else if(phase == MagicPhaseType.DeclareAttackers){
-            optionSelected = this.fsm_data.getAtackChoice(0);
+            optionSelected = this.fsm_data.getAtackChoice(diferenceLifes);
             choiceSelected = evaluateAtackAction(optionSelected, choices);
         }
 
@@ -379,18 +472,21 @@ public class FSM extends MagicAI {
 
         // FSM 
         MagicPhaseType phase = sourceGame.getPhase().getType();
-        int diferenceLifes = 0;
+        int diferenceLifes =  sourceGame.getPlayer(1).getLife() - sourceGame.getPlayer(0).getLife();
+        System.out.println("Diference Lifes = "+diferenceLifes);
         Object[] choiceSelectedFSM = selectChoiceFSM(diferenceLifes,phase,choiceResultsList);
 
         if(choiceSelectedFSM != null) {
-            System.out.println("-------------------- FSM SLECTION --------------------");
-            System.out.println("Choice selected FSM: " + choiceSelectedFSM[0].toString() + " and the phase is " + phase.toString() + '\n');
             choiceSelected = choiceSelectedFSM;
+
+            System.out.println("-------------------- FSM SLECTION --------------------");
+            System.out.println("Choice selected FSM: " + choiceSelected[0].toString() + " and the phase is " + phase.toString() + '\n');
         } else {
             // Random choice
-            System.out.println("-------------------- RAND SLECTION --------------------");
             int randomIndex = (int)(Math.random() * ((choiceResultsList.size())));
             choiceSelected  = choiceResultsList.get(randomIndex);
+            
+            System.out.println("-------------------- RAND SLECTION --------------------");
             System.out.println("Choice selected FSM: " + choiceSelected[0].toString() + " and the phase is " + phase.toString() + '\n');
         }
         
@@ -407,6 +503,16 @@ public class FSM extends MagicAI {
             " time=" + timeTaken+
             " Choice selected = "+choiceSelected[0].toString()+'\n'+
             "-------------------------------------------------------");
+        System.out.println("--------------------------FSM--------------------------" + '\n'+
+            " cheat=" + CHEAT +
+            " index=" + scorePlayer.getIndex() +
+            " life=" + scorePlayer.getLife() +
+            " phase=" + sourceGame.getPhase().getType() +
+            " step=" + sourceGame.getStep() +
+            " slice=" + (0/1000000) +
+            " time=" + timeTaken+
+            " Choice selected = "+choiceSelected[0].toString()+'\n'+
+            "-------------------------------------------------------"+ '\n');
         return sourceGame.map(choiceSelected);
     }
 }
