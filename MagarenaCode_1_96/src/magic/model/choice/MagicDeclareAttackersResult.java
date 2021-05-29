@@ -40,6 +40,10 @@ public class MagicDeclareAttackersResult extends ArrayList<MagicPermanent> imple
         return Arrays.toString(toArray());
     }
 
+
+    // -->
+    // getSize()
+    // --> int size creatures array
     public int getSize(){
         int idx = 0;
         for (final MagicPermanent permanent : this) {

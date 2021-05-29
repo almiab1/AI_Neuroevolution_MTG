@@ -1,18 +1,20 @@
 package magic.ai;
 
+// Magarena imports
 import magic.model.MagicCard;
 import magic.model.MagicGame;
 import magic.model.MagicGameLog;
 import magic.model.MagicPlayer;
 import magic.model.event.MagicEvent;
 import magic.model.phase.MagicPhaseType;
-import magic.ai.FSM_Data;
-
-import java.io.IOException;
-import java.util.*;
 import magic.model.choice.MagicDeclareAttackersResult;
 import magic.model.choice.MagicDeclareBlockersResult;
 import magic.model.choice.MagicPlayChoiceResult;
+import magic.ai.FSM_Data;
+
+// Java imports
+import java.io.IOException;
+import java.util.*;
         
 public class FSM extends MagicAI {
 
@@ -397,42 +399,64 @@ public class FSM extends MagicAI {
         return evaluatedActionSelected;
     }
 
-    // Selection method
+   // Selection method
     private Object[] selectChoiceFSM(int diferenceLifes, MagicPhaseType phase, List<Object[]> choices){
         // init
         String optionSelected = null;
         Object[] choiceSelected = null;
         
-        if(phase == MagicPhaseType.FirstMain){
-            optionSelected = this.fsm_data.getLandChoice(diferenceLifes);
-            if(optionSelected == null){
-                optionSelected = this.fsm_data.getLowerCreaturesChoice(diferenceLifes);
-                choiceSelected = evaluateLowerCreaturesAction(optionSelected, choices);
-            } else {
-                choiceSelected = evaluateLandAction(optionSelected, choices);
-            }
-        } else if(phase == MagicPhaseType.SecondMain){
-            optionSelected = this.fsm_data.getLandChoice(diferenceLifes);
-            if(optionSelected == null){
-                optionSelected = this.fsm_data.getLowerCreaturesChoice(diferenceLifes);
-                choiceSelected = evaluateLowerCreaturesAction(optionSelected, choices);
-            } else {
-                choiceSelected = evaluateLandAction(optionSelected, choices);
-            }
-        } else if(phase == MagicPhaseType.DeclareBlockers){
-            optionSelected = this.fsm_data.getDefendChoice(diferenceLifes);
-            choiceSelected = evaluateDefendAction(optionSelected, choices);
-        } else if(phase == MagicPhaseType.DeclareAttackers){
-            optionSelected = this.fsm_data.getAtackChoice(diferenceLifes);
-            choiceSelected = evaluateAtackAction(optionSelected, choices);
-        }
+        
+        switch(phase){
+            // First Main phase
+            case FirstMain:
+                optionSelected = this.fsm_data.getLandChoice(diferenceLifes);
+                
+                if(optionSelected == null){
+                    optionSelected = this.fsm_data.getLowerCreaturesChoice(diferenceLifes);
+                    choiceSelected = evaluateLowerCreaturesAction(optionSelected, choices);
+                } else {
+                    choiceSelected = evaluateLandAction(optionSelected, choices);
+                }
 
-        if(choiceSelected != null) {
-            System.out.println("Option selected: " + optionSelected + '\n' + "Choice selected: " + choiceSelected[0].toString());
+                System.out.println("[FSM - "+phase+"] Option selected: " + optionSelected + ", Choice selected: " + choiceSelected[0].toString());
+                break;
+                
+            // Second Main phase
+            case SecondMain:
+                optionSelected = this.fsm_data.getLandChoice(diferenceLifes);
+
+                if(optionSelected == null){
+                    optionSelected = this.fsm_data.getLowerCreaturesChoice(diferenceLifes);
+                    choiceSelected = evaluateLowerCreaturesAction(optionSelected, choices);
+                } else {
+                    choiceSelected = evaluateLandAction(optionSelected, choices);
+                }
+
+                System.out.println("[FSM - "+phase+"] Option selected: " + optionSelected + ", Choice selected: " + choiceSelected[0].toString());
+                break;
+
+            // Declare Blockers phase
+            case DeclareBlockers:
+                optionSelected = this.fsm_data.getDefendChoice(diferenceLifes);
+                choiceSelected = evaluateDefendAction(optionSelected, choices);
+                System.out.println("[FSM - "+phase+"] Option selected: " + optionSelected + ", Choice selected: " + choiceSelected[0].toString());
+                break;
+
+            // Atack phase
+            case DeclareAttackers:
+                optionSelected = this.fsm_data.getAtackChoice(diferenceLifes);
+                choiceSelected = evaluateAtackAction(optionSelected, choices);
+                break;
+
+            // Random choice
+            default:
+                int randomIndex = (int)(Math.random() * ((choices.size())));
+                choiceSelected  = choices.get(randomIndex);
+                System.out.println("[RANDOM - "+phase+"] Option selected: " + optionSelected + ", Choice selected: " + choiceSelected[0].toString());
+                break;
         }
 
         return choiceSelected;
-
     }
     
     // ----------------------------------------------------------------------------
@@ -491,6 +515,9 @@ public class FSM extends MagicAI {
         System.out.println("Diference Lifes = "+diferenceLifes);
         Object[] choiceSelectedFSM = selectChoiceFSM(diferenceLifes,phase,choiceResultsList);
 
+        choiceSelected = choiceSelectedFSM;
+
+        /*
         if(choiceSelectedFSM != null) {
             choiceSelected = choiceSelectedFSM;
 
@@ -504,7 +531,7 @@ public class FSM extends MagicAI {
             System.out.println("-------------------- RAND SLECTION --------------------");
             System.out.println("Choice selected FSM: " + choiceSelected[0].toString() + " and the phase is " + phase.toString() + '\n');
         }
-        
+        */
         
         // Logging.
         final long timeTaken = System.currentTimeMillis() - startTime;
