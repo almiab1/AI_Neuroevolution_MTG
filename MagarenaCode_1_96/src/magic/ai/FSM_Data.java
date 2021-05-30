@@ -10,12 +10,8 @@ public class FSM_Data {
     
     private JSONObject json;
     private String pathJSON = "./FSM_Data.json";
-
-    private List<String> optionsLands  = Stream.of("BT","NBT").collect(Collectors.toList());
-    private List<String> optionsLowerCreatrues = Stream.of("NBC","BD" ,"BF" ,"BTC").collect(Collectors.toList());
-    private List<String> optionsAtack  = Stream.of("NA", "AD", "AF", "AT").collect(Collectors.toList());
-    private List<String> optionsDefend = Stream.of("ND","DD","DF","DT").collect(Collectors.toList());
     
+    // Contructor
     FSM_Data(){
         String resourceName = this.pathJSON;
         InputStream is = FSM_Data.class.getResourceAsStream(resourceName);
@@ -30,51 +26,40 @@ public class FSM_Data {
         this.json = object;
     }
     
-    // ----------------------------------------------------------------
-    // Getters
-    // ----------------------------------------------------------------
+    /* ----------------------------------------------------------------
+        Getters
+       ---------------------------------------------------------------- */
+
     // Getter JSON object
     public JSONObject getJSON() {
         return this.json;
     }
-
+    // Getter JSON path
     public String getPathJSON() {
         return this.pathJSON;
     }
 
-    public List<String> getOptionsLands(){
-        return this.optionsLands;
-    }
-
-    public List<String> getOptionsLowerCreatrues(){
-        return this.optionsLowerCreatrues;
-    }
-
-    public List<String> getOptionsAtack(){
-        return this.optionsAtack;
-    }
-
-    public List<String> getOptionsDefend(){
-        return this.optionsDefend;
-    }
-    // ----------------------------------------------------------------
-    // Setter
-    // ----------------------------------------------------------------
+    /* ----------------------------------------------------------------
+        Setters
+       ---------------------------------------------------------------- */
 
     // Setter name
     public void setJSON(JSONObject newJson) {
       this.json = newJson;
     }
-    
+    // Setter JSONPath
     public void setPathJSON(String newPath) {
       this.pathJSON = newPath;
     }
 
-    // ----------------------------------------------------------------
-    // json object -->
-    // Weight-based selector
-    // --> string "code action choice"
-    // ----------------------------------------------------------------
+    /* ----------------------------------------------------------------
+        Weight selection method - Design
+        ----------------------------------------------------------------
+        
+        json object -->
+        weightBasedSelector()
+        --> string "code action choice"
+       ---------------------------------------------------------------- */
     private String weightBasedSelector(JSONObject jsonObj){
 
         // init 
@@ -104,23 +89,24 @@ public class FSM_Data {
         return actionChoice;
     }
 
-    // ----------------------------------------------------------------
-    // Choice's Methods
-    // ----------------------------------------------------------------
+    /* ----------------------------------------------------------------
+        Choice's Methods
+        ----------------------------------------------------------------
 
-    /* Exploration all json
-        System.out.println("---------------------- JSON Exploration ----------------------");
-        
+        --- Get to JSON XXX choices - Design ---
+
+        (int) diferences lifes -->
+        getXXXChoice()
+        --> (string) action code
+
+        --- Exploration all json ---
+
         for (Object key : json.keySet()) {
-            //based on you key types
+            //based on key types
             String keyStr = (String)key;
-            Object keyvalue = json.get(keyStr);
-
-            //Print key and value
-            System.out.println("key: "+ keyStr + " value: " + keyvalue);
+            Object value = json.get(keyStr);
         }
-        
-        System.out.println("-------------------- JSON Exploration ENDS -------------------");
+       ----------------------------------------------------------------
     */
 
     public String getLandChoice(int diferenceLifes){
@@ -170,7 +156,7 @@ public class FSM_Data {
 
         return selection;
     }
-
+    
     public String getAtackChoice(int diferenceLifes){
         // init
         JSONObject creaturesObj = json.getJSONObject("PhaseAtack"); // get lands state

@@ -45,7 +45,9 @@ public class FSM extends MagicAI {
     // Selection methods for the phases
     // ----------------------------------------------------------------------------
     
-    private void evaluateCards(List<Object[]> choiceResultsList){
+    // debuging method
+    /*
+    private void logChoices(List<Object[]> choiceResultsList){
         System.out.println("------------- Choices search -------------");
         System.out.println("Choice list size is {"+choiceResultsList.size()+"}");
         for(Object[] choice:choiceResultsList){
@@ -53,8 +55,9 @@ public class FSM extends MagicAI {
                 "   Choice class is "+choice[0].getClass()+
                 "   Choice string: "+choice[0].toString());
         }
-        System.out.println("----------- Choices search ends -----------");
+        System.out.println("----------- Choices search ends -----------"+'\n');
     }
+    */
     
     // Lands methods
     private List<MagicCard> getLandsOfMyHand(final MagicPlayer scorePlayer){
@@ -182,6 +185,9 @@ public class FSM extends MagicAI {
         return weakestCreatureChoice;
     }
 
+    /*
+        Incompleted
+    */
     private Object[] getAtackWhithAll(List<Object[]> choices){
         // Init
         Object[] selectedChoice = null;
@@ -399,7 +405,14 @@ public class FSM extends MagicAI {
         return evaluatedActionSelected;
     }
 
-   // Selection method
+   /* ----------------------------------------------------------------
+        Selection method - Design
+        ----------------------------------------------------------------
+        
+        (int) diferenceLifes, (MagicPhaseType) phase, (List of Object[]) choices -->
+        selectChoiceFSM()
+        --> (Object[]) choice
+       ---------------------------------------------------------------- */
     private Object[] selectChoiceFSM(int diferenceLifes, MagicPhaseType phase, List<Object[]> choices){
         // init
         String optionSelected = null;
@@ -418,7 +431,7 @@ public class FSM extends MagicAI {
                     choiceSelected = evaluateLandAction(optionSelected, choices);
                 }
 
-                System.out.println("[FSM - "+phase+"] Option selected: " + optionSelected + ", Choice selected: " + choiceSelected[0].toString());
+                // System.out.println("[FSM - "+phase+"] Option selected: " + optionSelected + ", Choice selected: " + choiceSelected[0].toString());
                 break;
                 
             // Second Main phase
@@ -432,39 +445,37 @@ public class FSM extends MagicAI {
                     choiceSelected = evaluateLandAction(optionSelected, choices);
                 }
 
-                System.out.println("[FSM - "+phase+"] Option selected: " + optionSelected + ", Choice selected: " + choiceSelected[0].toString());
+                // System.out.println("[FSM - "+phase+"] Option selected: " + optionSelected + ", Choice selected: " + choiceSelected[0].toString());
                 break;
 
             // Declare Blockers phase
             case DeclareBlockers:
                 optionSelected = this.fsm_data.getDefendChoice(diferenceLifes);
                 choiceSelected = evaluateDefendAction(optionSelected, choices);
-                System.out.println("[FSM - "+phase+"] Option selected: " + optionSelected + ", Choice selected: " + choiceSelected[0].toString());
+                
+                // System.out.println("[FSM - "+phase+"] Option selected: " + optionSelected + ", Choice selected: " + choiceSelected[0].toString());
                 break;
 
             // Atack phase
             case DeclareAttackers:
                 optionSelected = this.fsm_data.getAtackChoice(diferenceLifes);
                 choiceSelected = evaluateAtackAction(optionSelected, choices);
+                
+                // System.out.println("[FSM - "+phase+"] Option selected: " + optionSelected + ", Choice selected: " + choiceSelected[0].toString());
                 break;
 
             // Random choice
             default:
                 int randomIndex = (int)(Math.random() * ((choices.size())));
                 choiceSelected  = choices.get(randomIndex);
-                System.out.println("[RANDOM - "+phase+"] Option selected: " + optionSelected + ", Choice selected: " + choiceSelected[0].toString());
+                
+                // System.out.println("[RANDOM - "+phase+"] Option selected: " + optionSelected + ", Choice selected: " + choiceSelected[0].toString());
                 break;
         }
 
+        System.out.println("");
+
         return choiceSelected;
-    }
-    
-    // ----------------------------------------------------------------------------
-    // JSON
-    // ----------------------------------------------------------------------------
-    
-    private void testJSON() throws IOException{
-        this.fsm_data.getLandChoice(0);
     }
 
     // ----------------------------------------------------------------------------
@@ -483,7 +494,7 @@ public class FSM extends MagicAI {
         final MagicEvent event=choiceGame.getNextEvent();
         final List<Object[]> choiceResultsList=event.getArtificialChoiceResults(choiceGame);
         
-        // Update lists
+        // Update support lists
         this.creaturesHand = getCreatures(scorePlayer);
         this.landsHand = getLandsOfMyHand(scorePlayer);
 
@@ -502,36 +513,14 @@ public class FSM extends MagicAI {
         // ----------------------------------------------------------
         // More than one choice
         // ----------------------------------------------------------
-
-        // Get info about the choices
-        evaluateCards(choiceResultsList);
-
-        // Selection choice
-        Object[] choiceSelected = null;
-
+        
+        Object[] choiceSelected = null; // Init Selection choice
         // FSM 
-        MagicPhaseType phase = sourceGame.getPhase().getType();
-        int diferenceLifes =  sourceGame.getPlayer(1).getLife() - sourceGame.getPlayer(0).getLife();
-        System.out.println("Diference Lifes = "+diferenceLifes);
-        Object[] choiceSelectedFSM = selectChoiceFSM(diferenceLifes,phase,choiceResultsList);
-
-        choiceSelected = choiceSelectedFSM;
-
-        /*
-        if(choiceSelectedFSM != null) {
-            choiceSelected = choiceSelectedFSM;
-
-            System.out.println("-------------------- FSM SLECTION --------------------");
-            System.out.println("Choice selected FSM: " + choiceSelected[0].toString() + " and the phase is " + phase.toString() + '\n');
-        } else {
-            // Random choice
-            int randomIndex = (int)(Math.random() * ((choiceResultsList.size())));
-            choiceSelected  = choiceResultsList.get(randomIndex);
-            
-            System.out.println("-------------------- RAND SLECTION --------------------");
-            System.out.println("Choice selected FSM: " + choiceSelected[0].toString() + " and the phase is " + phase.toString() + '\n');
-        }
-        */
+        MagicPhaseType phase = sourceGame.getPhase().getType(); // get actual phase
+        int diferenceLifes =  sourceGame.getPlayer(1).getLife() - sourceGame.getPlayer(0).getLife(); // calculate diference lifes
+        Object[] choiceSelectedFSM = selectChoiceFSM(diferenceLifes,phase,choiceResultsList); // select choice
+        
+        choiceSelected = choiceSelectedFSM; // Set selected choice by FSM
         
         // Logging.
         final long timeTaken = System.currentTimeMillis() - startTime;
@@ -540,7 +529,7 @@ public class FSM extends MagicAI {
             " index=" + scorePlayer.getIndex() +
             " life=" + scorePlayer.getLife() +
             " phase=" + sourceGame.getPhase().getType() +
-            " step=" + sourceGame.getStep() +
+            // " step=" + sourceGame.getStep() +
             " slice=" + (0/1000000) +
             " time=" + timeTaken+
             " Choice selected = "+choiceSelected[0].toString()+'\n'+
@@ -550,11 +539,13 @@ public class FSM extends MagicAI {
             " index=" + scorePlayer.getIndex() +
             " life=" + scorePlayer.getLife() +
             " phase=" + sourceGame.getPhase().getType() +
-            " step=" + sourceGame.getStep() +
+            // " step=" + sourceGame.getStep() +
             " slice=" + (0/1000000) +
             " time=" + timeTaken+
+            " Diference Lifes = " +diferenceLifes+
             " Choice selected = "+choiceSelected[0].toString()+'\n'+
             "-------------------------------------------------------"+ '\n');
+        
         return sourceGame.map(choiceSelected);
     }
 }
