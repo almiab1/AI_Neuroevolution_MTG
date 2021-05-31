@@ -39,7 +39,18 @@ public class MagicDeclareAttackersResult extends ArrayList<MagicPermanent> imple
     public String toString() {
         return Arrays.toString(toArray());
     }
-
+    
+    @Override
+    public long getId() {
+        final long[] keys = new long[size()];
+        int idx = 0;
+        for (final MagicPermanent permanent : this) {
+            keys[idx] = permanent.getStateId();
+            idx++;
+        }
+        return MurmurHash3.hash(keys);
+    }
+    
     /* ----------------------------------------------------------------
         Get Array size method - Design
         ----------------------------------------------------------------
@@ -54,16 +65,5 @@ public class MagicDeclareAttackersResult extends ArrayList<MagicPermanent> imple
             size++;
         }
         return size;
-    }
-
-    @Override
-    public long getId() {
-        final long[] keys = new long[size()];
-        int idx = 0;
-        for (final MagicPermanent permanent : this) {
-            keys[idx] = permanent.getStateId();
-            idx++;
-        }
-        return MurmurHash3.hash(keys);
     }
 }
