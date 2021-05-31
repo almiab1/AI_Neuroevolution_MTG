@@ -59,7 +59,15 @@ public class FSM extends MagicAI {
     }
     */
     
-    // Lands methods
+    /* ----------------------------------------------------------------
+        Basic get methods - Design
+        ----------------------------------------------------------------
+        
+        (MagicPlayer) scorePlayer -->
+        getX()
+        --> (List of MagicCards) listX
+    -------------------------------------------------------------------- */
+
     private List<MagicCard> getLandsOfMyHand(final MagicPlayer scorePlayer){
         List<MagicCard> hand = scorePlayer.getHand();
         
@@ -73,7 +81,6 @@ public class FSM extends MagicAI {
         return lands;
     }
     
-    // Creatures atack and lower methods
     private List<MagicCard> getCreatures(final MagicPlayer scorePlayer){
         List<MagicCard> hand = scorePlayer.getHand();
         
@@ -87,7 +94,18 @@ public class FSM extends MagicAI {
         
         return creatures;
     }
+    
 
+    /* ----------------------------------------------------------------
+        FSM states methods
+       ----------------------------------------------------------------
+    
+    (List of Object[]) choices -->
+    getXXX()
+    --> (Object[]) cardSelected
+    ------------------------------------------------------------------- */
+
+    // Creatures atack and lower methods
     private Object[] getStrongestCreature(List<Object[]> choices){
         
         // Init
@@ -210,6 +228,7 @@ public class FSM extends MagicAI {
         return selectedChoice;
     }
 
+    // Neutral method
     private Object[] getPassChoice(List<Object[]> choices){
         // Init
         Object[] passChoice = null;
@@ -407,12 +426,12 @@ public class FSM extends MagicAI {
 
    /* ----------------------------------------------------------------
         Selection method - Design
-        ----------------------------------------------------------------
+      ----------------------------------------------------------------
         
         (int) diferenceLifes, (MagicPhaseType) phase, (List of Object[]) choices -->
         selectChoiceFSM()
         --> (Object[]) choice
-       ---------------------------------------------------------------- */
+    ------------------------------------------------------------------- */
     private Object[] selectChoiceFSM(int diferenceLifes, MagicPhaseType phase, List<Object[]> choices){
         // init
         String optionSelected = null;
