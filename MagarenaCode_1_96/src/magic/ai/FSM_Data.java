@@ -7,11 +7,13 @@ import org.json.*;
 public class FSM_Data {
     
     private JSONObject json;
-    private String pathJSON = "/ai/FSM_Data.json";
+    private String pathJSON = "/JSON/FSM_Data.json"; // compilation path
+    // private String pathJSON = "FSM_Data.json"; // test path
     
     // Contructor
     FSM_Data(){
         String resourceName = this.pathJSON;
+        // InputStream is = FSM_Data.class.getResourceAsStream(resourceName);
         InputStream is = FSM_Data.class.getResourceAsStream(resourceName);
         if (is == null) {
             throw new NullPointerException("Cannot find resource file " + resourceName);
@@ -19,7 +21,7 @@ public class FSM_Data {
 
         JSONTokener tokener = new JSONTokener(is);
         JSONObject object = new JSONObject(tokener);
-        System.out.println("JSON Obtained--> " + object.toString());
+        // System.out.println("JSON Obtained--> " + object.toString());
         
         this.json = object;
     }

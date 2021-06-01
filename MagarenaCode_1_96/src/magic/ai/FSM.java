@@ -513,7 +513,9 @@ public class FSM extends MagicAI {
                 optionSelected = this.fsm_data.getDefendChoice(diferenceLifes);
                 choiceSelected = evaluateDefendAction(optionSelected, choices);
                 
-                System.out.println("[FSM - "+phase+"] Option selected: " + optionSelected + ", Choice selected: " + choiceSelected[0].toString());
+                if(choiceSelected != null) {
+                    System.out.println("[FSM - "+phase+"] Option selected: " + optionSelected + ", Choice selected: " + choiceSelected[0].toString());
+                }
                 break;
 
             // Atack phase
@@ -521,7 +523,9 @@ public class FSM extends MagicAI {
                 optionSelected = this.fsm_data.getAtackChoice(diferenceLifes);
                 choiceSelected = evaluateAtackAction(optionSelected, choices);
                 
-                System.out.println("[FSM - "+phase+"] Option selected: " + optionSelected + ", Choice selected: " + choiceSelected[0].toString());
+                if(choiceSelected != null) {
+                    System.out.println("[FSM - "+phase+"] Option selected: " + optionSelected + ", Choice selected: " + choiceSelected[0].toString());
+                }
                 break;
 
             // Random choice
@@ -586,12 +590,13 @@ public class FSM extends MagicAI {
         
         // Logging.
         final long timeTaken = System.currentTimeMillis() - startTime;
+        /*
         log("--------------------------FSM--------------------------" + '\n'+
             " cheat=" + CHEAT +
             " index=" + scorePlayer.getIndex() +
             " life=" + scorePlayer.getLife() +
             " phase=" + sourceGame.getPhase().getType() +
-            // " step=" + sourceGame.getStep() +
+            " step=" + sourceGame.getStep() +
             " slice=" + (0/1000000) +
             " time=" + timeTaken+
             " Choice selected = "+choiceSelected[0].toString()+'\n'+
@@ -601,13 +606,13 @@ public class FSM extends MagicAI {
             " index=" + scorePlayer.getIndex() +
             " life=" + scorePlayer.getLife() +
             " phase=" + sourceGame.getPhase().getType() +
-            // " step=" + sourceGame.getStep() +
+            " step=" + sourceGame.getStep() +
             " slice=" + (0/1000000) +
             " time=" + timeTaken+
             " Diference Lifes = " +diferenceLifes+
             " Choice selected = "+choiceSelected[0].toString()+'\n'+
             "-------------------------------------------------------"+ '\n');
-        
+        */
         return sourceGame.map(choiceSelected);
     }
 }
