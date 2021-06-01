@@ -46,7 +46,7 @@ public class FSM extends MagicAI {
     // ----------------------------------------------------------------------------
     
     // debuging method
-    /*
+    
     private void logChoices(List<Object[]> choiceResultsList){
         System.out.println("------------- Choices search -------------");
         System.out.println("Choice list size is {"+choiceResultsList.size()+"}");
@@ -57,7 +57,41 @@ public class FSM extends MagicAI {
         }
         System.out.println("----------- Choices search ends -----------"+'\n');
     }
-    */
+    
+    // Comprove methods
+    private boolean isLandCardsHand(String cardName){
+
+        boolean isLand = false;
+
+        for(MagicCard card:this.landsHand){
+            if(cardName == card.getName()){
+                isLand = true;
+            }
+        }
+
+        return isLand;
+    }
+
+    private boolean isCreatureCardsHand(String cardName){
+
+        boolean isCreature = false;
+
+        for(MagicCard card:this.creaturesHand){
+            if(cardName == card.getName()){
+                isCreature = true;
+            }
+        }
+
+        return isCreature;
+    }
+    
+    private boolean isLandsInChoices(List<Object[]> choices){
+        for(Object[] choice:choices){
+            if(isLandCardsHand(choice[0].toString())){ return true;}
+        }
+
+        return false;
+    }
     
     /* ----------------------------------------------------------------
         Basic get methods - Design
@@ -95,14 +129,13 @@ public class FSM extends MagicAI {
         return creatures;
     }
     
-
     /* ----------------------------------------------------------------
         FSM states methods
        ----------------------------------------------------------------
     
-    (List of Object[]) choices -->
-    getXXX()
-    --> (Object[]) cardSelected
+        (List of Object[]) choices -->
+        getXXX()
+        --> (Object[]) cardSelected
     ------------------------------------------------------------------- */
 
     // Creatures atack and lower methods
@@ -118,7 +151,7 @@ public class FSM extends MagicAI {
         for(Object[] choice:choices){
             if(choice[0] != MagicPlayChoiceResult.PASS || choice[0] != MagicPlayChoiceResult.SKIP || choice[0] != null){
                 for(MagicCard creature: creaturesHand){
-                    if(choice[0].toString() == creature.getName()){
+                    if(isCreatureCardsHand(choice[0].toString())){
                         creaturesChoicesList.add(creature);
                     }
                 }
@@ -167,7 +200,7 @@ public class FSM extends MagicAI {
         for(Object[] choice:choices){
             if(choice[0] != MagicPlayChoiceResult.PASS || choice[0] != MagicPlayChoiceResult.SKIP || choice[0] != null){
                 for(MagicCard creature: creaturesHand){
-                    if(choice[0].toString() == creature.getName()){
+                    if(isCreatureCardsHand(choice[0].toString())){
                         creaturesChoicesList.add(creature);
                     }
                 }
@@ -249,7 +282,9 @@ public class FSM extends MagicAI {
                 
         // Get card of the choices list
         for(Object[] choice:choices){
-            if(choice[0] != MagicPlayChoiceResult.PASS){
+            boolean isLand = isLandCardsHand(choice[0].toString());
+
+            if(choice[0] != MagicPlayChoiceResult.PASS && isLand){
                 landChoiceList.add(choice);
             }
         }
@@ -364,6 +399,8 @@ public class FSM extends MagicAI {
     private Object[] evaluateAtackAction(String optionSelected, List<Object[]> choices){
         Object[] evaluatedActionSelected = null;
         
+        Object[] i = getAtackWhithAll(choices);
+
         switch(optionSelected){
             case "NA":
                 evaluatedActionSelected = getPassChoice(choices);
@@ -441,30 +478,34 @@ public class FSM extends MagicAI {
         switch(phase){
             // First Main phase
             case FirstMain:
-                optionSelected = this.fsm_data.getLandChoice(diferenceLifes);
-                
-                if(optionSelected == null){
+
+                if(isLandsInChoices(choices)){
+                    optionSelected = this.fsm_data.getLandChoice(diferenceLifes);
+                    choiceSelected = evaluateLandAction(optionSelected, choices);
+                } else {
                     optionSelected = this.fsm_data.getLowerCreaturesChoice(diferenceLifes);
                     choiceSelected = evaluateLowerCreaturesAction(optionSelected, choices);
-                } else {
-                    choiceSelected = evaluateLandAction(optionSelected, choices);
                 }
 
-                // System.out.println("[FSM - "+phase+"] Option selected: " + optionSelected + ", Choice selected: " + choiceSelected[0].toString());
+                if(choiceSelected != null) {
+                    System.out.println("[FSM - "+phase+"] Option selected: " + optionSelected + ", Choice selected: " + choiceSelected[0].toString());
+                }                
                 break;
                 
             // Second Main phase
             case SecondMain:
-                optionSelected = this.fsm_data.getLandChoice(diferenceLifes);
 
-                if(optionSelected == null){
+                if(isLandsInChoices(choices)){
+                    optionSelected = this.fsm_data.getLandChoice(diferenceLifes);
+                    choiceSelected = evaluateLandAction(optionSelected, choices);
+                } else {
                     optionSelected = this.fsm_data.getLowerCreaturesChoice(diferenceLifes);
                     choiceSelected = evaluateLowerCreaturesAction(optionSelected, choices);
-                } else {
-                    choiceSelected = evaluateLandAction(optionSelected, choices);
                 }
-
-                // System.out.println("[FSM - "+phase+"] Option selected: " + optionSelected + ", Choice selected: " + choiceSelected[0].toString());
+                
+                if(choiceSelected != null) {
+                    System.out.println("[FSM - "+phase+"] Option selected: " + optionSelected + ", Choice selected: " + choiceSelected[0].toString());
+                }
                 break;
 
             // Declare Blockers phase
@@ -472,7 +513,7 @@ public class FSM extends MagicAI {
                 optionSelected = this.fsm_data.getDefendChoice(diferenceLifes);
                 choiceSelected = evaluateDefendAction(optionSelected, choices);
                 
-                // System.out.println("[FSM - "+phase+"] Option selected: " + optionSelected + ", Choice selected: " + choiceSelected[0].toString());
+                System.out.println("[FSM - "+phase+"] Option selected: " + optionSelected + ", Choice selected: " + choiceSelected[0].toString());
                 break;
 
             // Atack phase
@@ -480,7 +521,7 @@ public class FSM extends MagicAI {
                 optionSelected = this.fsm_data.getAtackChoice(diferenceLifes);
                 choiceSelected = evaluateAtackAction(optionSelected, choices);
                 
-                // System.out.println("[FSM - "+phase+"] Option selected: " + optionSelected + ", Choice selected: " + choiceSelected[0].toString());
+                System.out.println("[FSM - "+phase+"] Option selected: " + optionSelected + ", Choice selected: " + choiceSelected[0].toString());
                 break;
 
             // Random choice
@@ -488,7 +529,7 @@ public class FSM extends MagicAI {
                 int randomIndex = (int)(Math.random() * ((choices.size())));
                 choiceSelected  = choices.get(randomIndex);
                 
-                // System.out.println("[RANDOM - "+phase+"] Option selected: " + optionSelected + ", Choice selected: " + choiceSelected[0].toString());
+                System.out.println("[RANDOM - "+phase+"] Option selected: " + optionSelected + ", Choice selected: " + choiceSelected[0].toString());
                 break;
         }
 
@@ -528,6 +569,8 @@ public class FSM extends MagicAI {
         if (size==1) {
             return sourceGame.map(choiceResultsList.get(0));
         }
+
+        logChoices(choiceResultsList);
         
         // ----------------------------------------------------------
         // More than one choice

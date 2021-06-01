@@ -2,14 +2,12 @@ package magic.ai;
 
 import java.io.InputStream;
 import java.util.*;
-import java.util.stream.Collectors;
-import java.util.stream.Stream;
 import org.json.*;
 
 public class FSM_Data {
     
     private JSONObject json;
-    private String pathJSON = "./FSM_Data.json";
+    private String pathJSON = "FSM_Data.json";
     
     // Contructor
     FSM_Data(){
