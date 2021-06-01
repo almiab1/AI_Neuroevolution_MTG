@@ -7,7 +7,7 @@ import org.json.*;
 public class FSM_Data {
     
     private JSONObject json;
-    private String pathJSON = "FSM_Data.json";
+    private String pathJSON = "/ai/FSM_Data.json";
     
     // Contructor
     FSM_Data(){
