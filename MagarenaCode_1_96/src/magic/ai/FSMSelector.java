@@ -46,7 +46,7 @@ public class FSMSelector {
         this.landsHand = lands;
     }
     
-    public List<MagicCard> setCreatures(final MagicPlayer scorePlayer){
+    public void setCreatures(final MagicPlayer scorePlayer){
         List<MagicCard> hand = scorePlayer.getHand();
         
         List<MagicCard> creatures = new ArrayList<MagicCard>();
@@ -57,7 +57,7 @@ public class FSMSelector {
             }
         }
         
-        return creatures;
+        this.creaturesHand = creatures;
     }
     
     /* ----------------------------------------------------------------
