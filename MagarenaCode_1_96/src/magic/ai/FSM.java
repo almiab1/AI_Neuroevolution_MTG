@@ -1,19 +1,14 @@
 package magic.ai;
 
 // Magarena imports
-import magic.model.MagicCard;
 import magic.model.MagicGame;
 import magic.model.MagicGameLog;
 import magic.model.MagicPlayer;
 import magic.model.event.MagicEvent;
 import magic.model.phase.MagicPhaseType;
-import magic.model.choice.MagicDeclareAttackersResult;
-import magic.model.choice.MagicDeclareBlockersResult;
-import magic.model.choice.MagicPlayChoiceResult;
 import magic.ai.FSMData;
 
 // Java imports
-import java.io.IOException;
 import java.util.*;
         
 public class FSM extends MagicAI {
@@ -57,9 +52,8 @@ public class FSM extends MagicAI {
         final List<Object[]> choiceResultsList=event.getArtificialChoiceResults(choiceGame);
         
         // Update support lists
-        this.fsmSelector.setCreatures(scorePlayer);
+        this.fsmSelector.setCreaturesOfMyHand(scorePlayer);
         this.fsmSelector.setLandsOfMyHand(scorePlayer);
-
         
         // No choices
         final int size=choiceResultsList.size();

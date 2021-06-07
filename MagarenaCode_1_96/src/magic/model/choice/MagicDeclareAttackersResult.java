@@ -3,6 +3,7 @@ package magic.model.choice;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collection;
+import magic.model.MagicCard;
 
 import magic.model.MagicGame;
 import magic.model.MagicMappable;
@@ -65,5 +66,23 @@ public class MagicDeclareAttackersResult extends ArrayList<MagicPermanent> imple
             size++;
         }
         return size;
+    }
+
+    /* ----------------------------------------------------------------
+        Get Atack array methods
+        ----------------------------------------------------------------
+        
+        -->
+        getCreatures()
+        --> int size creatures array
+       ---------------------------------------------------------------- */
+    public ArrayList<MagicCard> getAtackListCreatures(){
+        ArrayList<MagicCard> atackCards = new ArrayList<MagicCard>();
+
+        for (final MagicPermanent permanent : this) {
+            atackCards.add(permanent.getCard());
+        }
+
+        return atackCards;
     }
 }

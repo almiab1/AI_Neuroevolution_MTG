@@ -8,13 +8,14 @@
 magarena_dir='/mnt/d/0-Varios/Universidad/TFG/Framework/AI_TFG/MagarenaCode_1_96/release/'
 # magarena_dir='/media/pica/DATA/0-Varios/Universidad/TFG/Framework/AI_TFG/MagarenaCode_1_96/release'
 cd $magarena_dir
+clear
 # ---------------------------------------------------------------------------
 
 # ---------------------------------------------------------------------------
 # Test Configurations
 # ---------------------------------------------------------------------------
 games=1
-duels=4
+duels=3
 threads=4
 lifes=20
 # ---------------------------------------------------------------------------

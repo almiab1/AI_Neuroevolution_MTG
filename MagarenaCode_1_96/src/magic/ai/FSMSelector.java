@@ -33,9 +33,16 @@ public class FSMSelector {
     ------------------------------------------------------------------- */
 
     public void setLandsOfMyHand(final MagicPlayer scorePlayer){
+        List<MagicCard> library = scorePlayer.getLibrary();
         List<MagicCard> hand = scorePlayer.getHand();
         
         List<MagicCard> lands = new ArrayList<MagicCard>();
+        
+        for (MagicCard card:library){
+            if(card.isLand()){ 
+                lands.add(card);
+            }
+        }
         
         for (MagicCard card:hand){
             if(card.isLand()){ 
@@ -46,11 +53,18 @@ public class FSMSelector {
         this.landsHand = lands;
     }
     
-    public void setCreatures(final MagicPlayer scorePlayer){
+    public void setCreaturesOfMyHand(final MagicPlayer scorePlayer){
+        List<MagicCard> library = scorePlayer.getLibrary();
         List<MagicCard> hand = scorePlayer.getHand();
         
         List<MagicCard> creatures = new ArrayList<MagicCard>();
         
+        for (MagicCard card:library){
+            if(card.isCreature()){ 
+                creatures.add(card);
+            }
+        }
+
         for (MagicCard card:hand){
             if(card.isCreature()){ 
                 creatures.add(card);
@@ -60,6 +74,17 @@ public class FSMSelector {
         this.creaturesHand = creatures;
     }
     
+    private MagicCard getMagicCard(String cardName, List<MagicCard> list){
+        MagicCard card = null;
+
+        for(MagicCard cardSelected:list){
+            if(cardName.equals(cardSelected.getName())){
+                return cardSelected;
+            }
+        }
+
+        return card;
+    }
     /* ----------------------------------------------------------------
         Is methods
        ---------------------------------------------------------------- 
@@ -78,27 +103,14 @@ public class FSMSelector {
         boolean isLand = false;
 
         for(MagicCard card:this.landsHand){
-            if(cardName == card.getName()){
+            if(cardName.equals(card.getName())){
                 isLand = true;
             }
         }
 
         return isLand;
     }
-
-    private boolean isCreatureCardsHand(String cardName){
-
-        boolean isCreature = false;
-
-        for(MagicCard card:this.creaturesHand){
-            if(cardName == card.getName()){
-                isCreature = true;
-            }
-        }
-
-        return isCreature;
-    }
-    
+  
     private boolean isLandsInChoices(List<Object[]> choices){
         for(Object[] choice:choices){
             if(isLandCardsHand(choice[0].toString())){ 
@@ -109,6 +121,7 @@ public class FSMSelector {
         return false;
     }
 
+    
     // ----------------------------------------------------------------------------
     // Selection methods for the phases
     // ----------------------------------------------------------------------------
@@ -136,48 +149,37 @@ public class FSMSelector {
         --> (Object[]) cardSelected
     ------------------------------------------------------------------- */  
 
-    // Creatures atack and lower methods
+    // Creatures lower methods
     private Object[] getStrongestCreature(List<Object[]> choices){
         
         // Init
-        List<MagicCard> creaturesHand = this.creaturesHand;
         Object[] strongestCreatureChoice = null;
         MagicCard strongestCreature = null;
-        List<MagicCard> creaturesChoicesList = new ArrayList<MagicCard>();
         
-        // Get card of the choices list
-        for(Object[] choice:choices){
-            if(choice[0] != MagicPlayChoiceResult.PASS || choice[0] != MagicPlayChoiceResult.SKIP || choice[0] != null){
-                for(MagicCard creature: creaturesHand){
-                    if(isCreatureCardsHand(choice[0].toString())){
-                        creaturesChoicesList.add(creature);
-                    }
-                }
-            }
-        }
-            
         // Selection the strogest creature of the choices list
-        if(creaturesChoicesList.size() == 1){ 
-            strongestCreature = creaturesChoicesList.get(0);
-        } else if(creaturesChoicesList.size() > 1){
-            strongestCreature = creaturesChoicesList.get(0);
-        
-            // Find the strongest creature
-            for (MagicCard creature:creaturesChoicesList) {
-                if(strongestCreature.getCardDefinition().getCardPower() < creature.getCardDefinition().getCardPower()){ 
-                    strongestCreature = creature;
-                }  else if(strongestCreature.getCardDefinition().getCardPower() == creature.getCardDefinition().getCardPower() &&
-                        strongestCreature.getCardDefinition().getCardToughness() < creature.getCardDefinition().getCardToughness()){ 
-                    strongestCreature = creature;
+        if(choices.size() == 2){
+            for(Object[] choice:choices){
+                if(!"pass".equals(choice[0].toString()) && choice[0] != null){
+                    strongestCreatureChoice = choice;;
                 }
             }
-        }
-        
-        // Get choice
-        if(strongestCreature != null) {
+        } else{
+            strongestCreature = getMagicCard(choices.get(1)[0].toString(), this.creaturesHand);
+            strongestCreatureChoice = choices.get(1);
+
+            // Find the strongest creature
             for(Object[] choice:choices){
-                if(choice[0].toString() == strongestCreature.getName()){
-                    strongestCreatureChoice = choice;
+                if(!"pass".equals(choice[0].toString()) && choice[0] != null){
+                    
+                    MagicCard cardSelected = getMagicCard(choice[0].toString(), this.creaturesHand);
+                    
+                    if(strongestCreature.getCardDefinition().getCardPower() < cardSelected.getCardDefinition().getCardPower()){ 
+                        strongestCreature = cardSelected;
+                        strongestCreatureChoice = choice;
+                    }  else if(strongestCreature.getCardDefinition().getCardPower() == cardSelected.getCardDefinition().getCardPower() && strongestCreature.getCardDefinition().getCardToughness() < cardSelected.getCardDefinition().getCardToughness()){ 
+                        strongestCreature = cardSelected;
+                        strongestCreatureChoice = choice;
+                    }
                 }
             }
         }
@@ -188,45 +190,35 @@ public class FSMSelector {
     private Object[] getWeakestCreature(List<Object[]> choices){
         
         // Init
-        List<MagicCard> creaturesHand = this.creaturesHand;
         Object[] weakestCreatureChoice = null;
         MagicCard weakestCreature = null;
-        List<MagicCard> creaturesChoicesList = new ArrayList<MagicCard>();
-        
-        
-        // Get card of the choices list
-        for(Object[] choice:choices){
-            if(choice[0] != MagicPlayChoiceResult.PASS || choice[0] != MagicPlayChoiceResult.SKIP || choice[0] != null){
-                for(MagicCard creature: creaturesHand){
-                    if(isCreatureCardsHand(choice[0].toString())){
-                        creaturesChoicesList.add(creature);
-                    }
-                }
-            }
-        }
             
         // Selection the strogest creature of the choices list
-        if(creaturesChoicesList.size() == 1){ 
-            weakestCreature = creaturesChoicesList.get(0);
-        } else if(creaturesChoicesList.size() > 1){
-            weakestCreature = creaturesChoicesList.get(0);
-        
-            // Find the strongest creature
-            for (MagicCard creature:creaturesChoicesList) {
-                if(weakestCreature.getCardDefinition().getCardPower() > creature.getCardDefinition().getCardPower()){ 
-                    weakestCreature = creature;
-                }  else if(weakestCreature.getCardDefinition().getCardPower() == creature.getCardDefinition().getCardPower() &&
-                        weakestCreature.getCardDefinition().getCardToughness() > creature.getCardDefinition().getCardToughness()){ 
-                    weakestCreature = creature;
+        if(choices.size() == 2){ 
+            for(Object[] choice:choices){
+                if(!"pass".equals(choice[0].toString()) && choice[0] != null){
+                    weakestCreatureChoice = choice;
                 }
             }
-        }
+        } else{
+            weakestCreature = getMagicCard(choices.get(1)[0].toString(), this.creaturesHand);
+            weakestCreatureChoice = choices.get(1);
         
-        // Get choice
-        if(weakestCreature != null) {
+            // Find the strongest creature
             for(Object[] choice:choices){
-                if(choice[0].toString() == weakestCreature.getName()){
-                    weakestCreatureChoice = choice;
+
+
+                if(!"pass".equals(choice[0].toString()) && choice[0] != null){
+                    
+                    MagicCard cardSelected = getMagicCard(choice[0].toString(), this.creaturesHand);
+                    
+                    if(weakestCreature.getCardDefinition().getCardPower() < cardSelected.getCardDefinition().getCardPower()){ 
+                        weakestCreature = cardSelected;
+                        weakestCreatureChoice = choice;
+                    }  else if(weakestCreature.getCardDefinition().getCardPower() == cardSelected.getCardDefinition().getCardPower() && weakestCreature.getCardDefinition().getCardToughness() < cardSelected.getCardDefinition().getCardToughness()){ 
+                        weakestCreature = cardSelected;
+                        weakestCreatureChoice = choice;
+                    }
                 }
             }
         }
@@ -249,11 +241,99 @@ public class FSMSelector {
     }
 
     // Atacks methods
+    private int getScoreAtack(List<MagicCard> atackCards){
+        int levelAtack = 0;
+
+        // Selection the strogest creature of the choices list
+        if(atackCards.size() == 1){ 
+            levelAtack = atackCards.get(0).getCardDefinition().getCardPower();
+        } else if(atackCards.size() > 1){
+            for (MagicCard creature:atackCards) {
+                levelAtack += creature.getCardDefinition().getCardPower();
+            }
+        }
+
+        return levelAtack;
+    }
+
+    private Object[] getStrongestAtack(List<Object[]> choices){
+        
+        // Init
+        Object[] strongestAtack = null;
+        List<MagicCard> creaturesAtack = null;
+        int score = 0;
+
+        // Set initial atack score and choice
+        strongestAtack = choices.get(0);
+        MagicDeclareAttackersResult initChoice = (MagicDeclareAttackersResult) choices.get(0)[0];
+        if(initChoice.getSize() != 0) {
+            creaturesAtack = initChoice.getAtackListCreatures();
+            score = getScoreAtack(creaturesAtack);
+            strongestAtack = choices.get(0);
+            
+        } else{
+            initChoice = (MagicDeclareAttackersResult) choices.get(1)[0];
+            creaturesAtack = initChoice.getAtackListCreatures();
+            score = getScoreAtack(creaturesAtack);
+            strongestAtack = choices.get(1);
+        }
+
+        // Get best atack
+        for(Object[] choice:choices){
+            MagicDeclareAttackersResult selection = (MagicDeclareAttackersResult) choice[0];
+            if(selection.getSize() != 0){
+                creaturesAtack = selection.getAtackListCreatures();
+                int newAtackScore = getScoreAtack(creaturesAtack);
+                if(score < newAtackScore){
+                    strongestAtack = choice;
+                }
+            }
+        }
+        
+        return strongestAtack;
+    }
+
+    private Object[] getWeakestAtack(List<Object[]> choices){
+        
+        // Init
+        Object[] weakestAtack = null;
+        List<MagicCard> creaturesAtack = null;
+        int score = 0;
+
+        // Set initial atack score
+        weakestAtack = choices.get(0);
+        MagicDeclareAttackersResult initChoice = (MagicDeclareAttackersResult) choices.get(0)[0];
+        if(initChoice.getSize() != 0) {
+            creaturesAtack = initChoice.getAtackListCreatures();
+            score = getScoreAtack(creaturesAtack);
+        } else{
+            initChoice = (MagicDeclareAttackersResult) choices.get(1)[0];
+            creaturesAtack = initChoice.getAtackListCreatures();
+            score = getScoreAtack(creaturesAtack);
+        }
+
+        // Get best atack
+        for(Object[] choice:choices){
+            MagicDeclareAttackersResult selection = (MagicDeclareAttackersResult) choice[0];
+
+            if(selection.getSize() != 0){
+                creaturesAtack = selection.getAtackListCreatures();
+                int newAtackScore = getScoreAtack(creaturesAtack);
+                if(score > newAtackScore){
+                    weakestAtack = choice;
+                }
+            }
+        }
+        
+        return weakestAtack;
+    }
+
     private Object[] getAtackWhithAll(List<Object[]> choices){
         // Init
         Object[] selectedChoice = null;
         
         // Search
+        selectedChoice = choices.get(0);
         MagicDeclareAttackersResult initChoice = (MagicDeclareAttackersResult) choices.get(0)[0];
         int bigSizeChoice = initChoice.getSize();
         
@@ -413,10 +493,10 @@ public class FSMSelector {
                 evaluatedActionSelected = getNoAtackChoice(choices);
                 break;
             case "AD":
-                evaluatedActionSelected = getWeakestCreature(choices);
+                evaluatedActionSelected = getWeakestAtack(choices);
                 break;
             case "AF":
-                evaluatedActionSelected = getStrongestCreature(choices);
+                evaluatedActionSelected = getStrongestAtack(choices);
                 break;
             case "AT":
                 evaluatedActionSelected = getAtackWhithAll(choices);
@@ -485,7 +565,7 @@ public class FSMSelector {
         switch(phase){
             // First Main phase
             case FirstMain:
-
+            
                 if(isLandsInChoices(choices)){
                     optionSelected = this.fsmData.getLandChoice(diferenceLifes);
                     choiceSelected = evaluateLandAction(optionSelected, choices);
@@ -493,15 +573,15 @@ public class FSMSelector {
                     optionSelected = this.fsmData.getLowerCreaturesChoice(diferenceLifes);
                     choiceSelected = evaluateLowerCreaturesAction(optionSelected, choices);
                 }
-
+                
                 if(choiceSelected != null) {
                     System.out.println("[FSM - "+phase+"] Option selected: " + optionSelected + ", Choice selected: " + choiceSelected[0].toString());
                 }                
                 break;
-                
+            
             // Second Main phase
             case SecondMain:
-
+            
                 if(isLandsInChoices(choices)){
                     optionSelected = this.fsmData.getLandChoice(diferenceLifes);
                     choiceSelected = evaluateLandAction(optionSelected, choices);
@@ -509,12 +589,12 @@ public class FSMSelector {
                     optionSelected = this.fsmData.getLowerCreaturesChoice(diferenceLifes);
                     choiceSelected = evaluateLowerCreaturesAction(optionSelected, choices);
                 }
-                
+            
                 if(choiceSelected != null) {
                     System.out.println("[FSM - "+phase+"] Option selected: " + optionSelected + ", Choice selected: " + choiceSelected[0].toString());
                 }
                 break;
-
+            
             // Declare Blockers phase
             case DeclareBlockers:
                 optionSelected = this.fsmData.getDefendChoice(diferenceLifes);
@@ -524,10 +604,11 @@ public class FSMSelector {
                     System.out.println("[FSM - "+phase+"] Option selected: " + optionSelected + ", Choice selected: " + choiceSelected[0].toString());
                 }
                 break;
-
+            
             // Atack phase
             case DeclareAttackers:
                 optionSelected = this.fsmData.getAtackChoice(diferenceLifes);
+                System.out.println("Option selected --> " + optionSelected);
                 choiceSelected = evaluateAtackAction(optionSelected, choices);
                 
                 if(choiceSelected != null) {
