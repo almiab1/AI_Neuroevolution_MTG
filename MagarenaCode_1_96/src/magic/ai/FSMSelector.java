@@ -32,7 +32,7 @@ public class FSMSelector {
         --> (List of MagicCards) listX
     ------------------------------------------------------------------- */
 
-    public void setLandsOfMyHand(final MagicPlayer scorePlayer){
+    public void setLandsPlayer(final MagicPlayer scorePlayer){
         List<MagicCard> library = scorePlayer.getLibrary();
         List<MagicCard> hand = scorePlayer.getHand();
         
@@ -53,9 +53,10 @@ public class FSMSelector {
         this.landsHand = lands;
     }
     
-    public void setCreaturesOfMyHand(final MagicPlayer scorePlayer){
+    public void setCreaturesPlayer(final MagicPlayer scorePlayer){
         List<MagicCard> library = scorePlayer.getLibrary();
         List<MagicCard> hand = scorePlayer.getHand();
+        List<MagicCard> exile = scorePlayer.getExile();
         
         List<MagicCard> creatures = new ArrayList<MagicCard>();
         
@@ -66,6 +67,12 @@ public class FSMSelector {
         }
 
         for (MagicCard card:hand){
+            if(card.isCreature()){ 
+                creatures.add(card);
+            }
+        }
+
+        for (MagicCard card:exile){
             if(card.isCreature()){ 
                 creatures.add(card);
             }
@@ -170,8 +177,12 @@ public class FSMSelector {
             // Find the strongest creature
             for(Object[] choice:choices){
                 if(!"pass".equals(choice[0].toString()) && choice[0] != null){
-                    
+                    // System.out.println("Antes de coger la carte de choice --> "+choice[0].toString());
+
                     MagicCard cardSelected = getMagicCard(choice[0].toString(), this.creaturesHand);
+
+                    // System.out.println("Card selected --> " + cardSelected.getName() + " - Strongest --> " + strongestCreature.getName());
+                    // System.out.println("Card selected p --> " + cardSelected.getCardDefinition().getCardPower() + " - Strongest p --> " + strongestCreature.getCardDefinition().getCardPower());
                     
                     if(strongestCreature.getCardDefinition().getCardPower() < cardSelected.getCardDefinition().getCardPower()){ 
                         strongestCreature = cardSelected;
@@ -206,12 +217,16 @@ public class FSMSelector {
         
             // Find the strongest creature
             for(Object[] choice:choices){
-
-
                 if(!"pass".equals(choice[0].toString()) && choice[0] != null){
+                    
+                    // System.out.println("Antes de coger la carte de choice --> "+choice[0].toString());
                     
                     MagicCard cardSelected = getMagicCard(choice[0].toString(), this.creaturesHand);
                     
+                    // System.out.println("Card selected --> " + cardSelected.getName() + " - Strongest --> " + weakestCreature.getName());
+                    // System.out.println("Card selected p --> " + cardSelected.getCardDefinition().getCardPower() + " - Strongest p --> " + weakestCreature.getCardDefinition().getCardPower());
+                    
+
                     if(weakestCreature.getCardDefinition().getCardPower() < cardSelected.getCardDefinition().getCardPower()){ 
                         weakestCreature = cardSelected;
                         weakestCreatureChoice = choice;

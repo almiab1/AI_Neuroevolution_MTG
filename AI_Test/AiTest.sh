@@ -33,7 +33,7 @@ lifes=20
 # ---------------------------------------------------------------------------
 testAI(){
     java -splash: -Xms512M -Xmx1024M -jar Magarena.jar --headless  \
-        --ai1 MCTS --str1 4 --deck1 @ \
+        --ai1 MCTS --str1 4 --deck1 Red-FSM \
         --ai2 FSM --str2 8 --deck2 Red-FSM \
         --life $lifes --games $games --duels $duels --threads $threads
 }

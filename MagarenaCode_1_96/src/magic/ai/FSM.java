@@ -52,8 +52,8 @@ public class FSM extends MagicAI {
         final List<Object[]> choiceResultsList=event.getArtificialChoiceResults(choiceGame);
         
         // Update support lists
-        this.fsmSelector.setCreaturesOfMyHand(scorePlayer);
-        this.fsmSelector.setLandsOfMyHand(scorePlayer);
+        this.fsmSelector.setCreaturesPlayer(scorePlayer);
+        this.fsmSelector.setLandsPlayer(scorePlayer);
         
         // No choices
         final int size=choiceResultsList.size();
