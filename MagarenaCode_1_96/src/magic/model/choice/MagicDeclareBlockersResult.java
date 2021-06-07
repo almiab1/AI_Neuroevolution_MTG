@@ -38,6 +38,7 @@ public class MagicDeclareBlockersResult extends LinkedList<MagicCombatCreature[]
             }
             result.add(mappedCreatures);
         }
+        
         return result;
     }
 
@@ -57,6 +58,7 @@ public class MagicDeclareBlockersResult extends LinkedList<MagicCombatCreature[]
         builder.append('S');
         builder.append(score);
         for (final MagicCombatCreature[] creatures : this) {
+            // System.out.println("Len creatures --> "+creatures.length+" ["+creatures.toString()+"]");
             if (creatures.length>1) {
                 builder.append(' ');
                 builder.append(creatures[0].getName());
@@ -83,5 +85,24 @@ public class MagicDeclareBlockersResult extends LinkedList<MagicCombatCreature[]
             }
         }
         return MurmurHash3.hash(keys);
+    }
+    
+    /* ----------------------------------------------------------------
+        Get Array size method - Design
+        ----------------------------------------------------------------
+        
+        -->
+        sizeCreaturesCombat()
+        --> int size creatures array
+       ---------------------------------------------------------------- */
+    public int sizeCreaturesCombat(){
+        
+        int numCreatures = 0;
+        
+        for (final MagicCombatCreature[] creatures : this) {
+            numCreatures = creatures.length;
+        }
+        
+        return numCreatures;
     }
 }

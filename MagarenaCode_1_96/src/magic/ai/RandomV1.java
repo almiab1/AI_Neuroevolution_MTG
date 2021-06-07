@@ -61,9 +61,14 @@ public class RandomV1 extends MagicAI {
             " index=" + scorePlayer.getIndex() +
             " life=" + scorePlayer.getLife() +
             " phase=" + sourceGame.getPhase().getType() +
+            " step=" + sourceGame.getStep() +
             " slice=" + (0/1000000) +
-            " time=" + timeTaken
-        );
+            " time=" + timeTaken + 
+            " Energy = " + scorePlayer.getEnergy() +
+            " Hand size = " + scorePlayer.getHandSize() +
+            " Hand = " + scorePlayer.getHand() +
+            " Mana activations = " + scorePlayer.getManaActivations(choiceGame)
+                );
         
         return sourceGame.map(choiceResultsList.get(randomIndex));
     }
