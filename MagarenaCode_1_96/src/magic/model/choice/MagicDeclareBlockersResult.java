@@ -87,6 +87,14 @@ public class MagicDeclareBlockersResult extends LinkedList<MagicCombatCreature[]
         return MurmurHash3.hash(keys);
     }
     
+    /* ----------------------------------------------------------------
+        Get Array size method - Design
+        ----------------------------------------------------------------
+        
+        -->
+        sizeCreaturesCombat()
+        --> int size creatures array
+       ---------------------------------------------------------------- */
     public int sizeCreaturesCombat(){
         
         int numCreatures = 0;
