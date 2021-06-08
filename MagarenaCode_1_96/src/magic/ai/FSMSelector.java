@@ -410,12 +410,18 @@ public class FSMSelector {
                 
         // Get card of the choices list
         for(Object[] choice:choices){
+
             MagicDeclareBlockersResult selectedChoice = (MagicDeclareBlockersResult) choice[0];
             
             if(selectedChoice.getPosition() == 0){
                 noDefChoice = choice;
             }
         }
+
+        if(noDefChoice == null){
+            noDefChoice = getWeakestBlockChoice(choices);
+        }
+
         return noDefChoice;
     }
     
@@ -581,7 +587,7 @@ public class FSMSelector {
         String optionSelected = null;
         Object[] choiceSelected = null;
         
-        System.out.println("[FSM - "+phase+"]");
+        // System.out.println("[FSM - "+phase+"]");
         
         switch(phase){
             // First Main phase
@@ -596,7 +602,7 @@ public class FSMSelector {
                 }
                 
                 if(choiceSelected != null) {
-                    System.out.println("[FSM - "+phase+"] Option selected: " + optionSelected + ", Choice selected: " + choiceSelected[0].toString());
+                    // System.out.println("[FSM - "+phase+"] Option selected: " + optionSelected + ", Choice selected: " + choiceSelected[0].toString());
                 }                
                 break;
             
@@ -613,15 +619,15 @@ public class FSMSelector {
                 
                 
                 if(choiceSelected != null) {
-                    System.out.println("[FSM - "+phase+"] Option selected: " + optionSelected + ", Choice selected: " + choiceSelected[0].toString());
+                    // System.out.println("[FSM - "+phase+"] Option selected: " + optionSelected + ", Choice selected: " + choiceSelected[0].toString());
                 }
                 break;
                 
-                // Declare Blockers phase
-                case DeclareBlockers:
+            // Declare Blockers phase
+            case DeclareBlockers:
+
                 if(choices.get(0)[0] instanceof MagicPlayChoiceResult){
                     optionSelected = "Activo";
-                    System.out.println("Dentro del condicional de abilidad - " + optionSelected);
                 } else {
                     optionSelected = this.fsmData.getDefendChoice(diferenceLifes);
                 }
@@ -629,15 +635,15 @@ public class FSMSelector {
                 choiceSelected = evaluateDefendAction(optionSelected, choices);
                 
                 if(choiceSelected != null) {
-                    System.out.println("[FSM - "+phase+"] Option selected: " + optionSelected + ", Choice selected: " + choiceSelected[0].toString());
+                    // System.out.println("[FSM - "+phase+"] Option selected: " + optionSelected + ", Choice selected: " + choiceSelected[0].toString());
                 }
                 break;
                 
             // Atack phase
             case DeclareAttackers:
+
                 if(choices.get(0)[0] instanceof MagicPlayChoiceResult){
                     optionSelected = "Activo";
-                    System.out.println("Dentro del condicional de abilidad  - " + optionSelected);
                 } else {
                     optionSelected = this.fsmData.getAtackChoice(diferenceLifes);
                 }
@@ -645,7 +651,7 @@ public class FSMSelector {
                 choiceSelected = evaluateAtackAction(optionSelected, choices);
                 
                 if(choiceSelected != null) {
-                    System.out.println("[FSM - "+phase+"] Option selected: " + optionSelected + ", Choice selected: " + choiceSelected[0].toString());
+                    // System.out.println("[FSM - "+phase+"] Option selected: " + optionSelected + ", Choice selected: " + choiceSelected[0].toString());
                 }
                 break;
 
@@ -654,11 +660,11 @@ public class FSMSelector {
                 int randomIndex = (int)(Math.random() * ((choices.size())));
                 choiceSelected  = choices.get(randomIndex);
                 
-                System.out.println("[RANDOM - "+phase+"] Option selected: " + optionSelected + ", Choice selected: " + choiceSelected[0].toString());
+                // System.out.println("[RANDOM - "+phase+"] Option selected: " + optionSelected + ", Choice selected: " + choiceSelected[0].toString());
                 break;
         }
 
-        System.out.println("");
+        // System.out.println("");
 
         return choiceSelected;
     }
