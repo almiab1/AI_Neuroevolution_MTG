@@ -13,7 +13,6 @@ public class FSMData {
     // Contructor
     FSMData(){
         String resourceName = this.pathJSON;
-        // InputStream is = FSMData.class.getResourceAsStream(resourceName);
         InputStream is = FSMData.class.getResourceAsStream(resourceName);
         if (is == null) {
             throw new NullPointerException("Cannot find resource file " + resourceName);
@@ -117,12 +116,12 @@ public class FSMData {
         String selection = null;
         
         // selector
-        if(diferenceLifes == 0){
-            optLands = landsObj.getJSONObject("1");
-        } else if(diferenceLifes > 0){
-            optLands = landsObj.getJSONObject("2");
-        } else if(diferenceLifes < 0){
-            optLands = landsObj.getJSONObject("3");
+        if(diferenceLifes > landsObj.getJSONObject("1").getInt("Lifes")){
+            optLands = landsObj.getJSONObject("1").getJSONObject("Opts");
+        } else if(diferenceLifes == landsObj.getJSONObject("2").getInt("Lifes")){
+            optLands = landsObj.getJSONObject("2").getJSONObject("Opts");
+        } else if(diferenceLifes < landsObj.getJSONObject("3").getInt("Lifes")){
+            optLands = landsObj.getJSONObject("3").getJSONObject("Opts");
         }
 
         selection = weightBasedSelector(optLands);
@@ -137,17 +136,17 @@ public class FSMData {
         String selection = null;
 
         // selector
-        if(diferenceLifes == 0){
-            optCreatures = creaturesObj.getJSONObject("1");
+        if(diferenceLifes > creaturesObj.getJSONObject("1").getInt("Lifes")){
+            optCreatures = creaturesObj.getJSONObject("1").getJSONObject("Opts");
 
-        } else if(0 < diferenceLifes && diferenceLifes < 3){            
-            optCreatures = creaturesObj.getJSONObject("3");
+        } else if(diferenceLifes > creaturesObj.getJSONObject("2").getInt("Lifes")){            
+            optCreatures = creaturesObj.getJSONObject("2").getJSONObject("Opts");
 
-        } else if(diferenceLifes > 3){
-            optCreatures = creaturesObj.getJSONObject("4");
+        } else if(diferenceLifes == creaturesObj.getJSONObject("3").getInt("Lifes")){
+            optCreatures = creaturesObj.getJSONObject("3").getJSONObject("Opts");
 
-        } else if(diferenceLifes < 0){
-            optCreatures = creaturesObj.getJSONObject("2");
+        } else if(diferenceLifes < creaturesObj.getJSONObject("4").getInt("Lifes")){
+            optCreatures = creaturesObj.getJSONObject("4").getJSONObject("Opts");
         }
         
         if(optCreatures != null){
@@ -164,14 +163,14 @@ public class FSMData {
         String selection = null;
 
         // selector
-        if(diferenceLifes == 0){
-            optCreatures = creaturesObj.getJSONObject("1");
-        } else if(0 < diferenceLifes && diferenceLifes < 3){
-            optCreatures = creaturesObj.getJSONObject("2");
-        } else if(diferenceLifes > 3){
-            optCreatures = creaturesObj.getJSONObject("4");
-        } else if(diferenceLifes < 0){
-            optCreatures = creaturesObj.getJSONObject("3");
+        if(diferenceLifes > creaturesObj.getJSONObject("1").getInt("Lifes")){
+            optCreatures = creaturesObj.getJSONObject("1").getJSONObject("Opts");
+        } else if(diferenceLifes > creaturesObj.getJSONObject("2").getInt("Lifes")){
+            optCreatures = creaturesObj.getJSONObject("2").getJSONObject("Opts");
+        } else if(diferenceLifes == creaturesObj.getJSONObject("3").getInt("Lifes")){
+            optCreatures = creaturesObj.getJSONObject("3").getJSONObject("Opts");
+        } else if(diferenceLifes < creaturesObj.getJSONObject("4").getInt("Lifes")){
+            optCreatures = creaturesObj.getJSONObject("4").getJSONObject("Opts");
         }
         selection = weightBasedSelector(optCreatures);
 
@@ -185,14 +184,14 @@ public class FSMData {
         JSONObject optDeff = null;
 
         // selector
-        if(diferenceLifes == 0){
-            optDeff = deffObj.getJSONObject("1");
-        } else if(0 < diferenceLifes && diferenceLifes < 3){
-            optDeff = deffObj.getJSONObject("3");
-        } else if(diferenceLifes > 3){
-            optDeff = deffObj.getJSONObject("4");
-        } else if(diferenceLifes < 0){
-            optDeff = deffObj.getJSONObject("2");
+        if(diferenceLifes > deffObj.getJSONObject("1").getInt("Lifes")){
+            optDeff = deffObj.getJSONObject("1").getJSONObject("Opts");
+        } else if(diferenceLifes == deffObj.getJSONObject("2").getInt("Lifes")){
+            optDeff = deffObj.getJSONObject("2").getJSONObject("Opts");
+        } else if(diferenceLifes <= deffObj.getJSONObject("3").getInt("Lifes")){
+            optDeff = deffObj.getJSONObject("3").getJSONObject("Opts");
+        } else if(diferenceLifes < deffObj.getJSONObject("4").getInt("Lifes")){
+            optDeff = deffObj.getJSONObject("4").getJSONObject("Opts");
         }
 
         selection = weightBasedSelector(optDeff);

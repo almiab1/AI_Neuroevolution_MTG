@@ -2,6 +2,7 @@ package magic.ai;
 
 import java.util.*;
 import magic.model.MagicCard;
+import magic.model.MagicGame;
 import magic.model.MagicPlayer;
 import magic.model.choice.MagicDeclareAttackersResult;
 import magic.model.choice.MagicDeclareBlockersResult;
@@ -32,7 +33,7 @@ public class FSMSelector {
         --> (List of MagicCards) listX
     ------------------------------------------------------------------- */
 
-    public void setLandsOfMyHand(final MagicPlayer scorePlayer){
+    public void setLandsPlayer(final MagicPlayer scorePlayer){
         List<MagicCard> library = scorePlayer.getLibrary();
         List<MagicCard> hand = scorePlayer.getHand();
         
@@ -53,9 +54,10 @@ public class FSMSelector {
         this.landsHand = lands;
     }
     
-    public void setCreaturesOfMyHand(final MagicPlayer scorePlayer){
+    public void setCreaturesPlayer(final MagicPlayer scorePlayer){
         List<MagicCard> library = scorePlayer.getLibrary();
         List<MagicCard> hand = scorePlayer.getHand();
+        List<MagicCard> exile = scorePlayer.getExile();
         
         List<MagicCard> creatures = new ArrayList<MagicCard>();
         
@@ -66,6 +68,12 @@ public class FSMSelector {
         }
 
         for (MagicCard card:hand){
+            if(card.isCreature()){ 
+                creatures.add(card);
+            }
+        }
+
+        for (MagicCard card:exile){
             if(card.isCreature()){ 
                 creatures.add(card);
             }
@@ -170,8 +178,12 @@ public class FSMSelector {
             // Find the strongest creature
             for(Object[] choice:choices){
                 if(!"pass".equals(choice[0].toString()) && choice[0] != null){
-                    
+                    // System.out.println("Antes de coger la carte de choice --> "+choice[0].toString());
+
                     MagicCard cardSelected = getMagicCard(choice[0].toString(), this.creaturesHand);
+
+                    // System.out.println("Card selected --> " + cardSelected.getName() + " - Strongest --> " + strongestCreature.getName());
+                    // System.out.println("Card selected p --> " + cardSelected.getCardDefinition().getCardPower() + " - Strongest p --> " + strongestCreature.getCardDefinition().getCardPower());
                     
                     if(strongestCreature.getCardDefinition().getCardPower() < cardSelected.getCardDefinition().getCardPower()){ 
                         strongestCreature = cardSelected;
@@ -206,12 +218,16 @@ public class FSMSelector {
         
             // Find the strongest creature
             for(Object[] choice:choices){
-
-
                 if(!"pass".equals(choice[0].toString()) && choice[0] != null){
+                    
+                    // System.out.println("Antes de coger la carte de choice --> "+choice[0].toString());
                     
                     MagicCard cardSelected = getMagicCard(choice[0].toString(), this.creaturesHand);
                     
+                    // System.out.println("Card selected --> " + cardSelected.getName() + " - Strongest --> " + weakestCreature.getName());
+                    // System.out.println("Card selected p --> " + cardSelected.getCardDefinition().getCardPower() + " - Strongest p --> " + weakestCreature.getCardDefinition().getCardPower());
+                    
+
                     if(weakestCreature.getCardDefinition().getCardPower() < cardSelected.getCardDefinition().getCardPower()){ 
                         weakestCreature = cardSelected;
                         weakestCreatureChoice = choice;
@@ -394,12 +410,18 @@ public class FSMSelector {
                 
         // Get card of the choices list
         for(Object[] choice:choices){
+
             MagicDeclareBlockersResult selectedChoice = (MagicDeclareBlockersResult) choice[0];
             
             if(selectedChoice.getPosition() == 0){
                 noDefChoice = choice;
             }
         }
+
+        if(noDefChoice == null){
+            noDefChoice = getWeakestBlockChoice(choices);
+        }
+
         return noDefChoice;
     }
     
@@ -479,6 +501,8 @@ public class FSMSelector {
                 evaluatedActionSelected = getBigDefendChoice(choices);
                 break;
             default:
+                int randomIndex = (int)(Math.random() * ((choices.size())));
+                evaluatedActionSelected  = choices.get(randomIndex);
                 break;
         }
         
@@ -502,6 +526,8 @@ public class FSMSelector {
                 evaluatedActionSelected = getAtackWhithAll(choices);
                 break;
             default:
+                int randomIndex = (int)(Math.random() * ((choices.size())));
+                evaluatedActionSelected  = choices.get(randomIndex);
                 break;
         }
 
@@ -561,6 +587,7 @@ public class FSMSelector {
         String optionSelected = null;
         Object[] choiceSelected = null;
         
+        // System.out.println("[FSM - "+phase+"]");
         
         switch(phase){
             // First Main phase
@@ -575,7 +602,7 @@ public class FSMSelector {
                 }
                 
                 if(choiceSelected != null) {
-                    System.out.println("[FSM - "+phase+"] Option selected: " + optionSelected + ", Choice selected: " + choiceSelected[0].toString());
+                    // System.out.println("[FSM - "+phase+"] Option selected: " + optionSelected + ", Choice selected: " + choiceSelected[0].toString());
                 }                
                 break;
             
@@ -589,30 +616,42 @@ public class FSMSelector {
                     optionSelected = this.fsmData.getLowerCreaturesChoice(diferenceLifes);
                     choiceSelected = evaluateLowerCreaturesAction(optionSelected, choices);
                 }
-            
+                
+                
                 if(choiceSelected != null) {
-                    System.out.println("[FSM - "+phase+"] Option selected: " + optionSelected + ", Choice selected: " + choiceSelected[0].toString());
+                    // System.out.println("[FSM - "+phase+"] Option selected: " + optionSelected + ", Choice selected: " + choiceSelected[0].toString());
                 }
                 break;
-            
+                
             // Declare Blockers phase
             case DeclareBlockers:
-                optionSelected = this.fsmData.getDefendChoice(diferenceLifes);
+
+                if(choices.get(0)[0] instanceof MagicPlayChoiceResult){
+                    optionSelected = "Activo";
+                } else {
+                    optionSelected = this.fsmData.getDefendChoice(diferenceLifes);
+                }
+
                 choiceSelected = evaluateDefendAction(optionSelected, choices);
                 
                 if(choiceSelected != null) {
-                    System.out.println("[FSM - "+phase+"] Option selected: " + optionSelected + ", Choice selected: " + choiceSelected[0].toString());
+                    // System.out.println("[FSM - "+phase+"] Option selected: " + optionSelected + ", Choice selected: " + choiceSelected[0].toString());
                 }
                 break;
-            
+                
             // Atack phase
             case DeclareAttackers:
-                optionSelected = this.fsmData.getAtackChoice(diferenceLifes);
-                System.out.println("Option selected --> " + optionSelected);
+
+                if(choices.get(0)[0] instanceof MagicPlayChoiceResult){
+                    optionSelected = "Activo";
+                } else {
+                    optionSelected = this.fsmData.getAtackChoice(diferenceLifes);
+                }
+
                 choiceSelected = evaluateAtackAction(optionSelected, choices);
                 
                 if(choiceSelected != null) {
-                    System.out.println("[FSM - "+phase+"] Option selected: " + optionSelected + ", Choice selected: " + choiceSelected[0].toString());
+                    // System.out.println("[FSM - "+phase+"] Option selected: " + optionSelected + ", Choice selected: " + choiceSelected[0].toString());
                 }
                 break;
 
@@ -621,11 +660,11 @@ public class FSMSelector {
                 int randomIndex = (int)(Math.random() * ((choices.size())));
                 choiceSelected  = choices.get(randomIndex);
                 
-                System.out.println("[RANDOM - "+phase+"] Option selected: " + optionSelected + ", Choice selected: " + choiceSelected[0].toString());
+                // System.out.println("[RANDOM - "+phase+"] Option selected: " + optionSelected + ", Choice selected: " + choiceSelected[0].toString());
                 break;
         }
 
-        System.out.println("");
+        // System.out.println("");
 
         return choiceSelected;
     }
