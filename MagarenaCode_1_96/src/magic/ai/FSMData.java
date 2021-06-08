@@ -13,7 +13,6 @@ public class FSMData {
     // Contructor
     FSMData(){
         String resourceName = this.pathJSON;
-        // InputStream is = FSMData.class.getResourceAsStream(resourceName);
         InputStream is = FSMData.class.getResourceAsStream(resourceName);
         if (is == null) {
             throw new NullPointerException("Cannot find resource file " + resourceName);

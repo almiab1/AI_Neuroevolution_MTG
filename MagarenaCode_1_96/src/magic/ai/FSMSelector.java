@@ -2,6 +2,7 @@ package magic.ai;
 
 import java.util.*;
 import magic.model.MagicCard;
+import magic.model.MagicGame;
 import magic.model.MagicPlayer;
 import magic.model.choice.MagicDeclareAttackersResult;
 import magic.model.choice.MagicDeclareBlockersResult;
@@ -494,6 +495,8 @@ public class FSMSelector {
                 evaluatedActionSelected = getBigDefendChoice(choices);
                 break;
             default:
+                int randomIndex = (int)(Math.random() * ((choices.size())));
+                evaluatedActionSelected  = choices.get(randomIndex);
                 break;
         }
         
@@ -517,6 +520,8 @@ public class FSMSelector {
                 evaluatedActionSelected = getAtackWhithAll(choices);
                 break;
             default:
+                int randomIndex = (int)(Math.random() * ((choices.size())));
+                evaluatedActionSelected  = choices.get(randomIndex);
                 break;
         }
 
@@ -576,6 +581,7 @@ public class FSMSelector {
         String optionSelected = null;
         Object[] choiceSelected = null;
         
+        System.out.println("[FSM - "+phase+"]");
         
         switch(phase){
             // First Main phase
@@ -604,26 +610,38 @@ public class FSMSelector {
                     optionSelected = this.fsmData.getLowerCreaturesChoice(diferenceLifes);
                     choiceSelected = evaluateLowerCreaturesAction(optionSelected, choices);
                 }
-            
+                
+                
                 if(choiceSelected != null) {
                     System.out.println("[FSM - "+phase+"] Option selected: " + optionSelected + ", Choice selected: " + choiceSelected[0].toString());
                 }
                 break;
-            
-            // Declare Blockers phase
-            case DeclareBlockers:
-                optionSelected = this.fsmData.getDefendChoice(diferenceLifes);
+                
+                // Declare Blockers phase
+                case DeclareBlockers:
+                if(choices.get(0)[0] instanceof MagicPlayChoiceResult){
+                    optionSelected = "Activo";
+                    System.out.println("Dentro del condicional de abilidad - " + optionSelected);
+                } else {
+                    optionSelected = this.fsmData.getDefendChoice(diferenceLifes);
+                }
+
                 choiceSelected = evaluateDefendAction(optionSelected, choices);
                 
                 if(choiceSelected != null) {
                     System.out.println("[FSM - "+phase+"] Option selected: " + optionSelected + ", Choice selected: " + choiceSelected[0].toString());
                 }
                 break;
-            
+                
             // Atack phase
             case DeclareAttackers:
-                optionSelected = this.fsmData.getAtackChoice(diferenceLifes);
-                System.out.println("Option selected --> " + optionSelected);
+                if(choices.get(0)[0] instanceof MagicPlayChoiceResult){
+                    optionSelected = "Activo";
+                    System.out.println("Dentro del condicional de abilidad  - " + optionSelected);
+                } else {
+                    optionSelected = this.fsmData.getAtackChoice(diferenceLifes);
+                }
+
                 choiceSelected = evaluateAtackAction(optionSelected, choices);
                 
                 if(choiceSelected != null) {

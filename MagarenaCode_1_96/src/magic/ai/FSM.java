@@ -67,7 +67,7 @@ public class FSM extends MagicAI {
         }
         
         // Log choices
-        this.fsmSelector.logChoices(choiceResultsList);
+        // this.fsmSelector.logChoices(choiceResultsList);
         
         // ----------------------------------------------------------
         // More than one choice
@@ -82,7 +82,7 @@ public class FSM extends MagicAI {
         choiceSelected = choiceSelectedFSM; // Set selected choice by FSM
         
         // Logging.
-        final long timeTaken = System.currentTimeMillis() - startTime;
+        // final long timeTaken = System.currentTimeMillis() - startTime;
         /*
         log("--------------------------FSM--------------------------" + '\n'+
             " cheat=" + CHEAT +
@@ -94,19 +94,18 @@ public class FSM extends MagicAI {
             " time=" + timeTaken+
             " Choice selected = "+choiceSelected[0].toString()+'\n'+
             "-------------------------------------------------------");
-        
-        System.out.println("--------------------------FSM--------------------------" + '\n'+
+            
+            System.out.println("--------------------------FSM--------------------------" + '\n'+
             " cheat=" + CHEAT +
             " index=" + scorePlayer.getIndex() +
             " life=" + scorePlayer.getLife() +
-            " phase=" + sourceGame.getPhase().getType() +
-            " step=" + sourceGame.getStep() +
+            " phase=" + phase +
             " slice=" + (0/1000000) +
             " time=" + timeTaken+
             " Diference Lifes = " +diferenceLifes+
             " Choice selected = "+choiceSelected[0].toString()+'\n'+
             "-------------------------------------------------------"+ '\n');
-*/
+        */
         return sourceGame.map(choiceSelected);
     }
 }
