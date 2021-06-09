@@ -122,16 +122,16 @@ public class HeadlessAIGame {
             final long start_time = System.currentTimeMillis();
             controller.runGame();
             final double duration = (double)(System.currentTimeMillis() - start_time) / 1000;
-            // final int diferenceLifes = (int) duel.getPlayer(1).getLife() - duel.getPlayer(0).getLife(); // calculate diference lifes
+            final int diferenceLifes = game.getDiferenceLifes(); // calculate diference lifes
 
             played++;
 
-            System.out.printf("%d        %s   %d   %d    %.2f\n",
+            System.out.printf("%d     %s   %d   %d        %d          %.2f\n",
                 played,
                 game.getWinner().getConfig().getDeck().equals(d1) ? "D1" : "D2",
                 duel.getGamesWon(),
                 duel.getGamesPlayed() - duel.getGamesWon(),
-                // diferenceLifes,
+                diferenceLifes,
                 duration
             );
         }

@@ -14,7 +14,7 @@ clear
 # ---------------------------------------------------------------------------
 # Test Configurations
 # ---------------------------------------------------------------------------
-games=10
+games=1000
 duels=3
 threads=4
 lifes=20
@@ -36,7 +36,7 @@ lifes=20
 testAI(){
     java -splash: -Xms512M -Xmx1024M -jar Magarena.jar --headless  \
         --ai1 FSM --str1 5 --deck1 Red-FSM \
-        --ai2 FSM --str2 5 --deck2 Red-FSM \
+        --ai2 RANDOMV1 --str2 5 --deck2 Red-FSM \
         --life $lifes --games $games --duels $duels --threads $threads
 }
 # ---------------------------------------------------------------------------
