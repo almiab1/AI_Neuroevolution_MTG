@@ -167,13 +167,15 @@ public class FSMSelector {
         // Selection the strogest creature of the choices list
         if(choices.size() == 2){
             for(Object[] choice:choices){
-                if(!"pass".equals(choice[0].toString()) && choice[0] != null){
-                    strongestCreatureChoice = choice;;
-                }
+                if(!"pass".equals(choice[0].toString()) && choice[0] != null) strongestCreatureChoice = choice;
             }
         } else{
-            strongestCreature = getMagicCard(choices.get(1)[0].toString(), this.creaturesHand);
-            strongestCreatureChoice = choices.get(1);
+
+            int choiceNumber = 0;
+            if("pass".equals(choices.get(0)[0].toString()) && choices.get(0)[0] != null) choiceNumber = 1;
+
+            strongestCreature = getMagicCard(choices.get(choiceNumber)[0].toString(), this.creaturesHand);
+            strongestCreatureChoice = choices.get(choiceNumber);
 
             // Find the strongest creature
             for(Object[] choice:choices){
@@ -208,13 +210,15 @@ public class FSMSelector {
         // Selection the strogest creature of the choices list
         if(choices.size() == 2){ 
             for(Object[] choice:choices){
-                if(!"pass".equals(choice[0].toString()) && choice[0] != null){
-                    weakestCreatureChoice = choice;
-                }
+                if(!"pass".equals(choice[0].toString()) && choice[0] != null)weakestCreatureChoice = choice;
             }
         } else{
-            weakestCreature = getMagicCard(choices.get(1)[0].toString(), this.creaturesHand);
-            weakestCreatureChoice = choices.get(1);
+
+            int choiceNumber = 0;
+            if("pass".equals(choices.get(0)[0].toString()) && choices.get(0)[0] != null) choiceNumber = 1;
+
+            weakestCreature = getMagicCard(choices.get(choiceNumber)[0].toString(), this.creaturesHand);
+            weakestCreatureChoice = choices.get(choiceNumber);
         
             // Find the strongest creature
             for(Object[] choice:choices){

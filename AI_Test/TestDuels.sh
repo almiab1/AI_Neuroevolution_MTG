@@ -14,8 +14,8 @@ clear
 # ---------------------------------------------------------------------------
 # Test Configurations
 # ---------------------------------------------------------------------------
-games=100
-duels=20
+games=10
+duels=3
 threads=4
 lifes=20
 # ---------------------------------------------------------------------------
@@ -30,11 +30,13 @@ lifes=20
 # MTDF       -->     MTDF | MTDFC
 # Random AI  --> RANDOMV1 | RANDOMV1C
 # FSM        -->      FSM | FSMC
+# Decks
+# To FSM --> Red-FSM
 # ---------------------------------------------------------------------------
 testAI(){
     java -splash: -Xms512M -Xmx1024M -jar Magarena.jar --headless  \
-        --ai1 FSM --str1 8 --deck1 Red-FSM \
-        --ai2 FSM --str2 8 --deck2 Red-FSM \
+        --ai1 FSM --str1 5 --deck1 Red-FSM \
+        --ai2 FSM --str2 5 --deck2 Red-FSM \
         --life $lifes --games $games --duels $duels --threads $threads
 }
 # ---------------------------------------------------------------------------
