@@ -4,15 +4,15 @@ import java.io.InputStream;
 import java.util.*;
 import org.json.*;
 
-public class FSMData {
+public class FSMWriter {
     
     private JSONObject json;
-    private String pathJSON = "FSMData.json"; // path json
+    private String pathJSON = "FSMPlaysResults.json"; // path json
     
     // Contructor
-    FSMData(){
+    FSMWriter(){
         String resourceName = this.pathJSON;
-        InputStream is = FSMData.class.getResourceAsStream(resourceName);
+        InputStream is = FSMWriter.class.getResourceAsStream(resourceName);
         if (is == null) {
             throw new NullPointerException("Cannot find resource file " + resourceName);
         }

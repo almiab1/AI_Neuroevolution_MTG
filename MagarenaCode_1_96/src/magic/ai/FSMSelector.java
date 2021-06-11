@@ -2,7 +2,6 @@ package magic.ai;
 
 import java.util.*;
 import magic.model.MagicCard;
-import magic.model.MagicGame;
 import magic.model.MagicPlayer;
 import magic.model.choice.MagicDeclareAttackersResult;
 import magic.model.choice.MagicDeclareBlockersResult;
