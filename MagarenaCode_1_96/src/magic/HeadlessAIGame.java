@@ -1,6 +1,7 @@
 package magic;
 
 import java.util.Collections;
+import magic.ai.FSMWriter;
 import magic.ai.MagicAI;
 import magic.data.DuelConfig;
 import magic.data.GeneralConfig;
@@ -90,6 +91,8 @@ public class HeadlessAIGame {
     private static void runDuel(CommandLineArgs args, int duelNum) {
 
         final MagicDuel duel = setupDuel(args);
+        final FSMWriter writer = new FSMWriter();
+        writer.writeDuel();
 
         if (duelNum == 1) {
             AiProfile p1 = (AiProfile) duel.getPlayer(0).getProfile();
@@ -134,6 +137,11 @@ public class HeadlessAIGame {
                 diferenceLifes,
                 duration
             );
+            
+            if("FSM".equals(duel.getPlayer(0).getName())) writer.writeResultsMatches(diferenceLifes);
         }
+
+        // update json
+        writer.saveChangesInFile();
     }
 }

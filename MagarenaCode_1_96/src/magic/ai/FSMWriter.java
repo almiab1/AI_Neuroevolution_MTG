@@ -1,17 +1,27 @@
 package magic.ai;
 
+import java.io.FileNotFoundException;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.io.InputStream;
-import java.util.*;
+import java.io.PrintWriter;
+import java.nio.charset.Charset;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 import org.json.*;
 
 public class FSMWriter {
     
     private JSONObject json;
-    private String pathJSON = "FSMPlaysResults.json"; // path json
+    private String nameJSON = "FSMPlaysResults.json"; // path json
+    private String routeJSON = "../resources/magic/ai/"+this.nameJSON;
     
     // Contructor
-    FSMWriter(){
-        String resourceName = this.pathJSON;
+    public FSMWriter(){
+        String resourceName = this.nameJSON;
         InputStream is = FSMWriter.class.getResourceAsStream(resourceName);
         if (is == null) {
             throw new NullPointerException("Cannot find resource file " + resourceName);
@@ -22,6 +32,31 @@ public class FSMWriter {
         // System.out.println("JSON Obtained--> " + object.toString());
         
         this.json = object;
+    }
+
+    /* ----------------------------------------------------------------
+        Manage JSON
+       ---------------------------------------------------------------- */
+    private void updateJSON(){
+        String resourceName = this.nameJSON;
+        InputStream is = FSMWriter.class.getResourceAsStream(resourceName);
+        if (is == null) {
+            throw new NullPointerException("Cannot find resource file " + resourceName);
+        }
+
+        JSONTokener tokener = new JSONTokener(is);
+        JSONObject object = new JSONObject(tokener);
+        
+        this.json = object;
+    }
+
+    public void saveChangesInFile(){
+        try {
+            Files.write(Paths.get(this.routeJSON), this.json.toString().getBytes(Charset.defaultCharset()));
+            updateJSON();
+        } catch (IOException ex) {
+            Logger.getLogger(FSMWriter.class.getName()).log(Level.SEVERE, null, ex);
+        }
     }
     
     /* ----------------------------------------------------------------
@@ -34,7 +69,7 @@ public class FSMWriter {
     }
     // Getter JSON path
     public String getPathJSON() {
-        return this.pathJSON;
+        return this.nameJSON;
     }
 
     /* ----------------------------------------------------------------
@@ -47,154 +82,46 @@ public class FSMWriter {
     }
     // Setter JSONPath
     public void setPathJSON(String newPath) {
-      this.pathJSON = newPath;
+      this.nameJSON = newPath;
     }
 
     /* ----------------------------------------------------------------
-        Weight selection method - Design
-        ----------------------------------------------------------------
-        
-        json object -->
-        weightBasedSelector()
-        --> string "code action choice"
+        Write in JSON
        ---------------------------------------------------------------- */
-    private String weightBasedSelector(JSONObject jsonObj){
-
-        // init 
-        String actionChoice = null;
-
-        // Random selection
-        Random rand = new Random();
-        Double randomWeight = rand.nextDouble();
-        Double acum_weight = 0.0;
-        
-        // Selector
-        for (Object key : jsonObj.keySet()) {
-            
-            // get info obj
-            String keyStr = key.toString();
-            Double keyvalue = jsonObj.getDouble(keyStr);
-            
-            acum_weight += keyvalue; // sum weight
-            
-            if(randomWeight <= acum_weight){
-                actionChoice = keyStr;
-                return actionChoice;
-            }
-
-        }
-        
-        return actionChoice;
-    }
-
-    /* ----------------------------------------------------------------
-        Choice's Methods
-        ----------------------------------------------------------------
-
-        --- Get to JSON XXX choices - Design ---
-
-        (int) diferences lifes -->
-        getXXXChoice()
-        --> (string) action code
-
-        --- Exploration all json ---
-
+    private int getLastDuelKey(){
+        int last = 0;
         for (Object key : json.keySet()) {
             //based on key types
-            String keyStr = (String)key;
-            Object value = json.get(keyStr);
+            String keyStr = (String) key;
+
+            int intKey = Integer.valueOf(keyStr);
+            
+            if (intKey > last) last = intKey;            
         }
-       ----------------------------------------------------------------
-    */
-
-    public String getLandChoice(int diferenceLifes){
         
-        // init
-        JSONObject landsObj = json.getJSONObject("PhaseLowerLand"); // get lands state
-        JSONObject optLands = null;
-        String selection = null;
-        
-        // selector
-        if(diferenceLifes > landsObj.getJSONObject("1").getInt("Lifes")){
-            optLands = landsObj.getJSONObject("1").getJSONObject("Opts");
-        } else if(diferenceLifes == landsObj.getJSONObject("2").getInt("Lifes")){
-            optLands = landsObj.getJSONObject("2").getJSONObject("Opts");
-        } else if(diferenceLifes < landsObj.getJSONObject("3").getInt("Lifes")){
-            optLands = landsObj.getJSONObject("3").getJSONObject("Opts");
-        }
-
-        selection = weightBasedSelector(optLands);
-
-        return selection;
+        return last;
     }
 
-    public String getLowerCreaturesChoice(int diferenceLifes){
-        // init
-        JSONObject creaturesObj = json.getJSONObject("PhaseLowerCreatures"); // get lands state
-        JSONObject optCreatures = null;
-        String selection = null;
-
-        // selector
-        if(diferenceLifes > creaturesObj.getJSONObject("1").getInt("Lifes")){
-            optCreatures = creaturesObj.getJSONObject("1").getJSONObject("Opts");
-
-        } else if(diferenceLifes > creaturesObj.getJSONObject("2").getInt("Lifes")){            
-            optCreatures = creaturesObj.getJSONObject("2").getJSONObject("Opts");
-
-        } else if(diferenceLifes == creaturesObj.getJSONObject("3").getInt("Lifes")){
-            optCreatures = creaturesObj.getJSONObject("3").getJSONObject("Opts");
-
-        } else if(diferenceLifes < creaturesObj.getJSONObject("4").getInt("Lifes")){
-            optCreatures = creaturesObj.getJSONObject("4").getJSONObject("Opts");
-        }
+    public void writeDuel(){
+        int lastDuelKeyInt = getLastDuelKey() + 1;
+        String lastDuelKey = String.valueOf(lastDuelKeyInt);
+        JSONArray emptyArray = new JSONArray();
         
-        if(optCreatures != null){
-            selection = weightBasedSelector(optCreatures);
-        }
-
-        return selection;
+        this.json.put(lastDuelKey,emptyArray);
     }
     
-    public String getAtackChoice(int diferenceLifes){
-        // init
-        JSONObject creaturesObj = json.getJSONObject("PhaseAtack"); // get lands state
-        JSONObject optCreatures = null;
-        String selection = null;
+    
+    public void writeResultsMatches(int diferenceLifes){
+    
+        String duelKey = String.valueOf(getLastDuelKey());
+        
+        boolean isWin = false;
+        if(diferenceLifes >= 0) isWin = true;
+        
+        JSONObject matchJson = new JSONObject();
+        matchJson.put("Win", isWin);
+        matchJson.put("DiferenceLifes", diferenceLifes);
 
-        // selector
-        if(diferenceLifes > creaturesObj.getJSONObject("1").getInt("Lifes")){
-            optCreatures = creaturesObj.getJSONObject("1").getJSONObject("Opts");
-        } else if(diferenceLifes > creaturesObj.getJSONObject("2").getInt("Lifes")){
-            optCreatures = creaturesObj.getJSONObject("2").getJSONObject("Opts");
-        } else if(diferenceLifes == creaturesObj.getJSONObject("3").getInt("Lifes")){
-            optCreatures = creaturesObj.getJSONObject("3").getJSONObject("Opts");
-        } else if(diferenceLifes < creaturesObj.getJSONObject("4").getInt("Lifes")){
-            optCreatures = creaturesObj.getJSONObject("4").getJSONObject("Opts");
-        }
-        selection = weightBasedSelector(optCreatures);
-
-        return selection;
-    }
-
-    public String getDefendChoice(int diferenceLifes){
-        // init
-        JSONObject deffObj = json.getJSONObject("PhaseDefend"); // get lands state
-        String selection = null;
-        JSONObject optDeff = null;
-
-        // selector
-        if(diferenceLifes > deffObj.getJSONObject("1").getInt("Lifes")){
-            optDeff = deffObj.getJSONObject("1").getJSONObject("Opts");
-        } else if(diferenceLifes == deffObj.getJSONObject("2").getInt("Lifes")){
-            optDeff = deffObj.getJSONObject("2").getJSONObject("Opts");
-        } else if(diferenceLifes <= deffObj.getJSONObject("3").getInt("Lifes")){
-            optDeff = deffObj.getJSONObject("3").getJSONObject("Opts");
-        } else if(diferenceLifes < deffObj.getJSONObject("4").getInt("Lifes")){
-            optDeff = deffObj.getJSONObject("4").getJSONObject("Opts");
-        }
-
-        selection = weightBasedSelector(optDeff);
-
-        return selection;
+        this.json.getJSONArray(duelKey).put(matchJson);
     }
 }
