@@ -73,6 +73,8 @@ public class HeadlessAIGame {
 
         parseCommandLine(cmdline);
 
+        FSMWriter writer = new FSMWriter(); // create FSMWtriter object
+         
         MagicSystem.initialize(new ProgressReporter());
 
         System.out.println();
@@ -84,15 +86,18 @@ public class HeadlessAIGame {
 
         // run getGames() games getDuels() times.
         for (int i = 0; i < cmdline.getDuels(); i++) {
-            runDuel(cmdline, i+1);
+            runDuel(cmdline, i+1,writer);
         }
+
+        // update results in json file
+        writer.saveChangesInFile(); 
+        
     }
 
-    private static void runDuel(CommandLineArgs args, int duelNum) {
+    private static void runDuel(CommandLineArgs args, int duelNum, FSMWriter writer) {
 
         final MagicDuel duel = setupDuel(args);
-        final FSMWriter writer = new FSMWriter();
-        writer.writeDuel();
+        writer.writeDuel(); // write new duel in json
 
         if (duelNum == 1) {
             AiProfile p1 = (AiProfile) duel.getPlayer(0).getProfile();
@@ -138,10 +143,8 @@ public class HeadlessAIGame {
                 duration
             );
             
+            // Write result of the match
             if("FSM".equals(duel.getPlayer(0).getName())) writer.writeResultsMatches(diferenceLifes);
         }
-
-        // update json
-        writer.saveChangesInFile();
     }
 }

@@ -1,13 +1,9 @@
 package magic.ai;
 
-import java.io.FileNotFoundException;
-import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStream;
-import java.io.PrintWriter;
 import java.nio.charset.Charset;
 import java.nio.file.Files;
-import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -29,7 +25,7 @@ public class FSMWriter {
 
         JSONTokener tokener = new JSONTokener(is);
         JSONObject object = new JSONObject(tokener);
-        // System.out.println("JSON Obtained--> " + object.toString());
+        System.out.println("JSON Obtained--> " + object.toString());
         
         this.json = object;
     }
@@ -37,7 +33,7 @@ public class FSMWriter {
     /* ----------------------------------------------------------------
         Manage JSON
        ---------------------------------------------------------------- */
-    private void updateJSON(){
+    public void updateJSON(){
         String resourceName = this.nameJSON;
         InputStream is = FSMWriter.class.getResourceAsStream(resourceName);
         if (is == null) {
@@ -46,14 +42,14 @@ public class FSMWriter {
 
         JSONTokener tokener = new JSONTokener(is);
         JSONObject object = new JSONObject(tokener);
-        
+        // System.out.println("JSON state update --------------" + '\n' + "JSON state --> " +  this.json.toString());
         this.json = object;
+        // System.out.println("JSON state updated +++++++++++++" + '\n' + "JSON state --> " +  this.json.toString());
     }
 
     public void saveChangesInFile(){
         try {
             Files.write(Paths.get(this.routeJSON), this.json.toString().getBytes(Charset.defaultCharset()));
-            updateJSON();
         } catch (IOException ex) {
             Logger.getLogger(FSMWriter.class.getName()).log(Level.SEVERE, null, ex);
         }
@@ -95,7 +91,6 @@ public class FSMWriter {
             String keyStr = (String) key;
 
             int intKey = Integer.valueOf(keyStr);
-            
             if (intKey > last) last = intKey;            
         }
         
@@ -103,25 +98,26 @@ public class FSMWriter {
     }
 
     public void writeDuel(){
-        int lastDuelKeyInt = getLastDuelKey() + 1;
-        String lastDuelKey = String.valueOf(lastDuelKeyInt);
-        JSONArray emptyArray = new JSONArray();
+        int lastDuelKeyInt = getLastDuelKey() + 1; // get the new duel key
+        String lastDuelKey = String.valueOf(lastDuelKeyInt); // convert to String
+        JSONArray emptyArray = new JSONArray(); // init matches json array
         
-        this.json.put(lastDuelKey,emptyArray);
+        this.json.put(lastDuelKey,emptyArray); // add duel to general json
     }
     
     
     public void writeResultsMatches(int diferenceLifes){
     
-        String duelKey = String.valueOf(getLastDuelKey());
+        String duelKey = String.valueOf(getLastDuelKey()); // get our duel
         
+        // Determine if AI won
         boolean isWin = false;
         if(diferenceLifes >= 0) isWin = true;
         
-        JSONObject matchJson = new JSONObject();
-        matchJson.put("Win", isWin);
+        JSONObject matchJson = new JSONObject(); // create json match
+        matchJson.put("Win", isWin); // introduce data to json
         matchJson.put("DiferenceLifes", diferenceLifes);
 
-        this.json.getJSONArray(duelKey).put(matchJson);
+        this.json.getJSONArray(duelKey).put(matchJson); // add match to duel json array
     }
 }
