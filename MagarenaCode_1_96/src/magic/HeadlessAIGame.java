@@ -1,6 +1,7 @@
 package magic;
 
 import java.util.Collections;
+import magic.ai.FSMWriter;
 import magic.ai.MagicAI;
 import magic.data.DuelConfig;
 import magic.data.GeneralConfig;
@@ -72,6 +73,8 @@ public class HeadlessAIGame {
 
         parseCommandLine(cmdline);
 
+        FSMWriter writer = new FSMWriter(); // create FSMWtriter object
+         
         MagicSystem.initialize(new ProgressReporter());
 
         System.out.println();
@@ -83,13 +86,18 @@ public class HeadlessAIGame {
 
         // run getGames() games getDuels() times.
         for (int i = 0; i < cmdline.getDuels(); i++) {
-            runDuel(cmdline, i+1);
+            runDuel(cmdline, i+1,writer);
         }
+
+        // update results in json file
+        writer.saveChangesInFile(); 
+        
     }
 
-    private static void runDuel(CommandLineArgs args, int duelNum) {
+    private static void runDuel(CommandLineArgs args, int duelNum, FSMWriter writer) {
 
         final MagicDuel duel = setupDuel(args);
+        writer.writeDuel(); // write new duel in json
 
         if (duelNum == 1) {
             AiProfile p1 = (AiProfile) duel.getPlayer(0).getProfile();
@@ -106,7 +114,7 @@ public class HeadlessAIGame {
         System.out.println("D1 : " + d1.getQualifiedName());
         System.out.println("D2 : " + d2.getQualifiedName());
         System.out.println(H2);
-        System.out.println("Game  Won  D1  D2  Duration");
+        System.out.println("Game  Won  D1  D2  DiferenceLifes Duration");
 
         int played = 0;
         while (duel.getGamesPlayed() < duel.getGamesTotal()) {
@@ -122,16 +130,21 @@ public class HeadlessAIGame {
             final long start_time = System.currentTimeMillis();
             controller.runGame();
             final double duration = (double)(System.currentTimeMillis() - start_time) / 1000;
+            final int diferenceLifes = game.getDiferenceLifes(); // calculate diference lifes
 
             played++;
 
-            System.out.printf("%d     %s   %d   %d   %.2f\n",
+            System.out.printf("%d     %s   %d   %d        %d          %.2f\n",
                 played,
                 game.getWinner().getConfig().getDeck().equals(d1) ? "D1" : "D2",
                 duel.getGamesWon(),
                 duel.getGamesPlayed() - duel.getGamesWon(),
+                diferenceLifes,
                 duration
             );
+            
+            // Write result of the match
+            if("FSM".equals(duel.getPlayer(0).getName())) writer.writeResultsMatches(diferenceLifes);
         }
     }
 }

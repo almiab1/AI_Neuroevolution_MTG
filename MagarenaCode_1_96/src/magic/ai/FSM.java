@@ -76,7 +76,7 @@ public class FSM extends MagicAI {
         Object[] choiceSelected = null; // Init Selection choice
         // FSM 
         MagicPhaseType phase = sourceGame.getPhase().getType(); // get actual phase
-        int diferenceLifes =  sourceGame.getPlayer(1).getLife() - sourceGame.getPlayer(0).getLife(); // calculate diference lifes
+        int diferenceLifes =  sourceGame.getDiferenceLifes(); // calculate diference lifes
         Object[] choiceSelectedFSM = this.fsmSelector.selectChoiceFSM(diferenceLifes,phase,choiceResultsList); // select choice
         
         choiceSelected = choiceSelectedFSM; // Set selected choice by FSM
@@ -96,13 +96,8 @@ public class FSM extends MagicAI {
             "-------------------------------------------------------");
             
             System.out.println("--------------------------FSM--------------------------" + '\n'+
-            " cheat=" + CHEAT +
-            " index=" + scorePlayer.getIndex() +
             " life=" + scorePlayer.getLife() +
-            " phase=" + phase +
-            " slice=" + (0/1000000) +
-            " time=" + timeTaken+
-            " Diference Lifes = " +diferenceLifes+
+            " Diference Lifes  = " +diferenceLifes+
             " Choice selected = "+choiceSelected[0].toString()+'\n'+
             "-------------------------------------------------------"+ '\n');
         */

@@ -1413,4 +1413,13 @@ public class MagicGame {
     public long getStartTimeMilli() {
         return startTimeMilli;
     }
+
+    // Get diferences lifes
+    public int getDiferenceLifes(){
+        int diferenceLifes = 0;
+        
+        diferenceLifes = getPlayer(0).getLife() - getPlayer(1).getLife(); // calculate diference lifes
+
+        return diferenceLifes;
+    }
 }

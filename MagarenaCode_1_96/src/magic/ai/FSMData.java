@@ -7,8 +7,7 @@ import org.json.*;
 public class FSMData {
     
     private JSONObject json;
-    private String pathJSON = "/JSON/FSM_Data.json"; // compilation path
-    // private String pathJSON = "FSM_Data.json"; // test path
+    private String pathJSON = "FSMData.json"; // path json
     
     // Contructor
     FSMData(){
