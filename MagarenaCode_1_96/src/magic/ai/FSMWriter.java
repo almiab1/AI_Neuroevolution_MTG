@@ -25,7 +25,7 @@ public class FSMWriter {
 
         JSONTokener tokener = new JSONTokener(is);
         JSONObject object = new JSONObject(tokener);
-        System.out.println("JSON Obtained--> " + object.toString());
+        // System.out.println("JSON Obtained--> " + object.toString());
         
         this.json = object;
     }
@@ -42,9 +42,7 @@ public class FSMWriter {
 
         JSONTokener tokener = new JSONTokener(is);
         JSONObject object = new JSONObject(tokener);
-        // System.out.println("JSON state update --------------" + '\n' + "JSON state --> " +  this.json.toString());
         this.json = object;
-        // System.out.println("JSON state updated +++++++++++++" + '\n' + "JSON state --> " +  this.json.toString());
     }
 
     public void saveChangesInFile(){
