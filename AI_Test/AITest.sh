@@ -5,8 +5,9 @@
 # ---------------------------------------------------------------------------
 # Set up
 # ---------------------------------------------------------------------------
-magarena_dir='/mnt/d/0-Varios/Universidad/TFG/Framework/AI_TFG/MagarenaCode_1_96/release/'
-# magarena_dir='/media/pica/DATA/0-Varios/Universidad/TFG/Framework/AI_TFG/MagarenaCode_1_96/release'
+magarena_dir='/mnt/d/0-Varios/Universidad/TFG/Framework/AI_TFG/MagarenaCode_1_96/release/' # Path wls
+# magarena_dir='/media/pica/DATA/0-Varios/Universidad/TFG/Framework/AI_TFG/MagarenaCode_1_96/release' # Path win10
+# magarena_dir='/home/tfg/TFG/AI_TFG/MagarenaCode_1_96/release' # Path cluster
 cd $magarena_dir
 clear
 # ---------------------------------------------------------------------------
