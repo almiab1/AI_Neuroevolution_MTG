@@ -5,8 +5,9 @@
 # ---------------------------------------------------------------------------
 # Set up
 # ---------------------------------------------------------------------------
-magarena_dir='/mnt/d/0-Varios/Universidad/TFG/Framework/AI_TFG/MagarenaCode_1_96/release/'
-# magarena_dir='/media/pica/DATA/0-Varios/Universidad/TFG/Framework/AI_TFG/MagarenaCode_1_96/release'
+magarena_dir='/mnt/d/0-Varios/Universidad/TFG/Framework/AI_TFG/MagarenaCode_1_96/release/' # Path wls
+# magarena_dir='/media/pica/DATA/0-Varios/Universidad/TFG/Framework/AI_TFG/MagarenaCode_1_96/release' # Path win10
+# magarena_dir='/home/tfg/TFG/AI_TFG/MagarenaCode_1_96/release' # Path cluster
 cd $magarena_dir
 clear
 # ---------------------------------------------------------------------------
@@ -14,8 +15,11 @@ clear
 # ---------------------------------------------------------------------------
 # Test Configurations
 # ---------------------------------------------------------------------------
-games=3
-duels=3
+# Get AI names
+oponent=$1
+
+games=$3
+duels=$2
 threads=4
 lifes=20
 # ---------------------------------------------------------------------------
@@ -36,7 +40,7 @@ lifes=20
 testAI(){
     java -splash: -Xms512M -Xmx1024M -jar Magarena.jar --headless  \
         --ai1 FSM --str1 5 --deck1 Red-FSM \
-        --ai2 RANDOMV1 --str2 5 --deck2 Red-FSM \
+        --ai2 $oponent --str2 5 --deck2 Red-FSM \
         --life $lifes --games $games --duels $duels --threads $threads
 }
 # ---------------------------------------------------------------------------
