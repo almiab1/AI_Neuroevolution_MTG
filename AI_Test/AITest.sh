@@ -18,8 +18,8 @@ clear
 # Get AI names
 oponent=$1
 
-games=3
-duels=3
+games=$3
+duels=$2
 threads=4
 lifes=20
 # ---------------------------------------------------------------------------
