@@ -12,8 +12,10 @@
 # import numpy as np
 import subprocess
 import shlex
-import json
 import os
+
+# Import 
+from src.DataManager import DataManager
 
 # ===================================================================
 # Functions
@@ -25,27 +27,6 @@ def callShellFile(oponent,duels, matches):
     print("====================== Execute Test ======================")
     subprocess.run(shlex.split(f'./../AI_Test/AiTest.sh {oponent} {duels} {matches}'))
 
-# JSON Managment
-def readJSONFile(rutaJSONFile):
-    data = None
-
-    with open(rutaJSONFile, 'r') as file:
-        data = json.load(file)
-
-    return data
-
-def wtriteJSONFile(rutaJSONFile, jsonObject):
-    with open(rutaJSONFile, 'w') as file:
-        json.dump(jsonObject, file, indent=4)
-
-# ===================================================================
-# Evolution Operations
-# ===================================================================
-def crossoverOperation():
-    print("====================== Execute Crossover Operation ======================")
-
-def mutationOperation():
-    print("====================== Execute Mutation Operation ======================")
 
 # ===================================================================
 # Main
@@ -53,17 +34,21 @@ def mutationOperation():
 def main():
     # callShellFile()
 
+    # Set up variables
     # Get JSON file path
     script_dir = os.path.dirname(__file__)
-    file_path = os.path.join(script_dir,  './../MagarenaCode_1_96/resources/magic/ai/FSMPlaysResults.json')
+    path = './../MagarenaCode_1_96/resources/magic/ai/FSMPlaysResults.json'
+    file_path = os.path.join(script_dir,  path)
 
 
     #Calls
+    dataManager = DataManager(file_path)
     # try:
-    callShellFile("FSM", 1, 3) # Run Duels
+    # callShellFile("FSM", 1, 3) # Run Duels
     # finally:
-    jsonObject = readJSONFile(file_path) # Read results of the duels
-    print("JSON Object --> {}".format(jsonObject))
+    dataManager.readJSONFile(file_path) # Read results of the duels
+
+    print(dataManager)
 
 
 # ===================================================================
