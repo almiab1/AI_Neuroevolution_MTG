@@ -8,8 +8,8 @@
 # ===================================================================
 # Imports
 # ===================================================================
-# import numpy as np
-import json
+import numpy as np
+import random
 
 # ===================================================================
 # Functions
@@ -66,12 +66,13 @@ class Operators():
         # children are copies of parents by default
         child1, child2 = parent1.copy(), parent2.copy()
         # check for recombination
-        if rand() < cross_rate:
+        if np.random.rand() < cross_rate:
             # select crossover point that is not on the end of the string
-            pt = randint(1, len(parent1)-2)
+            crossIndex = random.randint(1, len(parent1)-1)
+
             # perform crossover
-            child1 = parent1[:pt] + parent2[pt:]
-            child2 = parent2[:pt] + parent1[pt:]
+            child1 = parent1[:crossIndex] + parent2[crossIndex:]
+            child2 = parent2[:crossIndex] + parent1[crossIndex:]
         return [child1, child2]
 
     def mutationOperation(self, parent, mut_rate):

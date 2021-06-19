@@ -25,7 +25,6 @@ from src.Operators import Operators
 # Run shell test
 
 def callShellFile(oponent,duels, matches):
-    print("====================== Execute SH Test ======================")
     subprocess.run(shlex.split(f'./../AI_Test/AiTest.sh {oponent} {duels} {matches}'))
 
 
@@ -33,7 +32,6 @@ def callShellFile(oponent,duels, matches):
 # Main
 # ===================================================================
 def main():
-    print("\n======================== Python Test ========================")
     # callShellFile()
 
     # Set up variables
@@ -45,14 +43,16 @@ def main():
 
     #Calls
     try:
-        callShellFile("RANDOMV1", 3, 3) # Run Duels
-        # print("\n")
+        # callShellFile("RANDOMV1", 3, 3) # Run Duels
+        print("\n")
     finally:
+        print("\n======================== Python Test ========================")
         dataManager = DataManager(file_path)
         operators = Operators(dataManager.getData())
 
         operators.fitnessFunctionTotal()
 
+        # c1,c2 = operators.crossoverOperation(json1,json2, 0.9)
 
 # ===================================================================
 # Call
