@@ -32,6 +32,22 @@ class DataManager():
     JSON Object : {}
     Path File : {}
     """.format(self.data, self.pathFile)
+
+    # =================================================================
+    # Getters and setters
+    # =================================================================
+    def getData(self):
+        return self.data
+    
+    def getPath(self):
+        return self.pathFile
+
+    def setData(self, newData):
+        self.dataset = newData
+
+    def setData(self, newPath):
+        self.pathFile = newPath
+    
     
     # =================================================================
     # JSON Managment Methods

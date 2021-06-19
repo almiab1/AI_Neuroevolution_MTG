@@ -15,16 +15,17 @@ import json
 # Functions
 # ===================================================================
 
+
 class Operators():
-    
+
     def __init__(self, dataset):
         self.dataset = dataset
-    
+
     def __str__(self):
         return """ Operators class
     Dataset : {}
     """.format(self.dataset)
-    
+
     # =================================================================
     # Getters and setters
     # =================================================================
@@ -33,13 +34,28 @@ class Operators():
 
     def setDataset(self, newDataset):
         self.dataset = newDataset
-    
+
     # =================================================================
     # Selection Best
     # =================================================================
 
-    def costFunction(self):
-        print("====================== Execute Cost Function ===========================")
+    def fitnessFunction(self, diferenceLifes, turnsPlayed):
+        matchFitnes = diferenceLifes / turnsPlayed  # fitnes operation
+        return matchFitnes
+    
+    def fitnessFunctionTotal(self):
+        # init variables
+        fitnes = None
+        totalCost_sum = 0
+        numMatches = 0
+        print("=================== Execute Cost Function ===================")
+        for duel in self.dataset:
+            numMatches += len(self.dataset[duel]) # sum the number of matches
+            for match in self.dataset[duel]:
+                totalCost_sum += self.fitnessFunction(match["DiferenceLifes"],match["TurnsPlayed"]) # add match fitnes
+        
+        fitnes = totalCost_sum / numMatches
+        print("Total cost --> {}".format(fitnes))
 
     # =================================================================
     # Neuroevolution operations

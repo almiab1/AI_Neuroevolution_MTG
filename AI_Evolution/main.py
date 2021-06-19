@@ -16,6 +16,7 @@ import os
 
 # Import 
 from src.DataManager import DataManager
+from src.Operators import Operators
 
 # ===================================================================
 # Functions
@@ -24,7 +25,7 @@ from src.DataManager import DataManager
 # Run shell test
 
 def callShellFile(oponent,duels, matches):
-    print("====================== Execute Test ======================")
+    print("====================== Execute SH Test ======================")
     subprocess.run(shlex.split(f'./../AI_Test/AiTest.sh {oponent} {duels} {matches}'))
 
 
@@ -32,6 +33,7 @@ def callShellFile(oponent,duels, matches):
 # Main
 # ===================================================================
 def main():
+    print("\n======================== Python Test ========================")
     # callShellFile()
 
     # Set up variables
@@ -43,11 +45,13 @@ def main():
 
     #Calls
     try:
-        callShellFile("FSM", 1, 3) # Run Duels
+        callShellFile("RANDOMV1", 3, 3) # Run Duels
+        # print("\n")
     finally:
         dataManager = DataManager(file_path)
-    
-    print(dataManager)
+        operators = Operators(dataManager.getData())
+
+        operators.fitnessFunctionTotal()
 
 
 # ===================================================================
