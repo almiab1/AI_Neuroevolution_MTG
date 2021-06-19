@@ -36,8 +36,8 @@ class DataManager():
     # =================================================================
     # JSON Managment Methods
     # =================================================================
-    def readJSONFile(self, rutaJSONFile):
-        with open(rutaJSONFile, 'r') as file:
+    def readJSONFile(self):
+        with open(self.pathFile, 'r') as file:
             self.data = json.load(file)
 
     def wtriteJSONFile(self, jsonObject):

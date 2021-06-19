@@ -42,11 +42,10 @@ def main():
 
 
     #Calls
-    dataManager = DataManager(file_path)
     try:
         callShellFile("FSM", 1, 3) # Run Duels
     finally:
-        dataManager.readJSONFile()
+        dataManager = DataManager(file_path)
     
     print(dataManager)
 
