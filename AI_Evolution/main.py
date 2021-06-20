@@ -37,9 +37,11 @@ def main():
     # Set up variables
     # Get JSON file path
     script_dir = os.path.dirname(__file__)
+    
     path = './../MagarenaCode_1_96/resources/magic/ai/FSMPlaysResults.json'
-    path_FSM = './../MagarenaCode_1_96/resources/magic/ai/FSMData.json'
     file_path = os.path.join(script_dir,  path)
+
+    path_FSM = './../MagarenaCode_1_96/resources/magic/ai/FSMData.json'
     file_path_FSM = os.path.join(script_dir,  path_FSM)
 
 
@@ -49,21 +51,21 @@ def main():
         print("\n")
     finally:
         print("\n======================== Python Test ========================")
-        dataManager = DataManager(file_path)
+        dat_manager = DataManager(file_path)
         fsm = DataManager(file_path_FSM)
-        operators = Operators()
+        op = Operators()
         
         # =================================================================
         # Test calls
         # =================================================================
-        operators.fitnessFunctionTotal(dataManager.getData()) # fitness function call
+        op.fitnessFunctionTotal(dat_manager.getData()) # fitness function call
 
         j1 = [{"PhaseLowerLand":[{"Lifes":1,"Opts":{"N":1,"B":1}}]},{"PhaseLowerCreatures":[{"Lifes":1,"Opts":{"N":1,"B":1}}]},{"PhaseAtack":[{"Lifes":1,"Opts":{"N":1,"B":1}}]},{"PhaseDefend":[{"Lifes":1,"Opts":{"N":1,"B":1}}]}]
         j2 = [{"PhaseLowerLand":[{"Lifes":2,"Opts":{"N":2,"B":2}}]},{"PhaseLowerCreatures":[{"Lifes":2,"Opts":{"N":2,"B":2}}]},{"PhaseAtack":[{"Lifes":2,"Opts":{"N":2,"B":2}}]},{"PhaseDefend":[{"Lifes":2,"Opts":{"N":2,"B":2}}]}]
         
-        c1,c2 = operators.crossoverOperation(fsm.parseToNpArray(j1),dataManager.parseToNpArray(j2), 0.9) # crossover funtion call
+        c1,c2 = op.crossoverOperation(fsm.parseToNpArray(j1),dat_manager.parseToNpArray(j2), 0.9) # crossover funtion call
 
-        cmn = operators.mutationOperation(fsm.parseToNpArray(fsm.getData()), 0.05, 0.1) # mutation function call
+        cmn = op.mutationOperation(fsm.parseToNpArray(fsm.getData()), 0.05, 0.1) # mutation function call
         
         print("""
         -- C1 --
