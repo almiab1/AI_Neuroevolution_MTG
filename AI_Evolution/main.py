@@ -54,32 +54,36 @@ def main():
         dat_manager = DataManager(file_path)
         fsm = DataManager(file_path_FSM)
         op = Operators()
-        
+
         # =================================================================
         # Test calls
         # =================================================================
-        op.fitnessFunctionTotal(dat_manager.getData()) # fitness function call
 
-        j1 = [{"PhaseLowerLand":[{"Lifes":1,"Opts":{"N":1,"B":1}}]},{"PhaseLowerCreatures":[{"Lifes":1,"Opts":{"N":1,"B":1}}]},{"PhaseAtack":[{"Lifes":1,"Opts":{"N":1,"B":1}}]},{"PhaseDefend":[{"Lifes":1,"Opts":{"N":1,"B":1}}]}]
-        j2 = [{"PhaseLowerLand":[{"Lifes":2,"Opts":{"N":2,"B":2}}]},{"PhaseLowerCreatures":[{"Lifes":2,"Opts":{"N":2,"B":2}}]},{"PhaseAtack":[{"Lifes":2,"Opts":{"N":2,"B":2}}]},{"PhaseDefend":[{"Lifes":2,"Opts":{"N":2,"B":2}}]}]
+#         op.fitnessFunctionTotal(dat_manager.getData()) # fitness function call
+
+#         j1 = [{"PhaseLowerLand":[{"Lifes":1,"Opts":{"N":1,"B":1}}]},{"PhaseLowerCreatures":[{"Lifes":1,"Opts":{"N":1,"B":1}}]},{"PhaseAtack":[{"Lifes":1,"Opts":{"N":1,"B":1}}]},{"PhaseDefend":[{"Lifes":1,"Opts":{"N":1,"B":1}}]}]
+#         j2 = [{"PhaseLowerLand":[{"Lifes":2,"Opts":{"N":2,"B":2}}]},{"PhaseLowerCreatures":[{"Lifes":2,"Opts":{"N":2,"B":2}}]},{"PhaseAtack":[{"Lifes":2,"Opts":{"N":2,"B":2}}]},{"PhaseDefend":[{"Lifes":2,"Opts":{"N":2,"B":2}}]}]
         
-        c1,c2 = op.crossoverOperation(fsm.parseToNpArray(j1),dat_manager.parseToNpArray(j2), 0.9) # crossover funtion call
+#         c1,c2 = op.crossoverOperation(fsm.parseToNpArray(j1),dat_manager.parseToNpArray(j2), 0.9) # crossover funtion call
 
-        cmn = op.mutationOperation(fsm.parseToNpArray(fsm.getData()), 0.05, 0.1) # mutation function call
+#         cmn = op.mutationOperation(fsm.parseToNpArray(fsm.getData()), 0.05, 0.1) # mutation function call
         
-        print("""
-        -- C1 --
+#         print("""
+#         -- C1 --
         
-{}
+# {}
 
-        -- C2 --
+#         -- C2 --
         
-{}
+# {}
 
-        -- CN --
+#         -- CN --
 
-{}
-        """.format(c1,c2,cmn))
+# {}
+#         """.format(c1,c2,cmn))
+
+        # pop = dat_manager.generatePopulation(3)
+
 
 # ===================================================================
 # Call
