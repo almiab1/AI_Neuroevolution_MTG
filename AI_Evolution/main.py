@@ -38,7 +38,9 @@ def main():
     # Get JSON file path
     script_dir = os.path.dirname(__file__)
     path = './../MagarenaCode_1_96/resources/magic/ai/FSMPlaysResults.json'
+    path_FSM = './../MagarenaCode_1_96/resources/magic/ai/FSMData.json'
     file_path = os.path.join(script_dir,  path)
+    file_path_FSM = os.path.join(script_dir,  path_FSM)
 
 
     #Calls
@@ -48,19 +50,34 @@ def main():
     finally:
         print("\n======================== Python Test ========================")
         dataManager = DataManager(file_path)
-        operators = Operators(dataManager.getData())
-
-        operators.fitnessFunctionTotal()
-
-        j1 = [{"PhaseLowerLand":{"Lifes":1,"Opts":{"N":1,"B":1}}},{"PhaseLowerCreatures":{"Lifes":1,"Opts":{"N":1,"B":1}}},{"PhaseAtack":{"Lifes":1,"Opts":{"N":1,"B":1}}},{"PhaseDefend":{"Lifes":1,"Opts":{"N":1,"B":1}}}]
-        j2 = [{"PhaseLowerLand":{"Lifes":2,"Opts":{"N":2,"B":2}}},{"PhaseLowerCreatures":{"Lifes":2,"Opts":{"N":2,"B":2}}},{"PhaseAtack":{"Lifes":2,"Opts":{"N":2,"B":2}}},{"PhaseDefend":{"Lifes":2,"Opts":{"N":2,"B":2}}}]
+        fsm = DataManager(file_path_FSM)
+        operators = Operators()
         
-        c1,c2 = operators.crossoverOperation(dataManager.parseToNpArray(j1),dataManager.parseToNpArray(j2), 0.9)
+        # =================================================================
+        # Test calls
+        # =================================================================
+        operators.fitnessFunctionTotal(dataManager.getData()) # fitness function call
 
+        j1 = [{"PhaseLowerLand":[{"Lifes":1,"Opts":{"N":1,"B":1}}]},{"PhaseLowerCreatures":[{"Lifes":1,"Opts":{"N":1,"B":1}}]},{"PhaseAtack":[{"Lifes":1,"Opts":{"N":1,"B":1}}]},{"PhaseDefend":[{"Lifes":1,"Opts":{"N":1,"B":1}}]}]
+        j2 = [{"PhaseLowerLand":[{"Lifes":2,"Opts":{"N":2,"B":2}}]},{"PhaseLowerCreatures":[{"Lifes":2,"Opts":{"N":2,"B":2}}]},{"PhaseAtack":[{"Lifes":2,"Opts":{"N":2,"B":2}}]},{"PhaseDefend":[{"Lifes":2,"Opts":{"N":2,"B":2}}]}]
+        
+        c1,c2 = operators.crossoverOperation(fsm.parseToNpArray(j1),dataManager.parseToNpArray(j2), 0.9) # crossover funtion call
+
+        cmn = operators.mutationOperation(fsm.parseToNpArray(fsm.getData()), 0.05, 0.1) # mutation function call
+        
         print("""
-        C1 --> {}
-        C2 --> {}
-        """.format(c1,c2))
+        -- C1 --
+        
+{}
+
+        -- C2 --
+        
+{}
+
+        -- CN --
+
+{}
+        """.format(c1,c2,cmn))
 
 # ===================================================================
 # Call

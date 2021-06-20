@@ -18,44 +18,52 @@ import random
 
 class Operators():
 
-    def __init__(self, dataset):
-        self.dataset = dataset
-
-    def __str__(self):
-        return """ Operators class
-    Dataset : {}
-    """.format(self.dataset)
-
     # =================================================================
-    # Getters and setters
-    # =================================================================
-    def getDataset(self):
-        return self.dataset
-
-    def setDataset(self, newDataset):
-        self.dataset = newDataset
-
-    # =================================================================
-    # Selection Best
+    # Fitness Methods
     # =================================================================
 
     def fitnessFunction(self, diferenceLifes, turnsPlayed):
         matchFitnes = diferenceLifes / turnsPlayed  # fitnes operation
         return matchFitnes
     
-    def fitnessFunctionTotal(self):
+    def fitnessFunctionTotal(self, dataSet):
         # init variables
-        fitnes = None
+        fitness = None
         totalCost_sum = 0
         numMatches = 0
         print("=================== Execute Cost Function ===================")
-        for duel in self.dataset:
-            numMatches += len(self.dataset[duel]) # sum the number of matches
-            for match in self.dataset[duel]:
+        for duel in dataSet:
+            numMatches += len(dataSet[duel]) # sum the number of matches
+            for match in dataSet[duel]:
                 totalCost_sum += self.fitnessFunction(match["DiferenceLifes"],match["TurnsPlayed"]) # add match fitnes
         
-        fitnes = totalCost_sum / numMatches
-        print("Total cost --> {}".format(fitnes))
+        fitness = totalCost_sum / numMatches
+        print("Fitness --> {}".format(fitness))
+
+        return fitness
+    
+    # =================================================================
+    # Utilities
+    # =================================================================
+
+    def normalizeValuesAI(self, aiData):
+        dataSet = None
+        sum_probs = 0
+
+        for index_e, element in enumerate(aiData):
+            for phase, value in element.items():
+                for index_s, states in enumerate(value):
+                    sum_probs = 0
+                    for keyAction, prob in states["Opts"].items():
+                        sum_probs += prob
+                    
+                    for keyAction, prob in states["Opts"].items():
+                        aiData[index_e][phase][index_s]["Opts"][keyAction] = np.round(prob / sum_probs, 2)
+                    
+
+        dataSet = aiData.copy()
+
+        return dataSet
 
     # =================================================================
     # Neuroevolution operations
@@ -77,5 +85,17 @@ class Operators():
             ch2 = np.concatenate((p2[:crossIndex],p1[crossIndex:]))
         return [ch1, ch2]
 
-    def mutationOperation(self, parent, mut_rate):
-        print("=================== Execute Mutation Operation =================")
+    def mutationOperation(self, parent, mut_rate, alpha):
+        print("\n=================== Execute Mutation Operation =================")
+        child = parent.copy()
+
+        for index_e, element in enumerate(child):
+            for phase, value in element.items():
+                for index_s, states in enumerate(value):                   
+                    for keyAction, prob in states["Opts"].items():
+                        if np.random.rand() < mut_rate: 
+                            child[index_e][phase][index_s]["Opts"][keyAction] = prob * alpha
+
+        child = self.normalizeValuesAI(child)
+
+        return child
