@@ -61,19 +61,21 @@ class Operators():
     # Neuroevolution operations
     # =================================================================
 
-    def crossoverOperation(self, parent1, parent2, cross_rate):
-        print("====================== Execute Crossover Operation =====================")
+    def crossoverOperation(self, p1, p2, cross_rate):
+        print("=================== Execute Crossover Operation ================")
+
         # children are copies of parents by default
-        child1, child2 = parent1.copy(), parent2.copy()
+        ch1, ch2 = p1.copy(), p2.copy()
         # check for recombination
         if np.random.rand() < cross_rate:
             # select crossover point that is not on the end of the string
-            crossIndex = random.randint(1, len(parent1)-1)
+            crossIndex = random.randint(1, len(p1)-2)
+            print("Cross index: {}".format(crossIndex))
 
             # perform crossover
-            child1 = parent1[:crossIndex] + parent2[crossIndex:]
-            child2 = parent2[:crossIndex] + parent1[crossIndex:]
-        return [child1, child2]
+            ch1 = np.concatenate((p1[:crossIndex],p2[crossIndex:]))
+            ch2 = np.concatenate((p2[:crossIndex],p1[crossIndex:]))
+        return [ch1, ch2]
 
     def mutationOperation(self, parent, mut_rate):
-        print("====================== Execute Mutation Operation ======================")
+        print("=================== Execute Mutation Operation =================")

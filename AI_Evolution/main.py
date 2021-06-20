@@ -52,7 +52,15 @@ def main():
 
         operators.fitnessFunctionTotal()
 
-        # c1,c2 = operators.crossoverOperation(json1,json2, 0.9)
+        j1 = [{"PhaseLowerLand":{"Lifes":1,"Opts":{"N":1,"B":1}}},{"PhaseLowerCreatures":{"Lifes":1,"Opts":{"N":1,"B":1}}},{"PhaseAtack":{"Lifes":1,"Opts":{"N":1,"B":1}}},{"PhaseDefend":{"Lifes":1,"Opts":{"N":1,"B":1}}}]
+        j2 = [{"PhaseLowerLand":{"Lifes":2,"Opts":{"N":2,"B":2}}},{"PhaseLowerCreatures":{"Lifes":2,"Opts":{"N":2,"B":2}}},{"PhaseAtack":{"Lifes":2,"Opts":{"N":2,"B":2}}},{"PhaseDefend":{"Lifes":2,"Opts":{"N":2,"B":2}}}]
+        
+        c1,c2 = operators.crossoverOperation(dataManager.parseToNpArray(j1),dataManager.parseToNpArray(j2), 0.9)
+
+        print("""
+        C1 --> {}
+        C2 --> {}
+        """.format(c1,c2))
 
 # ===================================================================
 # Call

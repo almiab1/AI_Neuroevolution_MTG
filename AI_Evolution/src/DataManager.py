@@ -10,6 +10,7 @@
 # ===================================================================
 # import numpy as np
 import json
+import numpy as np
 
 # ===================================================================
 # Functions
@@ -59,3 +60,7 @@ class DataManager():
     def wtriteJSONFile(self, jsonObject):
         with open(self.pathFile, 'w') as file:
             json.dump(jsonObject, file, indent=4)
+    
+    def parseToNpArray(self, data):
+        array = np.array(data)
+        return array
