@@ -1,5 +1,5 @@
 # ===================================================================
-#   File name: main.py
+#   File name: Opertators.py
 #   Author: Alejandro Mira Abad
 #   Date created: 16/06/2021
 #   Python Version: 3.8.7
@@ -12,10 +12,8 @@ import numpy as np
 import random
 
 # ===================================================================
-# Functions
+# Class Opertors
 # ===================================================================
-
-
 class Operators():
 
     # =================================================================
@@ -38,7 +36,6 @@ class Operators():
                 totalCost_sum += self.fitnessFunction(match["DiferenceLifes"],match["TurnsPlayed"]) # add match fitnes
         
         fitness = totalCost_sum / numMatches
-        print("Fitness --> {}".format(fitness))
 
         return fitness
     

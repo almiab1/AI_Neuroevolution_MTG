@@ -17,6 +17,7 @@ import os
 # Import 
 from src.DataManager import DataManager
 from src.Operators import Operators
+from src.DBManager import DBManager
 
 # ===================================================================
 # Functions
@@ -28,6 +29,23 @@ def callShellFile(oponent,duels, matches):
     subprocess.run(shlex.split(f'./../AI_Test/AiTest.sh {oponent} {duels} {matches}'))
 
 
+# ===================================================================
+# Genetic Function
+# ===================================================================
+def genetic_funciton():
+    print("======================== Genetic Function ========================")
+
+    # Select population
+
+    # Execute duels
+
+    # Fitness all population tested
+
+    # Select parents (best of the tested population)
+
+    # Matting
+
+    # Update population with the childs
 # ===================================================================
 # Main
 # ===================================================================
@@ -50,16 +68,18 @@ def main():
         # callShellFile("RANDOMV1", 3, 3) # Run Duels
         print("\n")
     finally:
-        print("\n======================== Python Test ========================")
+        print("======================== Python Test ========================")
         dat_manager = DataManager(file_path)
         fsm = DataManager(file_path_FSM)
         op = Operators()
+        db = DBManager()
+
 
         # =================================================================
         # Test calls
         # =================================================================
 
-#         op.fitnessFunctionTotal(dat_manager.getData()) # fitness function call
+        # op.fitnessFunctionTotal(dat_manager.getData()) # fitness function call
 
 #         j1 = [{"PhaseLowerLand":[{"Lifes":1,"Opts":{"N":1,"B":1}}]},{"PhaseLowerCreatures":[{"Lifes":1,"Opts":{"N":1,"B":1}}]},{"PhaseAtack":[{"Lifes":1,"Opts":{"N":1,"B":1}}]},{"PhaseDefend":[{"Lifes":1,"Opts":{"N":1,"B":1}}]}]
 #         j2 = [{"PhaseLowerLand":[{"Lifes":2,"Opts":{"N":2,"B":2}}]},{"PhaseLowerCreatures":[{"Lifes":2,"Opts":{"N":2,"B":2}}]},{"PhaseAtack":[{"Lifes":2,"Opts":{"N":2,"B":2}}]},{"PhaseDefend":[{"Lifes":2,"Opts":{"N":2,"B":2}}]}]
@@ -82,7 +102,47 @@ def main():
 # {}
 #         """.format(c1,c2,cmn))
 
-        # pop = dat_manager.generatePopulation(3)
+        try:
+            pop = dat_manager.generatePopulation(1)
+            callShellFile("RANDOMV1", 1, 10) # Run Duels
+            strObj = dat_manager.toString(fsm.getData())
+
+            a = dat_manager.getData()
+
+            fit = op.fitnessFunctionTotal(dat_manager.getData()) # fitness function call
+
+            
+            db.setNewMember(1,1,strObj,fit)
+        finally:
+            for indx,e in enumerate(pop):
+                
+                try:
+                    fsm.wtriteJSONFile(e)
+
+                    print(fsm.parseToNpArray(fsm.getData()))
+
+                    callShellFile("RANDOMV1", 1, 10) # Run Duels
+                    print("Random AI RESULTS JSON-----------------------------------------")
+                    print(dat_manager.getData())
+                finally:
+
+                    fit = op.fitnessFunctionTotal(dat_manager.getData()) # fitness function call
+
+                    strObj = dat_manager.toString(e)
+
+                    print(1,indx,strObj,fit)
+                    db.setNewMember(1,indx+2,strObj,fit)
+            
+
+            print("BASE AI-----------------------------------------")
+            print(a)
+
+            # db.getMembersGen(db.getLastGen())
+            
+            db.saveChanges()
+            db.close()
+
+        
 
 
 # ===================================================================
