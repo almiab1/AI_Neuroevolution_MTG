@@ -102,45 +102,31 @@ def main():
 # {}
 #         """.format(c1,c2,cmn))
 
-        try:
-            pop = dat_manager.generatePopulation(1)
-            callShellFile("RANDOMV1", 1, 10) # Run Duels
-            strObj = dat_manager.toString(fsm.getData())
+        pop = dat_manager.generatePopulation(9) # Generate random pop
+        callShellFile("RANDOMV1", 3, 10) # Run Duels
+        dat_manager.updateData()         # update values of duels
+        strObj = dat_manager.toString(fsm.getData())         # parse to string
+        fit = op.fitnessFunctionTotal(dat_manager.getData()) # fitness function call
 
-            a = dat_manager.getData()
+        db.setNewMember(1,1,strObj,fit)
+
+        for indx,e in enumerate(pop):
+            
+            
+            fsm.wtriteJSONFile(e)
+
+            callShellFile("RANDOMV1", 3, 10) # Run Duels
+            dat_manager.updateData()         # update values of duels
 
             fit = op.fitnessFunctionTotal(dat_manager.getData()) # fitness function call
 
-            
-            db.setNewMember(1,1,strObj,fit)
-        finally:
-            for indx,e in enumerate(pop):
-                
-                try:
-                    fsm.wtriteJSONFile(e)
-
-                    print(fsm.parseToNpArray(fsm.getData()))
-
-                    callShellFile("RANDOMV1", 1, 10) # Run Duels
-                    print("Random AI RESULTS JSON-----------------------------------------")
-                    print(dat_manager.getData())
-                finally:
-
-                    fit = op.fitnessFunctionTotal(dat_manager.getData()) # fitness function call
-
-                    strObj = dat_manager.toString(e)
-
-                    print(1,indx,strObj,fit)
-                    db.setNewMember(1,indx+2,strObj,fit)
-            
-
-            print("BASE AI-----------------------------------------")
-            print(a)
-
+            strObj = dat_manager.toString(e)
+            db.setNewMember(1,indx+2,strObj,fit)
+    
             # db.getMembersGen(db.getLastGen())
             
-            db.saveChanges()
-            db.close()
+        db.saveChanges()
+        db.close()
 
         
 

@@ -58,7 +58,7 @@ class DataManager():
     # JSON Managment Methods
     # =================================================================
 
-    def readJSONFile(self):
+    def updateData(self):
         with open(self.pathFile, 'r') as file:
             self.data = json.load(file)
 
