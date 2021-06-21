@@ -12,8 +12,11 @@
 # import numpy as np
 import subprocess
 import shlex
-import json
 import os
+
+# Import 
+from src.DataManager import DataManager
+from src.Operators import Operators
 
 # ===================================================================
 # Functions
@@ -22,30 +25,8 @@ import os
 # Run shell test
 
 def callShellFile(oponent,duels, matches):
-    print("====================== Execute Test ======================")
     subprocess.run(shlex.split(f'./../AI_Test/AiTest.sh {oponent} {duels} {matches}'))
 
-# JSON Managment
-def readJSONFile(rutaJSONFile):
-    data = None
-
-    with open(rutaJSONFile, 'r') as file:
-        data = json.load(file)
-
-    return data
-
-def wtriteJSONFile(rutaJSONFile, jsonObject):
-    with open(rutaJSONFile, 'w') as file:
-        json.dump(jsonObject, file, indent=4)
-
-# ===================================================================
-# Evolution Operations
-# ===================================================================
-def crossoverOperation():
-    print("====================== Execute Crossover Operation ======================")
-
-def mutationOperation():
-    print("====================== Execute Mutation Operation ======================")
 
 # ===================================================================
 # Main
@@ -53,17 +34,55 @@ def mutationOperation():
 def main():
     # callShellFile()
 
+    # Set up variables
     # Get JSON file path
     script_dir = os.path.dirname(__file__)
-    file_path = os.path.join(script_dir,  './../MagarenaCode_1_96/resources/magic/ai/FSMPlaysResults.json')
+    
+    path = './../MagarenaCode_1_96/resources/magic/ai/FSMPlaysResults.json'
+    file_path = os.path.join(script_dir,  path)
+
+    path_FSM = './../MagarenaCode_1_96/resources/magic/ai/FSMData.json'
+    file_path_FSM = os.path.join(script_dir,  path_FSM)
 
 
     #Calls
-    # try:
-    callShellFile("FSM", 1, 3) # Run Duels
-    # finally:
-    jsonObject = readJSONFile(file_path) # Read results of the duels
-    print("JSON Object --> {}".format(jsonObject))
+    try:
+        # callShellFile("RANDOMV1", 3, 3) # Run Duels
+        print("\n")
+    finally:
+        print("\n======================== Python Test ========================")
+        dat_manager = DataManager(file_path)
+        fsm = DataManager(file_path_FSM)
+        op = Operators()
+
+        # =================================================================
+        # Test calls
+        # =================================================================
+
+#         op.fitnessFunctionTotal(dat_manager.getData()) # fitness function call
+
+#         j1 = [{"PhaseLowerLand":[{"Lifes":1,"Opts":{"N":1,"B":1}}]},{"PhaseLowerCreatures":[{"Lifes":1,"Opts":{"N":1,"B":1}}]},{"PhaseAtack":[{"Lifes":1,"Opts":{"N":1,"B":1}}]},{"PhaseDefend":[{"Lifes":1,"Opts":{"N":1,"B":1}}]}]
+#         j2 = [{"PhaseLowerLand":[{"Lifes":2,"Opts":{"N":2,"B":2}}]},{"PhaseLowerCreatures":[{"Lifes":2,"Opts":{"N":2,"B":2}}]},{"PhaseAtack":[{"Lifes":2,"Opts":{"N":2,"B":2}}]},{"PhaseDefend":[{"Lifes":2,"Opts":{"N":2,"B":2}}]}]
+        
+#         c1,c2 = op.crossoverOperation(fsm.parseToNpArray(j1),dat_manager.parseToNpArray(j2), 0.9) # crossover funtion call
+
+#         cmn = op.mutationOperation(fsm.parseToNpArray(fsm.getData()), 0.05, 0.1) # mutation function call
+        
+#         print("""
+#         -- C1 --
+        
+# {}
+
+#         -- C2 --
+        
+# {}
+
+#         -- CN --
+
+# {}
+#         """.format(c1,c2,cmn))
+
+        # pop = dat_manager.generatePopulation(3)
 
 
 # ===================================================================

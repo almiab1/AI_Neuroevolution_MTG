@@ -104,7 +104,7 @@ public class FSMWriter {
     }
     
     
-    public void writeResultsMatches(int diferenceLifes){
+    public void writeResultsMatches(int diferenceLifes, int turnsPlayed){
     
         String duelKey = String.valueOf(getLastDuelKey()); // get our duel
         
@@ -115,6 +115,7 @@ public class FSMWriter {
         JSONObject matchJson = new JSONObject(); // create json match
         matchJson.put("Win", isWin); // introduce data to json
         matchJson.put("DiferenceLifes", diferenceLifes);
+        matchJson.put("TurnsPlayed", turnsPlayed);
 
         this.json.getJSONArray(duelKey).put(matchJson); // add match to duel json array
     }
