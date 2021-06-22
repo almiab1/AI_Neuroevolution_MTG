@@ -53,7 +53,7 @@ def genetic_funciton(gen,n_parents,manager):
     pop = manager.db.getMembersGen(gen)
 
     # Execute duels and calculate fitness of the population
-    # runDuelsAndFitness(pop, 2, 25, "RANDOMV1", manager)
+    runDuelsAndFitness(pop, 2, 25, "RANDOMV1", manager)
 
     # Select parents (best of the tested population)
     best = manager.db.getBestOfGen(gen,n_parents)
