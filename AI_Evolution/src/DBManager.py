@@ -30,7 +30,7 @@ class DBManager():
             
             self.cur = self.connection.cursor()
             
-            print("Connection done!")
+            # print("Connection done!")
         except sqlite3.Error as error:
             print("Error while connecting to sqlite", error)
         
@@ -57,20 +57,22 @@ class DBManager():
     
     def getLastGen(self):
         lastGenKey = None
-
         lastGenKey = self.cur.execute('SELECT Generation FROM Population WHERE Generation=(SELECT MAX(Generation) FROM Population)').fetchone()
-
         return lastGenKey[0]
     
     def getMembersGen(self, genKey):
-
         members = self.cur.execute('SELECT * FROM Population WHERE Generation = ?',(genKey,)).fetchall()
 
-        
-        for indx, member in enumerate(members):
-            members[indx] = self.data_m.toJSON(member[2]) # Parse string json to json object
+        members = self.parseJSONMember(members)
 
         return members
+    
+    def getBestOfGen(self, genKey, n):
+        bests = self.cur.execute('SELECT * FROM Population WHERE Generation = ? ORDER BY Fitness DESC LIMIT ?',(genKey,n)).fetchall()
+
+        bests = self.parseJSONMember(bests)
+
+        return bests
 
 
     # =================================================================
@@ -85,10 +87,21 @@ class DBManager():
 
     def updateFitness(self, gen, id, fitness):
 
-        members = self.cur.execute('UPDATE Population SET Fitness = ? WHERE Generation = ? IdMember = ?',(fitness,gen,id)).fetchone()
+        members = self.cur.execute('UPDATE Population SET Fitness = ? WHERE Generation = ? and IdMember = ?',(fitness,gen,id)).fetchone()
 
         
         for indx, member in enumerate(members):
             members[indx] = self.data_m.toJSON(member[2]) # Parse string json to json object
 
+        return members
+    
+    # =================================================================
+    # utilities
+    # =================================================================
+
+    def parseJSONMember(self, members):
+        for indx, member in enumerate(members):
+            members[indx] = list(member)
+            members[indx][2] = self.data_m.toJSON(member[2]) # Parse string json to json object
+        
         return members

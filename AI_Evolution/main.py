@@ -15,9 +15,7 @@ import shlex
 import os
 
 # Import 
-from src.DataManager import DataManager
-from src.Operators import Operators
-from src.DBManager import DBManager
+from src.MainManager import MainManager
 
 # ===================================================================
 # Functions
@@ -28,21 +26,40 @@ from src.DBManager import DBManager
 def callShellFile(oponent,duels, matches):
     subprocess.run(shlex.split(f'./../AI_Test/AiTest.sh {oponent} {duels} {matches}'))
 
+def runDuelsAndFitness(population, duels, matches, oponent,manager):
+
+    for member in population:
+        manager.fsm_m.wtriteJSONFile(member[2]) # charge data in json to test
+        callShellFile(oponent,duels,matches)       # run duels
+        manager.res_m.updateData()   # update values of duels
+        fit = manager.op.fitnessFunctionTotal(manager.res_m.getData()) # get fitness
+        manager.db.updateFitness(member[0],member[1], fit)
+    
+    manager.db.saveChanges()
+
+
+
+
 
 # ===================================================================
 # Genetic Function
 # ===================================================================
-def genetic_funciton():
+def genetic_funciton(gen,n_parents,manager):
     print("======================== Genetic Function ========================")
 
     # Select population
-
-    # Execute duels
-
-    # Fitness all population tested
-
+    pop = manager.db.getMembersGen(gen)
+    # Execute duels and calculate fitness of the population
+    runDuelsAndFitness(pop, 3, 10, "RANDOMV1", manager)
     # Select parents (best of the tested population)
+    best = manager.db.getBestOfGen(gen,n_parents)
+    print("""
+    Genetic Function
 
+    Best
+    
+    {}
+    """.format(best))
     # Matting
 
     # Update population with the childs
@@ -57,7 +74,7 @@ def main():
     script_dir = os.path.dirname(__file__)
     
     path = './../MagarenaCode_1_96/resources/magic/ai/FSMPlaysResults.json'
-    file_path = os.path.join(script_dir,  path)
+    file_path_results = os.path.join(script_dir,  path)
 
     path_FSM = './../MagarenaCode_1_96/resources/magic/ai/FSMData.json'
     file_path_FSM = os.path.join(script_dir,  path_FSM)
@@ -69,12 +86,13 @@ def main():
         print("\n")
     finally:
         print("======================== Python Test ========================")
-        dat_manager = DataManager(file_path)
-        fsm = DataManager(file_path_FSM)
-        op = Operators()
-        db = DBManager()
+        manager = MainManager(file_path_results,file_path_FSM)
 
 
+        # =================================================================
+        # Genetic Algorithm calls
+        # =================================================================
+        genetic_funciton(1,2, manager)
         # =================================================================
         # Test calls
         # =================================================================
@@ -102,31 +120,33 @@ def main():
 # {}
 #         """.format(c1,c2,cmn))
 
-        pop = dat_manager.generatePopulation(9) # Generate random pop
-        callShellFile("RANDOMV1", 3, 10) # Run Duels
-        dat_manager.updateData()         # update values of duels
-        strObj = dat_manager.toString(fsm.getData())         # parse to string
-        fit = op.fitnessFunctionTotal(dat_manager.getData()) # fitness function call
+        # pop = dat_manager.generatePopulation(9) # Generate random pop
+        # callShellFile("RANDOMV1", 3, 10) # Run Duels
+        # dat_manager.updateData()         # update values of duels
+        # strObj = dat_manager.toString(fsm.getData())         # parse to string
+        # fit = op.fitnessFunctionTotal(dat_manager.getData()) # fitness function call
 
-        db.setNewMember(1,1,strObj,fit)
+        # db.setNewMember(1,1,strObj,fit)
 
-        for indx,e in enumerate(pop):
+        # for indx,e in enumerate(pop):
             
             
-            fsm.wtriteJSONFile(e)
+        #     fsm.wtriteJSONFile(e)
 
-            callShellFile("RANDOMV1", 3, 10) # Run Duels
-            dat_manager.updateData()         # update values of duels
+        #     callShellFile("RANDOMV1", 3, 10) # Run Duels
+        #     dat_manager.updateData()         # update values of duels
 
-            fit = op.fitnessFunctionTotal(dat_manager.getData()) # fitness function call
+        #     fit = op.fitnessFunctionTotal(dat_manager.getData()) # fitness function call
 
-            strObj = dat_manager.toString(e)
-            db.setNewMember(1,indx+2,strObj,fit)
+        #     strObj = dat_manager.toString(e)
+        #     db.setNewMember(1,indx+2,strObj,fit)
     
-            # db.getMembersGen(db.getLastGen())
+        #     # db.getMembersGen(db.getLastGen())
+
+        # db.getBestOfGen(1,2)
             
-        db.saveChanges()
-        db.close()
+        manager.db.saveChanges()
+        manager.db.close()
 
         
 
