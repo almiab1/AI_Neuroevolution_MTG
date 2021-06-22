@@ -51,8 +51,10 @@ def genetic_funciton(gen,n_parents,manager):
 
     # Select population
     pop = manager.db.getMembersGen(gen)
+
     # Execute duels and calculate fitness of the population
-    runDuelsAndFitness(pop, 1, 1, "RANDOMV1", manager)
+    # runDuelsAndFitness(pop, 2, 25, "RANDOMV1", manager)
+
     # Select parents (best of the tested population)
     best = manager.db.getBestOfGen(gen,n_parents)
 
@@ -60,11 +62,11 @@ def genetic_funciton(gen,n_parents,manager):
     childs = manager.op.matting(best,cross_rate, mut_rate, alpha)
 
     # Update population with the childs
-    newGen = manager.db.getLastGen()
+    newGen = manager.db.getLastGen() + 1
 
     for indx,child in enumerate(childs):
-        str_child = manager.fsm_m.toString(child)
-        manager.db.setNewMember(newGen, indx+1, str_child,0)
+        str_child = manager.res_m.toString(child.tolist())
+        manager.db.setNewMember(newGen, indx+1, str_child,None)
 # ===================================================================
 # Main
 # ===================================================================
