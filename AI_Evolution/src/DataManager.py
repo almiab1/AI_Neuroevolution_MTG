@@ -20,15 +20,17 @@ from src.Operators import Operators
 
 class DataManager():
 
-    def __init__(self, path):
+    def __init__(self, path = None):
 
-        # First read json file
-        with open(path, 'r') as file:
-            jsonObject = json.load(file)
+        if path is not None:
+            # First read json file
+            with open(path, 'r') as file:
+                jsonObject = json.load(file)
 
-        # Set values
-        self.pathFile = path
-        self.data = jsonObject
+            # Set values
+            self.pathFile = path
+            self.data = jsonObject
+        
         self.op = Operators()
 
     def __str__(self):
@@ -56,7 +58,7 @@ class DataManager():
     # JSON Managment Methods
     # =================================================================
 
-    def readJSONFile(self):
+    def updateData(self):
         with open(self.pathFile, 'r') as file:
             self.data = json.load(file)
 
@@ -67,6 +69,14 @@ class DataManager():
     def parseToNpArray(self, data):
         array = np.array(data)
         return array
+
+    def toString(self, data):
+        data_str = json.dumps(data)
+        return data_str
+
+    def toJSON(self, data_str):
+        data_obj = json.loads(data_str)
+        return data_obj
 
     # =================================================================
     # Generating Population Methods
