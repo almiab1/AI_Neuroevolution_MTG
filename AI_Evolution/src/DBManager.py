@@ -86,14 +86,7 @@ class DBManager():
     # =================================================================
 
     def updateFitness(self, gen, id, fitness):
-
-        members = self.cur.execute('UPDATE Population SET Fitness = ? WHERE Generation = ? and IdMember = ?',(fitness,gen,id)).fetchone()
-
-        
-        for indx, member in enumerate(members):
-            members[indx] = self.data_m.toJSON(member[2]) # Parse string json to json object
-
-        return members
+        self.cur.execute('UPDATE Population SET Fitness = ? WHERE Generation = ? and IdMember = ?',(fitness,gen,id))
     
     # =================================================================
     # utilities
