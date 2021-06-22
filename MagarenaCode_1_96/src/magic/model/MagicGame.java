@@ -1422,4 +1422,9 @@ public class MagicGame {
 
         return diferenceLifes;
     }
+    
+    // Get turns played
+    public int getTurnsPlayed(){
+        return turn;
+    }
 }

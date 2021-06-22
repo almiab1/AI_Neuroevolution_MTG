@@ -114,7 +114,7 @@ public class HeadlessAIGame {
         System.out.println("D1 : " + d1.getQualifiedName());
         System.out.println("D2 : " + d2.getQualifiedName());
         System.out.println(H2);
-        System.out.println("Game  Won  D1  D2  DiferenceLifes Duration");
+        System.out.println("Game  Won  D1  D2 TurnsPlayed  DiferenceLifes Duration");
 
         int played = 0;
         while (duel.getGamesPlayed() < duel.getGamesTotal()) {
@@ -131,20 +131,21 @@ public class HeadlessAIGame {
             controller.runGame();
             final double duration = (double)(System.currentTimeMillis() - start_time) / 1000;
             final int diferenceLifes = game.getDiferenceLifes(); // calculate diference lifes
+            final int turnsPlayed = game.getTurnsPlayed(); // calculate diference lifes
 
             played++;
-
-            System.out.printf("%d     %s   %d   %d        %d          %.2f\n",
+            System.out.printf("%d     %s   %d  %d   %d         %d          %.2f\n",
                 played,
                 game.getWinner().getConfig().getDeck().equals(d1) ? "D1" : "D2",
                 duel.getGamesWon(),
                 duel.getGamesPlayed() - duel.getGamesWon(),
+                turnsPlayed,
                 diferenceLifes,
                 duration
             );
             
             // Write result of the match
-            if("FSM".equals(duel.getPlayer(0).getName())) writer.writeResultsMatches(diferenceLifes);
+            if("FSM".equals(duel.getPlayer(0).getName())) writer.writeResultsMatches(diferenceLifes,turnsPlayed);
         }
     }
 }
