@@ -47,22 +47,24 @@ def runDuelsAndFitness(population, duels, matches, oponent,manager):
 def genetic_funciton(gen,n_parents,manager):
     print("======================== Genetic Function ========================")
 
+    cross_rate, mut_rate, alpha = [.75,.05,0.05]
+
     # Select population
     pop = manager.db.getMembersGen(gen)
     # Execute duels and calculate fitness of the population
-    runDuelsAndFitness(pop, 3, 10, "RANDOMV1", manager)
+    runDuelsAndFitness(pop, 1, 1, "RANDOMV1", manager)
     # Select parents (best of the tested population)
     best = manager.db.getBestOfGen(gen,n_parents)
-    print("""
-    Genetic Function
 
-    Best
-    
-    {}
-    """.format(best))
     # Matting
+    childs = manager.op.matting(best,cross_rate, mut_rate, alpha)
 
     # Update population with the childs
+    newGen = manager.db.getLastGen()
+
+    for indx,child in enumerate(childs):
+        str_child = manager.fsm_m.toString(child)
+        manager.db.setNewMember(newGen, indx+1, str_child,0)
 # ===================================================================
 # Main
 # ===================================================================
@@ -92,58 +94,11 @@ def main():
         # =================================================================
         # Genetic Algorithm calls
         # =================================================================
-        genetic_funciton(1,2, manager)
+        lastGen = manager.db.getLastGen()
+        genetic_funciton(lastGen,3, manager)
         # =================================================================
         # Test calls
         # =================================================================
-
-        # op.fitnessFunctionTotal(dat_manager.getData()) # fitness function call
-
-#         j1 = [{"PhaseLowerLand":[{"Lifes":1,"Opts":{"N":1,"B":1}}]},{"PhaseLowerCreatures":[{"Lifes":1,"Opts":{"N":1,"B":1}}]},{"PhaseAtack":[{"Lifes":1,"Opts":{"N":1,"B":1}}]},{"PhaseDefend":[{"Lifes":1,"Opts":{"N":1,"B":1}}]}]
-#         j2 = [{"PhaseLowerLand":[{"Lifes":2,"Opts":{"N":2,"B":2}}]},{"PhaseLowerCreatures":[{"Lifes":2,"Opts":{"N":2,"B":2}}]},{"PhaseAtack":[{"Lifes":2,"Opts":{"N":2,"B":2}}]},{"PhaseDefend":[{"Lifes":2,"Opts":{"N":2,"B":2}}]}]
-        
-#         c1,c2 = op.crossoverOperation(fsm.parseToNpArray(j1),dat_manager.parseToNpArray(j2), 0.9) # crossover funtion call
-
-#         cmn = op.mutationOperation(fsm.parseToNpArray(fsm.getData()), 0.05, 0.1) # mutation function call
-        
-#         print("""
-#         -- C1 --
-        
-# {}
-
-#         -- C2 --
-        
-# {}
-
-#         -- CN --
-
-# {}
-#         """.format(c1,c2,cmn))
-
-        # pop = dat_manager.generatePopulation(9) # Generate random pop
-        # callShellFile("RANDOMV1", 3, 10) # Run Duels
-        # dat_manager.updateData()         # update values of duels
-        # strObj = dat_manager.toString(fsm.getData())         # parse to string
-        # fit = op.fitnessFunctionTotal(dat_manager.getData()) # fitness function call
-
-        # db.setNewMember(1,1,strObj,fit)
-
-        # for indx,e in enumerate(pop):
-            
-            
-        #     fsm.wtriteJSONFile(e)
-
-        #     callShellFile("RANDOMV1", 3, 10) # Run Duels
-        #     dat_manager.updateData()         # update values of duels
-
-        #     fit = op.fitnessFunctionTotal(dat_manager.getData()) # fitness function call
-
-        #     strObj = dat_manager.toString(e)
-        #     db.setNewMember(1,indx+2,strObj,fit)
-    
-        #     # db.getMembersGen(db.getLastGen())
-
-        # db.getBestOfGen(1,2)
             
         manager.db.saveChanges()
         manager.db.close()

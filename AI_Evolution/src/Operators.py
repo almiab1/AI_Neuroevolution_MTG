@@ -67,7 +67,7 @@ class Operators():
     # =================================================================
 
     def crossoverOperation(self, p1, p2, cross_rate):
-        print("=================== Execute Crossover Operation ================")
+        # print("=================== Execute Crossover Operation ================")
 
         # children are copies of parents by default
         ch1, ch2 = p1.copy(), p2.copy()
@@ -75,7 +75,7 @@ class Operators():
         if np.random.rand() < cross_rate:
             # select crossover point that is not on the end of the string
             crossIndex = random.randint(1, len(p1)-2)
-            print("Cross index: {}".format(crossIndex))
+            # print("Cross index: {}".format(crossIndex))
 
             # perform crossover
             ch1 = np.concatenate((p1[:crossIndex],p2[crossIndex:]))
@@ -83,7 +83,7 @@ class Operators():
         return [ch1, ch2]
 
     def mutationOperation(self, parent, mut_rate, alpha):
-        print("\n=================== Execute Mutation Operation =================")
+        # print("\n=================== Execute Mutation Operation =================")
         child = parent.copy()
 
         for index_e, element in enumerate(child):
@@ -96,3 +96,39 @@ class Operators():
         child = self.normalizeValuesAI(child)
 
         return child
+    
+    def matting(self,pop,cross_rate, mut_rate, alpha):
+        # Get json of the pop
+        popData = []
+        for indx in range(len(pop)):
+            popData.append(pop[indx][2])
+
+        popData = np.array(popData)
+
+        # Create empty childs array
+        childs = []
+        # Do operations
+        n = 1 if len(popData) > 2 else 0
+
+        for k in range(len(popData)-n):
+            p1 = popData[k]
+            
+            for p2 in popData[k+1:]:
+                new_child_1, new_child_2 = self.crossoverOperation(p1, p2,cross_rate) # Crossover operation
+                childs.append(new_child_1)
+                childs.append(new_child_2)
+
+                if len(popData[k+1:]) == 1:
+                    new_child_3 = self.mutationOperation(p2,mut_rate,alpha) # Mutation operation
+                    childs.append(new_child_3)
+
+            
+            new_child_3 = self.mutationOperation(p1,mut_rate,alpha) # Mutation operation
+            childs.append(new_child_3)
+            
+        
+
+        childs = np.array(childs)
+
+        return childs
+
