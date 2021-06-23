@@ -74,36 +74,27 @@ def main():
     # callShellFile()
 
     # Set up variables
-    # Get JSON file path
+    
     script_dir = os.path.dirname(__file__)
     
+    # Get JSON results file path 
     path = './../MagarenaCode_1_96/resources/magic/ai/FSMPlaysResults.json'
     file_path_results = os.path.join(script_dir,  path)
 
+    # Get JSON ai file path 
     path_FSM = './../MagarenaCode_1_96/resources/magic/ai/FSMData.json'
     file_path_FSM = os.path.join(script_dir,  path_FSM)
 
+    manager = MainManager(file_path_results,file_path_FSM)
 
-    #Calls
-    try:
-        # callShellFile("RANDOMV1", 3, 3) # Run Duels
-        print("\n")
-    finally:
-        print("======================== Python Test ========================")
-        manager = MainManager(file_path_results,file_path_FSM)
+    
+    # Genetic Algorithm call
+    lastGen = manager.db.getLastGen()
+    genetic_funciton(lastGen,3, manager)
 
-
-        # =================================================================
-        # Genetic Algorithm calls
-        # =================================================================
-        lastGen = manager.db.getLastGen()
-        genetic_funciton(lastGen,3, manager)
-        # =================================================================
-        # Test calls
-        # =================================================================
-            
-        manager.db.saveChanges()
-        manager.db.close()
+    # Save changes in bd
+    manager.db.saveChanges()
+    manager.db.close()
 
         
 
