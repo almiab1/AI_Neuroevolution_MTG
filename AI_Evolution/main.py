@@ -47,7 +47,7 @@ def runDuelsAndFitness(population, duels, matches, oponent,manager):
 def genetic_funciton(gen,n_parents,manager):
     print("======================== Genetic Function ========================")
 
-    cross_rate, mut_rate, alpha = [.75,.05,0.05]
+    cross_rate, mut_rate, alpha = [.75,.05,.05]
 
     # Select population
     pop = manager.db.getMembersGen(gen)
@@ -67,6 +67,9 @@ def genetic_funciton(gen,n_parents,manager):
     for indx,child in enumerate(childs):
         str_child = manager.res_m.toString(child.tolist())
         manager.db.setNewMember(newGen, indx+1, str_child,None)
+    
+    manager.db.saveChanges() # save changes in to database
+
 # ===================================================================
 # Main
 # ===================================================================
@@ -92,8 +95,7 @@ def main():
     lastGen = manager.db.getLastGen()
     genetic_funciton(lastGen,3, manager)
 
-    # Save changes in bd
-    manager.db.saveChanges()
+    # BD close
     manager.db.close()
 
         
