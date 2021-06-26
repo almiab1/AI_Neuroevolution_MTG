@@ -79,7 +79,7 @@ def genetic_funciton(gen,manager):
     # Update bests in bd
     best = manager.db.getBestFitnessInPop()
     manager.db.setNewBest(best[0], best[1], best[3])
-    
+
     manager.db.saveChanges() # save changes in to database
 
 # ===================================================================
@@ -103,10 +103,12 @@ def main():
     manager = MainManager(file_path_results,file_path_FSM)
 
     # Genetic Algorithm call
-    lastGen = manager.db.getLastGen()
-    genetic_funciton(lastGen, manager)
+    # lastGen = manager.db.getLastGen()
+    # genetic_funciton(lastGen, manager)
+
+    # Plot functions
+    manager.data_plot.getAllFitnessPlots()
     
-    manager.db.saveChanges() # save changes in to database
     # BD close
     manager.db.close()
 
