@@ -152,16 +152,19 @@ class Operators():
         # Computes for each chromosome the probability 
         mem_probs = [memb[3]/max for memb in population]
 
+        # Parse arrays
         mem_probs = np.array(mem_probs)
         population_indexs = np.arange(1,len(population)+1)
         
+        # Select number of parens
         n_parents = int(len(population)/2)
+        selected_pop = [] # init list selected parents
+        
+        # Select randomly indexs
+        selected_idnx = np.random.choice(a=population_indexs,size=n_parents,replace=False, p=mem_probs) 
 
-        matting_pop_id = np.random.choice(a=population_indexs,size=n_parents,replace=False, p=mem_probs)
-
-        selected_pop = []
-        for i in population:
-            if i[1] in matting_pop_id:
-                selected_pop.append(list(i))
+        # Set parents obj to selected pop list
+        for i in selected_idnx:
+            selected_pop.append(list(population[i]))
 
         return selected_pop

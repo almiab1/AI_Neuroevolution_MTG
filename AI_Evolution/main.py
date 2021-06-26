@@ -13,6 +13,7 @@
 import subprocess
 import shlex
 import os
+import sys
 
 # Import 
 from src.MainManager import MainManager
@@ -102,13 +103,17 @@ def main():
 
     manager = MainManager(file_path_results,file_path_FSM)
 
+    # Numero de generacions crear
+    print("Set number of generacions: ")
+    n = input()
     # Genetic Algorithm call
-    # lastGen = manager.db.getLastGen()
-    # genetic_funciton(lastGen, manager)
+    for i in range(n):
+        lastGen = manager.db.getLastGen()
+        genetic_funciton(lastGen, manager)
 
     # Plot functions
     manager.data_plot.getAllFitnessPlots()
-    
+
     # BD close
     manager.db.close()
 

@@ -64,12 +64,12 @@ Data Set Best Pop:
     # ===============================================================
     def generatePlotBests(self, x_param, y_param):
         plt.figure()
-        fig = self.db_all_pop.plot(x=x_param, y=y_param).get_figure()
+        fig = self.db_bests.plot(x=x_param, y=y_param).get_figure()
         fig.savefig('resources/plots/bests.jpg')
 
     def generatePlotPop(self, x_param, y_param):
         plt.figure()
-        fig = self.db_all_pop.plot(x=x_param, y=y_param).get_figure()
+        fig = self.db_pop.plot(x=x_param, y=y_param).get_figure()
         fig.savefig('resources/plots/pop.jpg')
 
     def generatePlotAllPop(self, x_param, y_param):
