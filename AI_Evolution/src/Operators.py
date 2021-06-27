@@ -154,7 +154,7 @@ class Operators():
 
         # Parse arrays
         mem_probs = np.array(mem_probs)
-        population_indexs = np.arange(1,len(population)+1)
+        population_indexs = np.arange(0,len(population))
         
         # Select number of parens
         n_parents = int(len(population)/2)

@@ -104,8 +104,7 @@ def main():
     manager = MainManager(file_path_results,file_path_FSM)
 
     # Numero de generacions crear
-    print("Set number of generacions: ")
-    n = input()
+    n = int(input("Set number of generacions: "))
     # Genetic Algorithm call
     for i in range(n):
         lastGen = manager.db.getLastGen()
