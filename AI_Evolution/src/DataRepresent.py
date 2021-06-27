@@ -8,9 +8,12 @@
 # ===================================================================
 # Imports
 # ===================================================================
+import seaborn as sns
 import pandas as pd
-import numpy as np
 import matplotlib.pyplot as plt
+from scipy import stats
+import numpy as np
+import plotly.express as px
 
 from src.DBManager import tables_types as db_names
 # ===================================================================
@@ -62,22 +65,26 @@ Data Set Best Pop:
     # ===============================================================
     # Plots Functions
     # ===============================================================
-    def generatePlotBests(self, x_param, y_param):
+    def generatePlotBests(self, y_param):
         plt.figure()
-        fig = self.db_bests.plot(x=x_param, y=y_param).get_figure()
+        fig = self.db_bests.plot(y=y_param).get_figure()
         fig.savefig('resources/plots/bests.jpg')
 
     def generatePlotPop(self, x_param, y_param):
         plt.figure()
-        fig = self.db_pop.plot(x=x_param, y=y_param).get_figure()
+
+        self.db_pop.sort_values(by=['Fitness'])
+
+        fig = self.db_pop.plot(y=y_param).get_figure()
         fig.savefig('resources/plots/pop.jpg')
 
     def generatePlotAllPop(self, x_param, y_param):
         plt.figure()
-        fig = self.db_all_pop.plot(x=x_param, y=y_param).get_figure()
-        fig.savefig('resources/plots/all_pop.jpg')
+
+        fig = px.box(self.db_all_pop, x="Gen", y="Fitness")
+        fig.write_image('resources/plots/all_pop.jpg')
     
     def getAllFitnessPlots(self):
         self.generatePlotPop("IdMember","Fitness")
-        self.generatePlotAllPop("IdMember","Fitness")
-        self.generatePlotBests("IdMember","Fitness")
+        self.generatePlotAllPop("Gen","Fitness")
+        self.generatePlotBests("Fitness")
