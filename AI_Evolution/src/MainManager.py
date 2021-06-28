@@ -11,9 +11,10 @@
 from src.DataManager import DataManager
 from src.Operators import Operators
 from src.DBManager import DBManager
+from src.DataRepresent import DataRepresent
 
 # ===================================================================
-# Class Opertors
+# Class Manager
 # ===================================================================
 class MainManager():
 
@@ -23,3 +24,4 @@ class MainManager():
         self.fsm_m = DataManager(file_path_FSM)
         self.op = Operators()
         self.db = DBManager(db_location)
+        self.data_plot = DataRepresent(self.db.connection)
