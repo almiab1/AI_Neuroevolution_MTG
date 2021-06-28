@@ -25,7 +25,7 @@ from src.MainManager import MainManager
 # Run shell test
 
 def callShellFile(oponent,duels, matches):
-    subprocess.run(shlex.split(f'./../AI_Test/AiTest.sh {oponent} {duels} {matches}'))
+    subprocess.run(shlex.split(f'./../AI_Test/MagarenaMatchTest.sh {oponent} {duels} {matches}'))
 
 def runDuelsAndFitness(population, duels, matches, oponent,manager):
 
