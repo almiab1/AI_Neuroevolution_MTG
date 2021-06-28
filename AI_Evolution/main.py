@@ -29,7 +29,12 @@ def callShellFile(oponent,duels, matches):
 
 def runDuelsAndFitness(population, duels, matches, oponent,manager):
 
+    op_data = manager.fsm_m_s.getData()
+
     for indx, member in enumerate(population):
+
+        print("\nMatch FSM ---> Gen {} and Id {}  Vs   Gen {} and Id {}\n".format(member[0], member[1], op_data[0], op_data[1]))
+
         manager.fsm_m.wtriteJSONFile(member[2]) # charge data in json to test
         callShellFile(oponent,duels,matches)       # run duels
         manager.res_m.updateData()   # update values of duels
