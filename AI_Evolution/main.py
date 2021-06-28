@@ -103,13 +103,13 @@ def main():
 
     manager = MainManager(file_path_results,file_path_FSM)
 
-    # # Numero de generacions crear
-    # n = int(input("Set number of generacions: "))
-    # # Genetic Algorithm call
-    # for i in range(n):
-    #     lastGen = manager.db.getLastGen()
-    #     genetic_funciton(lastGen, manager)
-    #     manager.data_plot.self.generatePlotPop(str(9+n))
+    # Numero de generacions crear
+    n = int(input("Set number of generacions: "))
+    # Genetic Algorithm call
+    for i in range(n):
+        lastGen = manager.db.getLastGen()
+        genetic_funciton(lastGen, manager)
+        manager.data_plot.self.generatePlotPop(str(9+n))
 
     # Plot functions
     manager.data_plot.getAllFitnessPlots()
