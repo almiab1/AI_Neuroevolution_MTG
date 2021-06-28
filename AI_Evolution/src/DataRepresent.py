@@ -13,7 +13,9 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from scipy import stats
 import numpy as np
+# Ploty imports
 import plotly.express as px
+import plotly.graph_objects as go
 
 from src.DBManager import tables_types as db_names
 # ===================================================================
@@ -65,26 +67,22 @@ Data Set Best Pop:
     # ===============================================================
     # Plots Functions
     # ===============================================================
-    def generatePlotBests(self, y_param):
-        plt.figure()
-        fig = self.db_bests.plot(y=y_param).get_figure()
-        fig.savefig('resources/plots/bests.jpg')
+    def generatePlotBests(self):
+        fig = px.line(self.db_bests, y="Fitness",)
+        fig.update_layout(title="Evolition Best Members in Population")
+        fig.write_image('resources/plots/bests.jpg')
 
-    def generatePlotPop(self, x_param, y_param):
-        plt.figure()
+    def generatePlotPop(self, code_file):
+        fig = px.box(self.db_pop, x="Fitness",labels=True, notched=True)
+        fig.update_layout(title="Box and Whiskers - Population")
+        fig.write_image('resources/plots/pop_'+code_file+'.jpg')
 
-        self.db_pop.sort_values(by=['Fitness'])
-
-        fig = self.db_pop.plot(y=y_param).get_figure()
-        fig.savefig('resources/plots/pop.jpg')
-
-    def generatePlotAllPop(self, x_param, y_param):
-        plt.figure()
-
-        fig = px.box(self.db_all_pop, x="Gen", y="Fitness")
+    def generatePlotAllPop(self):
+        fig = px.box(self.db_all_pop, x="Gen", y="Fitness",notched=True)
+        fig.update_layout(title="Box and Whiskers - Population History")
         fig.write_image('resources/plots/all_pop.jpg')
     
     def getAllFitnessPlots(self):
-        self.generatePlotPop("IdMember","Fitness")
-        self.generatePlotAllPop("Gen","Fitness")
-        self.generatePlotBests("Fitness")
+        self.generatePlotPop(str(1))
+        self.generatePlotAllPop()
+        self.generatePlotBests()

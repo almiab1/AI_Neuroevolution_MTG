@@ -97,6 +97,13 @@ class DBManager():
 
         return bests
 
+    def getBestFitnessHistory(self):
+        best = self.cur.execute('SELECT * FROM AllPopulation WHERE Fitness=(SELECT MAX(Fitness) FROM AllPopulation)').fetchone()
+
+        best = self.parseJSONMember(best)
+
+        return best
+
     # =================================================================
     # Set sentences
     # =================================================================

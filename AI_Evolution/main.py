@@ -53,7 +53,7 @@ def runDuelsAndFitness(population, duels, matches, oponent,manager):
 def genetic_funciton(gen,manager):
     print("======================== Genetic Function ========================")
 
-    cross_rate, mut_rate, alpha = [.75,.05,.05]
+    cross_rate, mut_rate, alpha = [.75,.1,.1]
 
     # Select population
     pop = manager.db.getPop()
@@ -103,12 +103,13 @@ def main():
 
     manager = MainManager(file_path_results,file_path_FSM)
 
-    # Numero de generacions crear
-    n = int(input("Set number of generacions: "))
-    # Genetic Algorithm call
-    for i in range(n):
-        lastGen = manager.db.getLastGen()
-        genetic_funciton(lastGen, manager)
+    # # Numero de generacions crear
+    # n = int(input("Set number of generacions: "))
+    # # Genetic Algorithm call
+    # for i in range(n):
+    #     lastGen = manager.db.getLastGen()
+    #     genetic_funciton(lastGen, manager)
+    #     manager.data_plot.self.generatePlotPop(str(9+n))
 
     # Plot functions
     manager.data_plot.getAllFitnessPlots()
