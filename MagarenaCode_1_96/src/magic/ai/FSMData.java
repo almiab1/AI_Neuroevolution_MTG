@@ -22,10 +22,18 @@ public class FSMData {
     
     private JSONArray json;
     private String pathJSON = "FSMData.json"; // path json
+    private String pathJSONSecond = "FSMDataSecondary.json"; // path json secondary
+
     
     // Contructor
-    FSMData(){
-        String resourceName = this.pathJSON;
+    FSMData(boolean isMain){
+        String resourceName = null;
+        if (isMain) {
+            resourceName = this.pathJSON;
+        } else {
+            resourceName = this.pathJSONSecond;
+        }
+        
         InputStream is = FSMData.class.getResourceAsStream(resourceName);
         if (is == null) {
             throw new NullPointerException("Cannot find resource file " + resourceName);

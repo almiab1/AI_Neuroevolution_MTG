@@ -71,7 +71,7 @@ def genetic_funciton(gen,manager):
         childs.append([newGen, indx+1, list(child),None])
 
     # Execute duels and calculate fitness of the population
-    childs = runDuelsAndFitness(childs, 1, 100, "RANDOMV1", manager)
+    childs = runDuelsAndFitness(childs, 1, 100, "FSMS", manager)
 
     # Update pop
     for indx, p in enumerate(parents):
@@ -101,7 +101,14 @@ def main():
     path_FSM = './../MagarenaCode_1_96/resources/magic/ai/FSMData.json'
     file_path_FSM = os.path.join(script_dir,  path_FSM)
 
-    manager = MainManager(file_path_results,file_path_FSM)
+    path_FSM_secondary = './../MagarenaCode_1_96/resources/magic/ai/FSMDataSecondary.json'
+    file_path_FSM = os.path.join(script_dir,  path_FSM)
+
+    manager = MainManager(file_path_results,file_path_FSM,path_FSM_secondary)
+
+    # Put best fsm in that moment into secondary fsm
+    best = manager.db.getBestFitnessHistory()
+    manager.fsm_m_s.wtriteJSONFile(best[2]) # charge data in json to test
 
     # Numero de generacions crear
     n = int(input("Set number of generacions: "))
@@ -109,7 +116,7 @@ def main():
     for i in range(n):
         lastGen = manager.db.getLastGen()
         genetic_funciton(lastGen, manager)
-        manager.data_plot.self.generatePlotPop(str(9+n))
+        manager.data_plot.self.generatePlotPop(str(i))
 
     # Plot functions
     manager.data_plot.getAllFitnessPlots()

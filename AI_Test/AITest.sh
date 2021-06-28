@@ -35,6 +35,7 @@ lifes=20
 # MTDF       -->     MTDF | MTDFC
 # Random AI  --> RANDOMV1 | RANDOMV1C
 # FSM        -->      FSM | FSMC
+# FSM Secon  -->     FSMS |
 # Decks
 # To FSM --> Red-FSM
 # ---------------------------------------------------------------------------
