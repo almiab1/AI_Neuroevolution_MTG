@@ -113,9 +113,11 @@ class DBManager():
     def setNewMemberInAllPop(self,gen, id, data, fitness):
         self.cur.execute('INSERT INTO AllPopulation (Gen,IdMember,AI,Fitness) VALUES (?,?,?,?)',(gen, id, data, fitness))
     
-    def setNewBest(self,gen, id, fitness):
-        self.cur.execute('INSERT INTO BestFitness (Gen,IdMember,Fitness) VALUES (?,?,?)',(gen, id, fitness))
+    def setNewBestInPop(self,gen, id, fitness):
+        self.cur.execute('INSERT INTO BestFitnessInPop (Gen,IdMember,Fitness) VALUES (?,?,?)',(gen, id, fitness))
     
+    def setNewBestInHistory(self,gen, id, fitness):
+        self.cur.execute('INSERT INTO BestFitnessInHistory (Gen,IdMember,Fitness) VALUES (?,?,?)',(gen, id, fitness))
     
     # =================================================================
     # Update sentences

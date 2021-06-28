@@ -34,8 +34,11 @@ class DataRepresent():
         self.db_all_pop = pd.read_sql_query("SELECT Gen,IdMember,Fitness FROM AllPopulation", conn)
         self.db_all_pop.to_csv('resources/dataset_all_pop.csv', index=False)
 
-        self.db_bests = pd.read_sql_query("SELECT Gen,IdMember,Fitness FROM BestFitness", conn)
-        self.db_bests.to_csv('resources/dataset_best.csv', index=False)
+        self.db_bests_pop = pd.read_sql_query("SELECT Gen,IdMember,Fitness FROM BestFitnessInPop", conn)
+        self.db_bests_pop.to_csv('resources/dataset_best_pop.csv', index=False)
+
+        self.db_bests_his = pd.read_sql_query("SELECT Gen,IdMember,Fitness FROM BestFitnessInHistory", conn)
+        self.db_bests_his.to_csv('resources/dataset_best_history.csv', index=False)
     
     def __str__(self):
         return"""
@@ -60,17 +63,26 @@ Data Set Best Pop:
         self.db_all_pop = pd.read_sql_query("SELECT Gen,IdMember,Fitness FROM AllPopulation", self.conn)
         self.db_all_pop.to_csv('resources/dataset_all_pop.csv', index=False)
 
-    def updateBestFile(self):
-        self.db_bests = pd.read_sql_query("SELECT Gen,IdMember,Fitness FROM BestFitness", self.conn)
-        self.db_bests.to_csv('resources/dataset_best.csv', index=False)
+    def updateBestPopFile(self):
+        self.db_bests_pop = pd.read_sql_query("SELECT Gen,IdMember,Fitness FROM BestFitnessInPop", self.conn)
+        self.db_bests_pop.to_csv('resources/dataset_best.csv', index=False)
+    
+    def updateBestHisFile(self):
+        self.db_bests_his = pd.read_sql_query("SELECT Gen,IdMember,Fitness FROM BestFitnessInHistory", self.conn)
+        self.db_bests_his.to_csv('resources/dataset_best_history.csv', index=False)
 
     # ===============================================================
     # Plots Functions
     # ===============================================================
-    def generatePlotBests(self):
-        fig = px.line(self.db_bests, y="Fitness",)
+    def generatePlotBestsPop(self):
+        fig = px.line(self.db_bests_pop, y="Fitness",)
         fig.update_layout(title="Evolition Best Members in Population")
-        fig.write_image('resources/plots/bests.jpg')
+        fig.write_image('resources/plots/bests_pop.jpg')
+    
+    def generatePlotBestsHis(self):
+        fig = px.line(self.db_bests_his, y="Fitness",)
+        fig.update_layout(title="Evolition Best Members in Population Histoty")
+        fig.write_image('resources/plots/bests_history.jpg')
 
     def generatePlotPop(self, code_file):
         fig = px.box(self.db_pop, x="Fitness",labels=True, notched=True)
@@ -85,4 +97,5 @@ Data Set Best Pop:
     def getAllFitnessPlots(self):
         self.generatePlotPop(str(1))
         self.generatePlotAllPop()
-        self.generatePlotBests()
+        self.generatePlotBestsPop()
+        self.generatePlotBestsHis()

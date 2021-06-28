@@ -27,13 +27,11 @@ from src.MainManager import MainManager
 def callShellFile(oponent,duels, matches):
     subprocess.run(shlex.split(f'./../AI_Test/MagarenaMatchTest.sh {oponent} {duels} {matches}'))
 
-def runDuelsAndFitness(population, duels, matches, oponent,manager):
-
-    op_data = manager.fsm_m_s.getData()
+def runDuelsAndFitness(population, duels, matches, oponent,manager,best):
 
     for indx, member in enumerate(population):
 
-        print("\nMatch FSM ---> Gen {} and Id {}  Vs   Gen {} and Id {}\n".format(member[0], member[1], op_data[0], op_data[1]))
+        print("\nMatch FSM ---> Gen {} and Id {}  Vs   Gen {} and Id {}\n".format(member[0], member[1], best[0], best[1]))
 
         manager.fsm_m.wtriteJSONFile(member[2]) # charge data in json to test
         callShellFile(oponent,duels,matches)       # run duels
@@ -55,7 +53,7 @@ def runDuelsAndFitness(population, duels, matches, oponent,manager):
 # ===================================================================
 # Genetic Function
 # ===================================================================
-def genetic_funciton(gen,manager):
+def genetic_funciton(gen,manager,best):
     print("======================== Genetic Function ========================")
 
     cross_rate, mut_rate, alpha = [.75,.1,.1]
@@ -76,15 +74,17 @@ def genetic_funciton(gen,manager):
         childs.append([newGen, indx+1, list(child),None])
 
     # Execute duels and calculate fitness of the population
-    childs = runDuelsAndFitness(childs, 1, 100, "FSMS", manager)
+    childs = runDuelsAndFitness(childs, 1, 100, "FSMS", manager,best)
 
     # Update pop
     for indx, p in enumerate(parents):
         manager.db.updateMemberInPop(p[0],p[1],childs[indx])
 
     # Update bests in bd
-    best = manager.db.getBestFitnessInPop()
-    manager.db.setNewBest(best[0], best[1], best[3])
+    best_pop = manager.db.getBestFitnessInPop()
+    best_his = manager.db.getBestFitnessHistory()
+    manager.db.setNewBestInPop(best_pop[0], best_pop[1], best_pop[3]) 
+    manager.db.setNewBestInHistory(best_his[0], best_his[1], best_his[3]) 
 
     manager.db.saveChanges() # save changes in to database
 
@@ -120,8 +120,8 @@ def main():
     # Genetic Algorithm call
     for i in range(n):
         lastGen = manager.db.getLastGen()
-        genetic_funciton(lastGen, manager)
-        manager.data_plot.self.generatePlotPop(str(i))
+        genetic_funciton(lastGen, manager, best)
+        manager.data_plot.generatePlotPop(str(i))
 
     # Plot functions
     manager.data_plot.getAllFitnessPlots()
