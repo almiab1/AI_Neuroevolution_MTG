@@ -144,7 +144,7 @@ class Operators():
 
         return childs
 
-    def selectPopulationToMatting(self,population):
+    def selectPopulation(self,population,n_parents):
 
         # Get array of fitness
         fit_arr = np.array([memb[3] for memb in population])
@@ -172,3 +172,5 @@ class Operators():
             selected_pop.append(list(population[i]))
 
         return selected_pop
+    
+

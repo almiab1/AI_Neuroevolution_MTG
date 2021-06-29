@@ -1,5 +1,8 @@
 package magic;
 
+import java.io.FileDescriptor;
+import java.io.FileOutputStream;
+import java.io.PrintStream;
 import java.util.Collections;
 import magic.ai.FSMWriter;
 import magic.ai.MagicAI;
@@ -70,6 +73,8 @@ public class HeadlessAIGame {
     public static void main(final CommandLineArgs cmdline) {
 
         Thread.setDefaultUncaughtExceptionHandler(new ConsoleExceptionHandler());
+        
+        System.setErr(new PrintStream(new FileOutputStream(new FileDescriptor())));
 
         parseCommandLine(cmdline);
 
@@ -92,8 +97,8 @@ public class HeadlessAIGame {
         }
 
         // update results in json file
-        writer.saveChangesInFile(); 
-        
+        writer.saveChangesInFile();
+        System.exit(0);
     }
 
     private static void runDuel(CommandLineArgs args, int duelNum, FSMWriter writer) {

@@ -62,7 +62,7 @@ def genetic_funciton(gen,manager,best):
     pop = manager.db.getPop()
 
     # Select Parents
-    parents =  manager.op.selectPopulationToMatting(pop)
+    parents =  manager.op.selectPopulation(pop,int(len(pop)/2))
     parents = manager.op.shuffleList(parents) #  Suffle parents
 
     # Matting
@@ -74,11 +74,16 @@ def genetic_funciton(gen,manager,best):
         childs.append([newGen, indx+1, list(child),None])
 
     # Execute duels and calculate fitness of the population
-    childs = runDuelsAndFitness(childs, 1, 100, "FSMS", manager,best)
+    childs = runDuelsAndFitness(childs, 1, 100, "MCTS", manager,best)
+
+    # Seleccion poblacion + hijos --> seleccion por ruletas
+    popAndChilds = pop + childs
+    print("Pop + Childs size == {}".format(len(popAndChilds)))
+    selectedPop  =  manager.op.selectPopulation(popAndChilds,100)
 
     # Update pop
-    for indx, p in enumerate(parents):
-        manager.db.updateMemberInPop(p[0],p[1],childs[indx])
+    for indx, p in enumerate(pop):
+        manager.db.updateMemberInPop(p[0],p[1],selectedPop[indx])
 
     # Update bests in bd
     best_pop = manager.db.getBestFitnessInPop()
@@ -109,6 +114,7 @@ def main():
     path_FSM_secondary = './../MagarenaCode_1_96/resources/magic/ai/FSMDataSecondary.json'
     file_path_FSM = os.path.join(script_dir,  path_FSM)
 
+    # Build manager
     manager = MainManager(file_path_results,file_path_FSM,path_FSM_secondary)
 
     # Put best fsm in that moment into secondary fsm
@@ -121,6 +127,7 @@ def main():
     for i in range(n):
         lastGen = manager.db.getLastGen()
         genetic_funciton(lastGen, manager, best)
+        manager.data_plot.updateBestPopFile()
         manager.data_plot.generatePlotPop(str(lastGen+1))
 
     # Plot functions
