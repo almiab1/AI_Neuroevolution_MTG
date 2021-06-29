@@ -154,15 +154,12 @@ class Operators():
         summary = sum([fit for fit in norm_fit_arr])
         fit_probs = [fit/summary for fit in norm_fit_arr]
 
-        print('{}\n{}\n{}\n{}\n'.format(fit_arr,max_fit,min_fit,fit_probs))
-
         # Parse arrays
         population = np.array(population,dtype=object)
         population_indexs = population.shape[0]
         
         # Select number of parens
         n_parents = int(len(population)/2)
-        n_parents = 4
         selected_pop = [] # init list selected parents
         
         # Select randomly indexs
