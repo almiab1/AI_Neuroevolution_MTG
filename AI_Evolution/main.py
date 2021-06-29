@@ -31,7 +31,8 @@ def runDuelsAndFitness(population, duels, matches, oponent,manager,best):
 
     for indx, member in enumerate(population):
 
-        print("\nMatch FSM ---> Gen {} and Id {}  Vs   Gen {} and Id {}\n".format(member[0], member[1], best[0], best[1]))
+        # print("\nMatch FSM ---> Gen {} and Id {}  Vs   Gen {} and Id {}\n".format(member[0], member[1], best[0], best[1]))
+        print("\nMatch FSM ---> Gen {} and Id {}  Vs   Random\n".format(member[0], member[1]))
 
         manager.fsm_m.wtriteJSONFile(member[2]) # charge data in json to test
         
@@ -56,7 +57,7 @@ def runDuelsAndFitness(population, duels, matches, oponent,manager,best):
 # Genetic Function
 # ===================================================================
 def genetic_funciton(gen,manager,best):
-    print("======================== Genetic Function ========================")
+    # print("======================== Genetic Function ========================")
 
     cross_rate, mut_rate, alpha = [.75,.1,.1]
 
@@ -65,7 +66,7 @@ def genetic_funciton(gen,manager,best):
 
     # Select Parents
     n_parents = int(len(pop)/2)
-    parents =  manager.op.selectPopulation(pop,2)
+    parents =  manager.op.selectPopulation(pop,n_parents)
     parents = manager.op.shuffleList(parents) #  Suffle parents
 
     # Matting
@@ -81,9 +82,7 @@ def genetic_funciton(gen,manager,best):
 
     # Seleccion poblacion + hijos --> seleccion por ruletas
     popAndChilds = pop + childs
-    print("Pop + Childs size == {}".format(len(popAndChilds)))
     selectedPop  =  manager.op.selectPopulation(popAndChilds,100)
-    print("selectedPop == {}".format(len(selectedPop)))
 
     # Update pop
     manager.db.updatePopTable(selectedPop)
