@@ -74,7 +74,7 @@ def genetic_funciton(gen,manager,best):
         childs.append([newGen, indx+1, list(child),None])
 
     # Execute duels and calculate fitness of the population
-    childs = runDuelsAndFitness(childs, 1, 100, "MCTS", manager,best)
+    childs = runDuelsAndFitness(childs, 1, 100, "RANDOMV1", manager,best)
 
     # Seleccion poblacion + hijos --> seleccion por ruletas
     popAndChilds = pop + childs

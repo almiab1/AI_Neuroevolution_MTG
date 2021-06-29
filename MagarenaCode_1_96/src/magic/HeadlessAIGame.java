@@ -97,8 +97,11 @@ public class HeadlessAIGame {
         }
 
         // update results in json file
-        writer.saveChangesInFile();
-        System.exit(0);
+        try {
+            writer.saveChangesInFile();
+        } finally {
+            System.exit(0);
+        }
     }
 
     private static void runDuel(CommandLineArgs args, int duelNum, FSMWriter writer) {
