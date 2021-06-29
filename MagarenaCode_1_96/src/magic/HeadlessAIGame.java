@@ -74,7 +74,7 @@ public class HeadlessAIGame {
 
         Thread.setDefaultUncaughtExceptionHandler(new ConsoleExceptionHandler());
         
-        System.setErr(new PrintStream(new FileOutputStream(new FileDescriptor())));
+        // System.setErr(new PrintStream(new FileOutputStream(new FileDescriptor())));
 
         parseCommandLine(cmdline);
 

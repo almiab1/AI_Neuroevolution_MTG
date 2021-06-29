@@ -34,7 +34,9 @@ def runDuelsAndFitness(population, duels, matches, oponent,manager,best):
         print("\nMatch FSM ---> Gen {} and Id {}  Vs   Gen {} and Id {}\n".format(member[0], member[1], best[0], best[1]))
 
         manager.fsm_m.wtriteJSONFile(member[2]) # charge data in json to test
+        
         callShellFile(oponent,duels,matches)       # run duels
+        
         manager.res_m.updateData()   # update values of duels
         fit = manager.op.fitnessFunctionTotal(manager.res_m.getData()) # get fitness
 
@@ -62,7 +64,8 @@ def genetic_funciton(gen,manager,best):
     pop = manager.db.getPop()
 
     # Select Parents
-    parents =  manager.op.selectPopulation(pop,int(len(pop)/2))
+    n_parents = int(len(pop)/2)
+    parents =  manager.op.selectPopulation(pop,2)
     parents = manager.op.shuffleList(parents) #  Suffle parents
 
     # Matting
@@ -82,8 +85,7 @@ def genetic_funciton(gen,manager,best):
     selectedPop  =  manager.op.selectPopulation(popAndChilds,100)
 
     # Update pop
-    for indx, p in enumerate(pop):
-        manager.db.updateMemberInPop(p[0],p[1],selectedPop[indx])
+    manager.db.updatePopTable(selectedPop)
 
     # Update bests in bd
     best_pop = manager.db.getBestFitnessInPop()

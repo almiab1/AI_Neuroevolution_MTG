@@ -159,7 +159,6 @@ class Operators():
         population_indexs = population.shape[0]
         
         # Select number of parens
-        n_parents = int(len(population)/2)
         selected_pop = [] # init list selected parents
         
         # Select randomly indexs
