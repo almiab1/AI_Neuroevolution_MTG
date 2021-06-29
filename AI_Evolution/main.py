@@ -121,7 +121,7 @@ def main():
     for i in range(n):
         lastGen = manager.db.getLastGen()
         genetic_funciton(lastGen, manager, best)
-        manager.data_plot.generatePlotPop(str(i))
+        manager.data_plot.generatePlotPop(str(lastGen+1))
 
     # Plot functions
     manager.data_plot.getAllFitnessPlots()

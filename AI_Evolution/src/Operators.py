@@ -146,22 +146,29 @@ class Operators():
 
     def selectPopulationToMatting(self,population):
 
-        # Computes the totallity of the population fitness
-        max = sum([memb[3] for memb in population])
-        
-        # Computes for each chromosome the probability 
-        mem_probs = [memb[3]/max for memb in population]
+        # Get array of fitness
+        fit_arr = np.array([memb[3] for memb in population])
+        max_fit = np.max(fit_arr)
+        min_fit = np.min(fit_arr)
+        norm_fit_arr = [(fit-min_fit) / (max_fit-min_fit) for fit in fit_arr]
+        summary = sum([fit for fit in norm_fit_arr])
+        fit_probs = [fit/summary for fit in norm_fit_arr]
+
+        print('{}\n{}\n{}\n{}\n'.format(fit_arr,max_fit,min_fit,fit_probs))
 
         # Parse arrays
-        mem_probs = np.array(mem_probs)
-        population_indexs = np.arange(0,len(population))
+        population = np.array(population,dtype=object)
+        population_indexs = population.shape[0]
         
         # Select number of parens
         n_parents = int(len(population)/2)
+        n_parents = 4
         selected_pop = [] # init list selected parents
         
         # Select randomly indexs
-        selected_idnx = np.random.choice(a=population_indexs,size=n_parents,replace=False, p=mem_probs) 
+        selected_idnx = np.random.choice(a=population_indexs,size=n_parents,replace=False, p=fit_probs) 
+
+        # print(selected_idnx)
 
         # Set parents obj to selected pop list
         for i in selected_idnx:
