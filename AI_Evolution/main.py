@@ -83,6 +83,7 @@ def genetic_funciton(gen,manager,best):
     popAndChilds = pop + childs
     print("Pop + Childs size == {}".format(len(popAndChilds)))
     selectedPop  =  manager.op.selectPopulation(popAndChilds,100)
+    print("selectedPop == {}".format(len(selectedPop)))
 
     # Update pop
     manager.db.updatePopTable(selectedPop)

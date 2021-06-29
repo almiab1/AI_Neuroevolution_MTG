@@ -80,12 +80,12 @@ Data Set Best Pop:
     # Plots Functions
     # ===============================================================
     def generatePlotBestsPop(self):
-        fig = px.line(self.db_bests_pop, y="Fitness",)
+        fig = px.line(self.db_bests_pop, y="Fitness")
         fig.update_layout(title="Evolition Best Members in Population")
         fig.write_image('resources/plots/bests_pop.jpg')
     
     def generatePlotBestsHis(self):
-        fig = px.line(self.db_bests_his, y="Fitness",)
+        fig = px.line(self.db_bests_his, y="Fitness")
         fig.update_layout(title="Evolition Best Members in Population Histoty")
         fig.write_image('resources/plots/bests_history.jpg')
 
