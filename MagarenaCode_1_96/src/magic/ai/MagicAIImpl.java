@@ -11,8 +11,9 @@ public enum MagicAIImpl {
     MTDFC("mtd(f) (cheat)", new MTDF(true)),
     RANDOMV1("randomv1", new RandomV1(false)),
     RANDOMV1C("randomv1 (cheat)", new RandomV1(true)),
-    FSM("fsm", new FSM(false)),
-    FSMC("fsm (cheat)", new FSM(true)),
+    FSM("fsm (main)", new FSM(false,true)),
+    FSMC("fsm (cheat,main)", new FSM(true,true)),
+    FSMS("fsm (secondary)", new FSM(false,false)),
     MMABFast("minimax (deck strength)", magic.ai.MMAB.DeckStrAI()),
     ;
 

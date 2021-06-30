@@ -12,6 +12,15 @@ import sqlite3
 
 from src.DataManager import DataManager
 
+
+# ===================================================================
+# Class DB manager
+# ===================================================================
+class tables_types:
+    allPop = 'AllPopulation'
+    pop = 'Population'
+    best = 'BestFitness'
+
 # ===================================================================
 # Class DB manager
 # ===================================================================
@@ -57,44 +66,90 @@ class DBManager():
     
     def getLastGen(self):
         lastGenKey = None
-        lastGenKey = self.cur.execute('SELECT Generation FROM Population WHERE Generation=(SELECT MAX(Generation) FROM Population)').fetchone()
+        lastGenKey = self.cur.execute('SELECT Gen FROM AllPopulation WHERE Gen=(SELECT MAX(Gen) FROM AllPopulation)').fetchone()
         return lastGenKey[0]
     
-    def getMembersGen(self, genKey):
-        members = self.cur.execute('SELECT * FROM Population WHERE Generation = ?',(genKey,)).fetchall()
+    def getMembersGenAllPop(self, genKey):
+        members = self.cur.execute('SELECT * FROM AllPopulation WHERE Gen = ?',(genKey,)).fetchall()
 
-        members = self.parseJSONMember(members)
+        members = self.parseJSONMembers(members)
 
         return members
     
-    def getBestOfGen(self, genKey, n):
-        bests = self.cur.execute('SELECT * FROM Population WHERE Generation = ? ORDER BY Fitness DESC LIMIT ?',(genKey,n)).fetchall()
+    def getPop(self):
+        members = self.cur.execute('SELECT * FROM Population').fetchall()
+
+        members = self.parseJSONMembers(members)
+
+        return members
+    
+    def getBestFitness(self,table, genKey, n):
+        bests = self.cur.execute('SELECT * FROM ? WHERE Gen = ? ORDER BY Fitness DESC LIMIT ?',(table, genKey, n)).fetchall()
+
+        bests = self.parseJSONMembers(bests)
+
+        return bests
+
+    def getBestFitnessInPop(self):
+        bests = self.cur.execute('SELECT * FROM Population WHERE Fitness=(SELECT MAX(Fitness) FROM Population)').fetchone()
 
         bests = self.parseJSONMember(bests)
 
         return bests
 
+    def getBestFitnessHistory(self):
+        best = self.cur.execute('SELECT * FROM AllPopulation WHERE Fitness=(SELECT MAX(Fitness) FROM AllPopulation)').fetchone()
+
+        best = self.parseJSONMember(best)
+
+        return best
 
     # =================================================================
     # Set sentences
     # =================================================================
-    def setNewMember(self,gen, id, data, fitness):
-        self.cur.execute('INSERT INTO Population (Generation,IdMember,AI,Fitness) VALUES (?,?,?,?)',(gen, id, data, fitness))
+    def setNewMemberInPop(self,gen, id, data, fitness):
+        self.cur.execute('INSERT INTO Population (Gen,IdMember,AI,Fitness) VALUES (?,?,?,?)',(gen, id, data, fitness))
+
+    def setNewMemberInAllPop(self,gen, id, data, fitness):
+        self.cur.execute('INSERT INTO AllPopulation (Gen,IdMember,AI,Fitness) VALUES (?,?,?,?)',(gen, id, data, fitness))
+    
+    def setNewBestInPop(self,gen, id, fitness):
+        self.cur.execute('INSERT INTO BestFitnessInPop (Gen,IdMember,Fitness) VALUES (?,?,?)',(gen, id, fitness))
+    
+    def setNewBestInHistory(self,gen, id, fitness):
+        self.cur.execute('INSERT INTO BestFitnessInHistory (Gen,IdMember,Fitness) VALUES (?,?,?)',(gen, id, fitness))
     
     # =================================================================
     # Update sentences
     # =================================================================
 
-    def updateFitness(self, gen, id, fitness):
-        self.cur.execute('UPDATE Population SET Fitness = ? WHERE Generation = ? and IdMember = ?',(fitness,gen,id))
-    
+    def updatePopTable(self,pop):
+        self.deleteAllDataInPop()
+
+        for member in pop:
+            str_data = self.data_m.toString(member[2])
+            gen,id_mem,fit = [member[0],member[1],member[3]]
+            self.setNewMemberInPop(gen, id_mem, str_data, fit)
+    # =================================================================
+    # Delete sentences
+    # =================================================================
+
+    def deleteAllDataInPop(self):
+        self.cur.execute('DELETE FROM Population')
+
     # =================================================================
     # utilities
     # =================================================================
 
-    def parseJSONMember(self, members):
+    def parseJSONMembers(self, members):
         for indx, member in enumerate(members):
             members[indx] = list(member)
             members[indx][2] = self.data_m.toJSON(member[2]) # Parse string json to json object
         
         return members
+
+    def parseJSONMember(self, member):
+        member = list(member)
+        member[2] = self.data_m.toJSON(member[2]) # Parse string json to json object
+        
+        return member

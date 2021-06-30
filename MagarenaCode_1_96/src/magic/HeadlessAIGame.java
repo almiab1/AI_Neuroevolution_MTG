@@ -1,5 +1,8 @@
 package magic;
 
+import java.io.FileDescriptor;
+import java.io.FileOutputStream;
+import java.io.PrintStream;
 import java.util.Collections;
 import magic.ai.FSMWriter;
 import magic.ai.MagicAI;
@@ -70,6 +73,8 @@ public class HeadlessAIGame {
     public static void main(final CommandLineArgs cmdline) {
 
         Thread.setDefaultUncaughtExceptionHandler(new ConsoleExceptionHandler());
+        
+        // System.setErr(new PrintStream(new FileOutputStream(new FileDescriptor())));
 
         parseCommandLine(cmdline);
 
@@ -77,21 +82,26 @@ public class HeadlessAIGame {
          
         MagicSystem.initialize(new ProgressReporter());
 
+    /*
         System.out.println();
         System.out.println("=================== AI vs AI (headless) ====================");
         System.out.println("Threads : " + MagicAI.getMaxThreads());
         System.out.println("Life : " + cmdline.getLife());
         System.out.println("Duels : " + cmdline.getDuels());
         System.out.println("Games : " + cmdline.getGames());
-
+    */
+    
         // run getGames() games getDuels() times.
         for (int i = 0; i < cmdline.getDuels(); i++) {
             runDuel(cmdline, i+1,writer);
         }
 
         // update results in json file
-        writer.saveChangesInFile(); 
-        
+        try {
+            writer.saveChangesInFile();
+        } finally {
+            System.exit(0);
+        }
     }
 
     private static void runDuel(CommandLineArgs args, int duelNum, FSMWriter writer) {
@@ -102,20 +112,22 @@ public class HeadlessAIGame {
         if (duelNum == 1) {
             AiProfile p1 = (AiProfile) duel.getPlayer(0).getProfile();
             AiProfile p2 = (AiProfile) duel.getPlayer(1).getProfile();
-            System.out.printf("P1 : %s [%d]\n", p1.getAiType(), p1.getAiLevel());
-            System.out.printf("P2 : %s [%d]\n", p2.getAiType(), p2.getAiLevel());
+            // System.out.printf("P1 : %s [%d]\n", p1.getAiType(), p1.getAiLevel());
+            // System.out.printf("P2 : %s [%d]\n", p2.getAiType(), p2.getAiLevel());
         }
 
         MagicDeck d1 = duel.getPlayer(0).getDeck();
         MagicDeck d2 = duel.getPlayer(1).getDeck();
 
+    /*
         System.out.println(H1);
         System.out.printf("Duel %d of %d\n", duelNum, args.getDuels());
         System.out.println("D1 : " + d1.getQualifiedName());
         System.out.println("D2 : " + d2.getQualifiedName());
         System.out.println(H2);
         System.out.println("Game  Won  D1  D2 TurnsPlayed  DiferenceLifes Duration");
-
+    */
+        
         int played = 0;
         while (duel.getGamesPlayed() < duel.getGamesTotal()) {
 
@@ -134,6 +146,8 @@ public class HeadlessAIGame {
             final int turnsPlayed = game.getTurnsPlayed(); // calculate diference lifes
 
             played++;
+            
+        /*
             System.out.printf("%d     %s   %d  %d   %d         %d          %.2f\n",
                 played,
                 game.getWinner().getConfig().getDeck().equals(d1) ? "D1" : "D2",
@@ -143,6 +157,7 @@ public class HeadlessAIGame {
                 diferenceLifes,
                 duration
             );
+        */
             
             // Write result of the match
             if("FSM".equals(duel.getPlayer(0).getName())) writer.writeResultsMatches(diferenceLifes,turnsPlayed);

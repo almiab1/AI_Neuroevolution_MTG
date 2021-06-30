@@ -13,6 +13,7 @@
 import subprocess
 import shlex
 import os
+import sys
 
 # Import 
 from src.MainManager import MainManager
@@ -24,49 +25,76 @@ from src.MainManager import MainManager
 # Run shell test
 
 def callShellFile(oponent,duels, matches):
-    subprocess.run(shlex.split(f'./../AI_Test/AiTest.sh {oponent} {duels} {matches}'))
+    subprocess.run(shlex.split(f'./../AI_Test/MagarenaMatchTest.sh {oponent} {duels} {matches}'))
 
-def runDuelsAndFitness(population, duels, matches, oponent,manager):
+def runDuelsAndFitness(population, duels, matches, oponent,manager,best):
 
-    for member in population:
+    for indx, member in enumerate(population):
+
+        # print("\nMatch FSM ---> Gen {} and Id {}  Vs   Gen {} and Id {}\n".format(member[0], member[1], best[0], best[1]))
+        print("\nMatch FSM ---> Gen {} and Id {}  Vs   Random\n".format(member[0], member[1]))
+
         manager.fsm_m.wtriteJSONFile(member[2]) # charge data in json to test
+        
         callShellFile(oponent,duels,matches)       # run duels
+        
         manager.res_m.updateData()   # update values of duels
         fit = manager.op.fitnessFunctionTotal(manager.res_m.getData()) # get fitness
-        manager.db.updateFitness(member[0],member[1], fit)
+
+        population[indx][3] = fit
+
+        # Update database
+        str_m = manager.res_m.toString(member[2])
+        manager.db.setNewMemberInAllPop(member[0],member[1],str_m, member[3])
     
     manager.db.saveChanges()
 
-
+    return population
 
 
 
 # ===================================================================
 # Genetic Function
 # ===================================================================
-def genetic_funciton(gen,n_parents,manager):
-    print("======================== Genetic Function ========================")
+def genetic_funciton(gen,manager,best):
+    # print("======================== Genetic Function ========================")
 
-    cross_rate, mut_rate, alpha = [.75,.05,0.05]
+    cross_rate, mut_rate, alpha = [.75,.1,.1]
 
     # Select population
-    pop = manager.db.getMembersGen(gen)
+    pop = manager.db.getPop()
 
-    # Execute duels and calculate fitness of the population
-    runDuelsAndFitness(pop, 2, 25, "RANDOMV1", manager)
-
-    # Select parents (best of the tested population)
-    best = manager.db.getBestOfGen(gen,n_parents)
+    # Select Parents
+    n_parents = int(len(pop)/2)
+    parents =  manager.op.selectPopulation(pop,n_parents)
+    parents = manager.op.shuffleList(parents) #  Suffle parents
 
     # Matting
-    childs = manager.op.matting(best,cross_rate, mut_rate, alpha)
+    childs_data = manager.op.matting(parents,cross_rate, mut_rate, alpha)
+    
+    childs = []
+    newGen = gen + 1
+    for indx,child in enumerate(childs_data):
+        childs.append([newGen, indx+1, list(child),None])
 
-    # Update population with the childs
-    newGen = manager.db.getLastGen() + 1
+    # Execute duels and calculate fitness of the population
+    childs = runDuelsAndFitness(childs, 1, 100, "RANDOMV1", manager,best)
 
-    for indx,child in enumerate(childs):
-        str_child = manager.res_m.toString(child.tolist())
-        manager.db.setNewMember(newGen, indx+1, str_child,None)
+    # Seleccion poblacion + hijos --> seleccion por ruletas
+    popAndChilds = pop + childs
+    selectedPop  =  manager.op.selectPopulation(popAndChilds,100)
+
+    # Update pop
+    manager.db.updatePopTable(selectedPop)
+
+    # Update bests in bd
+    best_pop = manager.db.getBestFitnessInPop()
+    best_his = manager.db.getBestFitnessHistory()
+    manager.db.setNewBestInPop(best_pop[0], best_pop[1], best_pop[3]) 
+    manager.db.setNewBestInHistory(best_his[0], best_his[1], best_his[3]) 
+
+    manager.db.saveChanges() # save changes in to database
+
 # ===================================================================
 # Main
 # ===================================================================
@@ -74,36 +102,47 @@ def main():
     # callShellFile()
 
     # Set up variables
-    # Get JSON file path
+    
     script_dir = os.path.dirname(__file__)
     
+    # Get JSON results file path 
     path = './../MagarenaCode_1_96/resources/magic/ai/FSMPlaysResults.json'
     file_path_results = os.path.join(script_dir,  path)
 
+    # Get JSON ai file path 
     path_FSM = './../MagarenaCode_1_96/resources/magic/ai/FSMData.json'
     file_path_FSM = os.path.join(script_dir,  path_FSM)
 
+    path_FSM_secondary = './../MagarenaCode_1_96/resources/magic/ai/FSMDataSecondary.json'
+    file_path_FSM = os.path.join(script_dir,  path_FSM)
 
-    #Calls
-    try:
-        # callShellFile("RANDOMV1", 3, 3) # Run Duels
-        print("\n")
-    finally:
-        print("======================== Python Test ========================")
-        manager = MainManager(file_path_results,file_path_FSM)
+    # Build manager
+    manager = MainManager(file_path_results,file_path_FSM,path_FSM_secondary)
 
+    # Put best fsm in that moment into secondary fsm
+    # best = manager.db.getBestFitnessHistory()
+    # manager.fsm_m_s.wtriteJSONFile(best[2]) # charge data in json to test
 
-        # =================================================================
-        # Genetic Algorithm calls
-        # =================================================================
+    # Numero de generacions crear
+    n = int(input("Set number of generacions: "))
+
+    # generate initial chart
+    lastGen = manager.db.getLastGen()
+    manager.data_plot.updateBestPopFile()
+    manager.data_plot.generatePlotPop(str(lastGen))
+ 
+    # Genetic Algorithm call
+    for i in range(n):
         lastGen = manager.db.getLastGen()
-        genetic_funciton(lastGen,3, manager)
-        # =================================================================
-        # Test calls
-        # =================================================================
-            
-        manager.db.saveChanges()
-        manager.db.close()
+        genetic_funciton(lastGen, manager, best)
+        manager.data_plot.updateBestPopFile()
+        manager.data_plot.generatePlotPop(str(lastGen+1))
+
+    # Plot functions
+    manager.data_plot.getAllFitnessPlots()
+
+    # BD close
+    manager.db.close()
 
         
 

@@ -6,6 +6,11 @@ name = "pypi"
 [packages]
 numpy = "*"
 ushlex = "*"
+pandas = "*"
+matplotlib = "*"
+seaborn = "*"
+plotly = "*"
+kaleido = "*"
 
 [dev-packages]
 

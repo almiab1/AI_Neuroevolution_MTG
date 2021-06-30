@@ -29,7 +29,7 @@ class Operators():
         fitness = None
         totalCost_sum = 0
         numMatches = 0
-        print("=================== Execute Cost Function ===================")
+
         for duel in dataSet:
             numMatches += len(dataSet[duel]) # sum the number of matches
             for match in dataSet[duel]:
@@ -51,6 +51,7 @@ class Operators():
             for phase, value in element.items():
                 for index_s, states in enumerate(value):
                     sum_probs = 0
+
                     for keyAction, prob in states["Opts"].items():
                         sum_probs += prob
                     
@@ -61,6 +62,10 @@ class Operators():
         dataSet = aiData.copy()
 
         return dataSet
+    
+    def shuffleList(self, list):
+        random.shuffle(list)
+        return list
 
     # =================================================================
     # Neuroevolution operations
@@ -74,24 +79,36 @@ class Operators():
         # check for recombination
         if np.random.rand() < cross_rate:
             # select crossover point that is not on the end of the string
-            crossIndex = random.randint(1, len(p1)-2)
-            # print("Cross index: {}".format(crossIndex))
-
+            crossIndex = random.randint(1,len(ch1)-1)
             # perform crossover
-            ch1 = np.concatenate((p1[:crossIndex],p2[crossIndex:]))
-            ch2 = np.concatenate((p2[:crossIndex],p1[crossIndex:]))
+            ch1[crossIndex] = p2[crossIndex]
+            ch2[crossIndex] = p1[crossIndex]
         return [ch1, ch2]
 
     def mutationOperation(self, parent, mut_rate, alpha):
         # print("\n=================== Execute Mutation Operation =================")
         child = parent.copy()
+        # Mutar dif vidas
 
         for index_e, element in enumerate(child):
             for phase, value in element.items():
-                for index_s, states in enumerate(value):                   
-                    for keyAction, prob in states["Opts"].items():
-                        if np.random.rand() < mut_rate: 
-                            child[index_e][phase][index_s]["Opts"][keyAction] = prob * alpha
+                for index_s, states in enumerate(value):
+                    # Lifes Mutation
+                    if np.random.rand() < mut_rate:
+                        newRange = states["Lifes"] + alpha if np.random.rand() < mut_rate else states["Lifes"] - alpha
+                        newRange = np.round(newRange,2)
+                        child[index_e][phase][index_s]["Lifes"] = newRange
+
+                    # Ops Mutation
+                    for keyAction, prob in states["Opts"].items(): 
+                        if np.random.rand() < mut_rate:
+                            newProb = prob
+                            if random.choice([True, False]):
+                                newProb = prob + alpha
+                            else:
+                                newProb = prob - alpha
+                            
+                            child[index_e][phase][index_s]["Opts"][keyAction] = newProb
 
         child = self.normalizeValuesAI(child)
 
@@ -100,6 +117,7 @@ class Operators():
     def matting(self,pop,cross_rate, mut_rate, alpha):
         # Get json of the pop
         popData = []
+        
         for indx in range(len(pop)):
             popData.append(pop[indx][2])
 
@@ -107,28 +125,52 @@ class Operators():
 
         # Create empty childs array
         childs = []
-        # Do operations
-        n = 1 if len(popData) > 2 else 0
 
-        for k in range(len(popData)-n):
-            p1 = popData[k]
-            
-            for p2 in popData[k+1:]:
-                new_child_1, new_child_2 = self.crossoverOperation(p1, p2,cross_rate) # Crossover operation
-                childs.append(new_child_1)
-                childs.append(new_child_2)
-
-                if len(popData[k+1:]) == 1:
-                    new_child_3 = self.mutationOperation(p2,mut_rate,alpha) # Mutation operation
-                    childs.append(new_child_3)
-
-            
-            new_child_3 = self.mutationOperation(p1,mut_rate,alpha) # Mutation operation
-            childs.append(new_child_3)
-            
+        n = int((len(popData)/2))
+        # Operations
+        for indx in range(n):           
         
+            p1 = popData[indx]
+            p2 = popData[indx+n]
 
-        childs = np.array(childs)
+            # Crossover operation    
+            new_child_1, new_child_2 = self.crossoverOperation(p1, p2,cross_rate) # Crossover operation
+
+            # Mutation operation    
+            new_child_1 = self.mutationOperation(new_child_1,mut_rate,alpha) # Mutation operation
+            new_child_2 = self.mutationOperation(new_child_2,mut_rate,alpha) # Mutation operation
+
+            childs.append(new_child_1)
+            childs.append(new_child_2)
 
         return childs
+
+    def selectPopulation(self,population,n_parents):
+
+        # Get array of fitness
+        fit_arr = np.array([memb[3] for memb in population])
+        max_fit = np.max(fit_arr)
+        min_fit = np.min(fit_arr)
+        norm_fit_arr = [(fit-min_fit) / (max_fit-min_fit) for fit in fit_arr]
+        summary = sum([fit for fit in norm_fit_arr])
+        fit_probs = [fit/summary for fit in norm_fit_arr]
+
+        # Parse arrays
+        population = np.array(population,dtype=object)
+        population_indexs = population.shape[0]
+        
+        # Select number of parens
+        selected_pop = [] # init list selected parents
+        
+        # Select randomly indexs
+        selected_idnx = np.random.choice(a=population_indexs,size=n_parents,replace=False, p=fit_probs) 
+
+        # print(selected_idnx)
+
+        # Set parents obj to selected pop list
+        for i in selected_idnx:
+            selected_pop.append(list(population[i]))
+
+        return selected_pop
+    
 
