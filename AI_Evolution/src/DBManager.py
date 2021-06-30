@@ -113,18 +113,29 @@ class DBManager():
     def setNewMemberInAllPop(self,gen, id, data, fitness):
         self.cur.execute('INSERT INTO AllPopulation (Gen,IdMember,AI,Fitness) VALUES (?,?,?,?)',(gen, id, data, fitness))
     
-    def setNewBest(self,gen, id, fitness):
-        self.cur.execute('INSERT INTO BestFitness (Gen,IdMember,Fitness) VALUES (?,?,?)',(gen, id, fitness))
+    def setNewBestInPop(self,gen, id, fitness):
+        self.cur.execute('INSERT INTO BestFitnessInPop (Gen,IdMember,Fitness) VALUES (?,?,?)',(gen, id, fitness))
     
+    def setNewBestInHistory(self,gen, id, fitness):
+        self.cur.execute('INSERT INTO BestFitnessInHistory (Gen,IdMember,Fitness) VALUES (?,?,?)',(gen, id, fitness))
     
     # =================================================================
     # Update sentences
     # =================================================================
 
-    def updateMemberInPop(self,gen,id, member):
-        str_data = self.data_m.toString(member[2])
-        new_gen,new_id,fitness = [member[0],member[1],member[3]]
-        self.cur.execute('UPDATE Population SET Gen = ?, IdMember = ?, Fitness = ?, AI = ? WHERE Gen = ? and IdMember = ?',(new_gen,new_id,fitness,str_data,gen,id))
+    def updatePopTable(self,pop):
+        self.deleteAllDataInPop()
+
+        for member in pop:
+            str_data = self.data_m.toString(member[2])
+            gen,id_mem,fit = [member[0],member[1],member[3]]
+            self.setNewMemberInPop(gen, id_mem, str_data, fit)
+    # =================================================================
+    # Delete sentences
+    # =================================================================
+
+    def deleteAllDataInPop(self):
+        self.cur.execute('DELETE FROM Population')
 
     # =================================================================
     # utilities

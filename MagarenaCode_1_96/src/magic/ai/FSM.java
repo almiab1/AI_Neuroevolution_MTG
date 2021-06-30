@@ -25,9 +25,9 @@ public class FSM extends MagicAI {
     private FSMSelector fsmSelector;
 
 
-    FSM(final boolean cheat) {
+    FSM(final boolean cheat, boolean isMain) {
         CHEAT = cheat;
-        this.fsmData = new FSMData();
+        this.fsmData = new FSMData(isMain);
         this.fsmSelector = new FSMSelector(this.fsmData);
     }
 

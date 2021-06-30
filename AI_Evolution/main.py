@@ -25,13 +25,19 @@ from src.MainManager import MainManager
 # Run shell test
 
 def callShellFile(oponent,duels, matches):
-    subprocess.run(shlex.split(f'./../AI_Test/AiTest.sh {oponent} {duels} {matches}'))
+    subprocess.run(shlex.split(f'./../AI_Test/MagarenaMatchTest.sh {oponent} {duels} {matches}'))
 
-def runDuelsAndFitness(population, duels, matches, oponent,manager):
+def runDuelsAndFitness(population, duels, matches, oponent,manager,best):
 
     for indx, member in enumerate(population):
+
+        # print("\nMatch FSM ---> Gen {} and Id {}  Vs   Gen {} and Id {}\n".format(member[0], member[1], best[0], best[1]))
+        print("\nMatch FSM ---> Gen {} and Id {}  Vs   Random\n".format(member[0], member[1]))
+
         manager.fsm_m.wtriteJSONFile(member[2]) # charge data in json to test
+        
         callShellFile(oponent,duels,matches)       # run duels
+        
         manager.res_m.updateData()   # update values of duels
         fit = manager.op.fitnessFunctionTotal(manager.res_m.getData()) # get fitness
 
@@ -50,8 +56,8 @@ def runDuelsAndFitness(population, duels, matches, oponent,manager):
 # ===================================================================
 # Genetic Function
 # ===================================================================
-def genetic_funciton(gen,manager):
-    print("======================== Genetic Function ========================")
+def genetic_funciton(gen,manager,best):
+    # print("======================== Genetic Function ========================")
 
     cross_rate, mut_rate, alpha = [.75,.1,.1]
 
@@ -59,7 +65,8 @@ def genetic_funciton(gen,manager):
     pop = manager.db.getPop()
 
     # Select Parents
-    parents =  manager.op.selectPopulationToMatting(pop)
+    n_parents = int(len(pop)/2)
+    parents =  manager.op.selectPopulation(pop,n_parents)
     parents = manager.op.shuffleList(parents) #  Suffle parents
 
     # Matting
@@ -71,15 +78,20 @@ def genetic_funciton(gen,manager):
         childs.append([newGen, indx+1, list(child),None])
 
     # Execute duels and calculate fitness of the population
-    childs = runDuelsAndFitness(childs, 1, 100, "RANDOMV1", manager)
+    childs = runDuelsAndFitness(childs, 1, 100, "RANDOMV1", manager,best)
+
+    # Seleccion poblacion + hijos --> seleccion por ruletas
+    popAndChilds = pop + childs
+    selectedPop  =  manager.op.selectPopulation(popAndChilds,100)
 
     # Update pop
-    for indx, p in enumerate(parents):
-        manager.db.updateMemberInPop(p[0],p[1],childs[indx])
+    manager.db.updatePopTable(selectedPop)
 
     # Update bests in bd
-    best = manager.db.getBestFitnessInPop()
-    manager.db.setNewBest(best[0], best[1], best[3])
+    best_pop = manager.db.getBestFitnessInPop()
+    best_his = manager.db.getBestFitnessHistory()
+    manager.db.setNewBestInPop(best_pop[0], best_pop[1], best_pop[3]) 
+    manager.db.setNewBestInHistory(best_his[0], best_his[1], best_his[3]) 
 
     manager.db.saveChanges() # save changes in to database
 
@@ -101,15 +113,30 @@ def main():
     path_FSM = './../MagarenaCode_1_96/resources/magic/ai/FSMData.json'
     file_path_FSM = os.path.join(script_dir,  path_FSM)
 
-    manager = MainManager(file_path_results,file_path_FSM)
+    path_FSM_secondary = './../MagarenaCode_1_96/resources/magic/ai/FSMDataSecondary.json'
+    file_path_FSM = os.path.join(script_dir,  path_FSM)
+
+    # Build manager
+    manager = MainManager(file_path_results,file_path_FSM,path_FSM_secondary)
+
+    # Put best fsm in that moment into secondary fsm
+    # best = manager.db.getBestFitnessHistory()
+    # manager.fsm_m_s.wtriteJSONFile(best[2]) # charge data in json to test
 
     # Numero de generacions crear
     n = int(input("Set number of generacions: "))
+
+    # generate initial chart
+    lastGen = manager.db.getLastGen()
+    manager.data_plot.updateBestPopFile()
+    manager.data_plot.generatePlotPop(str(lastGen))
+ 
     # Genetic Algorithm call
     for i in range(n):
         lastGen = manager.db.getLastGen()
-        genetic_funciton(lastGen, manager)
-        manager.data_plot.self.generatePlotPop(str(9+n))
+        genetic_funciton(lastGen, manager, best)
+        manager.data_plot.updateBestPopFile()
+        manager.data_plot.generatePlotPop(str(lastGen+1))
 
     # Plot functions
     manager.data_plot.getAllFitnessPlots()

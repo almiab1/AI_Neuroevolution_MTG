@@ -5,12 +5,11 @@
 # ---------------------------------------------------------------------------
 # Set up
 # ---------------------------------------------------------------------------
-magarena_dir='./../MagarenaCode_1_96/release/' # Path wls
+magarena_dir='./../MagarenaCode_1_96/release/' # Relative Path
 # magarena_dir='/mnt/d/0-Varios/Universidad/TFG/Framework/AI_TFG/MagarenaCode_1_96/release/' # Path wls
 # magarena_dir='/media/pica/DATA/0-Varios/Universidad/TFG/Framework/AI_TFG/MagarenaCode_1_96/release' # Path win10
 # magarena_dir='/home/tfg/TFG/AI_TFG/MagarenaCode_1_96/release' # Path cluster
 cd $magarena_dir
-clear
 # ---------------------------------------------------------------------------
 
 # ---------------------------------------------------------------------------
@@ -35,6 +34,7 @@ lifes=20
 # MTDF       -->     MTDF | MTDFC
 # Random AI  --> RANDOMV1 | RANDOMV1C
 # FSM        -->      FSM | FSMC
+# FSM Secon  -->     FSMS |
 # Decks
 # To FSM --> Red-FSM
 # ---------------------------------------------------------------------------
