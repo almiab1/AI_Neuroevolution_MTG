@@ -95,7 +95,8 @@ class Operators():
                 for index_s, states in enumerate(value):
                     # Lifes Mutation
                     if np.random.rand() < mut_rate:
-                        newRange = np.round(states["Lifes"] + alpha)  if np.random.rand() < mut_rate else np.round(states["Lifes"] - alpha)
+                        newRange = states["Lifes"] + alpha if np.random.rand() < mut_rate else states["Lifes"] - alpha
+                        newRange = np.round(newRange,2)
                         child[index_e][phase][index_s]["Lifes"] = newRange
 
                     # Ops Mutation
