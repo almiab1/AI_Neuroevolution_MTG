@@ -27,12 +27,11 @@ from src.MainManager import MainManager
 def callShellFile(oponent,duels, matches):
     subprocess.run(shlex.split(f'./../AI_Test/MagarenaMatchTest.sh {oponent} {duels} {matches}'))
 
-def runDuelsAndFitness(population, duels, matches, oponent,manager,best):
+def runDuelsAndFitness(population, duels, matches, oponent,manager):
 
     for indx, member in enumerate(population):
 
-        # print("\nMatch FSM ---> Gen {} and Id {}  Vs   Gen {} and Id {}\n".format(member[0], member[1], best[0], best[1]))
-        print("\nMatch FSM ---> Gen {} and Id {}  Vs   Random\n".format(member[0], member[1]))
+        print("\nMatch FSM ---> Gen {} and Id {}\n".format(member[0], member[1]))
 
         manager.fsm_m.wtriteJSONFile(member[2]) # charge data in json to test
         
@@ -51,12 +50,33 @@ def runDuelsAndFitness(population, duels, matches, oponent,manager,best):
 
     return population
 
+# ===================================================================
+# Generate init random pop
+# ===================================================================
+def genInitPop(numPop,manager):
+    #  Generate data pop
+    pop_d = manager.fsm_m.generatePopulation(numPop)
+    pop = []
+    for indx,mem in enumerate(pop_d):
+        pop.append([1, indx+1, list(mem),None])
+    # Execute duels and calculate fitness of the population
+    pop_t = runDuelsAndFitness(pop, 1, 100, "FSMS", manager)
+    # Update pop
+    manager.db.updatePopTable(pop_t)
+    # Update bests in bd
+    best_pop = manager.db.getBestFitnessInPop()
+    best_his = manager.db.getBestFitnessHistory()
+    manager.db.setNewBestInPop(best_pop[0], best_pop[1], best_pop[3]) 
+    manager.db.setNewBestInHistory(best_his[0], best_his[1], best_his[3])
+    # Save changes in bd
+    manager.db.saveChanges()
+
 
 
 # ===================================================================
 # Genetic Function
 # ===================================================================
-def genetic_funciton(gen,manager,best):
+def genetic_funciton(gen,manager):
     # print("======================== Genetic Function ========================")
 
     cross_rate, mut_rate, alpha = [.75,.1,.1]
@@ -78,11 +98,11 @@ def genetic_funciton(gen,manager,best):
         childs.append([newGen, indx+1, list(child),None])
 
     # Execute duels and calculate fitness of the population
-    childs = runDuelsAndFitness(childs, 1, 100, "RANDOMV1", manager,best)
+    childs = runDuelsAndFitness(childs, 1, 100, "FSMS", manager)
 
     # Seleccion poblacion + hijos --> seleccion por ruletas
     popAndChilds = pop + childs
-    selectedPop  =  manager.op.selectPopulation(popAndChilds,100)
+    selectedPop  =  manager.op.selectPopulation(popAndChilds,200)
 
     # Update pop
     manager.db.updatePopTable(selectedPop)
@@ -126,17 +146,21 @@ def main():
     # Numero de generacions crear
     n = int(input("Set number of generacions: "))
 
-    # generate initial chart
+    # Generate init pop
+    genInitPop(200,manager)
+
+    # Generate initial chart
     lastGen = manager.db.getLastGen()
     manager.data_plot.updateBestPopFile()
     manager.data_plot.generatePlotPop(str(lastGen))
- 
+
     # Genetic Algorithm call
     for i in range(n):
         lastGen = manager.db.getLastGen()
-        genetic_funciton(lastGen, manager, best)
+        genetic_funciton(lastGen, manager)
         manager.data_plot.updateBestPopFile()
         manager.data_plot.generatePlotPop(str(lastGen+1))
+
 
     # Plot functions
     manager.data_plot.getAllFitnessPlots()
