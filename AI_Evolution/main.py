@@ -120,11 +120,17 @@ def main():
     manager = MainManager(file_path_results,file_path_FSM,path_FSM_secondary)
 
     # Put best fsm in that moment into secondary fsm
-    best = manager.db.getBestFitnessHistory()
-    manager.fsm_m_s.wtriteJSONFile(best[2]) # charge data in json to test
+    # best = manager.db.getBestFitnessHistory()
+    # manager.fsm_m_s.wtriteJSONFile(best[2]) # charge data in json to test
 
     # Numero de generacions crear
     n = int(input("Set number of generacions: "))
+
+    # generate initial chart
+    lastGen = manager.db.getLastGen()
+    manager.data_plot.updateBestPopFile()
+    manager.data_plot.generatePlotPop(str(lastGen))
+ 
     # Genetic Algorithm call
     for i in range(n):
         lastGen = manager.db.getLastGen()
