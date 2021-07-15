@@ -60,5 +60,7 @@ pip env shell
 python3 main.py
 ```
 
+***
+
 ## 📜 License
 Licensed under the GNU General Public License v3.0
