@@ -92,7 +92,7 @@ Data Set Best Pop:
     def generatePlotPop(self, code_file):
         self.updatePopFile()
         fig = px.box(self.db_pop, x="Fitness",labels=True, notched=True)
-        fig.update_layout(title="Box and Whiskers - Population - Generation "+code_file)
+        fig.update_layout(title="Box and Whiskers - Population")
         fig.write_image('resources/plots/popImg/pop_'+code_file+'.jpg')
 
     def generatePlotAllPop(self):
