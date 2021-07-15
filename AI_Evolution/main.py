@@ -25,13 +25,13 @@ from src.MainManager import MainManager
 # Run shell test
 
 def callShellFile(oponent,duels, matches):
-    subprocess.run(shlex.split(f'./../AI_Test/MagarenaMatchTest.sh {oponent} {duels} {matches}'))
+    subprocess.run(shlex.split(f'./../AI_Test/MagarenaMaches.sh {oponent} {duels} {matches}'))
 
 def runDuelsAndFitness(population, duels, matches, oponent,manager):
 
     for indx, member in enumerate(population):
 
-        print("\nMatch FSM ---> Gen {} and Id {}\n".format(member[0], member[1]))
+        # print("\nMatch FSM ---> Gen {} and Id {}\n".format(member[0], member[1]))
 
         manager.fsm_m.wtriteJSONFile(member[2]) # charge data in json to test
         
@@ -60,7 +60,7 @@ def genInitPop(numPop,manager):
     for indx,mem in enumerate(pop_d):
         pop.append([1, indx+1, list(mem),None])
     # Execute duels and calculate fitness of the population
-    pop_t = runDuelsAndFitness(pop, 1, 100, "FSMS", manager)
+    pop_t = runDuelsAndFitness(pop, 1, 10, "MCTS", manager)
     # Update pop
     manager.db.updatePopTable(pop_t)
     # Update bests in bd
@@ -98,7 +98,7 @@ def genetic_funciton(gen,manager):
         childs.append([newGen, indx+1, list(child),None])
 
     # Execute duels and calculate fitness of the population
-    childs = runDuelsAndFitness(childs, 1, 100, "FSMS", manager)
+    childs = runDuelsAndFitness(childs, 1, 10, "MCTS", manager)
 
     # Seleccion poblacion + hijos --> seleccion por ruletas
     popAndChilds = pop + childs
@@ -144,8 +144,8 @@ def main():
     # manager.fsm_m_s.wtriteJSONFile(best[2]) # charge data in json to test
 
     # Numero de generacions crear
-    n = int(input("Set number of generacions: "))
-
+    # n = int(input("Set number of generacions: "))
+    n = 100
     # Generate init pop
     genInitPop(200,manager)
 
@@ -158,8 +158,13 @@ def main():
     for i in range(n):
         lastGen = manager.db.getLastGen()
         genetic_funciton(lastGen, manager)
+        # Create plots
         manager.data_plot.updateBestPopFile()
         manager.data_plot.generatePlotPop(str(lastGen+1))
+        
+        if i is n/2:
+            manager.data_plot.getAllFitnessPlots()
+
 
 
     # Plot functions

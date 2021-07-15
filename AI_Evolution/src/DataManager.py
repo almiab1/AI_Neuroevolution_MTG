@@ -51,7 +51,7 @@ class DataManager():
     def setData(self, newData):
         self.dataset = newData
 
-    def setData(self, newPath):
+    def setPath(self, newPath):
         self.pathFile = newPath
 
     # =================================================================
