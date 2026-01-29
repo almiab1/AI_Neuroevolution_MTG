@@ -206,7 +206,7 @@ AI_Neuroevolution_MTG/
 ├── AI_Test/
 │   └── MagarenaMatches.sh         # Shell script to run matches
 │
-├── MagarenaCode_1_96/             # Modified Magarena game engine (v1.96, December 2019)
+├── MagarenaCode_1_96/             # Modified Magarena game engine (Magarena v1.96)
 │                                   # Custom FSM AI player implementation integrated into the engine
 │   ├── src/magic/ai/              # FSM AI implementation (Java)
 │   │   ├── FSM.java               # Main FSM player
