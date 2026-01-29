@@ -190,7 +190,7 @@ The training will:
 ## 📁 Project Structure
 
 ```
-AI_TFG/
+AI_Neuroevolution_MTG/
 │
 ├── AI_Evolution/                  # Main Python framework
 │   ├── src/
@@ -215,10 +215,10 @@ AI_TFG/
 │   ├── resources/magic/ai/        # FSM data files (JSON)
 │   └── ...                        # Game engine code
 │
-├── Trainings/                     # Training results storage
-│   ├── trainingResults_1/         # First training run
-│   ├── trainingResults_2/         # Second training run
-│   └── trainingResults_3/         # Third training run
+├── Trainigs/                      # Training results storage
+│   ├── trainingReuslts_1/         # First training run
+│   ├── trainingReuslts_2/         # Second training run
+│   └── trainingReuslts_3/         # Third training run
 │       ├── population.db          # SQLite database
 │       ├── dataset_*.csv          # Exported CSV data
 │       └── plots/                 # Generated visualizations
