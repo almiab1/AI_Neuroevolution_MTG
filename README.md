@@ -190,7 +190,7 @@ The training will:
 ## 📁 Project Structure
 
 ```
-AI_Neuroevolution_MTG/
+AI_TFG/
 │
 ├── AI_Evolution/                  # Main Python framework
 │   ├── src/
