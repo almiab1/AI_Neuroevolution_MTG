@@ -19,8 +19,11 @@ An intelligent AI system that learns to play Magic: The Gathering using neuroevo
 - [Project Structure](#project-structure)
 - [Training Results](#training-results)
 - [How It Works](#how-it-works)
+- [Troubleshooting](#troubleshooting)
 - [License](#license)
 - [Author](#author)
+- [Acknowledgments](#acknowledgments)
+- [Contact & Contributing](#contact--contributing)
 
 ---
 
@@ -128,7 +131,6 @@ This will install all required Python packages:
 - `seaborn` - Statistical visualization
 - `plotly` - Interactive plots
 - `kaleido` - Static image export
-- `ushlex` - Shell command parsing
 
 ### 3. Verify Java Installation
 
@@ -158,13 +160,12 @@ python3 main.py
 
 You can modify training parameters in `main.py`:
 
-```python
-n = 100              # Number of generations
-numPop = 200         # Population size
-cross_rate = 0.75    # Crossover rate
-mut_rate = 0.1       # Mutation rate
-alpha = 0.1          # Alpha parameter
-```
+- **Number of generations**: Line 148, default is `n = 100`
+- **Population size**: Line 150, default is `200`
+- **Genetic operators**: Line 82 in the `genetic_funciton`
+  - `cross_rate = 0.75` - Crossover rate (75%)
+  - `mut_rate = 0.1` - Mutation rate (10%)
+  - `alpha = 0.1` - Alpha parameter for genetic operations
 
 ### Training Process
 
@@ -206,17 +207,18 @@ AI_Neuroevolution_MTG/
 │   └── MagarenaMaches.sh          # Shell script to run matches
 │
 ├── MagarenaCode_1_96/             # Modified Magarena game engine
-│   ├── resources/magic/ai/        # FSM AI implementation (Java)
+│   ├── src/magic/ai/              # FSM AI implementation (Java)
 │   │   ├── FSM.java               # Main FSM player
 │   │   ├── FSMData.java           # FSM parameter loader
 │   │   ├── FSMSelector.java       # Decision selection logic
 │   │   └── FSMWriter.java         # Match result writer
+│   ├── resources/magic/ai/        # FSM data files (JSON)
 │   └── ...                        # Game engine code
 │
 ├── Trainigs/                      # Training results storage
-│   ├── trainingResults_1/         # First training run
-│   ├── trainingResults_2/         # Second training run
-│   └── trainingResults_3/         # Third training run
+│   ├── trainingReuslts_1/         # First training run
+│   ├── trainingReuslts_2/         # Second training run
+│   └── trainingReuslts_3/         # Third training run
 │       ├── population.db          # SQLite database
 │       ├── dataset_*.csv          # Exported CSV data
 │       └── plots/                 # Generated visualizations
