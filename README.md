@@ -313,7 +313,6 @@ This project is licensed under the GNU General Public License v3.0 - see the [LI
 - Final Thesis Project
 - Degree in Interactive Technologies
 - Polytechnic University of Valencia (UPV)
-- Completed: 2021
 
 ---
 
