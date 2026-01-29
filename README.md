@@ -326,7 +326,7 @@ This project is licensed under the GNU General Public License v3.0 - see the [LI
 
 ## 📧 Contact & Contributing
 
-For questions, suggestions, or contributions, please open an issue on the [GitHub repository](https://github.com/almiab1/AI_Neuroevolution_MTG).
+For questions, suggestions, or contributions, please open an issue on the [GitHub repository](https://github.com/almiab1/AI_Neuroevolution_MTG.git).
 
 ---
 
