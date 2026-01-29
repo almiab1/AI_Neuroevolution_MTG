@@ -161,7 +161,7 @@ python3 main.py
 You can modify training parameters in `main.py`:
 
 - **Number of generations**: Line 148, default is `n = 100`
-- **Population size**: Line 150, default is `200`
+- **Population size**: Default is `200`, hardcoded in `genInitPop(200, manager)` on line 150 and in selection logic on line 105
 - **Genetic operators**: Line 82 in the `genetic_function`
   - `cross_rate = 0.75` - Crossover rate (75%)
   - `mut_rate = 0.1` - Mutation rate (10%)
@@ -204,7 +204,7 @@ AI_Neuroevolution_MTG/
 │   └── Pipfile.lock               # Locked dependency versions
 │
 ├── AI_Test/
-│   └── MagarenaMaches.sh          # Shell script to run matches
+│   └── MagarenaMatches.sh         # Shell script to run matches
 │
 ├── MagarenaCode_1_96/             # Modified Magarena game engine
 │   ├── src/magic/ai/              # FSM AI implementation (Java)
@@ -215,10 +215,10 @@ AI_Neuroevolution_MTG/
 │   ├── resources/magic/ai/        # FSM data files (JSON)
 │   └── ...                        # Game engine code
 │
-├── Trainigs/                      # Training results storage
-│   ├── trainingReuslts_1/         # First training run
-│   ├── trainingReuslts_2/         # Second training run
-│   └── trainingReuslts_3/         # Third training run
+├── Trainings/                     # Training results storage
+│   ├── trainingResults_1/         # First training run
+│   ├── trainingResults_2/         # Second training run
+│   └── trainingResults_3/         # Third training run
 │       ├── population.db          # SQLite database
 │       ├── dataset_*.csv          # Exported CSV data
 │       └── plots/                 # Generated visualizations
@@ -231,7 +231,7 @@ AI_Neuroevolution_MTG/
 
 ## 📊 Training Results
 
-Training results are stored in the `Trainigs/` directory. Each training session creates:
+Training results are stored in the `Trainings/` directory. Each training session creates:
 
 - **population.db**: SQLite database containing:
   - Population table (current generation)
@@ -294,7 +294,7 @@ brew install openjdk@8
 
 **Issue**: Permission denied on shell scripts
 ```bash
-chmod +x AI_Test/MagarenaMaches.sh
+chmod +x AI_Test/MagarenaMatches.sh
 ```
 
 ---
