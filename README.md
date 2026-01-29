@@ -162,7 +162,7 @@ You can modify training parameters in `main.py`:
 
 - **Number of generations**: Line 148, default is `n = 100`
 - **Population size**: Line 150, default is `200`
-- **Genetic operators**: Line 82 in the `genetic_funciton`
+- **Genetic operators**: Line 82 in the `genetic_function`
   - `cross_rate = 0.75` - Crossover rate (75%)
   - `mut_rate = 0.1` - Mutation rate (10%)
   - `alpha = 0.1` - Alpha parameter for genetic operations
